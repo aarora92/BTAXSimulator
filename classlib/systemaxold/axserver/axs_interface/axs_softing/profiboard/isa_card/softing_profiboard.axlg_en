@@ -1,0 +1,54 @@
+PPAddress [Text Normal]	Address
+PPAddress [Text Activ]	Text
+PPSlotTime [Text Normal]	Slot Time
+PPSlotTime [Text Activ]	Text
+PPBautRate [Text Normal]	Baud Rate
+PPBautRate [Text Activ]	Text
+PPtsdrmax [Text Normal]	tsdr max.
+PPtsdrmax [Text Activ]	Text
+PPtsdrmin [Text Normal]	tsdr min.
+PPtsdrmin [Text Activ]	Text
+PPttr [Text Normal]	ttr
+PPttr [Text Activ]	Text
+PPgap [Text Normal]	gap
+PPgap [Text Activ]	Text
+PPtset [Text Normal]	tset
+PPtset [Text Activ]	Text
+PPhsa [Text Normal]	hsa
+PPhsa [Text Activ]	Text
+ProfibusParameter [Text Normal]	Profibus Parameter
+ProfibusParameter [Text Activ]	Text
+PPSave [Text Normal]	Save
+PPSave [Text Activ]	Save
+PPFilename [Text Normal]	Filename
+PPFilename [Text Activ]	Text
+PPtqui [Text Normal]	tqui
+PPtqui [Text Activ]	Text
+PPmaxretrylimit [Text Normal]	max retry limit
+PPmaxretrylimit [Text Activ]	Text
+PPLoad [Text Normal]	Load
+PPLoad [Text Activ]	Load
+PPParameter [Text Normal]	Parameter
+PPParameter [Text Activ]	Text
+Profibus [Text Normal]	Profibus
+Profibus [Text Activ]	Text
+PBState [Text Normal]	PB State
+PBState [Text Activ]	Text
+PBHelp [Text Normal]	Help
+PBHelp [Text Activ]	Help
+PBExit [Text Normal]	Exit
+PBExit [Text Activ]	Exit
+PBParameter [Text Normal]	Parameter
+PBParameter [Text Activ]	Parameter
+PBActiveSlaves [Text Normal]	Active Slaves
+PBActiveSlaves [Text Activ]	Text
+PBInputData [Text Normal]	Input Data
+PBInputData [Text Activ]	Text
+PBOutputData [Text Normal]	Output Data
+PBOutputData [Text Activ]	Text
+ResetSetNewParameter [Text Normal]	Reset --> Set new Parameter
+ResetSetNewParameter [Text Activ]	Reset
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit

@@ -1,0 +1,66 @@
+error_mcc [Text Normal]	Vorort bereit
+error_mcc [Text Activ]	Vorort nicht bereit
+text1 [Text Normal]	Geschw. intern/extern\
+text1 [Text Activ]	Text
+text2 [Text Normal]	extern
+text2 [Text Activ]	Text
+text3 [Text Normal]	intern
+text3 [Text Activ]	Text
+text4 [Text Normal]	aktuell
+text4 [Text Activ]	Text
+run [Text Normal]	run
+run [Text Activ]	run
+error [Text Normal]	Fehler
+error [Text Activ]	Fehler
+locked [Text Normal]	verriegelt
+locked [Text Activ]	verriegelt
+auto_on [Text Normal]	auto ein
+auto_on [Text Activ]	auto ein
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Automatik
+auto [Text Activ]	Automatik
+man_off [Text Normal]	Aus
+man_off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+man_on [Text Normal]	Ein
+man_on [Text Activ]	Ein
+ready [Text Normal]	Bereit
+ready [Text Activ]	nicht Bereit
+operation_mode [Text Normal]	Normalbetrieb
+operation_mode [Text Activ]	Text
+text_intern_button [Text Normal]	intern
+text_intern_button [Text Activ]	intern
+text_extern_button [Text Normal]	extern
+text_extern_button [Text Activ]	extern
+current [Text Normal]	Strom
+current [Text Activ]	Text
+torque [Text Normal]	Drehmoment
+torque [Text Activ]	Text
+power [Text Normal]	Leistung
+power [Text Activ]	Text
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+mode [Text Normal]	mode
+mode [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_lock [Text Normal]	keine Verriegelung
+no_lock [Text Activ]	Button
+run_emulation [Text Normal]	Emulation läuft
+run_emulation [Text Activ]	Button
+rdy_emulation [Text Normal]	Emulation bereit
+rdy_emulation [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_run_feedb [Text Normal]	max. Fehlerzeit:\
+max_run_feedb [Text Activ]	Text
+delaytime [Text Normal]	Verzögerung:
+delaytime [Text Activ]	Text
+lock_setpt [Text Normal]	Sollwert verriegeln
+lock_setpt [Text Activ]	Button
+error_mcc_emulation [Text Normal]	Emulation Vorort
+error_mcc_emulation [Text Activ]	Button
+manual_at_fault [Text Normal]	Hand bei Störung
+manual_at_fault [Text Activ]	Button

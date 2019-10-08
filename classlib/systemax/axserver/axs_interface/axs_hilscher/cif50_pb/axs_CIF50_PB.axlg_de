@@ -1,0 +1,8 @@
+CIF50PB [Text Normal]	 CIF 50 PB 
+CIF50PB [Text Activ]	Text
+ActiveDevices [Text Normal]	Aktive Geräte
+ActiveDevices [Text Activ]	Text
+Text [Text Normal]	Dies ist eine HILSCHER-Profibus-PCI-Karte.\Die LED zeigt den aktuellen Status der Karte\an. Für detaillierte Information über den Profibus-Kanal\klicken Sie auf das Anzeigefeld darunter.
+Text [Text Activ]	Text
+
+

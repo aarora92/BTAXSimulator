@@ -1,0 +1,4 @@
+Sel_Alarm: 	no_alarm,diagnostic,process,diagnostic_and_process;
+
+Sel_CPU_Stop:	break,run,force_value,last_value;
+

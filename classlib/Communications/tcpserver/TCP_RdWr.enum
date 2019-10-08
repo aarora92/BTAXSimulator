@@ -1,0 +1,28 @@
+Tcp_mode: 	Binär_Lifeticks=0,
+		Binär=1,
+		ASCII=2;
+
+Symbl_mode:	READ=0,
+		WRITE=1,
+		READ/WRITE=2;
+
+Datatype:	COMPLEX=0,
+		BIT=1,
+		BYTE=2,
+		INT8=3,
+		UINT8=4,
+		INT16=5,
+		UINT16=6,
+		INT32=7,
+		UINT32=8,
+		FLOAT=9,
+		STRING=10,
+		ALARM=11,
+		ARRAY=12,
+		POINTER=13,
+		FLOAT64=14,
+		TEXT=15,
+		IMAGE=16,
+		SINGLE_BIT=17,
+		SYMBOL=18,
+		UNKNOWN=19;

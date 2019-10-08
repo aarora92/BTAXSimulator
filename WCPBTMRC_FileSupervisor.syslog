@@ -1,0 +1,20 @@
+CLIENT-FAMIL-FileClient 10.05.07 15:28:FSV started PID# 14198 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 10.05.07 15:28:Installed listen-socket 13 
+MASTER-FileMaster 10.05.07 15:32:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 10.05.07 15:32:fsv_table_check_start
+MASTER-FileMaster 10.05.07 15:32:fsv_table_check_end
+MASTER-FileMaster 10.05.07 15:34:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 14.05.07 11:47:FSV started PID# 319 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 14.05.07 11:47:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 14.05.07 12:03:FSV started PID# 463 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 14.05.07 12:03:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 15.05.07 16:19:FSV started PID# 7974 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 15.05.07 16:19:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 15.05.07 16:22:FSV started PID# 8024 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 15.05.07 16:22:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 15.05.07 16:30:FSV started PID# 8107 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 15.05.07 16:30:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 16.05.07 16:35:FSV started PID# 2921 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 16.05.07 16:35:Installed listen-socket 13 
+CLIENT-FAMIL-FileClient 18.05.07 10:02:FSV started PID# 13877 as CLIENT on projects/pcannew/
+CLIENT-FAMIL-FileClient 18.05.07 10:02:Installed listen-socket 13 

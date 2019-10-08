@@ -1,0 +1,725 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft FrontPage 5.0">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>axs_mio_pci</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080"><b>
+<font face="Arial" size="+4" color="#FFFFFF">K-Bus Module</font></b></td>
+</tr>
+</table>
+<p><b><font size=+2 color="#0000ff" face="Arial">Allgemeines</font></b><p>&nbsp;<p>
+<font face="Arial,Helvetica">K-Bus Module von Beckhoff können an den 
+verschiedensten Kopplern zum Einsatz kommen:</font><ul>
+  <li><font face="Arial"><a href="#PC">Embedded-PC CX1020 CX1000</a></font></li>
+  <li><font face="Arial"><a href="#Profibus">Profibus-Koppler BK3000, BK3010, 
+  BK3100, BK3110</a></font></li>
+  <li><font face="Arial"><a href="#IO">EtherCAT-Koppler BK1120</a></font></li>
+  </ul>
+<p><font face="Arial,Helvetica">Um zu gewährleisten das AX-Modul-Klassen Einwand 
+frei an all diesen Kopplern funktionieren wird im folgenden gezeigt wie solche 
+Klassen auf zubauen sind. Am Ende wird noch gezeigt wie <a href="#IO">
+IO-Variabeln</a> definiert werden können. Beim Zugriff auf die Module darf nie 
+direkt auf <i>
+  InputData</i> und <i>OutputData</i> zugeriffen werden, weil je nach dem wo das 
+Modul angeschlossen ist ein anders IO-Layout verwendet wird. Es muss immer über 
+die <a href="#IO">
+IO-Variabeln</a> auf die Daten zugegriffen werden. Läst es sich jedoch nicht 
+vermeiden das direkt auf<i>
+  InputData</i> und <i>OutputData</i> zugeriffen werden muss (z.B. bei spezial 
+Modulen) so kann über die Variabel <i>BusType</i> festgestellt werden an welchem 
+Gerät das K-Bus-Modul angeschlossen ist (0=Profibus 1=Embedded-PC 2=Ethercat). 
+Über Actions, die über <i>BusType</i> aktiviert werden, muss für jedes Gerät 
+eine eigene Logik programmiert werden.</font><p>&nbsp;<hr>
+<p><a NAME="EtherCAT"></a><b><font face="Arial" size="+2" color="#0000FF">
+EteherCAT</font></b><p><font face="Arial,Helvetica">Bei EtherCAT-Modulen wird 
+  die Größe der Eingangs und Ausgangsdaten von der Größe der beiden Felder <i>
+  InputData</i> und <i>OutputData</i> bestimmt. Wird zusätzlich noch eine <i>
+  InputDataBits</i> oder <i>OutputDataBits</i> Variabel angelegt so wird die 
+  Datengröße vom Inhalt dieser Variabeln bestimmt und nicht von der Feldgröße. 
+  Achtung diese beiden Variabeln enthalten die Feldgröße in Bit und nicht in 
+  Byte. (Ein Byte entspricht 8 Bits) Bei digitalen Modulen muss die exakte 
+  Anzahl der Bits angegeben werden, bei analogen Modulen muss immer auf acht 
+  aufgerundet werden, außerdem werden bei analogen Modulen Füllbytes bei allen 
+  ungeraden Adressen eingefügt. <b>Diese Füllbytes dürfen in <i>
+  InputDataBits</i> und <i>OutputDataBits</i> nicht mitgezählt werden.</b></font><p><font face="Arial,Helvetica">Bei analog 
+  Modulen können zusätzlich noch die Variabeln <i>InputChannelSize</i>, <i>
+  OutputChannelSize</i>, <i>InputChannelOffset</i> und <i>OutputChannelOffset</i> 
+  angegeben werden. Mit ihnen wird bestimm wo sich die analogen IO-Werte in den 
+  Ein und Ausgangsdaten befinden. <b>Achtung bei diesen Angaben werden Füllbytes 
+  nicht mit gezählt !</b></font><p>&nbsp;<p><font face="Arial,Helvetica">z.B.:&nbsp;&nbsp;&nbsp; 
+Ein Zweikanal-Input-Modul hat bei Ethercat das IO-Layout wie im unteren Bild 
+zusehen:</font><blockquote>
+  <ul>
+    <li><font face="Arial,Helvetica">Die Größe des <i>InputData</i> Arrays muss 
+    auf 8 gestellt werden. (4 Byte je Kanal)</font></li>
+    <li><font face="Arial,Helvetica"> <i>InputChannelSize </i>muss auf 3 sein (4 
+    Byte je Kanal minus Füllbyte)</font></li>
+    <li><font face="Arial,Helvetica"> <i>InputChannelOffset </i>muss auf 1 sein 
+    (bei Offset 2 beginnt der Kanal minus Füllbyte)</font></li>
+    <li><font face="Arial,Helvetica"> <i>
+  InputDataBits </i>muss auf 48 gestellt werden&nbsp; (<i>InputChannelSize</i> * 
+    2 Kanäle * 8 Bits )</font></li>
+    </ul>
+    <p><font face="Arial,Helvetica">Durch das abziehen der Füllbytes entstehen 
+    die selben Werte wie beim </font><a href="#PC"><font face="Arial">Embedded-PC 
+    CX1020</font></a><font face="Arial,Helvetica">.</font></blockquote>
+    <p>&nbsp;<blockquote>
+<p><img border="0" src="Ethercat-Size.gif" width="407" height="573"></blockquote>
+<p><font face="Arial,Helvetica">Das genaue Layout für Module kann man aus den 
+Beckhoff-Beschreibungen entnehmen. (siehe www.beckhoff.de)</font><p>
+  <font face="Arial,Helvetica">Die folgende Tabelle zeigt welche Variabeln in 
+  Embedded-PC-Modul-Klassen ausgewertet werden:<br>
+&nbsp;</font><table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="152" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="216" BGCOLOR="#ffffff"><b><font face="Arial">Remark</font></b></td>
+
+<td VALIGN=top WIDTH="442" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT </font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the input data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Eingangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the output 
+data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Ausgangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Type</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">IO_Type</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Selects&nbsp; the module 
+type 0=analog 1=digial module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt ob das Modul ein 
+analoges (0,2) oder ein digitales (1) ist. Bei analogen werden Module mit UINT 
+Eingängen wird 0 benutzt bei INT Eingängen 2.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputDataBits</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the input 
+data in bits</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Eingangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputDataBits</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the 
+output data in bits</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Ausgangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Eingangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Ausgangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Eingangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Ausgangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">DataValid</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 if the 
+input data is valid.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Dieser Wert wird auf Eins 
+gesetzt wenn die Eingangsdaten gültig sind.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Connection</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">Conf.Value.</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the instance name of 
+the nect module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Instanzname 
+für das nächste Modul eingetragen. Beim letzten Modul beleibt diese Feld leer.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">BusType</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 on 
+Beckhoff controllers, 2 on Ethercat</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit dieser Variabel kann 
+man bestimmen ob ein Modul an einem Profibuskoppler (0), einem 
+Beckhoff-Kontroller (1) oder an einen Ethercat-Koppler (2) angeschlossen ist.</font></td>
+</tr>
+</table>
+
+<p>&nbsp;<hr>
+<p><a NAME="PC"></a><b><font face="Arial" size="+2" color="#0000FF">Embedded-PC</font></b><p>
+  <font face="Arial,Helvetica">Bei Embedded-PC-Modulen wird die Größe der 
+  Eingangs und Ausgangsdaten von der Größe der beiden Felder <i>InputData</i> 
+  und <i>OutputData</i> bestimmt. Wird zusätzlich noch eine <i>InputDataBits</i> 
+  oder <i>OutputDataBits</i> Variabel angelegt so wird die Datengröße vom Inhalt 
+  dieser Variabeln bestimmt und nicht von der Feldgröße. Achtung diese beiden 
+  Variabeln enthalten die Feldgröße in Bit und nicht in Byte. (Ein Byte 
+  entspricht 8 Bits) Bei digitalen Modulen muss die exakte Anzahl der Bits 
+  angegeben werden, bei analogen Modulen muss immer auf acht aufgerundet werden.
+  </font>
+<p><font face="Arial,Helvetica">Bei analog Modulen können zusätzlich noch die 
+Variabeln <i>InputChannelSize</i>, <i>OutputChannelSize</i>, <i>
+InputChannelOffset</i> und <i>OutputChannelOffset</i> angegeben werden. Mit 
+ihnen wird bestimm wo sich die analogen IO-Werte in den Ein und Ausgangsdaten 
+befinden. </font>
+    <p><font face="Arial,Helvetica">z.B.:&nbsp;&nbsp;&nbsp; Ein 
+    Zweikanal-Input-Modul hat am Embedded-PC das IO-Layout wie im unteren Bild 
+    zusehen:</font><blockquote>
+      <ul>
+        <li><font face="Arial,Helvetica">Die Größe des <i>InputData</i> Arrays 
+        muss auf 8 gestellt werden. <br>
+        (nicht 6 weil <a href="#IO">Ethercat</a> für das gleiche Modul 8 Byte 
+        braucht)</font></li>
+        <li><font face="Arial,Helvetica"> <i>InputChannelSize </i>muss auf 3 ein 
+        (3 Byte je Kanal)</font></li>
+        <li><font face="Arial,Helvetica"> <i>InputChannelOffset </i>muss auf 1 
+        ein (bei Offset 1 beginnt der Kanal)</font></li>
+        <li><font face="Arial,Helvetica"> <i>
+  InputDataBits </i>muss auf 48 gestellt werden&nbsp; (<i>InputChannelSize</i> * 
+        2 Kanäle * 8 Bits )</font></li>
+        </ul>
+        <p><font face="Arial,Helvetica">Für <a href="#IO">Ethercat</a> müssen 
+        die gleichen Werte herauskommen.</font><p>&nbsp;<p>
+      <img border="0" src="PC-Size.gif" width="289" height="425"><p>&nbsp;</blockquote>
+<p><font face="Arial,Helvetica">Bei Embedded-PC-Modulen wird nie ein Füllbyte 
+bei ungeraden Offsets eingefügt. Das genaue Layout für Module kann man aus den 
+Beckhoff-Beschreibungen entnehmen. </font>
+<p><font face="Arial,Helvetica">Die folgende Tabelle zeigt welche Variabeln in 
+Embedded-PC-Modul-Klassen ausgewertet werden:<br>
+&nbsp;</font><table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="152" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="216" BGCOLOR="#ffffff"><b><font face="Arial">Remark</font></b></td>
+
+<td VALIGN=top WIDTH="442" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT </font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the input data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Eingangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the output 
+data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Ausgangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Type</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">IO_Type</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Selects&nbsp; the module 
+type 0=analog 1=digial module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt ob das Modul ein 
+analoges (0) oder ein digitales (1) ist.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputDataBits</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the input 
+data in bits</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Eingangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputDataBits</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the 
+output data in bits</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Ausgangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Eingangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Ausgangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Eingangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Ausgangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">DataValid</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 if the 
+input data is valid.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Dieser Wert wird auf Eins 
+gesetzt wenn die Eingangsdaten gültig sind.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Connection</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">Conf.Value.</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the instance name of 
+the nect module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Instanzname 
+für das nächste Modul eingetragen. Beim letzten Modul beleibt diese Feld leer.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">BusType</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 on 
+Beckhoff controllers, 2 on Ethercat</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit dieser Variabel kann 
+man bestimmen ob ein Modul an einem Profibuskoppler (0), einem 
+Beckhoff-Kontroller (1) oder an einen Ethercat-Koppler (2) angeschlossen ist.</font></td>
+</tr>
+</table>
+
+<p>&nbsp;<hr>
+<p><a NAME="Profibus"></a><b><font face="Arial" size="+2" color="#0000FF">
+Profibus</font></b>
+<p><font face="Arial,Helvetica">Bei Profibus-Modulen wird die Größe der Eingangs 
+und Ausgangsdaten von der Größe der beiden Felder <i>InputData</i> und <i>
+OutputData</i> bestimmt. Wird zusätzlich noch eine <i>InputDataLength</i> oder
+<i>OutputDataLength</i> Variabel angelegt so wird die Datengröße vom Inhalt 
+dieser Variabeln bestimmt und nicht von der Feldgröße. Da EtherCAT und </font>
+<font face="Arial">Embedded-PC meist andere </font><font face="Arial,Helvetica">
+Datengrößen haben sollte immer mit diesen</font><font face="Arial"> </font>
+<font face="Arial,Helvetica">Variabel die IO-Größe für Profibus-Module 
+festgelegt werden.</font><p>&nbsp;<blockquote>
+  <p><img border="0" src="PB-Size.gif" width="289" height="288"><p>&nbsp;</blockquote>
+        <p><font face="Arial,Helvetica">Die folgende Tabelle 
+  zeigt welche Variabeln in Profibus-Modul-Klassen ausgewertet werden:<br>
+&nbsp;</font><table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="152" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="216" BGCOLOR="#ffffff"><b><font face="Arial">Remark</font></b></td>
+
+<td VALIGN=top WIDTH="442" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT </font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the input data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Eingangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the output 
+data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Ausgangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputDataLength</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the input 
+data on profibus</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Eingangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputDataLength</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the 
+output data on profibus</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Ausgangsdaten für das Modul im Profibus-Modus bestimmt. (in Byte)</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">DataValid</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 if the 
+input data is valid.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Dieser Wert wird auf Eins 
+gesetzt wenn die Eingangsdaten gültig sind.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Connection</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">Conf.Value.</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the instance name of 
+the nect module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Instanzname 
+für das nächste Modul eingetragen. Beim letzten Modul beleibt diese Feld leer.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">GSD</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Selects the GSD file</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit dieser Variabel wird 
+der Name der GSD-Datei&nbsp; bestimmt. Die GSD-Datei enthält die Profibus 
+Konfiguration.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">ModuleName</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Selects the modul in the 
+GSD file</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit dieser Variabel wird 
+der Name des Modul in der GSD-Datei bestimmt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">ModulePosition</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the place of the 
+module in th connection chain.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird die Position 
+des Moduls in der Modul-Kette ausgegeben.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">BusType</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 on 
+Beckhoff controllers, 2 on Ethercat</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit dieser Variabel kann 
+man bestimmen ob ein Modul an einem Profibuskoppler (0), einem 
+Beckhoff-Kontroller (1) oder an einen Ethercat-Koppler (2) angeschlossen ist.</font></td>
+</tr>
+</table>
+
+<p>&nbsp;<hr>
+<p><a NAME="IO"></a><b><font face="Arial" size="+2" color="#0000FF">IO-Variabeln</font></b><p>
+  <font face="Arial,Helvetica">In jedem Modul müssen IO-Variabeln eingefügt 
+  werden mit denen die IO-Daten aus den Feldern <i>InputData</i> und <i>
+  OutputData</i> geholt werden können. Ein direktes auslesen der Daten aus 
+  diesen Feldern sollte vermieden werden, da sich die IO-Layouts in den 
+  verschiedenen Modi (PC,Profibus und EtherCAT) unterscheiden.&nbsp; </font>
+<p><font face="Arial,Helvetica">Folgende IO-Variabeln stehen zur Verfügung:</font><blockquote>
+<table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="111" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="190" BGCOLOR="#ffffff"><b><font face="Arial">Beispiele</font></b></td>
+
+<td VALIGN=top WIDTH="509" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">I*_?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">I0_0 , I0_1 , I1_7 </font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Digitale Eingangsvariabel 
+* ist das Byte und ? steht für das Bit in den Eingangsdaten.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Q*_?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">Q0_0 , Q0_1 , Q1_7 </font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Digitale Ausgangsvariabel 
+* ist das Byte und ? steht für das Bit in den Ausgangsdaten.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">CHI?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">REAL, UINT, INT</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBALt</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">CHI0 , CHI1 , CHI2</font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Analoger Eingangskanal ? 
+steht für die Kanalnummer. </font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">CHQ?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">REAL, UINT, INT</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">CHQ0 , CHQ1 , CHQ2</font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Analoger Ausgangskanal ? 
+steht für die Kanalnummer. </font></td>
+</tr>
+</table>
+
+  </blockquote>
+  <p><font face="Arial,Helvetica">Bei analogen Kanälen könne die IO-Variabeln 
+  auch skaliert werden. Dazu müssen die Flags <i>Subrange</i> und <i>IO-Var</i> 
+  gesetzt werden. Bei den Werten <i>Physical</i> muss dann der Bereich der 
+  digitalen Werte die das Modul liefert eingetragen werden. In <i>IoScale</i> 
+  kann dann der analoge Bereich angegeben werden dem dieses digitalen Werte 
+  entsprechen. Die Umrechnung erfolgt dann automatisch. Die <i>Subrange </i>
+  Werte bestimmen welcher Bereich der analogen Werte in einigen Controls 
+  angezeigt werden soll.</font></p>
+  <p>&nbsp;</p>
+</body>
+</html>

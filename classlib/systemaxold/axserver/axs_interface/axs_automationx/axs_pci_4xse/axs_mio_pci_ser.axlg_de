@@ -1,0 +1,10 @@
+aXPCI [Text Normal]	automationX\ PCI
+aXPCI [Text Activ]	Text
+aXSer [Text Normal]	 aX  Ser
+aXSer [Text Activ]	Text
+Mio0 [Text Normal]	MIO 0
+Mio0 [Text Activ]	Text
+Text [Text Normal]	Dies ist eine serielle 4-Kanal-automationX-PCI-Karte.\Die LED zeigt den aktuellen Status der Karte\an. Für detaillierte Informationen jedes seriellen Kanals\klicken Sie auf das jeweilige Anzeigefeld.\(Information ist nur verfügbar, wenn die Karte arbeitet!)\Arbeitet die Karte nicht, wenden Sie\sich an die"Implementation Notes" der\automationX-Dokumentation.
+Text [Text Activ]	Text
+WrongInstance [Text Normal]	Text
+WrongInstance [Text Activ]	Falscher Instanzname

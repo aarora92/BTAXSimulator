@@ -1,0 +1,794 @@
+2019-10-01 06:16:38-065	0	trend		Missing Path [C:/trendhistory/PI4030] 	admin	BTAXSB
+2019-10-01 06:16:38-065	0	trend		Missing Path [C:/trendhistory/PI4030] 	admin	BTAXSB
+2019-10-01 09:46:21-770	0	PIC4041.freeze	on	10" RSD Control Valve.froze control value	guest	PCN-WDOCK
+2019-10-01 09:56:14-913	0	PIC4041.freeze	off	10" RSD Control Valve.froze control value	guest	PCN-WDOCK
+2019-10-01 09:56:21-727	0	PIC4041.control_visual	100 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-01 10:19:47-677	0	PIC4041.man	off	10" RSD Control Valve.controller in manual mode	guest	PCN-WDOCK
+2019-10-01 10:19:49-480	0	PIC4041.man	on	10" RSD Control Valve.controller in manual mode	guest	PCN-WDOCK
+2019-10-01 10:19:53-890	0	PIC4041.control_visual	0 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-01 12:08:56-937	0	PIC4041.man	on	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 12:08:58-542	0	PIC4041.control_visual	39 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:08:59-743	0	PIC4041.control_visual	40 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:09:00-944	0	PIC4041.control_visual	41 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:09:22-188	0	PIC4041.control_visual	42 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:12:06-348	0	FQ3081.reset	on	BioDiesel Offloading Totalizer.reset totalizer (internal/external)	guest	BTMIDPLANT
+2019-10-01 12:31:53-200	0	PIC4041.control_visual	41 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:31:53-801	0	PIC4041.control_visual	40 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:31:54-403	0	PIC4041.control_visual	39 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:31:55-204	0	PIC4041.control_visual	38 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:31:56-207	0	PIC4041.control_visual	37 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:31:57-209	0	PIC4041.control_visual	36 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:32:06-227	0	PIC4041.control_visual	35 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:32:11-237	0	PIC4041.control_visual	34 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:32:26-871	0	PIC4041.control_visual	33 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:32:38-096	0	PIC4041.control_visual	32 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:32:48-723	0	PIC4041.control_visual	31 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:33:11-977	0	PIC4041.control_visual	30 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:33:21-996	0	PIC4041.control_visual	29 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:33:46-453	0	PIC4041.control_visual	30 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 12:40:07-318	0	trend		Missing Path [C:/trendhistory/PI4287_IN] 	admin	BTAXSB
+2019-10-01 12:40:07-318	0	trend		Missing Path [C:/trendhistory/PI4287_IN] 	admin	BTAXSB
+2019-10-01 12:47:01-029	0	PIC4041.man	off	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 12:47:03-033	0	PIC4041.man	off	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 13:05:41-089	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 13:05:41-891	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:05:42-292	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:05:42-894	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:05:43-295	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:05:44-499	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:05:44-900	0	PIC4011.control_visual	30 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:06:04-542	0	PIC4011.control_visual	29 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:06:06-546	0	PIC4011.control_visual	28 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:08:18-036	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 13:22:29-134	0	PIC4041.man	on	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 13:22:32-540	0	PIC4041.control_visual	37 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:22:33-342	0	PIC4041.control_visual	36 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:22:34-144	0	PIC4041.control_visual	35 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:22:35-947	0	PIC4041.control_visual	34 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:22:37-351	0	PIC4041.control_visual	33 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:22:57-595	0	PIC4041.control_visual	32 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:23:18-040	0	PIC4041.control_visual	31 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:23:29-065	0	PIC4041.control_visual	30 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:23:46-904	0	PIC4041.control_visual	29 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:24:17-167	0	PIC4041.control_visual	30 %	10" RSD Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 13:37:29-966	0	PIC4041.man	off	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 13:37:31-569	0	PIC4041.man	off	10" RSD Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:00:41-470	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:14:32-690	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:16:26-533	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:16:28-338	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:16:34-753	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:16:35-956	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:16:37-358	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:16:40-565	0	PIC4011.control_visual	30 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:16:48-381	0	PIC4011.control_visual	29 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:18:53-453	0	PIC4011.control_visual	28 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:18:58-065	0	PIC4011.control_visual	27 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:20:43-099	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:22:33-943	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:22:36-549	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:37-953	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:39-355	0	PIC4031.control_visual	41 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:40-960	0	PIC4031.control_visual	42 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:48-776	0	PIC4031.control_visual	43 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:52-184	0	PIC4031.control_visual	44 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:22:57-595	0	PIC4031.control_visual	45 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:08-022	0	PIC4031.control_visual	46 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:09-424	0	PIC4031.control_visual	47 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:17-640	0	PIC4031.control_visual	48 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:18-242	0	PIC4031.control_visual	49 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:35-678	0	PIC4031.control_visual	50 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:38-085	0	PIC4031.control_visual	51 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:45-701	0	PIC4031.control_visual	52 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:23:48-707	0	PIC4031.control_visual	53 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:02-338	0	PIC4031.control_visual	54 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:11-558	0	PIC4031.control_visual	55 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:12-961	0	PIC4031.control_visual	56 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:26-990	0	PIC4031.control_visual	57 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:28-194	0	PIC4031.control_visual	58 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:36-414	0	PIC4031.control_visual	59 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:24:37-016	0	PIC4031.control_visual	60 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:35:18-848	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:35:23-858	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:35:25-059	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:35:25-861	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:35:33-082	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:35:34-885	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:35:35-487	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:35:58-338	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:35:59-542	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:00-144	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:00-944	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:01-746	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:02-148	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:21-795	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:22-997	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:35-224	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:45-046	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:36:58-273	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:37:13-308	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:37:38-364	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:38:01-411	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:39:28-805	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:39:30-609	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 14:54:53-516	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 14:55:02-135	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 15:05:40-384	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 15:05:41-385	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:43-390	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:44-993	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:46-397	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:48-401	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:51-206	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:52-408	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:53-210	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:56-017	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:05:59-826	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:03-635	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:04-838	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:05-841	0	PIC4031.control_visual	41 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:13-661	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:28-089	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:06:41-720	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:07:22-013	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:37-806	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:38-207	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:38-809	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:39-411	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:39-811	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:40-211	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:40-813	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:17:41-815	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:18:23-509	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:18:27-319	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:18:28-923	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:18:52-375	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:18:55-782	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:19:17-631	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:19:36-273	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:37:44-931	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 15:48:13-124	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 15:48:15-529	0	PIC4011.control_visual	41 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:49:50-746	0	PIC4011.control_visual	40 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:49:54-154	0	PIC4011.control_visual	39 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:49:59-365	0	PIC4011.control_visual	38 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:50:00-969	0	PIC4011.control_visual	37 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:50:19-013	0	PIC4011.control_visual	36 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:50:24-223	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:50:32-039	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 15:50:58-499	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:05:16-990	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 16:05:34-028	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 16:05:40-040	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:05:47-459	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:05:48-059	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:01-286	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 16:06:02-690	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:03-892	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:12-914	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:17-924	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:19-328	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:20-530	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:06:55-611	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:07:36-302	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:10:57-733	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:10:59-134	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:11:00-336	0	PIC4031.control_visual	20 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:11:06-148	0	PIC4031.man	off	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 16:43:07-470	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:43:08-072	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:43:08-473	0	PIC4011.control_visual	30 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:43:09-073	0	PIC4011.control_visual	29 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:43:09-474	0	PIC4011.control_visual	28 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:43:10-075	0	PIC4011.control_visual	27 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:44:57-312	0	PIC4011.control_visual	26 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:44:58-114	0	PIC4011.control_visual	25 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:44:59-117	0	PIC4011.control_visual	24 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:45:17-155	0	PIC4011.control_visual	25 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:45:27-582	0	PIC4011.control_visual	26 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:45:51-635	0	PIC4011.control_visual	25 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 16:59:22-252	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:10:32-351	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:10:33-153	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:10:34-355	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:10:35-155	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:10:36-358	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:10:42-973	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:10:44-779	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:34-890	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:35-892	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:36-693	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:37-694	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:38-697	0	PIC4011.control_visual	45 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:39-299	0	PIC4011.control_visual	44 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:39-898	0	PIC4011.control_visual	43 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:40-701	0	PIC4011.control_visual	42 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:41-503	0	PIC4011.control_visual	41 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:49-119	0	PIC4011.control_visual	40 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:49-721	0	PIC4011.control_visual	39 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:50-122	0	PIC4011.control_visual	38 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:11:50-723	0	PIC4011.control_visual	37 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:06-961	0	PIC4011.control_visual	36 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:07-562	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:08-164	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:08-766	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:11-572	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:12-173	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:13-174	0	PIC4011.control_visual	36 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:13-974	0	PIC4011.control_visual	37 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:12:17-381	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:12:46-846	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:21:45-844	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:21:47-848	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:21:50-055	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:21:58-269	0	PIC4011.control_visual	30 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:22:13-700	0	PIC4011.control_visual	29 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:22:28-128	0	PIC4011.control_visual	28 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:22:36-543	0	PIC4011.control_visual	27 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:23:11-012	0	PIC4011.control_visual	26 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:39:18-753	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:44:17-223	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:46:08-674	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-01 17:46:10-279	0	PIC4011.control_visual	62 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:11-079	0	PIC4011.control_visual	61 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:11-881	0	PIC4011.control_visual	60 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:12-683	0	PIC4011.control_visual	59 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:13-285	0	PIC4011.control_visual	58 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:14-086	0	PIC4011.control_visual	41 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:36-937	0	PIC4011.control_visual	42 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:38-141	0	PIC4011.control_visual	43 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:38-740	0	PIC4011.control_visual	44 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:39-342	0	PIC4011.control_visual	45 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:43-951	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:44-553	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:45-154	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:45-756	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:46:46-960	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:47:08-407	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:47:10-210	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:47:37-471	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:56:57-124	0	PIC4011.control_visual	54 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:56:58-125	0	PIC4011.control_visual	55 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:56:58-927	0	PIC4011.control_visual	56 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:01-332	0	PIC4011.control_visual	57 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:08-148	0	PIC4011.control_visual	58 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:09-953	0	PIC4011.control_visual	59 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:10-352	0	PIC4011.control_visual	60 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:35-006	0	PIC4011.control_visual	61 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:36-408	0	PIC4011.control_visual	62 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:37-611	0	PIC4011.control_visual	63 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 17:57:51-441	0	PIC4011.control_visual	64 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-01 21:58:18-924	0	trend		Missing Path [C:/trendhistory/PI3080_IN] 	admin	BTAXSB
+2019-10-01 21:58:18-924	0	trend		Missing Path [C:/trendhistory/PI3080_IN] 	admin	BTAXSB
+2019-10-01 23:59:06-292	0	trend		Missing Path [C:/trendhistory/AX_ARB.recv_delay] 	admin	BTAXSB
+2019-10-01 23:59:06-292	0	trend		Missing Path [C:/trendhistory/AX_ARB.recv_delay] 	admin	BTAXSB
+2019-10-02 07:16:55-990	0	trend		Missing Path [C:/trendhistory/TK3296_STG] 	admin	BTAXSB
+2019-10-02 07:16:56-190	0	trend		Missing Path [C:/trendhistory/TK3296_STG] 	admin	BTAXSB
+2019-10-02 08:01:44-888	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	USER-PC
+2019-10-02 09:23:13-907	0	TK3116F.dlgProductName	Stove	.	guest	10.26.37.168
+2019-10-02 10:29:59-105	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 10:30:00-108	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:30:01-109	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:30:09-328	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:30:19-950	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:32:18-207	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:42:17-338	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 10:43:00-630	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:15:04-746	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:15:27-194	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:16:47-775	0	PIC4011.control_visual	40 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:48-776	0	PIC4011.control_visual	39 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:49-980	0	PIC4011.control_visual	38 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:51-382	0	PIC4011.control_visual	37 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:52-786	0	PIC4011.control_visual	36 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:54-589	0	PIC4011.control_visual	35 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:55-993	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:57-397	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:16:58-801	0	PIC4011.control_visual	32 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:17:00-404	0	PIC4011.control_visual	31 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:17:02-210	0	PIC4011.control_visual	30 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:17:55-332	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:21:02-938	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:21:05-545	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:22:40-355	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:22:41-559	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:43-562	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:45-367	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:46-769	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:47-773	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:48-573	0	PIC4011.control_visual	45 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:22:49-176	0	PIC4011.control_visual	44 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:07-818	0	PIC4011.control_visual	45 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:09-621	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:12-826	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:16-436	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:17-638	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:18-440	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:19-040	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:23:45-101	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:24-463	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:25-667	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:26-871	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:28-073	0	PIC4011.control_visual	54 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:28-875	0	PIC4011.control_visual	55 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:35-493	0	PIC4011.control_visual	56 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:37-296	0	PIC4011.control_visual	57 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:45-713	0	PIC4011.control_visual	58 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:49-723	0	PIC4011.control_visual	57 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:32:58-543	0	PIC4011.control_visual	58 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:33:06-561	0	PIC4011.control_visual	59 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:33:18-989	0	PIC4011.control_visual	60 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:33:29-209	0	PIC4011.control_visual	61 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:33:30-010	0	PIC4011.control_visual	62 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:33:51-460	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:34:05-894	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:34:24-535	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:34:35-359	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:35:00-819	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:35:18-861	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:36:07-971	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:36:18-395	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:36:46-862	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:47:18-279	0	PIC4011.man	on	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 12:47:19-884	0	PIC4011.control_visual	88 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:20-885	0	PIC4011.control_visual	87 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:21-487	0	PIC4011.control_visual	86 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:22-088	0	PIC4011.control_visual	85 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:22-891	0	PIC4011.control_visual	84 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:23-492	0	PIC4011.control_visual	83 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:24-094	0	PIC4011.control_visual	82 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:24-694	0	PIC4011.control_visual	81 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:25-697	0	PIC4011.control_visual	80 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:29-707	0	PIC4011.control_visual	79 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:30-709	0	PIC4011.control_visual	78 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:31-710	0	PIC4011.control_visual	77 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:32-312	0	PIC4011.control_visual	76 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:47:33-114	0	PIC4011.control_visual	75 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:48:55-691	0	PIC4011.control_visual	74 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:48:56-493	0	PIC4011.control_visual	73 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:48:57-496	0	PIC4011.control_visual	72 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:48:58-499	0	PIC4011.control_visual	71 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:48:59-901	0	PIC4011.control_visual	70 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:11-729	0	PIC4011.control_visual	69 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:13-332	0	PIC4011.control_visual	68 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:13-934	0	PIC4011.control_visual	67 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:14-736	0	PIC4011.control_visual	66 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:15-336	0	PIC4011.control_visual	65 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:29-569	0	PIC4011.control_visual	64 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:30-372	0	PIC4011.control_visual	63 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:31-575	0	PIC4011.control_visual	62 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:32-576	0	PIC4011.control_visual	61 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:49:33-178	0	PIC4011.control_visual	60 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:01-177	0	PIC4011.control_visual	59 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:01-980	0	PIC4011.control_visual	58 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:03-183	0	PIC4011.control_visual	57 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:04-585	0	PIC4011.control_visual	56 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:05-388	0	PIC4011.control_visual	55 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:21-223	0	PIC4011.control_visual	54 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:22-426	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:24-631	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:41-467	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:42-069	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:51:57-703	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:54:18-625	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:54:21-230	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:54:22-230	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 12:54:23-233	0	PIC4011.control_visual	45 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 13:02:12-723	0	trend		Missing Path [C:/trendhistory/FI4153] 	admin	BTAXSB
+2019-10-02 13:02:12-723	0	trend		Missing Path [C:/trendhistory/FI4153] 	admin	BTAXSB
+2019-10-02 15:20:43-000	0	PIC4011.control_visual	46 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:20:43-601	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:20:44-203	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:20:46-209	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:20:46-609	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:20:58-632	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:21:00-638	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:21:01-039	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:21:02-040	0	PIC4011.control_visual	54 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:54-232	0	PIC4011.control_visual	53 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:55-234	0	PIC4011.control_visual	52 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:56-036	0	PIC4011.control_visual	51 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:56-638	0	PIC4011.control_visual	50 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:57-240	0	PIC4011.control_visual	49 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:58-243	0	PIC4011.control_visual	48 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:23:59-045	0	PIC4011.control_visual	47 %	8" RUL Control Valve.Control Ouput - Visual	guest	PCN-EDOCK
+2019-10-02 15:34:01-993	0	PIC4011.man	off	8" RUL Control Valve.controller in manual mode	guest	PCN-EDOCK
+2019-10-02 15:51:33-209	0	trend		Missing Path [C:/trendhistory/TK3296_PRD] 	admin	BTAXSB
+2019-10-02 15:51:33-410	0	trend		Missing Path [C:/trendhistory/TK3296_PRD] 	admin	BTAXSB
+2019-10-03 00:00:05-243	0	trend		Missing Path [C:/trendhistory/AX_ARB.recv_delay] 	admin	BTAXSB
+2019-10-03 00:00:05-243	0	trend		Missing Path [C:/trendhistory/AX_ARB.recv_delay] 	admin	BTAXSB
+2019-10-03 05:50:58-947	0	trend		Missing Path [C:/trendhistory/PI4153] 	admin	BTAXSB
+2019-10-03 05:50:59-147	0	trend		Missing Path [C:/trendhistory/PI4153] 	admin	BTAXSB
+2019-10-03 09:29:16-726	0	PIC4031.man	on	10" Stove/Diesel Control Valve.controller in manual mode	guest	PCN-WDOCK
+2019-10-03 09:29:18-130	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:18-930	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:19-733	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:20-736	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:21-336	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:21-938	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:38-174	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:47-391	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:47-993	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:29:57-211	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:30:02-624	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:30:05-230	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 09:30:10-841	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	guest	PCN-WDOCK
+2019-10-03 12:04:59-944	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-03 12:10:10-417	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-03 12:29:30-951	0	TK3116_Selected	on		admin	DESKTOP-NC3KI7I
+2019-10-04 13:17:08-819	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 13:20:54-844	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 13:21:12-046	0	UserAdmin	0	USER: a created !	admin	DESKTOP-NC3KI7I
+2019-10-04 13:21:17-045	0	Login		User <guest> logged in: access=0x0001	guest	DESKTOP-NC3KI7I
+2019-10-04 13:21:18-444	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-04 13:27:21-288	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-04 13:29:16-493	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:16-493	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:17-292	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:17-292	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:17-892	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:17-892	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:18-292	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:18-493	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:18-694	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:18-894	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:19-894	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:20-095	0	G1003_04_Ind._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:37-099	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:29:45-901	0	G1002_03_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 13:30:30-305	0	G1003_08_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-04 14:01:21-898	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:04-706	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:11-710	0	G1003_04_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:19-325	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:45-217	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:48-637	0	G1003_04_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:50-457	0	G1003_03_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:03:51-454	0	G1003_03_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:42-020	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:43-417	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:52-846	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:54-246	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:57-051	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:05:57-851	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:00-255	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:01-657	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:03-456	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:19-726	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:23-147	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:24-756	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:28-572	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:06:30-776	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:26-457	0	XV4465.sim_mode_action	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:28-457	0	XV4465.sim_mode_action	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:30-667	0	XV4465.sim_mode_action	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:33-500	0	XV4465.sim_mode_action	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:34-700	0	XV4465.sim_mode_action	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:37-714	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:38-917	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:43-319	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:07:46-930	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:07-394	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:08-793	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:12-598	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:16-604	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:19-005	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:08:25-405	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:17:50-836	0	G1003_01_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:17:52-835	0	G1003_01_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:17:57-236	0	G1002_01_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:17:58-239	0	G1002_01_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:01-039	0	G1003_02_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:01-437	0	G1003_02_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:53-937	0	G1003_01_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:54-736	0	G1003_01_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:56-736	0	G1003_02_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:18:57-335	0	G1003_02_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:19:42-815	0	VRU_Comms.enable1	off	VRU Communication to aX.State 1 alarming enabled flag	admin	DESKTOP-NC3KI7I
+2019-10-04 14:19:45-815	0	VRU_Comms.enable0	on	VRU Communication to aX.State 0 alarming enabled flag	admin	DESKTOP-NC3KI7I
+2019-10-04 14:19:49-216	0	VRU_Comms.enable0	off	VRU Communication to aX.State 0 alarming enabled flag	admin	DESKTOP-NC3KI7I
+2019-10-04 14:19:49-615	0	VRU_Comms.enable1	on	VRU Communication to aX.State 1 alarming enabled flag	admin	DESKTOP-NC3KI7I
+2019-10-04 14:30:13-608	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 14:31:35-200	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:15-846	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:16-861	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:20-516	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:21-318	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:23-137	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:23-938	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:30-963	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:41-815	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:43-826	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:44-846	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:47-076	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:32:47-877	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:33:13-808	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:33:16-010	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:33:19-821	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:33:20-421	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:37:17-887	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:37:18-698	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:38:50-536	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:38:51-335	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:38:55-733	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:38:56-733	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:00-336	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:10-148	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:13-157	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:17-556	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:18-776	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:19-375	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:53-802	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:54-805	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:39:57-607	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:01-806	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:03-815	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:08-421	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:19-641	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:21-042	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:26-446	0	XV4465._hola	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:33-447	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:35-252	0	XV4465._hola	off	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:37-053	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:40:54-710	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:41:10-509	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:41:14-111	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:41:15-309	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:41:16-109	0	$$_simulation	off		admin	DESKTOP-NC3KI7I
+2019-10-04 14:42:28-523	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 14:42:35-357	0	G1003_03_Ind._button	1	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:42:35-756	0	G1003_03_Ind._button	0	.	admin	DESKTOP-NC3KI7I
+2019-10-04 14:53:17-596	0	SV4051.ZSC	NC:on	Compressor Building Latching Solenoid Valve.Valve Closed Signal	admin	DESKTOP-NC3KI7I
+2019-10-04 14:53:19-798	0	SV4051.ZSC	NC:off	Compressor Building Latching Solenoid Valve.Valve Closed Signal	admin	DESKTOP-NC3KI7I
+2019-10-04 14:53:20-198	0	PrBus11_8.ZSO	on	Compressor Building Latching Solenoid Valve.Compressor Building Latching Solenoid Position Sw	admin	DESKTOP-NC3KI7I
+2019-10-04 14:53:22-404	0	PrBus11_8.ZSO	off	Compressor Building Latching Solenoid Valve.Compressor Building Latching Solenoid Position Sw	admin	DESKTOP-NC3KI7I
+2019-10-04 15:01:21-588	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 15:02:01-334	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 15:23:17-757	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 15:24:41-828	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 15:33:00-288	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-04 15:34:49-457	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-04 15:37:18-936	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-04 15:37:30-417	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-04 15:43:31-628	0	TK3156_LALL	off		a	DESKTOP-NC3KI7I
+2019-10-04 15:43:32-628	0	TK3156_LALL	off		a	DESKTOP-NC3KI7I
+2019-10-04 15:43:35-628	0	TK3156_LALL	off		a	DESKTOP-NC3KI7I
+2019-10-04 15:43:38-229	0	TK3156.TK3156.LALL.ALARM	on	.TANK LOLO ALARM	a	DESKTOP-NC3KI7I
+2019-10-04 15:43:38-828	0	TK3156.TK3156.LALL.ALARM	on	.TANK LOLO ALARM	a	DESKTOP-NC3KI7I
+2019-10-04 15:43:39-428	0	TK3156.TK3156.LALL.ALARM	on	.TANK LOLO ALARM	a	DESKTOP-NC3KI7I
+2019-10-04 15:44:39-388	0	TK3156_LALL	off		a	DESKTOP-NC3KI7I
+2019-10-06 11:00:56-923	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-06 11:03:34-190	0	$$_simulation	on		admin	DESKTOP-NC3KI7I
+2019-10-07 08:09:02-818	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 08:21:56-954	0	J4206A.ack	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 08:22:09-535	0	J4206B.ack	on	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:37:53-854	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-07 08:49:23-351	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:28-229	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:28-638	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:29-447	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:30-260	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:32-298	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:34-131	0	HV3158._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:57-364	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:49:59-204	0	HV3158._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:07-138	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:11-828	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:14-266	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:15-286	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:23-019	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:27-717	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:28-124	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:28-533	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:35-924	0	G1003_03_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:50:37-956	0	G1003_04_Ind._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:17-249	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:18-880	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:19-895	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:20-505	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:21-318	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:25-186	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:25-795	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:35-148	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:49-395	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:53-263	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:53-881	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:54-286	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:54-895	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:51:58-358	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:52:21-770	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:52:26-862	0	LIL4311._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:54:01-895	0	J4206BB.BYPASS	on	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:54:58-059	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:55:48-510	0	J4206BB.BYPASS	off	.	a	DESKTOP-NC3KI7I
+2019-10-07 08:56:00-921	0	$$_simulation	off		a	DESKTOP-NC3KI7I
+2019-10-07 08:58:10-157	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 09:01:28-868	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-07 09:02:16-723	0	PrBus31_4.I0_0.FORCE	on	.SUMP LEVEL ZONE2	a	DESKTOP-NC3KI7I
+2019-10-07 09:02:17-130	0	PrBus31_4.I0_0.FORCE_VALUE	on	.SUMP LEVEL ZONE2	a	DESKTOP-NC3KI7I
+2019-10-07 09:02:32-007	0	PrBus31_4.I0_1.FORCE	on	.SUMP LEVEL ZONE3	a	DESKTOP-NC3KI7I
+2019-10-07 09:02:32-612	0	PrBus31_4.I0_1.FORCE_VALUE	on	.SUMP LEVEL ZONE3	a	DESKTOP-NC3KI7I
+2019-10-07 09:02:33-421	0	PrBus31_4.I0_2.FORCE	on	.SUMP LEVEL ZONE4	a	DESKTOP-NC3KI7I
+2019-10-07 09:02:33-624	0	PrBus31_4.I0_2.FORCE_VALUE	on	.SUMP LEVEL ZONE4	a	DESKTOP-NC3KI7I
+2019-10-07 09:03:00-082	0	PrBus31_7.LSL4453.FORCE	**	.DIESEL OFFLOADING STN G1002-01 LOW LEVEL ZONE 1	a	DESKTOP-NC3KI7I
+2019-10-07 09:03:00-901	0	PrBus31_7.LSL4453.FORCE_VALUE	**	.DIESEL OFFLOADING STN G1002-01 LOW LEVEL ZONE 1	a	DESKTOP-NC3KI7I
+2019-10-07 11:16:18-923	0	J4206AA.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:16:23-371	0	J4206AA.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:16:23-776	0	J4206AA.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:16:24-385	0	J4206AA.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:17:34-963	0	J4206AA.VFD_FAULT	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:17:36-581	0	J4206AA.VFD_FAULT	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:17:37-605	0	J4206AA.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:17:38-621	0	J4206AA.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:22:13-687	0	J4206BB.MULTILIN_FAULT	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:22:15-309	0	J4206BB.MULTILIN_FAULT	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:22:15-513	0	J4206BB.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:22:16-321	0	J4206BB.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:24:23-875	0	J4206B.MULTILIN_FAULT	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:24:24-279	0	J4206B.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:32-436	0	J4206B.MULTILIN_FAULT	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:34-045	0	PrBus33_4.MANUAL_MODE	on	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:35-657	0	PrBus33_4.MANUAL_MODE	off	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:37-075	0	PrBus33_4.MANUAL_MODE	on	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:38-512	0	PrBus33_4.MANUAL_MODE	off	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:39-323	0	PrBus33_4.MANUAL_MODE	on	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:40-339	0	PrBus33_4.MANUAL_MODE	off	.DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:42-963	0	J4206B.MULTILIN_FAULT	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:44-174	0	J4206B.MULTILIN_FAULT	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:45-390	0	J4206B.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:46-201	0	J4206B.HIGH_TEMP	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:46-803	0	J4206B.HIGH_TEMP	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:47-408	0	J4206B.MULTILIN_FAULT	NC:on	.	a	DESKTOP-NC3KI7I
+2019-10-07 11:26:48-015	0	J4206B.MULTILIN_FAULT	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:17:02-059	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:37-819	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-07 12:26:40-657	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:44-496	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:54-107	0	PrBus32_9.CHI0.FORCE	off	.PUMP J-4206A DISCHARGE PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:54-506	0	PrBus32_9.CHI1.FORCE	off	.PUMP J-4206B DISCHARGE PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:55-707	0	PrBus32_9.CHI2.FORCE	off	.PUMP J-4206C DISCHARGE PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:26:57-332	0	PrBus32_9.CHI3.FORCE	off	.PUMP J-4206D DISCHARGE PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:27:00-575	0	PrBus32_9.CHI4.FORCE_VALUE	3.66	.RAIL OFFLOADING PUMPS SUCTION PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:27:01-375	0	PrBus32_9.CHI5.FORCE	off	.RAIL OFFLOADING PUMPS SUCTION TEMPERATURE	a	DESKTOP-NC3KI7I
+2019-10-07 12:27:24-848	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:27:25-247	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:17-703	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:19-903	0	HV3158._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:23-520	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:23-721	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:31-351	0	HV3158._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:32-963	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:41-825	0	PMP4206D._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:30:42-028	0	PMP4206D._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 12:31:37-569	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 12:57:02-891	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 13:05:40-582	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	DESKTOP-NC3KI7I
+2019-10-07 13:09:25-043	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 13:18:38-086	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-07 13:42:59-065	0	LIL4311._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:01-898	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:17-948	0	PrBus32_9.CHI4.FORCE_VALUE	6.17	.RAIL OFFLOADING PUMPS SUCTION PRESSURE	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:42-555	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:45-388	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:49-025	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:50-028	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:50-631	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:51-036	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:51-842	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:56-088	0	HV3158._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:43:59-131	0	HV3158._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:45:57-351	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:45:59-578	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:00-197	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:01-207	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:01-608	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:41-798	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:43-812	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:49-690	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:46:49-891	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:46-892	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:48-322	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:50-344	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:50-545	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:57-851	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:47:59-278	0	HV3158._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:48:06-584	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:48:06-786	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:55:17-628	0	HV3158._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:55:19-443	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 13:55:21-884	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:55:22-085	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:10-811	0	SV3012.OUT	on	tank 3116 ESD.CLOSE Output	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:16-901	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:19-730	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:20-131	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:20-736	0	SV3012.ZSC	NC:on	tank 3116 ESD.Valve closed switch	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:21-138	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 13:56:21-539	0	SV3012.OUT	on	tank 3116 ESD.CLOSE Output	a	DESKTOP-NC3KI7I
+2019-10-07 14:00:57-306	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:00:58-526	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:00:59-331	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:01:00-341	0	TK3157A.LAHIN	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:01:01-144	0	TK3157A.LAHIN	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:01:01-749	0	TK3157A.LAHIN	NC:off	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:01:02-957	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:01:03-361	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:02:19-072	0	PrBus11_2.PV	off	.SV4049 LEVEL SWITCH HiHi ALARM	a	DESKTOP-NC3KI7I
+2019-10-07 14:02:31-601	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 14:02:33-009	0	SV3012.ZSO	NC:on	tank 3116 ESD.Valve opened switch	a	DESKTOP-NC3KI7I
+2019-10-07 14:02:46-181	0	LAHH3160	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:02:47-793	0	LAHH3160	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:03:06-051	0	LAHHIN	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:03:28-765	0	PrBus20_4.LSHH3160	on	.FINISHED DIESEL STORAGE TANK TK3157 HIGH HIGH LEVEL	a	DESKTOP-NC3KI7I
+2019-10-07 14:03:30-786	0	PrBus20_4.LSHH3161	on	.FINISHED DIESEL STORAGE TANK TK3116 HIGH HIGH LEVEL	a	DESKTOP-NC3KI7I
+2019-10-07 14:03:32-806	0	PrBus20_4.LSHH3162	on	.FINISHED DIESEL STORAGE TANK TK3117 HIGH HIGH LEVEL	a	DESKTOP-NC3KI7I
+2019-10-07 14:11:02-651	0	ASHH4480	on	High-High Hydrocarbon Leak Detector in Pump Pit	a	DESKTOP-NC3KI7I
+2019-10-07 14:11:25-380	0	PrBus11_2.LSHH4049.FORCE	on	.SV4049 LEVEL SWITCH HiHi ALARM	a	DESKTOP-NC3KI7I
+2019-10-07 14:11:25-589	0	PrBus11_2.LSHH4049.FORCE_VALUE	on	.SV4049 LEVEL SWITCH HiHi ALARM	a	DESKTOP-NC3KI7I
+2019-10-07 14:11:28-813	0	PrBus4_4.XA4003.FORCE	on	.Lower Plant ESD Push Button Pushed	a	DESKTOP-NC3KI7I
+2019-10-07 14:11:29-013	0	PrBus4_4.XA4003.FORCE_VALUE	on	.Lower Plant ESD Push Button Pushed	a	DESKTOP-NC3KI7I
+2019-10-07 14:17:08-638	0	HV3173._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:18:56-941	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:01-801	0	PMP4206D._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:01-801	0	PMP4206D._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:19-628	0	PMP4206D._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:20-032	0	PMP4206D._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:32-555	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:38-841	0	HV3148._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:45-119	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:45-724	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:19:56-812	0	SV3011.BYPASS	on	Tank 3117 Valve.Bypass flag (internal/external)	a	DESKTOP-NC3KI7I
+2019-10-07 14:20:06-349	0	SV3011.BYPASS	off	Tank 3117 Valve.Bypass flag (internal/external)	a	DESKTOP-NC3KI7I
+2019-10-07 14:21:30-325	0	HV3148._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:21:32-138	0	HV3158._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:21:35-374	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:21:35-779	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:22:36-930	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:22:37-334	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:22:42-615	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:22:43-421	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:22:59-391	0	HV3173._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:04-243	0	HV3158._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:08-678	0	PMP4206A._BUTTON	on	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:09-082	0	PMP4206A._BUTTON	off	Rail Offloading Pump.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:17-990	0	HV3142._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:25-105	0	HV3142._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:34-815	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:35-418	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:38-440	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:38-640	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:41-069	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:41-878	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:42-694	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:43-101	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:43-704	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:44-105	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:44-509	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:44-911	0	HV3142.ZSO	NC:on	.Valve Open Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:48-552	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:23:49-358	0	HV3142.ZSC	NC:off	.Valve Closed Signal	a	DESKTOP-NC3KI7I
+2019-10-07 14:24:08-951	0	HV3142._button	1	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:25:05-012	0	HV3142._button	0	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:43:53-753	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 14:44:58-809	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 14:46:34-762	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-NC3KI7I
+2019-10-07 14:46:57-023	0	$$_simulation	on		a	DESKTOP-NC3KI7I
+2019-10-07 14:47:04-529	0	MOV4315.SP_Cmd	52	.Operator SP	a	DESKTOP-NC3KI7I
+2019-10-07 14:47:08-351	0	MOV4315._skipcmd	on	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:47:08-552	0	MOV4315._skipcmd	off	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:38-089	0	MOV4315.BYPASS	on	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:39-105	0	MOV4315.BYPASS	off	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:41-118	0	MOV4315.BYPASS	on	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:41-733	0	MOV4315.BYPASS	off	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:42-342	0	MOV4315.BYPASS	on	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:42-742	0	MOV4315.BYPASS	off	.PUMP IS IN BYPASS	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:45-177	0	MOV4315._skipcmd	on	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:48:45-377	0	MOV4315._skipcmd	off	.	a	DESKTOP-NC3KI7I
+2019-10-07 14:49:06-026	0	MOV4315.SP_Cmd	43	.Operator SP	a	DESKTOP-NC3KI7I
+2019-10-07 18:35:55-966	0	Login		User <a> logged in: access=0xFFFFFFFF	a	DESKTOP-8J4B9U3
+2019-10-07 18:36:40-378	0	HA2204AL.PV	NC:on	.	a	DESKTOP-8J4B9U3
+2019-10-07 18:36:44-575	0	HA2304AL.PV	NC:on	.	a	DESKTOP-8J4B9U3
+2019-10-07 18:36:49-176	0	LAHH2204AL.PV	NC:on	.	a	DESKTOP-8J4B9U3
+2019-10-07 18:36:53-576	0	LAHH2304AL.PV	NC:on	TK-0030 Level High-High Trip.TK-0030 Level High-High Trip	a	DESKTOP-8J4B9U3
+2019-10-07 18:37:01-177	0	PrBus20_5.LOCALMAN	on	Pump J-3034B.HS3154B 'AUTO' SELECTED	a	DESKTOP-8J4B9U3
+2019-10-07 18:37:05-980	0	PrBus20_5.LOCALMAN	on	Pump J-3034A.HS3154A 'AUTO' SELECTED	a	DESKTOP-8J4B9U3

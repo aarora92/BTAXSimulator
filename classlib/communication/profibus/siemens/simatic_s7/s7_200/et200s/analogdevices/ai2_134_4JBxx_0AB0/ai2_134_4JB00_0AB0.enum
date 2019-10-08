@@ -1,0 +1,14 @@
+ControlMode:	ByHost=0,
+		Blind=2;
+
+module_range:	deact = 0,
+		mV_np_80=1,
+		TC_EL_type_T=7,
+		TC_EL_type_K=8,
+		TC_EL_type_B=9,
+		TC_EL_type_N=10,
+		TC_EL_type_E=11,
+		TC_EL_type_R=12,
+		TC_EL_type_S=13,
+		TC_EL_type_J=14,
+		TC_EL_type_L=15;

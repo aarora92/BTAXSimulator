@@ -1,0 +1,5 @@
+MB_Function: Read_Coil_C01 = 0x01,
+             Read_Input_C02 = 0x02,
+             Read_Hold_Reg_C03 = 0x03,
+             Read_Input_Reg_C04 = 0x04,
+             Read_Mult_FloatR_C65 = 0x41;

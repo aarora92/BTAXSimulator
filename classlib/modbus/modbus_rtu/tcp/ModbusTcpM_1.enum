@@ -1,0 +1,36 @@
+CommType:RS232=0,RS422=1,RS485=2,NO_COMM=3;
+Master_Con:ISA_1{MIO_0=0,
+		 MIO_1=1,
+		 MIO_2=2,
+		 MIO_3=3,
+		 MIO_4=4,
+		 MIO_5=5},
+	  ISA_2{MIO_0=10,
+		 MIO_1=11,
+		 MIO_2=12,
+		 MIO_3=13,
+		 MIO_4=14,
+		 MIO_5=15};
+Baudrate_Serial:BD_1200=1200,BD_2400=2400,BD_4800=4800,BD_9600=9600,BD_19200=19200;
+Databits_Serial:DATABITS_7=7,DATABITS_8=8;
+Stopbits_Serial:NO_STOPBIT=0,STOPBIT_1=1,STOPBITS_2=2;
+Parity_Serial:PARITY_NON=0,PARITY_ODD=1,PARTY_EVEN=2;
+Channel_Serial:Channel_0=0,Channel_1=1,Channel_2=2,Channel_3=3;
+MB_Function: Read_Coil_C01 = 0x01,
+             Read_Input_C02 = 0x02,
+             Read_Hold_Reg_C03 = 0x03,
+             Read_Input_Reg_C04 = 0x04,
+             Force_One_Coil_C05 = 0x05,
+             Preset_One_Reg_C06 = 0x06,
+             Read_Exep_Stat_C07 = 0x07,
+             Loopback_Diag_C08 = 0x08,
+             Program_484_C09 = 0x09,
+             Poll_Prog_C_484_C10 = 0x0A,
+             Get_Event_Cnt_C11 = 0x0B,
+             Get_Event_Log_C12 = 0x0C,
+             Program_C13 = 0x0D,
+             Poll_Prog_Complete_C14 = 0x0E,
+             Force_Mult_Coils_C15 = 0x0F,
+             Preset_Mult_Regs_C16 = 0x10,
+	 Read_Mult_FloatR_C65 = 0x41,
+	 Write_Mult_FloatR_C66 = 0x42;

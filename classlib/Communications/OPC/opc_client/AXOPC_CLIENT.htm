@@ -1,0 +1,301 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="287" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>OPC
+Client</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><b><font face="Arial"><font color="#0000FF"><font size=+3>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The aX OPC Data Access Client is based
+on specification 2.04</font> .
+<br><font face="Arial">Before installing the aX OPC client, you must insert
+the OPC client class (AXOPC_CLIENT.symbol) into your program. Since the
+aX OPC client class can have only one connected server at a time, you must
+insert a separate instance for each OPC server you wish to connect.</font>
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<br><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Components
+and Installation</font></font></font></b>
+<p><font face="Arial">The OPC client is comprised of the following components
+(files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">AutomationX generated Class
+File; includes graphical representation, user interfaces, internal control
+logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%">
+<center><font face="Arial">AXOPC_CLIENT.symbol</font></center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files</font>
+<br><font face="Arial">for class operation,</font>
+<br><font face="Arial">physical appearance and&nbsp; documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%">opc_logo.bmp</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">AXOPC_CLIENT.htm</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial">Installation</font></b>
+<p><font face="Arial">To install the OPC Client class, all of the above
+files must be copied into a common directory within the project's "classlib"
+directory. The name of the directory can be chosen freely. For example
+(refer to the directory structure below), if we want to add the OPC Client
+class to an existing class library we would simply follow the directory
+structure in the AutomationX program directory: <b>AutomationX\projects\demo\classlib\opc\opc_client</b></font>
+<p><img SRC="opc_folder_client.gif" height=365 width=303>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">In the Graphical Representation of the OPC client
+class the unique name identifier (Instancename) and the Instance- and Class-
+documentation buttons are displayed in the upper area.</font>
+<br><font face="Arial">Below this it is seperated into three parts:</font>
+<br><font face="Arial">&middot; Status display</font>
+<br><font face="Arial">&middot; Client manipulation buttons</font>
+<br><font face="Arial">&middot; Client details</font>
+<br><font face="Arial">&middot; Redundancy display</font>
+<br>&nbsp;
+<p><b><font face="Arial">&nbsp;Graphical Representation</font></b>
+<p><img SRC="opc_client_running_described.gif" height=531 width=319>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 1: Graphical user
+interface</font></font>
+<p><font face="Arial,Helvetica">The <b>status display</b> consists of a
+LED display and a message field.</font>
+<p><font face="Arial,Helvetica">The LED has three color states:</font>
+<br><font face="Arial,Helvetica"><i>Green:&nbsp;</i>&nbsp;&nbsp;&nbsp;
+all connections of the specified server are good.</font>
+<br><font face="Arial,Helvetica"><i>Yellow:</i>&nbsp;&nbsp;&nbsp;&nbsp;
+one or more connections are bad or not valid.</font>
+<br><font face="Arial,Helvetica"><i>Red:&nbsp;</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the connected server is not running or all connections to the server are
+bad or not valid.</font>
+<p><font face="Arial,Helvetica">The message field displays status and error
+messages for the OPC client.</font>
+<p><font face="Arial,Helvetica">There are six different messages:</font>
+<br><font face="Arial,Helvetica"><i>Running:&nbsp;&nbsp;</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+all connections are valid and good.</font>
+<br><font face="Arial,Helvetica"><i>Server not running:</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the connected server is not running.</font>
+<br><font face="Arial,Helvetica"><i>Server not available:</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the specified server cannot be connected</font>
+<br><font face="Arial,Helvetica"><i>Bad items:</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+one or more connections to the server are bad.</font>
+<br><font face="Arial,Helvetica"><i>Client instance disabled:</i>&nbsp;&nbsp;&nbsp;&nbsp;
+connected items no longer exist on the server.</font>
+<br><font face="Arial,Helvetica"><i>Invalid items:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</i>connected items are bad or no longer exist.</font>
+<p><font face="Arial,Helvetica">More detailed information on the status
+or error that caused the message is contained in the aX Journal.</font>
+<p><font face="Arial,Helvetica">The <b>client details</b> display:</font>
+<p><font face="Arial,Helvetica">Connected Server:</font>
+<br><font face="Arial,Helvetica">Prog ID of the connected server</font>
+<p><font face="Arial,Helvetica">Hostname:</font>
+<br><font face="Arial,Helvetica">Host name of the computer where the server
+is registered. The host name is local when the server is on the local machine.</font>
+<p><font face="Arial,Helvetica">Number of configured items:</font>
+<br><font face="Arial,Helvetica">Number of aX variables currently selected
+for OPC connection</font>
+<p><font face="Arial,Helvetica">Number of invalid items:</font>
+<br><font face="Arial,Helvetica">Number of items with bad or invalid connections</font>
+<p><font face="Arial,Helvetica">The <b>redundancy display</b> shows:</font>
+<p><font face="Arial,Helvetica">A small led which gets green if the automatic
+redundancy change is enabled.</font>
+<p><font face="Arial,Helvetica">A blue P to open the redundancy parameter
+popup.</font>
+<p><font face="Arial,Helvetica">The hostname and the redundancy hostname
+(only if defined)</font>
+<p><font face="Arial,Helvetica">Two status displays to see to which computer
+the OPC client is connected.</font>
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Configuration</font></font></font></b>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">An OPC client is configured by attaching
+to, and then browsing the namespace of a specific OPC server. To configure
+the client, press the [Configure Client] button. Next press the [...] button
+to browse for an OPC server. Picture 2 - OPC server browser shows the browser
+window. If you want to use redundancy, do it the same way to configure
+the redundancy OPC server.</font>
+<p><img SRC="opc_client_browse.gif" height=239 width=418>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 2: OPC server browser</font></font>
+<p>I<font face="Arial,Helvetica">t is possible to connect to both local
+and remote servers. The DCOM settings of the specific server must be correct
+to gain access to its data. Servers are classified in two groups:</font>
+<br><font face="Arial,Helvetica">&middot; Data Access V1: Data Access Specification
+1.0</font>
+<br><font face="Arial,Helvetica">&middot; Data Access V2: Data Access Specification
+2.04</font>
+<br><font face="Arial,Helvetica">The aX OPC client conforms to specification
+1.0 and 2.04. To choose the server, select the server name and press the
+[OK] button or simply double-click on the server name. The selected server
+is displayed at the top of the configuration window as shown in Picture
+3 - OPC client configuration window.</font>
+<p><img SRC="opc_client_config.gif" height=362 width=1008>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 3: OPC client configuration
+window</font></font>
+<p><font face="Arial,Helvetica">The configuration window is comprised of
+four parts:</font>
+<br><font face="Arial,Helvetica">&middot; Control bar</font>
+<br><font face="Arial,Helvetica">&middot; OPC namespace tree viewer</font>
+<br><font face="Arial,Helvetica">&middot; aX data tree viewer</font>
+<br><font face="Arial,Helvetica">&middot; Connection table</font>
+<p><b><font face="Arial,Helvetica">Control bar</font></b>
+<p><font face="Arial,Helvetica">File:</font>
+<br><font face="Arial,Helvetica">Pull-down menu for file handling</font>
+<p><font face="Arial,Helvetica">Edit:</font>
+<br><font face="Arial,Helvetica">Pull-down menu for data editing</font>
+<p><font face="Arial,Helvetica">Close:</font>
+<br><font face="Arial,Helvetica">Button to close the configuration window</font>
+<p><font face="Arial,Helvetica">Save:</font>
+<br><font face="Arial,Helvetica">Button to save the current configuration
+to a text file (...\projects\&lt;project name>\opc\&lt;instance name of
+the client class>.cfg).</font>
+<br><font face="Arial,Helvetica">The client will be restarted automatically.</font>
+<p><font face="Arial,Helvetica">OPC-Message:</font>
+<br><font face="Arial,Helvetica">Opens the aX Journal display including
+the OPC messages.</font>
+<p><font face="Arial,Helvetica">Server display:</font>
+<br><font face="Arial,Helvetica">Displays the actually connected server
+and redundant server.</font>
+<p><font face="Arial,Helvetica">Data Exchange Mode:</font>
+<br><font face="Arial,Helvetica">You can choose between asyncronous and
+syncronous.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">OPC Namespace Tree Viewer</font></b>
+<p><font face="Arial,Helvetica">The OPC namespace tree viewer lets you
+browse the namespace of a connected OPC server. Select a desired namespace
+by double-clicking on it, and the item will be added into the first free
+line of the OPC-VarName column. Repeat this for all variables you want
+connected to aX.</font>
+<br><font face="Arial,Helvetica">To delete an entry from the OPC-VarName
+column, select the entry and press the [Del]button on your keyboard.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">aX data tree viewer</font></b>
+<p><font face="Arial,Helvetica">The aX data tree viewer lets you browse
+the entire shared memory of aX. Double-clicking on a variable name adds
+the variable to the first free line of the AX-VarName column in the connection
+table (the default Update Rate is 1000 ms. Repeat this for all variables
+you want connected to the chosen OPC server.</font>
+<br><font face="Arial,Helvetica">To delete an entry in the AX-Varname column,
+select the entry and press the [Del] button on your keyboard.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Connection table</font></b>
+<p><font face="Arial,Helvetica">R/W:</font>
+<br><font face="Arial,Helvetica">&nbsp;Defines the direction of data transfer.
+The default value is READ (right-pointing, blue arrow). A double-click
+toggles this to WRITE (left-pointing, red arrow).</font>
+<p><font face="Arial,Helvetica">Value:</font>
+<br><font face="Arial,Helvetica">Displays the value of the aX-variable.</font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Quality:</font>
+<br><font face="Arial,Helvetica">"Good" is displayed, if the connection
+to the server is OK, otherwise it is "Bad". aX uses the valid-bit for the
+quality. Take care that the valid-bit is not modified anywhere in the project
+for all OPC variables.</font>
+<p><font face="Arial,Helvetica">Update Rate:</font>
+<br><font face="Arial,Helvetica">Defines the update-interval between server
+and client in ms (default 1000 ms)</font>
+<p><font face="Arial,Helvetica">AX-VarName:</font>
+<br><font face="Arial,Helvetica">aX variable</font>
+<p><font face="Arial,Helvetica">To delete an entire line from the table,
+choose Delete line from the Edit menu or press ctrl + x.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Redundancy with OPC client</font></b>
+<p><font face="Arial,Helvetica">If you use the client in a redundancy system
+you have to do some configurations.</font>
+<br><font face="Arial,Helvetica">At first you have to define the machine
+name and the machine name redundant in edit mode in the server data of
+your opc client instance.</font>
+<p><font face="Arial,Helvetica">After saving you can configure the redundancy
+options in the redundancy parameter popup shown in picture 4.</font>
+<p><img SRC="opc_client_red_popup.gif" height=273 width=322>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 4: OPC client redundancy
+parameter popup.</font></font>
+<p><font face="Arial,Helvetica">In the first box the hostname and the redundancy
+hostname are displayed. Next to it you can choose manually to which host
+you want to connect you OPC client or you set <b>Automatic Redundancy Change</b>
+in the secound box to aktiv. So the client will always connect to the OPC
+server from the main server. For using this option you have to generate
+a lifetick on the redundancy system, where the OPC servers are installed
+(e.g. generate a up and down counter). It is important to set the local
+flag of your lifetick variable!!! Next connect this lifetick variable via
+OPC to a variable defined in your project. Now write the name of this lifetick
+variable of your project into the reference of the <b>opc_server_lifetick
+</b>variable
+of your opc client (in edit mode).</font>
+<br><font face="Arial,Helvetica">At last you can define your <b>Timeout
+for Redundancy</b> in secounds.</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<br>&nbsp;
+</body>
+</html>

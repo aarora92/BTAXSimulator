@@ -1,0 +1,845 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>TCP_RdWr</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+<a NAME="top"></a>
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>TCP_RW</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The TCP Read Write symbol communicates with another
+TCP Read Write symbol via <b>TCP</b>.</font>
+<p><font face="Arial">One variable or whole symbols can be transmitted.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<p><a NAME="Installation"></a><a NAME="Class_Components"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The TCP_RdWr class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="621" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">TCP_RdWr.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">TCP_RdWr GUI_Rd.gif</font>
+<p><font face="Arial">TCP_RdWr GUI_Wr.gif</font>
+<p><font face="Arial">TCP_RdWr<i> </i>POP_Rd.gif</font>
+<p><font face="Arial">TCP_RdWr<i> </i>POP_Wr.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">TCP_RdWr.htm</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Enum-File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Enumerator file</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">TCP_RdWr.enum</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial">Installation: </font>The above listed files must
+be copied into a common sub-directory within the</b>
+<p><b>project's "classlib" directory. The name of the common directory
+can be chosen freely.</b>
+<p><font face="Arial">TCP data transfer is managed by the TCP Server process.</font>
+<p><font face="Arial">An entry in the <b>UserProcesses.pls</b> file is
+needed.</font>
+<p><b><i><font face="Arial">:name=tcpserver autostart=True restart=True
+always=True</font></i></b>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The TCP_RdWr class represents an actual Read-Write
+module. The instance name of the</font>
+<p><font face="Arial">module will appear in white text on the top right
+of the symbol. On the top left the symbol</font>
+<p><font face="Arial">mode (Read / Write) is displayed. The title will
+change from green to flashing red if an error</font>
+<p><font face="Arial">occurs.</font>
+<p><font face="Arial">The symbol is divided into four sections:</font>
+<p><font face="Arial">- Data visualization with variable connection info:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Connection:
+Actual connection with variable or symbol.</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Datatype:
+Type of connected data.</font>
+<p><font face="Arial">- Communication info with com LEDs:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Write
+mode -> Transmission</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; done:
+Transm, done</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK: Transm.
+OK</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Trigger:
+Transm. trigger</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; started:
+Transm. started</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Read
+mode -> Receive</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NewRec:
+New data received</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overflow:
+Data overflow</font>
+<p><font face="Arial">- Connection info with status LEDs and Lifetick</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OK: TCP
+connection OK</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Error:
+TCP connection error</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lifetick:
+In lifetick mode number of received lifeticks</font>
+<p><font face="Arial">- Status string</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Actual
+status of symbol.</font>
+<p><img SRC="TCP_RdWr_GUI_Wr.gif" height=347 width=398>
+<p><font face="Arial"><font size=-1>Figure 1: Graphical Representation
+(Write mode)</font></font>
+<p><img SRC="TCP_RdWr_GUI_Rd.gif" height=347 width=398>
+<br>&nbsp;
+<p><font face="Arial"><font size=-1>Figure 2: Graphical Representation
+(Read mode)</font></font>
+<p><font face="Arial,Helvetica">The <b>PopUp</b> is invoked by selecting
+the graphical representation. It shows the</font>
+<p><font face="Arial,Helvetica">communication settings, symbol select button,
+trigger button, communication LEDs,</font>
+<p><font face="Arial,Helvetica">connection LEDs and the status string.
+To activate the symbol the Select button must</font>
+<p><font face="Arial,Helvetica">be on. On the top of the PopUp the TCP
+communication settings are displayed.</font>
+<p><font face="Arial,Helvetica">The Transmission, Connection and status
+string sections are similar to them in the</font>
+<p><font face="Arial,Helvetica">Graphical Representation.</font>
+<p><img SRC="TCP_RdWr_POP_Wr.gif" height=351 width=494>
+<p><font face="Arial"><font size=-1>Figure 3: The communication PopUp (Write
+mode)</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="TCP_RdWr_POP_Rd.gif" height=348 width=492>
+<p><font face="Arial">Figure 4: The send Data PopUp (Read mode)</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the TCP Read Write symbol.</font>
+<p><font face="Arial">The parameter data type, the default values and a
+brief description are listed. The grey</font>
+<p><font face="Arial">shaded rows are parameters which must not be changed.</font>
+<br>&nbsp;
+<table BORDER WIDTH="614" >
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Item</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Variable</font></td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Type&nbsp;</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Default&nbsp;</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Description</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">1</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">host_dest</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">STRING</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center>...</center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">IP
+Address (xxx.xxx.xxx.xxx) xxx = 0 - 255&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">2</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">port_id</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">USINT</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Port
+ID offset</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">3</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">baseport</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">INT</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#C0C0C0">...</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">4</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">server_mode</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">FALSE</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">TCP
+Server selection</font>
+<p><font face="Arial">The server starts the communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">5</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">seperator_byte</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">BYTE</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Seperator
+byte array for&nbsp;</font>
+<p><font face="Arial">ASCII communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">6</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">seperator_len</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">USINT</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Seperator
+length</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">7</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">symbol_mode</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Symbl_mode</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">READ</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">READ
+/ WRITE selection</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">8</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">activ</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">YES</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Symbol
+activation&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">9</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">var_type</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center><font face="Arial">Datatype</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<center>...</center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">Type
+of connected variable or symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">10</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">var_connection</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">STRING</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center>...</center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Instance
+name of symbol or variable name</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">11</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">mode_tcp</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Tcp_mode</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<center><font face="Arial">Binary_Lifeticks</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">TCP
+mode: Binary with lifeticks, binary without lifeticks and ASCII without
+lifeticks</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#FFFFFF">
+<center><font face="Arial">12</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#FFFFFF">
+<center><font face="Arial">trigger</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#FFFFFF">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Write
+trigger</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">13</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">trans_started</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Transmission
+started</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">14</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">trans_done</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Transmission
+done</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">15</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">trans_error</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Transmission
+error</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">16</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">new_rec_data</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">New
+receive data</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">17</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">rec_overflow</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Receive
+overflow</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">18</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">con_ok</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">TCP
+connection ok</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">19</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">con_lifetick</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">UDINT</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">TCP
+lifetick counter</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">20</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">con_error</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">BOOL</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">TCP
+connection error</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">21</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">error</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">ALARM</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">NO</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Error
+variable</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">22</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">state</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">DINT</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">0</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+of communication and symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">23</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">status_string</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">STRING</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center>...</center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+string of communication and symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">24</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">local_struct</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center><font face="Arial">POINTER</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0">
+<center>...</center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Internal
+pointer for the local structure</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="6%" HEIGHT="41" BGCOLOR="#C0C0C0">
+<center><font face="Arial">25</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="22%" HEIGHT="41" BGCOLOR="#C0C0C0">
+<center><font face="Arial">SPS_Cycle</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="15%" HEIGHT="41" BGCOLOR="#C0C0C0">
+<center><font face="Arial">code</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="41" BGCOLOR="#C0C0C0">
+<center><font face="Arial">axx_function("tcp_</font>
+<p><font face="Arial">readwrite","TCP</font>
+<p><font face="Arial">ReadWrite");</font></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="38%" HEIGHT="41" BGCOLOR="#C0C0C0"><font face="Arial">Run
+the AXX function</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="implementation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial">Symbol for data transfer of one variable or one symbol
+via TCP.</font>
+<p><a NAME="qualities"></a>
+<p><u><font face="Arial">Supported datatypes:</font></u>
+<p><b><u>BOOL, BYTE, SINT, USINT, INT, UINT, DINT, UDINT, REAL, LREAL,
+STRING, ALARM and ENUM</u></b>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Class_Modification_History"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Modification
+History</font></font></font></b>
+<p><font face="Arial">The following table lists the modifications made
+to the NoProto_RdWr class.</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLPADDING=3 WIDTH="623" >
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">I<a NAME="table3"></a>tem</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Date</font></b>
+<br><b><font face="Arial">(m/d/y)</font></b></td>
+
+<td VALIGN=CENTER WIDTH="28%"><b><font face="Arial">Name</font></b></td>
+
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">File</font></b></td>
+
+<td VALIGN=CENTER WIDTH="36%"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Reason</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="11%"><font face="Arial">02/05/00</font></td>
+
+<td VALIGN=CENTER WIDTH="28%"><font face="Arial">Andreas Nebenfuehr</font></td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%"><font face="Arial">Initial Design</font></td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

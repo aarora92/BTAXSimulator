@@ -1,0 +1,10 @@
+Sel_Namur:		NAMUR_CH0_CH3=0x0100,
+				NAMUR_CH4_CH7=0x0001;
+
+OperationMode:	continous_count=0,
+				uniquely_count=1,
+				periodically_count=2,
+				frequency_measurement=3,
+				speed_resolution_measurement=4,
+				periodic_time_measurement=5,
+				dosing_count=6;

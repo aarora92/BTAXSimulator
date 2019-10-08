@@ -1,0 +1,2 @@
+TicketName	MeterName	TicketTime	OpenTime	CloseTime	ProdID	BatchID_A	BatchID_B	TicketRef	Temp	Dens	GrossVol	NetVol	ProdSAP	GrossInt	NetInt
+Meter1	FX9513	20190917  0731	20190916  1844	20190917  0730	0	0	190	772	21.52	0.745	3439300.049	3459199.951	412	34393	34592

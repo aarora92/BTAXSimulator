@@ -1,0 +1,3 @@
+ControlMode:		ByHost=0,
+			ByDevice=1,
+			Blind=2;

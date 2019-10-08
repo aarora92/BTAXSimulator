@@ -1,0 +1,430 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft FrontPage 5.0">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>axs_mio_pci</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#ffffff"><font size=+4>axs_xlink_pbm</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"> <a href="#Installation">Installation</a>
+| <a href="#Klasse">Klassenfunktion</a> | <a href="#Debug">Fehlersuche</a></font>
+<p><a NAME="Features"></a><b><font size=+2 color="#0000ff" face="Arial">
+Allgemeines</font></b><p><font face="Arial,Helvetica">Die axs_xlink_pbm Klasse 
+ermöglicht die Ansteuerung&nbsp;von aXlink100 Geräten und von Lenzing 
+Slavenode Modulen über eine Ethernetkarte. 
+Die Kommunikation erfolgt über das Xlink-Protokoll. </font>
+<blockquote>
+<p><img border="0" src="xlink_pbm.gif" width="144" height="338"></blockquote>
+<p><font face="Arial,Helvetica">Als Trägerklasse dient die 
+ax_xlink_pbm_main_klasse. Diese Klase hat keine Funktion, in ihr können aber bis 
+zu vier Profibus-Master-Klasen eingefügt werden. Über den Instanznamen der 
+einzufügenden axs_xlink_pbm Klassen wird bestimmt ob die Klasse ein aXlink100, bzw. eine Lenzing-Slavenode angesteuert 
+wird.</font><blockquote>
+  <table border="0" cellspacing="1" width="100%" id="AutoNumber2">
+    <tr>
+      <td width="15%" align="left" valign="top"><b>
+      <font face="Arial,Helvetica" color="#008080">XL_PBM_?</font></b></td>
+      <td width="85%" align="left" valign="top"><font face="Arial">Instanzname 
+      für einen </font><font face="Arial,Helvetica">aXlink100, das 
+      Fragezeichen steht für eine Zahl von 1 bis 16.</font></td>
+    </tr>
+    <tr>
+      <td width="15%" align="left" valign="top"><b>
+      <font face="Arial,Helvetica" color="#008080">SLAVE_NODE_??</font></b></td>
+      <td width="85%" align="left" valign="top"><font face="Arial">Instanzname 
+      für eine </font><font face="Arial,Helvetica">Lenzing-Slavenode, das erste 
+      Fragezeichen für eine Zahl von 1 bis 8, das zweite steht für A oder B. Mit 
+      A wird die Lenzing-IO am Bitbus angesprochen, mit B wird der 
+      Profibusmaster auf der Lenzing-Slavenode angesprochen. </font></td>
+    </tr>
+  </table>
+</blockquote>
+<p><font face="Arial,Helvetica">Anschließend ist der der
+<a href="../axs_xlink/axs_xlink.htm">Xlink-Master</a> zu bestimmen an dem der 
+Profibusmaster angeschlossen ist. Über Ethernet können mehrere Profibusmaster 
+als Kette oder im Netz angeschlossen werden:</font><blockquote>
+<p><font face="Arial,Helvetica">&nbsp;<img border="0" src="Xlink-Shema.gif" width="649" height="638"></font></blockquote>
+<p><font face="Arial,Helvetica">Als nächstes bestimmt man die Xlink-Adresse des 
+Masters. Sie kann einen Wert zwischen 1 und 250 annehmen. Diese Adresse wird 
+dazu benutzt den Profibusmaster über die Ethernet Verbindung anzusprechen. 
+Achtung diese Adresse (rosa im oberen Bild) darf nicht mit der Profibus-Master 
+Adresse (grün im oberen Bild und immer 1) verwechselt werden.&nbsp; <br>
+&nbsp;</font><ul>
+  <li><font face="Arial,Helvetica"><a href="#Installation">Installation der 
+  Klasse</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Klasse">Funktion der Klasse</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Debug">Fehlersuche und Debugging</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Shadow">Redundanter aXlink100</a></font></li>
+</ul>
+<hr>
+<p><a name="Klasse"></a><b><font size=+2 color="#0000ff" face="Arial">Funktion 
+der Klasse</font></b></p>
+<p><font face="Arial,Helvetica">Die Klasse enthält folgende Element:</font></p>
+<blockquote>
+  <table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2"><b>Variabel</b></font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2"><b>Funktion</b></font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      XlinkMaster</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      der Xlink-Master an dem das Xlink-Gerät angeschlossen ist.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      XlinkAddress</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Xlink-Adresse (rosa im oberen Bild) mit der das Xlink-Gerät über 
+      das Ethernetnetzwerk angesprochen wird.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      CommTimeout</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Zeit in Millisekunden nach der der Profibusmaster abgeschaltet wird 
+      wenn die Kommunikation zum AX abbricht. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      slow_mode</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Wenn 
+      dieses Flag aktiviert ist, werden einzelne verzögerte Antworten von Slaves 
+      nicht als Fehler gemeldet. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      BusyTimeout</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Anzahl der Zyklen die die Antwort von Slaves brauchen darf bis 
+      &quot;Service Busy&quot; gemeldet wird. (0=keine Verzögerung erlaubt) </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      State</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      der aktuelle Status in dem sich das aktive Xlink-Gerät befindet. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      Error</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      der aktuelle Fehlercode vom Feldbuskontroller.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">ErrorString</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Enthält einen Text mit der 
+      aktuellen Fehlermeldung.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      Reset</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Mit 
+      dieser Variabel wird der Profibus-Master resetiert. Diese Variabel wird 
+      automatisch auf 0 zurückgesetzt wenn der Reset ausgeführt wurde. Daher 
+      darf nur einmal kurz Eins auf die Variabel geschrieben werden.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ShadowAddress</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Xlink-Adresse des redundanten aXlink100 Schattengerätes. (0=kein 
+      Schattengerät vorhanden)</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ShadowStates</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      der aktuelle Status in dem sich die beiden Xlink-Geräte befinden 
+      ([0]=Hauptgerät [1]=Schattengerät). </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ShadowActive</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Gibt 
+      an welches der beiden Xlink-Geräte aktiv ist (0=Hauptgerät 
+      1=Schattengerät). </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ShadowError</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Gibt 
+      es einen Fehler am Schattengerät. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ShadowSelect</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">
+      Dieser Wert bestimmt wie zwischen Haupt- und Shadow-Gerät gewechselt 
+      werden soll. <br>
+      0 = Immer zum Hauptgerät wechseln wenn möglich <br>
+      1 = Immer zum Shadow-Gerät wechseln wenn möglich <br>
+      2 = Nicht wechseln </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      Debug</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Mit 
+      den einzelnen Bits dieser Variabel können verschieden Debug-Nachrichten in 
+      den Runtime-Messages unter &quot;XlinkPbMaster&quot; ausgegeben werden:<br>
+      Bit 0 = Fehlermeldungen ausgeben.<br>
+      Bit 1 = Zyklische Fehlermeldungen ausgeben.<br>
+      Bit 2 = Empfangene Paket anzeigen.<br>
+      Bit 3 = Gesendete Paket anzeigen.<br>
+      Bit 4 = Zyklische empfangene Paket anzeigen.<br>
+      Bit 5 = Zyklische gesendete Paket anzeigen.<br>
+      Bit 6 = Pakete auch als Hex-Dump anzeigen. <br>
+      Bit 6 = Pakete auch als Hex-Dump anzeigen. <br>
+      Bit 7 = Antwortpakete anzeigen. <br>
+      Bit 8 = Pakete auch vom redundanten Xlink-Gerät anzeigen. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      DiagData</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die zyklische Diagnose vom Profibusmaster. (Bit 5.0 = Master in Ring, Bit 
+      5.1 = Master started) </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      SlaveInfo</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">In 
+      diesem Array werden die ID's der am Profibus gefundenen Geräte 
+      gespeichert. (0=kein Gerät gefunden) </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ActiveSlaves</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Anzahl der Slaves die der Master am Profibus gefunden hat.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      ConfigSlaves</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Anzahl der Slaves die im AX konfiguriert sind.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      InputDataLength</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Gesamtlänge aller der Input-Daten aller Slaves. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      OutputDataLength</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Gesamtlänge aller der Output-Daten aller Slaves. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      address</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Profibusadresse des Masters, sie ist üblicherweise 1.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      slottime</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Zeit zwischen zwei Tokens am Profibus, sie sollte um 200 liegen und 
+      muss größer als
+      tsdr_max sein.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      tsdr_min</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die minimale Antwortzeit eines Profibusslaves, sie sollte zwischen 11 und 
+      200 liegen.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      tsdr_max</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die maximale Antwortzeit eines Profibusslaves, sie sollte zwischen 60 und 
+      250 liegen.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">ttr</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die maximale Zeit die das Tokens für den Umlauf über alle Master benötigen 
+      darf. Sie liegt zwischen 30.000 und 500.000.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">hsa</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die höchste Adresse eines anderen Masters am Profibus nach der gesucht 
+      wird.</font></td>
+    </tr>
+  </table>
+</blockquote>
+<p><font face="Arial,Helvetica">Der aktuelle Zustand des Masters kann auf der 
+Klassenansicht im Feld unter dem Instanznamen abgelesen werden. Wenn ein Fehler 
+ansteht wird dort der Fehler eingeblendet an statt des Zustandes. </font></p>
+<blockquote>
+  <p><img border="0" src="xlink_pbm.gif" width="144" height="338"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Durch einen Klick auf die Klasse kann ein Popup 
+aufgemacht werden, in dem eine genauere Übersicht vorhanden ist.</font></p>
+<blockquote>
+<p><img border="0" src="axs_xl1.jpg" width="310" height="253"></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font face="Arial,Helvetica">Der Master kennt folgende Zustände:</font></p>
+<blockquote>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Offline</b></font>: 
+  Das Xlink-Gerät ist via Ethernet nicht erreichbar.<font color="#0000FF"><b><br>
+  <br>
+  Reset</b></font>: Der 
+  Profibus-Master wird gerade resetiert.</font></p>
+  <p><font color="#0000FF" face="Arial,Helvetica"><b>Reset</b></font><font face="Arial,Helvetica"><font color="#0000FF"><b>_Wait</b></font>: 
+  Es wird auf die Reset-Betstätigung des Profibus-Master gewartet</font><font face="Arial">.<br>
+  <br>
+  </font><b><font face="Arial,Helvetica" color="#0000FF">Init_Master</font></b><font face="Arial,Helvetica">: 
+  In diesem Zustand wird die aktuelle Master-Konfiguration an den 
+  Profibus-Master übertragen</font><font face="Arial">.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Init</font></b><font face="Arial,Helvetica"><font color="#0000FF"><b>_Wait</b></font>: 
+  In diesem Zustand wird auf die Bestätigung der Master-Konfiguration gewartet</font><font face="Arial">.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Error</font></b><font face="Arial,Helvetica">: 
+  Am Master wurde ein Fehler entdeckt</font><font face="Arial">.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Not_In_Ring</font></b><font face="Arial,Helvetica">: 
+  In diesem Zustand kann der Master sich nicht am Profibus anmelden (Adresse, 
+  Baudrate prüfen)</font><font face="Arial">.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Data_Exchange</b></font>: 
+  In diesem Zustand ist der Master bereit IO-Daten an die Profibus-Slaves zu 
+  senden bzw. zu empfangen</font><font face="Arial">.</font></p>
+</blockquote>
+  <p>&nbsp;</p>
+<blockquote>
+  <p><font face="Arial"><br>
+  &nbsp;</font></p>
+</blockquote>
+  <blockquote>
+  <p>&nbsp;</p>
+  </blockquote>
+<hr>
+<p><a name="Debug"></a><b><font size=+2 color="#0000ff" face="Arial">F</font><font face="Arial" size="+2" color="#0000FF">ehlersuche 
+und Debugging</font></b></p>
+<p><font face="Arial,Helvetica">Wenn der Xlink-Profibus-Master nicht in den 
+Data-Exchnge-Zustand kommt, ist es nützlich zu wissen was das Problem verursacht. Dazu sollte man 
+die <font color="#0000FF"> <i>Debug</i></font> Variabel auf einen Wert setzen und das Runtime-Message-Fenster öffnen. 
+Danach wählen sie <i>&quot;<font color="#008080">XlinkPbMaster</font>&quot;</i> aus:</font></p>
+<blockquote>
+  <p><img border="0" src="axs_xl2.jpg" width="721" height="362"></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font face="Arial,Helvetica">Der Master kennt folgende Fehler:</font></p>
+<blockquote>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">No_Error</font></b><font face="Arial,Helvetica">: 
+  Es ist kein Fehler am Profibus-Master vorhanden.</font></p>
+  <p><font color="#0000FF" face="Arial,Helvetica"><b>Device_busy</b></font><font face="Arial,Helvetica">: 
+  Beim letzen Versuch die IO-Daten an den Master zu schicken, war es nicht 
+  möglich die Daten </font><font face="Arial">in einem Zyklus zu empfangen. Das 
+  kann passieren wenn die Zykluszeit zu kurz gewählt wurde, bzw. zu viele Slaves 
+  mit zu vielen IO-Daten am Bus angeschlossen sind. Eine Erhöhung der Baudrate 
+  kann das Problem auch beheben.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">No_</font></b><font face="Arial,Helvetica"><font color="#0000FF"><b>Slaves</b></font>: 
+  Es ist kein Profibus-Slave im AX an den Master angehängt. Prüfen sie ob die 
+  Variabel <font color="#008080"><i>&quot;master&quot;</i></font> in den Slave-Klassen auf
+  <font color="#008080"><i>Xlink/XL_PBM_?</i></font> oder <font color="#008080">
+  <i>Lenzing/SLAVE_NODE_??</i></font> gesetzt ist. Sollten diese Auswahl nicht 
+  vorhanden sein überprüfen sie den globalen Enumerator <font color="#008080">
+  <i>Master_Con</i></font> in <font color="#008080">./projects/&lt;?????&gt;/enum.init</font>.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Slave_not_ready</b></font>: 
+  Das kann passieren wenn die Konfiguration zu einem Slave nicht geladen werden 
+  kann. Schalten sie die Runtime-Messages für <font color="#008080"><i>
+  XlinkPbMaster</i></font> ein. Dort können sie sehen welcher Slave den Fehler 
+  verursacht. Prüfen sie ob für diesem Slave die GSD-Datei vorhanden und richtig 
+  ist.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>CRC_error</b></font>: 
+  Die IO-Daten konnten nicht fehlerfrei an den Profibus-Master übertragen 
+  werden. Wenn das öfters vorkommt, überprüfen sie die Ethernetverkabelung ob es 
+  schadhafte Verbindungen gibt. </font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Timeout</font></b><font face="Arial,Helvetica">: 
+  Der Feldbuscontroller hat auf eine Anfrage nicht geantwortet. Prüfen sie ob 
+  der Controller ethernetseitig richtig angeschlossen ist. Prüfen sie ob das 
+  Xlink-Gerät wirklich ein Profibus-Master ist. Prüfen sie die Firmeware-Version 
+  des Gerätes.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Device_not_active</b></font>: 
+  Der Feldbuscontroller wurde vom Xlink-Master noch nicht aktiviert. Sollte 
+  dieser Zustand länger als eine Minute andauern, wenden sie sich bitte an 
+  automationX.</font></p>
+  <p><font color="#0000FF" face="Arial,Helvetica"><b>Device_not_</b></font><b><font face="Arial,Helvetica" color="#0000FF">on_Bus</font></b><font face="Arial,Helvetica">: 
+  Der Feldbuscontroller wurde vom Xlink-Master am Ethernetbus nicht gefunden. 
+  Prüfen sie ob der Controller ethernetseitig richtig angeschlossen ist, ob die 
+  Spannungsversorgung in Ordnung ist und ob die Xlink-Adresse mit der 
+  eingestellten Adresse am Controller übereinstimmt. Das Tool
+  <font color="#008080"><i>EthScanner.exe</i></font> kann ihnen einen Überblick 
+  über die aktuelle Netzwerkstopologie geben.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Ethernet_Error</b></font>: 
+  Die Ethernetschnittstellen konnten nicht richtig geöffnet werden. Prüfen beim 
+  ausgewählten
+<a href="../axs_xlink/axs_xlink.htm">Xlink-Master</a> ob die Ethernetkarten 
+  richtig konfiguriert sind. Prüfen sie die Einstellungen in der Datei <i>
+  <font color="#008080">./cache/rdip/local_ethernet_&lt;host&gt;.mac</font> . </i>Mit 
+  dem Tool <font color="#008080"><i>EthInfo.exe</i></font> können sie sich einen 
+  Überblick über alle Ethernetkarten in ihrem Rechner verschaffen und die 
+  Adressen konfigurieren.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>No_Xlink_Master</b></font>: 
+  Die
+<a href="../axs_xlink/axs_xlink.htm">Xlink-Master</a> Klasse die mit der 
+  Variabel <font color="#008080"><i>XlinkMaster</i></font> ausgewählt wird wurde 
+  nicht gefunden. Prüfen sie ob in <font color="#008080"><i>XlinkMaster</i></font> 
+  der richtige Wert ausgewählt wurde. Prüfen sie ob die
+<a href="../axs_xlink/axs_xlink.htm">Xlink-Master</a> Klasse den richtigen 
+  Instanznamen hat (<font color="#008080"><i>Xlink_?</i></font>).</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Double_Address</b></font>: 
+  Die es wurden zwei Profibus-Master-Klassen mit der selben Xlink-Adresse im 
+  Projekt konfiguriert.&nbsp; Prüfen sie die Variabel <font color="#008080"><i>
+  XlinkAddress</i></font> aller Master. In den Runtime-Messages unter
+  <font color="#008080"><i>XlinkPbMaster</i></font> wird angezeigt welche 
+  Instanzen von diesem Fehler betroffen sind.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Wrong</font></b><font face="Arial,Helvetica"><font color="#0000FF"><b>_Address</b></font>: 
+  Die es wurden bei der Profibus-Master-Klasse eine Falsche Xlink-Adresse 
+  konfiguriert.&nbsp; Prüfen sie die Variabel <font color="#008080"><i>
+  XlinkAddress</i></font> ob sie nicht auf 0, 254 oder 255 gestellt ist.<br>
+&nbsp;</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Wrong</font></b><font face="Arial,Helvetica"><font color="#0000FF"><b>_Firmware</b></font>: 
+  Das angeschlossene Xlink-Gerät hat eine zu alte Firmware. Stellen sie sicher 
+  das die Firmware-Version mindestens 20 ist. Mit dem Programm EthScanner können 
+  sie eine neue Firmware auf das Gerät hinunter laden.</font></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</blockquote>
+  <hr>
+<p><a name="Shadow"></a><b>
+<font face="Arial,Helvetica" size="5" color="#0000FF">Redundanter aXlink100</font></b></p>
+<p><font face="Arial,Helvetica">Es ist möglich auf einer Profibuslinie zwei 
+aXlink100 redundant zu betreiben. Dazu muss lediglich die Xlink-Adresse des 
+redundanten Gerätes (Shadow-Gerät) in der Variable <i>ShadowAddress</i> 
+eingetragen werden. Eine zweite Instanz der <i>axs_xlink_pbm</i> Klasse darf 
+nicht erstellt werden. Im unteren Bild sind zwei Shadow-Geräte zu sehen auf 
+Xlink-Adresse 9 und 27. Die Shadow-Geräte erhalten immer eine Profibusadresse 
+die um eins höher ist als das Hauptgerät. </font></p>
+<blockquote>
+  <p><img border="0" src="Xlink-Shadow.gif" width="649" height="638"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Über die Variable <i>ShadowActive</i> kann 
+ermittelt werden ob das Hauptgerät (0) oder das Shadow-Gerät (1) gerade den 
+Profibus bedient. In <i>ShadowStates</i> wird der Zustand der beiden Geräte 
+angezeigt ([0]=Haupt [1]=Shadow). In der <i>State</i> Variable wird jedoch immer 
+nur der Zustand des aktiven Gerätes angezeigt, das kann sowohl das Hauptgerät 
+als auch das Shadow-Gerät sein. Der BOOL-Wert <i>ShadowError</i> wird immer dann 
+auf TRUE gesetzt wenn am nicht aktiven Gerät eine Fehler erkannt wird. Über <i>
+ShadowSelect</i> lässt sich einstellen zu welchem Gerät geschalten werden soll.</font></p>
+<p><font face="Arial,Helvetica">Achtung, eine Master-Master-Kommunikation ist 
+nicht möglich wenn das Shadow-Gerät aktiv ist. </font></p>
+<p>&nbsp;</p>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<title>Implementation Notes</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h2><a name="top"></a><big><big><big><strong>Implementation Notes</strong></big></big></big></h2>
+
+<p><big>This section briefly details how to implement the PID controller in AutomaionX. A
+detailed explanation of the Regulatory PID features and internal control logic is
+explained in the <a href="internal.htm">Internal Control</a> web pages. An overview of the
+PID algorithm configured in AutomationX is shown in the <a href="logic.htm">PID Functional
+Diagram</a>. </big></p>
+
+<p><big>This section is divided into the following sections: Input/Output Links,
+Simulation Mode, and Not Connected Parameter. These sections detail the important features
+and the configuration of these features to properly implement the Regulatory PID
+controller in AutomationX. </big>
+
+<ol type="A" style="font-family: Arial; font-weight: bold">
+  <li><big><a name="InputOutput"></a><strong>Input/Output Links</strong></big></li>
+</ol>
+
+<blockquote>
+  <p><big>The Regulatory PID Controller consists of three inputs and one output. The three
+  inputs are <strong>value_in</strong>, <strong>setpoit_in</strong>, and <big>Dv</big>. The <strong>value_in</strong>
+  parameter is the measured value that we want to control. This value is usually a raw input
+  signal from the field and a typical input device would be an Allen-Bradley Analog Input
+  Flex I/O Module. The raw input signal is normally a 4 to 20 mAmp signal. The PID control
+  block automatically normalizes the raw input signal into its engineering units. </big></p>
+  <p><big>The <strong>setpoint_in</strong> parameter is the target value that we want the
+  value_in parameter to be controlled at. In a normal PID control loop the <strong>setpoint_in</strong>
+  parameter is the supplied by the operator. He enters this setpoint value from the <a
+  href="graphic.htm#figure2">PID Operations Interface</a>. However, this PID control loop
+  can be configured as a Cascaded controller. The output from another Regulatory PID control
+  loop can be used as the setpoint input to the Cascaded controller, see Figure 4. </big></p>
+  <p><big>The <strong>Dv</strong> parameter is control disturbances that is applied to the
+  output control signal. Normally one never applies any disturbances to the control output.
+  The default value is 0. If this value is set at a constant value of 10%, the minimum
+  control output would be set at 10%. This<strong> Dv </strong>parameter could be used to
+  set a minimum bias on the control output. </big></p>
+  <p><big>The control output parameter is <strong>control_out</strong>. <a name="figure6"></a></big></p>
+  <div align="left"><table border="0" cellpadding="0" cellspacing="0" width="700">
+    <tr>
+      <td><big><img src="_borders/implem1.jpg" alt="wpe1.jpg (17283 bytes)" WIDTH="704"
+      HEIGHT="316"></big></td>
+    </tr>
+    <tr>
+      <td><p align="left"><big>Figure 6: Cascade Block Diagram</big></td>
+    </tr>
+  </table>
+  </div><p align="center">&nbsp;</p>
+</blockquote>
+
+<ol style="font-weight: bold; font-family: Arial" type="A" start="2">
+  <li><big><a name="simulation"></a><strong>Simulation Mode</strong></big></li>
+</ol>
+
+<blockquote>
+  <p><font size="4">A project in AutomationX can be placed into simulation mode. If the
+  global simulation parameter ($$_simulation) is set ON, the project is placed into
+  simulation mode. In simulation mode all the input and output connections to I/O is
+  disabled and alias entities are substituted in its place. </p>
+  </font>
+</blockquote>
+
+<blockquote>
+  <p><font size="4">Using the simulation feature in AutomationX, one can simulate control
+  and logic strategies before implementing it on a real system</font><font size="3">. </font></p>
+</blockquote>
+
+<ol style="font-family: Arial; font-weight: bold" type="A" start="3">
+  <li><big><a name="notconnected"></a><strong>Not Connected Parameter</strong></big></li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>During the PID loop configuration the I/O for the controller may not
+  have been set up. To avoid PLC runtime errors when the project is installed, the Not
+  Connected (NC) parameter for the PID filed inputs and outputs should be enabled. The NC
+  parameter is located in the editor window for the PID parameter configuration. Select the
+  input or output parameter and the NC enable is located at the bottom of the editor window.</big></p>
+  <p align="left"><big>When the I/O is installed in the project do not forget to disable the
+  NC parameter. If this is not done the I/O will not receive any control.&nbsp; </big></p>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<p align="center"><font face="Arial">[ </font><big><a href="pid_lag.htm#Home">Home</a> | <a
+href="#top">Top of Page</a> |<a href="pid_lag.htm#Content"> Contents</a></big><font
+face="Arial"> ]</font> </p>
+</body>
+</html>

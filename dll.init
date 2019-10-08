@@ -1,0 +1,15 @@
+libStd.fb
+libRegler.fb
+libAuto.fb
+libComm.fb
+libDevice.fb
+libGAW.fb
+libProfibus.fb
+libIEC1131.fb
+#libInteco.fb
+#libMagna.fb
+#libPhilips.fb
+#libSiemens.fb
+#libVAE.fb
+#libVestra.fb
+#libVNI.fb

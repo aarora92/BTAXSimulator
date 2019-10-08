@@ -1,0 +1,1 @@
+classlib/communication/profibus/siemens/simatic_dp/interface_link/dp_asi/s5/digitaldevices/input/input_s5_asi4

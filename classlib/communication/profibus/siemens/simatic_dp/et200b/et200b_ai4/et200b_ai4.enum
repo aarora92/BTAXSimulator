@@ -1,0 +1,12 @@
+ET200B_4AI_Format:2_Complement=0,Sign_and_Value=1,bin=2;
+ET200B_4AI_Config:
+	deact=0x0,
+	voltage	{V_np1_25=0x14,
+		V_np2_5=0x15,
+		V_np5=0x16,
+		V_np10=0x19
+		},
+	current{mA_0to20=0x22,
+		mA_4to20=0x23,
+		mA_np20=0x24
+		};

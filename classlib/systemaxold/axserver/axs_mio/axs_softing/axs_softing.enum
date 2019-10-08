@@ -1,0 +1,11 @@
+MIO_Cards:	no_MIO_Card = -1,
+		Profibus=17,
+		Redundanz=16,
+		RS232=4,
+		RS422=6,
+		RS485=5,
+		ET200U_Profibus=0,
+		WRAP=8,
+		Dig_Input=12,
+		Dig_Output=13,
+		W_Plexer =18;

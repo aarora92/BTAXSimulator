@@ -1,0 +1,9 @@
+2018-09-07 14:03:35-894	-2	<WCPBTMRA>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-09-07 14:03:36-144	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-09-07 14:03:40-065	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-09-07 14:03:40-269	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-09-07 14:03:41-690	-2	<WCPBTMRA>AXSRV	3	User <r> logged in: access=0xFFFFFFFF
+2018-09-07 14:03:42-503	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-09-07 14:03:46-161	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-09-07 14:03:46-973	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-09-07 14:03:48-598	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]

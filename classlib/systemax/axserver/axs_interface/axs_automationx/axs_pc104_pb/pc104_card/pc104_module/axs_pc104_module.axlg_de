@@ -1,0 +1,160 @@
+RedundancyError [Text Normal]	Redundanz-Fehler
+RedundancyError [Text Activ]	Text
+RedundancyStatus [Text Normal]	Redundanz-Status
+RedundancyStatus [Text Activ]	Text
+ProfibusRedundancy [Text Normal]	Profibus - Redundanz
+ProfibusRedundancy [Text Activ]	Text
+Profibus2 [Text Normal]	Profibus
+Profibus2 [Text Activ]	Text
+PBSW2 [Text Normal]	Protokoll
+PBSW2 [Text Activ]	Text
+PBStatus2 [Text Normal]	Status
+PBStatus2 [Text Activ]	Text
+PBRunCnt2 [Text Normal]	Zähler
+PBRunCnt2 [Text Activ]	Text
+RedHelp [Text Normal]	Hilfe
+RedHelp [Text Activ]	Hilfe
+RedExit [Text Normal]	Beenden
+RedExit [Text Activ]	Beenden
+PBActiveDevices2 [Text Normal]	Aktive Geräte
+PBActiveDevices2 [Text Activ]	Text
+PBOutputData2 [Text Normal]	Ausgabe-Daten
+PBOutputData2 [Text Activ]	Text
+RedParameter [Text Normal]	Parameter
+RedParameter [Text Activ]	Parameter
+Profibus [Text Normal]	Profibus
+Profibus [Text Activ]	Text
+PBSW [Text Normal]	Protokoll
+PBSW [Text Activ]	Text
+PBStatus [Text Normal]	Status
+PBStatus [Text Activ]	Text
+PBRunCnt [Text Normal]	Zähler
+PBRunCnt [Text Activ]	Text
+PBHelp [Text Normal]	Hilfe
+PBHelp [Text Activ]	Hilfe
+PBExit [Text Normal]	Beenden
+PBExit [Text Activ]	Beenden
+PBParameter [Text Normal]	Parameter
+PBParameter [Text Activ]	Parameter
+ActiveDevices [Text Normal]	Aktive Geräte
+ActiveDevices [Text Activ]	Text
+InputData [Text Normal]	Eingabe-Daten
+InputData [Text Activ]	Text
+OutputData [Text Normal]	Eingabe-Daten
+OutputData [Text Activ]	Text
+Help [Text Normal]	Hilfe
+Help [Text Activ]	Hilfe
+Exit [Text Normal]	Beenden
+Exit [Text Activ]	Beenden
+SW [Text Normal]	Protokoll
+SW [Text Activ]	Text
+Status [Text Normal]	Status
+Status [Text Activ]	Text
+RunCnt [Text Normal]	Zähler
+RunCnt [Text Activ]	Text
+Channel [Text Normal]	Kanal
+Channel [Text Activ]	Text
+ResetCards [Text Normal]	Karte rücksetzen
+ResetCards [Text Activ]	Karte rücksetzen
+Redundancy [Text Normal]	Redundanz
+Redundancy [Text Activ]	Text
+RDSW [Text Normal]	Protokoll
+RDSW [Text Activ]	Text
+RDComOK [Text Normal]	Komm. OK
+RDComOK [Text Activ]	Text
+RDErrorMsg [Text Normal]	Fehler
+RDErrorMsg [Text Activ]	Text
+RDExit [Text Normal]	Beenden
+RDExit [Text Activ]	Beenden
+RDResetCard [Text Normal]	Karte rücksetzen
+RDResetCard [Text Activ]	Karte rücksetzen
+RDHelp [Text Normal]	Hilfe
+RDHelp [Text Activ]	Hilfe
+SerHelp [Text Normal]	Hilfe
+SerHelp [Text Activ]	Hilfe
+SerExit [Text Normal]	Beenden
+SerExit [Text Activ]	Beenden
+SerSWCH0 [Text Normal]	Kanal 0
+SerSWCH0 [Text Activ]	Text
+SerStatus [Text Normal]	Status
+SerStatus [Text Activ]	Text
+SerRunCnt [Text Normal]	Zähler
+SerRunCnt [Text Activ]	Text
+SerChannel [Text Normal]	Kanal
+SerChannel [Text Activ]	Text
+SerInputData [Text Normal]	Eingabe-Daten
+SerInputData [Text Activ]	Text
+SerOutputData [Text Normal]	Ausgabe-Daten
+SerOutputData [Text Activ]	Text
+SerResetCard [Text Normal]	Karte rücksetzen
+SerResetCard [Text Activ]	Karte rücksetzen
+SerSWCH1 [Text Normal]	Kanal 1
+SerSWCH1 [Text Activ]	Text
+SerSWCH2 [Text Normal]	Kanal 2
+SerSWCH2 [Text Activ]	Text
+SerSWCH3 [Text Normal]	Kanal 3
+SerSWCH3 [Text Activ]	Text
+Ser2Help [Text Normal]	Hilfe
+Ser2Help [Text Activ]	Hilfe
+Ser2Exit [Text Normal]	Beenden
+Ser2Exit [Text Activ]	Beenden
+Ser2SWCH0 [Text Normal]	Kanal 0
+Ser2SWCH0 [Text Activ]	Text
+Ser2Status [Text Normal]	Status
+Ser2Status [Text Activ]	Text
+Ser2RunCnt [Text Normal]	Zähler
+Ser2RunCnt [Text Activ]	Text
+Ser2Channel [Text Normal]	Kanal
+Ser2Channel [Text Activ]	Text
+Ser2InputData [Text Normal]	Eingabe-Daten
+Ser2InputData [Text Activ]	Text
+Ser2OutputData [Text Normal]	Ausgabe-Daten
+Ser2OutputData [Text Activ]	Text
+Ser2ResetCard [Text Normal]	Karte rücksetzen
+Ser2ResetCard [Text Activ]	Karte rücksetzen
+Ser2SWCH1 [Text Normal]	Kanal 1
+Ser2SWCH1 [Text Activ]	Text
+Address [Text Normal]	Adresse
+Address [Text Activ]	Text
+SlotTime [Text Normal]	Slot Time
+SlotTime [Text Activ]	Text
+BaudRate [Text Normal]	Baudrate
+BaudRate [Text Activ]	Text
+tsdr_max [Text Normal]	tsdr_max
+tsdr_max [Text Activ]	Text
+tsdr_min [Text Normal]	tsdr_min
+tsdr_min [Text Activ]	Text
+ttr [Text Normal]	ttr
+ttr [Text Activ]	Text
+ResetSetNewParameter [Text Normal]	Rücksetzen --> Neue Parameter setzen
+ResetSetNewParameter [Text Activ]	Rücksetzen
+gap [Text Normal]	gap
+gap [Text Activ]	Text
+tset [Text Normal]	tset
+tset [Text Activ]	Text
+hsa [Text Normal]	hsa
+hsa [Text Activ]	Text
+Load [Text Normal]	Laden
+Load [Text Activ]	Laden
+ProfibusParameter [Text Normal]	Profibus-Parameter
+ProfibusParameter [Text Activ]	Text
+Save [Text Normal]	Sichern
+Save [Text Activ]	Sichern
+Filename [Text Normal]	Dateiname
+Filename [Text Activ]	Text
+PPHelp [Text Normal]	Hilfe
+PPHelp [Text Activ]	Hilfe
+PPExit [Text Normal]	Beenden
+PPExit [Text Activ]	Beenden
+Parameter [Text Normal]	Parameter
+Parameter [Text Activ]	Text
+RDRDSW [Text Normal]	RD-SW
+RDRDSW [Text Activ]	Text
+tsdrmax [Text Normal]	tsdr_max
+tsdrmax [Text Activ]	Text
+tsdrmin [Text Normal]	tsdr_min
+tsdrmin [Text Activ]	Text
+ResetSetNewPBParameter [Text Normal]	Reset --> Set new PB Parameter
+ResetSetNewPBParameter [Text Activ]	Reset
+filename [Text Normal]	filename
+filename [Text Activ]	Text

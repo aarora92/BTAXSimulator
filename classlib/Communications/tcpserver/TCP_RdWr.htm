@@ -1,0 +1,513 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>TCP_RdWr</TITLE>
+<META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<P><A NAME="top"></A></P>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=652>
+<TR><TD VALIGN="TOP" BGCOLOR="#808080" HEIGHT=53>
+<P><B><FONT FACE="Arial" SIZE=7 COLOR="#ffffff">TCP_RdWr</B></FONT></TD>
+</TR>
+</TABLE>
+
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Features"></A>Features</B></FONT> </P>
+<FONT FACE="Arial"><P>The TCP Read Write symbol communicates with another TCP Read Write symbol via <STRONG>TCP</STRONG>. </P>
+<P>One variable or whole symbols can be transmitted. </P>
+</FONT><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A> <FONT FACE="Arial" SIZE=4>| </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="75%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Installation"><A NAME="Class_Components"></A></A>Components and Installation</B></FONT> <BR>
+&nbsp; <BR>
+&nbsp;<FONT FACE="Arial">The TCP_RdWr class is comprised of the following components (files):</FONT> <BR>
+&nbsp; </P>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH=621>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P><B><FONT FACE="Arial">Class Component</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP" BGCOLOR="#ffffff">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP" BGCOLOR="#ffffff">
+<B><FONT FACE="Arial"><P>File Name(s)</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Class File</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Includes the process picture representation and any popup menus.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>TCP_RdWr.symbol</FONT> </P>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Graphic Files</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Class Specific Graphic Files for documentation.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>TCP_RdWr GUI_Rd.gif</P>
+<P>TCP_RdWr GUI_Wr.gif</P>
+<P>TCP_RdWr<I> </I>POP_Rd.gif</P>
+<P>TCP_RdWr<I> </I>POP_Wr.gif</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>HTML-Document</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>HTML document for Online Help.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>TCP_RdWr.htm</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Enum-File</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Enumerator file</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>TCP_RdWr.enum</FONT></TD>
+</TR>
+</TABLE>
+
+<P><BR>
+&nbsp; </P>
+<B><FONT FACE="Arial"><P>Installation: </B>The above listed files must be copied into a common sub-directory within the</P>
+<P>project's "classlib" directory. The name of the common directory can be chosen freely.</FONT> </P>
+<FONT FACE="Arial"><P>TCP data transfer is managed by the TCP Server process. </P>
+<P>An entry in the <B>UserProcesses.pls</B> file is needed. </P>
+<B><I><P>:name=tcpserver autostart=True restart=True always=True</I></FONT><FONT SIZE=2>&nbsp; <BR>
+</FONT>&nbsp; </P>
+</B><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A><FONT SIZE=4> </FONT><FONT FACE="Arial" SIZE=4>|</FONT><FONT SIZE=4> </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="UserInterface"></A>Graphical User Interface</B></FONT> <BR>
+&nbsp; <BR>
+<FONT FACE="Arial">The TCP_RdWr class represents an actual Read-Write module. The instance name of the</P>
+<P>module will appear in white text on the top right of the symbol. On the top left the symbol </P>
+<P>mode (Read / Write) is displayed. The title will change from green to flashing red if an error</P>
+<P>occurs. </P>
+<P>The symbol is divided into four sections:</P>
+<OL>
+
+<U><LI>Data visualization with variable connection info:</LI>
+</U><P>Connection: Actual connection with variable or symbol.</P>
+<P>Datatype: Type of connected data.</P>
+<U><LI>Communication info with com. LEDs</LI>
+<P>Write mode -&gt; Transmission</P>
+</U><P>done: Transm, done</P>
+<P>OK: Transm. OK</P>
+<P>Trigger: Transm. trigger</P>
+<P>started: Transm. started</P>
+
+<U><P>Read mode -&gt; Receive</P>
+</U><P>NewRec: New data received</P>
+<P>Overflow: Data overflow</P>
+<U><LI>Connection info with status LEDs and Lifetick</LI>
+</U><P>OK: TCP connection OK</P>
+<P>Error: TCP connection error</P>
+<P>Lifetick: In lifetick mode number of received lifeticks</P>
+<U><LI>Status string </LI></OL>
+<DIR>
+<DIR>
+
+</U><P>Actual status of symbol.</P></DIR>
+</DIR>
+
+</FONT><P>&nbsp;<IMG SRC="TCP_RdWr_GUI_Wr.gif" WIDTH=398 HEIGHT=347></P>
+<P><small><FONT FACE="Arial">Figure 1: Graphical Representation (Write mode)</small></P>
+</FONT><P>&nbsp;<IMG SRC="TCP_RdWr_GUI_Rd.gif" WIDTH=398 HEIGHT=347> <BR>
+&nbsp; </P>
+<P><small><FONT FACE="Arial">Figure 2: Graphical Representation (Read mode)</small></P>
+<P>The <STRONG>PopUp</STRONG> is invoked by selecting the graphical representation. It shows the </P>
+<P>communication settings, symbol select button, trigger button, communication LEDs,</P>
+<P>connection LEDs and the status string. To activate the symbol the Select button must</P>
+<P>be on. On the top of the PopUp the TCP communication settings are displayed. </P>
+<P>The Transmission, Connection and status string sections are similar to them in the </P>
+<P>Graphical Representation.</P>
+</FONT><P><IMG SRC="TCP_RdWr_POP_Wr.gif" WIDTH=494 HEIGHT=351></P>
+<P><small><FONT FACE="Arial">Figure 3: The communication PopUp (Write mode)</small></FONT> </P>
+<P>&nbsp;</P>
+<P><IMG SRC="TCP_RdWr_POP_Rd.gif" WIDTH=492 HEIGHT=348></P>
+<FONT FACE="Arial"><P>Figure 4: The send Data PopUp (Read mode)</small> </P>
+<P>&nbsp;</P>
+</FONT><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Configuration"></A>Configuration</B></FONT> </P>
+<FONT FACE="Arial"><P>The following table lists the configuration parameters for the TCP Read Write symbol. </P>
+<P>The parameter data type, the default values and a brief description are listed. The grey </P>
+<P>shaded rows are parameters which must not be changed.</FONT> </P>
+<TABLE BORDER CELLSPACING=1 WIDTH=614>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<P ALIGN="CENTER"><FONT FACE="Arial">Item</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P>Variable</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P ALIGN="CENTER">Type </FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P ALIGN="CENTER">Default </FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P>Description</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">1</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">host_dest</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">STRING</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P ALIGN="CENTER">...</TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>IP Address (xxx.xxx.xxx.xxx) xxx = 0 - 255 </FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">2</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">port_id</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">USINT</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Port ID offset</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">3</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">baseport</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">INT</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<P>...</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">4</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">server_mode</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">FALSE</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>TCP Server selection</P>
+<P>The server starts the communication</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">5</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">seperator_byte</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">BYTE</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Seperator byte array for </P>
+<P>ASCII communication</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">6</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">seperator_len</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">USINT</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Seperator length</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">7</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">symbol_mode</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">Symbl_mode</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">READ</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>READ / WRITE selection</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">8</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">activ</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">YES</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Symbol activation </FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">9</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">var_type</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">Datatype</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<P ALIGN="CENTER">...</TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>Type of connected variable or symbol</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">10</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">var_connection</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">STRING</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P ALIGN="CENTER">...</TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Instance name of symbol or variable name</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">11</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">mode_tcp</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">Tcp_mode</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P ALIGN="CENTER">Binary_Lifeticks</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>TCP mode: Binary with lifeticks, binary without lifeticks and ASCII without lifeticks</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">12</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">trigger</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P>Write trigger</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">13</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">trans_started</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Transmission started</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">14</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">trans_done</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Transmission done</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">15</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">trans_error</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Transmission error</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">16</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">new_rec_data</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>New receive data</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">17</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">rec_overflow</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Receive overflow</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">18</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">con_ok</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>TCP connection ok</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">19</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">con_lifetick</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">UDINT</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>TCP lifetick counter</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">20</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">con_error</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">BOOL</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>TCP connection error</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">21</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">error</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">ALARM</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">NO</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Error variable</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">22</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">state</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">DINT</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">0</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>State of communication and symbol</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">23</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">status_string</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">STRING</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<P ALIGN="CENTER">...</TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>State string of communication and symbol</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">24</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">local_struct</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P ALIGN="CENTER">POINTER</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<P ALIGN="CENTER">...</TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Internal pointer for the local structure</FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=41>
+<FONT FACE="Arial"><P ALIGN="CENTER">25</FONT></TD>
+<TD WIDTH="22%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=41>
+<FONT FACE="Arial"><P ALIGN="CENTER">SPS_Cycle</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=41>
+<FONT FACE="Arial"><P ALIGN="CENTER">code</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=41>
+<FONT FACE="Arial"><P ALIGN="CENTER">axx_function("tcp_</P>
+<P ALIGN="CENTER">readwrite","TCP</P>
+<P ALIGN="CENTER">ReadWrite");</FONT></TD>
+<TD WIDTH="38%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=41>
+<FONT FACE="Arial"><P>Run the AXX function</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="Arial"><STRONG><P>&nbsp;</P>
+</FONT></STRONG><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A><FONT SIZE=4> </FONT><FONT FACE="Arial" SIZE=4>|</FONT><FONT SIZE=4> </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="implementation"></A>Implementation Notes</B></FONT> </P>
+<FONT FACE="Arial"><P>Symbol for data transfer of one variable or one symbol via TCP.</P>
+</FONT><P><A NAME="qualities"></A></P>
+<U><FONT FACE="Arial"><P>Supported datatypes:</P>
+</U><B><P>BOOL, BYTE, SINT, USINT, INT, UINT, DINT, UDINT, REAL, LREAL, STRING, ALARM and ENUM</P>
+</B></FONT><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Class_Modification_History"></A>Modification History</B></FONT> </P>
+<FONT FACE="Arial"><P>The following table lists the modifications made to the NoProto_RdWr class.</FONT> <BR>
+&nbsp; </P>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=3 WIDTH=623>
+<TR><TD WIDTH="7%" VALIGN="MIDDLE">
+<P><B><FONT FACE="Arial">I<A NAME="table3"></A>tem</B></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Date</B></FONT> <BR>
+<B><FONT FACE="Arial">(m/d/y)</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Name</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>File</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Reason</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="MIDDLE">
+<FONT FACE="Arial"><P>1</FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial"><P>02/05/00</FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial"><P>Andreas Nebenfuehr</FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="36%" VALIGN="MIDDLE">
+<FONT FACE="Arial"><P>Initial Design</FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="36%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="36%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="36%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+</TR>
+</TABLE>
+
+<P><BR>
+&nbsp; </P>
+<P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#implementation"><FONT FACE="Arial" SIZE=4>Implementation Notes</FONT></A><FONT SIZE=4> </FONT><FONT FACE="Arial" SIZE=4>|</FONT><FONT SIZE=4> </FONT><A HREF="#Class_Modification_History"><FONT FACE="Arial" SIZE=4>Modifications History</FONT></A> </P>
+<P><HR ALIGN="LEFT" WIDTH="90%"></P></BODY>
+</HTML>

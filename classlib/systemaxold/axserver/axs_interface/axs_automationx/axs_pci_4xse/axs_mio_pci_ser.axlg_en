@@ -1,0 +1,10 @@
+aXPCI [Text Normal]	automationX\ PCI
+aXPCI [Text Activ]	Text
+aXSer [Text Normal]	 aX  Ser
+aXSer [Text Activ]	Text
+Mio0 [Text Normal]	MIO 0
+Mio0 [Text Activ]	Text
+Text [Text Normal]	This is a four channel automationX serial pci card. The\state led displays the actual card state.\\To get detailed information about each serial\channel, click on the field below.\(Detailed channel information is only available if the \card is running)\Please refer to the Implementation Notes of the\automationX documentation if the card is not running.
+Text [Text Activ]	Text
+WrongInstance [Text Normal]	Text
+WrongInstance [Text Activ]	Wrong Instancename

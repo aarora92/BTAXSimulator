@@ -1,0 +1,674 @@
+2016-12-01 18:26:25-000	9999	** WARNING-SIZE **	On	** File size limit exceed !  **
+2016-12-02 05:20:28-587	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-02 05:25:00-114	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-02 10:13:42-600	-2	<WCPBTMRA>AXED	3	XError (display = :0.0): BadMatch (invalid parameter attributes).
+2016-12-02 10:13:44-801	-2	<WCPBTMRA>EDT	3	Saving file:Ethanol.tree.
+2016-12-02 10:13:45-202	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-02 10:13:47-204	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2016-12-02 10:13:47-404	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-02 10:13:48-204	-2	<WCPBTMRA>FSRV	3	Local client 32394 forces TableCheck
+2016-12-02 10:13:48-204	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-02 10:13:48-608	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-02 10:14:35-271	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-02 10:14:36-872	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-02 10:16:46-041	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-02 10:36:12-152	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-02 10:36:17-555	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-02 10:41:47-471	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-02 10:41:52-074	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-02 15:20:22-012	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-02 15:20:40-819	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-02 16:01:03-198	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.36.169)[SRV].
+2016-12-02 16:01:03-198	-2	<WCPBTMRA>PLS	3	X-IO Error (display = 10.26.36.169:0.0)[SRV].
+2016-12-02 16:26:40-510	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-02 20:20:29-764	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-03 04:44:55-717	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-03 06:28:39-573	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-03 08:27:44-559	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-04 05:39:50-725	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-04 12:58:59-073	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.31)[SRV].
+2016-12-04 13:00:59-109	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.166)[SRV].
+2016-12-04 15:40:27-275	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.31)[SRV].
+2016-12-04 15:41:21-497	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.166)[SRV].
+2016-12-04 16:01:33-756	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-05 07:25:16-745	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-05 07:45:32-770	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=239  status=0
+2016-12-05 07:48:22-831	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-05 08:11:04-506	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.35)[SRV].
+2016-12-05 08:34:15-346	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-05 08:45:30-337	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-05 10:53:28-884	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-05 10:58:20-812	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-05 11:08:39-059	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-05 11:10:05-284	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-05 11:16:24-808	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-05 11:16:32-410	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-05 11:17:05-418	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-05 11:46:49-338	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.56 sec].
+2016-12-05 12:01:38-087	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-05 12:01:46-501	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-05 18:13:34-886	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-06 10:49:54-567	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-06 11:43:29-210	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-06 11:47:07-510	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-06 11:56:22-168	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-06 12:01:20-532	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-06 12:01:22-733	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-06 13:38:58-552	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.31)[SRV].
+2016-12-06 13:49:03-494	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.31)[SRV].
+2016-12-06 18:31:51-757	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-06 20:31:02-594	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-07 04:52:13-782	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-07 06:29:17-321	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=242  status=0
+2016-12-07 06:31:23-564	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-07 07:18:10-056	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-07 08:08:49-086	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-07 09:06:03-268	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-07 09:23:38-430	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2016-12-07 11:11:11-208	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-07 12:42:40-785	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-07 13:05:04-152	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-07 13:05:24-367	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-07 13:05:26-970	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-07 14:00:07-545	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-07 15:59:18-380	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.34)[SRV].
+2016-12-07 16:03:20-298	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2016-12-07 16:08:17-073	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-07 16:08:19-675	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-07 16:29:27-226	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-08 08:59:42-966	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-08 08:59:46-967	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-08 09:16:44-857	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-08 14:32:43-066	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-08 14:33:39-503	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-08 15:47:25-302	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-09 08:35:28-665	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2016-12-09 08:40:19-449	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-09 08:44:03-068	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-09 08:44:05-670	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.34)[SRV].
+2016-12-09 10:18:09-846	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-09 10:18:17-059	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-09 10:29:26-025	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-09 11:27:03-332	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-09 11:27:33-961	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-09 11:28:41-018	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-09 11:29:39-908	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-09 14:12:49-993	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=189  status=0
+2016-12-09 14:13:04-198	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=15  status=0
+2016-12-09 14:13:08-745	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=170  status=0
+2016-12-09 14:13:09-748	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=195  status=0
+2016-12-09 14:55:47-007	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.167)[SRV].
+2016-12-09 14:55:56-015	-2	<WCPBTMRA>AXSRV	3	User <Michael> logged in
+2016-12-09 15:26:12-054	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.167)[SRV].
+2016-12-09 16:02:11-909	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-09 16:20:53-566	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.37.168:0.0): BadMatch (invalid parameter attributes).
+2016-12-09 16:21:05-170	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-09 16:21:05-370	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-09 16:21:07-572	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[4]
+2016-12-09 16:21:07-772	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-09 16:21:08-372	-2	<WCPBTMRA>FSRV	3	Local client 11625 forces TableCheck
+2016-12-09 16:21:08-572	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-09 16:21:08-972	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-09 16:26:02-500	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-09 16:26:02-701	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-09 16:26:03-301	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[5]
+2016-12-09 16:26:03-501	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-09 16:26:03-901	-2	<WCPBTMRA>FSRV	3	Local client 11625 forces TableCheck
+2016-12-09 16:26:04-101	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-09 16:26:04-501	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-09 16:58:18-994	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=15  status=0
+2016-12-09 16:59:24-295	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=16  status=0
+2016-12-09 16:59:37-935	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=199  status=0
+2016-12-09 16:59:39-340	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=202  status=0
+2016-12-09 16:59:43-352	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=15  status=0
+2016-12-09 17:02:28-062	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=250  status=0
+2016-12-09 19:50:43-793	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-09 19:50:51-396	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-09 19:50:52-996	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.36.169)[SRV].
+2016-12-09 19:51:59-828	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-09 19:52:13-654	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-09 19:52:18-657	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-09 19:52:55-877	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-09 21:37:32-025	-2	<WCPBTMRA>AXSRV	3	User Processes [pls] restart
+2016-12-09 21:58:23-986	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-10 05:20:35-391	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-10 06:17:11-685	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-10 09:13:15-650	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-10 09:21:24-584	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.37.168:0.0): BadMatch (invalid parameter attributes).
+2016-12-10 09:21:51-597	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-10 09:21:51-797	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-10 09:21:52-598	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[6]
+2016-12-10 09:21:52-798	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-10 09:21:53-398	-2	<WCPBTMRA>FSRV	3	Local client 16392 forces TableCheck
+2016-12-10 09:21:53-598	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-10 09:21:53-999	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-10 09:24:18-882	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-10 09:24:19-082	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-10 09:24:19-884	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[7]
+2016-12-10 09:24:20-084	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-10 09:24:20-684	-2	<WCPBTMRA>FSRV	3	Local client 16392 forces TableCheck
+2016-12-10 09:24:20-887	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-10 09:24:21-290	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-10 10:53:36-288	-2	WCPBTMRA	3	PACI:DEFAULT[4] cmd=195 func=0 addr=0 cnr=0 status=0
+2016-12-10 10:54:04-625	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=2  status=0
+2016-12-10 10:54:44-806	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=16  status=0
+2016-12-10 10:54:48-826	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=16  status=0
+2016-12-10 10:55:09-917	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=15  status=0
+2016-12-10 13:02:37-931	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-10 13:02:40-732	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.168)[SRV].
+2016-12-10 13:45:48-230	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-10 13:45:54-450	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-10 15:31:28-123	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-11 06:00:57-916	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-11 07:47:49-049	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-11 08:31:12-240	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-11 10:18:07-810	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-11 10:18:29-017	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-12 06:11:29-092	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-12 06:52:21-087	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.38.97)[SRV].
+2016-12-12 07:12:54-200	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-12 07:13:02-804	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-12 07:13:12-211	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2016-12-13 11:15:34-464	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-13 11:29:24-717	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-13 13:00:07-617	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-13 16:05:58-377	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-14 03:06:37-883	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-14 06:02:26-569	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-14 10:57:52-503	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-14 11:00:23-533	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-14 11:51:09-179	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2016-12-14 14:29:25-343	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-15 00:28:51-933	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-15 02:43:31-393	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-15 02:45:37-662	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-15 17:26:09-213	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-15 17:28:21-447	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-16 05:37:24-763	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-16 05:50:08-360	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-16 13:35:02-459	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-16 15:26:17-952	-2	<WCPBTMRA>AXPV	3	XError (display = 156.44.212.31:0.0): BadWindow (invalid Window parameter).
+2016-12-17 11:52:20-353	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-17 16:46:06-017	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-18 06:23:41-048	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-19 05:16:42-934	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-19 06:03:15-376	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.35)[SRV].
+2016-12-19 06:13:22-590	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.34)[SRV].
+2016-12-19 06:35:49-201	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-19 10:47:43-678	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-19 10:48:28-698	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-19 10:51:29-581	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-19 13:19:43-172	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-19 13:20:39-195	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-19 14:04:32-037	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.31)[SRV].
+2016-12-19 14:05:11-648	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.31)[SRV].
+2016-12-19 14:33:50-101	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-19 18:47:02-888	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-19 18:57:16-953	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-19 18:57:49-181	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-20 11:22:02-867	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-20 11:22:20-477	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-20 11:22:26-481	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-20 11:23:56-345	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-20 12:12:44-859	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-20 14:22:44-353	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.167)[SRV].
+2016-12-20 14:23:28-979	-2	<WCPBTMRA>AXSRV	3	User <Michael> logged in
+2016-12-20 14:24:03-213	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.167)[SRV].
+2016-12-20 14:27:27-872	8	<WCPBTMRA>P_RED	3	ProfiRed.-Card: WARNING Timeout.
+2016-12-20 14:30:43-940	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.167)[SRV].
+2016-12-20 14:31:03-345	-2	<WCPBTMRA>AXSRV	3	User <Michael> logged in
+2016-12-20 14:31:39-169	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2016-12-20 14:32:06-376	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.167)[SRV].
+2016-12-20 14:32:20-178	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.167)[SRV].
+2016-12-20 14:32:45-584	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2016-12-20 14:34:39-417	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.167)[SRV].
+2016-12-20 15:33:17-930	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.38.97)[SRV].
+2016-12-20 15:40:12-834	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-20 15:41:25-252	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.31:0.0): BadMatch (invalid parameter attributes).
+2016-12-20 15:41:29-253	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-20 15:41:29-253	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-20 15:41:31-454	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[8]
+2016-12-20 15:41:31-654	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-20 15:41:32-454	-2	<WCPBTMRA>FSRV	3	Local client 6800 forces TableCheck
+2016-12-20 15:41:32-654	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-20 15:41:33-054	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-20 15:41:46-457	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-20 15:41:46-657	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-20 15:41:47-458	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[9]
+2016-12-20 15:41:47-658	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-20 15:41:48-258	-2	<WCPBTMRA>FSRV	3	Local client 6800 forces TableCheck
+2016-12-20 15:41:48-458	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-20 15:41:48-658	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-20 16:28:25-387	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-20 17:15:30-623	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-20 17:46:48-201	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2016-12-20 18:21:28-730	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2016-12-21 07:41:29-016	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-21 07:44:59-885	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-21 10:30:50-877	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2016-12-21 10:30:59-081	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:30:59-282	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:31:00-082	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[10]
+2016-12-21 10:31:00-282	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:31:00-882	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:31:01-082	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:31:01-282	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 10:37:21-808	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:37:22-008	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:37:22-609	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[11]
+2016-12-21 10:37:22-809	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:37:23-409	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:37:23-613	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:37:23-813	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 10:38:40-638	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:38:40-838	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:38:41-439	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[12]
+2016-12-21 10:38:41-639	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:38:42-039	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:38:42-239	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:38:42-639	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 10:47:29-978	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:47:30-178	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:47:30-978	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[13]
+2016-12-21 10:47:31-178	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:47:31-578	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:47:31-779	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:47:31-979	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 10:48:29-415	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:48:29-816	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:48:30-416	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[14]
+2016-12-21 10:48:30-616	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:48:31-016	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:48:31-216	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:48:31-616	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 10:52:05-297	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 10:52:05-497	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 10:52:06-297	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[15]
+2016-12-21 10:52:06-497	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 10:52:06-897	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 10:52:06-897	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 10:52:07-497	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 11:42:37-015	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 11:42:37-215	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 11:42:37-815	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[16]
+2016-12-21 11:42:38-016	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 11:42:38-616	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 11:42:38-816	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 11:42:39-016	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 11:44:44-059	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 11:44:44-059	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 11:44:44-859	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[17]
+2016-12-21 11:44:45-059	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 11:44:45-459	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 11:44:45-659	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 11:44:46-060	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 11:45:14-667	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 11:45:14-867	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 11:45:15-467	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[18]
+2016-12-21 11:45:15-667	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 11:45:16-067	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 11:45:16-267	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 11:45:16-667	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 12:08:44-908	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 12:08:45-108	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 12:08:45-708	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[19]
+2016-12-21 12:08:45-908	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 12:08:46-508	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 12:08:46-508	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 12:08:46-909	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 12:09:03-913	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 12:09:04-113	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 12:09:04-913	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[20]
+2016-12-21 12:09:05-113	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 12:09:05-714	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 12:09:05-714	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 12:09:06-114	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 12:14:34-029	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 12:14:34-230	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 12:14:34-830	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[21]
+2016-12-21 12:14:35-030	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 12:14:35-630	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 12:14:35-630	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 12:14:36-031	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 13:26:25-380	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 13:26:25-781	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 13:26:26-381	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[22]
+2016-12-21 13:26:26-582	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 13:26:26-982	-2	<WCPBTMRA>FSRV	3	Local client 11856 forces TableCheck
+2016-12-21 13:26:27-182	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 13:26:27-583	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 13:58:51-637	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-21 14:19:47-340	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2016-12-21 14:20:29-357	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:20:29-557	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:20:30-358	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[23]
+2016-12-21 14:20:30-558	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 14:20:31-158	-2	<WCPBTMRA>FSRV	3	Local client 13496 forces TableCheck
+2016-12-21 14:20:31-358	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 14:20:31-558	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 14:21:55-192	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:21:55-392	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:21:56-192	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[24]
+2016-12-21 14:21:56-392	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 14:21:56-993	-2	<WCPBTMRA>FSRV	3	Local client 13496 forces TableCheck
+2016-12-21 14:21:57-193	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 14:21:57-393	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 14:23:09-034	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:23:09-034	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:23:53-053	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:23:53-053	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:23:53-854	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[25]
+2016-12-21 14:23:54-054	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 14:23:54-654	-2	<WCPBTMRA>FSRV	3	Local client 13496 forces TableCheck
+2016-12-21 14:23:54-854	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 14:23:55-255	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 14:43:46-316	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:43:46-516	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:43:47-117	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[26]
+2016-12-21 14:43:47-317	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 14:43:47-917	-2	<WCPBTMRA>FSRV	3	Local client 13496 forces TableCheck
+2016-12-21 14:43:47-917	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 14:43:48-317	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 14:50:52-031	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 14:50:52-231	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 14:50:53-032	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[27]
+2016-12-21 14:50:53-235	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 14:50:53-636	-2	<WCPBTMRA>FSRV	3	Local client 13496 forces TableCheck
+2016-12-21 14:50:53-836	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 14:50:54-236	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 15:16:25-877	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=159  status=0
+2016-12-21 15:17:36-902	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2016-12-21 16:40:34-458	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-21 16:43:19-931	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.31:0.0): BadMatch (invalid parameter attributes).
+2016-12-21 16:43:26-133	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 16:43:26-133	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 16:43:27-133	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[28]
+2016-12-21 16:43:27-334	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 16:43:27-934	-2	<WCPBTMRA>FSRV	3	Local client 14128 forces TableCheck
+2016-12-21 16:43:28-134	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 16:43:28-534	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 16:45:30-995	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 16:45:31-195	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 16:45:31-795	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[29]
+2016-12-21 16:45:31-995	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 16:45:32-595	-2	<WCPBTMRA>FSRV	3	Local client 14128 forces TableCheck
+2016-12-21 16:45:32-595	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 16:45:32-995	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 17:55:21-378	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.31:0.0): BadMatch (invalid parameter attributes).
+2016-12-21 17:55:34-583	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 17:55:34-583	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 17:55:35-384	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[30]
+2016-12-21 17:55:35-584	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 17:55:36-584	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 17:55:36-584	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 17:55:36-984	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 17:58:22-247	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 17:58:22-447	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 17:58:23-248	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[31]
+2016-12-21 17:58:23-448	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 17:58:24-049	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 17:58:24-249	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 17:58:24-449	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:05:00-776	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:05:00-776	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:05:01-577	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[32]
+2016-12-21 18:05:01-777	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:05:02-178	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:05:02-379	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:05:02-779	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:07:19-118	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:07:19-318	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:07:20-118	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[33]
+2016-12-21 18:07:20-318	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:07:20-918	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:07:20-918	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:07:21-319	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:08:28-031	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:08:28-231	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:08:29-034	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[34]
+2016-12-21 18:08:29-235	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:08:29-636	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:08:29-836	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:08:30-236	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:09:39-680	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:09:39-881	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:09:40-481	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[35]
+2016-12-21 18:09:40-681	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:09:41-081	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:09:41-281	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:09:41-681	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:24:42-605	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:24:42-805	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:24:43-606	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[36]
+2016-12-21 18:24:43-806	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:24:44-206	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:24:44-407	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:24:44-807	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:37:00-760	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:37:00-961	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:37:01-761	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[37]
+2016-12-21 18:37:01-961	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:37:02-361	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:37:02-561	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:37:02-965	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:38:44-424	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:38:44-624	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:38:45-224	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[38]
+2016-12-21 18:38:45-425	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:38:45-826	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:38:46-027	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:38:46-427	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:41:05-254	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:41:05-254	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:41:06-055	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[39]
+2016-12-21 18:41:06-255	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:41:06-855	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:41:07-055	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:41:07-459	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:42:10-078	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:42:10-078	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:42:10-878	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[40]
+2016-12-21 18:42:11-078	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:42:11-679	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:42:11-679	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:42:12-083	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:42:40-698	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:42:40-899	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:42:41-699	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[41]
+2016-12-21 18:42:41-899	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:42:42-500	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:42:42-700	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:42:43-100	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:44:26-000	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:44:26-200	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:44:26-803	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[42]
+2016-12-21 18:44:27-003	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:44:27-603	-2	<WCPBTMRA>FSRV	3	Local client 14435 forces TableCheck
+2016-12-21 18:44:27-603	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:44:28-004	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:46:07-925	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-21 18:49:40-586	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-21 18:50:32-632	-2	<WCPBTMRA>AXED	3	XError (display = :0.0): BadMatch (invalid parameter attributes).
+2016-12-21 18:50:38-438	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:50:38-639	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:50:39-441	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[43]
+2016-12-21 18:50:39-641	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:50:40-241	-2	<WCPBTMRA>FSRV	3	Local client 14677 forces TableCheck
+2016-12-21 18:50:40-441	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:50:40-641	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:50:58-658	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:50:58-858	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:50:59-660	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[44]
+2016-12-21 18:50:59-860	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:51:00-460	-2	<WCPBTMRA>FSRV	3	Local client 14677 forces TableCheck
+2016-12-21 18:51:00-460	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:51:00-860	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:57:42-393	-2	<WCPBTMRA>AXED	3	XError (display = :0.0): BadMatch (invalid parameter attributes).
+2016-12-21 18:57:43-593	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:57:44-193	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:57:44-994	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[45]
+2016-12-21 18:57:45-194	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:57:45-795	-2	<WCPBTMRA>FSRV	3	Local client 14677 forces TableCheck
+2016-12-21 18:57:45-795	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:57:46-195	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 18:59:25-500	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 18:59:25-700	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 18:59:26-501	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[46]
+2016-12-21 18:59:26-701	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 18:59:27-703	-2	<WCPBTMRA>FSRV	3	Local client 14677 forces TableCheck
+2016-12-21 18:59:27-703	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 18:59:28-104	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:06:12-552	-2	<WCPBTMRA>AXED	3	XError (display = :0.0): BadMatch (invalid parameter attributes).
+2016-12-21 19:06:14-954	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:06:15-356	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:06:15-959	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[47]
+2016-12-21 19:06:16-159	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:06:16-960	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:06:17-160	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:06:17-560	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:07:07-606	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:07:07-806	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:07:08-606	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[48]
+2016-12-21 19:07:08-806	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:07:09-407	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:07:09-407	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:07:09-807	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:10:02-763	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:10:02-963	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:10:03-566	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[49]
+2016-12-21 19:10:03-767	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:10:04-368	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:10:04-568	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:10:04-968	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:15:18-776	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:15:18-976	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:15:19-579	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[50]
+2016-12-21 19:15:19-779	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:15:20-380	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:15:20-380	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:15:20-784	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:23:09-417	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-21 19:23:26-853	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:23:27-053	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:23:27-855	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[51]
+2016-12-21 19:23:28-055	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:23:28-655	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:23:28-655	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:23:29-055	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-21 19:23:29-055	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:24:59-557	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:25:00-159	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:25:00-762	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[52]
+2016-12-21 19:25:00-962	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:25:01-563	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:25:01-763	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:25:02-164	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:26:59-682	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:27:00-283	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:27:00-884	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[53]
+2016-12-21 19:27:01-084	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:27:01-684	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:27:01-884	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:27:02-284	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:28:34-738	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:28:34-938	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:28:35-738	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[54]
+2016-12-21 19:28:35-938	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:28:36-339	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:28:36-539	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:28:36-939	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:30:01-627	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:30:01-627	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:30:02-428	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[55]
+2016-12-21 19:30:02-628	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:30:03-629	-2	<WCPBTMRA>FSRV	3	Local client 14750 forces TableCheck
+2016-12-21 19:30:03-629	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:30:04-029	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:33:05-163	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-21 19:33:30-388	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2016-12-21 19:43:10-690	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:43:10-891	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:43:11-692	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[56]
+2016-12-21 19:43:11-892	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:43:12-493	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 19:43:12-693	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:43:13-093	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:45:55-734	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-21 19:50:24-451	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:50:24-651	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:50:25-256	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[57]
+2016-12-21 19:50:25-458	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:50:25-863	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 19:50:25-863	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:50:26-463	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 19:53:49-425	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2016-12-21 19:58:16-459	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 19:58:16-660	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 19:58:17-460	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[58]
+2016-12-21 19:58:17-660	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 19:58:18-261	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 19:58:18-261	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 19:58:18-661	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 20:05:40-084	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 20:05:40-285	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 20:05:40-886	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[59]
+2016-12-21 20:05:41-086	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 20:05:41-687	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 20:05:41-887	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 20:05:42-288	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 20:12:52-779	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 20:12:52-979	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 20:12:53-783	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[60]
+2016-12-21 20:12:53-984	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 20:12:54-384	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 20:12:54-584	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 20:12:54-984	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 20:16:33-876	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-21 20:22:32-996	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 20:22:33-196	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 20:22:33-997	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[61]
+2016-12-21 20:22:34-197	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 20:22:34-797	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 20:22:34-997	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 20:22:35-197	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 20:27:20-489	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 20:27:20-690	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 20:27:21-498	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[62]
+2016-12-21 20:27:21-699	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 20:27:22-504	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 20:27:22-704	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 20:27:23-104	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 20:35:15-869	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree.
+2016-12-21 20:35:16-069	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2016-12-21 20:35:16-669	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[63]
+2016-12-21 20:35:16-869	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2016-12-21 20:35:17-269	-2	<WCPBTMRA>FSRV	3	Local client 14979 forces TableCheck
+2016-12-21 20:35:17-470	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2016-12-21 20:35:18-069	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2016-12-21 21:34:04-480	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2016-12-21 22:42:27-391	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-22 00:14:41-186	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-22 01:38:56-936	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2016-12-22 08:05:17-455	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-22 08:06:39-753	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-22 08:12:45-208	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-22 08:39:06-172	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-22 10:19:31-903	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-22 13:19:06-970	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2016-12-23 09:26:27-938	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2016-12-23 09:27:09-637	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2016-12-23 10:36:49-713	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2016-12-24 07:27:48-643	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-26 10:34:39-614	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-27 20:08:14-581	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-27 22:50:43-391	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-28 06:46:42-216	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.115)[SRV].
+2016-12-28 06:48:03-257	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.115)[SRV].
+2016-12-28 10:25:20-225	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-28 16:41:16-152	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2016-12-29 02:28:32-707	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.38.97)[SRV].
+2016-12-29 18:30:19-237	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2016-12-30 05:32:30-915	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2016-12-30 10:19:20-508	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.37.168)[SRV].
+2016-12-30 12:50:03-014	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2016-12-30 14:03:05-277	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.34)[SRV].

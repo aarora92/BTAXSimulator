@@ -1,0 +1,201 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>ax_playsound</title>
+</head>
+<body>
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>ax_playsound</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The basic conditions for the ax_playsound
+class are:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">the SlowSPS is running</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>axclientservice</b> and <b>axsoundserver
+</b>are
+running</font></li>
+</ul>
+
+<p><br><font face="Arial,Helvetica">The ax_playsound class is a supplement
+of the <b>axclientservice</b> and the <b>axsoundserver</b>.</font>
+<p><font face="Arial,Helvetica">The ax_playsound class includes following
+features:</font>
+<br>&nbsp;
+<ul>
+<li>
+<b><font face="Arial,Helvetica">playing alarm sounds at clients</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">choice of two different alarm types</font></b></li>
+
+<br><b><font face="Arial,Helvetica">(single alarm and frequent alarm)</font></b>
+<li>
+<b><font face="Arial,Helvetica">assigning alarm sounds (.wav-files) to
+determinated priorities</font></b></li>
+</ul>
+
+<p><br><font face="Arial,Helvetica">For each alarm type it is possible
+to make two combinations between priorities and .wav-files.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The ax_playsound class is comprised of the
+following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">ax_playsound.symbol</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><b><font face="Arial,Helvetica">Graphic Files</font></b></td>
+
+<td><font face="Arial,Helvetica">Class Specific Graphic Files for both,
+class definition and documentation</font></td>
+
+<td><font face="Arial,Helvetica">some documentation graphics</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><b><font face="Arial">HTML Document</font></b></td>
+
+<td><font face="Arial">HTML document for Online Help.</font></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">ax_playsound.htm</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><b>Installation: </b>The class color file, the class
+file, the graphic files and the HTML-Document file must be copied into
+a common sub directory within the project's "classlib" directory. </font><font face="Arial,Helvetica">The
+name of the common directory can be chosen freely.</font>
+<p><b><font face="Arial,Helvetica">The axclientservice + the axsoundserver
+have to be installed.</font></b>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a> | <a href="#program">Time Control Program</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The ax_playsound class graphical user interface
+includes:</font>
+<ul>
+<li>
+<b><font face="Arial,Helvetica">Graphical Representation</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Operator Interface</font></b></li>
+</ul>
+<b><font face="Arial,Helvetica">1. Graphical Representation</font></b>
+<p><font face="Arial,Helvetica">The circles next to the edit-values denote
+the state of the play_sound# variables:</font>
+<br><font face="Arial,Helvetica">If the circle is filled green, the sound
+associated to the defined and existing priority is played. Otherwise the
+defined priority is not existing respectively the alarm sound is not played.</font>
+<p><img SRC="PlayAlarmSound_GR.gif" height=216 width=192>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">2. Operator PopUp</font></b>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">The Operator PopUp is shared into three
+sections:</font>
+<br>&nbsp;
+<ul>
+<li>
+<b><font face="Arial,Helvetica">Display</font></b></li>
+
+<br><font face="Arial,Helvetica">There you have to enter the hostname of
+the client, where the alarm sounds should be played. If you make no entry
+the alarm sounds will be played on the server.</font>
+<br>&nbsp;
+<li>
+<b><font face="Arial,Helvetica">Single Alarm</font></b></li>
+
+<br><font face="Arial,Helvetica">It is possible to define two alarm combinations.
+In the Wav:-edit value you can enter the filename of the alarm sound .wav-file.
+In the edit value above the associated alarm priority should be entered.
+When there is an alarm with the entered priority, the .wav file will be
+played.</font>
+<br>&nbsp;
+<li>
+<b><font face="Arial,Helvetica">Frequent Alarm</font></b></li>
+
+<br><font face="Arial,Helvetica">In the Frequent Alarm-edit value the frequence
+time (in sec) should be entered. The alarm combinations 3 and 4 are frequent
+alarm types.</font></ul>
+
+<p><br><img SRC="axplaysound_OperatorPopup.gif" height=377 width=442>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 2: Operator Popup</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><font face="Arial,Helvetica">SlowSPS - Basic condition</font></b><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">The SlowSPS has to run as a condition for
+the executability of the ax_playsound class.</font>
+<br><font face="Arial,Helvetica">For checking the state of the SlowSPS
+you have to open the Popup of the Soft PLC Panel at the aX-Server window.</font>
+<br><font face="Arial,Helvetica">If the SlowSPS is not running you have
+to enter the following entry in the <b>UserProcesses.pls:</b></font>
+<br><b><font face="Arial,Helvetica">:name=slowsps autostart=True restart=True</font></b>
+<br>&nbsp;<font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Storage directory - .wav-files</font></b><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">The .wav-files have to be stored in the
+following directory:</font>
+<br><b><font face="Arial,Helvetica">.\automationXClientService\bin\sounds</font></b><font face="Arial,Helvetica"></font>
+<p><img SRC="path_wav.gif" height=295 width=548>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 3: Storage directory
+of the .wav-files</font></font>
+<br><font face="Arial,Helvetica"></font>&nbsp;
+<br><font face="Arial,Helvetica"></font>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+</body>
+</html>

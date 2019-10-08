@@ -1,0 +1,6 @@
+TANKSTATUS [Text Normal]	OK
+TANKSTATUS [Text Activ]	OK
+TankIDField [Text Normal]	2197
+TankIDField [Text Activ]	Text
+ProductNameField [Text Normal]	E95
+ProductNameField [Text Activ]	Text

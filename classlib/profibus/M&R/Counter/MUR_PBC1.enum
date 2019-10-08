@@ -1,0 +1,18 @@
+Master_Con:ISA_1{MIO_0=0,
+		 MIO_1=1,
+		 MIO_2=2,
+		 MIO_3=3,
+		 MIO_4=4,
+		 MIO_5=5
+		 },
+	  ISA_2{MIO_0=10,
+		 MIO_1=11,
+		 MIO_2=12,
+		 MIO_3=13,
+		 MIO_4=14,
+		 MIO_5=15
+		 },
+	PROFIBoard0=20,
+	PROFIBoard1=21,
+	PROFIBoard2=22,
+	PROFIBoard3=23;

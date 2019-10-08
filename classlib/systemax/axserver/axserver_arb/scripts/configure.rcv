@@ -1,0 +1,13 @@
+set DBID=1511997728
+
+connect target sys/axsys@aximst;
+
+run {
+  configure retention policy to redundancy 2;
+  configure default device type to disk;
+  configure controlfile autobackup on;
+  configure controlfile autobackup format for device type disk to 'z:\_backup\datenbank\aximst\data\%F';
+  configure channel device type disk format 'z:\_backup\datenbank\aximst\data\b_%d_S_%s_P_%p_T_%t';
+}  
+
+exit

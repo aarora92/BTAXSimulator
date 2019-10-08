@@ -1,0 +1,2 @@
+SockType:AF_RAW,AF_UNIX,AF_INET;
+ReadType:ReadAppend,ReadOnce;

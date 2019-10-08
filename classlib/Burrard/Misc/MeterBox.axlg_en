@@ -1,0 +1,18 @@
+FlowingText [Text Activ]	Start Permissive
+FlowingText [Text Normal]	Multiload Fault
+FlowingText_StartPermissive [Text Activ]	Start Permissive
+FlowingText_MeterFault [Text Activ]	Meter Fault\
+FlowingText_Flowing [Text Activ]	Flowing\
+FlowingText_PathError [Text Activ]	Valve Path Error
+FlowingText_StartPermissive [Text Activ]	Start Permissive
+FlowingText_MeterFault [Text Activ]	Meter Fault\
+FlowingText_Flowing [Text Activ]	Flowing\
+FlowingText_PathError [Text Activ]	Valve Path Error
+FlowingText_StartPermissive [Text Activ]	Start Permissive
+FlowingText_MeterFault [Text Activ]	Meter Fault\
+FlowingText_Flowing [Text Activ]	Flowing\
+FlowingText_PathError [Text Activ]	Valve Path Error
+FlowingText_StartPermissive [Text Normal]	
+FlowingText_MeterFault [Text Normal]	
+FlowingText_Flowing [Text Normal]	
+FlowingText_PathError [Text Normal]	

@@ -1,0 +1,2 @@
+DataFormat:	VZ15Bit=0, 	// S7-Format; ET200M
+		VZ12Bit=1, 	// S5-Format ( bit0..

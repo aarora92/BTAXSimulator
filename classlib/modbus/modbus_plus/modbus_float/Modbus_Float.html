@@ -1,0 +1,317 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Daniel Schoyen">
+   <title>Modbus_Float</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="604" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Modbus_Float</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a></font>
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Modbus_Float class is used to read and write
+data - through the ModbusSA85 Master class - to a Modbus Plus network.
+It includes the following features:</font>
+<ul>
+<li>
+<b><font face="Arial">Data Addressing</font></b></li>
+
+<li>
+<b><font face="Arial">Read, Write and Asynchronous Transfer Mode (ATM)</font></b></li>
+
+<li>
+<b><font face="Arial">Communication Status</font></b></li>
+
+<li>
+<b><font face="Arial">Server Selection</font></b></li>
+
+<li>
+<b><font face="Arial">Online Technical Documentation</font></b></li>
+</ul>
+
+<p><br><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p><font face="Arial">The Modbus_Float class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes class specific color
+definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">Modbus_Float.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class definition file (generated
+by automationX); includes graphical representation, user interface, internal
+control logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">Modbus_Float.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files</font>
+<br><font face="Arial">for class operation,</font>
+<br><font face="Arial">physical appearance and&nbsp; documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">axclassdoku16.bmp</font>
+<br><font face="Arial,Helvetica">axinstanzdoku16.bmp</font>
+<br><font face="Arial,Helvetica">ax_icon.bmp</font>
+<br><font face="Arial,Helvetica">ax_iconhelp.bmp</font>
+<br><font face="Arial,Helvetica">axledgreen.bmp</font>
+<br><font face="Arial,Helvetica">axledgreengr.bmp</font>
+<br><font face="Arial,Helvetica">axledred.bmp</font>
+<br><font face="Arial,Helvetica">axledredgr.bmp</font>
+<br><font face="Arial,Helvetica">axledgrey.bmp</font>
+<br><font face="Arial,Helvetica">axledgreygr.bmp</font>
+<br><font face="Arial,Helvetica">iconhelp.gif</font>
+<br><font face="Arial,Helvetica">titlebarback.gif</font>
+<br><font face="Arial,Helvetica">Address.gif</font>
+<br><font face="Arial,Helvetica">DirectoryStruct.gif</font>
+<br><font face="Arial,Helvetica">Master.gif</font>
+<br><font face="Arial,Helvetica">Modbus_Float.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">Modbus_Float.htm</font></td>
+</tr>
+
+<tr ALIGN=LEFT VALIGN=TOP>
+<td><b><font face="Arial,Helvetica">Enum File</font></b></td>
+
+<td><font face="Arial,Helvetica">Enumerator information for selectors</font></td>
+
+<td><font face="Arial,Helvetica">Modbus_Float.enum</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub-directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b><font face="Arial"></font>
+<p><font face="Arial">The graphical user interface of the Modbus_Float
+class consists of</font>
+<ul>
+<li>
+<b><font face="Arial">the graphical representation and the</font></b></li>
+
+<li>
+<b><font face="Arial">Operator Popup</font></b></li>
+</ul>
+
+<p><br><font face="Arial">Details are shown in the following figures:</font>
+<p><b><font face="Arial,Helvetica">1. Graphical Representation</font></b>
+<p><img SRC="Modbus_Float.gif" height=480 width=117>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br><b><font face="Arial"></font></b>&nbsp;<b><font face="Arial"></font></b>
+<p><b><font face="Arial">Instance Name</font></b>
+<p><font face="Arial,Helvetica">The instance name of a Modbus_Float object
+is displayed at the top of the graphical interface.</font>
+<br>&nbsp;
+<p><b><font face="Arial">Communication Status</font></b>
+<p><font face="Arial">Indicators for operational and communication status:</font>
+<ul>
+<li>
+<font face="Arial">Busy: active communication</font></li>
+
+<li>
+<font face="Arial">Error: error communicating with the Modbus Plus network</font></li>
+
+<li>
+<font face="Arial">Com. Lock: communication locked during Read Back</font></li>
+
+<li>
+<font face="Arial">Read Back: read back operation is active</font></li>
+</ul>
+<b><font face="Arial">Operation and Server Display</font></b>
+<p><font face="Arial,Helvetica">Displays the selected Operation and the
+selected Server.</font>
+<br>&nbsp;
+<p><b><font face="Arial">Addressing</font></b>
+<p><font face="Arial">Displays the Modbus Plus area - data address and
+data length - currently being accessed by the class.</font>
+<p><b><font face="Arial">Connection to Master Class</font></b>
+<p><font face="Arial">Displays the instance name of the ModbusSA85 object
+to which the class is currently linked.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">2. Operator Popup</font></b>
+<br>&nbsp;
+<p><img SRC="Modbus_FloatOperatorPopup.gif" height=337 width=178>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 2: Operator Popup</font></font>
+<br>&nbsp;
+<p><b><font face="Arial">Technical Documentation</font></b>
+<p><font face="Arial">The toolbar below the Instance Name provides access
+to instance documentation and class documentation. All documents - with
+the exception of instance documentation - are included. All documents are
+available online - in HTML format - and run in aX's native HTML browser.</font>
+<br>&nbsp;
+<p><b><font face="Arial">Operation and Server Selection</font></b>
+<p><font face="Arial">The operation pull down menu allows (online) selection
+of operation: Read, Write or Async. "Read" designates the class to strictly
+read all data points from the network, "Write" designates the class to
+strictly write all data points to the network. "Async" designates Asynchronous
+Transfer Mode (ATM).</font>
+<p><font face="Arial">Asynchronous Transfer Mode ATM is used if data values
+are being set by both automationX and the Modbus. ATM compares data from
+the Modbus to data in automationX. If any values have been changed by automationX,
+the driver identifies them and writes only those values back to the Modbus.</font>
+<p><font face="Arial">The Select Server pull down menu provides a choice
+of server communication:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><i>Server</i> - communication is active only
+when the station is the main server.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><i>Standby</i> - communication is active only
+when the station is the backup server.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><i>Both - </i>communication is always active
+regardless of the station's current state.</font></li>
+</ul>
+
+<p><br><b><font face="Arial">Addressing</font></b>
+<p><font face="Arial">Displays the Modbus Plus area - data address and
+data length - currently being accessed by the class.</font>
+<p><b><font face="Arial">Connection to Master Class</font></b>
+<p><font face="Arial">Displays the instance name of the ModbusSA85 object
+to which the class is currently linked.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><b><font face="Arial,Helvetica">Hardware</font></b>
+<p><font face="Arial,Helvetica">Ensure proper installation of the Modicon
+SA85 card. Consult technical documentation provided by Modicon for detailed
+installation instructions.</font>
+<p><b><font face="Arial,Helvetica">Modicon Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The SA85 device includes a set of software
+programs required for proper installation. These include devices drivers,
+setup programs, a library of C functions for Modicon's NetBIOS implementation,
+a diagnostic utility and sample programs for addressing and data transfers.</font>
+<p><b><font face="Arial,Helvetica">automationX Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The aX Modbus Plus class set includes driver
+&amp; application software - three files - located in the "automationX/bin"
+directory:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">MBSA85.axx</font></li>
+
+<li>
+<font face="Arial,Helvetica">ModbusDLL.dll</font></li>
+</ul>
+
+<p><br><b><font face="Arial,Helvetica">ModbusSA85 Master Class</font></b>
+<p><font face="Arial,Helvetica">The Modbus_Float class must be linked to
+a Master class. Create the link by typing the instance name of the ModbusSA85
+Master in the <i>Master</i> variable during configuration (server data
+list).</font>
+<p><img SRC="master.gif" height=112 width=448><font face="Arial,Helvetica"><font size=-1></font></font>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 3: Linking to a Master
+class</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Troubleshooting</font></b>
+<p><font face="Arial,Helvetica">Please see <i>Troubleshooting</i> in the
+Modbus Plus Overview if problems are encountered.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="ImplementationNotes"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<br>&nbsp;<b><font face="Arial"></font></b>
+<p><b><font face="Arial">Declaring an Instance Name</font></b>
+<p><font face="Arial">Declare an instance name - in the Instance field
+- for the Modbus_Float object.</font>
+<p><b><font face="Arial">Declaring a Master</font></b>
+<p><font face="Arial">The ModbusSA85 Master must be declared in the <i>Master</i>
+variable.</font>
+<p><b><font face="Arial">Memory Addressing</font></b>
+<p><font face="Arial">Transactions to or from Modbus Plus nodes are achieved
+by declaring a memory address in the <i>StartAddress</i> variable - followed
+by the number of floats being read or written (<i>DataLength</i>).</font>
+<p><img SRC="Address.gif" height=142 width=451>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 4: Memory Addressing</font></font>
+<br><font face="Arial,Helvetica"><font size=-1></font></font>&nbsp;
+<p><font face="Arial,Helvetica">This example shows a Modbus_Float object
+configured to read from memory address 32767 to 32866.</font>
+<p><b><font face="Arial,Helvetica">Changing the Memory Address and Master</font></b>
+<p><font face="Arial,Helvetica">The memory address, data length and master
+values exist in two states: <i>Online</i> and <i>Init</i>. The online state
+is retentive and overrides the init (initial) state. Changing the online
+state is done through the Explorer window. Note that changing the online
+state will not change the init state.</font>
+<p><font face="Arial,Helvetica">The init state is the value that was assigned
+in the aX-Builder while configuring the class and can only be changed from
+the aX_builder - i.e. edit the program.</font>
+<p><b><font face="Arial,Helvetica">Accessing Data</font></b>
+<p><font face="Arial,Helvetica">Data from the Modbus Plus network is stored
+in the Data variable array. A maximum of 500 consecutive floats can be
+accessed per Modbus_Float class. The floats are accessed through the <i>instance_name.variable</i>
+declaration. For example:</font>
+<p><font face="Courier New,Courier"><font color="#009900">Float_1.Data[<i>x</i>]</font></font>
+<p><font face="Arial,Helvetica">Where x is the number in the array that
+corresponds to the appropriate float.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+</body>
+</html>

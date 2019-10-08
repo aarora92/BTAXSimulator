@@ -1,0 +1,9 @@
+DataFormat:S7_Format,S5_Format;
+ModuleList:
+	 S7kompatibelBasistyp1 = 0,
+	 S7kompatibelBasistyp2 = 1,
+	 S7kompatibelBasistyp2komp = 2,
+	 S7kompatibelBasistyp3 = 3,
+	 DPV1Basistyp1kompakt = 4,
+	 DPV1Basistyp2kompakt = 5,
+	 DPV1Basistyp3kompakt = 6;

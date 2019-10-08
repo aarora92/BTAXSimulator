@@ -1,0 +1,456 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft FrontPage 5.0">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>axs_mio_pci</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#ffffff"><font size=+4>axs_ethercat</font></font></font></b></td>
+</tr>
+</table>
+<a href="#WINDOWS"><font face="Arial,Helvetica">Windows-Treiber</font></a><font face="Arial,Helvetica">
+</font>
+<font face="Arial">| <a href="#Linux">Linux-Treiber</a> | <a href="#Installation">Installation</a>
+| <a href="#Klasse">Klassenfunktion</a> | <a href="#Debug">Fehlersuche</a></font>
+<p><a NAME="Features"></a><b><font size=+2 color="#0000ff" face="Arial">
+Allgemeines</font></b><p><font face="Arial,Helvetica">Die axs_ethercat Klasse 
+ermöglicht die Ansteuerung&nbsp; von EtherCAT Modulen über eine Ethernetkarte. 
+Über die verwendete Ethernetkarte können keine normalen TCP/IP Verbindungen mehr 
+geöffnet werden. </font>&nbsp;<font face="Arial,Helvetica">Alle EtherCAT Module 
+müssen zu einer Kette zusammen geschaltet werden. Dabei darf nur eine Kette je 
+Ethernetkarte angeschlossen werden. </font>
+<blockquote>
+<p><img border="0" src="EcatChain.gif" width="599" height="457"></blockquote>
+<p><font face="Arial,Helvetica">Der Instanzname für den ersten Slave wird über 
+die <i>Link</i> Variabel in der Master-Klasse bestimmt. In den Slave-Klassen 
+können die Instanznamen der Kette über die Variabeln <i>LinkA</i> und <i>LinkB</i> 
+bestimmt werden. Dabei wird zuerst immer <i>LinkA</i> weiter verfolgt. Erst wenn
+<i>LinkA</i> leer ist wird die Kette beim letzen <i>LinkB</i> Element 
+fortgesetzt.</font><p><font face="Arial,Helvetica" color="#FF0000"><b>Achtung: Bei der 
+Zusammenschaltung der Slaves muss darauf geachtet werden das alle Netwerkskabel 
+zwischen den Ethercat-Slaves in den richtigen Buchsen stecken. Werden bei einem Slave die beiden Buchsen fasch angeschlossen werden die Slaves am Bus in einer 
+falschen Reihenfolge erkannt.</b></font><p>&nbsp;<blockquote>
+<p><img border="0" src="ConnErr.gif" width="575" height="383"><p>
+  <font face="Arial">Wenn man die roten Verbindungen entlang der Pfeile 
+  verfolgt, wird man merken dass die IO des der mittleren Slaves an letzter 
+  Stelle erreicht wird, an statt an zweiter Position. </font>
+</blockquote>
+<p><font face="Arial,Helvetica"><br>
+&nbsp;</font><ul>
+  <li><font face="Arial,Helvetica"><a href="#WINDOWS">Installation der 
+  Netzwerkstreiber unter Windows</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Linux">Installation der Netzwerkstreiber unter Linux</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Installation">Installation der 
+  Klasse</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Klasse">Funktion der Klasse</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#Debug">Fehlersuche und Debugging</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="ecat_bus_module.htm">Modulklassen 
+  für EtherCAT</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="k_bus_module.htm">Modulklassen für 
+  den Buskoppler BK1120</a></font></li>
+</ul>
+<hr>
+<p><a name="WINDOWS"></a><b><font size=+2 color="#0000ff" face="Arial">
+Installation der Netzwerkstreiber unter Windows</font></b><p>
+<font face="Arial,Helvetica">Der Netzwerkstreiber heißt <i>axnpf.sys</i> und 
+befindet sich im <i>./bin</i> Verzeichnis von automationX. Er wird beim ersten 
+Start des EtherCAT-Masters automatisch installiert. Dabei wird der 
+Windows-Registry-Eintrag <i>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AXNPF</i> 
+angelegt. Durch löschen dieses Eintrages und einem Neustart des Rechners kann 
+der Treiber reinstalliert werden.</font></p>
+<p><font face="Arial,Helvetica">Damit das Echtzeitverhalten der EtherCAT 
+Verbindung nicht gestört wird müssen die IP-Dinste auf der Ethernet-Karte 
+abgeschalten werden. Dazu führen sie folgende Schritte aus:</font></p>
+<ul>
+  <li><font face="Arial,Helvetica">Öffnen sie den Explorer und wählen sie <i>
+  Systemsteuerung/Netzwerkverbindungen</i> aus.</font></li>
+  <li><font face="Arial,Helvetica">Machen sie einen Doppelklick auf die 
+  LAN-Verbindung die für Ethercat vorgesehen ist.</font></li>
+  <li><font face="Arial,Helvetica">Drücken sei Eigenschaften.</font></li>
+  <li><font face="Arial,Helvetica">Wählen sie alle Elemente für die Verbindung 
+  ab und drücke sie <i>Schließen</i>:</font></li>
+</ul>
+<blockquote>
+  <p><img border="0" src="NetworkSettings.jpg" width="367" height="443"></p>
+</blockquote>
+<p>&nbsp;</p>
+<hr>
+<p><b><font size=+2 color="#0000ff" face="Arial">
+<a name="Linux"></a>Installation der Netzwerkstreiber unter </font>
+<font face="Arial" size="+2" color="#0000FF">Linux</font></b><p>
+<font face="Arial,Helvetica">Unter Linux ist kein Netzwerktreiber notwendig. Es 
+ist möglich direkt auf eth0 bis eth3 zu zu greifen. Damit das Echtzeitverhalten der EtherCAT 
+Verbindung nicht gestört wird müssen die IP-Dinste auf der Ethernet-Karte 
+abgeschalten werden. Dazu führen sie folgende Schritte aus:</font></p>
+<ul>
+  <li><font face="Arial,Helvetica">Öffnen sie die Datei </font>
+  <font face="Courier New" size="2">/<font color="#0000FF">etc</font>/<font color="#0000FF">sysconfig</font>/<font color="#0000FF">network-scrips</font>/<font color="#0000FF">ifcfg-eth?</font></font></li>
+  <li><font face="Arial,Helvetica">Öffnen löschen sie bei folgenden Einträgen 
+  die IP-Adddressen:<br>
+  <b>&nbsp;&nbsp;&nbsp;&nbsp; </b></font><font face="Courier New" size="2"><b>
+  <font color="#0000FF">IPADDR</font>=<br>
+  </b></font><b><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp; </font>
+  <font face="Courier New" size="2"><font color="#0000FF">NETMASK</font>= <br>
+  </font><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp; </font>
+  <font face="Courier New" size="2"><font color="#0000FF">NETWORK</font>=</font><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+&nbsp;&nbsp;&nbsp;&nbsp; </font></b><font face="Courier New" size="2"><b>
+  <font color="#0000FF">GATEWAY</font>=<br>
+  </b></font><b><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp;&nbsp; </font>
+  <font face="Courier New" size="2"><font color="#0000FF">BROADCAST</font>=</font></b></li>
+  <li><font face="Arial,Helvetica">Setzen sie den Parameter </font>
+  <font face="Courier New" size="2"><b><font color="#0000FF">BOOTPROTO</font></b>
+  </font><font face="Arial,Helvetica">auf </font><b>
+  <font face="Courier New" size="2" color="#800080">none</font></b></li>
+  <li><font face="Arial,Helvetica">Zuletzt müssen die Etherner-Schnittstellen 
+  neu gestartet werden:<br>
+&nbsp;&nbsp;&nbsp; </font><font face="Courier New" size="2"><b>/<font color="#0000FF">etc</font>/<font color="#0000FF">init.d</font>/<font color="#0000FF">network</font>
+  <font color="#800080">restart</font></b><br>
+&nbsp;</font></li>
+</ul>
+<hr>
+<p><a name="Installation"></a><b><font size=+2 color="#0000ff" face="Arial">
+Installation der Klasse</font></b></p>
+<p><font face="Arial,Helvetica">Für die Installation der Klasse öffnen sie das 
+Projekt, und wählen in der Konfiguration den Tree <font color="#0000FF"> <i>axsystem</i></font> aus. Hier 
+fügen sie die Klasse <font color="#0000FF"> <i>axs_ethercat</i></font> aus dem Pfad <i>.\<font color="#0000FF">classlib</font>\<font color="#0000FF">systemax</font>\<font color="#0000FF">axserver</font>\<font color="#0000FF">axs_interface</font>\<font color="#0000FF">axs_ethercat</font>
+</i>ein. Für die Klasse kann ein beliebiger Instanzname vergeben werden. </font>
+</p>
+<p><font face="Arial,Helvetica"><br>
+Alls erstes muss unter <i>EthCardA</i> der Name benutzten 
+Ethernetkarte eingetragen werden (z.B. <i><font color="#000080">eth1</font></i>) 
+oder die MAC-Adresse einer Karte. Für redundante Systeme muss hier
+<font color="#000080"> <i>eth0</i></font> 
+oder <font color="#000080"> <i>eth1</i></font> oder ... eingetragen werden. 
+Unter Windows kann die MAC-Adresse über die Datei <i>./<font color="#0000FF">cache</font>/<font color="#0000FF">rdip</font>/l<font color="#0000FF">ocal_ethernet_</font><font color="#000080">&lt;host&gt;</font><font color="#0000FF">.mac</font> </i>
+einer Ethernetkarte (eth??) zugeordnet werden. (<font color="#000080">&lt;host&gt;</font> steht für den Hostnamen des Rechners) Diese Datei 
+hat folgende Form:</font></p>
+<blockquote>
+  <p><b><font face="Courier New" size="2"><font color="#0000FF">eth0</font> =
+  <font color="#008080">00-50-BA-E5-E4-B9</font><br>
+  <font color="#0000FF">eth1</font> = <font color="#008080">00-30-4A-67-9A-3F</font></font></b></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Mit <font color="#0000FF"><i>EthInfo.exe</i></font> 
+kann die Zuordnung der MAC-Adressen konfiguriert werden. Klicken sie einfach mit 
+der rechten Maustaste auf das Icon im linken oberen Eck. Und wählen sie
+<font color="#008080"><i>&quot;MAC-Adressen konfigurieren&quot;</i></font>.</font></p>
+<blockquote>
+<p><img border="0" src="EthInfo.gif" width="599" height="283"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Wenn Linux verwendet wird ist diese Datei nicht 
+notwendig. Der Treiber holt sich die MAC-Adressen direkt von der 
+Systemkonfiguration. Die MAC-Adressen können unter Windows mit <i>&nbsp;<font color="#0000FF">ipconfig</font>
+<font color="#800000">/all</font> </i>abgefragt werden. (siehe bei <i>&quot;Physikalische Adresse&quot;</i>), 
+unter Linux kann <font color="#0000FF"><i>ifconfig</i></font> verwendet werden.</font></p>
+<p><font face="Arial,Helvetica">Wollen sie einen redundanten Ring mit Ethercat 
+aufbauen, so ist unter <i>EthCardB</i> die Ethernetkarte einzutragen über die 
+der Ring geschlossen wird. <br>
+&nbsp;</font></p>
+<p><font face="Arial,Helvetica">Zuletzt muss nur noch unter <i>Link</i> der 
+Instanzname des ersten Slaves eingetragen werden.</font></p>
+<p><font face="Arial,Helvetica"><br>
+Überprüfen sie ob der globale Enum <font color="#0000FF"> <i>EthercatState</i></font> in der Datei <i>./<font color="#0000FF">project</font>/<font color="#000080">&lt;????&gt;</font>/<font color="#0000FF">enum.init</font>
+</i>vorhanden ist:</font></p>
+<blockquote>
+  <p><b><font face="Courier New" size="2"><font color="#000080">EthercatState</font>:
+  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">No_Master</font>=0,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">Ethernet__Error</font>=1,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">Config_Error</font>=2,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">Xml_not_found</font>=3,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">Load_XML</font>=4,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">OFFLINE</font>=5,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">INIT</font>=6,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">PREOP</font>=7,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">SAFEOP</font>=8,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <font color="#0000FF">OP</font>=9;</font></b></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Überprüfen sie ob alle nötigen XML-Konfigurationsdateien 
+in <i>./system/ethercat</i> vorhanden sind.</font></p>
+<p><font face="Arial,Helvetica"><b>Achtung</b>: Falls der letzte Slave, der an 
+EthB angeschlossen ist ein T-Stück ist, so muss in der Variabel <i>LastPortLave</i> 
+die Nummer dieses Slaves konfiguriert werden. Um diese Nummer zu ermitteln 
+zählen sie die Slaves entlang der konfigurierten Kette. z.B. Würde bei
+<a href="#Features">dieser</a> Konfiguration EthA an Slave1, und EthB an Slave4 
+angeschlossen werden, so müsste <i>LastPortLave</i> auf 4 gesetzt werden.</font></p>
+<p>&nbsp;</p>
+<hr>
+<p><a name="Klasse"></a><b><font size=+2 color="#0000ff" face="Arial">Funktion 
+der Klasse</font></b></p>
+<p><font face="Arial,Helvetica">Die Klasse enthält folgende Element:</font></p>
+<blockquote>
+  <table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2"><b>Variabel</b></font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2"><b>Funktion</b></font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      EthCardA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      der Name der benutzen Ethernetkarte<i> eth? </i>oder die MAC-Adresse 
+      Ethernetkarte.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      EthCardB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Bei 
+      einem redundanten Ring ist es der Name der zweiten Ethernetkarte<i> eth? </i>
+      oder die MAC-Adresse, bzw. ist diese Variabel leer zu lassen wenn kein 
+      Ring vorhanden ist.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      TargetMac</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die MAC-Adresse mit der die Pakete versand werden. Wenn Ethercat nicht in 
+      einem Netzwerkbetreiben wird sollte hier FF-FF-FF-FF-FF-FF eingetragen 
+      sein.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">Link</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist der Instanzname des ersten 
+      Slaves.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">XmlFile</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist die 
+      XML-Konfigurationsdatei für den Master. Diese sollte Wert immer auf <i>
+      master.xml</i> sein.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      LastPortLave</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Nummer des Slaves der direkt an Eth-B angeschlossen ist. Sollte der 
+      Aufbau linear sein (kein T-Stück an Eth-B) kann dieser Wert auf -1 
+      konfiguriert werden.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">Reset</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Mit diesem Flag kann der 
+      Ethercat-Master resetiert werden.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">ReloadXml</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Mit diesem Flag kann der 
+      Ethercat-Master resetiert werden. Dabei werden auch alle 
+      Konfigurationsdateien für die Slaves neu geladen. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">EthernetCardValidA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Dieses Flag wird auf TRUE 
+      gesetzt wenn die angegebene erste Ethernetkarte geöffnet werden konnte.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">EthernetCardValidB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Dieses Flag wird auf TRUE 
+      gesetzt wenn die angegebene zweite Ethernetkarte geöffnet werden konnte.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">LinkErrorA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Dieses Flag wird auf TRUE 
+      gesetzt wenn kein Ethernet-Kabel an der ersten Ethernetkarte angeschlossen 
+      ist.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">LinkErrorB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Dieses Flag wird auf TRUE 
+      gesetzt wenn kein Ethernet-Kabel an der zweiten Ethernetkarte 
+      angeschlossen ist.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">State </font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist der aktuelle Zustand des 
+      Masters. Eine Beschreibung zu den einzelnen Zuständen findet man weiter 
+      unten.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      RingOk</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Dieses Flag wird auf TRUE 
+      gesetzt wenn der Master erkennt das Telegramme ordnungsgemäß im Kreis 
+      laufen.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      Debug</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Über 
+      diese Bits kann eingestellt werden welche Debug-Meldungen der Maser in den 
+      Runtime-Messages ausgeben soll.<br>
+      Bit 0 (0x01) = Gesendete Pakete mitloggen<br>
+      Bit 1 (0x02) = Empfangene Pakete mitloggen<br>
+      Bit 2 (0x04) = Empfangene redundante Pakete mitloggen<br>
+      Bit 3 (0x08) = Empfangene zyklische Pakete mitloggen<br>
+      Bit 4 (0x10) = Zustandswechsel mitloggen<br>
+      Bit 5 (0x20) = Fehler mitloggen<br>
+      Bit 6 (0x40) = HexDump von Paketen anzeigen</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      SlaveError</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">
+      0=Die Anzahl der Slaves am Bus ist ok,&nbsp; <br>
+      1=Es wurden zu wenige Slaves am Bus entdeckt,&nbsp;&nbsp; <br>
+      2=Es wurden zu viele Slaves am Bus entdeckt<br>
+      3=Bei einigen Slaves sind die Ethernetkabel falsch angesteckt.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">SlaveCount</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist die Anzahl der gefunden 
+      über <i>Link </i>Slaves. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">SlaveCountA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Anzahl der Slaves die von der ersten Ethernetkarte am Bus gesehen 
+      werden. </font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">SlaveCountB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Ist 
+      die Anzahl der Slaves die von der zweiten Ethernetkarte am Bus gesehen 
+      werden. Wenn der Ring in Ordnung ist muss dieser Wert 0 sein.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">ErrorString</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Enthält einen Text mit der 
+      aktuellen Fehlermeldung.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      PortStateA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird 
+      der Zustand des Eth-Ports am Ethercat-Slave bei Eth-A angezeigt. (0=auto 
+      1=auto close 2=open 3=closed)</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      PortStateB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird 
+      der Zustand des Eth-Ports am Ethercat-Slave bei Eth-B angezeigt. (0=auto 
+      1=auto close 2=open 3=closed)</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      PortLinkA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird 
+      angezeigt ob das Eth-Port am Ethercat-Slave bei Eth-A eine Link hat.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">
+      PortLinkB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird 
+      angezeigt ob das Eth-Port am Ethercat-Slave bei Eth-A eine Link hat.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">MacAddressUsedA</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird die MAC-Adresse der 
+      benutzten ersten Ethernetkarte angezeigt.</font></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"><font face="Arial" size="2">MacAddressUsedB</font></td>
+      <td width="88%" align="left" valign="top"><font face="Arial" size="2">Hier wird die MAC-Adresse der 
+      benutzten ersten Ethernetkarte angezeigt.</font></td>
+    </tr>
+  </table>
+</blockquote>
+<p><font face="Arial,Helvetica">Der aktuelle Zustand des Masters kann auf der 
+Klassenansicht im Feld <i>&quot;State&quot;</i> abgelesen werden. Wenn die LED im linken 
+oberen Eck rot ist dann konnte dei Ethernetkarte nicht geöffnet werden.</font></p>
+<blockquote>
+  <p><img border="0" src="axs_ethercat.gif" width="144" height="338"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Der EtherCAT-Master kennt folgende Zustände:</font></p>
+<blockquote>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>No_Master</b></font>: 
+  Dieser Zustand ist nur für EtherCAT-Slaves die mit keinem Master verbunden 
+  sind.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Ethernet_Error</b></font>: 
+  Dieser Zustand passiert wenn die Ethernetkarte nicht geöffnet werden konnte. 
+  Prüfen sie in diesem Fall <font color="#0000FF"> <i>MacAddress</i></font> oder die Datei </font>
+  <font face="Arial"><i>./<font color="#0000FF">cache</font>/<font color="#0000FF">rdip</font>/<font color="#0000FF">local_ethernet_</font><font color="#000080">&lt;host&gt;</font><font color="#0000FF">.mac</font></i>. 
+  Unter Linux müssen die MAC-Addresen mit den Werten von <font color="#0000FF">
+  <i>ifconfig</i></font> übereinstimmen.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Config_Error</b></font>: 
+  Es liegt ein Fehler in der Konfiguration vor. Dieser Fehler passiert wenn bei
+  <i>Link</i> keine EtherCAT-Slave Instanz eingetragen ist, oder ein interne 
+  Fehler im Master bei der Konfiguration aufgetreten ist. </font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Xml_not_found</b></font>: 
+  Dieser Fehler passiert wenn der <font color="#0000FF"> <i>plserver</i></font> eine Konfigurationsdatei für 
+  den Master oder einen Slave nicht in <i>./<font color="#0000FF">system</font>/<font color="#0000FF">ethercat</font></i> finden konnte. 
+  Prüfen sie ob die angegebenen Dateien in <font color="#0000FF"> <i>XmlFile</i></font> auch wirklich in 
+  diesem Verzeichnis vorhanden sind. Uner Linux muss auch Groß und 
+  Kleinschreibung über einstimmen.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Load_XML</b></font>: 
+  In diesem Zustand läd der <font color="#0000FF"> <i>plserver</i></font> alle nötigen Konfigurationsdateien 
+  für den Master und die Slaves.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Starup</font></b><font face="Arial,Helvetica">: 
+  In diesem starte der Master alle Slaves neu.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>INIT</b></font>: In 
+  diesem Zustand initialisiert der Master alle Slaves.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Check_Slaves</font></b><font face="Arial,Helvetica">: 
+  In diesem Zustand hat der Master eine Fehler bei der Anzahl an Slaves am Bus 
+  erkannt. </font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">Eth_Card_Fail</font></b><font face="Arial,Helvetica">: 
+  In diesem kommt der Master wenn ein Ethenet-Kabel abgesteckt wird.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Running</b></font>: Das 
+  ist der Betriebszustand mit dem zyklischen Datenverkehr.</font></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font face="Arial,Helvetica">Damit der Master in den OP Zustand kommt müssen 
+alle Slave richtig konfiguriert und angeschlossen sein. Fällt auch nur ein Slave 
+so wird die Verbindung zu allen EtherCAT-Slaves abgebrochen.</font></p>
+<p><font face="Arial,Helvetica"><b>Achtung</b>: Die Zykluszeit der SPS darf 
+nicht größer als 100 ms sein. Wenn das nicht der Fall ist spricht der Watchdog 
+in den Baugruppen an, und sie fallen aus.</font></p>
+<p>&nbsp;</p>
+<hr>
+<p><a name="Debug"></a><b><font size=+2 color="#0000ff" face="Arial">F</font><font face="Arial" size="+2" color="#0000FF">ehlersuche 
+und Debugging</font></b></p>
+<p><font face="Arial,Helvetica">Wenn der Master nicht in den Running Zustand kommt, 
+ist es nützlich zu wissen welcher Slave das Problem verursacht. Dazu sollte man 
+die <font color="#0000FF"> <i>Debug</i></font> Variabel auf einen Wert setzen und das Runtime-Message-Fenster öffnen. 
+Danach wählen sie <i>&quot;<font color="#0000FF">Ethercat-Master</font>&quot;</i> aus:</font></p>
+<blockquote>
+  <p><img border="0" src="Messages.jpg" width="658" height="310"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Jetzt müssen sie nur noch den EtherCAT-Master 
+resetieren. Dazu drücken sie in der Klassenansicht auf die LED, und dann länger 
+auf <i>&quot;<font color="#0000FF">Reload XML</font>&quot;</i>.</font></p>
+<blockquote>
+  <p><img border="0" src="axs_et3.jpg" width="274" height="165"></p>
+</blockquote>
+<p><font face="Arial,Helvetica">Jetzt sollten im Runtime-Message-Fenster nähere 
+Informationen für die Fehlersuche zu entnehmen sein.</font></p>
+<p><font face="Arial,Helvetica">Bei Ethercat-Slaves kann ebenso die die <font color="#0000FF"> <i>Debug</i></font> Variabel auf 
+einen Wert gesetzt werden. 
+Danach wählen sie <i>&quot;<font color="#0000FF">Ethercat-Slave</font>&quot;</i> 
+in den Runtime-Messages aus um die Nachrichten anzuzeigen.</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,1357 @@
+2018-02-01 00:00:00-573	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 00:00:00-773	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 00:00:10-981	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 07:29:32-872	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 07:29:32-872	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 07:29:33-872	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 07:29:34-072	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 07:31:45-127	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-01 07:31:45-727	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-01 07:57:42-962	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 07:57:42-962	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 07:57:43-962	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 07:57:44-162	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 08:00:10-630	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-01 08:00:14-231	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-01 08:01:12-652	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 08:01:12-652	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 08:01:13-252	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 08:01:13-452	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 08:01:22-654	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 08:01:23-654	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 08:08:12-971	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 08:08:12-971	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 08:08:13-972	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 08:08:14-173	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 08:10:15-466	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-01 08:10:16-066	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-01 08:11:08-515	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 08:11:08-515	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 08:11:09-116	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 08:11:09-316	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 08:11:18-523	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 08:11:19-523	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 17:56:16-465	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 17:56:16-465	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 17:56:17-265	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-01 17:56:17-465	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 17:56:17-665	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 17:58:34-364	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-01 17:58:34-965	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-01 17:58:44-370	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 17:58:44-370	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 17:58:54-377	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 17:59:36-605	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 17:59:36-805	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 17:59:47-012	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 18:12:13-670	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 18:12:13-670	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-01 18:12:14-671	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 18:12:14-872	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-01 18:14:49-309	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-01 18:14:49-909	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-01 18:15:03-312	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 18:15:03-312	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 18:15:03-912	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-01 18:15:04-112	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-01 18:15:13-314	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-01 18:15:14-314	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 07:59:50-650	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 07:59:50-650	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 07:59:51-650	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 07:59:51-850	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 08:01:57-295	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-02 08:02:00-896	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-02 08:02:47-314	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 08:02:47-314	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 08:02:47-914	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 08:02:48-114	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 08:02:57-315	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 08:02:58-316	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 08:09:36-641	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 08:09:36-641	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 08:09:37-642	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 08:09:37-842	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 08:11:37-682	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 08:11:38-282	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 08:12:33-700	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 08:12:33-700	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 08:12:34-300	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 08:12:34-500	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 08:12:43-703	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 08:12:44-703	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 09:57:36-918	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 15:26:10-400	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 15:26:10-400	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 15:26:11-200	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 15:26:11-400	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 15:26:11-601	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 15:28:11-710	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 15:28:12-310	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-02 15:29:48-200	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 15:29:48-200	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 15:29:51-804	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 15:29:52-004	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 15:29:58-209	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 15:30:02-213	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 17:04:57-299	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 17:04:57-299	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 17:04:58-299	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 17:04:58-500	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 17:07:03-123	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-02 17:07:06-724	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-02 17:07:47-137	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 17:07:47-137	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 17:07:47-737	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 17:07:47-937	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 17:07:57-138	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 17:07:58-139	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 17:19:52-897	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 17:19:52-897	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-02 17:19:53-898	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 17:19:54-098	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-02 17:22:27-832	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-02 17:22:28-433	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-02 17:22:38-840	0	Batch3	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 17:22:38-840	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 17:22:39-440	0	Original-BatchTrack	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-02 17:22:39-641	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-02 17:22:48-847	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-02 17:22:49-848	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 01:11:33-984	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 01:11:33-984	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 01:11:34-985	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 01:11:35-185	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 01:13:43-608	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-03 01:13:44-208	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-03 06:31:42-546	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-03 08:14:33-471	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 08:14:33-471	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 08:14:34-271	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-03 08:14:34-471	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 08:14:34-671	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 08:16:51-723	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-03 08:16:52-323	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-03 08:18:05-737	0	Batch3	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 08:18:05-737	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 08:18:06-337	0	Original-BatchTrack	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 08:18:06-537	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 08:18:15-739	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 08:18:16-739	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 14:08:07-892	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 14:08:07-892	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 14:08:08-893	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 14:08:09-093	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 14:09:59-320	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-03 14:10:02-920	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-03 14:13:09-172	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 14:13:09-172	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 14:13:12-775	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 14:13:12-975	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 14:13:19-180	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 14:13:23-183	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 15:30:55-208	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 15:30:55-208	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-03 15:30:56-209	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 15:30:56-409	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-03 15:32:48-465	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-03 15:32:49-065	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-03 15:34:41-541	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 15:34:41-541	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 15:34:42-141	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-03 15:34:42-341	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-03 15:34:51-548	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-03 15:34:52-548	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 07:49:53-300	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 07:49:53-300	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 07:49:54-300	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 07:49:54-500	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 07:51:58-726	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-04 07:51:59-326	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-04 07:52:48-736	0	Batch3	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 07:52:48-736	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 07:52:49-336	0	Original-BatchTrack	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 07:52:49-536	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 07:52:58-738	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 07:52:59-738	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 10:14:11-432	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 10:14:11-432	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 10:14:12-433	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 10:14:12-633	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 10:16:12-468	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-04 10:16:13-068	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-04 10:17:08-510	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 10:17:08-510	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 10:17:09-110	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 10:17:09-310	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 10:17:18-517	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 10:17:19-518	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 10:56:12-716	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-04 17:29:12-160	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 17:29:12-160	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 17:29:13-160	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 17:29:13-360	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 17:31:18-785	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-04 17:31:22-386	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-04 17:32:23-797	0	Batch3	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 17:32:23-797	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 17:32:24-397	0	Original-BatchTrack	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 17:32:24-597	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 17:32:33-799	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 17:32:34-799	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 17:44:35-021	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 17:44:35-021	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-04 17:44:36-021	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 17:44:36-221	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-04 17:47:11-262	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-04 17:47:14-863	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-04 17:47:28-265	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 17:47:28-265	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 17:47:28-865	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-04 17:47:29-065	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-04 17:47:38-267	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-04 17:47:39-267	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-05 16:48:52-676	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-05 16:48:52-676	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-05 16:48:53-678	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-05 16:48:53-878	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-05 16:50:52-183	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-05 16:50:52-784	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-06 20:25:52-362	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-06 20:25:52-362	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-06 20:25:53-163	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-06 20:25:53-363	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-06 20:25:53-563	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-06 20:27:50-387	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-06 20:27:50-987	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-06 21:24:46-225	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-07 07:03:48-692	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 07:03:48-692	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 07:03:49-692	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 07:03:49-893	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 07:05:55-524	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-07 07:05:59-125	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-07 07:06:48-542	0	Batch3	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 07:06:48-542	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 07:06:49-142	0	Original-BatchTrack	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 07:06:49-343	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 07:06:58-546	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 07:06:59-546	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 07:13:38-647	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 07:13:38-647	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 07:13:39-647	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 07:13:39-847	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 07:15:38-886	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-07 07:15:42-486	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-07 07:16:37-898	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 07:16:37-898	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 07:16:38-498	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 07:16:38-698	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 07:16:47-900	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 07:16:48-900	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 16:01:57-325	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 16:01:57-325	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 16:01:58-325	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 16:01:58-525	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 16:04:45-778	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-07 16:04:52-380	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-07 16:05:50-794	0	Batch3	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 16:05:50-794	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 16:05:51-395	0	Original-BatchTrack	34	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 16:05:51-595	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 16:06:00-797	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 16:06:01-797	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 16:18:46-336	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 16:18:46-336	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-07 16:18:47-137	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-07 16:18:47-337	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 16:18:47-537	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-07 16:21:18-585	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-07 16:21:19-185	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-07 16:21:32-588	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 16:21:32-588	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 16:21:33-188	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-07 16:21:33-388	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-07 16:21:42-590	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-07 16:21:43-591	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 02:36:56-510	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-08 08:06:40-559	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 08:06:40-559	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 08:06:41-559	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 08:06:41-759	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 08:09:07-594	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-08 08:09:08-194	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-08 08:10:07-207	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 08:10:07-407	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 08:10:09-607	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 08:10:09-607	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 08:10:17-610	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 08:10:19-610	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 08:17:03-712	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 08:17:03-712	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 08:17:04-712	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 08:17:04-912	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 08:19:06-550	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-08 08:19:07-150	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-08 08:20:02-562	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 08:20:02-562	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 08:20:03-162	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 08:20:03-362	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 08:20:12-564	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 08:20:13-564	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 13:41:10-123	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 13:41:10-123	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 13:41:11-123	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 13:41:11-323	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 13:43:17-749	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-08 13:43:18-349	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-08 13:43:58-757	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 13:43:58-757	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 13:43:59-357	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 13:43:59-557	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 13:44:08-759	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 13:44:09-759	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 15:10:07-122	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 15:10:07-122	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 15:10:07-922	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-08 15:10:08-122	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 15:10:08-322	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 15:12:13-149	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-08 15:12:13-750	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-08 15:13:18-164	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 15:13:18-164	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 15:13:18-764	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 15:13:18-964	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 15:13:28-167	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 15:13:29-167	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 20:03:27-867	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 20:03:27-867	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-08 20:03:28-868	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 20:03:29-068	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-08 20:06:10-905	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-08 20:06:11-505	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-08 20:06:24-908	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 20:06:24-908	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 20:06:25-508	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-08 20:06:25-708	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-08 20:06:34-910	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-08 20:06:35-911	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 02:40:22-290	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-09 08:22:40-408	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 08:22:40-408	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 08:22:41-409	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 08:22:41-609	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 08:25:00-851	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-09 08:25:01-452	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-09 08:25:56-868	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 08:25:56-868	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 08:25:57-468	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 08:25:57-668	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 08:26:06-870	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 08:26:07-870	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 08:33:21-973	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 08:33:21-973	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 08:33:22-973	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 08:33:23-173	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 08:35:26-195	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-09 08:35:26-795	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-09 08:37:03-034	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 08:37:03-034	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 08:37:03-635	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 08:37:03-835	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 08:37:13-047	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 08:37:14-048	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 13:40:38-803	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 13:40:38-803	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 13:40:39-604	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-09 13:40:39-804	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 13:40:40-004	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 13:43:19-126	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-09 13:43:19-726	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-09 15:38:53-983	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 15:38:53-983	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 15:38:54-983	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 15:38:55-183	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 15:41:01-638	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-09 15:41:02-238	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-09 15:42:29-455	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 15:42:29-455	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 15:42:30-056	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 15:42:30-256	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 15:42:39-457	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 15:42:40-457	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 16:52:10-257	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 16:52:10-257	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-09 16:52:11-257	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 16:52:11-457	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-09 16:54:51-386	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-09 16:54:51-986	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-09 16:55:02-397	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 16:55:02-397	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 16:55:02-998	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-09 16:55:03-198	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-09 16:55:12-408	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-09 16:55:13-410	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 03:59:38-077	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:42:40-339	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 07:42:40-339	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 07:42:41-344	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 07:42:41-544	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 07:44:53-989	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:44:54-589	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:45:44-005	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 07:45:44-005	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 07:45:44-605	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 07:45:44-805	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 07:45:54-007	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 07:45:55-008	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 07:52:38-416	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 07:52:38-416	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 07:52:39-216	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:52:39-416	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 07:52:39-616	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 07:54:41-237	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:54:41-837	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-10 07:55:34-257	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 07:55:34-257	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 07:55:34-857	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 07:55:35-057	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 07:55:44-262	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 07:55:45-262	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 10:18:05-382	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 10:18:05-382	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 10:18:06-383	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 10:18:06-583	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 10:20:08-411	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-10 10:20:09-011	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-10 10:21:50-838	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 10:21:50-838	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 10:21:51-438	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 10:21:51-638	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 10:22:00-840	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 10:22:01-840	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 17:40:33-937	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 17:40:33-937	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 17:40:34-938	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 17:40:35-138	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 17:42:40-837	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-10 17:42:41-437	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-10 17:43:24-858	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 17:43:24-858	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 17:43:25-458	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 17:43:25-658	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 17:43:34-861	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 17:43:35-862	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 17:55:37-830	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 17:55:37-830	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-10 17:55:38-831	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 17:55:39-031	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-10 17:58:11-860	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-10 17:58:12-460	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-10 17:58:25-863	0	Batch3	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 17:58:25-863	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 17:58:26-463	0	Original-BatchTrack	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-10 17:58:26-664	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-10 17:58:35-865	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-10 17:58:36-866	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 03:07:33-533	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-11 06:49:13-847	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 06:49:13-847	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 06:49:14-648	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-11 06:49:14-848	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 06:49:15-048	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 06:51:21-154	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-11 06:51:24-756	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-11 12:40:13-381	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 12:40:13-381	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 12:40:14-381	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 12:40:14-581	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 12:42:37-813	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-11 12:42:38-413	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-11 12:43:36-826	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 12:43:36-826	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 12:43:37-427	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 12:43:37-627	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 12:43:46-829	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 12:43:47-829	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 12:50:36-723	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 12:50:36-723	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 12:50:37-723	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 12:50:37-923	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 12:52:38-353	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-11 12:52:38-954	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-11 12:53:37-370	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 12:53:37-370	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 12:53:37-970	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 12:53:38-170	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 12:53:47-372	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 12:53:48-372	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 14:40:16-514	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 14:40:16-514	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-11 14:40:17-518	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 14:40:17-718	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-11 14:42:59-155	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-11 14:43:02-755	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-11 14:43:13-157	0	Batch3	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 14:43:13-157	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 14:43:13-757	0	Original-BatchTrack	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-11 14:43:13-957	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-11 14:43:23-160	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-11 14:43:24-160	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 07:59:38-799	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 07:59:38-799	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 07:59:39-800	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 07:59:40-000	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 08:01:55-858	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:01:56-459	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:34:54-859	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 08:34:54-859	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 08:34:55-859	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 08:34:56-059	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 08:37:26-509	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:37:27-109	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:38:31-122	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 08:38:31-122	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 08:38:31-722	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 08:38:31-923	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 08:38:41-125	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 08:38:42-125	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 08:45:50-912	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 08:45:50-912	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 08:45:51-912	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 08:45:52-112	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 08:47:54-942	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:47:55-542	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-12 08:49:31-766	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 08:49:31-766	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 08:49:32-366	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 08:49:32-566	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 08:49:41-768	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 08:49:42-768	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 14:05:28-487	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 14:05:28-487	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 14:05:29-487	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 14:05:29-687	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 14:08:32-594	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-12 14:08:33-194	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-12 14:08:33-194	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 14:08:33-394	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 14:08:42-596	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 14:08:42-596	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 14:08:43-597	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 14:08:52-599	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 14:22:52-399	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 14:22:52-399	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-12 14:22:53-400	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 14:22:53-600	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-12 14:25:33-963	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-12 14:25:34-563	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-12 14:25:44-974	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 14:25:44-974	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 14:25:45-575	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-12 14:25:45-775	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-12 14:25:54-981	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 14:25:55-981	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-12 18:45:15-920	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-13 15:55:09-138	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-13 15:55:09-138	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-13 15:55:10-138	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-13 15:55:10-338	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-13 15:57:23-413	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-13 15:57:24-013	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:07:58-598	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:07:58-598	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:07:59-598	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:07:59-798	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:17:52-505	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:17:52-505	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:17:53-105	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:17:53-505	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:17:53-706	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:19:32-132	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:19:59-142	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:19:59-742	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:20:40-159	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 08:20:40-159	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 08:20:40-759	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 08:20:40-959	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 08:20:50-162	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 08:20:51-163	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 08:34:45-399	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:34:45-399	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 08:34:46-199	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:34:46-400	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:34:46-600	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 08:37:07-283	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:37:07-883	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 08:38:27-308	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 08:38:27-308	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 08:38:27-908	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 08:38:28-108	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 08:38:37-311	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 08:38:38-311	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 10:45:13-731	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 11:40:55-096	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 11:40:55-096	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 11:40:56-096	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 11:40:56-296	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 11:43:30-548	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 11:43:31-148	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-14 13:26:01-056	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 13:26:01-056	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 13:26:02-056	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 13:26:02-256	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 13:28:06-087	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 13:28:06-687	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 13:29:33-916	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 13:29:33-916	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 13:29:34-516	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 13:29:34-716	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 13:29:43-918	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 13:29:44-919	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 17:08:14-922	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 17:08:14-922	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 17:08:15-922	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 17:08:16-122	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 17:11:08-571	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 17:11:09-171	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-14 17:28:19-048	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 17:28:19-048	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-14 17:28:19-848	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-14 17:28:20-048	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 17:28:20-248	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-14 17:31:00-288	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-14 17:31:00-888	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-14 17:31:14-291	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 17:31:14-291	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 17:31:14-891	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-14 17:31:15-091	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-14 17:31:24-293	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-14 17:31:25-293	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 07:49:46-201	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 07:49:46-201	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 07:49:47-201	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 07:49:47-401	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 07:51:57-847	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 07:51:58-447	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 07:54:07-694	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 07:54:07-694	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 07:54:08-294	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 07:54:08-494	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 07:54:17-696	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 07:54:18-696	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 09:51:08-432	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 09:51:08-432	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 09:51:09-432	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 09:51:09-632	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 09:53:18-719	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 09:53:19-319	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 10:09:29-349	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 10:09:29-349	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 10:09:30-349	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 10:09:30-549	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 10:11:40-197	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 10:11:40-797	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-15 12:23:18-348	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 12:23:18-348	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 12:23:19-348	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 12:23:19-549	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 12:25:44-638	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-15 12:25:45-238	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-15 12:26:46-653	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 12:26:46-653	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 12:26:47-253	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 12:26:47-453	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 12:26:56-654	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 12:26:57-654	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 12:34:23-773	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 12:34:23-773	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 12:34:24-773	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 12:34:24-973	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 12:36:27-607	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-15 12:36:28-208	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-15 12:38:04-464	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 12:38:04-464	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 12:38:05-065	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 12:38:05-265	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 12:38:14-469	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 12:38:15-469	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 16:46:54-790	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-15 17:09:23-819	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 17:09:23-819	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 17:09:24-819	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 17:09:25-019	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 17:12:00-682	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-15 17:12:01-282	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:24:52-934	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 18:24:52-934	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 18:24:53-934	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 18:24:54-134	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 18:26:56-966	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:26:57-566	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:28:19-984	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 18:28:19-984	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 18:28:20-584	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 18:28:20-784	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 18:28:29-986	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 18:28:30-987	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 18:40:12-167	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 18:40:12-167	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-15 18:40:12-967	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:40:13-167	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 18:40:13-367	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-15 18:42:53-199	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:42:53-799	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-15 18:43:07-203	0	Batch3	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 18:43:07-203	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 18:43:07-803	0	Original-BatchTrack	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-15 18:43:08-003	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-15 18:43:17-205	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-15 18:43:18-205	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 08:47:57-041	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 08:47:57-041	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 08:47:58-041	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 08:47:58-241	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 08:50:05-334	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-16 08:50:05-934	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-16 08:50:54-963	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 08:50:54-963	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 08:50:55-563	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 08:50:55-763	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 08:51:04-969	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 08:51:05-970	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 10:35:47-159	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 10:35:47-159	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 10:35:48-160	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 10:35:48-360	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 10:37:49-827	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-16 10:37:50-428	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-16 10:38:45-876	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 10:38:45-876	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 10:38:46-476	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 10:38:46-676	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 10:38:55-884	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 10:38:56-885	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 15:57:29-537	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 15:57:29-537	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 15:57:30-537	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 15:57:30-737	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 15:59:34-790	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-16 15:59:35-390	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-16 16:00:16-422	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 16:00:16-622	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 16:00:18-824	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 16:00:18-824	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 16:00:26-829	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 16:00:28-831	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 17:50:05-550	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 17:50:05-550	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-16 17:50:06-550	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 17:50:06-750	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-16 17:52:30-776	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-16 17:52:31-376	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-16 17:52:36-377	0	Original-BatchTrack	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 17:52:36-577	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 17:52:40-782	0	Batch3	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-16 17:52:40-782	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-16 17:52:46-783	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 17:52:50-783	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-16 23:43:34-947	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-17 08:47:05-772	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 08:47:05-772	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 08:47:06-772	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 08:47:06-972	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 08:49:17-819	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-17 08:49:18-420	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-17 13:27:26-439	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 13:27:26-439	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 13:27:27-439	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 13:27:27-639	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 13:29:48-700	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-17 13:29:49-300	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-17 13:30:47-749	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 13:30:47-749	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 13:30:48-350	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 13:30:48-550	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 13:30:57-757	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 13:30:58-757	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 13:38:15-017	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 13:38:15-017	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 13:38:16-018	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 13:38:16-218	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 13:40:20-670	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-17 13:40:21-271	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-17 13:40:58-696	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 13:40:58-696	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 13:40:59-297	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 13:40:59-497	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 13:41:08-704	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 13:41:09-705	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 19:36:45-525	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 19:36:45-525	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 19:36:46-326	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-17 19:36:46-526	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 19:36:46-726	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 19:38:50-557	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-17 19:38:51-157	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-17 19:40:10-577	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 19:40:10-577	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 19:40:11-177	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 19:40:11-377	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 19:40:20-579	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 19:40:21-579	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 19:52:12-688	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 19:52:12-688	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-17 19:52:13-689	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 19:52:13-889	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-17 19:54:52-815	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-17 19:54:53-416	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-17 19:55:03-424	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 19:55:03-424	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 19:55:04-025	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-17 19:55:04-225	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-17 19:55:13-436	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-17 19:55:14-437	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 20:27:52-614	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 20:27:52-614	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 20:27:53-614	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 20:27:53-815	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 20:29:59-646	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-18 20:30:00-246	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-18 20:31:04-702	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 20:31:04-702	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 20:31:05-302	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 20:31:05-503	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 20:31:14-709	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 20:31:15-710	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 20:37:49-354	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 20:37:49-354	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 20:37:50-355	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 20:37:50-555	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 20:39:49-596	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-18 20:39:53-198	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-18 20:40:42-611	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 20:40:42-611	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 20:40:43-212	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 20:40:43-412	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 20:40:52-617	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 20:40:53-617	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 22:06:19-405	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 22:06:19-405	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 22:06:20-406	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 22:06:20-606	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 22:08:25-082	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-18 22:08:25-682	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-18 22:09:48-113	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 22:09:48-113	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 22:09:48-713	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 22:09:48-913	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 22:09:58-114	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 22:09:59-114	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 22:21:46-834	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 22:21:46-834	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-18 22:21:47-835	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 22:21:48-035	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-18 22:24:29-361	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-18 22:24:29-962	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-18 22:24:43-371	0	Batch3	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 22:24:43-371	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 22:24:43-971	0	Original-BatchTrack	62	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-18 22:24:44-171	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-18 22:24:53-378	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 22:24:54-379	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-18 23:23:53-355	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-19 08:30:26-313	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 08:30:26-313	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 08:30:27-313	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 08:30:27-513	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 08:32:40-951	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-19 08:32:41-552	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-19 08:33:39-961	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 08:33:39-961	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 08:33:40-561	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 08:33:40-761	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 08:33:49-962	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 08:33:50-962	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 08:40:50-296	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 08:40:50-296	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 08:40:51-297	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 08:40:51-498	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 08:42:54-813	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-19 08:42:55-413	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-19 08:43:38-450	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 08:43:38-450	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 08:43:39-050	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 08:43:39-250	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 08:43:48-458	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 08:43:49-459	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 14:34:16-711	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 14:34:16-711	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 14:34:17-511	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-19 14:34:17-712	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 14:34:17-912	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 14:36:40-416	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-19 14:36:41-017	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-19 15:07:26-827	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 15:07:26-827	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 15:07:27-829	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 15:07:28-029	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 15:09:34-493	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-19 15:09:35-094	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-19 15:10:15-500	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 15:10:15-500	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 15:10:16-100	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 15:10:16-300	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 15:10:25-503	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 15:10:26-503	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 15:22:24-742	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 15:22:24-742	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-19 15:22:25-743	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 15:22:25-943	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-19 15:25:02-588	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-19 15:25:03-188	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-19 15:25:16-591	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 15:25:16-591	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 15:25:17-191	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-19 15:25:17-391	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-19 15:25:26-594	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-19 15:25:27-594	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 07:02:19-787	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 07:02:19-787	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 07:02:20-787	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 07:02:20-987	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 07:04:28-428	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-20 07:04:29-028	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-20 07:05:18-437	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 07:05:18-437	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 07:05:19-037	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 07:05:19-237	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 07:05:28-439	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 07:05:29-439	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 07:11:53-980	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 07:11:53-980	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 07:11:54-980	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 07:11:55-180	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 07:13:53-843	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-20 07:13:57-445	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-20 07:14:49-884	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 07:14:49-884	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 07:14:50-484	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 07:14:50-684	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 07:14:59-894	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 07:15:00-894	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 09:14:13-168	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-20 15:06:36-898	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 15:06:36-898	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 15:06:37-898	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 15:06:38-098	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 15:09:16-751	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-20 15:09:17-351	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-20 17:05:59-640	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 17:05:59-640	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 17:06:00-641	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 17:06:00-841	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 17:08:06-718	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-20 17:08:07-318	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-20 17:08:47-724	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 17:08:47-724	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 17:08:48-325	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 17:08:48-525	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 17:08:57-727	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 17:08:58-727	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 17:20:56-633	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 17:20:56-633	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-20 17:20:57-636	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 17:20:57-836	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-20 17:23:35-274	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-20 17:23:35-874	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-20 17:23:46-279	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 17:23:46-279	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 17:23:46-880	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-20 17:23:47-080	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-20 17:23:56-285	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-20 17:23:57-286	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 06:34:44-717	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-21 08:08:29-715	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 08:08:29-715	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 08:08:30-515	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-21 08:08:30-715	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 08:08:30-915	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 08:11:00-550	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-21 08:11:01-150	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-21 08:12:05-583	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 08:12:05-583	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 08:12:06-184	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 08:12:06-384	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 08:12:15-586	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 08:12:16-586	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 10:30:38-207	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 10:30:38-207	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 10:30:39-208	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 10:30:39-408	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 10:33:28-471	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-21 10:33:29-072	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-21 12:55:45-051	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 12:55:45-051	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 12:55:46-052	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 12:55:46-252	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 12:57:48-698	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-21 12:57:52-300	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-21 12:59:31-528	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 12:59:31-528	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 12:59:35-129	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 12:59:35-329	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 12:59:41-530	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 12:59:45-532	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 16:33:56-491	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 16:33:56-491	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 16:33:57-491	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 16:33:57-691	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 16:36:02-745	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-21 16:36:06-347	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-21 16:36:43-761	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 16:36:43-761	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 16:36:44-361	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 16:36:44-561	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 16:36:53-764	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 16:36:54-764	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 17:32:09-451	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 17:32:09-451	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-21 17:32:10-452	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 17:32:10-652	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-21 17:34:34-695	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-21 17:34:35-295	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-21 17:34:43-300	0	Original-BatchTrack	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 17:34:43-501	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 17:34:44-701	0	Batch3	66	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-21 17:34:44-701	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-21 17:34:53-707	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-21 17:34:54-708	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 08:02:52-555	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 08:02:52-555	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 08:02:53-556	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 08:02:53-756	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 08:05:01-201	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 08:05:01-801	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 08:05:51-210	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 08:05:51-210	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 08:05:51-810	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 08:05:52-010	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 08:06:01-213	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 08:06:02-213	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 09:50:56-913	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 11:03:33-334	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 11:03:33-334	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 11:03:34-334	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 11:03:34-534	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 11:05:33-580	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-22 11:05:37-181	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-22 11:06:29-594	0	Batch3	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 11:06:29-594	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 11:06:30-195	0	Original-BatchTrack	43	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 11:06:30-395	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 11:06:39-596	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 11:06:40-596	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 16:52:33-575	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 16:52:33-575	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 16:52:34-576	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 16:52:34-776	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 16:55:11-011	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-22 16:55:11-611	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-22 16:56:52-083	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 16:56:52-083	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 16:56:52-684	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 16:56:52-884	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 16:57:02-092	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 16:57:03-092	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 18:05:02-188	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 18:05:02-188	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-22 18:05:02-989	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 18:05:03-189	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 18:05:03-389	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-22 18:07:10-682	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 18:07:11-282	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-22 18:07:54-709	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 18:07:54-709	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 18:07:55-310	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-22 18:07:55-510	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-22 18:08:04-718	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-22 18:08:05-720	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 08:47:27-345	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 08:47:27-345	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 08:47:28-346	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 08:47:28-546	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 08:50:01-987	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-23 08:50:02-587	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-23 08:50:10-588	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 08:50:10-788	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 08:50:11-989	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 08:50:11-989	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 08:50:20-991	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 08:50:21-992	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 16:02:40-745	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:02:40-745	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:02:41-746	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:02:41-946	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:04:52-857	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-23 16:04:53-457	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-23 16:05:33-866	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 16:05:33-866	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 16:05:34-466	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 16:05:34-666	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 16:05:43-868	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 16:05:44-868	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 16:17:52-059	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:17:52-059	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:17:53-059	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:17:53-259	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:20:33-898	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-23 16:20:34-498	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-23 16:20:47-902	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 16:20:47-902	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 16:20:48-502	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 16:20:48-702	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 16:20:57-905	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 16:20:58-905	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 16:50:00-100	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:50:00-100	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 16:50:01-101	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:50:01-301	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 16:52:24-174	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-23 16:52:24-774	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-23 18:14:38-081	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 18:14:38-081	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-23 18:14:39-081	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 18:14:39-281	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-23 18:16:29-909	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-23 18:16:33-510	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-23 18:18:00-733	0	Batch3	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 18:18:00-733	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 18:18:04-333	0	Original-BatchTrack	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-23 18:18:04-534	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-23 18:18:10-735	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 18:18:14-737	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-23 23:39:28-852	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-24 09:15:21-228	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 09:15:21-228	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 09:15:22-228	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 09:15:22-429	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 09:17:50-728	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-24 09:17:51-328	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-24 09:18:00-730	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 09:18:00-730	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 09:18:10-732	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 09:18:53-342	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 09:18:53-542	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 09:19:03-745	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 09:25:53-190	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 09:25:53-190	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 09:25:54-190	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 09:25:54-390	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 09:27:55-629	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-24 09:27:56-229	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-24 09:28:51-684	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 09:28:51-684	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 09:28:52-285	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 09:28:52-485	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 09:29:01-693	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 09:29:02-694	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 14:13:23-442	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 14:13:23-442	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 14:13:24-243	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-24 14:13:24-443	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 14:13:24-643	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 14:15:33-075	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-24 14:15:33-675	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-24 14:16:14-696	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 14:16:14-896	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 14:16:17-097	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 14:16:17-097	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 14:16:25-099	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 14:16:27-099	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 14:28:30-357	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 14:28:30-357	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 14:28:31-357	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 14:28:31-557	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 14:31:11-046	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-24 14:31:11-646	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-24 14:31:28-049	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 14:31:28-049	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 14:31:28-649	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 14:31:28-849	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 14:31:38-055	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 14:31:39-055	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 17:47:48-876	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 17:47:48-876	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-24 17:47:49-876	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 17:47:50-076	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-24 17:49:40-128	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-24 17:49:43-732	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-24 17:51:30-192	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 17:51:30-192	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 17:51:30-792	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-24 17:51:30-992	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-24 17:51:40-194	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 17:51:41-194	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-24 20:23:43-646	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-25 11:59:48-278	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 11:59:48-278	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 11:59:49-278	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 11:59:49-478	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 12:02:09-147	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-25 12:02:09-747	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-25 12:03:02-765	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 12:03:02-965	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 12:03:05-165	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 12:03:05-165	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 12:03:13-168	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 12:03:15-168	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 12:10:00-918	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 12:10:00-918	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 12:10:01-719	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-25 12:10:01-919	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 12:10:02-119	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 12:12:02-414	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-25 12:12:06-016	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-25 12:12:58-467	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 12:12:58-467	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 12:12:59-068	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 12:12:59-268	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 12:13:08-476	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 12:13:09-477	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 15:41:30-457	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 15:41:30-457	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 15:41:31-457	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 15:41:31-657	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 15:44:39-009	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-25 15:44:39-609	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-25 15:44:53-019	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 15:44:53-019	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 15:45:03-028	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 15:45:44-648	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 15:45:44-848	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 15:45:55-055	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 15:58:56-438	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 15:58:56-438	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 15:58:57-438	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 15:58:57-638	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 16:01:37-754	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-25 16:01:38-354	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-25 16:01:51-757	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 16:01:51-757	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 16:01:52-357	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 16:01:52-557	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 16:02:01-759	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 16:02:02-759	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 19:18:10-501	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 19:18:10-501	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-25 19:18:11-501	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 19:18:11-701	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-25 19:20:04-537	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-25 19:20:05-138	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-25 19:21:39-561	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 19:21:39-561	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 19:21:40-161	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-25 19:21:40-361	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-25 19:21:49-563	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 19:21:50-563	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-25 21:34:20-870	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-26 10:13:21-591	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 10:13:21-591	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 10:13:22-391	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-26 10:13:22-591	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 10:13:22-791	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 10:15:34-881	0	Batch3	1	Omni product code changed	admin	WCPBTMRA
+2018-02-26 10:15:38-482	0	Original-BatchTrack	1	Omni product code changed	admin	WCPBTMRA
+2018-02-26 10:16:45-898	0	Batch3	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 10:16:45-898	0	Batch3	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 10:16:46-499	0	Original-BatchTrack	72	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 10:16:46-699	0	Original-BatchTrack	2	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 10:16:55-900	0	Batch3	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-26 10:16:56-900	0	Original-BatchTrack	2	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-26 13:35:42-478	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 13:35:42-478	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 13:35:43-479	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 13:35:43-679	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 13:38:11-538	0	Batch3	5	Omni product code changed	admin	WCPBTMRA
+2018-02-26 13:38:12-138	0	Original-BatchTrack	5	Omni product code changed	admin	WCPBTMRA
+2018-02-26 13:39:16-565	0	Batch3	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 13:39:16-565	0	Batch3	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 13:39:17-165	0	Original-BatchTrack	33	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 13:39:17-365	0	Original-BatchTrack	6	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 13:39:26-569	0	Batch3	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-26 13:39:27-570	0	Original-BatchTrack	6	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-26 15:33:04-175	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 15:33:04-175	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-26 15:33:05-175	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 15:33:05-376	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-26 15:35:46-623	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-26 15:35:47-223	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-26 15:36:00-626	0	Batch3	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 15:36:00-626	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 15:36:01-226	0	Original-BatchTrack	76	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-26 15:36:01-426	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-26 15:36:10-628	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-26 15:36:11-628	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-27 12:01:53-513	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-27 12:01:53-513	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-27 12:01:54-513	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-27 12:01:54-713	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-27 12:03:56-207	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-27 12:03:56-807	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-27 12:04:49-258	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-27 12:04:49-258	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-27 12:04:49-859	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-27 12:04:50-059	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-27 12:04:59-269	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-27 12:05:00-270	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-27 16:51:12-593	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-27 16:51:12-593	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-27 16:51:13-593	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-27 16:51:13-793	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-27 16:53:38-026	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-27 16:53:38-627	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-27 16:53:46-628	0	Original-BatchTrack	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-27 16:53:46-828	0	Original-BatchTrack	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-27 16:53:48-028	0	Batch3	53	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-27 16:53:48-028	0	Batch3	7	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-27 16:53:57-030	0	Original-BatchTrack	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-27 16:53:58-030	0	Batch3	7	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-27 16:53:58-430	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-28 07:18:16-810	0	BatchTrackLogic	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 07:18:16-810	0	Original-BatchTrack	1	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 07:18:17-811	0	BatchTrackLogic	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 07:18:18-011	0	Original-BatchTrack	1	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 07:20:52-886	0	Batch3	6	Omni product code changed	admin	WCPBTMRA
+2018-02-28 07:20:53-486	0	Original-BatchTrack	6	Omni product code changed	admin	WCPBTMRA
+2018-02-28 16:01:34-364	0	BatchTrackLogic	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 16:01:34-364	0	Original-BatchTrack	2	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 16:01:35-364	0	BatchTrackLogic	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 16:01:35-564	0	Original-BatchTrack	2	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 16:03:40-802	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-28 16:03:44-403	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-28 16:04:45-829	0	Batch3	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-28 16:04:45-829	0	Batch3	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-28 16:04:46-430	0	Original-BatchTrack	35	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-28 16:04:46-630	0	Original-BatchTrack	5	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-28 16:04:55-833	0	Batch3	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-28 16:04:56-834	0	Original-BatchTrack	5	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-28 16:50:55-823	0	BatchTrackLogic	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 16:50:55-823	0	Original-BatchTrack	3	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 16:50:56-823	0	BatchTrackLogic	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 16:50:57-023	0	Original-BatchTrack	3	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 16:53:10-453	0	Batch3	4	Omni product code changed	admin	WCPBTMRA
+2018-02-28 16:53:11-053	0	Original-BatchTrack	4	Omni product code changed	admin	WCPBTMRA
+2018-02-28 18:31:26-044	0	BatchTrackLogic	0	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 18:31:26-044	0	Original-BatchTrack	4	Batch start request from TDC	admin	WCPBTMRA
+2018-02-28 18:31:26-844	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-28 18:31:27-045	0	BatchTrackLogic	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 18:31:27-245	0	Original-BatchTrack	0	Batch start return sent to TDC	admin	WCPBTMRA
+2018-02-28 18:33:49-310	0	Batch3	0	Omni product code changed	admin	WCPBTMRA
+2018-02-28 18:33:49-910	0	Original-BatchTrack	0	Omni product code changed	admin	WCPBTMRA
+2018-02-28 18:33:54-911	0	Original-BatchTrack	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-28 18:33:55-111	0	Original-BatchTrack	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-28 18:33:59-312	0	Batch3	65	SWING - Omni strobe sent	admin	WCPBTMRA
+2018-02-28 18:33:59-312	0	Batch3	1	SWING - ESSO signal sent	admin	WCPBTMRA
+2018-02-28 18:34:05-313	0	Original-BatchTrack	1	SWING - TDC signal sent	admin	WCPBTMRA
+2018-02-28 18:34:09-318	0	Batch3	1	SWING - TDC signal sent	admin	WCPBTMRA

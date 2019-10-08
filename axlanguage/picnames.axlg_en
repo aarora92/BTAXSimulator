@@ -1,0 +1,48 @@
+Group MiddlePlant 	MiddlePlant
+Picture TruckRack2	TruckRack2
+Picture SlopSystem	SlopSystem
+Picture HardwareAlarms	HardwareAlarms
+Picture FireAlarmPanel	FireAlarmPanel
+Picture FoamSystem	FoamSystem
+Picture SymbolSamples	SymbolSamples
+Picture Diesel/Stove	Diesel/Stove
+Picture Booster Pumps	Booster Pumps
+Group Dock 	Dock
+Picture GasToDock2	GasToDock2
+Picture StoveDieselToDocks2	StoveDieselToDocks2
+Picture West Dock Detail 2	West Dock Detail 2
+Picture EastDock2	EastDock2
+Picture DockInstAir	DockInstAir
+Group RailSpur 	RailSpur
+Picture RailSpur	RailSpur
+Group Leak Detection 	Leak Detection
+Picture Master	Master
+Picture Leak Factors	Leak Factors
+Picture West Dock Detail	West Dock Detail
+Picture Import Pumps	Import Pumps
+Group Test Alarm 	Test Alarm
+Picture Alarms	Alarms
+Group (null) 	(null)
+Picture Diesel/Stove To Docks	Diesel/Stove To Docks
+Picture Rail Loading	Rail Loading
+Picture Communications	Communications
+Picture BioDiesel	BioDiesel
+Picture Ethanol	Ethanol
+Group Communications 	Communications
+Picture Profibus Network	Profibus Network
+Group UpperPlant 	UpperPlant
+Picture Distillate Lines	Distillate Lines
+Picture Gasoline Lines	Gasoline Lines
+Picture Distillates	Distillates
+Picture VRU	VRU
+Picture Offloading	Offloading
+Picture Layout	Layout
+Group test 	test
+Picture test	test
+Picture Communication	Communication
+Group Rail Offloading 	Rail Offloading
+Picture Zone 1	Zone 1
+Picture Zone 5	Zone 5
+Picture Sump Pumps	Sump Pumps
+Picture Zone 2	Zone 2
+Picture ULSD_To_NewTanks	ULSD_To_NewTanks

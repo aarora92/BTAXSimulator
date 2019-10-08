@@ -1,0 +1,137 @@
+// GLOBAL ENUMERATORS - only use if access
+// required outside of class!!
+// DO NOT DELETE ANY CONTENT!!!!!
+// any deletion will/might cause system downtime!
+Product Name:	SUL=0, 	// FIN 91 SUL
+		RUL=1, 	// FIN RBOB
+		Stove=2,	// FIN STOVE
+  		R100=3,     // R100NExBTL
+		E95=4,	// ETHANOL
+		B5=5,	// B5 ULSD
+		B0=6,	//FIN LSSD
+		TACTROL=7,	//TACTROL
+		Slop=8,		//Marketing Slop
+		B100=9;		//Biodiesel
+
+DataFormat:	VZ15Bit=0, 	// S7-Format; ET200M
+		VZ12Bit=1, 	// S5-Format ( bit0..Ü  /  bit1..F /  bit2..X);  MURR Input
+		VZ11Bit=2, 	// S5-Analog Module; MURR Output
+		VZ8Bit=3, 
+		NVZ8Bit=4, 
+		VZ7Bit=5,
+		NVZ16Bit=6,	// Lenzing all 16Bits
+		NVZ16BitLE=7; // Lenzing all 16Bits; Little endean
+
+Baudrate:Bd_12M=9,Bd_6M=8,Bd_3M=7,Bd_1M5=6,aX_1M5=5,Bd_500K=4,Bd_187K5=3,Bd_93K7=2,Bd_19K2=1,Bd_9K6=0;
+
+Master_Con:	automationX_ISA{
+			ISA1_MIO_0=0,
+	 		ISA1_MIO_1=1,
+			ISA1_MIO_2=2,
+			ISA1_MIO_3=3,
+			ISA1_MIO_4=4,
+			ISA1_MIO_5=5},
+		automationX_PCI{
+			PCI1_PB_0/SER=50,
+	 		PCI1_PB_1=51,
+			PCI2_PB_0/SER=52,
+		 	PCI2_PB_1=53,
+			PCI3_PB_0/SER=54,
+		 	PCI3_PB_1=55,
+			PCI4_PB_0/SER=60,
+		 	PCI4_PB_1=61,
+			PCI5_PB_0/SER=62,
+		 	PCI5_PB_1=63,
+			PCI6_PB_0/SER=64,
+		 	PCI6_PB_1=65},
+		automationX_PC104{
+			PC104_1=80,
+	 		PC104_2=90,
+			PC104_3=100,
+		 	PC104_4=110},
+		Softing{
+			PROFIBoard0=20,
+			PROFIBoard1=21,
+			PROFIBoard2=22,
+			PROFIBoard3=23},
+		Siemens{
+			IE_ISO_CP1=30,
+			IE_ISO_CP2=31,
+			IE_ISO_CP3=32,
+			IE_ISO_CP4=33},
+		Hilscher{
+			CIF_PB_1=40,
+			CIF_PB_2=41,
+			CIF_PB_3=42,
+			CIF_PB_4=43},
+		Xea{
+			SLAVE_NODE_1A=160,
+			SLAVE_NODE_1B=161,
+			SLAVE_NODE_2A=162,
+			SLAVE_NODE_2B=163,
+			SLAVE_NODE_3A=164,
+			SLAVE_NODE_3B=165,
+			SLAVE_NODE_4A=166,
+			SLAVE_NODE_4B=167,
+			SLAVE_NODE_5A=168,
+			SLAVE_NODE_5B=169,
+			SLAVE_NODE_6A=170,
+			SLAVE_NODE_6B=171,
+			SLAVE_NODE_7A=172,
+			SLAVE_NODE_7B=173,
+			SLAVE_NODE_8A=174,
+			SLAVE_NODE_8B=175},
+		Xlink{
+			XL_PBM_1 =200,
+			XL_PBM_2 =201,
+			XL_PBM_3 =202,
+			XL_PBM_4 =203,
+			XL_PBM_5 =204,
+			XL_PBM_6 =205,
+			XL_PBM_7 =206,
+			XL_PBM_8 =207,
+			XL_PBM_9 =208,
+			XL_PBM_10=209,
+			XL_PBM_11=210,
+			XL_PBM_12=211,
+			XL_PBM_13=212,
+			XL_PBM_14=213,
+			XL_PBM_15=214,
+			XL_PBM_16=215};
+
+Module_Selection:
+		not_valid= -1,
+		ET200U_Profibus=0,
+		RS485=1,
+		SER_PCI=3,
+		RS232=4,
+		RS485=5,
+		RS422=6,
+		WRAP=8,
+		Dig_Input=12,
+		Dig_Output=13,
+		IEEE488=14,
+		Profibus_1M5=19,
+		Redundancy=16,
+		Profibus=17,
+		W_Plexer =18;
+
+MIO_Card_Selection:	ISA_1 = 0,
+			PCI_1 = 2,
+			PCI_2 = 3,
+			PCI_3 = 4,
+			PCI_4 = 5,
+			PCI_5 = 6,
+			PCI_6 = 7;
+
+LiveList:		no=0,
+		DEVICE_Used=1,
+		DEVICE_OK=2,
+		MASTER_Used=3,
+		MASTER_OK=4;
+
+
+SwitchColor:Blue,Green,Red,Yellow;
+State:links,rechts;
+Alarmtype:keiner,X_gleich_W,X_ungleich_W,X_groesser_W,X_kleiner_W;
+Input:High,Low;

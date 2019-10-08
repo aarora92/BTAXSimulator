@@ -1,0 +1,54 @@
+DataFormat:S7_Format,S5_Format;
+NoiseSup:Hz400,Hz60,Hz50,Hz10;
+Resolution:VZ_16Bit,VZ_14Bit,VZ_12Bit,VZ_9Bit;
+Config:
+	deact=0x0,
+	voltage	{mV_np80=0x11,
+		mV_np250,
+		mV_np500,
+		V_np1,
+		V_np2_5,
+		V_np5,
+		V_1to5,
+		V_np10=0x19
+		},
+	current_4wire {mA_np3_2=0x20,
+		mA_np10,
+		mA_0to20,
+		mA_4to20,
+		mA_np20
+		},		
+	current_2wire {mA_4to20_2wire=0x33},
+	resistance_4wire{Ohm_150=0x42,
+		Ohm_300=0x44,
+		Ohm_600=0x46
+		},
+	thermo_4wire_lin{Pt100_K=0x80,
+		Ni100_K,
+		Pt100,
+		Ni100=0x8B
+		},
+	thermo_int_comp{typ_N=0xA1,
+		typ_E=0xA2,
+		typ_J=0xA5,
+		typ_L=0xA6,
+		typ_K=0xA8
+		},
+	thermo_ext_comp{typ_N=0xB1,
+		typ_E=0xB2,
+		typ_J=0xB5,
+		typ_L=0xB6,
+		typ_K=0xB8
+		},
+	thermo_lin_int_comp{typ_N=0xD1,
+		typ_E=0xD2,
+		typ_J=0xD5,
+		typ_L=0xD6,
+		typ_K=0xD8
+		},
+	thermo_lin_ext_comp{typ_N=0xE1,
+		typ_E=0xE2,
+		typ_J=0xE5,
+		typ_L=0xE6,
+		typ_K=0xE8
+		};

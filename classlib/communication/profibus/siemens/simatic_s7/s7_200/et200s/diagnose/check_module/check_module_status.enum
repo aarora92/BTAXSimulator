@@ -1,0 +1,4 @@
+Modulestatus:	Module_OK=0,
+		Module_error=1,
+		Wrong_Module=2,
+		No_Module=3;

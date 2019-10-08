@@ -1,0 +1,15 @@
+ET200B_4_8AI_Format:2_Complement=0,Sign_and_Value=1;
+ET200B_4_8AI_IntegrTime:20ms=0xAA,16_7ms=0x55;
+ET200B_4_8AI_Config:
+	deact=0x0,
+	voltage	{mV_np80=0x11,
+		mV_np250=0x12,
+		mV_np500=0x13,
+		V_np1=0x14
+		},
+	thermo_lin {Pt100=0x82
+		},
+	thermo_ext {typ_J=0xE5,
+		typ_L=0xE6,
+		typ_K=0xE8
+		};

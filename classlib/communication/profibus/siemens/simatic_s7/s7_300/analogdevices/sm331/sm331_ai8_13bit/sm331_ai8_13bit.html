@@ -1,0 +1,681 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>Siemens Analog Input sm331_ai8_13bit</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Analog
+Output sm331_ai8 x 13Bit</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<br><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">This analog input module SM 331 AI8 includes
+eight inputs with a resolution of 13 bit.</font>
+<p><font face="Arial,Helvetica">It can be used in a S7-300 or in a Profibus
+DP Slave-System (ET200M IM153).</font>
+<p><font face="Arial,Helvetica">The module converts the analog process
+signal to a digital value with the selectet resolution.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The sm332_ai8 class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Defines the local color for
+the class.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm331_ai8_13bit.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup</font>
+<br><font face="Arial">menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm331_ai8_13bit.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td><b><font face="Arial">Symbol File</font></b></td>
+
+<td><font face="Arial">Symbol used in the class.</font></td>
+
+<td><font face="Arial,Helvetica">analogdevices_ai_selrange.symbol</font></td>
+</tr>
+
+<tr>
+<td><b><font face="Arial">Enumerator File</font></b></td>
+
+<td><font face="Arial">Defines the enumerator for the class.</font></td>
+
+<td><font face="Arial,Helvetica">sm331_ai8_13bit.enum</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial">axparam_grey16.bmp</font>
+<br><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<br><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm331_ai8_13bit.htm</font></td>
+</tr>
+</table>
+<b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The SM331 AI8 user interface includes a
+process picture representation and several popup menus. The SM331 AI8 process
+representation is shown in Figure 2. The SM331 AI8 popup menus include
+two operater interfaces. One shows Figure 3 and the second is simular to
+the first operater interface for the other four channels.</font>
+<p><font face="Arial,Helvetica">The SM331 AI8 process picture has a unique
+name identifier ($Instance) for the SM331 AI8 displayed in the middle of
+the picture (SM331_8AI). Each channel is visualized by a slider and a value
+display. The first four channels are displayed above the unique name identifier
+and the other four below. If a channel's value is forced by using the operater
+interface the rectangle above the value display change its color to red.
+The rectangle at the top right signalled a service fault and the black
+rectangle at the bottom left shows the module position.</font>
+<p><img SRC="sm331_ai8_Graph.gif" NATURALSIZEFLAG="3" height=536 width=195>
+<br><font face="Arial"><font size=-1>Figure 2: SM331 AI8 Graphical Representation</font></font>
+<p><font face="Arial,Helvetica"><font color="#000000">Using the left mouse
+button down at one of sliders on SM331 AI8 process</font></font>
+<br><font face="Arial,Helvetica"><font color="#000000">representation causes
+the Operations Interface window, Figure 3, to be</font></font>
+<br><font face="Arial,Helvetica"><font color="#000000">opened on the computer
+screen.</font></font>
+<p><img SRC="sm331_ai8_Popup.gif" NATURALSIZEFLAG="3" height=586 width=412>
+<p><font face="Arial"><font size=-1>Figure 3: SM331 AI8 Operations Interface</font></font>
+<p><font face="Arial,Helvetica">The SM331 AI8 13bit operater graphic also
+includes the Instance name or the Analog Input SM331 AI8 and below it there
+is a comment describing the Analog Input unit. The button which hosts the
+Instance name and the comment can close the popup.</font>
+<p><font face="Arial,Helvetica">The operater interface is splitted in four
+parts, for each channel one. The right slider shows always the real input
+value. With the button at the bottom of each channel section the mode could
+be changed from normal mode to force mode. Then the input value can be
+force by the left slider which isn't sensitive as long as the button shows
+"Norm". This means that input value is simulated with a variable value
+edited by a slider to test the plc programs without any I/O's.</font>
+<p><font face="Arial,Helvetica">The right text above the channel section
+signalled whether the module or the data is valid. This text dis appear
+only if the module and the data is valid.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="Configuration"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the Analog Input</font>
+<br><font face="Arial">SM331 AI8 13bit. The parameter data type, the default
+values and a brief</font>
+<br><font face="Arial">description are listed. The grey shaded rows cotains
+parameters which must</font>
+<br><font face="Arial">not be changed.</font>
+<br>&nbsp;
+<table BORDER CELLPADDING=2 WIDTH="860" BGCOLOR="#FFFFFF" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Item</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Variable</font></b></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Type</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Default</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">1</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">CH0</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Input
+channel 0&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">2</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">CH1&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Input
+channel 1</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">3</font></td>
+
+<td><font face="Arial,Helvetica">CH2</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 2</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">4</font></td>
+
+<td><font face="Arial,Helvetica">CH3</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 3</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">5</font></td>
+
+<td><font face="Arial,Helvetica">CH4</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 4</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">6</font></td>
+
+<td><font face="Arial,Helvetica">CH5</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 5</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">7</font></td>
+
+<td><font face="Arial,Helvetica">CH6</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 6</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">8</font></td>
+
+<td><font face="Arial,Helvetica">CH7</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Input channel 7</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">9</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Connection</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">...</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">With
+the instance name of the following unit the next unit will be connected
+to this one.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">10</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">DataValid</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">YES
+if the profibus DP communication is valid.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">11</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">InputData[16]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Input
+data array used by profibus DP and handles the analog inputs of this module.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">12</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">ModuleValid</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">YES
+if the module itself has no error.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">13</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">error_msg[10]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">...</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Error
+message array.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">14</font></td>
+
+<td><font face="Arial,Helvetica">ModulePosition</font></td>
+
+<td><font face="Arial,Helvetica">USINT&nbsp;</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Shows the position of the module in an
+order.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">15</font></td>
+
+<td><font face="Arial,Helvetica">ModuleName</font></td>
+
+<td><font face="Arial,Helvetica">STRING</font></td>
+
+<td><font face="Arial,Helvetica">6ES7</font>
+<br><font face="Arial,Helvetica">331-7KF0*-0AB0</font></td>
+
+<td><font face="Arial,Helvetica">It's the module name which is checked
+with the GSD file of the profibus DP slave (constant).</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">16</font></td>
+
+<td><font face="Arial,Helvetica">UsrPrmDataValid</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">YES if the user parameter data (UsrPrmData)
+is valid.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">17</font></td>
+
+<td><font face="Arial,Helvetica">UsrPrmDataLen</font></td>
+
+<td><font face="Arial,Helvetica">USINT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">The real UsrPrmData length of this module.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">18</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">UsrPrmData[24]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">User
+Parameter Data array used by profibus DP and handles the parameterization
+of the channels.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">19</font></td>
+
+<td><font face="Arial,Helvetica">Force[8]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">The bits in this array set the force module
+of each channel.</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">20</font></td>
+
+<td><b><font face="Arial,Helvetica"><font color="#0000FF">DataFormat</font></font></b></td>
+
+<td><font face="Arial,Helvetica">INT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Changes the data format S7/M7 - S5. Depends
+on DP slave.</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">21</font></td>
+
+<td><font face="Arial,Helvetica">NoiseFreq[4]</font></td>
+
+<td><font face="Arial,Helvetica">ENUM:NoiseSup</font></td>
+
+<td><font face="Arial,Helvetica">Hz50</font></td>
+
+<td><font face="Arial,Helvetica">Select Interference frequency suppression
+for easch channel cluster.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">22</font></td>
+
+<td><font face="Arial,Helvetica">Resolution[4]</font></td>
+
+<td><font face="Arial,Helvetica">ENUM:Resolution</font></td>
+
+<td><font face="Arial,Helvetica">VZ_12Bit</font></td>
+
+<td><font face="Arial,Helvetica">Depends on NoiseFreq.</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">23</font></td>
+
+<td><font face="Arial,Helvetica">ModuleRange[8]</font></td>
+
+<td><font face="Arial,Helvetica">ENUM:Config</font></td>
+
+<td><font face="Arial,Helvetica">deact.</font></td>
+
+<td><font face="Arial,Helvetica">Select measuring range and measuring mode
+for each channel cluster.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">24</font></td>
+
+<td><font face="Arial,Helvetica">Globaldiag[4]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">collecting diagnosis.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">25</font></td>
+
+<td><font face="Arial,Helvetica">DiagWire[4]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">wire breakage examination.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">26</font></td>
+
+<td><font face="Arial,Helvetica">CycleAlarm</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">end of cycle alarm.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">27</font></td>
+
+<td><font face="Arial,Helvetica">DiagAlarm</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">diagnosis alarm.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">28</font></td>
+
+<td><font face="Arial,Helvetica">LimitAlarm</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">boundary value alarm.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">29</font></td>
+
+<td><font face="Arial,Helvetica">H_Limit_C0</font></td>
+
+<td><font face="Arial,Helvetica">INT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Upper limit channel cluster 0, channel
+0.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">30</font></td>
+
+<td><font face="Arial,Helvetica">L_Limit_C0</font></td>
+
+<td><font face="Arial,Helvetica">INT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Lower limit channel cluster 0, channel
+0.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">31</font></td>
+
+<td><font face="Arial,Helvetica">H_Limit_C1</font></td>
+
+<td><font face="Arial,Helvetica">INT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Upper limit channel cluster 1, channel
+1.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">32</font></td>
+
+<td><font face="Arial,Helvetica">L_Limit_C1</font></td>
+
+<td><font face="Arial,Helvetica">INT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Lower limit channel cluster 1, channel
+1.</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The "sm331_ai8_13bit.color" file contains
+the SM331 AI8 13bit class color definitions. This file holds all defined
+class color schemes. The SM331 AI8 defined colors are:</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER COLS=2 WIDTH="100%" >
+<tr BGCOLOR="#C0C0C0">
+<td><b><font face="Arial,Helvetica">Color</font></b></td>
+
+<td><b><font face="Arial,Helvetica">Default RGB Values</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-BG</font></td>
+
+<td><font face="Arial,Helvetica">80/100/80</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-Label</font></td>
+
+<td><font face="Arial,Helvetica">0/255/255</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The "sm331_ai8_13bit.symbol" file contains
+the Analog Input SM331 AI8 13bit class definition for automationX. This
+file holds the user interface, the pop-up menus, the class parameters,
+and the logic.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial"><b>Qualities:</b> The SM331 AI8 x 13Bit is characterized
+by the following qualities:</font>
+<p><font face="Arial"><font size=-1>- 8 entries in 4 channel clusters</font></font>
+<p><font face="Arial"><font size=-1>- measured value solution variable
+per group (depending on adjusted integration time)</font></font>
+<br><font face="Arial">&nbsp;<font size=-1>&nbsp;&nbsp; ~ 13 bits + signs</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;</font></font>
+<br><font face="Arial"><font size=-1>- measuring mode optional per channel
+cluster:</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ tension</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ current</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ resitance</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ temperature</font></font>
+<p><font face="Arial"><font size=-1>- any measuring range selection per
+channel cluster</font></font>
+<p><font face="Arial"><font size=-1>- parametriable diagnosis</font></font>
+<p><font face="Arial"><font size=-1>- 2 channels with limit supervision</font></font>
+<p><font face="Arial"><font size=-1>- parametriable boundary value alarm</font></font>
+<p><font face="Arial"><font size=-1>- floating compared to the CPU</font></font>
+<p><font face="Arial"><font size=-1>- floating compared to the load supply
+(not at 2-write transducer)</font></font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+</body>
+</html>

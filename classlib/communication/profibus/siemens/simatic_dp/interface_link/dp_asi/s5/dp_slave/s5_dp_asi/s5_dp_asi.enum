@@ -1,0 +1,14 @@
+Reaction_ASI_E0:	no_Reaction=0,
+			E0_0V_clear=1,
+			E0_24V_clear=2;
+ASI_Mode:		Protected_Mode=0,
+			Config_Mode=1;
+ASI_Data_Mode:	normal_dataexchange = 0x00,
+			SET_IO_codes=0x08,
+			SET_ID_codes=0x09,
+			IO_codes_ACT=0x0A,
+			ID_codes_ACT=0x0B,
+			stationdiag_1_2=0x0C,
+			cmd=0x0D,
+			int_Version=0x0E,
+			AS_i_Prm_Online=0x0F;

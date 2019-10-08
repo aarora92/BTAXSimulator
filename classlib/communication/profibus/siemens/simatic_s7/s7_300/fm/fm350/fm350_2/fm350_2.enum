@@ -1,0 +1,150 @@
+Enable_FC: 
+				no_FC = 0,
+				RD_DIAG=0x0100,
+				Alarm_Ack=0x0200,
+				CHECK_WR_CH=0x5000,
+				CNT2_WR
+				{
+					no_WR=0x5100,
+					LOAD_VAL0=0x510A,
+					LOAD_VAL1,
+					LOAD_VAL2,
+					LOAD_VAL3,
+					LOAD_VAL4,
+					LOAD_VAL5,
+					LOAD_VAL6,
+					LOAD_VAL7,
+					LOAD_PREPARE_VAL0=0x5114,
+					LOAD_PREPARE_VAL1,
+					LOAD_PREPARE_VAL2,
+					LOAD_PREPARE_VAL3,
+					LOAD_PREPARE_VAL4,
+					LOAD_PREPARE_VAL5,
+					LOAD_PREPARE_VAL6,
+					LOAD_PREPARE_VAL7,
+					CMP_VAL0=0x511E,
+					CMP_VAL1,
+					CMP_VAL2,
+					CMP_VAL3,
+					CMP_VAL4,
+					CMP_VAL5,
+					CMP_VAL6,
+					CMP_VAL7,
+					LOAD_VAL0_3=0x5128,
+					LOAD_VAL4_7,
+					LOAD_VAL0_7,
+					LOAD_PREPARE_VAL0_3=0x5132,
+					LOAD_PREPARE_VAL4_7,
+					LOAD_PREPARE_VAL0_7,
+					CMP_VAL0_3=0x513C,
+					CMP_VAL4_7,
+					CMP_VAL0_7,
+					RESET=0x5156
+				},
+				CNT2_RD
+				{
+					ACT_VAL_CH0_3=0x6400,
+					ACT_VAL_CH4_7=0x6500
+				}
+				RD_D1 = 0x7800,
+				RD_D2 = 0x7900,
+				RD_D3 = 0x7A00,
+				RD_ERROR_INFO = 0xED00,
+				RD_F1 = 0xF700;
+
+Sel_Alarm: 		no_alarm,diagnostic,process,diagnostic_and_process;
+
+Sel_CPU_Stop:	break,run,force_value,last_value;
+
+OperationMode:	continous_count=0,
+				uniquely_count=1,
+				periodically_count=2,
+				frequency_measurement=3,
+				speed_resolution_measurement=4,
+				periodic_time_measurement=5,
+				dosing_count=6;
+
+Direction_Sel: 	forward=0,
+				backward=1;
+
+Output_Mode: 	no_compare=0, 
+				ON_ActVal_greather_CmpVal=1,
+				ON_ActVal_smaller_CmpVal=2;
+
+Alternative_Value:no_ForceValue=0x00,
+				ForceValue1=0x01,
+				ForceValue2=0x02,
+				ForceValue3=0x04,
+				ForceValue4=0x08;
+
+Signal_Check:			impulse_and_direction
+				{
+					direction_not_convertet=0x01,
+					direction_convertet=0x11,
+				},
+				single_Transmitter
+				{
+					direction_not_convertet=0x02,
+					direction_convertet=0x12,
+				},
+				douple_Transmitter
+				{
+					direction_not_convertet=0x04,
+					direction_convertet=0x14,
+				},
+				fourfold_transmitter
+				{
+					direction_not_convertet=0x08,
+					direction_convertet=0x18,
+				};
+				
+	
+
+Alarm_Value:	open_of_HW_gate=0x01,
+				close_of_HW_gate=0x02,
+				overflow_underflow=0x04,
+				CmpVal_1=0x08,
+				CmpVal_2=0x10,
+				CmpVal_3=0x20,
+				CmpVal_4=0x40,
+				AlarmLowLimit=0x80,
+				AlarmHighLimit=0x0100,
+				Counter_Endvalue=0x0200;
+
+Reaction_Close_HW_Gate:Counter_stop=0,
+				Counter_break=1;
+
+HW_Control:		On=0,
+				Off=1;
+
+Sel_Channel:	Channel0=0,
+				Channel1=1,
+				Channel2=2,
+				Channel3=3,
+				Channel4=4,
+				Channel5=5,
+				Channel6=6,
+				Channel7=7;
+Sel_Namur:		NAMUR_CH0_CH3=0x0100,
+				NAMUR_CH4_CH7=0x0001;
+Sel_ValType: 	Word=0x80,
+				DWord=0x00;
+Sel_Word:		Low_Word=0x00,
+				High_Word=0x10;
+Sel_Visual:		CounterValue=0x00,
+				MeasuredValue=0x20;
+
+V_Enable_FC: 
+				no_FC = 0,
+				VAL=0x510A,
+				PREPARE_VAL=0x5114,
+				CMP_VAL=0x511E,
+				RESET=0x5156;
+
+V_OperationMode_E:	continous_count=0,
+				uniquely_count=1,
+				periodically_count=2,
+				frequency_measurement=3,
+				speed_resolution_measurement=4,
+				periodic_time_measurement=5;
+

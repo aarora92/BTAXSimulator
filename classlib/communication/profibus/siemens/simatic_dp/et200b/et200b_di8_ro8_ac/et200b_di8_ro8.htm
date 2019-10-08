@@ -1,0 +1,727 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>docu</title>
+<meta NAME="Microsoft Theme" CONTENT="none, default">
+<meta NAME="Microsoft Border" CONTENT="none, default">
+</head>
+
+<body BGCOLOR="#ffffe6">
+
+<h2><a name="top"><em><strong><font size="+4">Digital Input/Output ET200B DI8/RO8 AC</font></strong></em></a></h2>
+
+<p><strong><big>This digital input/output </big><font size="4">module</font><big> ET200B
+DI8/RO8 AC includes eight isolated inputs and eight isolated outputs.</big></strong></p>
+
+<p><big><strong>The module </strong></big><a name="figure1"></a><strong><big>summarize the
+individual digital inputs together to an input byte(s) and handles the output byte(s) the
+other way.</big></strong></p>
+
+<table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT="25"><a href="#Class Components"><em><strong><font
+    SIZE="+1" FACE="Arial">Class Components</font></strong></em></a><blockquote>
+      <p><a href="#table1"><font SIZE="+1">Table: 1 Class Components</font></a></p>
+    </blockquote>
+    </td>
+    <td WIDTH="2%" ROWSPAN="5"></td>
+    <td WIDTH="48%" ROWSPAN="5"><img src="et200b_di8_ro8_ac_image1.gif"><br>
+    Figure 1: Graphical Representation</td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#e8e8e8" HEIGHT="25"><a href="#Graphic Interface"><em><strong><font
+    SIZE="+1" FACE="Arial">Graphic Interface</font></strong></em></a><blockquote>
+      <p><a href="#figure2"><font SIZE="+1">Figure 2: Graphic Representation</font></a><br>
+      <a href="#figure3"><font SIZE="+1">Figure 3: Operations Interface</font></a><br>
+      </p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT="25"><a href="#Configuration"><em><strong><font
+    SIZE="+1" FACE="Arial">Configuration</font></strong></em></a><blockquote>
+      <p><a href="#table2"><font SIZE="+1">Table 2: Configuration Parameters</font></a></p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#e8e8e8" HEIGHT="13"><a href="#Implementation Notes"><em><strong><font
+    SIZE="+1" FACE="Arial">Implementation Notes</font></strong></em></a><blockquote>
+      <p><a href="#qualities"><font SIZE="+1">Digital Input/Output ET200B DI8/RO8 AC Qualities</font></a><br>
+      </p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="top" BGCOLOR="#C0C0C0" HEIGHT="12"><font face="Arial" size="4"><strong><em><a
+    href="#Class Modification History">Class Modification History</a></em></strong></font><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <font size="4"><a href="#table3">Table 3: Modification History</a></font><br>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center">&nbsp;</p>
+<font SIZE="+2">
+
+<hr ALIGN="LEFT">
+</font>
+
+<h2><a name="Class Components"><strong><font SIZE="+4"><em>ET200B DI8/RO8 AC:</em> Class
+Components</font></strong></a></h2>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">The components of the Digital Input/Output ET200B DI8/RO8 AC class are
+to be contained in the AutomationX class library, particularly in a directory named
+&quot;et200b&quot;.</font></p>
+
+<p><big>The Digital Input/Output ET200B DI8/RO8 AC Class components consist of the Class
+Color file, the Class Symbol file and the HTML document files. Table 1 lists the class
+components and the corresponding file names.</big></p>
+
+<table BORDER="1" CELLPADDING="2" CELLSPACING="0" WIDTH="698">
+  <tr>
+    <td WIDTH="48" BGCOLOR="#c0c0c0"><font SIZE="+1">It<a name="table1"></a>em</font></td>
+    <td WIDTH="157" BGCOLOR="#c0c0c0"><font SIZE="+1">Class Component</font></td>
+    <td WIDTH="340" BGCOLOR="#c0c0c0"><font SIZE="+1">Description</font></td>
+    <td WIDTH="139" BGCOLOR="#c0c0c0"><font SIZE="+1">File Name</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">1</font></td>
+    <td WIDTH="157"><font SIZE="+1">Color File</font></td>
+    <td WIDTH="340"><font SIZE="+1">Defines the local color for the class</font></td>
+    <td WIDTH="139"><font SIZE="+1">et200b_di8_ro8_ac.color</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">2</font></td>
+    <td WIDTH="157"><font SIZE="+1">Class Symbol File</font></td>
+    <td WIDTH="340"><font SIZE="+1">Includes the process picture representation and any popup
+    menus</font></td>
+    <td WIDTH="139"><font SIZE="+1">et200b_di8_ro8_ac.symbol</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">3</font></td>
+    <td WIDTH="157"><font SIZE="+1">HTML Document</font></td>
+    <td WIDTH="340"><font SIZE="+1">HTML document and help file for class</font></td>
+    <td WIDTH="139"><font SIZE="+1">et200b_di8_ro8_ac.htm</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">4</font></td>
+    <td WIDTH="157"><font SIZE="+1">Pixel Map Files</font></td>
+    <td WIDTH="340"><font SIZE="+1">Graphic Files</font></td>
+    <td WIDTH="139"><font SIZE="+1">et200b_di8_ro8_ac_image1.gif<br>
+    et200b_di8_ro8_ac_image2.gif</font></td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 1: ET200B DI8/RO8 AC Class Components</td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The &quot;et200b_di8_ro8_ac.color&quot; file contains the ET200B DI8/RO8
+AC class color definitions. This file holds all defined class color schemes. The ET200B
+DI8/RO8 AC defined colors are:</font></p>
+
+<table BORDER="1" CELLSPACING="0" WIDTH="700" CELLPADDING="2">
+  <tr>
+    <td WIDTH="50%" BGCOLOR="#c0c0c0"><font SIZE="+1">Color</font></td>
+    <td WIDTH="50%" BGCOLOR="#c0c0c0"><font SIZE="+1">Default RGB Values</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><font SIZE="+1">S7-BG</font></td>
+    <td WIDTH="50%"><font SIZE="+1">80/100/80</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><font SIZE="+1">S7-Label</font></td>
+    <td WIDTH="50%"><font SIZE="+1">0/255/255</font></td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The &quot;et200b_di8_ro8_ac.symbol&quot; file contains the Digital
+Input/Output ET200B DI8/RO8 AC class definition for AutomationX. This file holds the user
+interface, the pop-up menus, the class parameters, and the logic.</font></p>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Graphic Interface"><font SIZE="+4"><em>ET200B DI8/RO8 AC:</em> Graphic
+Interface</font></a></h2>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">The ET200B DI8/RO8 AC user interface includes a process picture
+representation and several popup menus. The ET200B DI8/RO8 AC process representation is
+shown in Figure 2. The ET200B DI8/RO8 AC popup menus include four operater interfaces.
+Figure 3 shows one popup for the input channels and one for the output channels. the two
+that are not shown are simular to the other ones.</font></p>
+
+<p><big>The ET200B DI8/RO8 AC process picture has a unique name identifier ($Instance) for
+the ET200B DI8/RO8 AC displayed in the middle of the picture (DI16_DO16). Each channel is
+visualized by a small rectangle simulating a LED on the right side of the graphical
+representation. All channels are displayed next to the unique name identifier, the output
+channel at first and then the input channels . If a channel's value is forced by using the
+operater interface the rectangle next to the simulated LED change its color to red. The
+rectangles on the top left of the process picture signalled the status of the ET200B DI16.
+It shows if the module has the status RUN, a bus fault (BF) occurs or the diagnosis is
+activ (DIA). </big><a name="figure2"></a></p>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="100%">&nbsp;<img src="et200b_di8_ro8_ac_image1.gif"></td>
+  </tr>
+  <tr>
+    <td WIDTH="100%">Figure 2: ET200B DI8/RO8 AC Graphical Representation</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">Using the left mouse button down at one of small rectangles on ET200B
+DI8/RO8 AC process representation causes the Operations Interface window, Figure 3, to be
+opened on the computer screen.</font><a name="figure3"></a></p>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="50%">&nbsp;<img src="et200b_di8_ro8_ac_image2.gif"></td>
+    <td WIDTH="50%"><img src="et200b_di8_ro8_ac_image3.gif"></td>
+  </tr>
+  <tr>
+    <td WIDTH="100%" COLSPAN="2">Figure 3: ET200B DI8/RO8 AC Operations Interface</td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The ET200B DI8/RO8 AC operater graphic also includes the Instance name
+or the Digital Input/Output ET200B DI8/RO8 AC and below it there is a comment describing
+the Digital Input/Output unit. The button which hosts the Instance name and the comment
+can close the popup.</font></p>
+
+<p><font SIZE="+1">The operater interface is splitted in eight parts, for each channel
+one. The LED on the top right of each section shows the value of each channel. It is green
+if the real input or output is logical &quot;1&quot;, it is red if the channel's value is
+logical &quot;1&quot; in force mode and it is grey if the value is&nbsp; logical
+&quot;0&quot;.<br>
+With the &quot;Force&quot; button the each channel can be set to force mode for its own to
+simulate the value, which is necessary if there is no connection to the I/O. So the
+PLC-programs can be tested without an I/O. The value of each channel is then simulated
+with the second button in the respective section. This button (&quot;ON/OFF&quot;) is only
+sensitive if the &quot;Force&quot; button is activated.</font></p>
+
+<p><font SIZE="+1">The right text above the channel section signalled whether the module
+or the data is valid. This text dis appear only if the module and the data is valid.</font></p>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Configuration"><strong><font SIZE="+4"><em>ET200B DI8/RO8 AC:</em>
+Configuration</font></strong></a></h2>
+
+<p><font SIZE="+1">The following table lists the configuration parameters for the Digital
+Input/Output ET200B DI8/RO8 AC. The parameter data type, the default values and a brief
+description are listed. The grey shaded rows cotains parameters which must not be changed.</font></p>
+
+<p>&nbsp;</p>
+
+<table BORDER="1" CELLPADDING="2" CELLSPACING="0" WIDTH="899" HEIGHT="1068">
+  <tr>
+    <td WIDTH="44" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Ite<a
+    name="table2"></a>m</font></td>
+    <td WIDTH="209" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Variable</font></td>
+    <td WIDTH="53" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Type</font></td>
+    <td WIDTH="53" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Default</font></td>
+    <td WIDTH="490" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Description</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">1</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><strong><big><font color="#FFFF00">I0_0</font></big></strong></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">2</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><b>I0_1</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 1</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">3</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><b>I0_2</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 2</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">4</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><b>I0_3</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 3</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">5</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>I0_4</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 4</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">6</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>I0_5</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 5</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">7</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>I0_6</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 6</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">8</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>I0_7</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 7</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">9</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_0</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">10</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_1</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 1</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">11</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_2</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 2</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">12</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_3</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 3</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">13</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_4</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 4</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">14</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_5</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 5</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">15</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_6</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 6</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">16</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font color="#ffff00" size="+1"><strong>Q0_7</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 7</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">17</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">master</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">ENUM:Master_Con</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">MIO_0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>Connection to profibus master</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">18</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">adress</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">4</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Profibus DP Slave adress</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">19</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">wd_on</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">YES</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>YES activates the watch dog(wd) on the
+    DP Slave</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">20</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">wd_fact_1</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">100</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>wd_fact_1*wd_fact2*10ms is the delay
+    for wd </big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">21</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">wd_fact_2</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">3</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>wd_fact_1*wd_fact2*10ms is the delay
+    for wd </big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">22</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">GSD</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">SIEM000A.GSD</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>GSD name for this Profibus DP Slave</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">23</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">group_ident</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>DP Slave group identifier</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">24</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">freeze_mode</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>the outputs on the slave system are
+    frozen</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">25</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">unfreeze</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>deactivate the freeze mode</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">26</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">sync_mode</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>hold out-/inputs as long as unsync is
+    set</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">27</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">unsync</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>deactivate the sync mode</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">28</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">clear_data</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>reset all in-/output data on the slave
+    system</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">29</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font size="4">reset_slave</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><big>reset the state machine for slave
+    handling</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="26">30</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">init_counter</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><big>DINT</big></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="26"><big>counter for starting state machine</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">31</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">exchange_cycle</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>counter for valid data transfers</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">32</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">hardware_error</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">ALARM</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>YES if a hardware error occurs</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">33</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">software_error</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">ALARM</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><big>NO</big></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>YES if a software error occurs</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="17">34</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="17"><font SIZE="+1">module_error</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="17"><font SIZE="+1">ALARM</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="17"><big>NO</big></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="17"><big>YES if a module error occurs</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="27">35</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">last_diag_msg</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><strong>...</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="27"><big>Last diagnosis message</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="27">36</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">new_error_msg</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="27"><big>YES if a new error occurs</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="30" bgcolor="#C0C0C0">37</td>
+    <td WIDTH="209" HEIGHT="30" bgcolor="#C0C0C0"><font size="4">error_msg[10]</font></td>
+    <td WIDTH="53" HEIGHT="30" bgcolor="#C0C0C0"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" HEIGHT="30" bgcolor="#C0C0C0"><big>...</big></td>
+    <td WIDTH="490" HEIGHT="30" bgcolor="#C0C0C0"><font SIZE="+1">Error message array</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="27">38</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">status</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><font SIZE="+1">DINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="27"><big>0</big></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="27"><big>status value of the state machine</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">39</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">status_string</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><big>No valid Profibus Master</big></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>status string of the state machine</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">40</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">local_struct</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">POINTER</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>4320020 hex</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>internal pointer for the local
+    structure</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">41</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">SPS_Cycle</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Code</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>axx_function(&quot;profibus_DP&quot;,<br>
+    &quot;SPSCycleHandleDPSlave&quot;); </strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><big>Run the AXX function</big></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">42</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">InputData</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Input data array used by
+    profibus DP and handles the digital inputs of this module.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">43</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">OutputData</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Output data array used by
+    profibus DP and handles the digital outputs of this module.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">44</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">ModuleName</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>6ES7 131-0BH0*-0XB0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">It's the module name which
+    is checked with the GSD file of the profibus DP slave (constant).</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">45</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Force_DO[8]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">The bits in this array set
+    the force mode of each channel.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">46</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Force_DI[8]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">The bits in this array set
+    the force mode of each channel.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="26">47</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">Val_DO[8]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">The bits in this array set
+    the value of each channel.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="26">48</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">Val_DI[8]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">The bits in this array set
+    the value of each channel.</font></td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 2: ET200B DI8/RO8 AC Configuration Parameters</td>
+  </tr>
+</table>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Implementation Notes"><font size="7"><strong><em>ET200B DI8/RO8 AC:</em>
+Implementation Notes</strong></font></a></h2>
+
+<p>&nbsp;</p>
+
+<p><a name="qualities"></a><strong><font size="5"><em><u>Qualities:</u></em>&nbsp;</font><font
+size="2">&nbsp;&nbsp;&nbsp;&nbsp;</font><font size="3">&nbsp;&nbsp;</font><font size="4">The
+ET200B DI 8/DO 8 is characterized by the following qualities:</font></strong></p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><big>- 8 inputs, isolated </big></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><big>- 8 outputs, isolated </big></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><big>- DC 24 V entry nominal voltage </big></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="123%"><big>- DC 24 V burden nominal voltage </big></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="123%"><big>- entry delay: 3 ms</big></td>
+  </tr>
+</table>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Class Modification History"><strong><font SIZE="+4"><em>ET200B DI8/RO8 AC:</em>
+Class Modification History</font></strong></a></h2>
+
+<p><font SIZE="+1">The following table lists the modifications made to the ET200B DI8/RO8
+AC class.</font></p>
+
+<table BORDER="1" CELLPADDING="3" CELLSPACING="1" WIDTH="700">
+  <tr>
+    <td WIDTH="46"><font SIZE="+2">I<a name="table3"></a>tem</font></td>
+    <td WIDTH="59"><font SIZE="+1">Date<br>
+    (m/d/y)</font></td>
+    <td WIDTH="184"><font SIZE="+1">Name</font></td>
+    <td WIDTH="42"><font SIZE="+1">File</font></td>
+    <td WIDTH="226"><font SIZE="+1">Description</font></td>
+    <td WIDTH="83"><font SIZE="+1">Reason</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="46"><font SIZE="+1">1</font></td>
+    <td WIDTH="59">04/06/97</td>
+    <td WIDTH="184">Manfred Dobaj</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">Initial Design</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46"><strong>2</strong></td>
+    <td WIDTH="59">23/04/99</td>
+    <td WIDTH="184">Jürgen Tossold</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">Graphical Class Standard</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46">&nbsp;</td>
+    <td WIDTH="59">&nbsp;</td>
+    <td WIDTH="184">&nbsp;</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">&nbsp;</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46">&nbsp;</td>
+    <td WIDTH="59">&nbsp;</td>
+    <td WIDTH="184">&nbsp;</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">&nbsp;</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 3: Modification History</td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<p align="center"><font FACE="Arial">[ </font><font SIZE="+1"><a HREF="#top">Top of Page</a>
+| <a href="#Class Components">Class Components</a> | <a href="#Graphic Interface">Graphic
+Interface</a> | <a href="#Configuration">Configuration</a> | <a
+href="#Implementation Notes">Implementation Notes</a> </font><font FACE="Arial">]</font> </p>
+</body>
+</html>

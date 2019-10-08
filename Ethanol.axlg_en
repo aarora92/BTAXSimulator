@@ -1,0 +1,16 @@
+OffloadButton4 [Text Normal]	3117
+OffloadButton4 [Text Activ]	3117
+OffloadButton3 [Text Normal]	3116
+OffloadButton3 [Text Activ]	3116
+OffloadButton2 [Text Normal]	3157
+OffloadButton2 [Text Activ]	3157
+OffloadButton1 [Text Normal]	2197
+OffloadButton1 [Text Activ]	2197
+Eth_Offl_Select [Text Normal]	Ethanol Offloading
+Eth_Offl_Select [Text Activ]	RUL
+Eth_Strip_Select [Text Normal]	Ethanol Stripping
+Eth_Strip_Select [Text Activ]	RUL
+RAIL_THERM_WARN [Text Normal]	Rail O/P Thermal Warning
+RAIL_THERM_WARN [Text Activ]	WD OverPressure Thermal Warning
+WD_THERM_WARN [Text Normal]	WD O/P Thermal Warning
+WD_THERM_WARN [Text Activ]	WD OverPressure Thermal Warning

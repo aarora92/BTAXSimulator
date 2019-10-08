@@ -1,0 +1,48 @@
+CycleTime [Text Normal]	Zykluszeit
+CycleTime [Text Activ]	Text
+SharedMemory [Text Normal]	Gemeinsamer Speicher
+SharedMemory [Text Activ]	Gem. Speicher Min.
+SoftPLC [Text Normal]	Soft-SPS
+SoftPLC [Text Activ]	Text
+SoftPLC_Running [Text Normal]	SPS läuft nicht
+SoftPLC_Running [Text Activ]	SPS läuft
+SoftPLC_PeakDet [Text Normal]	Spitzenwert
+SoftPLC_PeakDet [Text Activ]	Text
+SoftPLC_ResetPeak [Text Normal]	Rücksetzen
+SoftPLC_ResetPeak [Text Activ]	Rücksetzen
+SoftPLCSlow_free [Text Normal]	frei
+SoftPLCSlow_free [Text Activ]	Text
+SoftPLCSlow_locked [Text Normal]	gesperrt
+SoftPLCSlow_locked [Text Activ]	Text
+SoftPLCSlow_SharedMem [Text Normal]	 Gemeinsamer Speicher 
+SoftPLCSlow_SharedMem [Text Activ]	 Gemeinsamer Speicher
+SoftPLC_LastTime [Text Normal]	Letzte Zeit
+SoftPLC_LastTime [Text Activ]	Text
+SoftPLC_ID [Text Normal]	ID
+SoftPLC_ID [Text Activ]	Text
+SoftPLC_Lifetick [Text Normal]	Lifetick
+SoftPLC_Lifetick [Text Activ]	Text
+SoftPLC_CycleTime [Text Normal]	Zykluszeit
+SoftPLC_CycleTime [Text Activ]	Text
+SoftPLC_Exit [Text Normal]	Beenden
+SoftPLC_Exit [Text Activ]	Text
+SoftPLC_slow [Text Normal]	 Soft-SPS langsam 
+SoftPLC_slow [Text Activ]	Text
+SoftPLCSlow_CycleTime [Text Normal]	Zykluszeit
+SoftPLCSlow_CycleTime [Text Activ]	Text
+SoftPLCSlow_Running [Text Normal]	SPS läuft nicht
+SoftPLCSlow_Running [Text Activ]	SPS läuft
+SoftPLCSlow_Lifetick [Text Normal]	Lifetick
+SoftPLCSlow_Lifetick [Text Activ]	Text
+SoftPLC_Trend [Text Normal]	Trend
+SoftPLC_Trend [Text Activ]	Trend
+SoftPLC_Help [Text Normal]	Hilfe
+SoftPLC_Help [Text Activ]	Hilfe
+
+Running	Läuft
+NotRunning	Läuft nicht
+PLCSlow_State	Slow-SPS läuft
+PLCSlow_StateNO	Slow-SPS läuft nicht
+PLCWarmstart	Warmstart-Phase
+PLCRunning	SPS läuft
+PLCError	SPS-Fehler

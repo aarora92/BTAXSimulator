@@ -1,0 +1,43 @@
+SLG_1_2:SLG_1=0,
+	SLG_2;
+Abtastrate:timebase_x_10ms=0,
+	timebase_x_100ms,
+	timebase_x_1s,
+	timebase_x_10s;
+MOBI_Betrieb: MOBY-I/E=1,
+	MOBY-L=2,
+	MOBY-I/MDS507=4,
+	Dialog(MOBY-I)=8,
+	MOBY-V=9,
+	MOBY-F/MDS_F1xx=10,
+	MOBY-F/MDS_F4xx=11,
+	MOBY-F/MDS_F2xx=12;
+MDS_Ctrl:SLG_no_Anw=0,
+	SLG_with_Anw;
+MDS_Typ:62Byte_RAM,
+	128Byte_EEPROM,
+	2kByte_RAM,
+	8kByte_EEPROM,
+	32kByte_RAM,
+	752Byte_EEPROM;
+Fehlercode:	No_Failure=0,
+	   	SLG_Communication_Failure=3,
+		MDS_Memory_Failure=4,
+		Unknown_Command=5,
+		SLG_Field_Failure=6,
+		Transmission_Failure=7,
+		CRC_Transmission_Failure=8,
+		CRC_Acknowledge_Failure=9,
+		MDS_Initialisation_Failure=10,
+		MDS_Initialisation_Timeout=11,
+		MDS_Write_Failure=12,
+		Address_Failure=13,
+		ECC-Failure=14,
+		ASM_Watchdog_Event=19,
+		Handshake_Failure=23,
+		Acknowledge_Failure_with_RESET=24,
+		Command _Before_Active=25,
+		Command_Storno_with_RESET=31;
+
+		
+		

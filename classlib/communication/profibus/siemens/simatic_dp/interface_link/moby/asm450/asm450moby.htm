@@ -1,0 +1,257 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<meta NAME="subject" CONTENT="Dokumentation">
+<title>motor_1speed</title>
+</head>
+
+<body BGCOLOR="#ffffff">
+
+<p>&nbsp;</p>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="4" WIDTH="604">
+  <tr>
+    <td VALIGN="TOP" HEIGHT="53" BGCOLOR="#808080"><font color="#ffffff" size="+4"
+    face="Arial"><b>Siemens ASM450</b></font></td>
+  </tr>
+</table>
+
+<p><a NAME="Features"></a><b><font COLOR="#0000ff" SIZE="+3" FACE="Arial">Features</font></b></p>
+
+<p><font FACE="Arial">This class can be used to communicate with the <strong>SIEMENS MOBY</strong>-system.</font></p>
+
+<hr ALIGN="LEFT">
+
+<p><br>
+<b><font FACE="Arial"><a HREF="#Features">Features</a> | <a HREF="#Installation">Installation</a>
+| <a HREF="#UserInterface">User Interface</a> | <a HREF="#Configuration">Configuration</a>
+| <a HREF="#ImplementationNotes">Implementation Notes</a></font></b> <br>
+<br>
+&nbsp;<br>
+&nbsp;</p>
+
+<p><img SRC="asm450doku.gif" BORDER="0" NATURALSIZEFLAG="3" ALIGN="BOTTOM" width="500"
+height="541"> <br>
+&nbsp;<br>
+&nbsp;</p>
+
+<p><font FACE="Arial"><b>Integrated Control: </b>All control is fully integrated; <b>no
+external PLC is required</b>.</font></p>
+
+<p><font FACE="Arial"><b>Field Link</b>:The Siemens ASM450 requieres DC24V and Profibus
+Connection</font></p>
+
+<p><font FACE="Arial"><b>Depression of Consecutive Alarms in case of Invalid I/O</b>: The
+ASM450 Class always checks the validity of the connected I/O. In case the field link is
+interrupted the ASM450 depresses alarms, which would arise due to I/O status in normal
+operation.</font></p>
+
+<p><font FACE="Arial"><b>Pop-Up Menus: </b>The ASM450 Class comes with a punch of pop-up
+menus, which are inherited through the class; no configuration is necessary.</font></p>
+
+<hr ALIGN="LEFT">
+
+<p><br>
+<a NAME="Installation"></a><b><font FACE="Arial"><a HREF="#Features">Features</a> | <a
+HREF="#Installation">Installation</a> | <a HREF="#UserInterface">User Interface</a> | <a
+HREF="#Configuration">Configuration</a> | <a HREF="#ImplementationNotes">Implementation
+Notes</a></font></b> <br>
+</p>
+
+<p><b><font COLOR="#0000ff" SIZE="+3" FACE="Arial">Components and Installation</font></b></p>
+
+<p><font FACE="Arial">The Constant Speed Motor comprises of the following components
+(files):</font> </p>
+
+<table BORDER="1" CELLSPACING="2" CELLPADDING="4" WIDTH="623">
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%" BGCOLOR="#ffffff"><b><font FACE="Arial">Class Component</font></b></td>
+    <td VALIGN="TOP" WIDTH="36%" BGCOLOR="#ffffff"><b><font FACE="Arial">Description</font></b></td>
+    <td VALIGN="TOP" WIDTH="38%" BGCOLOR="#ffffff"><b><font FACE="Arial">File Name(s)</font></b></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%"><b><font FACE="Arial">Class Color File</font></b></td>
+    <td VALIGN="TOP" WIDTH="36%"><font FACE="Arial">Includes some class specific color
+    definitions.</font></td>
+    <td VALIGN="TOP" WIDTH="38%"><font FACE="Arial">s7_asm450.color</font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%"><b><font FACE="Arial">Class File</font></b></td>
+    <td VALIGN="TOP" WIDTH="36%"><font FACE="Arial">AutomationX generated Class File; includes
+    graphical representation, user interfaces, internal control logic, etc.</font></td>
+    <td VALIGN="TOP" WIDTH="38%"><font FACE="Arial">s7_asm.symbol</font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%"><b><font FACE="Arial">Graphic Files</font></b></td>
+    <td VALIGN="TOP" WIDTH="36%"><font FACE="Arial">Class Specific Graphic Files for both,
+    class definition and documentation</font></td>
+    <td VALIGN="TOP" WIDTH="38%"><font face="Arial">asm450doku.gif</font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%"><b><font FACE="Arial">HTML-Document</font></b></td>
+    <td VALIGN="TOP" WIDTH="36%"><font FACE="Arial">HTML document for Online Help</font></td>
+    <td VALIGN="TOP" WIDTH="38%"><font FACE="Arial">asm450moby.htm</font></td>
+  </tr>
+</table>
+
+<p><font FACE="Arial">There are following graphic files: &quot;man.gif&quot; which is the
+manual symbol, &quot;lock.gif&quot; which is the lock symbol, and &quot;motor.gif&quot;
+which is the graphical representation of the motor. The remaining Graphic Files are used
+in the documentation.</font></p>
+
+<p><font FACE="Arial"><b>Installation: </b>The above files need to be copied into a common
+directory within the project's &quot;classlib&quot; directory. The name of the directory
+can be chosen freely.</font></p>
+
+<hr ALIGN="LEFT">
+
+<p><br>
+<a NAME="UserInterface"></a><b><font FACE="Arial"><a HREF="#Features">Features</a> | <a
+HREF="#Installation">Installation</a> | <a HREF="#UserInterface">User Interface</a> | <a
+HREF="#Configuration">Configuration</a> | <a HREF="#ImplementationNotes">Implementation
+Notes</a></font></b> <br>
+</p>
+
+<p><b><font COLOR="#0000ff" SIZE="+3" FACE="Arial">Graphical User Interface</font></b></p>
+
+<p><font FACE="Arial">The Motor's GUI includes:</font> 
+
+<ul>
+  <li><b><font FACE="Arial">Graphical Representation </font></b><font SIZE="-1" FACE="Arial">(as
+    on Process Graphic)</font> </li>
+  <li><b><font FACE="Arial">Operator Interface</font></b> </li>
+  <li><b><font FACE="Arial">Service and Maintenance Pop-Up Menu</font></b> </li>
+  <li><b><font FACE="Arial">Parameterization Pop-Up Menu</font></b> </li>
+</ul>
+
+<p><b><font FACE="Arial">1. Graphical Representation</font></b></p>
+
+<p><font FACE="Arial">Basically the motor status is indicated by a color-coded rectangle,
+which is located on the left side of the graphic plus some icons indicating &quot;Manual
+Mode&quot;, &quot;Interlock&quot; , &quot;Maintenance Request&quot;, &quot;Missing Field
+Link&quot;.</font></p>
+
+<p><font face="Arial">PICTURE</font></p>
+
+<p><b><font FACE="Arial">2. </font><font COLOR="#000000" FACE="Arial">Operator Pop-Up Menu</font></b></p>
+
+<p><font FACE="Arial">The Operator Pop-Up Menu is invoked through a mouse click anywhere
+on the motor's graphical representation.</font> <br>
+</p>
+
+<p>&nbsp;PICTURE<br>
+&nbsp;</p>
+
+<p><font FACE="Arial">The Operator Menu comprises of the following sections:</font> 
+
+<ul>
+  <li><font FACE="Arial"><b>Identification</b>: the texts for tag name and remark are
+    automatically taken from the instance's Name and Remark Field. A mouse click in this
+    section <b>closes</b> the pop-up menu!</font> </li>
+  <li><b><font FACE="Arial">Status Line</font></b> </li>
+  <li><font FACE="Arial"><b>Menu Pane for Extended Functions</b>: such as &quot;Class
+    Documentation&quot;, &quot;Instance Documentation&quot;, &quot;Parameterization&quot;, and
+    &quot;Service Functions&quot;.</font> </li>
+  <li><font FACE="Arial"><b>Status Indication</b>: &quot;Feedback&quot; indications,
+    &quot;Interlock&quot; indication, &quot;Failure&quot; indication.</font> </li>
+  <li><font FACE="Arial"><b>Control Section</b>: Automatic/Manual Mode, Motor On/Off in Manual
+    Mode, Failure Acknowledge.</font> </li>
+</ul>
+
+<p><font FACE="Arial">The following list gives a summary of display elements in the
+operator pop-up menu. The column &quot;Variable&quot; lists the internal class variables
+which status's are indicated or which status is manipulated through the control elements.</font>
+</p>
+
+<table BORDER="1" CELLSPACING="2" CELLPADDING="4" WIDTH="620">
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%" BGCOLOR="#ffffff"><b><font FACE="Arial">Element</font></b></td>
+    <td VALIGN="TOP" WIDTH="61%" BGCOLOR="#ffffff"><b><font FACE="Arial">Comment</font></b></td>
+    <td VALIGN="TOP" WIDTH="13%" BGCOLOR="#ffffff"><b><font FACE="Arial">Variable</font></b></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" WIDTH="26%">&nbsp;</td>
+    <td VALIGN="TOP" WIDTH="61%">&nbsp;</td>
+    <td WIDTH="13%">&nbsp;</td>
+  </tr>
+</table>
+
+<p><br>
+&nbsp;</p>
+
+<p><b><font COLOR="#000000" SIZE="+1" FACE="Arial">3. Parameterization and Mode Pop-Up</font></b></p>
+
+<p><font FACE="Arial,Helvetica">This pop-up menu is password protected!</font> <br>
+&nbsp; 
+
+<ul>
+  <li><font FACE="Arial,Helvetica">The<b> Parameter</b> section allows an operator-friendly
+    setup of the motor's maximum response time. The default value is five second.:</font> </li>
+  <li><font FACE="Arial,Helvetica">The <b>Modes</b> section allows switching to (local) <b>Simulation
+    Mode</b>. In this mode all inputs are simulated and the output is <b>disconnected</b> from
+    the field! The <b>Overwrite Interlock Mode </b>connects the auto_on variable with the
+    field no matter of the status of the interlock variable. This is useful when one MUST turn
+    on the motor despite of interlock conditions. <b>If none of the two Check Boxes is
+    activated the motor is in standard mode.</b></font> </li>
+  <li><font FACE="Arial,Helvetica">The <b>Emulations </b>section allows an individual
+    emulation of the field inputs in case they are INVALID. Then the Run Input
+    &quot;follows&quot; the output with a variable delay time (default = 3 seconds). The Ready
+    and Remote feedbacks are considered to be ON.</font> </li>
+</ul>
+
+<p><br>
+</p>
+
+<p><b><font COLOR="#000000" SIZE="+1" FACE="Arial">4. Maintenance Pop-Up</font></b> <br>
+&nbsp; 
+
+<ul>
+  <li><font FACE="Arial,Helvetica">The &quot;Enable Maintenance&quot; Button enables or
+    disables all maintenance functions.</font> </li>
+  <li><font FACE="Arial,Helvetica">If one of the limits is exceeded the motor class launches a
+    Service Request &quot;Warning&quot;.</font> </li>
+  <li><font FACE="Arial,Helvetica">Each Limit can be reset individually; then the date is
+    entered in the according field.</font> </li>
+</ul>
+
+<p><br>
+<br>
+&nbsp;<br>
+&nbsp;</p>
+
+<hr ALIGN="LEFT">
+
+<p><br>
+<a NAME="Configuration"></a><b><font FACE="Arial"><a HREF="#Features">Features</a> | <a
+HREF="#Installation">Installation</a> | <a HREF="#UserInterface">User Interface</a> | <a
+HREF="#Configuration">Configuration</a> | <a HREF="#ImplementationNotes">Implementation
+Notes</a></font></b> <br>
+</p>
+
+<p><b><font COLOR="#0000ff" SIZE="+3" FACE="Arial">Configuration</font></b></p>
+
+<p><b><font SIZE="+1" FACE="Arial">1. I/O Configuration</font></b></p>
+
+<p><font FACE="Arial">The Motor Class has only a few configuration parameters. At first
+the motor must be linked to the field. This is simply done by filling out the reference
+fields of the following variables: <b>on</b>, <b>run_in</b>, <b>rdy_in</b>, <b>rem_in</b>.
+The other possible parameters are: the <b>maximum time delay</b> between a output command
+and the arrival of the proper feedback (<b>error_time</b>) and the limits for service
+request (compare maintenance pop-up).</font></p>
+
+<p><b><font FACE="Arial">Notes:</font></b> 
+
+<ul>
+  <li><font FACE="Arial">If &quot;run_in&quot; is not connected, the class routes the output
+    to the internal run variable. This fakes that the feedback is always OK. If run_in is
+    connected, the field must provide the proper feedback!</font> </li>
+  <li><font FACE="Arial">If &quot;rdy_in&quot; is not connected, the class assumes that the
+    motor is always ready.</font> </li>
+  <li><font FACE="Arial">If &quot;rem_in&quot; is not connected, the class assumes that the
+    remote switch is always turned on.</font> </li>
+  <li><font FACE="Arial">The maximum delay time for the run feedback also can be changed in
+    online mode by means of the parameterization pop-up menu.</font> </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+Debug.RBMenu.ActivateSymbol	Activate Symbol
+Debug.RBMenu.DeActivateSymbol	Deactivate Symbol
+Debug.RBMenu.ShowSymbolHistory	Show Symbol History
+Debug.RBMenu.ResetCounter	Reset Counter
+Debug.RBMenu.DeActivateAll	Deactivate All
+Debug.RBMenu.ActivateAll	Activate All
+Debug.Title.Runtime	Runtime Messages
+Debug.Main.Menu.File	File
+Debug.Main.Menu.File.Exit	Exit
+Debug.Button.Run	Run
+Debug.Tooltip.StartStop	Starts/Stops output of \messages to the display
+Debug.Button.StartUp	Startup Msg
+Debug.Tooltip.Toggle	Toggles the display between \'start-up' and 'run-time' messages
+Debug.Button.ClearWin	Clear Window
+Debug.Tooltip.ClearWindow	Clears the display window
+DebugTable.Label: Nr	Nr
+DebugTable.Label: Debug Symbol	Debug Symbol
+DebugTable.Label: Y/N	Y/N
+DebugTable.Label: Freq	Freq
+Debug.RunTimeMsg	Runtime Msg
+Debug.Button.Stop	Stop
+Debug.StartupMsg	Startup Msg
+Debug.RBMenu.ResetAllCounter	Reset All Counter

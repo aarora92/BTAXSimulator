@@ -1,0 +1,552 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>ModbusS</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+<a NAME="top"></a>
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Modbus
+Slave</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Modbus Slave symbol communicates with a Modbus
+Master via <b>RS232,&nbsp; RS485 or RS422</b>.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<p><a NAME="Class_Components"></a><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The ModbusS class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="621" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusS.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusS_GUI.gif</font>
+<p><font face="Arial">ModbusS _POP.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusS.htm</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Enum-File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Enumerator file</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusS.enum</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica"><b>Installation: </b>The above listed files
+must be copied into a common sub-directory within the project's "classlib"
+directory. The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The ModbusS class represents an actual Slave module.
+The instance name of the module will appear&nbsp; in white text on the
+top right of the symbol. The title will change from green to flashing red
+if an error occurs.</font>
+<p><font face="Arial">The symbol is divided into four sections:</font>
+<p><font face="Arial">- Communication type (RS232 or RS485 or RS422)</font>
+<p><font face="Arial">- Slave Information:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Modbus
+Slave address and the last rewuested function.</font>
+<p><font face="Arial">- Frame counts:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Number
+of sent and received frames.</font>
+<p><font face="Arial">- State string:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Informational
+string.</font>
+<br>&nbsp;
+<p><img SRC="ModbusMioS_GUI.gif" height=217 width=261>
+<p><font face="Arial"><font size=-1>Figure 2: Graphical Representation</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">The <b>PopUp</b> is invoked by selecting the graphical
+representation. It shows the communication settings and the actual client.
+To activate the symbol the Select button must be on. On the top of the
+PopUp the communication settings are displayed.</font>
+<p><img SRC="ModbusMioS_POP.gif" height=219 width=262>
+<p><font face="Arial"><font size=-1>Figure 3: The communication PopUp</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the ModbusS symbol. The parameter data type, the default values and
+a brief description are listed. The grey shaded rows are parameters which
+must not be changed.</font>
+<br>&nbsp;
+<table BORDER WIDTH="718" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Item</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Variable</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Type&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Default&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Description</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">mio_card</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Slave_Con</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">MIO_0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">MIO
+card</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">2</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">channel</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">RS232_Channel</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Channel_0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Channel</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">3</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">baudrate</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Baudrate_Serial</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">BD_1200</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Baudrate</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">4</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">databits</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Databits_Serial</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">DATABITS_8</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Databits</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">5</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">stopbits</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Stopbits_Serial</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO_STOPBIT</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Stopbit</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">6</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">parity</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Parity_Serial</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">PARITY_NON</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Parity</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">7</font></td>
+
+<td><font face="Arial,Helvetica">comm_style</font></td>
+
+<td><font face="Arial,Helvetica">DINT</font></td>
+
+<td><font face="Arial,Helvetica">1</font></td>
+
+<td><font face="Arial,Helvetica">1 = per cycle the SPS disposes 1 command
+(shorter cycle time)</font>
+<br><font face="Arial,Helvetica">0 = per cycle the SPS disposes several
+commands (longer cycle time)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">8</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">Communication</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">CommType</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">RS232</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">Informational
+communication enumerator&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">9</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Select</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Symbol
+select</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">10</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Reset</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Resets
+the communication</font>
+<p><font face="Arial">and the symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">11</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">DINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+of communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">12</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">state_string</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+string of communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">13</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">slave_address</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Modbus
+Slave address</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">14</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">requested_function</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">MB_Function</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Read_Coil</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Last
+requested Modbus funtcion from MB Master</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">15</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Send_frame</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">UDINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Send
+frame counter</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">16</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Receive_frame</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">UDINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Receive
+frame counter</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">17</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">data</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Slave
+data array.</font>
+<p><font face="Arial">All slave data is stored in this array.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">18</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">lock_edit_comm_settings</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Locks
+the communictaion settings in the PopUp</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">19</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Error</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">ALARM</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Error
+var</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">20</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">local_struct</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">POINTER</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Internal
+pointer for the local structure</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">21</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">SPS_Cycle</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">code</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Run
+the AXX function</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+2>The Modbus Slave data
+array:</font></font></b>
+<p><b><font face="Arial,Helvetica">Coils:</font></b>
+<br><font face="Arial,Helvetica">From data[0] - data[63] = 64 words = 64
+* 16 = 1024 coils</font>
+<br><font face="Arial,Helvetica">The coils are bit coded. In one word there
+are 16 coils.</font>
+<br><font face="Arial,Helvetica">As example:</font>
+<br><font face="Arial,Helvetica">data[0] = 500dez = 111110100bin = coil
+1(OFF), coil 2(OFF), coil 3(ON), coil 4(OFF), coil 5 -coil 9 (ON) coil
+10 - coil 16 (OFF)</font>
+<p><b><font face="Arial,Helvetica">Inputs:</font></b>
+<br><font face="Arial,Helvetica">From data[64] - data[127] = 64 words =
+64 * 16 = 1024 inputs</font>
+<br><font face="Arial,Helvetica">The inputs are bit coded as the coils.</font>
+<p><b><font face="Arial,Helvetica">Output(Hold) registers:</font></b>
+<br><font face="Arial,Helvetica">From data[128] - data[255] = 128 words
+= 128 output registers</font>
+<p><b><font face="Arial,Helvetica">Input registers :</font></b>
+<br><font face="Arial,Helvetica">From data[256] - data[383] = 128 words
+= 128 input registers</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="implementation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial">Data Transfer will only work when the communication
+and the MIO settings are correct</font>
+<p><a NAME="qualities"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#implementation">Implementation
+Notes</a> | <a href="#Class_Modification_History">Modifications History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Class_Modification_History"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Modification
+History</font></font></font></b>
+<p><font face="Arial">The following table lists the modifications made
+to the ModbusS class.</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLPADDING=3 WIDTH="623" >
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">I<a NAME="table3"></a>tem</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Date</font></b>
+<br><b><font face="Arial">(m/d/y)</font></b></td>
+
+<td VALIGN=CENTER WIDTH="28%"><b><font face="Arial">Name</font></b></td>
+
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">File</font></b></td>
+
+<td VALIGN=CENTER WIDTH="36%"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Reason</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="11%"><font face="Arial">20/06/00</font></td>
+
+<td VALIGN=CENTER WIDTH="28%"><font face="Arial">Andreas Nebenf&uuml;hr</font></td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%"><font face="Arial">Initial Design</font></td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

@@ -1,0 +1,10 @@
+ActiveDevices [Text Normal]	Active Devices
+ActiveDevices [Text Activ]	Text
+ActiveConnections [Text Normal]	Active Connections
+ActiveConnections [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	This is an industrial ethernet SIEMENS pci card.\The state led displays the actual card state.\\To get detailed information about the card parameter\click on the field below.\\
+Text [Text Activ]	Text

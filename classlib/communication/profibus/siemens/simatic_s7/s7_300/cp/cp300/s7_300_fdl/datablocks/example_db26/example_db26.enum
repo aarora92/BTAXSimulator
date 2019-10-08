@@ -1,0 +1,2 @@
+MemoryCode:E=0x81,A,M,DB;
+Mode:Read = 0,Write=1;

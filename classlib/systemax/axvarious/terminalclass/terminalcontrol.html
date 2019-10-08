@@ -1,0 +1,209 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>terminalcontrol</title>
+</head>
+<body>
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>terminalcontrol</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br>&nbsp;
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">With the terminalcontrol class you are
+able to control a&nbsp; terminal with the functions:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">START</font></li>
+
+<li>
+<font face="Arial,Helvetica">STOP and</font></li>
+
+<li>
+<font face="Arial,Helvetica">LOCK.</font></li>
+</ul>
+<b><font face="Arial,Helvetica">1. START</font></b>
+<p><font face="Arial,Helvetica">With the START-function you can start a
+terminal at an other computer. You have to care about the instance-name
+of the terminalclass. It should have the following form:</font>
+<br><font face="Arial,Helvetica"><b>AXT_hostname</b>.</font>
+<br><font face="Arial,Helvetica">The content of the <b>TerminalName</b>
+STRING-variable should be the hostname of the terminal.</font>
+<br>&nbsp;
+<p><img SRC="terminalcontrol_explorer.gif" height=283 width=438>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 1: terminalcontrol
+- Explorer Window</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Now a terminal at the defined computer
+will be started.</font>
+<p><b><font face="Arial,Helvetica">2. STOP</font></b>
+<p><font face="Arial,Helvetica">With the STOP-function you can stop the
+terminal, so the aX-Viewer is no longer visible at the terminal.</font>
+<p><b><font face="Arial,Helvetica">3. LOCK</font></b>
+<p><font face="Arial,Helvetica">With the LOCK-function you can lock any
+functions at the terminal. The user at the terminal is only able to see
+the process pictures.</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The terminalcontrol class is comprised of the
+following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">terminalcontrol.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><b><font face="Arial,Helvetica">Graphic Files</font></b></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">axclassdoku16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axclassdoku_grey16.bmp axinstanzdoku16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axinstanzdoku_grey16.bmp&nbsp;&nbsp;&nbsp; axparam16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axparam_grey16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axservice16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axservice_grey16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axtrend16.bmp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+axtrend_grey16.bmp&nbsp;</font>
+<br><font face="Arial,Helvetica">AXClock.bmp</font>
+<br><font face="Arial,Helvetica">AXClock1.bmp</font>
+<br><font face="Arial,Helvetica">AXClock2.bmp</font>
+<br><font face="Arial,Helvetica">AXClock3.bmp</font>
+<br><font face="Arial,Helvetica">AXClock4.bmp</font>
+<br><font face="Arial,Helvetica">AXClock5.bmp</font>
+<br><font face="Arial,Helvetica">AXClock6.bmp</font>
+<br><font face="Arial,Helvetica">AXClock7.bmp</font>
+<br><font face="Arial,Helvetica">AXClock8.bmp</font>
+<br><font face="Arial,Helvetica">AXComputer.bmp</font>
+<br><font face="Arial,Helvetica">AXComputeroff.bmp</font>
+<p><font face="Arial,Helvetica">(and some documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">terminalcontrol.htm</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub-directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><b><font face="Arial,Helvetica">1. Graphical Representation</font></b>
+<p><font face="Arial,Helvetica">In the graphical representation the hostname
+of the defined terminal computer is visible.</font>
+<p><img SRC="terminalcontrol_normal.gif" height=38 width=125>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 2: Graphical Representation</font></font>
+<p><b><font face="Arial,Helvetica">2. Operator Popup</font></b>
+<p><font face="Arial,Helvetica">The Operator Popup includes Buttons for
+the Start-, the Stop- and the Lockfunction.</font>
+<p><img SRC="terminalcontrol_operator_popup.gif" height=225 width=198>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 3: Operator Popup</font></font>
+<p><font face="Arial,Helvetica">While the terminal is starting, the clock
+on the popup is animated.</font>
+<br><font face="Arial,Helvetica">If the terminal is started successfully,
+the cross on the computer graphic will disappear.</font>
+<p><font face="Arial,Helvetica">The text next to the computer graphic describes
+the following states:</font>
+<br>&nbsp;
+<table BORDER WIDTH="56%" >
+<tr>
+<td WIDTH="60%"><font face="Arial,Helvetica">Terminal is started successfully</font></td>
+
+<td WIDTH="40%"><b><font face="Arial,Helvetica">"Terminal Started"</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Terminal is stopped</font></td>
+
+<td><b><font face="Arial,Helvetica">"Terminal Stopped"</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Terminal gets started</font></td>
+
+<td><b><font face="Arial,Helvetica">"Terminal Gets Started"</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Error - unable to start the terminal</font></td>
+
+<td><b><font face="Arial,Helvetica">"Can't Open Display"</font></b></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial,Helvetica">The aX-Viewer process never truly "runs"
+on the defined terminal. Rather, the process runs on the server and the
+graphical interface is exported to the defined terminal.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

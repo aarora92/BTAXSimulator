@@ -1,0 +1,64 @@
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	use maintenance options
+modes [Text Normal]	modes
+modes [Text Activ]	use maintenance options
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	keine Verriegelung
+no_interlock [Text Activ]	Button
+emulate_run_slow [Text Normal]	Emulation läuft langsam
+emulate_run_slow [Text Activ]	Button
+emulate_ready [Text Normal]	Emulation bereit
+emulate_ready [Text Activ]	Button
+emulate_local [Text Normal]	Emulation Vorort
+emulate_local [Text Activ]	Button
+Emulation [Text Normal]	Emulation
+Emulation [Text Activ]	Wartungsoptionen verwenden
+feedbacktime_slow [Text Normal]	Fehlerzeit langsam:
+feedbacktime_slow [Text Activ]	Text
+Max_laeuft_Rueckmeldung_schnell [Text Normal]	Fehlerzeit schnell:
+Max_laeuft_Rueckmeldung_schnell [Text Activ]	Text
+decel_time [Text Normal]	Bremszeit:
+decel_time [Text Activ]	Text
+time_slow_at_start_fast [Text Normal]	Zeit langsam bevor schnell:
+time_slow_at_start_fast [Text Activ]	Text
+emulate_run_fast [Text Normal]	Emulation läuft schnell
+emulate_run_fast [Text Activ]	Button
+delaytime_slow [Text Normal]	Verzögerung langsam:
+delaytime_slow [Text Activ]	Text
+manual_at_fault [Text Normal]	Hand bei Störung
+manual_at_fault [Text Activ]	Button
+error_fast [Text Normal]	Fehler schnell
+error_fast [Text Activ]	Fehler schnell
+lock_slow [Text Normal]	verr. langsam
+lock_slow [Text Activ]	verr. langsam
+auto_on_slow [Text Normal]	auto ein langsam
+auto_on_slow [Text Activ]	auto ein langsam
+fast [Text Normal]	schnell
+fast [Text Activ]	schnell
+slow [Text Normal]	langsam
+slow [Text Activ]	langsam
+lock_fast [Text Normal]	verr. schnell
+lock_fast [Text Activ]	verr. schnell
+error_slow [Text Normal]	Fehler langsam
+error_slow [Text Activ]	Fehler langsam
+auto_on_fast [Text Normal]	auto ein schnell
+auto_on_fast [Text Activ]	auto ein schnell
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Automatik
+auto [Text Activ]	Automatik
+off [Text Normal]	Aus
+off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+on [Text Normal]	Ein
+on [Text Activ]	Ein
+ready [Text Normal]	Bereit
+ready [Text Activ]	nicht Bereit
+run_slow [Text Normal]	läuft langsam
+run_slow [Text Activ]	läuft langsam
+run_fast [Text Normal]	läuft schnell
+run_fast [Text Activ]	läuft schnell
+local [Text Normal]	Vorort bereit
+local [Text Activ]	Vorort nicht bereit

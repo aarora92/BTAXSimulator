@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Configuration>
+    <Format>1</Format>
+<Name>small2.acl</Name>
+<VarAccess>
+<Name>VA.acc</Name>
+<ACL>
+<![CDATA[VAR_ACCESS
+	Seppl2 : test.iHorst.xxx : BOOL;
+	(*karl : test.iHorst.xxx : BOOL;*)
+END_VAR
+]]>
+</ACL>
+</VarAccess>
+<Resources>
+<Resource>
+<Name>test.rsc</Name>
+<ACL>
+<![CDATA[RESOURCE test ON VM0
+	VAR_GLOBAL
+		in0 AT %IX0.0 : BOOL;
+		in1 AT %IX0.1 : BOOL;
+		out0 AT %QX0.0 : BOOL;
+		out1 AT %QX0.1 : BOOL;
+		bOut0 AT %QB0 : BYTE;
+	END_VAR
+	TASK slow (INTERVAL:=0,PRIORITY:=0);
+	PROGRAM iHorst WITH slow : horst;
+END_RESOURCE
+]]>
+</ACL>
+</Resource>
+</Resources>
+<POUList>
+<POUFolder>
+<Name>P3</Name>
+<POU>
+<Name>horst.pgm.st</Name>
+<ACL>
+<![CDATA[PROGRAM horst
+	VAR_INPUT
+		xxx : BOOL;
+	END_VAR	
+	VAR
+		res : REAL := 23.4;
+		a : SINT;
+
+		
+		
+		(*stra,strb :STRING;*)
+	END_VAR
+	VAR_EXTERNAL
+		in0,in1 : BOOL;
+		out0,out1 : BOOL;
+		bOut0 : BYTE;
+	END_VAR
+	a := a + 1;			
+	bOut0 := a;
+	
+END_PROGRAM
+]]>
+</ACL>
+</POU>
+</POUFolder>
+</POUList>
+</Configuration>

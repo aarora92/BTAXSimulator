@@ -1,0 +1,44 @@
+parameter [Text Normal]	Parametro
+parameter [Text Activ]	Parametro
+max_feedback [Text Normal]	Ritardare l'Allarme del In Marcia
+max_feedback [Text Activ]	Ritardare l'Allarme del In Marcia
+modes [Text Normal]	Modo
+modes [Text Activ]	Modo
+simulation [Text Normal]	Simulazione
+simulation [Text Activ]	Simulazione
+no_interlock [Text Normal]	senza interblocco
+no_interlock [Text Activ]	senza interblocco
+run_emulation [Text Normal]	In Marcia Emulazione
+run_emulation [Text Activ]	In Marcia Emulazione
+ready_emulation [Text Normal]	Pronto Emulazione
+ready_emulation [Text Activ]	Pronto Emulazione
+delaytime [Text Normal]	Tempo
+delaytime [Text Activ]	Tempo
+emulation [Text Normal]	Emulazione
+emulation [Text Activ]	Emulazione
+local_emulation [Text Normal]	Locale Emulazione
+local_emulation [Text Activ]	Locale Emulazione
+manual_at_fault [Text Normal]	Manuale l´Allarme
+manual_at_fault [Text Activ]	Manuale l´Allarme
+run [Text Normal]	In Marcia
+run [Text Activ]	In Marcia
+error [Text Normal]	Allarme
+error [Text Activ]	Allarme
+locked [Text Normal]	Blocco
+locked [Text Activ]	Blocco
+auto_on [Text Normal]	Auto acc
+auto_on [Text Activ]	Auto acc
+man [Text Normal]	Man
+man [Text Activ]	Man
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+off [Text Normal]	Arresto
+off [Text Activ]	Arresto
+ack [Text Normal]	Confermare
+ack [Text Activ]	Confermare
+on [Text Normal]	Marcia
+on [Text Activ]	Marcia
+bereit [Text Normal]	Pronto
+bereit [Text Activ]	Non Pronto
+local [Text Normal]	Pronto Locale
+local [Text Activ]	Non Pronto Locale

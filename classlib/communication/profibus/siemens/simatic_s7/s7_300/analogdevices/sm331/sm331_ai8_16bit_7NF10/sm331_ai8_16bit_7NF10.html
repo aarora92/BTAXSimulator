@@ -1,0 +1,283 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>Siemens Analog Input sm331_ai2</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Analog
+Input sm331_ai8 x 16Bit_7NF10</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<br><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">This analog input module SM 331 AI8 includes
+eight inputs with a selectable resolution&nbsp; 16 bit.</font>
+<p><font face="Arial,Helvetica">It can be used in a S7-300 or in a Profibus
+DP Slave-System (ET200M IM153).</font>
+<p><font face="Arial,Helvetica">The module converts the analog process
+signal to a digital value with the selectet resolution.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The sm332_ai8_16bit_7NF10 class is comprised of the
+following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Defines the local color for
+the class.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm332_ai8_16bit_7NF10 .color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup</font>
+<br><font face="Arial">menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm332_ai8_16bit _7NF10.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td><b><font face="Arial">Symbol File</font></b></td>
+
+<td><font face="Arial">Symbol used in the class.</font></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td><b><font face="Arial">Enumerator File</font></b></td>
+
+<td><font face="Arial">Defines the enumerator for the class.</font></td>
+
+<td><font face="Arial">sm332_ai8_16bit_7NF10 </font><font face="Arial,Helvetica">.enum</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial">axparam_grey16.bmp</font>
+<br><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<br><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm331_ai8_16bit_7NF10.htm</font></td>
+</tr>
+</table>
+<b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The SM331 AI8 user interface includes a
+process picture representation and several popup menus. The SM331 AI8 process
+representation is shown in Figure 2. The SM331 AI8 popup menus include
+two operater interfaces. One shows Figure 3 and the second is simular to
+the first operater interface for the other four channels.</font>
+<p><font face="Arial,Helvetica">The SM331 AI8 process picture has a unique
+name identifier ($Instance) for the SM331 AI8 displayed in the middle of
+the picture (SM331_AI8). Each channel is visualized by a slider and a value
+display. The first four channels are displayed above the unique name identifier
+and the other four below. If a channel's value is forced by using the operater
+interface the rectangle above the value display change its color to red.
+The rectangle at the top right signalled a service fault and the black
+rectangle at the bottom left shows the module position.</font>
+<p><img SRC="UserInterface.gif" height=498 width=159>
+<br><font face="Arial"><font size=-1>Figure 2: SM331 AI8 Graphical Representation</font></font>
+<p><font face="Arial,Helvetica"><font color="#000000">Using the left mouse
+button down at one of sliders on SM331 AI8 process</font></font>
+<br><font face="Arial,Helvetica"><font color="#000000">representation causes
+the Operations Interface window, Figure 3, to be</font></font>
+<br><font face="Arial,Helvetica"><font color="#000000">opened on the computer
+screen.</font></font>
+<p><img SRC="sm331_ai8_16bit_Popup.gif" NATURALSIZEFLAG="3" height=586 width=412>
+<p><font face="Arial"><font size=-1>Figure 3: SM331 AI8 Operations Interface</font></font>
+<p><font face="Arial,Helvetica">The SM331 AI8 operater graphic also includes
+the Instance name or the Analog Input SM331 AI8 and below it there is a
+comment describing the Analog Input unit. The button which hosts the Instance
+name and the comment can close the popup.</font>
+<p><font face="Arial,Helvetica">The operater interface is splitted in four
+parts, for each channel one. The right slider shows always the real input
+value. With the button at the bottom of each channel section the mode could
+be changed from normal mode to force mode. Then the input value can be
+force by the left slider which isn't sensitive as long as the button shows
+"Norm". This means that input value is simulated with a variable value
+edited by a slider to test the plc programs without any I/O's.</font>
+<p><font face="Arial,Helvetica">The right text above the channel section
+signalled whether the module or the data is valid. This text dis appear
+only if the module and the data is valid.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="Configuration"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial,Helvetica">The "sm331_ai8.color" file contains the
+SM331 AI8 class color definitions. This file holds all defined class color
+schemes. The SM331 AI8 defined colors are:</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER COLS=2 WIDTH="100%" >
+<tr BGCOLOR="#C0C0C0">
+<td><b><font face="Arial,Helvetica">Color</font></b></td>
+
+<td><b><font face="Arial,Helvetica">Default RGB Values</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-BG</font></td>
+
+<td><font face="Arial,Helvetica">80/100/80</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-Label</font></td>
+
+<td><font face="Arial,Helvetica">0/255/255</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The "sm331_ai8.symbol" file contains the
+Analog Input SM331 AI8 class definition for AutomationX. This file holds
+the user interface, the pop-up menus, the class parameters, and the logic.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial,Helvetica"><b>Qualities:</b> The SM331 AI8 x 12Bit
+is characterized by the following qualities:</font>
+<p><font face="Arial,Helvetica">- 8 entries in 4 channel clusters</font>
+<p><font face="Arial,Helvetica">- measuring mode optional per channel cluster:</font>
+<br><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp; ~ tension</font>
+<br><font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp; ~ current</font>
+<p><font face="Arial,Helvetica">- any measuring range selection per channel
+cluster</font>
+<p><font face="Arial,Helvetica">- parametriable diagnosis</font>
+<p><font face="Arial,Helvetica">- 2 channels with limit supervision</font>
+<p><font face="Arial,Helvetica">- parametriable boundary value alarm</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="Class_Modification_History"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Modification
+History</font></font></font></b>
+<p><font face="Arial">The following table lists the modifications made
+to the sm331_ai8_16bit_7NF10 class.</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLPADDING=3 WIDTH="623" >
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">Item</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Date</font></b>
+<br><b><font face="Arial">(m/d/y)</font></b></td>
+
+<td VALIGN=CENTER WIDTH="28%"><b><font face="Arial">Name</font></b></td>
+
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">File</font></b></td>
+
+<td VALIGN=CENTER WIDTH="36%"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Reason</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="11%"><font face="Arial">11/11/02</font></td>
+
+<td VALIGN=CENTER WIDTH="28%"><font face="Arial">Ebner Gerald</font></td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%"><font face="Arial">Initial Design</font></td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+</table>
+
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

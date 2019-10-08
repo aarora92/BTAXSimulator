@@ -1,0 +1,635 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>docu</title>
+<meta NAME="Microsoft Theme" CONTENT="none, default">
+<meta NAME="Microsoft Border" CONTENT="none, default">
+</head>
+
+<body BGCOLOR="#ffffe6">
+
+<h2><a name="top"><em><strong><font SIZE="+4">Analog Input/Output SM334 AI4/AO2 x 8/8Bit</font></strong></em></a></h2>
+
+<p><strong><big>This analog input/output </big><font size="4">module</font><big> SM 334
+AI4/AO2 includes four inputs and two outputs with a resolution of 8 bit.</big></strong></p>
+
+<p><big><strong>It can be used in a S7-300 or in a Profibus DP Slave-System ( ET200M IM153
+).</strong></big></p>
+
+<p><big><strong>The module converts the analog process signal to a digital value for the
+analog inputs and for the analog outputs the other way with the selectet resolution.</strong></big><a
+name="figure1"></a></p>
+
+<table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT="25"><a href="#Class Components"><em><strong><font
+    SIZE="+1" FACE="Arial">Class Components</font></strong></em></a><blockquote>
+      <p><a href="#table1"><font SIZE="+1">Table: 1 Class Components</font></a></p>
+    </blockquote>
+    </td>
+    <td WIDTH="2%" ROWSPAN="5"></td>
+    <td WIDTH="48%" ROWSPAN="5"><img src="sm334_ai4_ao2_image1.gif"><br>
+    Figure 1: Graphical Representation</td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#e8e8e8" HEIGHT="25"><a href="#Graphic Interface"><em><strong><font
+    SIZE="+1" FACE="Arial">Graphic Interface</font></strong></em></a><blockquote>
+      <p><a href="#figure2"><font SIZE="+1">Figure 2: Graphic Representation</font></a><br>
+      <a href="#figure3"><font SIZE="+1">Figure 3: Operations Interface</font></a><br>
+      </p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT="25"><a href="#Configuration"><em><strong><font
+    SIZE="+1" FACE="Arial">Configuration</font></strong></em></a><blockquote>
+      <p><a href="#table2"><font SIZE="+1">Table 2: Configuration Parameters</font></a></p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="TOP" BGCOLOR="#e8e8e8" HEIGHT="13"><a href="#Implementation Notes"><em><strong><font
+    SIZE="+1" FACE="Arial">Implementation Notes</font></strong></em></a><blockquote>
+      <p><a href="#qualities"><font SIZE="+1">Analog Input/Output SM334 AI4/AO2 Qualities</font></a><br>
+      </p>
+    </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td WIDTH="50%" VALIGN="top" BGCOLOR="#C0C0C0" HEIGHT="12"><font face="Arial" size="4"><strong><em><a
+    href="#Class Modification History">Class Modification History</a></em></strong></font><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <font size="4"><a href="#table3">Table 3: Modification History</a></font><br>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center">&nbsp;</p>
+<font SIZE="+2">
+
+<hr ALIGN="LEFT">
+</font>
+
+<h2><a name="Class Components"><strong><font SIZE="+4"><em>SM334 AI4/AO2:</em> Class
+Components</font></strong></a></h2>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">The components of the Analog Input SM334 AI4/AO2 class are to be
+contained in the AutomationX class library, particularly in a directory named
+&quot;sm334&quot;.</font></p>
+
+<p><big>The Analog Input SM334 AI4/AO2 Class components consist of the Class Color file,
+the Class Symbol file and the HTML document files. Table 1 lists the class components and
+the corresponding file names.</big></p>
+
+<table BORDER="1" CELLPADDING="2" CELLSPACING="0" WIDTH="698">
+  <tr>
+    <td WIDTH="48" BGCOLOR="#c0c0c0"><font SIZE="+1">Ite<a name="table1"></a>m</font></td>
+    <td WIDTH="157" BGCOLOR="#c0c0c0"><font SIZE="+1">Class Component</font></td>
+    <td WIDTH="340" BGCOLOR="#c0c0c0"><font SIZE="+1">Description</font></td>
+    <td WIDTH="139" BGCOLOR="#c0c0c0"><font SIZE="+1">File Name</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">1</font></td>
+    <td WIDTH="157"><font SIZE="+1">Color File</font></td>
+    <td WIDTH="340"><font SIZE="+1">Defines the local color for the class</font></td>
+    <td WIDTH="139"><font SIZE="+1">sm334_ai4_ao2.color</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">2</font></td>
+    <td WIDTH="157"><font SIZE="+1">Class Symbol File</font></td>
+    <td WIDTH="340"><font SIZE="+1">Includes the process picture representation and any popup
+    menus</font></td>
+    <td WIDTH="139"><font SIZE="+1">sm334_ai4_ao2.symbol</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">3</font></td>
+    <td WIDTH="157"><font SIZE="+1">Symbol Files</font></td>
+    <td WIDTH="340"><font SIZE="+1">Symbols used in the class</font></td>
+    <td WIDTH="139"><font SIZE="+1">analogdevices_ai_selrange.symbol<br>
+    analogdevices_ao_selrange.symbol</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">4</font></td>
+    <td WIDTH="157"><font SIZE="+1">Enumerator File</font></td>
+    <td WIDTH="340"><font SIZE="+1">Defines the enumerator for the class</font></td>
+    <td WIDTH="139"><font SIZE="+1">sm334_ai4_ao2.enum</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">5</font></td>
+    <td WIDTH="157"><font SIZE="+1">HTML Document</font></td>
+    <td WIDTH="340"><font SIZE="+1">HTML document and help file for class</font></td>
+    <td WIDTH="139"><font SIZE="+1">sm334_ai4_ao2.htm</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="48"><font SIZE="+1">6</font></td>
+    <td WIDTH="157"><font SIZE="+1">Pixel Map Files</font></td>
+    <td WIDTH="340"><font SIZE="+1">Graphic Files</font></td>
+    <td WIDTH="139"><font SIZE="+1">sm334_ai4_ao2_image1.gif<br>
+    sm334_ai4_ao2_image2.gif<br>
+    sm334_ai4_ao2_image3.gif</font></td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 1: SM334 AI4/AO2 Class Components</td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The &quot;sm334_ai4_ao2.color&quot; file contains the SM334 AI4/AO2
+class color definitions. This file holds all defined class color schemes. The SM334
+AI4/AO2 defined colors are:</font></p>
+
+<table BORDER="1" CELLSPACING="0" WIDTH="700" CELLPADDING="2">
+  <tr>
+    <td WIDTH="50%" BGCOLOR="#c0c0c0"><font SIZE="+1">Color</font></td>
+    <td WIDTH="50%" BGCOLOR="#c0c0c0"><font SIZE="+1">Default RGB Values</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><font SIZE="+1">S7-BG</font></td>
+    <td WIDTH="50%"><font SIZE="+1">80/100/80</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><font SIZE="+1">S7-Label</font></td>
+    <td WIDTH="50%"><font SIZE="+1">0/255/255</font></td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The &quot;sm334_ai4_ao2.symbol&quot; file contains the Analog Input
+SM334 AI4/AO2 class definition for AutomationX. This file holds the user interface, the
+pop-up menus, the class parameters, and the logic.</font></p>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Graphic Interface"><font SIZE="+4"><em>SM334 AI4/AO2:</em> Graphic Interface</font></a></h2>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">The SM334 AI4/AO2 user interface includes a process picture
+representation and several popup menus. The SM334 AI4/AO2 process representation is shown
+in Figure 2. The SM334 AI4/AO2 popup menus include two operater interfaces, shown by
+Figure 3. The first one handles the analog inputs and the second the analog outputs.</font></p>
+
+<p><big>The SM334 AI4/AO2 process picture has a unique name identifier ($Instance) for the
+SM334 AI4/AO2 displayed in the middle of the picture (SM334_4AI_2AO). Each channel is
+visualized by a slider and a value display. The first three input channels are displayed
+above the unique name identifier. The fourth input channels and the two output channels
+are visualized below. If a channel's value is forced by using the operater interface the
+rectangle above the value display change its color to red. The rectangle at the top right
+signalled a service fault and the black rectangle at the bottom left shows the module
+position.</big></p>
+
+<p align="center"><a name="figure2"></a></p>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="100%"><img src="sm334_ai4_ao2_image1.gif"> </td>
+  </tr>
+  <tr>
+    <td WIDTH="100%">Figure 2: SM334 AI4/AO2 Graphical Representation</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p><font SIZE="+1">Using the left mouse button down at one of sliders above the unique
+name identifier on SM334 AI4/AO2 process representation causes the Operations Interface
+window for the inputs, Figure 3, to be opened on the computer screen. Using the left mouse
+button down at a slider below the unique name identifier causes the same for the output
+channel Operation Interface window.</font></p>
+
+<p align="center"><a name="figure3"></a></p>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+  <tr>
+    <td WIDTH="50%"><img src="sm334_ai4_ao2_image2.gif"> </td>
+    <td WIDTH="50%"><img src="sm334_ai4_ao2_image3.gif"></td>
+  </tr>
+  <tr>
+    <td WIDTH="100%" COLSPAN="2">Figure 3: SM334 AI4/AO2 Operations Interface</td>
+  </tr>
+</table>
+
+<p><font SIZE="+1">The SM334 AI4/AO2 operater graphic also includes the Instance name or
+the Analog Input/Output SM334 AI4/AO2 and below it there is a comment describing the
+Analog Input/Output unit. The button which hosts the Instance name and the comment can
+close the popup.</font></p>
+
+<p><font SIZE="+1">The first operater interface for the inputs is splitted in four parts
+and the second operater interface for the outputs into two parts, for each channel one.
+The right slider shows always the real input or output value. With the button at the
+bottom of each channel section the mode could be changed from normal mode to force mode.
+Then the input or output value can be force by the left slider which isn't sensitive as
+long as the button shows &quot;Norm&quot;. This means that input/output value is simulated
+with a variable value edited by a slider to test the plc programs without any I/O's.</font></p>
+
+<p><font SIZE="+1">The right text above the channel section signalled whether the module
+or the data is valid. This text dis appear only if the module and the data is valid.</font></p>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Configuration"><strong><font SIZE="+4"><em>SM334 AI4/AO2:</em> Configuration</font></strong></a></h2>
+
+<p><font SIZE="+1">The following table lists the configuration parameters for the Analog
+Input/Output SM334 AI4/AO2. The parameter data type, the default values and a brief
+description are listed. The grey shaded rows cotains parameters which must not be changed.</font></p>
+
+<p>&nbsp;</p>
+
+<table BORDER="1" CELLPADDING="2" CELLSPACING="0" WIDTH="899" HEIGHT="1068">
+  <tr>
+    <td WIDTH="44" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Ite<a
+    name="table2"></a>m</font></td>
+    <td WIDTH="209" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Variable</font></td>
+    <td WIDTH="53" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Type</font></td>
+    <td WIDTH="53" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Default</font></td>
+    <td WIDTH="490" BGCOLOR="#4f4f4f" HEIGHT="21"><font COLOR="#ffffff" SIZE="+1">Description</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">1</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><b>IN_CH0</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">2</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><b>IN_CH1</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 1</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">3</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><b>IN_CH2</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 2</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">4</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><b>IN_CH3</b></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Input channel 3</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">5</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><strong>OUT_CH0</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="22" bgcolor="#FFFFFF">6</td>
+    <td WIDTH="209" HEIGHT="22" bgcolor="#FFFFFF"><font COLOR="#ffff00" SIZE="+1"><strong>OUT_CH1</strong></font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">REAL</font></td>
+    <td WIDTH="53" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" HEIGHT="22" bgcolor="#FFFFFF"><font SIZE="+1">Output channel 1</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="42" bgcolor="#FFFFFF">7</td>
+    <td WIDTH="209" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">Connection</font></td>
+    <td WIDTH="53" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">...</font></td>
+    <td WIDTH="490" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">With the instance name of
+    the following unit the next unit will be connected to this one.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">8</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">DataValid</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">NO</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">YES if the profibus DP
+    communication is valid.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">9</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">InputData[8]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">0</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Input data array used by
+    profibus DP and handles the analog inputs of this module.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">10</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><big>OutputData[4]</big></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Output data array used by
+    profibus DP and handles the analog outputs of this module.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">11</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">ModuleValid</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">YES if the module itself has
+    no error.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">12</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">error_msg[10]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">...</font></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Error message array</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">13</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">ModuleName</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">STRING</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>6ES7 334-0CE0*-0AA0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">It's the module name which
+    is checked with the GSD file of the profibus DP slave (constant).</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">14</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">ModulePosition</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Shows the position of the
+    module in an order.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">15</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">UsrPrmDataValid</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">YES if the user parameter
+    data (UsrPrmData) is valid.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">16</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">UsrPrmDataLen</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">The real UsrPrmData lenght
+    of this module.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">17</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">UsrPrmData[24]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">USINT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">User Parameter Data array
+    used by profibus DP and handles the parameterization of the channels.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="42">18</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">Force[6]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="42"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="42"><font SIZE="+1">The bits in this array set
+    the force mode of each channel.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="42" bgcolor="#FFFFFF">19</td>
+    <td WIDTH="209" HEIGHT="42" bgcolor="#FFFFFF"><font COLOR="#0000ff" SIZE="+1">DataFormat</font></td>
+    <td WIDTH="53" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">SINT</font></td>
+    <td WIDTH="53" HEIGHT="42" bgcolor="#FFFFFF"><strong>0</strong></td>
+    <td WIDTH="490" HEIGHT="42" bgcolor="#FFFFFF"><font SIZE="+1">Changes the data format
+    S7/M7 - S5. Depends on DP slave.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="21" bgcolor="#FFFFFF">20</td>
+    <td WIDTH="209" HEIGHT="21" bgcolor="#FFFFFF"><font SIZE="+1">NoiseFreq[4]</font></td>
+    <td WIDTH="53" HEIGHT="21" bgcolor="#FFFFFF"><font SIZE="+1">ENUM:NoiseSup</font></td>
+    <td WIDTH="53" HEIGHT="21" bgcolor="#FFFFFF"><big>Hz400</big></td>
+    <td WIDTH="490" HEIGHT="21" bgcolor="#FFFFFF"><font SIZE="+1">Select Interference
+    frequency suppression for easch channel cluster</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" HEIGHT="17" bgcolor="#FFFFFF">21</td>
+    <td WIDTH="209" HEIGHT="17" bgcolor="#FFFFFF"><font SIZE="+1">ModuleRange[4]</font></td>
+    <td WIDTH="53" HEIGHT="17" bgcolor="#FFFFFF"><font SIZE="+1">ENUM:Config</font></td>
+    <td WIDTH="53" HEIGHT="17" bgcolor="#FFFFFF"><big>deact</big></td>
+    <td WIDTH="490" HEIGHT="17" bgcolor="#FFFFFF"><font SIZE="+1">Select measuring range and
+    measuring mode for each channel cluster</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">22</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Globaldiag[4]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">collecting diagnosis</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">23</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">DiagWire[4]</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">wire breakage examination</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">24</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">CycleAlarm</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">end of cycle alarm</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">25</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">DiagAlarm</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">diagnosis alarm</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="26">26</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">LimitAlarm</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">BOOL</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="26"><strong>NO</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="26"><font SIZE="+1">boundary value alarm</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">27</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">H_Limit_C0</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">INT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Upper limit channel cluster
+    0, channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">28</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">L_Limit_C0</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">INT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Lower limit channel cluster
+    0, channel 0</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">29</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">H_Limit_C1</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">INT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Upper limit channel cluster
+    1, channel 1</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44" BGCOLOR="#c0c0c0" HEIGHT="21">30</td>
+    <td WIDTH="209" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">L_Limit_C1</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">INT</font></td>
+    <td WIDTH="53" BGCOLOR="#c0c0c0" HEIGHT="21"><strong>0</strong></td>
+    <td WIDTH="490" BGCOLOR="#c0c0c0" HEIGHT="21"><font SIZE="+1">Lower limit channel cluster
+    1, channel 1</font></td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 2: SM334 AI4/AO2 Configuration Parameters</td>
+  </tr>
+</table>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Implementation Notes"><font size="7"><strong><em>SM334 AI4/AO2:</em>
+Implementation Notes</strong></font></a></h2>
+
+<p>&nbsp;</p>
+
+<p><a name="qualities"></a><strong><font size="5"><em><u>Qualities:</u></em>&nbsp;</font><font
+size="2">&nbsp;&nbsp;&nbsp;&nbsp;</font><font size="3">&nbsp;&nbsp;</font><font size="4">The
+SM334 AI4/AO2 x 8/8Bit is characterized by the following qualities:</font></strong></p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- 4 entries, 2 exits </big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- resolution 8 bits </big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- measuring range optional of 0 to 10 V or 0 to 20 mA </big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- output range optional of 0 to 10 V or 0 to 20 mA</big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- any choice between tension and current </big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- non-isolated to the CPU</big></strong></td>
+  </tr>
+  <tr>
+    <td width="14%"></td>
+    <td width="86%"><strong><big>- isolated to the load supply</big></strong></td>
+  </tr>
+</table>
+
+<table border="0" width="100%" height="19">
+  <tr>
+    <td width="90%" height="15"></td>
+    <td width="10%" height="15"><font face="Arial" size="3"><strong><em><a href="#figure1">Back
+    to Index</a></em></strong></font></td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<h2><a name="Class Modification History"><strong><font SIZE="+4"><em>SM334 AI4/AO2:</em>
+Class Modification History</font></strong></a></h2>
+
+<p><font SIZE="+1">The following table lists the modifications made to the SM334 AI4/AO2
+class.</font></p>
+
+<table BORDER="1" CELLPADDING="3" CELLSPACING="1" WIDTH="700">
+  <tr>
+    <td WIDTH="46"><font SIZE="+2">Ite<a name="table3"></a>m</font></td>
+    <td WIDTH="59"><font SIZE="+1">Date<br>
+    (m/d/y)</font></td>
+    <td WIDTH="184"><font SIZE="+1">Name</font></td>
+    <td WIDTH="42"><font SIZE="+1">File</font></td>
+    <td WIDTH="226"><font SIZE="+1">Description</font></td>
+    <td WIDTH="83"><font SIZE="+1">Reason</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="46"><font SIZE="+1">1</font></td>
+    <td WIDTH="59">04/06/97</td>
+    <td WIDTH="184">Manfred Dobaj</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">Initial Design</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46"><font SIZE="+1">2</font></td>
+    <td WIDTH="59">15/07/98</td>
+    <td WIDTH="184">Manfred Dobaj</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">Redisign the user interface</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46"><strong>3</strong></td>
+    <td WIDTH="59">23/02/99</td>
+    <td WIDTH="184">Jürgen Tossold</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">Graphical Class Standard</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46">&nbsp;</td>
+    <td WIDTH="59">&nbsp;</td>
+    <td WIDTH="184">&nbsp;</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">&nbsp;</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+  <tr>
+    <td WIDTH="46">&nbsp;</td>
+    <td WIDTH="59">&nbsp;</td>
+    <td WIDTH="184">&nbsp;</td>
+    <td WIDTH="42">&nbsp;</td>
+    <td WIDTH="226">&nbsp;</td>
+    <td WIDTH="83">&nbsp;</td>
+  </tr>
+</table>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="700">
+  <tr>
+    <td>Table 3: Modification History</td>
+  </tr>
+</table>
+
+<hr ALIGN="LEFT">
+
+<p align="center"><font FACE="Arial">[ </font><font SIZE="+1"><a HREF="#top">Top of Page</a>
+| <a href="#Class Components">Class Components</a> | <a href="#Graphic Interface">Graphic
+Interface</a> | <a href="#Configuration">Configuration</a> | <a
+href="#Implementation Notes">Implementation Notes</a> </font><font FACE="Arial">]</font> </p>
+</body>
+</html>

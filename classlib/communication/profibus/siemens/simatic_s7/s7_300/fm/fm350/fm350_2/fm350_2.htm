@@ -1,0 +1,448 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="D:\Programme\OFFICE97\OFFICE\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>fm350 (NEU)</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080">
+      <P align=left><b><font face="Arial"><font color="#ffffff"><font size=+4>Counter
+FM 350-2</font></font></font></b></P></td>
+</tr>
+</table>
+<a NAME="TOP"></a>
+<br><a NAME="Features"></a><b><font face="Arial"><font color="#0000ff"><font size=+3>Features</font></font></font></b>
+<p><font face="Arial">This counter module FM 350-2 includes eight channels,
+eight hardware gates and eight outputs. This class can be used in a <b>S7-300</b>
+or <b>Profibus DP Slave-System</b> (ET200M IM 153).</font>
+<p><font face="Arial"><font size=+1><A href="#Features">Features</A> |
+<A href="#Installation">Installation</A> | <A href="#UserInterface">User
+Interface</A> | <A href="#Implementation">Implementation Notes</A></font></font>
+<hr ALIGN="left" WIDTH="81%">
+<br><a NAME="Installation"></a><b><font face="Arial"><font color="#0000ff"><font size=+3>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The Counter FM 350-2 class is comprised of
+the following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="623">
+<tr>
+<td VALIGN=top WIDTH="26%" BGCOLOR="#ffffff"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=top WIDTH="36%" BGCOLOR="#ffffff"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=top WIDTH="38%" BGCOLOR="#ffffff"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">Includes some class specific
+color definitions.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">fm350_2.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">fm350_2.symbol</font>
+<p><font face="Arial">fm350_2.enum</font></p></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">AXLedGreenGR.bmp</font>
+<p><font face="Arial">AXLedGrey.bmp</font>
+<p><font face="Arial">AXLedRedGR.bmp</font>
+<p><font face="Arial">(and some documentation pixmaps)</font></p></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">fm350_2.htm</font></td>
+</tr>
+</table>
+<font face="Arial"><font size=+1><A href="#Features"></A></font></font>
+<p><font face="Arial"><font size=+1><A href="#Features">Features</A> |
+<A href="#Installation">Installation</A> | <A href="#UserInterface">User
+Interface</A> | <A href="#Implementation">Implementation Notes
+<hr ALIGN="left" WIDTH="82%"><a NAME="UserInterface"></a></A></font><b><font color="#0000ff"><font size=+2>User
+Interface</font></font></b></font>
+<p><font face="Arial">The Counter FM 350-2 class represents an actual FM
+350-2 module. The instance name will appear at the middle of the module.
+If the module is not connected or not valid, the instance name will be
+flashing red.</font>
+<p><font face="Arial">The eight output points are&nbsp; numbered from Q0
+- Q7 and the eight hardware gates are numbered form I0 - I7, each channel
+represented by a small rectangle. The rectangles denote the current state
+of the channel: grey if inactive, green if set.</font>
+<p>&nbsp;<IMG src="GUI_fm350_2_GR.gif">
+<p><font face="Arial"><font size=-1>Figure 2: Graphical Representation</font></font>
+<br>&nbsp;
+<p><font face="Arial">The <b><font size=+1>General Popup:</font></b></font>
+<p><font face="Arial">The General Popup displays basic informations of
+FM350-2 counter module.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p>&nbsp;<IMG src="GUI_GeneralPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 3: General Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Basic Parameter Popup:</font></b></font>
+<p><font face="Arial">You can carry out a basic parameterization in the
+register "basic parameter" for function components/communications processors.
+The following parameters e.g. can be appeared:</font>
+<p><b><font face="Arial">EnableAlarm<i>:</i></font></b>
+<p><b>Choose whether the function component should cause an alarm during
+an alarm event (diagnostic events or process alarm-releasing event).</b>
+<p><b>SelectAlarm:</b>
+<p><b>Select that the alarms which release function components:</b>
+<ul>
+<li>
+<b>no_alarm</b>
+
+<li>
+<b>diagnostic (Releases one diagnotic alarm during a diagnostic event)</b>
+
+<li>
+<b>process (Causes a process alarm during specific events - dependent from
+the technology function in the unit)</b>
+
+<li>
+<b>diagnostic and process</b></li>
+</ul>
+<b>Please, refer to the documentation which events and alarms is caused
+from the unit.</b>
+<p><font face="Arial"><font size=+1>ReactionCPUStop:</font></font>
+<p><font face="Arial">Select how the function component should react on
+a CPU stop:</font>
+<ul>
+<li>
+<font face="Arial">break</font>
+
+<li>
+<font face="Arial">run</font>
+
+<li>
+<font face="Arial">force value</font>
+
+<li>
+<font face="Arial">last value</font></li>
+</ul>
+<font face="Arial">And are able to open the following popups from here:</font>
+<ul>
+<li>
+<font face="Arial">Initiation Popup (Inbetriebnahme)</font>
+
+<li>
+<font face="Arial">Channel Specification Popup (Kanäle spezifizieren)</font>
+
+<li>
+<font face="Arial">Copy Channels (Kanäle kopieren)</font>
+
+<li>
+<font face="Arial">Error Evaluation (Fehlerauswertung)</font></li>
+</ul>
+
+<p>&nbsp;<IMG 
+src="GUI_BasicParameterPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 4: Basic Parameter Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Initiation Popup</font></b></font><b>:
+</b><font face="Arial">The required parameters can be adjusted here:</font>
+<p><font face="Arial">You have the following setting options:</font>
+<ul>
+<li>
+<font face="Arial">choose channel (0 - 7)</font>
+
+<li>
+<font face="Arial">choose function (VAL, PREPARE_VAL, CMP_VAL)</font>
+
+<li>
+<font face="Arial">load value</font>
+
+<li>
+<font face="Arial">read value</font>
+
+<li>
+<font face="Arial">value</font>
+
+<li>
+<font face="Arial">Parametering (New)</font>
+
+<li>
+<font face="Arial">Reset ACyclic Parametrzation</font></li>
+</ul>
+<font face="Arial">The state of operating mode, count and measured value
+are announced.</font>
+<p><font face="Arial">The below described LED's display the actual counter
+state:</font>
+<ul>
+<li>
+<font face="Arial">STS_CMP: status comparator</font>
+
+<li>
+<font face="Arial">STS_DIR: status counting direction</font>
+
+<li>
+<font face="Arial">STS_OFLW: status overflow counter</font>
+
+<li>
+<font face="Arial">STS_UFLW: status underflow counter</font>
+
+<li>
+<font face="Arial">STS_DI: status digital input</font>
+
+<li>
+<font face="Arial">STS_DO: status digital output</font>
+
+<li>
+<font face="Arial">STS_GATE: status internal gate</font></li>
+</ul>
+<font face="Arial">The following buttons allow to switch specific functions:</font> 
+<UL>
+<li>
+<font face="Arial">CTRL_DQ: control the digital output</font>
+
+<li>
+<font face="Arial">SET_DQ: set the digital output</font>
+
+<li>
+<font face="Arial">SW_GATE: software gate open/close</font>
+
+<li>
+<font face="Arial">TFB:</font>
+
+<li>
+<font face="Arial">RES_STS: Reset status-signal</font></li></UL>
+<P><IMG 
+src="GUI_InitiationPopup.gif"></P>
+<p><font face="Arial"><font size=-1>Figure 5: Initiation Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<br>&nbsp;
+<p><font face="Arial">The <b><font size=+1>Output Popup: </font></b>You
+can adjust the initial output behavior.</font>
+<p><font face="Arial">It can be choosen from the following setting options:</font>
+<ul>
+<li>
+<font face="Arial">no match</font>
+
+<li>
+<font face="Arial">turn on if counter-value is greater or equal than the
+compare-value</font>
+
+<li>
+<font face="Arial">turn on if counter-value less or equal than the compare-value</font></li>
+</ul>
+<font face="Arial">You can also choose a default loading value (Replacement
+value 1-4)</font>
+<p>&nbsp;<IMG src="GUI_OutputPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 6: Outpus Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Operating Modes Popup: </font></b>You
+can select the operating mode</font>
+<p><font face="Arial">You have the following setting options:</font>
+<ul>
+<li>
+<font face="Arial">choose Operating Mode (continuous_count, uniquely_count,
+periodically_count, frequency_count, speed_resolution_measurement, periodic_time_measurement,
+dosing_count)</font>
+
+<li>
+<font face="Arial">enable Hardware-Gate</font>
+
+<li>
+<font face="Arial">Reaction on closing the gate</font></li>
+</ul>
+
+<p><IMG src="GUI_OperatingModes.gif"></p>
+<p><font face="Arial"><font size=-1>Figure 7: Operating Modes Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<br>&nbsp;
+<p><font face="Arial">The <b><font size=+1>Transducer Popup:</font></b></font>
+<p><font face="Arial">Select the signal evaluation of the Transmitter.
+Those options which are not certified for this specific sender are blocked
+depending on from your selection. A spaced option is marked by gray writing
+in the corresponding list box</font>
+<p><font face="Arial">You can choose under the following possibilities
+of signal evaluation:</font>
+<p><font face="Arial">Impulse and direction:</font>
+<ul>
+<li>
+<font face="Arial">impulse and direction</font>
+
+<li>
+<font face="Arial">simple transmitter - simple evaluation</font>
+
+<li>
+<font face="Arial">twofold transmitter - twofold evaluation</font>
+
+<li>
+<font face="Arial">fourfold transmitter - fourfold evaluation</font>
+
+<li>
+<font face="Arial">rotation invertet - for countdown</font></li>
+</ul>
+<font face="Arial">Hardware check (only with NAMUR-Transmitter)</font>
+<ul>
+<li>
+<font face="Arial">on</font>
+
+<li>
+<font face="Arial">off</font></li>
+</ul>
+<font face="Arial">Main counting direction (only while the operating modes
+"uniquely count", "periodically count" and "dosing count"):</font>
+<ul>
+<li>
+<font face="Arial">forward</font>
+
+<li>
+<font face="Arial">backward</font></li>
+</ul>
+<font face="Arial">Hysterese: 1 to 255</font>&nbsp;
+<br>&nbsp;&nbsp;
+<br>&nbsp;&nbsp;<IMG src="GUI_Transducer.gif">
+<p><font face="Arial"><font size=-1>Figure 8: Transducer Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<br>&nbsp;
+<p><font face="Arial">The <b><font size=+1>Alarm Releasing PopUp:</font></b></font>
+<p><font face="Arial">Select the events for which you want to unlock a
+process alarm in this shadow mask.</font>
+<p><font face="Arial">You can select the following events:</font>
+<ul>
+<li>
+<font face="Arial">opening the HW gate</font>
+
+<li>
+<font face="Arial">close the HW gate</font>
+
+<p><br><font face="Arial">overflow / underflow</font>
+<p><font face="Arial">measuring ones achieved (in the operating modes frequency
+"frequency measurement", "speed resolution measurement", "periodic time
+measurement")</font>
+<p><font face="Arial">· Falling below the parameterized low-limit
+(in the operating modes "frequency measurement", "speed resolution measurement",
+"periodic time measurement")</font>
+<p><font face="Arial">Exceeding the parameterized high-limit (in the operating
+modes "frequency measurement", "speed resolution measurement", "periodic
+time measurement")</font>
+<p><font face="Arial">Attaining a comparative value (in the operating modes
+"continous count","uniquely count", "periodic time measurement")</font></p></li></ul>
+<font face="Arial">Reference:</font>
+<ul>
+<li>
+<font face="Arial">You must also turn on alarm generation in the shadow
+mask basic settings</font>
+
+<li>
+<font face="Arial">You can select as many as desired events</font></li>
+</ul>
+
+<p><IMG src="GUI_AlarmReleasingPopup.gif"></p>
+<p><font face="Arial"><font size=-1>Figure 9: Alarm Releasing Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Channel Specification Popup:
+</font></b>Parameterizing of a counter</font>
+<p><b><font face="Arial">Channel:</font></b>
+<p><font face="Arial">In this dialog field, you can adjust as you would
+like to define the channels.</font>
+<p><font face="Arial">The following choices are available:</font>
+<ul>
+<li>
+<font face="Arial">channel 0..7 as single counters</font>
+
+<li>
+<font face="Arial">channel 0 as dosing counter, channel 4..7 than single
+counters</font>
+
+<li>
+<font face="Arial">channel 0..3 as singel counters, channel 4 than as dosing
+counter</font>
+
+<li>
+<font face="Arial">channel 0 as a dosing counter and channel 4 as adosing
+counter</font>
+
+<li>
+<font face="Arial">selection channel 4..7 as a Namur-transmitter</font></li>
+</ul>
+<font face="Arial">Further, you can select with User_Type1 and User_Type2
+the status, which value for which channel is shown in the field from USER_STAT_WORD.</font>
+<p><font face="Arial">From a value, you can select the Low-Word or the
+High one.</font>
+<p>&nbsp;<IMG 
+src="GUI_SpecifyChannelPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 10: Specify Channel Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Copy Channel Popup:</font></b></font>
+<p><font face="Arial">In this dialog field, you can copy all parameters
+from a channel to another channel</font>
+<p>&nbsp;<IMG 
+src="GUI_CopyChannelPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 11: Copy Channel Popup</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">The <b><font size=+1>Error Evaluation Popup:</font></b></font>
+<p><font face="Arial">The diagnosis mistakes are announced here.</font>
+<p>&nbsp;<IMG 
+src="GUI_ErrorEvaluationPopup.gif">
+<p><font face="Arial"><font size=-1>Figure 12:&nbsp;Error Evaluation Popup:</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial">Figure 13 shows the <b>Object Explorer</b> in Online
+mode (click Shift + Right mouse button on the module to invoke the Object
+Explorer). The user can see where the Instance name and Remarks are declared.</font>
+<p>&nbsp;<IMG 
+src="GUI_Explorer.gif">
+<p><font face="Arial"><font size=-1>Figure 13: The Object Explorer</font></font>
+<p><font face="Arial"><A href="#TOP">Back</A></font>
+<p><font face="Arial"><font size=+1><A href="#Features">Features</A> |
+<A href="#Installation">Installation</A> | <A href="#UserInterface">User
+Interface</A> | <A href="#Implementation">Implementation Notes</A></font></font>
+<hr ALIGN="left" WIDTH="81%">
+<p><a NAME="Implementation"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial">Data Transfer will only work correctly when the counter
+module FM 350-2 is connected with at least one Module or Slave.</font>&nbsp;
+<font face="Arial">The system will check for an existing module or slave
+automatically and display the name at the bottom of the graphical representation.</font>
+<p><b><font face="Arial">Link the I/O Blocks Together</font></b>
+<p><font face="Arial">Once you have placed all of the necessary I/O modules
+on to the display , you will need to connect them. The I/O objects in AutomationX
+communicate in series just like real I/O blocks, starting from the Profibus
+Slave.</font>
+<p><font face="Arial">Each I/O module has a "Connection" resource in the
+Server Data list. To connect your counter module FM 350-2 , start with
+the Profibus Slave&nbsp; and type the instance name of the next module
+(in the sequence ) into the "Connection" field. The "Connection" field&nbsp;
+of the last module in the sequence can be blank.</font><font face="Arial"></font> 
+<P>&nbsp;
+<P><FONT face=Arial>For a detailed description of the counter please refer to 
+the Siemens documentation (Configuration Package CD - delivered with the counter 
+module)</FONT>
+<p><font face="Arial"><A href="#TOP">Back</A></font><font face="Arial"></font>
+<p><font face="Arial"><font size=+1><A href="#Features">Features</A> |
+<A href="#Installation">Installation</A> | <A href="#UserInterface">User
+Interface</A> | <A href="#Implementation">Implementation Notes</A></font></font>
+<hr ALIGN="left" WIDTH="81%">
+</body>
+</html>

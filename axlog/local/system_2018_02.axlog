@@ -1,0 +1,4 @@
+2018-02-13 09:06:24-213	-2	<AX-NB-46>AXSRV	3	Error: Can't start user process <sps>
+2018-02-13 09:06:24-213	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-02-13 09:06:24-213	-2	<AX-NB-46>AXSRV	3	AX-SuperUser logged in
+2018-02-13 09:06:24-213	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]

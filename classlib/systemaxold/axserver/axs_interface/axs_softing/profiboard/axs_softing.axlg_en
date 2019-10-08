@@ -1,0 +1,12 @@
+SoftingISA [Text Normal]	Softing ISA
+SoftingISA [Text Activ]	Text
+PROFIBoard [Text Normal]	 PROFIBoard 
+PROFIBoard [Text Activ]	Text
+ActiveDevices [Text Normal]	Active Devices
+ActiveDevices [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	This is a SOFTING profibus isa card. The state led \displays the actual card state.\\To get detailed information about the profibus \channel, click on the field below.
+Text [Text Activ]	Text

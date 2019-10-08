@@ -1,0 +1,12 @@
+ActiveDevices [Text Normal]	Aktive Geräte
+ActiveDevices [Text Activ]	Text
+ActiveConnections [Text Normal]	Aktive Verbindungen
+ActiveConnections [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	Dies ist eine Industrial-Ethernet-SIEMENS-PCI-Karte.\Die LED zeigt den aktuellen Status der Karte an.\Für detaillierte Informationen\der Karte klicken Sie auf das Anzeigefeld darunter.
+Text [Text Activ]	Text
+
+

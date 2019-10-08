@@ -1,0 +1,19 @@
+Diag_code:Device_Diag=0x01,
+	  ProcessAlarm_Diag=0x02,
+	  PullAlarm_Diag=0x03,
+	  PushAlarm_Diag=0x04;
+BG_class:analog_BG=0x05,
+	 FM = 0x08,
+	 CP = 0x0C,
+	 digital_BG = 0x0F;
+W_state:RUN=0,
+	STOP=1;	
+CH_type:IM153=0x55,
+	digital_Input=0x70,
+	digital_Output=0x72,
+	analog_Input=0x71,
+	analog_Output=0x73,
+	special_BG=0x74;
+ModuleTyp:	Analog,
+		Digital,
+		Im153;

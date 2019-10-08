@@ -1,0 +1,41 @@
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAHH	TANK HIHI ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAH	TANK HI ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAL	TANK LO ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LALL	TANK LOLO ALARM
+Class classlib/Burrard/Mixer/MIXER.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/Pumps/23hpmps/HPUMP.symbol Variable PTINAL	
+Class classlib/Burrard/Valves/23hv/HV23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmBoxOff.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmON.symbol Variable Alarm	J3022 LO FLOW ALARM
+Class classlib/Burrard/Alarms/AlarmBoxOn.symbol Variable Alarm	
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable TEMPALRM	HI MOTOR TRANSFORMER TEMP
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable MOVALRM	MOV ERROR
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable NOT_READYALRM	MOV NOT READY
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable HiHi	HiHi Alarm
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Hi	Hi Alarm
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Lo	Water Supply Low Pressure
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable LoLo	LoLo Alarm
+Class classlib/Burrard/MOVs/MOV23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Misc/EStopButton.symbol Variable EmergencyStop	MIddle Plant Import Pumps Emergency Stop
+Class classlib/Burrard/Valves/23dockhv/DockHV23.symbol Variable Alarm	
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable HITEMPAL	Hi Temperature Alarm
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable LOWBATAL	Low Battery Alarm
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/Valves/23vent/VENT23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Misc/MeterBox.symbol Variable MeterFaultAlrm	Meter #4 Multiload Meter Fault
+Class classlib/Burrard/Misc/MeterBox.symbol Variable PathAlarm	West Dock Meter #4 Multiple Valves Open
+Class classlib/Burrard/Alarms/DockOFFAlrm.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/DockONAlrm.symbol Variable Alarm	Genset Running
+Class classlib/Burrard/AirSystem/AirSolVlv.symbol Variable Alarm	
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable NoDelugePressure	
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable Fail	autoX activation of Rail Spur Deluge failed!
+Class classlib/Burrard/Alarms/AlarmOFF.symbol Variable Alarm	
+Class classlib/Burrard/Pumps/Sump/SPUMP.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable HITEMPAL	High Temperature Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable LOWBATAL	Low Battery Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/Alarms/DockONAlrm.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Alarms/DockOFFAlrm.symbol Variable Alarm ON Text	ON

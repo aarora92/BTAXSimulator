@@ -1,0 +1,74 @@
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+modes [Text Normal]	Modes
+modes [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	simulation
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	no interlock
+no_interlock [Text Activ]	Button
+emulation_run_rev [Text Normal]	run emulation
+emulation_run_rev [Text Activ]	Button
+emulate_ready [Text Normal]	ready emulation
+emulate_ready [Text Activ]	Button
+emulate_local [Text Normal]	local emulation
+emulate_local [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_feedbacktime_fwd [Text Normal]	feedback time
+max_feedbacktime_fwd [Text Activ]	Text
+max_feedbacktime_rev [Text Normal]	feedback time
+max_feedbacktime_rev [Text Activ]	Text
+switchover_time [Text Normal]	switchover time:
+switchover_time [Text Activ]	Text
+emulation_run_fwd [Text Normal]	run emulation
+emulation_run_fwd [Text Activ]	Button
+delay_rev [Text Normal]	run delay
+delay_rev [Text Activ]	Text
+delay_fwd [Text Normal]	run delay
+delay_fwd [Text Activ]	Text
+dir2 [Text Normal]	direction2
+dir2 [Text Activ]	Pos2
+dir1 [Text Normal]	direction1
+dir1 [Text Activ]	Pos1
+text_delay_rev [Text Normal]	direction2
+text_delay_rev [Text Activ]	Pos1
+text_delay_fwd [Text Normal]	direction1
+text_delay_fwd [Text Activ]	Pos2
+text_emul_rev [Text Normal]	direction2
+text_emul_rev [Text Activ]	Pos1
+text_emul_fwd [Text Normal]	direction1
+text_emul_fwd [Text Activ]	Pos2
+manual_at_fault [Text Normal]	manual mode at error
+manual_at_fault [Text Activ]	Button
+fault_fwd [Text Normal]	fault
+fault_fwd [Text Activ]	fault
+lock_rev [Text Normal]	lock
+lock_rev [Text Activ]	lock
+auto_on_rev [Text Normal]	auto
+auto_on_rev [Text Activ]	auto
+fwd [Text Normal]	forward
+fwd [Text Activ]	forward
+lock_fwd [Text Normal]	lock
+lock_fwd [Text Activ]	lock
+fault_rev [Text Normal]	fault
+fault_rev [Text Activ]	fault
+auto_on_fwd [Text Normal]	auto
+auto_on_fwd [Text Activ]	auto
+man [Text Normal]	man
+man [Text Activ]	man
+auto [Text Normal]	auto
+auto [Text Activ]	auto
+off [Text Normal]	off
+off [Text Activ]	off
+ack [Text Normal]	acknowledge
+ack [Text Activ]	acknowledge
+on [Text Normal]	on
+on [Text Activ]	on
+ready [Text Normal]	ready
+ready [Text Activ]	not ready
+run_fwd [Text Normal]	run
+run_fwd [Text Activ]	run
+local [Text Normal]	local ready
+local [Text Activ]	local not ready
+run_rev [Text Normal]	direction2
+run_rev [Text Activ]	Pos1

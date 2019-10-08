@@ -1,0 +1,76 @@
+TakeoverTimeout [Text Normal]	Ausfalldauer bis\Übernahme
+TakeoverTimeout [Text Activ]	Text
+Redundancy [Text Normal]	 Redundanz
+Redundancy[Text Activ]	Text
+send [Text Normal]	senden
+send [Text Activ]	Text
+recv [Text Normal]	empfangen
+recv [Text Activ]	Text
+RedCard [Text Normal]	 Redundanzkarte
+RedCard [Text Activ]	Text
+ResRedCard [Text Normal]	Rücksetzen Red.-Karte
+ResRedCard [Text Activ]	Rücksetzen Red.-Karte
+TakeCtrl [Text Normal]	Steuerung übernehmen
+TakeCtrl [Text Activ]	Steuerung übernehmen
+StepBack [Text Normal]	Zurückschalten
+StepBack [Text Activ]	Zurückschalten
+Settings [Text Normal]	Einstellungen
+Settings [Text Activ]	Text
+ReceiveDelay [Text Normal]	Verzögerung empfangen
+ReceiveDelay [Text Activ]	Text
+Peak [Text Normal]	Spitzenwert
+Peak [Text Activ]	Text
+ResetPeak [Text Normal]	Rücksetzen
+ResetPeak [Text Activ]	Rücksetzen
+Exit [Text Normal]	Beenden
+Exit [Text Activ]	Text
+SoftPLCTimeout [Text Normal]	SoftSPS-Ausfall-\dauer - Übernahme
+SoftPLCTimeout [Text Activ]	Text
+RDConnectionTimeout [Text Normal]	Red.-Ausfalldauer\bis Fehler
+RDConnectionTimeout [Text Activ]	Text
+Sensitive [Text Normal]	Sensitiv
+Sensitive [Text Activ]	De Sensitiv
+Reset [Text Normal]	Rücksetzen
+Reset [Text Activ]	Rücksetzen
+trend [Text Normal]	Trend
+trend [Text Activ]	Trend
+Help [Text Normal]	Hilfe
+Help [Text Activ]	Hilfe
+LockRedAlarms [Text Normal]	Redundanz-Alarme sperren
+LockRedAlarms [Text Activ]	Redundanz-Alarme sperren
+Version [Text Normal]	Version OK
+Version [Text Activ]	Falsche Version
+LockPLC_Inst_Alarms [Text Normal]	SPS-Installations-Alarme sperren
+LockPLC_Inst_Alarms [Text Activ]	Redundanz-Alarme sperren
+Standalone [Text Normal]	Standalone
+Standalone [Text Activ]	Gestartet als Stand-Alone-Server\(Redundanz ist nicht aktiv)
+TakeoverTimeout1 [Text Normal]	Ausfall - Übernahme
+TakeoverTimeout1 [Text Activ]	Text
+TakeoverTimeout2 [Text Normal]	Ausfalldauer bis\Übernahme
+TakeoverTimeout2 [Text Activ]	Text
+LocalConfigure	als Main-Server
+RemoteConfigure	als Standby-Server
+LocalConfigured [Text Normal]	Konfiguriert:
+LocalConfigured [Text Activ]	Text
+RemoteConfigured [Text Normal]	Konfiguriert:
+RemoteConfigured [Text Activ]	Text
+LocalRDData [Text Normal]	Red.-Daten
+LocalRDData [Text Activ]	Red.-Daten
+RemoteRDData [Text Normal]	Red.-Daten
+RemoteRDData [Text Activ]	Red.-Daten
+LocalSoftPLC [Text Normal]	Soft-SPS
+LocalSoftPLC [Text Activ]	Soft-SPS
+RemoteSoftPLC [Text Normal]	Soft-SPS
+RemoteSoftPLC [Text Activ]	Soft-SPS
+ConnectionOK [Text Normal]	Verbindung OK
+ConnectionOK [Text Activ]	TCP
+NoCard	Keine Karte
+Redundancy [Text Activ]	Text
+RedundancyConfig [Text Normal]	Redundanz-Konfiguration OK
+RedundancyConfig [Text Activ]	Falsche Redundanz-Konfiguration
+notactive [Text Normal]	MIO-Red
+notactive [Text Activ]	Text
+wrongconfiguration [Text Normal]	Falsche Redundanzkonfiguration
+wrongconfiguration [Text Activ]	Falsche Red.-Konfig.
+wrongversion [Text Normal]	TCP/IP
+wrongversion [Text Activ]	Falsche Version

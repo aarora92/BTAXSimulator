@@ -1,0 +1,48 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (WinNT; U) [Netscape]">
+   <meta name="Author" content="Daniel Schoyen">
+   <title>ModbusSA85 Master</title>
+</head>
+<body bgcolor="#FFFFFF">
+<b><font face="Arial"><font color="#000000"><font size=+1>automationX
+MB+ Class Set</font></font></font></b>
+<br>
+<hr WIDTH="100%">
+<p><b><font face="Arial,Helvetica">Directory Structure</font></b>
+<p><font face="Arial,Helvetica">The automationX Modbus Plus class set must
+reside in the <b>class library</b> of the project (e.g. </font><font face="Courier New,Courier">...Projects/MyProject/classlib/Modbus</font><font face="Arial,Helvetica">).
+References to certain documentation files requires that the original directory
+structure be maintained.</font>
+<p><b><font face="Arial,Helvetica">MB+ Classes</font></b>
+<p><font face="Arial,Helvetica">The aX Modbus Plus classes are as follows:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">ModbusSA85: master communciation class - required
+for communication between the network and the client classes.</font></li>
+
+<li>
+<font face="Arial,Helvetica">ReadBack: required if values are to be written
+from automationX to the Modbus Plus network. The ReadBack class ensures
+that values from the network are updated to automationX before a write
+operation occurs. It can also be used to monitor data integrity in the
+event of a network error or shutdown so that retentive data is not lost.</font></li>
+
+<li>
+<font face="Arial,Helvetica">Modbus_Coil: used to send and receive coils
+to and from Modbus Plus network.</font></li>
+
+<li>
+<font face="Arial,Helvetica">Modbus_Register: used to send and receive
+registers to and from Modbus Plus network.</font></li>
+
+<li>
+<font face="Arial,Helvetica">Modbus_Float: used to send and receive floats
+to and from Modbus Plus network.</font></li>
+</ul>
+
+</body>
+</html>

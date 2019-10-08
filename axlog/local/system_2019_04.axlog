@@ -1,0 +1,29 @@
+2019-04-03 13:19:22-285	-2	<BTAXSA>AXPV	3	closed (display = AutoX-WIN10)[SRV]
+2019-04-03 13:19:39-917	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-03 13:19:43-323	-2	<BTAXSA>AXPV	3	closed (display = AutoX-WIN10)[SRV]
+2019-04-03 13:19:49-736	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-03 13:19:52-539	-2	<BTAXSA>AXPV	3	closed (display = AutoX-WIN10)[SRV]
+2019-04-03 13:19:59-351	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-03 13:20:30-615	-2	<BTAXSA>AXPV	3	closed (display = AutoX-WIN10)[SRV]
+2019-04-03 13:20:30-813	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-05 10:39:35-427	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:36-430	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:36-430	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:37-431	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:37-832	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:38-434	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:38-434	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:39-234	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:39-635	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:39-836	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-05 10:39:40-838	-2	<BTAXSA>FSRV	3	File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+2019-04-21 08:47:04-059	-2	<BTAXSA>SPS	3	Peak in SPS detected time=[0.41 sec]
+2019-04-22 17:34:27-408	-2	<BTAXSA>AXPV	3	started (display = local)[SRV]
+2019-04-22 17:35:40-076	-2	<BTAXSA>AXPV	3	closed (display = local)[SRV]
+2019-04-23 09:10:15-676	-2	<BTAXSA>AXPV	3	terminated (display = AutoX-WIN10)[SRV]
+2019-04-23 15:31:49-075	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-23 15:31:56-892	-2	<BTAXSA>AXPV	3	closed (display = AutoX-WIN10)[SRV]
+2019-04-23 15:32:06-313	-2	<BTAXSA>AXPV	3	started (display = AutoX-WIN10)[SRV]
+2019-04-23 16:38:40-846	-2	<BTAXSA>AXPV	3	started (display = local)[SRV]
+2019-04-26 04:18:54-286	-2	<BTAXSA>SPS	3	Peak in SPS detected time=[0.45 sec]
+2019-04-28 09:10:04-934	-2	<BTAXSA>AXPV	3	terminated (display = AutoX-WIN10)[SRV]

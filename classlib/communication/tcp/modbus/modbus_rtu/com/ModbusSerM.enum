@@ -1,0 +1,22 @@
+CommType:RS232=0,RS422=1,RS485=2,NO_COMM=3;
+Baudrate_Serial:BD_1200=1200,BD_2400=2400,BD_4800=4800,BD_9600=9600,BD_19200=19200;
+Databits_Serial:DATABITS_7=7,DATABITS_8=8;
+Stopbits_Serial:STOPBIT_1=1,STOPBITS_2=3;
+Parity_Serial:PARITY_NON=0,PARITY_ODD=1,PARTY_EVEN=2;
+Channel_Serial:Channel_0=0,Channel_1=1,Channel_2=2,Channel_3=3;
+MB_Function: Read_Coil = 0x01,
+             Read_Input = 0x02,
+             Read_Hold_Reg = 0x03,
+             Read_Input_Reg = 0x04,
+             Force_One_Coil = 0x05,
+             Preset_One_Reg = 0x06,
+             Read_Exep_Stat = 0x07,
+             Loopback_Diag = 0x08,
+             Program_484 = 0x09,
+             Poll_Prog_Comp_484 = 0x0A,
+             Get_Event_Counter = 0x0B,
+             Get_Event_Log = 0x0C,
+             Program = 0x0D,
+             Poll_Prog_Complete = 0x0E,
+             Force_Mult_Coils = 0x0F,
+             Preset_Mult_Regs = 0x10;

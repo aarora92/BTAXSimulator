@@ -1,0 +1,122 @@
+Start_up_preset_actual_config:	disable=0,
+				enable=1;
+
+module_change_during_operation:	disable=0,
+				enable=1;
+
+Format_of_the_analog_values:	SIMATIC_S7=0,
+				SIMATIC_S5=1;
+
+Interf_frequency_suppression:	50Hz=0,
+				60Hz=1;
+
+Slot_Reference_junction_1:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_1:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_2:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_2:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_3:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_3:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_4:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_4:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_5:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_5:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_6:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_6:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_7:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction7:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+Slot_Reference_junction_8:	
+	none=0x01,num2,num3,num4,num5,num6,num7,num8,num9,num10,
+	num11,num12,num13,num14,num15,num16,num17,num18,num19,num20,
+	num21,num22,num23,num24,num25,num26,num27,num28,num29,num30,
+	num31,num32,num33,num34,num35,num36,num37,num38,num39,num40,
+	num41,num42,num43,num44,num45,num46,num47,num48,num49,num50,
+	num51,num52,num53,num54,num55,num56,num57,num58,num59,num60,
+	num61,num62,num63;
+
+Input_Reference_junction_s8:	RTD_on_channel_0=0,
+				RTD_on_channel_1=1;
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+

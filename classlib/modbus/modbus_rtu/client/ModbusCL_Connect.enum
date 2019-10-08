@@ -1,0 +1,12 @@
+MB_Function: Read_Coil_C01 = 0x01,
+             Read_Input_C02 = 0x02,
+             Read_Hold_Reg_C03 = 0x03,
+             Read_Input_Reg_C04 = 0x04,
+             Force_One_Coil_C05 = 0x05,
+             Preset_One_Reg_C06 = 0x06,
+             Read_Exep_Stat_C07 = 0x07,
+             Force_Mult_Coils_C15 = 0x0F,
+             Preset_Mult_Regs_C16 = 0x10,
+	 Read_Mult_FloatR_C65 = 0x41,
+	 Write_Mult_FloatR_C66 = 0x42;
+MB_Mode: Trigger = 0, Cyclic = 1;

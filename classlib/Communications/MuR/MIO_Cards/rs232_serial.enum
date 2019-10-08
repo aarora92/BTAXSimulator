@@ -1,0 +1,4 @@
+Baudrate_Serial:BD_1200=0,BD_2400=1,BD_4800=2,BD_9600=3,BD_19200=4;
+Databits_Serial:7_Databits=7,8_Databits=8;
+Stopbits_Serial:1_Stopbit=1,2_Stopbit=2;
+Parity_Serial:None=0,Odd=1,Even=2;

@@ -1,0 +1,331 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>axs_mio_isa</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>axs_pc104_module</font></font></font></b></td>
+</tr>
+</table>
+
+<p><b><font face="Arial,Helvetica"><font size=+1>Profibus Status Popup</font></font></b>
+<p><font face="Arial,Helvetica">With a mouse click on an active Profibus
+card slot on the axs_pc104 panel you will get the profibus status popup.</font>
+<br>&nbsp;
+<blockquote><img SRC="pb_status_popup.gif" height=217 width=274></blockquote>
+
+<p><br><font face="Arial,Helvetica">In the Profibus status popup you can
+see the protocol name of your Profibus connection in the field <b>PB-SW</b>,
+the status string (e.g. In Ring) in the field <b>PB-Status</b> and the
+running counter of you Profibus connection in the field <b>PB-RunCnt</b>.
+You can see also the number of active slaves in the field <b>Active Slaves</b>,
+the sum of input data in the field <b>Input Data</b> and the sum of output
+data in the field<b> Output Data</b>.</font>
+<br><font face="Arial,Helvetica">With the button <b>Help</b> you will get
+this online documentation of the Profibus setting, with the button <b>Parameter</b>
+you will get the Profibus Parameter Popup and with the button <b>Exit</b>
+you can close the popup.</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="346" >
+<tr>
+<td VALIGN=TOP WIDTH="60" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Status
+field color</font></b></td>
+
+<td><b><font face="Arial,Helvetica">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Green</font></td>
+
+<td><font face="Arial,Helvetica">Communication okay</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Red (flashing)</font></td>
+
+<td><font face="Arial,Helvetica">Communication not okay</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Light Grey</font></td>
+
+<td><font face="Arial,Helvetica">No Card</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">If your Profibus card doesn't run, your
+Profibus running counter will stop, and the staus field color will flash
+red.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Profibus Parameter Popup</font></font></b>
+<p><font face="Arial,Helvetica">If you press the <b>Parameter</b> Button
+you will get the Profibus Parameter Popup.</font>
+<p><img SRC="axs_pc104_pb_parameter.gif" height=405 width=270>
+<p><font face="Arial,Helvetica">In this popup you can change all the parameters
+of you Profibus communication.</font>
+<p><font face="Arial,Helvetica"><b>address</b> = master address</font>
+<p><font face="Arial,Helvetica"><b>slot time</b> = the maximum time a master
+station on this Profibus must wait for a transaction response.</font>
+<br><font face="Arial,Helvetica">The Slot time is the maximum time the
+initiator waits for the complete receipt of the first frame character of
+the immediate acknowledgment or response, after transmitting the last bit
+of an action frame.</font>
+<br><font face="Arial,Helvetica">Default value: 200 TBit</font>
+<p><font face="Arial,Helvetica"><b>tsdr_min</b> = the minimum time a slave
+must wait before it may respond.</font>
+<br><font face="Arial,Helvetica">Default value: 60 TBit (in case of the
+microprocessor 8051 --> normal value 11 TBit )</font>
+<p><font face="Arial,Helvetica"><b>tsdr_max</b> = the maximum time after
+wich a slave must respond.</font>
+<br><font face="Arial,Helvetica">Default value: 500 TBit (in case of the
+microprocessor 8051 --> normal value 100 TBit )</font>
+<p><font face="Arial,Helvetica"><b>ttr</b> =Target Rotation Time</font>
+<br><font face="Arial,Helvetica">the anticipated time for one token round
+on this Prufibus, including allowances for high and low priority transactions,
+errors and GAP maintenance.</font>
+<br><font face="Arial,Helvetica">Default value: 60000 TBit</font>
+<p><b><font face="Arial,Helvetica">baud rate</font></b>
+<br><font face="Arial,Helvetica">The available baud rates of the axs_pc104
+Profibus card are1500 KBit/sec&nbsp; 500 kBit/sec, 187,5 kBit/sec, 93.75
+kBit/sec, 19.2 kBit/sec&nbsp; and 9.6 kBit/sec.</font>
+<p><font face="Arial,Helvetica"><b>gap</b> = range of station addresses
+from this station to its successor in the local token ring, excluding stations
+above hsa.</font>
+<br><font face="Arial,Helvetica">GAP-factor: Specifies the number of bus
+cycles after which the master looks for new active stations to accept them
+in the bus and pass on the token to&nbsp; this station. The GAP area is
+between the own station address and the next one. Execption: The arena
+starting with the highest station address and ending with address 126 is
+not part of the GAP arena.</font>
+<br><font face="Arial,Helvetica">Default value: 1</font>
+<p><font face="Arial,Helvetica"><b>tset</b> = setup time</font>
+<br><font face="Arial,Helvetica">The time between an event and the necessary
+reaction.</font>
+<br><font face="Arial,Helvetica">Default value: 1</font>
+<p><font face="Arial,Helvetica"><b>hsa</b> = highest station adress of
+masters in bus system</font>
+<br><font face="Arial,Helvetica">Default value: 2</font>
+<br><font face="Arial,Helvetica">Max value: 127</font>
+<br><font face="Arial,Helvetica">Min value: 1</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Load and Save Settings:</font></b>
+<p><font face="Arial,Helvetica">With the buttons <b>Load Prm</b> and <b>Save
+Prm</b> you can load or save your Profibus settings from a file. The path
+and the filename of this file you can choose by a file selection box which
+will&nbsp; be invoked by a mouse click on the field file name.</font>
+<br><font face="Arial,Helvetica">Your automationX system also includes
+a file with the default Profibus settings.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Reset Profibus Communication:</font></b>
+<p><font face="Arial,Helvetica">If you have changed a Profibus parameter
+in the popup, the button <b>Reset --> Set new PB Parameter</b> will start
+to flash red. Only when you press this button your Profibus communication
+will be reset and the new parameters will get active.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Writing Parameters:</font></b>
+<p><font face="Arial,Helvetica">The bus line is specified in EN 50170 as
+line type A. It can be used as shown in the following table. For the sake
+of completeness, tables 1 and 2 also give the bus parameters and line lengths
+of type B line. When planning new systems, however, we recommend using
+only type A lines because of their expanded length.</font>
+<p><font face="Arial,Helvetica">Line Parameter:</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="346" >
+<tr>
+<td VALIGN=TOP WIDTH="60" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Parameters</font></b></td>
+
+<td>
+<center><b><font face="Arial,Helvetica">Line_A</font></b></center>
+</td>
+
+<td>
+<center><b><font face="Arial,Helvetica">Line_B</font></b></center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Impedance in Ohm</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">135 to 165</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">100 to 130</font></center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Capacity per unit
+length (pF/m)</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">&lt; 30</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">&lt; 60</font></center>
+</td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Loop resister (Ohm/km)&nbsp;</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">110</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">---</font></center>
+</td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Core diameter (mm)</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">0.64</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">>0.53</font></center>
+</td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">CoreCross section (mm&sup2;)</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">>0.34</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">>0.22</font></center>
+</td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The specified line parameters result in
+the following lengths of a bus segment.</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="346" >
+<tr>
+<td VALIGN=TOP WIDTH="60" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Transmission&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rate&nbsp; in kBit/sec</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">9.6</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">19.2</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">93.75</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">187.5</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">500</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">1500</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">12000</font></center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Wire A</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">100</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">400</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">100</font></center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial,Helvetica">Wire B</font></td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">1200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">600</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">200</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">-</font></center>
+</td>
+
+<td>
+<center><font face="Arial,Helvetica">-</font></center>
+</td>
+</tr>
+</table>
+
+<p><b><font face="Arial,Helvetica">Bus Terminator:</font></b>
+<p><font face="Arial,Helvetica">The bus cable shall be terminated at both
+ends. The termination resistor R<font size=-2>t </font>shall be completed
+by a pull-down resistor R<font size=-2>d</font> (connected to Data Ground
+DGND) and by a pull-up resistor R<font size=-2>u</font> (connected to Voltage-Plus
+VP). This supplement forces the differential mode voltage(i.e. the voltage
+between the conductors) to a well defined value when no station is transmitting
+(during the idle periods).</font>
+<p><img SRC="bus_terminator.gif" height=325 width=378>
+<p><b><font face="Arial,Helvetica">The axs_pc104 Profibus card is producted
+<font color="#FF0000">without</font> an internal bus termination.</font></b>
+</body>
+</html>

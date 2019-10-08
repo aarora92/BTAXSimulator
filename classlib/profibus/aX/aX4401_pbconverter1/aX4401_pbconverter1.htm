@@ -1,0 +1,275 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+   <title>MuR Counter pbc_1</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="97%" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>aX4401_pbc1
+  Converter</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Counter aX4401_pbc1 includes eight input channels, four digital output
+channels and a serial interface. You could add several modules to the main
+class:</font>
+<blockquote>
+  <ul>
+    <li><font face="Arial"><a href="aX4401_module/aX4401_mode_0_counter/aX4401_mode_0_counter.htm">Simple Counter (Mode 0)</a></font></li>
+    <li><font face="Arial"><a href="aX4401_module/aX4401_mode_1_counter/aX4401_mode_1_counter.htm">Extended</a></font><a href="aX4401_module/aX4401_mode_1_counter/aX4401_mode_1_counter.htm"><font face="Arial"> Counter (Mode 1)</font></a></li>
+    <li><font face="Arial"><a href="aX4401_module/aX4401_mode_2_counter/aX4401_mode_2_counter.htm">Extended</a></font><a href="aX4401_module/aX4401_mode_2_counter/aX4401_mode_2_counter.htm"><font face="Arial"> Dosing Counter
+      (Mode 2)</font></a></li>
+    <li><font face="Arial"><a href="aX4401_module/aX4401_mode_3_serial/aX4401_mode_3_serial.htm">RS232 - Profibus Converter (Mode 3)</a></font></li>
+    <li><font face="Arial"><a href="aX4401_module/aX4401_mode_4_3964/aX4401_mode_4_3964.htm">3964 / RK512 - Profibus Converter (Mode 4)</a></font></li>
+  </ul>
+</blockquote>
+<p><br><br><font face="Arial"><a href="#Features">Features</a> | <a href="#Inst">lnstallation</a></font><font face="Arial">
+</font><font face="Arial">|
+<a href="#UserInterface">User
+Interface</a></font><font face="Arial"> <a href="#Installation">
+</a></font><font face="Arial">|
+<a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+&nbsp;
+<p><b><font size=+2><a name="Inst"></a>Installation</font></b>
+<p>&nbsp;<font face="Arial">The class aX4401_pbc1 Counter is comprised
+of the following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="24%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="32%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial">Includes the process picture
+representation and popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial">aX4401_pbc1.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><b><font face="Arial">Enumerator Files</font></b></td>
+
+<td VALIGN=CENTER><font face="Arial">Define the enumerator for the class</font></td>
+
+<td VALIGN=CENTER><font face="Arial">aX4401_pbc1.enum</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<p><font face="Arial">(and&nbsp; some documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial">HTML documentation for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial">aX4401_pbc1.htm</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Installation: </font>The above listed files must
+be copied into a common subdirectory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</b>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Inst">lnstallation</a>
+|
+<a href="#UserInterface">User
+Interface</a> |
+<a href="#implementation">Implementation
+Notes</a></font></p>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><b><font face="Arial" size="5" color="#0000FF"><a name="UserInterface"></a>User
+Interface</font></b>
+<p><font face="Arial">The graphical representation of the aX4401_pbc1 Counter
+displays the unique name identifier ($Instance) in the upper right corner
+, the Profibus address appears near the Profibus socket, followed by the
+Run display and the Error display, as shown in figure 1.</font>
+<p><img border="0" src="aX44012.gif" width="386" height="246">
+<p><font face="Arial"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">LED conditions on the automationX Panel&nbsp;
+(Run &amp; Error)</font>
+<table BORDER CELLSPACING=3 CELLPADDING=3 WIDTH="700" >
+<tr>
+<td VALIGN=CENTER WIDTH="15%"><b><font face="Arial">Indication</font></b></td>
+
+<td VALIGN=CENTER WIDTH="15%"><b><font face="Arial">State</font></b></td>
+
+<td VALIGN=CENTER WIDTH="70%"><b><font face="Arial">Condition</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><font face="Arial">Error</font></td>
+
+<td VALIGN=CENTER><font face="Arial">red</font></td>
+
+<td VALIGN=CENTER><font face="Arial">Wrong Profibus address or no connection</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><font face="Arial">Run</font></td>
+
+<td VALIGN=CENTER><font face="Arial">green</font></td>
+
+<td VALIGN=CENTER><font face="Arial">DataExchange2</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">LED conditions on the hardware</font>
+<table BORDER WIDTH="700" >
+<tr>
+<td WIDTH="15%"><b><font face="Arial">&nbsp;Indication</font></b></td>
+
+<td WIDTH="15%">&nbsp;<b><font face="Arial">State</font></b></td>
+
+<td>&nbsp;<b><font face="Arial">Condition</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">&nbsp;Error</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;red</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;No bus connection</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">&nbsp;Error</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;red blinking</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;Wrong parametrization data</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">&nbsp;Init</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;green</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;Parametrization and configuration
+phase</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">&nbsp;Run</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;green blinking</font></td>
+
+<td><font face="Arial,Helvetica">&nbsp;DataExchange2</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial">To invoke the <b>Address Popup</b>, select Address
+or Mode in the graphical representation. The popup displays the Profibus
+address and the actual state of the module. From here, you can change the
+Profibus address, reset the module and open the HTML documentation.</font>
+<p><img SRC="GUI_AddressPopup.gif" height=245 width=178>
+<p><font face="Arial"><font size=-1>Figure 2: The Address Popup</font></font>
+<br>&nbsp;
+<p><font face="Arial">Figure 3 shows the <b>Error Popup</b>, which is displayed
+in case of any new errors. The popup displays the actual errors and error
+messages.</font>
+<p><img SRC="GUI_ErrorPopup.gif" height=305 width=289>
+<p><font face="Arial"><font size=-1>Figure 3: Error Popup<br>
+</font></font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Inst">lnstallation</a>
+|
+<a href="#UserInterface">User
+Interface</a> |
+<a href="#implementation">Implementation
+Notes</a></font>
+<p>&nbsp;
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><u><font face="Arial"><font size=+1>How to Create the Profibus Slave</font></font></u></b>
+<p><font face="Arial">The first step is to configure a Profibus Slave module.
+To create a Profibus Slave, take the following steps:</font>
+<p><b><font face="Arial">Step 1</font>:</b>
+<br><font face="Arial">Select the Profibus Slave class and drop an instance
+of it into the picture window</font>
+<p><b><font face="Arial">Step 2</font>:</b>
+<br><font face="Arial">With the slave object selected, enter a unique instance
+name and remark in the declaration field, in the configuration panel.</font>
+<p><i><font face="Arial">When you are naming I/O modules, be sure to assign
+meaningful names that you will be able to recognize later. For example,
+the Profibus Slave should at least be given an address number:</font></i>
+<br>&nbsp;
+<ul>
+<li>
+<i><font face="Arial">Instance name = test</font></i></li>
+</ul>
+<img SRC="GUI_AssignInstanceName.gif" height=147 width=455>
+<p><font face="Arial"><font size=-1>Figure 22: Assign Instance name</font></font>
+<br>&nbsp;
+<p><font face="Arial"><b>Step 3</b>:</font>
+<br><font face="Arial">Open the Server Data tab. Find the resource called
+"Master" in the data list. Click the value field with the left mouse button.</font>
+<p><i><font face="Arial">automationX automatically detects the Master and
+presents it in a drop down list.</font></i>
+<p><font face="Arial">Choose the master name from the list.</font>
+<p><img SRC="GUI_SelectMaster.gif" height=201 width=454>
+<br><font face="Arial"><font size=-1>Figure 23: Assign the Master</font></font>
+<br>&nbsp;
+<p><b><font face="Arial">Step 4</font>:</b>
+<br><font face="Arial">Find the resource called "address" in the Server
+data list. Use the increment/decrement arrows to set the address number
+of the Slave.</font>
+<p><i><font face="Arial">For example, if the address of the Slave class
+were 11 you needed to set the number to 11. When you save the display,
+you will see this number reflected on the object`s "counter".</font></i>
+<p><img SRC="GUI_SelectAddress.gif" height=276 width=455>
+<p><font face="Arial"><font size=-1>&nbsp;Figure 24: Assign the Profibus
+Slave address</font></font>
+<p><b><u><font face="Arial"><font size=+1>Specify the Counter Version</font></font></u></b>
+<p><font face="Arial">Find the resource called "ModuleConfig" in the Server
+Data list. Click on the resource and select your counter module from the
+appearing list. (Two possibilities: "pbc_1" - no comparing function, "pbc_1c"
+- with comparing function). Please remember that this can only be done
+in edit mode.</font>
+<p><img SRC="GUI_CounterVersion.gif" height=89 width=454>
+<p><font face="Arial"><font size=-1>Figure 25: Select the Counter Version</font></font>
+<p><b><u><font face="Arial"><font size=+1>I/O Wiring</font></font></u></b>
+<p><img SRC="pbc1_io_wiring.gif" height=754 width=603>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Inst">lnstallation</a>
+|
+<a href="#UserInterface">User
+Interface</a> |
+<a href="#implementation">Implementation
+Notes</a></font></p>
+<p>

@@ -1,0 +1,4 @@
+UdpState:	NoConfig=0, 
+		PortError=1,
+		Offline=2, 
+		Online=3;

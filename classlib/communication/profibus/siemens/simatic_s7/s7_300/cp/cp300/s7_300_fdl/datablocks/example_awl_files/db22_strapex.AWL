@@ -1,0 +1,149 @@
+DATA_BLOCK DB 22
+AUTHOR : CS
+FAMILY : TBS
+NAME : TBS
+VERSION : 0.1
+
+
+  STRUCT 	
+   STM01 : BOOL ;	//Not-Aus Taster
+   STM02 : BOOL ;	//Sicherheitslichtgitter 46K2
+   STM03 : BOOL ;	//Sicherheitslichtgitter 46K1
+   STM04 : BOOL ;	//Sicherheitslichtgitter 45K2
+   STM05 : BOOL ;	//Sicherheitslichtgitter 45K1
+   STM06 : BOOL ;	//24 VDC Versorgung fehlt
+   STM07 : BOOL ;	//Luftdruck fehlt
+   STM08 : BOOL ;	//Motorschutz 8M1
+   STM09 : BOOL ;	//Motorschutz 8M2
+   STM10 : BOOL ;	//Motorschutz 8M3
+   STM11 : BOOL ;	//Motorschutz 9M1
+   STM12 : BOOL ;	//Motorschutz Drehzahl 1
+   STM13 : BOOL ;	//Motorschutz Drehzahl 2
+   STM14 : BOOL ;	//Motorschutz 10M1
+   STM15 : BOOL ;	//Motorschutz 10M2
+   STM16 : BOOL ;	//Motorschutz 10M3
+   STM17 : BOOL ;	//Motorschutz 11M1
+   STM18 : BOOL ;	//Motorschutz 11M2
+   STM19 : BOOL ;	//Laufzeitfehler Förderung 10M2
+   STM20 : BOOL ;	//Laufzeitfehler Sperrmotor 11M1
+   STM21 : BOOL ;	//Laufzeitfehler Förderung 8M1
+   STM22 : BOOL ;	//Laufzeitfehler Förderung 8M2
+   STM23 : BOOL ;	//Laufzeitfehler Förderung 9M1
+   STM24 : BOOL ;	//Laufzeitfehler Förderung 10M1
+   STM25 : BOOL ;	//Laufzeitfehler Förderung 10M2
+   STM26 : BOOL ;	//Staumeldung Ausgabebuffer voll
+  END_STRUCT ;	
+BEGIN
+   STM01 := FALSE; 
+   STM02 := FALSE; 
+   STM03 := FALSE; 
+   STM04 := FALSE; 
+   STM05 := FALSE; 
+   STM06 := FALSE; 
+   STM07 := FALSE; 
+   STM08 := FALSE; 
+   STM09 := FALSE; 
+   STM10 := FALSE; 
+   STM11 := FALSE; 
+   STM12 := FALSE; 
+   STM13 := FALSE; 
+   STM14 := FALSE; 
+   STM15 := FALSE; 
+   STM16 := FALSE; 
+   STM17 := FALSE; 
+   STM18 := FALSE; 
+   STM19 := FALSE; 
+   STM20 := FALSE; 
+   STM21 := FALSE; 
+   STM22 := FALSE; 
+   STM23 := FALSE; 
+   STM24 := FALSE; 
+   STM25 := FALSE; 
+   STM26 := FALSE; 
+END_DATA_BLOCK
+
+DATA_BLOCK "VonZR"
+TITLE =Datenübertragung von Zellenrechner zur SPS
+//
+VERSION : 0.1
+
+
+  STRUCT 	
+   GutLoesch : BOOL ;	
+   SchlechtLoesch : BOOL ;	
+   res1 : BYTE ;	
+   res2 : BYTE ;	
+   res3 : BYTE ;	
+   UmrMuster : BYTE ;	
+   PalType : BYTE ;	
+   Bindst : BYTE ;	
+   Wickeln : BYTE ;	
+   PalCode : DWORD ;	
+   res : STRUCT 	
+    res1 : BYTE ;	
+    res2 : BYTE ;	
+    res3 : BYTE ;	
+    res4 : BYTE ;	
+    res5 : BYTE ;	
+    res6 : BYTE ;	
+    res7 : BYTE ;	
+    res8 : BYTE ;	
+   END_STRUCT ;	
+   DataPos1Ok : BOOL ;	
+   DataPos2Ok : BOOL ;	
+   Bestueckungsplatz : STRUCT 	
+    GruenePal : BOOL ;	
+    BeigePal : BOOL ;	
+    StyroPal : BOOL ;	
+    FalschePal : BOOL ;	
+    PalWeitertransp : BOOL ;	
+    PalAusschleusen : BOOL ;	
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+   Schleuse : STRUCT 	
+    PalCodeOK : BOOL ;	//Palettencode OK
+    PalCodeNOK : BOOL ;	//Palettencode Not OK
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+   TransferOld : STRUCT 	
+    PalWeitertransp : BOOL ;	
+    PalAusschleusen : BOOL ;	
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+  END_STRUCT ;	
+BEGIN
+   GutLoesch := FALSE; 
+   SchlechtLoesch := FALSE; 
+   res1 := B#16#0; 
+   res2 := B#16#0; 
+   res3 := B#16#0; 
+   UmrMuster := B#16#0; 
+   PalType := B#16#0; 
+   Bindst := B#16#0; 
+   Wickeln := B#16#0; 
+   PalCode := DW#16#0; 
+   res.res1 := B#16#0; 
+   res.res2 := B#16#0; 
+   res.res3 := B#16#0; 
+   res.res4 := B#16#0; 
+   res.res5 := B#16#0; 
+   res.res6 := B#16#0; 
+   res.res7 := B#16#0; 
+   res.res8 := B#16#0; 
+   DataPos1Ok := FALSE; 
+   DataPos2Ok := FALSE; 
+   Bestueckungsplatz.GruenePal := FALSE; 
+   Bestueckungsplatz.BeigePal := FALSE; 
+   Bestueckungsplatz.StyroPal := FALSE; 
+   Bestueckungsplatz.FalschePal := FALSE; 
+   Bestueckungsplatz.PalWeitertransp := FALSE; 
+   Bestueckungsplatz.PalAusschleusen := FALSE; 
+   Bestueckungsplatz.PalCode := DW#16#0; 
+   Schleuse.PalCodeOK := FALSE; 
+   Schleuse.PalCodeNOK := FALSE; 
+   Schleuse.PalCode := DW#16#0; 
+   TransferOld.PalWeitertransp := FALSE; 
+   TransferOld.PalAusschleusen := FALSE; 
+   TransferOld.PalCode := DW#16#0; 
+END_DATA_BLOCK
+

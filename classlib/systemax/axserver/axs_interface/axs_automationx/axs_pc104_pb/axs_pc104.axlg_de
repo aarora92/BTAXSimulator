@@ -1,0 +1,10 @@
+WrongInstance [Text Normal]	Text
+WrongInstance [Text Activ]	Falscher Instanzname
+Help [Text Normal]	Hilfe
+Help [Text Activ]	Hilfe
+Exit [Text Normal]	Beenden
+Exit [Text Activ]	Beenden
+Text [Text Normal]	Dies ist eine achtfache automationX-PC104-Karte.\Die LED zeigt den aktuellen Status der Karte\an. Für detaillierte Informationen jeder MIO-Karte\klicken Sie auf das jeweilige Anzeigefeld darunter.\(Information steht nur dann zur Verfügung,\wenn die Karte\arbeitet.)
+Text [Text Activ]	Text
+
+

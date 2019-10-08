@@ -1,0 +1,2 @@
+DestinationDir	TicketName	ProdID	TankID	BatchID_A	BatchID_B	TicketRef	MeterName	MeterID	OpenTime	CloseTime	K_Factor	Prove_Factor	Closing_Gross	Opening_Gross	Gross_Volume	Temp	Press	Dens	VCF	CPL	Net_Volume	Bad_Pulses
+C:/automationX/projects/BTAX/mnt/ntfs/LheedTickets2	Meter1	0	0	0	3	3	FX9513	1	1549008011	1551427211	6484.241	0.0000	41298792.0	0.0	1707.8	4.83	1836.7	712.8	1.01314	1.00211	1749.8	0

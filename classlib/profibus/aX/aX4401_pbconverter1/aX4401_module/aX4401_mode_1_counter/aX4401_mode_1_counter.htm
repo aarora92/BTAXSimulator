@@ -1,0 +1,455 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+   <title>MuR Counter pbc_1</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="97%" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>aX4401_pbc1
+Counter&nbsp;</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">This module represents the eigth counters of the pbc1The first four channels
+could be programmed to special functions.</font>
+<blockquote>
+<p><img border="0" src="aX44011.gif" width="105" height="246">
+</blockquote>
+<p><font face="Arial">The Counter aX4401_pbc1 includes the following&nbsp;
+functionalities for the first 4 channels (see <a href="#counter_modes">Counter
+Modes</a> ) :</font>
+<br>&nbsp;
+<dir>
+<dir><font face="Arial">* Endless count with interrupting and breaking
+off gate</font>
+<br><font face="Arial">* Single count with interrupting and breaking off
+gate</font>
+<br><font face="Arial">* Periodical count with interrupting and breaking
+off gate</font>
+<br><font face="Arial">* Frequency measuring</font>
+<br><font face="Arial">* Rotation speed measuring</font>
+<br><font face="Arial">* Cycle duration measuring</font>
+<br><font face="Arial">* Dosing mode (4 reference values for channel 1)</font></dir>
+</dir>
+
+<p><br><font face="Arial">The Counter aX4401_pbc1 includes the following
+input modes (see <a href="#input_modes">Input Modes</a> ):</font>
+<dir>
+<dir><font face="Arial">* Common count input</font>
+<br><font face="Arial">* Count input with direction input</font>
+<br><font face="Arial">* Count input with hardware gate</font>
+<br><font face="Arial">* Count input with hardware reset</font>
+<br><font face="Arial">* Count input with 2 edge detection</font>
+<br><font face="Arial">* Count input with 4 edge detection</font>
+<p><font face="Arial">If you use another input mode as the common, you
+need 2 inputs:</font>
+<br><font face="Arial">For channel 1 use input 1 and 5 ; for channel 2
+use inputs 2 and 6 and so on (3 and 7, 4 and 8).</font>
+<br><font face="Arial">In this case, one of the corresponding upper 4 channels
+cannot be used.</font>
+<br>&nbsp;</dir>
+</dir>
+<font face="Arial">The Counter aX4401_pbc1 includes the following output
+modes (see <a href="#output_modes">Output Modes</a>):</font>
+<dir>
+<dir><font face="Arial">* Common output switched by the Master</font>
+<br><font face="Arial">* Output is on if the counter value is greater than
+or equal to the reference value</font>
+<br><font face="Arial">* Output is on if the counter value is less than
+or equal to the reference value</font>
+<br><font face="Arial">* Output is on for awhile if the counter value is
+equal to the reference value</font></dir>
+</dir>
+
+<p><br><font face="Arial"><a href="#Features">Features</a> | <a href="#User">User
+Interface</a> | <a href="#counter_modes">Counter Modes</a> | <a href="#input_modes">Input
+Modes</a> | <a href="#output_modes">Output Modes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><b><font size=+2><a name="User"></a>User Interface</font></b>
+<p><font face="Arial">The <b>Input Popup</b> is invoked by selecting the
+input LEDs in the graphical representation.</font>
+<br><font face="Arial">There are three different popups:</font>
+<ul>
+<li>
+<font face="Arial">For a common counter (see fig. 2)</font></li>
+
+<li>
+<font face="Arial">For a special counter (see fig. 3)</font></li>
+
+</ul>
+<img SRC="imageBV5.gif" height=425 width=342>
+<br><font face="Arial"><font size=-1>Figure 2: Input Popup for a common&nbsp;
+counter (pbc_1 for channels 1-4 )</font></font>
+<br>&nbsp;
+<p><font face="Arial">If you want to simulate the value of a channel or
+an input pin, toggle the <i>"Normal/Force"</i> button. This is necessary
+to test PLC-programs when there is no connection to the I/O. The value
+of each channel is simulated/forced with the <i>"Force lnput Value"</i>&nbsp;
+in the respective section (channel). The in/decreasing arrows are only
+active if the "Norm/Force" button is set to <i>"Force"</i>.</font> T<font face="Arial">he
+<i>"Reset"</i>
+button sets the counter to zero. With the<i> "Gate"</i> button you can
+enable or disable the software gate.</font>
+<p><font face="Arial">To load a value to a channel at work, first select
+the value you wish to load (<i>Load Mode</i>). Write the value into the<i>
+"Load"</i> field. Push the <i>"Load Value"</i> button. Note: Channels 5
+to 8 allow to load the actual counter value only.</font>
+<p><img SRC="imageQ33.gif" height=425 width=342>
+<br><font face="Arial"><font size=-1>Figure 3: Input Popup for a special
+counter (channels 5-8 or Mode 0 )</font></font>
+<p><b><font face="Arial">The LEDs have the following functions:</font></b>
+<blockquote>&nbsp;
+<table BORDER="1" COLS=4 WIDTH="681" >
+<tr>
+<td WIDTH="47">&nbsp;LED</td>
+
+<td WIDTH="83">&nbsp;Gray</td>
+
+<td WIDTH="347">&nbsp;Green&nbsp;</td>
+
+<td WIDTH="176">&nbsp;Yellow / Red</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;In</td>
+
+<td width="83">&nbsp;Input off</td>
+
+<td width="347">&nbsp;Input on</td>
+
+<td width="176">&nbsp;Input forced</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;En</td>
+
+<td width="83">&nbsp;-</td>
+
+<td width="347">&nbsp;Counter enabled</td>
+
+<td width="176">&nbsp;Counter disabled</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;Rd</td>
+
+<td width="83">&nbsp;off</td>
+
+<td width="347">&nbsp;Measuring is ready</td>
+
+<td width="176">&nbsp;-</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;Ov</td>
+
+<td width="83">&nbsp;off</td>
+
+<td width="347">&nbsp;Overrun&nbsp;
+<br>&nbsp;Measuement is greater than the upper limit</td>
+
+<td width="176">&nbsp;-</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;Ur</td>
+
+<td width="83">&nbsp;off</td>
+
+<td width="347">&nbsp;Underrun&nbsp;
+<br>&nbsp;Measurement is lower than the upper limit</td>
+
+<td width="176">&nbsp;-</td>
+</tr>
+
+<tr>
+<td width="47">&nbsp;Eq</td>
+
+<td width="83">&nbsp;off</td>
+
+<td width="347">&nbsp;Counter value equal to the reference value</td>
+
+<td width="176"></td>
+</tr>
+</table>
+</blockquote>
+<br>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#User">User
+Interface</a> | <a href="#counter_modes">Counter Modes</a> | <a href="#input_modes">Input
+Modes</a> | <a href="#output_modes">Output Modes</a></font></p>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="counter_modes"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Counter Modes</font></font></font></b>
+<p><b><font face="Arial,Helvetica"><font size=+1>Endless Break / Endless
+Nobreak</font></font></b>
+<p><font face="Arial,Helvetica">In this mode, the counter starts at 0 and
+counts to the maximum value +2147483647. Then the counter jumps to the
+minimum value&nbsp; -2147483648. There is no overflow and underrun detection.
+You can program two gate modes: a breaking mode and an interrrupting mode.
+In breaking mode (<i>endless_break</i>) the counter is set to 0 when the
+counter is started. If you use a hardware gate, the software gate has no
+restarting effect, just a rising edge at the hardware gate, which&nbsp;
+sets the counter to 0. In interrupting mode (<i>endless_nobreak</i>) the
+counter continues with the last value when it is started. The maximum count
+clock is 5000 Hz.</font>
+<p><font face="Arial,Helvetica">If you use a hardware reset input, the
+counter is set to 0 when the input is set to high.</font>
+<p><font face="Arial,Helvetica">In this mode <i>"Start Value"</i> and <i>"End
+Value"</i> have no effect.</font>
+<br><font face="Arial,Helvetica">The <i>Direction</i> value allows to set
+the common count direction of the channel. Set the <i>Autostart</i> value
+to true to enable the counter automatically at the reset of the slave.</font>
+<p><img SRC="imageKGE.gif" height=147 width=418>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 9. Up counter in
+nobreak mode</font></font>
+<p><img SRC="imageU37.gif" height=149 width=436>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 4. Up counter in
+breaking mode</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Single Break / Single
+Nobreak</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the counter starts at 0 and
+counts to the <i>End Value</i> -1 (<i>Direction</i>=FALSE) . At the next
+impulse the counter is set to 0 and disabled. The Overflow flag is set.
+If you set the <i>Direction</i> to down (TRUE), the counter starts at the
+<i>Start
+Value</i> and counts to 1 , at the next impulse the counter is set to <i>Start
+Value</i> and disabled. The Underrun flag is set.The maximum count clock
+is 5000 Hz.</font>
+<p><font face="Arial,Helvetica">You can program two gate functions: A breaking
+gate and an interrupting gate. In breaking mode (<i>single_break</i>) the
+counter is restarted with a rising edge on the gate. If you use a hardware
+gate, the software gate has no restarting effect, only a rising edge at
+the hardware gate which sets the counter to 0 or to <i>Start Value</i>.
+In interrupting mode (<i>single_nobreak</i>) the counter continues with
+the last value when is is started.</font>
+<p><font face="Arial,Helvetica">If you use a hardware reset input, the
+counter is set to 0 when the input is set to high.</font>
+<p><font face="Arial,Helvetica">When you have set the <i>Autostart</i>
+value to true the counter is automatically enabeld at the reset of the
+slave, otherwise the channel is enabeld with a rising edge at the gate.</font>
+<p><img SRC="image6SC.gif" height=151 width=427>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 5. Up counter in
+nobreak mode</font></font>
+<p><img SRC="imageB6A.gif" height=165 width=426>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 6. Down counter
+in breaking mode</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Periodical Break / Periodical
+Nobreak</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the counter starts at 0 and
+counts to the <i>End Value</i> -1 (<i>Direction</i>=FALSE). At the next
+impulse the counter is set to 0. The Overflow flag is set. If you set the
+<i>Direction</i>
+to down (TRUE), the counter starts at the <i>Start Value</i> and counts
+to 1, at the next impulse the counter is set to <i>Start Value</i>. The
+Underrun flag is set.The maximum count clock is 5000 Hz. The maximum count
+clock is 5000 Hz.</font>
+<p><font face="Arial,Helvetica">You can program two gate functions: A breaking
+gate and an interrupting gate. In breaking mode (<i>periodical_break</i>)
+the counter is restarted with a rising edge on the gate. If you use a hardware
+gate, the software gate has no restarting effect, only a rising edge at
+the hardware gate which sets the counter to 0 or to <i>Start Value</i>.
+In interrupting mode (<i>periodical_nobreak</i>) the counter continues
+with the last value when it is started.</font>
+<p><font face="Arial,Helvetica">If you use a hardware reset input, the
+counter is set to 0 wenn the input is set to high.</font>
+<p><font face="Arial,Helvetica">When you have set the <i>Autostart</i>
+value to true, the counter is automatically enabeld at the reset of the
+slave, otherwise the channel is enabeld with a rising edge at the gate.</font>
+<br>&nbsp;
+<p><img SRC="imageMGF.gif" height=140 width=411>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 7. Up counter in
+nobreak mode</font></font>
+<p><img SRC="imageKLR.gif" height=151 width=408>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 8. Down counter in
+breaking mode</font></font>
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Frequency / Rotation Speed Measuring</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the counter counts the pulses
+on the input in a time interval ( <i>Measure Time </i>). If <i>Steps per
+Cycle</i> is set to 0, the frequency is calculated. Otherwise the rotations
+per minute are calculated. <i>Steps per Cycle </i>is the number of steps
+for one turn. The <i>Measure Time </i>can be set in multiples of 10 ms,
+the maximum time is 10 s. After a measuring is terminated the ready flag
+is set. The maximum count clock is 5000 Hz.</font>
+<p><font face="Arial,Helvetica">You can specify an <i>Upper Value </i>for
+the measurement. If the measured value is greater than this value, the
+Overflow flag will be set.</font>
+<br><font face="Arial,Helvetica">You can specify a <i>Lower Value </i>for
+the measurement. If the measured value is less than this value, the Underrun
+flag will be set.</font>
+<p><font face="Arial,Helvetica">All frequency values are specified in 0.001
+Hz, and all rotation speed values are specified in 0.001 1/min</font>
+<p><font face="Arial,Helvetica">The measuring is started when the gate
+is set to high (software and&nbsp; hardware gate).</font>
+<br><font face="Arial,Helvetica">When you have set the <i>Autostart</i>
+value to true the measuring&nbsp; is automatically enabeld at the reset
+of the slave, otherwise the measuring&nbsp; is enabeld with a high signal
+at the gate.</font>
+<br>&nbsp;
+<p><img SRC="imageK6M.gif" height=136 width=479>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 9</font></font><font size=-1>. Frequency measuring</font>
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Cycle Duration Measuring</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the channel measures the time
+between two rising edges on the input, in maximum time interval ( <i>Meassure
+Time </i>). Time is 10 s. If a measuring is terminated the ready flag will
+be set. The maximum count clock is 5000 Hz.</font>
+<p><font face="Arial,Helvetica">You can specify an <i>Upper Value </i>for
+the measurement. If the measured value is greater than this value, the
+Overflow flag will be set.</font>
+<br><font face="Arial,Helvetica">You can specify a <i>Lower Value </i>for
+the measurement. If the measured value is less than this value, the Underrun
+flag will be set.</font>
+<p><font face="Arial,Helvetica">All duration values are specified in 1&micro;s.</font>
+<p><font face="Arial,Helvetica">The measuring will be started wenn the
+gate is set to high (software and&nbsp; hardware gate).</font>
+<br><font face="Arial,Helvetica">When you have set the <i>Autostart</i>
+value to true, the measuring&nbsp; is automatically enabeld at the reset
+of the slave, otherwise the measuring&nbsp; will be enabeld with a high
+signal at the gate.</font>
+<br>&nbsp;
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="input_modes"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Input Modes</font></font></font></b>
+<p><font face="Arial,Helvetica"><b><font size=+1>Normal Input </font></b>(Common
+input )</font>
+<p><font face="Arial,Helvetica">Specification for the inputs 1 to 8. The
+maximum count clock is 5000 Hz. The high and the low time must be greater
+than 85 &micro;s.</font>
+<p><img SRC="image2FS.gif" height=104 width=288>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 10. Waveform for
+a common input</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Direction Input</font></font></b>
+<p><font face="Arial,Helvetica">Specification for the inputs 1 to 4. The
+maximum count clock is 5000 Hz.</font>
+<br><font face="Arial,Helvetica">For input 1 the direction pin is the input
+5 ( Channel 5 cannot be used )</font>
+<br><font face="Arial,Helvetica">For input 2 the direction pin is the input
+6 ( Channel 6 cannot be used )</font>
+<br><font face="Arial,Helvetica">For input 3 the direction pin is the input
+7 ( Channel 7 cannot be used )</font>
+<br><font face="Arial,Helvetica">For input 4 the direction pin is the input
+8 ( Channel 8 cannot be used )</font>
+<p><img SRC="imageU2K.gif" height=148 width=428>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 11. Waveform for
+a common input with a direction input</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Two Edge Detection Input</font></font></b>
+<p><font face="Arial,Helvetica">Specification for the inputs 1 to 4. The
+maximum count clock is 5000 Hz.</font>
+<br><font face="Arial,Helvetica">For channel 1 the B pin is the input 5
+( Channel 5 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 2 the B pin is the input 6
+( Channel 6 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 3 the B pin is the input 7
+( Channel 7 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 4 the B pin is the input 8
+( Channel 8 cannot be used )</font>
+<p><img SRC="image4SR.gif" height=144 width=419>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 12. Waveform for
+a 2 edge detection input</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Four Edge Detection Input</font></font></b>
+<p><font face="Arial,Helvetica">Specification for the inputs 1 to 4. The
+maximum count clock is 5000 Hz.</font>
+<br><font face="Arial,Helvetica">For channel 1 the B pin is the input 5
+( Channel 5 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 2 the B pin is the input 6
+( Channel 6 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 3 the B pin is the input 7
+( Channel 7 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 4 the B pin is the input 8
+( Channel 8 cannot be used )</font>
+<p><img SRC="image3AT.gif" height=151 width=414>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 12. Waveform for
+a 4 edge detection input</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Reset Input</font></font></b>
+<p><font face="Arial,Helvetica">Specification for the inputs 5 to 8. The
+pulse time must exeed 85 &micro;s to reset a counter.</font>
+<br><font face="Arial,Helvetica">For channel 1 the reset&nbsp; pin is the
+input 5 ( Channel 5 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 2 the reset&nbsp; pin is the
+input 6 ( Channel 6 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 3 the reset&nbsp; pin is the
+input 7 ( Channel 7 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 4 the reset&nbsp; pin is the
+input 8 ( Channel 8 cannot be used )</font>
+<p><img SRC="image2FS.gif" height=104 width=288>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 13. Waveform for
+a reset input</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Hardware Gate</font></font></b>
+<p><font face="Arial,Helvetica">Specification for the inputs 5 to 8. The
+pulse time must exeed 85 &micro;s to close the gate of&nbsp; a counter.</font>
+<br><font face="Arial,Helvetica">For channel 1 the hardware gate is the
+input 5 ( Channel 5 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 2 the hardware gate is the
+input 6 ( Channel 6 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 3 the hardware gate is the
+input 7 ( Channel 7 cannot be used )</font>
+<br><font face="Arial,Helvetica">For channel 4 the hardware gate is the
+input 8 ( Channel 8 cannot be used )</font>
+<p><img SRC="image2FS.gif" height=104 width=288>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 14. Waveform for
+a hardware gate</font></font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#User">User
+Interface</a> | <a href="#counter_modes">Counter Modes</a> | <a href="#input_modes">Input
+Modes</a> | <a href="#output_modes">Output Modes</a></font></p>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="output_modes"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Output Modes</font></font></font></b>
+<p><b><font face="Arial,Helvetica"><font size=+1>Normal Output</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the output is not assigned
+to any channel.</font>
+<br><font face="Arial,Helvetica">The output is set with the global variables
+Q0_0, Q0_1 , Q0_2 and Q0_3 in the pbc1_concerter class.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Lowereqal Output</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the output is set to high
+if the counter value is lower than or eqal to the reference value.</font>
+<br><font face="Arial,Helvetica">If the channel is set to frequency, rotation
+speed or cycle duration measuring, the output is set to high if the measurment
+is lower than or equal to the reference value.</font>
+<br><font face="Arial,Helvetica">In the counter mode 2 (dosing mode) all
+the outputs are assigned to channel 1.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Greatereqal Output</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the output is set to high
+if the counter value is greater than or eqal to the reference value.</font>
+<br><font face="Arial,Helvetica">If the channel is set to frequency , rotation
+speed or cycle duration measuring, the output is set to high if the measurment
+is greater than or equal to the reference value.</font>
+<br><font face="Arial,Helvetica">In counter mode 2 (dosing mode) all the
+outputs are assigned to channel 1.</font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+1>Equalpulse Output</font></font></b>
+<p><font face="Arial,Helvetica">In this mode the output is set to high
+for a specified time if the counter value is equal to the reference value.
+The time is set with the <i>Output Time</i> value in multiples of 10 ms.</font>
+<br><font face="Arial,Helvetica">If the channel is set to frequency , rotation
+speed or cycle duration measuring this mode is <b>not available</b>.</font>
+<br><font face="Arial,Helvetica">In counter mode 2 (dosing mode) all the
+outputs are assigned to channel 1.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#User">User
+Interface</a> | <a href="#counter_modes">Counter Modes</a> | <a href="#input_modes">Input
+Modes</a> | <a href="#output_modes">Output Modes</a></font></p>
+<p>

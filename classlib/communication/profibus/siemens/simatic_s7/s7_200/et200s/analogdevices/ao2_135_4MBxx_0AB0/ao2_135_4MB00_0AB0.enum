@@ -1,0 +1,7 @@
+ControlMode:		ByHost=0,
+			ByDevice=1,
+			Blind=2;
+
+module_range:	deact=0,
+		current_4_20_mA=3,
+		current_np_20mA=4;

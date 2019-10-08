@@ -1,0 +1,6 @@
+Set To Value.Alarm On	ON
+Set To Value.Alarm Off	OFF
+Set To Value.Alarm Acknowledged	ACK
+Message.User	User
+Message.Acknowledge All Alarms	*** Acknowledge all Alarms ***  USER
+Position.All Alarms	All Alarms

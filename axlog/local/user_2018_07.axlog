@@ -1,0 +1,18 @@
+2018-07-11 08:18:55-983	0	Login		User <ramin> logged in: access=0xFFFFFFFF	ramin	WCPBTMRA
+2018-07-11 08:19:19-140	0	LNJCommTest.select	off	.Symbol selection	ramin	WCPBTMRA
+2018-07-11 08:19:44-937	0	MBM.select	off	.Symbol selection	ramin	WCPBTMRA
+2018-07-11 08:20:28-611	0	LNJComm.select	off	LNJ Communications.Symbol selection	ramin	WCPBTMRA
+2018-07-11 08:20:30-236	0	LNJComm.select	on	LNJ Communications.Symbol selection	ramin	WCPBTMRA
+2018-07-11 08:20:32-469	0	LNJComm.reset	on	LNJ Communications.resets the serial communication	ramin	WCPBTMRA
+2018-07-11 08:25:13-941	0	Login		User <ramin> logged in: access=0xFFFFFFFF	ramin	WCPBTMRA
+2018-07-11 08:33:04-167	0	Login		User <ramin> logged in: access=0xFFFFFFFF	ramin	WCPBTMRA
+2018-07-11 08:34:30-391	0	LNJComm.requested_function	Read_Hold_Reg	LNJ Communications.Modbus function requested from Master	ramin	WCPBTMRA
+2018-07-11 08:36:01-180	0	LNJComm.reset	on	LNJ Communications.resets the serial communication	ramin	WCPBTMRA
+2018-07-19 13:56:32-700	0	Login		User <r> logged in: access=0xFFFFFFFF	r	WCPBTMRA
+2018-07-26 14:50:01-279	0	Login		User <r> logged in: access=0xFFFFFFFF	r	WCPBTMRA
+2018-07-30 12:36:53-551	0	Login		User <r> logged in: access=0xFFFFFFFF	r	WCPBTMRA
+2018-07-30 12:57:18-176	0	PCanOmniComm.current_function	Read_Coil	Petro Canada Omni Communications.	r	WCPBTMRA
+2018-07-30 16:52:55-921	0	Ticket1.Reset	on	.	r	WCPBTMRA
+2018-07-30 16:53:11-359	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	WCPBTMRA
+2018-07-30 16:53:15-219	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	WCPBTMRA
+2018-07-30 16:54:01-532	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	WCPBTMRA

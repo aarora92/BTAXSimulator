@@ -1,0 +1,3395 @@
+Communications.PrBus3_2.I0_0 - ZL3014	Firewater Booster Pump On/Off
+Communications.PrBus3_2.I0_1 - HL3014	Firewater Booster Pump Power
+Communications.PrBus3_2.I0_2 - XA3002	Foam System Abort at Truck Rack
+Communications.PrBus3_2.I0_3 - XA3001	Manual Foam Activation At Rack
+Communications.PrBus3_2.I0_4 - XA3003	Firewater Valve VJ Test
+Communications.PrBus3_2.I0_5 - EL3001	Foam Control Power Available
+Communications.PrBus3_2.I0_6 - FAH3001	Foam/Water Flowing to Rack
+Communications.PrBus3_2.I0_7	
+Communications.PrBus3_3.I0_0 - HL3061	Truck Entrance Gate Hand/Open
+Communications.PrBus3_3.I0_1 - EA3001A	MP Dispatch UPS AC Fail
+Communications.PrBus3_3.I0_2 - EA3001B	MP Dispatch UPS Low Battery
+Communications.PrBus3_3.I0_3	
+Communications.PrBus3_3.I0_4	
+Communications.PrBus3_3.I0_5	
+Communications.PrBus3_3.I0_6	
+Communications.PrBus3_3.I0_7	
+Communications.PrBus3_4.I0_0	
+Communications.PrBus3_4.I0_1	
+Communications.PrBus3_4.I0_2	
+Communications.PrBus3_4.I0_3	
+Communications.PrBus3_4.I0_4	
+Communications.PrBus3_4.I0_5	
+Communications.PrBus3_4.I0_6	
+Communications.PrBus3_4.I0_7	
+Communications.PrBus3_5.I0_0 - XA3006	Truck Rack UV/IR Selector in Test
+Communications.PrBus3_5.I0_1 - QA3001	Zone 1 or 2
+Communications.PrBus3_5.I0_2 - QA3003	Zone 3 or 4
+Communications.PrBus3_5.I0_3 - QA3005	Zone 5 or 6
+Communications.PrBus3_5.I0_4 - QA3007	Zone 7 or 8
+Communications.PrBus3_5.I0_5 - QA3009	Zone 9
+Communications.PrBus3_5.I0_6 - QA3010	Zone 10
+Communications.PrBus3_5.I0_7 - QA3011	Zone 11
+Communications.PrBus3_5.I1_0 - QA3012	Zone 12
+Communications.PrBus3_5.I1_1 - QA3013	Zone 13
+Communications.PrBus3_5.I1_2 - QA3014	Zone 14
+Communications.PrBus3_5.I1_3 - XA3005	15 Second Warning to Foam Deluge
+Communications.PrBus3_5.I1_4 - XA3004	Deluge Activated
+Communications.PrBus3_5.I1_5 - CA3001	Fire Alarm Panel Trouble
+Communications.PrBus3_5.I1_6	
+Communications.PrBus3_5.I1_7	
+Communications.PrBus3_6.Q0_0 - XS3001	Fire Alarm Panel Silence
+Communications.PrBus3_6.Q0_1 - XS3002	Fire Alarm Panel Reset
+Communications.PrBus3_6.Q0_2	
+Communications.PrBus3_6.Q0_3	
+Communications.PrBus3_6.Q0_4	
+Communications.PrBus3_6.Q0_5	
+Communications.PrBus3_6.Q0_6	
+Communications.PrBus3_6.Q0_7	
+Communications.PrBus4_2.I0_0 - ZL3001	J3001 Super Green Running
+Communications.PrBus4_2.I0_1 - FAL3001	J3001 Super Green Low Flow
+Communications.PrBus4_2.I0_2 - HL3001	J3001 Super Green Auto Selected
+Communications.PrBus4_2.I0_3	
+Communications.PrBus4_2.I0_4 - ZL3002	J3002 RUL Running
+Communications.PrBus4_2.I0_5 - FAL3002	J3002 Rul Low Flow
+Communications.PrBus4_2.I0_6 - HL3002	J3002 Rul Auto Selected
+Communications.PrBus4_2.I0_7	
+Communications.PrBus4_3.I0_0 - HL3007	J3007 OGA Auto Sel
+Communications.PrBus4_3.I0_1 - ZL3007	J3007 OGA Running
+Communications.PrBus4_3.I0_2 - HL3011	J3011 Dye Auto Sel
+Communications.PrBus4_3.I0_3 - ZL3011	J3011 Due Running
+Communications.PrBus4_3.I0_4 - HL3156	TK3156 Mixer Auto Selected
+Communications.PrBus4_3.I0_5 - ZL3156	TK3156 Mixer Running
+Communications.PrBus4_3.I0_6 - ZL3006B	Import Gasoline Booster Pump Running
+Communications.PrBus4_3.I0_7 - HL3006B	Import Gasoline Booster Pump Auto Selected
+Communications.PrBus4_4.I0_0 - XA4003	Lower Plant ESD Push Button Pushed
+Communications.PrBus4_4.I0_1 - XA3021	Tank Dynamite Valve's Alarm
+Communications.PrBus4_4.I0_2 - XA3022	Middle Plant ESD Push Button Pushed
+Communications.PrBus4_4.I0_3 - EA3002A	MP Substation UPS AC Fail
+Communications.PrBus4_4.I0_4 - EA3002B	MP Substation UPS Battery Low
+Communications.PrBus4_4.I0_5	
+Communications.PrBus4_4.I0_6 - HL3006A	J3006A Unloading Pump Auto Selected
+Communications.PrBus4_4.I0_7 - ZL3006A	J3006A Unloading Pmp Running
+Communications.PrBus4_5.Q0_0 - HS3001	J3001 Super Green Start/Stop
+Communications.PrBus4_5.Q0_1 - HS3002	J3002 Rul Start/Stop
+Communications.PrBus4_5.Q0_2 - HS3007	J3007 OGA Start/Stop
+Communications.PrBus4_5.Q0_3 - HS3011	J3011 Dye Start/Stop
+Communications.PrBus4_5.Q0_4 - HS3156	Tank 3156 Mixer Start/Stop
+Communications.PrBus4_5.Q0_5 - HS3006B	Import Gasoline Booster Pump Start/Stop
+Communications.PrBus4_5.Q0_6 - HS3006A	J3006A Import Pump Start/Stop
+Communications.PrBus4_5.Q0_7 - HS3096	Tk2196 Mixer Start/Stop
+Communications.PrBus4_6.Q0_0 - HS3157	Tank 3157 Mixer Start/Stop
+Communications.PrBus4_6.Q0_1 - HS3117	Tank 3117 Mixer Start/Stop
+Communications.PrBus4_6.Q0_2	
+Communications.PrBus4_6.Q0_3	
+Communications.PrBus4_6.Q0_4	
+Communications.PrBus4_6.Q0_5	
+Communications.PrBus4_6.Q0_6	
+Communications.PrBus4_6.Q0_7	
+Communications.PrBus4_7.CHI0 - PI3013	Gasoline Booster Pump Suction Pressure
+Communications.PrBus4_7.CHI1 - PI3011	Gasoline Booster Pump  Discharge Pressure
+Communications.PrBus4_7.CHI2 - PI3012	Export Gasoline Discharge Line Pressure
+Communications.PrBus4_7.CHI3 - PI3031	Distillate Booster Pump Discharge Pressure
+Communications.PrBus4_8.I0_0 - ZSC3004	6" Gasoline to Tk3156
+Communications.PrBus4_8.I0_1 - ZSC3005	10" Gasoline to Dock
+Communications.PrBus4_8.I0_2 - ZSC3033	6" Stove to Tk3117
+Communications.PrBus4_8.I0_3 - ZSC3034	12" Diesel to Tk3157
+Communications.PrBus4_8.I0_4 - ZSC3035	10" Diesel to Dock
+Communications.PrBus4_8.I0_5 - ZSC3036	HV3036 Tank 2196 Finished SUL91 Gasoline
+Communications.PrBus4_8.I0_6 - ZSO3036	HV3036 Tank 2196 Finished SUL91 Gasoline
+Communications.PrBus4_8.I0_7	
+Communications.PrBus4_9.I0_0 - HL3096	Tk2196 Mixer Auto Selected
+Communications.PrBus4_9.I0_1 - ZL3096	Tk2196 Mixer Running
+Communications.PrBus4_9.I0_2 - HL3157	Tank 3157 Mixer Auto Selected
+Communications.PrBus4_9.I0_3 - ZL3157	Tank 3157 Mixer Running
+Communications.PrBus4_9.I0_4 - HL3117	Tank 3117 Mixer Auto Selected
+Communications.PrBus4_9.I0_5 - ZL3117	Tank 3117 Mixer Running
+Communications.PrBus4_9.I0_6	
+Communications.PrBus4_9.I0_7	
+Communications.PrBus4_10.I0_0 - CA3008	Mid Plant Genset Trouble Alarm
+Communications.PrBus4_10.I0_1 - ZL3008	Mid Plant Genset Running
+Communications.PrBus4_10.I0_2	
+Communications.PrBus4_10.I0_3	
+Communications.PrBus4_10.I0_4	
+Communications.PrBus4_10.I0_5	
+Communications.PrBus4_10.I0_6	
+Communications.PrBus4_10.I0_7	
+Communications.PrBus4_14.CHI0 - PI3033	Distillate Booster Pump Suction Pressure
+Communications.PrBus4_14.CHI1 - PI3034	Hi Sulphur Distillate Suction Header Pressure
+Communications.PrBus4_14.CHI2 - PI3035	Hi Sulphur Distillate Discharge Header Pressure
+Communications.PrBus4_14.CHI3	
+Communications.PrBus5_2.I0_0 - P3002I01	Accuload Rul Start/Stop
+Communications.PrBus5_2.I0_1 - CA3051	Accuload Rul Fault
+Communications.PrBus5_2.I0_2 - P3001I01	Accuload Sul Start/Stop
+Communications.PrBus5_2.I0_3	
+Communications.PrBus5_2.I0_4 - CA3052	Accuload Sul Fault
+Communications.PrBus5_2.I0_5	
+Communications.PrBus5_2.I0_6	
+Communications.PrBus5_2.I0_7	
+Communications.PrBus5_3.I0_0 - XA3051	OGA Rul Injector Cycle Complete
+Communications.PrBus5_3.I0_1 - P3007I01	OGA Additive Pump Start/Stop
+Communications.PrBus5_3.I0_2 - XA3052	OGASul Cycle Complete
+Communications.PrBus5_3.I0_3	
+Communications.PrBus5_3.I0_4 - XA3053	Dye RUL Injector Cycle Complete
+Communications.PrBus5_3.I0_5 - P3011I01	Dye Additive Pump Start/Stop
+Communications.PrBus5_3.I0_6	
+Communications.PrBus5_3.I0_7	
+Communications.PrBus5_4.I0_0	
+Communications.PrBus5_4.I0_1	
+Communications.PrBus5_4.I0_2	
+Communications.PrBus5_4.I0_3	
+Communications.PrBus5_4.I0_4	
+Communications.PrBus5_4.I0_5	
+Communications.PrBus5_4.I0_6	
+Communications.PrBus5_4.I0_7	
+Communications.PrBus5_5.Q0_0	
+Communications.PrBus5_5.Q0_1	
+Communications.PrBus5_5.Q0_2	
+Communications.PrBus5_5.Q0_3	
+Communications.PrBus5_5.Q0_4	
+Communications.PrBus5_5.Q0_5	
+Communications.PrBus5_5.Q0_6	
+Communications.PrBus5_5.Q0_7	
+Communications.PrBus6_2.I0_0 - HL3022	J3022 Slop Pump Auto Selected
+Communications.PrBus6_2.I0_1 - ZL3022	J3022 Slop Pump Running
+Communications.PrBus6_2.I0_2 - LAL3010	Tank 2195 LO Level Alarm
+Communications.PrBus6_2.I0_3 - LAHH3010	Tank 2195 HIHI Level Alarm
+Communications.PrBus6_2.I0_4 - LAL3011	Tank 2198 LO Level Alarm
+Communications.PrBus6_2.I0_5 - LAHH3011	Tank 2198 HIHI Level Alarm
+Communications.PrBus6_2.I0_6 - FAL3010	J3022 Slop Pump Low Flow SD
+Communications.PrBus6_2.I0_7	
+Communications.PrBus6_3.I0_0 - HL3019	J3019 Unloading Pmp1 Auto Selected
+Communications.PrBus6_3.I0_1 - ZL3019	J3019 Unloading Pmp1 Running
+Communications.PrBus6_3.I0_2 - HL3020	J3020 Unloading Pmp2 Auto Select
+Communications.PrBus6_3.I0_3 - ZL3020	J3020 Unloading Pmp2 Running
+Communications.PrBus6_3.I0_4	
+Communications.PrBus6_3.I0_5	
+Communications.PrBus6_3.I0_6	
+Communications.PrBus6_3.I0_7	
+Communications.PrBus6_4.Q0_0 - HS3022	J3022 Slop Pump Start/Stop
+Communications.PrBus6_4.Q0_1 - HS3019	J3019 Unloading Pmp1 Start/Stop
+Communications.PrBus6_4.Q0_2 - HS3020	J3020 Unloading Pmp2 Start/Stop
+Communications.PrBus6_4.Q0_3	
+Communications.PrBus6_4.Q0_4	
+Communications.PrBus6_4.Q0_5	
+Communications.PrBus6_4.Q0_6	
+Communications.PrBus6_4.Q0_7	
+Communications.PrBus7_2.I0_0 - ZSC3041	MO3041 Closed
+Communications.PrBus7_2.I0_1 - ZSO3041	MOV3041 Open
+Communications.PrBus7_2.I0_2 - ZSM3041	MOV3041 Moving
+Communications.PrBus7_2.I0_3 - ZSR3041	MOV3041 Remote
+Communications.PrBus7_2.I0_4 - ZSP3041	MOV3041 Power Present
+Communications.PrBus7_2.I0_5 - ZSA3041	MOV3041 Motor Transf. Temp Stat
+Communications.PrBus7_2.I0_6 - ZSL3041	MOV3041 Local
+Communications.PrBus7_2.I0_7 - ZSC3042	MOV3042 Closed
+Communications.PrBus7_2.I1_0 - ZSO3042	MOV3042 Open
+Communications.PrBus7_2.I1_1 - ZSM3042	MOV3042 Moving
+Communications.PrBus7_2.I1_2 - ZSR3042	MOV3042 Remote
+Communications.PrBus7_2.I1_3 - ZSP3042	MOV3042 Power Present
+Communications.PrBus7_2.I1_4 - ZSA3042	MOV3042 Motor Trans. Temp Stat
+Communications.PrBus7_2.I1_5 - ZSL3042	MOV3042 Local
+Communications.PrBus7_2.I1_6	
+Communications.PrBus7_2.I1_7	
+Communications.PrBus7_3.I0_0 - ZSC3043	MOV3043 Closed
+Communications.PrBus7_3.I0_1 - ZSO3043	MOV3043 Open
+Communications.PrBus7_3.I0_2 - ZSM3043	MOV3043 Moving
+Communications.PrBus7_3.I0_3 - ZSR3043	MOV3043 Remote
+Communications.PrBus7_3.I0_4 - ZSP3043	MOV3043 Power Present
+Communications.PrBus7_3.I0_5 - ZSA3043	MOV3043 Motor Trans. Temp Stat
+Communications.PrBus7_3.I0_6 - ZSL3043	MOV3043 Local
+Communications.PrBus7_3.I0_7 - ZSC3044	MOV3044 Closed
+Communications.PrBus7_3.I1_0 - ZSO3044	MOV3044 Open
+Communications.PrBus7_3.I1_1 - ZSM3044	MOV3044 Moving
+Communications.PrBus7_3.I1_2 - ZSR3044	MOV3044 Remote
+Communications.PrBus7_3.I1_3 - ZSP3044	MOV3044 Power Present
+Communications.PrBus7_3.I1_4 - ZSA3044	MOV3044 Motor Transf. Temp Stat
+Communications.PrBus7_3.I1_5 - ZSL3044	MOV3044 Local
+Communications.PrBus7_3.I1_6	
+Communications.PrBus7_3.I1_7	
+Communications.PrBus7_4.I0_0 - ZSC3045	MOV3045 Closed
+Communications.PrBus7_4.I0_1 - ZSO3045	MOV3045 Open
+Communications.PrBus7_4.I0_2 - ZSM3045	MOV3045 Moving
+Communications.PrBus7_4.I0_3 - ZSR3045	MOV3045 Remote
+Communications.PrBus7_4.I0_4 - ZSP3045	MOV3045 Power Present
+Communications.PrBus7_4.I0_5 - ZSA3045	MOV3045 Motor Transf. Temp Stat
+Communications.PrBus7_4.I0_6 - ZSL3045	MOV3045 Local
+Communications.PrBus7_4.I0_7	
+Communications.PrBus7_4.I1_0	
+Communications.PrBus7_4.I1_1	
+Communications.PrBus7_4.I1_2	
+Communications.PrBus7_4.I1_3	
+Communications.PrBus7_4.I1_4	
+Communications.PrBus7_4.I1_5	
+Communications.PrBus7_4.I1_6	
+Communications.PrBus7_4.I1_7	
+Communications.PrBus7_5.Q0_0	
+Communications.PrBus7_5.Q0_1	
+Communications.PrBus7_5.Q0_2	
+Communications.PrBus7_5.Q0_3	
+Communications.PrBus7_5.Q0_4	
+Communications.PrBus7_5.Q0_5	
+Communications.PrBus7_5.Q0_6	
+Communications.PrBus7_5.Q0_7	
+Communications.PrBus7_6.Q0_0	
+Communications.PrBus7_6.Q0_1	
+Communications.PrBus7_6.Q0_2	
+Communications.PrBus7_6.Q0_3	
+Communications.PrBus7_6.Q0_4	
+Communications.PrBus7_6.Q0_5	
+Communications.PrBus7_6.Q0_6	
+Communications.PrBus7_6.Q0_7	
+Communications.PrBus7_7.CHI0 - PI3060	Middle Lower Plant City Water Pressure
+Communications.PrBus7_7.CHI1	
+Communications.PrBus7_7.CHI2	
+Communications.PrBus7_7.CHI3	
+DockComms.PrBus11_8.I0_0 - XA4046	Air Dryer Hi Dew Point Alarm
+DockComms.PrBus11_8.I0_1 - XA4001A	West Dock Deluge Activated
+DockComms.PrBus11_8.I0_2 - PALL4048	Pressure Switch LOLO Alarm
+DockComms.PrBus11_8.I0_3 - ZSO4051	Compressor Building Latching Solenoid Position Sw
+DockComms.PrBus11_8.I0_4 - ZL4023p	WD OGA Additive Pump Running
+DockComms.PrBus11_8.I0_5 - HL4023p	WD OGA Additive Pump Auto
+DockComms.PrBus11_8.I0_6 - ZL4024a	WD JetA Drain Pump Running
+DockComms.PrBus11_8.I0_7 - ZSC4052	Railcar Latching Solenoid Position Switch
+DockComms.PrBus11_2.I0_0 - ZSO4011	RUL to WD Meter #1 Open
+DockComms.PrBus11_2.I0_1 - ZSC4011	RUL to WD Meter #1 Closed
+DockComms.PrBus11_2.I0_2 - ZSO4012	RUL to WD Meter #2 Open
+DockComms.PrBus11_2.I0_3 - ZSC4012	RUL to WD Meter #2 Closed
+DockComms.PrBus11_2.I0_4 - ZSO4111	RUL to ED Meter #1 Open
+DockComms.PrBus11_2.I0_5 - ZSC4111	RUL to ED Meter #1 Closed
+DockComms.PrBus11_2.I0_6 - ZSO4112	RUL to ED Meter #2 Open
+DockComms.PrBus11_2.I0_7 - ZSC4112	RUL to ED Meter #2 Closed
+DockComms.PrBus11_3.I0_0 - ZSO4021	SUL to WD Meter #1 Open
+DockComms.PrBus11_3.I0_1 - ZSC4021	SUL to WD Meter #1 Closed
+DockComms.PrBus11_3.I0_2 - ZSO4022	SUL to WD Meter #2 Open
+DockComms.PrBus11_3.I0_3 - ZSC4022	SUL to WD Meter #2 Closed
+DockComms.PrBus11_3.I0_4 - ZSO4121	SUL to ED Meter #1 Open
+DockComms.PrBus11_3.I0_5 - ZSC4121	SUL to ED Meter #1 Closed
+DockComms.PrBus11_3.I0_6 - ZSO4122	SUL to ED Meter #2 Open
+DockComms.PrBus11_3.I0_7 - ZSC4122	SUL to ED Meter #2 Closed
+DockComms.PrBus11_4.I0_0 - ZSO4031	S/D to WD Meter #3 Open
+DockComms.PrBus11_4.I0_1 - ZSC4031	S/D to WD Meter #3 Closed
+DockComms.PrBus11_4.I0_2 - ZSO4032	S/D to WD Meter #4 Open
+DockComms.PrBus11_4.I0_3 - ZSC4032	S/D to WD Meter #4 Closed
+DockComms.PrBus11_4.I0_4 - ZSO4131	S/D to ED Meter #3 Open
+DockComms.PrBus11_4.I0_5 - ZSC4131	S/D to ED Meter #3 Closed
+DockComms.PrBus11_4.I0_6 - ZSO4132	S/D to ED Meter #4 Open
+DockComms.PrBus11_4.I0_7 - ZSC4132	S/D to ED Meter #4 Closed
+DockComms.PrBus11_5.I0_0 - ZSO4041	RSD to WD Meter #3 Open
+DockComms.PrBus11_5.I0_1 - ZSC4041	RSD to WD Meter #3 Closed
+DockComms.PrBus11_5.I0_2 - ZSO4042	RSD to WD Meter #4 Open
+DockComms.PrBus11_5.I0_3 - ZSC4042	RSD to WD Meter #4 Closed
+DockComms.PrBus11_5.I0_4 - ZSO4141	RSD to ED Meter #3 Open
+DockComms.PrBus11_5.I0_5 - ZSC4141	RSD to ED Meter #3 Closed
+DockComms.PrBus11_5.I0_6 - ZSO4142	RSD to ED Meter #4 Open
+DockComms.PrBus11_5.I0_7 - ZSC4142	RSD to ED Meter #4 Closed
+DockComms.PrBus11_6.I0_0 - ZSC4005	6" Gas to Header (dual service)
+DockComms.PrBus11_6.I0_1 - ZSC4015	Tank 3156 to WD Meter #1
+DockComms.PrBus11_6.I0_2 - ZSC4025	Tank 2196 to WD Meter #2
+DockComms.PrBus11_6.I0_3 - ZSC4026	Tank 2197 to WD Meter #2
+DockComms.PrBus11_6.I0_4 - ZSC4030	Stove/Diesel to Export
+DockComms.PrBus11_6.I0_5 - ZSC4035	Tank 3117 to WD Meter #3
+DockComms.PrBus11_6.I0_6 - ZSC4040	RSD to Export
+DockComms.PrBus11_6.I0_7 - ZSC4045	Tank 3157 to WD Meter #4
+DockComms.PrBus11_7.I0_0 - ZSC4115	Tank 3156 to ED Meter #2
+DockComms.PrBus11_7.I0_1 - ZSC4125	Tank 2196 to ED Meter #1
+DockComms.PrBus11_7.I0_2 - ZSC4126	Tank 2197 to ED Meter #1
+DockComms.PrBus11_7.I0_3 - ZSC4135	Tank 3117 to ED Meter #3
+DockComms.PrBus11_7.I0_4 - ZSC4145	Tank 3157 to ED Meter #4
+DockComms.PrBus11_7.I0_5 - QA4002	Compressor Building Fire Alarm
+DockComms.PrBus11_7.I0_6 - EA4002A	AC Fail Compressor Building
+DockComms.PrBus11_7.I0_7 - EA4002B	Battery Low Compressor Building
+DockComms.PrBus11_9.I0_0 - XA4047B	Air Compressor General Shutdown
+DockComms.PrBus11_9.I0_1 - XA4047C	Air Compressor General Warning
+DockComms.PrBus11_9.I0_2 - XA4047D	Air Compressor Auto Operation
+DockComms.PrBus11_9.I0_3	
+DockComms.PrBus11_9.I0_4 - ZSC4055	Jet A Valve Indicator
+DockComms.PrBus11_9.I0_5	
+DockComms.PrBus11_9.I0_6 - ZSO4043	Temp - non existant
+DockComms.PrBus11_9.I0_7 - ZSC4043	Temp - non existant
+DockComms.PrBus11_13a.I0_0 - LAL4220	F4202 Stove to Rail Rack Deaerator Low Level Alarm
+DockComms.PrBus11_13a.I0_1 - LAL4230	F4201 ULSD to Rail Rack Deaerator Low Level Alarm
+DockComms.PrBus11_13a.I0_2	
+DockComms.PrBus11_13a.I0_3	
+DockComms.PrBus11_13a.I0_4	
+DockComms.PrBus11_13a.I0_5	
+DockComms.PrBus11_13a.I0_6	
+DockComms.PrBus11_13a.I0_7	
+DockComms.PrBus11_10.I0_0 - ZL4021	Jet A De-Icer Additive Pump Running
+DockComms.PrBus11_10.I0_1 - HL4021	Jet A De-Icer Additive Pump Auto Select
+DockComms.PrBus11_10.I0_2 - ZL4022	Jet A Corrosion Inhibitor Additive Pump Running
+DockComms.PrBus11_10.I0_3 - HL4022	Jet A Corrosion Inhibitor Additive Pump Auto Select
+DockComms.PrBus11_10.I0_4 - XS4021	Jet A De-Icer Additive Pump Start Input (From Blendtech)
+DockComms.PrBus11_10.I0_5 - XS4022	Jet A Corrosion Inhibitor Additive Pump Start Input (From Blendtech)
+DockComms.PrBus11_10.I0_6 - XA4051A	Additive  Failure Meter 3
+DockComms.PrBus11_10.I0_7 - XA4051B	Additive Failure Meter 4
+DockComms.PrBus11_11.I0_0 - ZL4024	WD JetA DeWatering Drain Pump Running
+DockComms.PrBus11_11.I0_1 - HL4024	WD JetA DeWatering Drain Pump Auto Selected
+DockComms.PrBus11_11.I0_2 - LAHH4055	WD JetA Tank F4006 Level High High Alarm
+DockComms.PrBus11_11.I0_3 - LAH4055	WD JetA Tank F4006 Level High Alarm
+DockComms.PrBus11_11.I0_4 - LAL4055	WD JetA Tank F4006 Level Low Alarm
+DockComms.PrBus11_11.I0_5 - XV4055	WD JetA Position Switch - Suction from Tk F4006 to Pmp4055
+DockComms.PrBus11_11.I0_6 - ZSO4143	RSD to EastDock Meters 5&6 Open
+DockComms.PrBus11_11.I0_7 - ZSC4143	RSD to EastDock Meters 5&6 Open
+DockComms.PrBus11_12.I0_0 - ZSO4235	T3117 Stove to Rail Rack Opened
+DockComms.PrBus11_12.I0_1 - ZSC4235	T3117 Stove to Rail Rack Closed
+DockComms.PrBus11_12.I0_2 - ZSO4245	T3157 ULSD to Rail Rack Opened
+DockComms.PrBus11_12.I0_3 - ZSC4245	T3157 ULSD to Rail Rack Closed
+DockComms.PrBus11_12.I0_4 - ZSO4231	West Pit Stove to Rail Rack Opened
+DockComms.PrBus11_12.I0_5 - ZSC4231	West Pit Stove to Rail Rack Closed
+DockComms.PrBus11_12.I0_6 - ZSO4232	West Pit ULSD to Rail Rack Opened
+DockComms.PrBus11_12.I0_7 - ZSC4232	West Pit ULSD to Rail Rack Closed
+DockComms.PrBus11_14.Q0_0 - XL4051	Backup Air Solenoid at Comp. Bldg (close on lolo)
+DockComms.PrBus11_14.Q0_1 - XL4052	Backup Air Solenoid at Railcar (open PALL)
+DockComms.PrBus11_14.Q0_2 - XL4053	West Dock Air Solenoid (closes on PAL)
+DockComms.PrBus11_14.Q0_3 - CBBELL	Compressor Building Alarm Bell
+DockComms.PrBus11_14.Q0_4 - HS4023p	OGA Pump Start/Stop
+DockComms.PrBus11_14.Q0_5 - CBSTROBE	Compressor Building Strobe
+DockComms.PrBus11_14.Q0_6 - HS4021	Jet A De-Icer Additive Pump Start
+DockComms.PrBus11_14.Q0_7 - HS4022	Jet A Corrosion Inhibitor Additive Pump Start
+DockComms.PrBus11_15.Q0_0 - DO4011	RUL pressure control solenoid valve
+DockComms.PrBus11_15.Q0_1 - DO4021	SUL pressure control solenoid valve
+DockComms.PrBus11_15.Q0_2 - DO4031	Stove pressure control solenoid valve
+DockComms.PrBus11_15.Q0_3 - DO4041	RSD pressure control solenoid valve
+DockComms.PrBus11_15.Q0_4 - DO4051	Jet pressure control solenoid valve
+DockComms.PrBus11_15.Q0_5 - HS4024	WD Jet A Filter Drain Pump Start
+DockComms.PrBus11_15.Q0_6 - XVO4055	Solenoid Valve Energize
+DockComms.PrBus11_15.Q0_7	
+DockComms.PrBus11_17a.CHQ0 - PY4220	Stove to Rail Rack Pressure Control Output
+DockComms.PrBus11_17a.CHQ1 - PY4230	ULSD to Rail Rack Pressure Control Output
+DockComms.PrBus11_17a.CHQ2	
+DockComms.PrBus11_17a.CHQ3	
+DockComms.PrBus11_18a.CHI0 - PI4219	Stove to Rail Rack Pressure Upstream CV
+DockComms.PrBus11_18a.CHI1 - PI4220	Stove to Rail Rack CV Pressure
+DockComms.PrBus11_18a.CHI2 - PI4229	ULSD to Rail Rack Pressure Upstream CV
+DockComms.PrBus11_18a.CHI3 - PI4230	ULSD to Rail Rack CV Pressure
+DockComms.PrBus11_19a.CHI0 - ZY4220	Stove to Rail Rack CV Position
+DockComms.PrBus11_19a.CHI1 - ZY4230	ULSD to Rail Rack CV Position
+DockComms.PrBus11_19a.CHI2 - LI4206	F4203 Rail Rack Slop Tank High Level
+DockComms.PrBus11_19a.CHI3	
+DockComms.PrBus11_20.CHI0 - PDI4052	JetA Filter
+DockComms.PrBus11_20.CHI1	
+DockComms.PrBus11_20.CHI2	
+DockComms.PrBus11_20.CHI3	
+DockComms.PrBus11_21.CHI0 - PI4047	Plant/Instrument Air Pressure
+DockComms.PrBus11_21.CHI1 - PI4050	Jet 'A' Monitoring (Upstream)
+DockComms.PrBus11_21.CHI2 - PI4051	Jet 'A' Monitoring (Downstream)
+DockComms.PrBus11_21.CHI3 - FI4010	Jet 'A' to West Dock
+DockComms.PrBus11_22.CHQ0 - PY4011	RUL Pressure Control Output
+DockComms.PrBus11_22.CHQ1 - PY4031	Stove/Diesel Pressure Control Output
+DockComms.PrBus11_22.CHQ2 - PY4051	Jet pressure control output
+DockComms.PrBus11_22.CHQ3	
+DockComms.PrBus11_23.CHQ0 - PY4021	SUL Pressure Control Output
+DockComms.PrBus11_23.CHQ1 - PY4041	RSD Pressure Control Output
+DockComms.PrBus11_23.CHQ2	
+DockComms.PrBus11_23.CHQ3	
+DockComms.PrBus11_24.CHI0 - PI4010	RUL Line Pressure Upstream CV
+DockComms.PrBus11_24.CHI1 - PI4011	RUL CV Pressure
+DockComms.PrBus11_24.CHI2 - PI4030	Stove/Diesel Line Pressure Upstream CV
+DockComms.PrBus11_24.CHI3 - PI4031	Stove/Diesel CV Pressure
+DockComms.PrBus11_25.CHI0 - PI4020	SUL Line Pressure Upstream CV
+DockComms.PrBus11_25.CHI1 - PI4021	SUL CV Pressure
+DockComms.PrBus11_25.CHI2 - PI4040	RSD Line Pressure Upstream CV
+DockComms.PrBus11_25.CHI3 - PI4041	RSD CV Pressure
+DockComms.PrBus12_2.I0_0 - P4018I01	WD Accuload Meter #1 Stop
+DockComms.PrBus12_2.I0_1 - CA4018	WD Accuload Meter #1 Fault
+DockComms.PrBus12_2.I0_2 - P4023I01	WD Accuload Meter #2 Stop
+DockComms.PrBus12_2.I0_3 - CA4023	WD Accuload Meter #2 Fault
+DockComms.PrBus12_2.I0_4 - P4028I01	WD Accuload Meter #3 Stop
+DockComms.PrBus12_2.I0_5 - CA4028	WD Accuload Meter #3 Fault
+DockComms.PrBus12_2.I0_6 - P4033I01	WD Accuload Meter #4 Stop
+DockComms.PrBus12_2.I0_7 - CA4033	WD Accuload Meter #4 Fault
+DockComms.PrBus12_3.I0_0 - P4038I01	West Dock Meter #6 Stop (RSD)
+DockComms.PrBus12_3.I0_1 - QA4001	West Dock Fire Alarm
+DockComms.PrBus12_3.I0_2 - XA4010	West Dock Bldg. Loss of Pressure Alarm
+DockComms.PrBus12_3.I0_3 - LAH4001	West Dock Containment HI Level
+DockComms.PrBus12_3.I0_4 - EA4001A	West Dock UPS AC Fail
+DockComms.PrBus12_3.I0_5 - EA4001B	West Dock UPS Battery Low
+DockComms.PrBus12_3.I0_6 - XA4002	West Dock Emergency Shutdown
+DockComms.PrBus12_3.I0_7 - CA4038	WD Accuload Meter #6 Fault
+DockComms.PrBus12_4.I0_0 - XS4023A	Regular Additive Pump Start Input
+DockComms.PrBus12_4.I0_1 - XS4023B	SUL Additive Pump Start Input
+DockComms.PrBus12_4.I0_2 - P4013I01	Meter 5 Stop
+DockComms.PrBus12_4.I0_3 - CA4013	Meter 5 Fault
+DockComms.PrBus12_4.I0_4 - ZSO4013	Alkylate/Export Gas Valve Open
+DockComms.PrBus12_4.I0_5 - ZSC4013	Alkylate/Export Gas Valve Open
+DockComms.PrBus12_4.I0_6 - P4043I01	WD Accuload Meter #7 Stop
+DockComms.PrBus12_4.I0_7 - CA4043	WD Accuload Meter #7 Fault
+DockComms.PrBus12_5.Q0_0 - HS4018	WD Meter #1 Start Permissive
+DockComms.PrBus12_5.Q0_1 - HS4023	WD Meter #2 Start Permissive
+DockComms.PrBus12_5.Q0_2 - HS4028	WD Meter #3 Start Permissive
+DockComms.PrBus12_5.Q0_3 - HS4033	WD Meter #4 Start Permissive
+DockComms.PrBus12_5.Q0_4 - WDBELL	West Dock Alarm Bell
+DockComms.PrBus12_5.Q0_5 - WDSTROBE	West Dock Alarm Strobe
+DockComms.PrBus12_5.Q0_6 - WDCHIME	West Dock Alarm Chime
+DockComms.PrBus12_5.Q0_7 - HS4013	Meter 5 Start Permit
+DockComms.PrBus12_6.CHI0 - PI4013	West Dock Meter #5 Pressure (Jet)
+DockComms.PrBus12_6.CHI1 - PI4001	West Dock Export Gasoline Pressure
+DockComms.PrBus12_6.CHI2 - PI4002	West Dock Export Diesel Pressure
+DockComms.PrBus12_6.CHI3	
+DockComms.PrBus12_7.CHI0 - PI4018	West Dock Meter #1 Pressure (RUL)
+DockComms.PrBus12_7.CHI1 - PI4023	West Dock Meter #2 Pressure (SUL)
+DockComms.PrBus12_7.CHI2 - PI4028	West Dock Meter #3 Pressure (STOVE)
+DockComms.PrBus12_7.CHI3 - PI4033	West Dock Meter #4 Pressure (Diesel)
+DockComms.PrBus12_8.I0_0 - DI4001R	MOV 4001 Remote Selected
+DockComms.PrBus12_8.I0_1 - DI4001O	MOV 4001 Opened
+DockComms.PrBus12_8.I0_2 - DI4001C	MOV 4001 Closed
+DockComms.PrBus12_8.I0_3 - ZSC4047	Back Flush CLOSED
+DockComms.PrBus12_8.I0_4 - DI4002C	MOV 4002 Closed
+DockComms.PrBus12_8.I0_5 - DI4002O	MOV 4002 Opened
+DockComms.PrBus12_8.I0_6 - DI4002R	MOV 4002 Remote Selected
+DockComms.PrBus12_8.I0_7 - ZSO4047	Back Flush OPENED
+DockComms.PrBus12_9.I0_0 - DI4003C	MOV 4003 CLOSED
+DockComms.PrBus12_9.I0_1 - DI4003O	MOV 4003 OPEN
+DockComms.PrBus12_9.I0_2 - DI4003R	MOV 4003 Remote Selected
+DockComms.PrBus12_9.I0_3	
+DockComms.PrBus12_9.I0_4 - ZSO4044	RSD TO METER 6 OPEN
+DockComms.PrBus12_9.I0_5 - ZSC4044	RSD TO METER 6 CLOSED
+DockComms.PrBus12_9.I0_6 - ZSO4046	RSD TO METER 7 OPEN
+DockComms.PrBus12_9.I0_7 - ZSC4046	RSD TO METER 7 CLOSED
+DockComms.PrBus12_10.Q0_0 - DO4001S	MOV 4001 Stop
+DockComms.PrBus12_10.Q0_1 - DO4001C	MOV 4001 Close
+DockComms.PrBus12_10.Q0_2 - DO4001O	MOV 4001 Open
+DockComms.PrBus12_10.Q0_3 - DO4002S	MOV 4002 Stop
+DockComms.PrBus12_10.Q0_4 - DO4002C	MOV 4002 Close
+DockComms.PrBus12_10.Q0_5 - DO4002O	MOV 4002 Open
+DockComms.PrBus12_10.Q0_6 - HS4038	WD Meter #6 Start Permissive
+DockComms.PrBus12_10.Q0_7 - HS4043	WD Meter #7 Start Permissive
+DockComms.PrBus12_11.Q0_0 - DO4003S	MOV 4003 STOP
+DockComms.PrBus12_11.Q0_1 - DO4003C	MOV 4003 CLOSE
+DockComms.PrBus12_11.Q0_2 - DO4003O	MOV 4003 OPEN
+DockComms.PrBus12_11.Q0_3	
+DockComms.PrBus12_11.Q0_4	
+DockComms.PrBus12_11.Q0_5	
+DockComms.PrBus12_11.Q0_6	
+DockComms.PrBus12_11.Q0_7	
+DockComms.PrBus12_14.CHI0 - PI4038	West Dock Meter #6 Pressure (RSD)
+DockComms.PrBus12_14.CHI1 - PI4043	West Dock Meter #7 Pressure (RSD)
+DockComms.PrBus12_14.CHI2 - PI4098A	
+DockComms.PrBus12_14.CHI3	
+DockComms.PrBus10_2.I0_0 - P4153I01	ED Accuload Meter #1 Stop (SUL)
+DockComms.PrBus10_2.I0_1 - CA4153	ED Accuload Meter #1 Fault (SUL)
+DockComms.PrBus10_2.I0_2 - P4158I01	ED Accuload Meter #2 Stop (SUL)
+DockComms.PrBus10_2.I0_3 - CA4158	ED Accuload Meter #2 Fault (RUL)
+DockComms.PrBus10_2.I0_4 - P4163I01	ED Accuload Meter #3 Stop (Stove)
+DockComms.PrBus10_2.I0_5 - CA4163	ED Accuload Meter #3 Fault (Stove)
+DockComms.PrBus10_2.I0_6 - P4168I01	ED Accuload Meter #4 Stop (Diesel)
+DockComms.PrBus10_2.I0_7 - CA4168	ED Accuload Meter #4 Fault (Diesel)
+DockComms.PrBus10_3.I0_0 - XA4101	East Dock Deluge Push Button
+DockComms.PrBus10_3.I0_1 - QA4101	East Dock Fire Alarm
+DockComms.PrBus10_3.I0_2 - XA4110	East Dock Bldg. Loss of Pressure
+DockComms.PrBus10_3.I0_3 - EA4101A	East Dock UPS AC Fail
+DockComms.PrBus10_3.I0_4 - EA4101B	East Dock UPS Battery Low
+DockComms.PrBus10_3.I0_5 - XA4102	East Dock Emergency Shutdown
+DockComms.PrBus10_3.I0_6	
+DockComms.PrBus10_3.I0_7	
+DockComms.PrBus10_4.I0_0 - P4173I01	ED Accuload Meter #5 Stop (RSD)
+DockComms.PrBus10_4.I0_1 - CA4173	ED Accuload Meter #5 Fault (RSD)
+DockComms.PrBus10_4.I0_2 - P4178I01	ED Accuload Meter #6 Fault (RSD)
+DockComms.PrBus10_4.I0_3 - CA4178	ED Accuload Meter #6 Fault (RSD)
+DockComms.PrBus10_4.I0_4	
+DockComms.PrBus10_4.I0_5	
+DockComms.PrBus10_4.I0_6	
+DockComms.PrBus10_4.I0_7	
+DockComms.PrBus10_5.Q0_0 - HS4153	East Dock Meter #1 Start Permissive (SUL)
+DockComms.PrBus10_5.Q0_1 - HS4158	East Dock Meter #2 Start Permissive (RUL)
+DockComms.PrBus10_5.Q0_2 - HS4163	East Dock Meter #3 Start Permissive (Stove)
+DockComms.PrBus10_5.Q0_3 - HS4168	East Dock Meter #4 Start Permissive (Diesel)
+DockComms.PrBus10_5.Q0_4 - EDBELL	East Dock Alarm Bell
+DockComms.PrBus10_5.Q0_5 - EDSTROBE	East Dock Alarm Strobe
+DockComms.PrBus10_5.Q0_6 - EDCHIME	East Dock Alarm Chime
+DockComms.PrBus10_5.Q0_7	
+DockComms.PrBus10_6.CHI0 - PI4173	East Dock Meter #5 Pressure (RSD)
+DockComms.PrBus10_6.CHI1 - PI4178	East Dock Meter #6 Pressure (RSD)
+DockComms.PrBus10_6.CHI2	
+DockComms.PrBus10_6.CHI3	
+DockComms.PrBus10_7.CHI0 - PI4153	East Dock Meter #1 Pressure (SUL)
+DockComms.PrBus10_7.CHI1 - PI4158	East Dock Meter #2 Pressure (RUL)
+DockComms.PrBus10_7.CHI2 - PI4163	East Dock Meter #3 Pressure (Stove)
+DockComms.PrBus10_7.CHI3 - PI4168	East Dock Meter #4 Pressure (Diesel)
+DockComms.PrBus10_8.Q0_0 - HS4173	East Dock Meter #5 Start Permissive (RSD)
+DockComms.PrBus10_8.Q0_1 - HS4178	East Dock Meter #6 Start Permissive (RSD)
+DockComms.PrBus10_8.Q0_2	
+DockComms.PrBus10_8.Q0_3	
+DockComms.PrBus10_8.Q0_4	
+DockComms.PrBus10_8.Q0_5	
+DockComms.PrBus10_8.Q0_6	
+DockComms.PrBus10_8.Q0_7	
+DockComms.PrBus9_2.I0_0 - HL4203A	Rail Spur Containment Sump Pump1 Auto Selected
+DockComms.PrBus9_2.I0_1 - ZL4203A	Rail Spur Containment Sump Pump1 Running
+DockComms.PrBus9_2.I0_2 - HL4203B	Rail Spur Containment Sump Pump2 Auto Selected
+DockComms.PrBus9_2.I0_3 - ZL4203B	Rail Spur Containment Sump Pump2 Running
+DockComms.PrBus9_2.I0_4 - LAH4203	Rail Spur Containment Sump Pump Start/Stop
+DockComms.PrBus9_2.I0_5 - PAL4202	LOWER PLANT WATER SYSTEM PRESSURE
+DockComms.PrBus9_2.I0_6	
+DockComms.PrBus9_2.I0_7 - XA4204	Rail Spur First Aid Alarm
+DockComms.PrBus9_3.I0_0 - CA4201	Rail Spur Gas Detector Common Fault
+DockComms.PrBus9_3.I0_1 - XA4202	Rail Spur Gas Detector HiHi Alarm
+DockComms.PrBus9_3.I0_2 - XA4203	Rail Spur Gas Detector Hi Alarm
+DockComms.PrBus9_3.I0_3	
+DockComms.PrBus9_3.I0_4 - PAL4201A	Rail Spur West Delug Pressure Loss
+DockComms.PrBus9_3.I0_5 - PAL4201B	Rail Spur East Deluge Pressure Loss
+DockComms.PrBus9_3.I0_6 - PAL4201C	Rail Spur Deluge System Pressure Loss
+DockComms.PrBus9_3.I0_7 - ZSC4203	Rail Spur Hydrocarbon Sensing Valve Closed
+DockComms.PrBus9_4.I0_0 - ZSC4201	Rail Spur Deluge Water MOV Closed
+DockComms.PrBus9_4.I0_1 - ZSO4201	Rail Spur Deluge Water MOV Opened
+DockComms.PrBus9_4.I0_2 - ZSB4201	Rail Spur Deluge Water MOV Battery Low
+DockComms.PrBus9_4.I0_3 - ZSA4201	Rail Spur Deluge Water MOV Thermostat Trip
+DockComms.PrBus9_4.I0_4 - ZSP4201	Rail Spur Deluge Water MOV Power Present
+DockComms.PrBus9_4.I0_5	
+DockComms.PrBus9_4.I0_6	
+DockComms.PrBus9_4.I0_7	
+DockComms.PrBus9_5.I0_0 - EA4201A	Rail Spur UPS AC Fail
+DockComms.PrBus9_5.I0_1 - EA4201B	Rail Spur UPS Battery Low
+DockComms.PrBus9_5.I0_2 - CA4004	Lower Plant Genset Trouble Alarm
+DockComms.PrBus9_5.I0_3 - ZL4004	Lower Plant Genset Running
+DockComms.PrBus9_5.I0_4	
+DockComms.PrBus9_5.I0_5	
+DockComms.PrBus9_5.I0_6	
+DockComms.PrBus9_5.I0_7	
+DockComms.PrBus9_6.I0_0	
+DockComms.PrBus9_6.I0_1	
+DockComms.PrBus9_6.I0_2	
+DockComms.PrBus9_6.I0_3	
+DockComms.PrBus9_6.I0_4	
+DockComms.PrBus9_6.I0_5	
+DockComms.PrBus9_6.I0_6	
+DockComms.PrBus9_6.I0_7	
+DockComms.PrBus9_7.I0_0 - XA4200	Rail Spur Fire Alarm Panel System Trouble
+DockComms.PrBus9_7.I0_1 - QA4200	Rail Spur Fire Alarm
+DockComms.PrBus9_7.I0_2 - XL4200	Rail Spur Fire Alarm Panel Abort/Test Selected
+DockComms.PrBus9_7.I0_3 - XA4201A	SV4201A Deluge East Valve Activated
+DockComms.PrBus9_7.I0_4 - XA4201B	SV4201B Deluge West Valve Activated
+DockComms.PrBus9_7.I0_5	
+DockComms.PrBus9_7.I0_6	
+DockComms.PrBus9_7.I0_7	
+DockComms.PrBus9_7.I1_0 - QA4201	West UV/IR No. 1
+DockComms.PrBus9_7.I1_1 - QA4202	West UV/IR No. 2
+DockComms.PrBus9_7.I1_2 - QA4203	West UV/IR No. 3
+DockComms.PrBus9_7.I1_3 - QA4204	West UV/IR No. 4
+DockComms.PrBus9_7.I1_4 - QA4205	West UV/IR No. 5
+DockComms.PrBus9_7.I1_5 - QA4206	West UV/IR No. 6
+DockComms.PrBus9_7.I1_6 - QA4207	West UV/IR No. 7
+DockComms.PrBus9_7.I1_7 - QA4208	West UV/IR No. 8
+DockComms.PrBus9_8.I0_0 - QA4209	East UV/IR No. 9
+DockComms.PrBus9_8.I0_1 - QA4210	East UV/IR No. 10
+DockComms.PrBus9_8.I0_2 - QA4211	East UV/IR No. 11
+DockComms.PrBus9_8.I0_3 - QA4212	East UV/IR No. 12
+DockComms.PrBus9_8.I0_4	
+DockComms.PrBus9_8.I0_5	
+DockComms.PrBus9_8.I0_6	
+DockComms.PrBus9_8.I0_7	
+DockComms.PrBus9_8.I1_0	
+DockComms.PrBus9_8.I1_1	
+DockComms.PrBus9_8.I1_2	
+DockComms.PrBus9_8.I1_3	
+DockComms.PrBus9_8.I1_4	
+DockComms.PrBus9_8.I1_5	
+DockComms.PrBus9_8.I1_6	
+DockComms.PrBus9_8.I1_7	
+DockComms.PrBus9_9.I0_0	
+DockComms.PrBus9_9.I0_1	
+DockComms.PrBus9_9.I0_2	
+DockComms.PrBus9_9.I0_3	
+DockComms.PrBus9_9.I0_4	
+DockComms.PrBus9_9.I0_5	
+DockComms.PrBus9_9.I0_6 - XA4249	Lower Plant Warehouse Electrical Room Heat Detector
+DockComms.PrBus9_9.I0_7 - XA4250	Lubes Whse Sprinkler Water Valve Activated
+DockComms.PrBus9_9.I1_0	
+DockComms.PrBus9_9.I1_1	
+DockComms.PrBus9_9.I1_2	
+DockComms.PrBus9_9.I1_3	
+DockComms.PrBus9_9.I1_4	
+DockComms.PrBus9_9.I1_5	
+DockComms.PrBus9_9.I1_6	
+DockComms.PrBus9_9.I1_7	
+DockComms.PrBus9_10.Q0_0 - HS4203A	Rail Spur Sump Pump 1 Start
+DockComms.PrBus9_10.Q0_1 - HS4203B	Rail Spur Sump Pump 2 Start
+DockComms.PrBus9_10.Q0_2	
+DockComms.PrBus9_10.Q0_3	
+DockComms.PrBus9_10.Q0_4 - XS4201S	Rail Spur Fire Alarm Panel Remote Silence
+DockComms.PrBus9_10.Q0_5 - XS4201R	Rail Spur Fire Alarm Panel Remote Reset
+DockComms.PrBus9_10.Q0_6 - HS4201A	West Deluge SV Remote Activation
+DockComms.PrBus9_10.Q0_7 - HS4201B	East Deluge SV Remote Activation
+DockComms.PrBus9_11.Q0_0	
+DockComms.PrBus9_11.Q0_1	
+DockComms.PrBus9_11.Q0_2	
+DockComms.PrBus9_11.Q0_3	
+DockComms.PrBus9_11.Q0_4	
+DockComms.PrBus9_11.Q0_5	
+DockComms.PrBus9_11.Q0_6	
+DockComms.PrBus9_11.Q0_7	
+DockComms.PrBus15_2.I0_0 - ZSO4252	Rail Rack Stove South #1 MOV Opened
+DockComms.PrBus15_2.I0_1 - ZSC4252	Rail Rack Stove South #1 MOV Closed
+DockComms.PrBus15_2.I0_2 - ZSO4262	Rail Rack ULSD South #1 MOV Opened
+DockComms.PrBus15_2.I0_3 - ZSC4262	Rail Rack ULSD South #1 MOV Closed
+DockComms.PrBus15_2.I0_4 - ZSO4254	Rail Rack Stove South #2 MOV Opened
+DockComms.PrBus15_2.I0_5 - ZSC4254	Rail Rack Stove South #2 MOV Closed
+DockComms.PrBus15_2.I0_6 - ZSO4264	Rail Rack ULSD South #2 MOV Opened
+DockComms.PrBus15_2.I0_7 - ZSC4264	Rail Rack ULSD South #2 MOV Closed
+DockComms.PrBus15_3.I0_0 - ZSO4256	Rail Rack Stove South #3 MOV Opened
+DockComms.PrBus15_3.I0_1 - ZSC4256	Rail Rack Stove South #3 MOV Closed
+DockComms.PrBus15_3.I0_2 - ZSO4266	Rail Rack ULSD South #3 MOV Opened
+DockComms.PrBus15_3.I0_3 - ZSC4266	Rail Rack ULSD South #3 MOV Closed
+DockComms.PrBus15_3.I0_4 - ZSO4258	Rail Rack Stove South #4 MOV Opened
+DockComms.PrBus15_3.I0_5 - ZSC4258	Rail Rack Stove South #4 MOV Closed
+DockComms.PrBus15_3.I0_6 - ZSO4268	Rail Rack ULSD South #4 MOV Opened
+DockComms.PrBus15_3.I0_7 - ZSC4268	Rail Rack ULSD South #4 MOV Closed
+DockComms.PrBus15_4.I0_0 - P4252I01	South Rail Accuload Meter #1 Stop
+DockComms.PrBus15_4.I0_1 - CA4252	South Rail Accuload Meter #1 Fault
+DockComms.PrBus15_4.I0_2 - P4254I01	South Rail Accuload Meter #2 Stop
+DockComms.PrBus15_4.I0_3 - CA4254	South Rail Accuload Meter #2 Fault
+DockComms.PrBus15_4.I0_4 - P4256I01	South Rail Accuload Meter #3 Stop
+DockComms.PrBus15_4.I0_5 - CA4256	South Rail Accuload Meter #3 Fault
+DockComms.PrBus15_4.I0_6 - P4258I01	South Rail Accuload Meter #4 Stop
+DockComms.PrBus15_4.I0_7 - CA4258	South Rail Accuload Meter #4 Fault
+DockComms.PrBus15_5.I0_0 - XA4224	South Rail #1 Tank Car Grounding
+DockComms.PrBus15_5.I0_1 - XA4232	South Rail #1 Tank Car Level High
+DockComms.PrBus15_5.I0_2 - XA4225	South Rail #2 Tank Car Grounding
+DockComms.PrBus15_5.I0_3 - XA4233	South Rail #2 Tank Car Level High
+DockComms.PrBus15_5.I0_4 - XA4226	South Rail #3 Tank Car Grounding
+DockComms.PrBus15_5.I0_5 - XA4234	South Rail #3 Tank Car Level High
+DockComms.PrBus15_5.I0_6 - XA4227	South Rail #4 Tank Car Grounding
+DockComms.PrBus15_5.I0_7 - XA4235	South Rail #4 Tank Car Level High
+DockComms.PrBus15_6.I0_0 - XA4221	Rail Car Emergency Shutdown
+DockComms.PrBus15_6.I0_1 - EA4222A	Rail Rack UPS AC Fail
+DockComms.PrBus15_6.I0_2 - EA4222B	Rail Rack UPS Battery Low
+DockComms.PrBus15_6.I0_3	
+DockComms.PrBus15_6.I0_4	
+DockComms.PrBus15_6.I0_5	
+DockComms.PrBus15_6.I0_6	
+DockComms.PrBus15_6.I0_7	
+DockComms.PrBus15_7.I0_0 - HL4252	Rail Rack Stove South #1 MOV Request
+DockComms.PrBus15_7.I0_1 - HL4262	Rail Rack ULSD South #1 MOV Request
+DockComms.PrBus15_7.I0_2 - HL4254	Rail Rack Stove South #2 MOV Request
+DockComms.PrBus15_7.I0_3 - HL4264	Rail Rack ULSD South #2 MOV Request
+DockComms.PrBus15_7.I0_4 - HL4256	Rail Rack Stove South #3 MOV Request
+DockComms.PrBus15_7.I0_5 - HL4266	Rail Rack ULSD South #3 MOV Request
+DockComms.PrBus15_7.I0_6 - HL4258	Rail Rack Stove South #4 MOV Request
+DockComms.PrBus15_7.I0_7 - HL4268	Rail Rack ULSD South #4 MOV Request
+DockComms.PrBus15_8.I0_0	
+DockComms.PrBus15_8.I0_1	
+DockComms.PrBus15_8.I0_2	
+DockComms.PrBus15_8.I0_3	
+DockComms.PrBus15_8.I0_4	
+DockComms.PrBus15_8.I0_5	
+DockComms.PrBus15_8.I0_6	
+DockComms.PrBus15_8.I0_7	
+DockComms.PrBus15_9.I0_0	
+DockComms.PrBus15_9.I0_1	
+DockComms.PrBus15_9.I0_2	
+DockComms.PrBus15_9.I0_3	
+DockComms.PrBus15_9.I0_4	
+DockComms.PrBus15_9.I0_5	
+DockComms.PrBus15_9.I0_6	
+DockComms.PrBus15_9.I0_7	
+DockComms.PrBus15_10.Q0_0 - XY4252	Rail Rack Stove South #1 MOV Open
+DockComms.PrBus15_10.Q0_1 - XY4262	Rail Rack ULSD South #1 MOV Open
+DockComms.PrBus15_10.Q0_2 - XY4254	Rail Rack Stove South #2 MOV Open
+DockComms.PrBus15_10.Q0_3 - XY4264	Rail Rack ULSD South #2 MOV Open
+DockComms.PrBus15_10.Q0_4 - XY4256	Rail Rack Stove South #3 MOV Open
+DockComms.PrBus15_10.Q0_5 - XY4266	Rail Rack ULSD South #3 MOV Open
+DockComms.PrBus15_10.Q0_6 - XY4258	Rail Rack Stove South #4 MOV Open
+DockComms.PrBus15_10.Q0_7 - XY4268	Rail Rack ULSD South #4 MOV Open
+DockComms.PrBus15_11.Q0_0 - HS4252	South Rail Accuload Meter #1 Start Permissive
+DockComms.PrBus15_11.Q0_1 - HS4254	South Rail Accuload Meter #2 Start Permissive
+DockComms.PrBus15_11.Q0_2 - HS4256	South Rail Accuload Meter #3 Start Permissive
+DockComms.PrBus15_11.Q0_3 - HS4258	South Rail Accuload Meter #4 Start Permissive
+DockComms.PrBus15_11.Q0_4	
+DockComms.PrBus15_11.Q0_5	
+DockComms.PrBus15_11.Q0_6	
+DockComms.PrBus15_11.Q0_7	
+DockComms.PrBus15_12.Q0_0	
+DockComms.PrBus15_12.Q0_1	
+DockComms.PrBus15_12.Q0_2	
+DockComms.PrBus15_12.Q0_3	
+DockComms.PrBus15_12.Q0_4	
+DockComms.PrBus15_12.Q0_5	
+DockComms.PrBus15_12.Q0_6	
+DockComms.PrBus15_12.Q0_7	
+DockComms.PrBus15_13.Q0_0	
+DockComms.PrBus15_13.Q0_1	
+DockComms.PrBus15_13.Q0_2	
+DockComms.PrBus15_13.Q0_3	
+DockComms.PrBus15_13.Q0_4	
+DockComms.PrBus15_13.Q0_5	
+DockComms.PrBus15_13.Q0_6	
+DockComms.PrBus15_13.Q0_7	
+DockComms.PrBus15_14.I0_0 - ZSO4251	Rail Rack Stove North #1 MOV Opened
+DockComms.PrBus15_14.I0_1 - ZSC4251	Rail Rack Stove North #1 MOV Closed
+DockComms.PrBus15_14.I0_2 - ZSO4261	Rail Rack ULSD North #1 MOV Opened
+DockComms.PrBus15_14.I0_3 - ZSC4261	Rail Rack ULSD North #1 MOV Closed
+DockComms.PrBus15_14.I0_4 - ZSO4253	Rail Rack Stove North #2 MOV Opened
+DockComms.PrBus15_14.I0_5 - ZSC4253	Rail Rack Stove North #2 MOV Closed
+DockComms.PrBus15_14.I0_6 - ZSO4263	Rail Rack ULSD North #2 MOV Opened
+DockComms.PrBus15_14.I0_7 - ZSC4263	Rail Rack ULSD North #2 MOV Closed
+DockComms.PrBus15_15.I0_0 - ZSO4255	Rail Rack Stove North #3 MOV Opened
+DockComms.PrBus15_15.I0_1 - ZSC4255	Rail Rack Stove North #3 MOV Closed
+DockComms.PrBus15_15.I0_2 - ZSO4265	Rail Rack ULSD North #3 MOV Opened
+DockComms.PrBus15_15.I0_3 - ZSC4265	Rail Rack ULSD North #3 MOV Closed
+DockComms.PrBus15_15.I0_4 - ZSO4257	Rail Rack Stove North #4 MOV Opened
+DockComms.PrBus15_15.I0_5 - ZSC4257	Rail Rack Stove North #4 MOV Closed
+DockComms.PrBus15_15.I0_6 - ZSO4267	Rail Rack ULSD North #4 MOV Opened
+DockComms.PrBus15_15.I0_7 - ZSC4267	Rail Rack ULSD North #4 MOV Closed
+DockComms.PrBus15_16.I0_0 - P4251I01	North Rail Accuload Meter #1 Stop
+DockComms.PrBus15_16.I0_1 - CA4251	North Rail Accuload Meter #1 Fault
+DockComms.PrBus15_16.I0_2 - P4253I01	North Rail Accuload Meter #2 Stop
+DockComms.PrBus15_16.I0_3 - CA4253	North Rail Accuload Meter #2 Fault
+DockComms.PrBus15_16.I0_4 - P4255I01	North Rail Accuload Meter #3 Stop
+DockComms.PrBus15_16.I0_5 - CA4255	North Rail Accuload Meter #3 Fault
+DockComms.PrBus15_16.I0_6 - P4257I01	North Rail Accuload Meter #4 Stop
+DockComms.PrBus15_16.I0_7 - CA4257	North Rail Accuload Meter #4 Fault
+DockComms.PrBus15_17.I0_0 - XA4228	North Rail #1 Tank Car Grounding
+DockComms.PrBus15_17.I0_1 - XA4236	North Rail #1 Tank Car Level High
+DockComms.PrBus15_17.I0_2 - XA4229	North Rail #2 Tank Car Grounding
+DockComms.PrBus15_17.I0_3 - XA4237	North Rail #2 Tank Car Level High
+DockComms.PrBus15_17.I0_4 - XA4230	North Rail #3 Tank Car Grounding
+DockComms.PrBus15_17.I0_5 - XA4238	North Rail #3 Tank Car Level High
+DockComms.PrBus15_17.I0_6 - XA4231	North Rail #4 Tank Car Grounding
+DockComms.PrBus15_17.I0_7 - XA4239	North Rail #4 Tank Car Level High
+DockComms.PrBus15_18.I0_0 - HL4251	Rail Rack Stove North #1 MOV Request
+DockComms.PrBus15_18.I0_1 - HL4261	Rail Rack ULSD North #1 MOV Request
+DockComms.PrBus15_18.I0_2 - HL4253	Rail Rack Stove North #2 MOV Request
+DockComms.PrBus15_18.I0_3 - HL4263	Rail Rack ULSD North #2 MOV Request
+DockComms.PrBus15_18.I0_4 - HL4255	Rail Rack Stove North #3 MOV Request
+DockComms.PrBus15_18.I0_5 - HL4265	Rail Rack ULSD North #3 MOV Request
+DockComms.PrBus15_18.I0_6 - HL4257	Rail Rack Stove North #4 MOV Request
+DockComms.PrBus15_18.I0_7 - HL4267	Rail Rack ULSD North #4 MOV Request
+DockComms.PrBus15_19.I0_0	
+DockComms.PrBus15_19.I0_1	
+DockComms.PrBus15_19.I0_2	
+DockComms.PrBus15_19.I0_3	
+DockComms.PrBus15_19.I0_4	
+DockComms.PrBus15_19.I0_5	
+DockComms.PrBus15_19.I0_6	
+DockComms.PrBus15_19.I0_7	
+DockComms.PrBus15_20.I0_0	
+DockComms.PrBus15_20.I0_1	
+DockComms.PrBus15_20.I0_2	
+DockComms.PrBus15_20.I0_3	
+DockComms.PrBus15_20.I0_4	
+DockComms.PrBus15_20.I0_5	
+DockComms.PrBus15_20.I0_6	
+DockComms.PrBus15_20.I0_7	
+DockComms.PrBus15_21.Q0_0 - XV4251	Rail Rack Stove North #1 MOV Open
+DockComms.PrBus15_21.Q0_1 - XV4261	Rail Rack ULSD North #1 MOV Open
+DockComms.PrBus15_21.Q0_2 - XV4253	Rail Rack Stove North #2 MOV Open
+DockComms.PrBus15_21.Q0_3 - XV4263	Rail Rack ULSD North #2 MOV Open
+DockComms.PrBus15_21.Q0_4 - XV4255	Rail Rack Stove North #3 MOV Open
+DockComms.PrBus15_21.Q0_5 - XV4265	Rail Rack ULSD North #3 MOV Open
+DockComms.PrBus15_21.Q0_6 - XV4257	Rail Rack Stove North #4 MOV Open
+DockComms.PrBus15_21.Q0_7 - XV4267	Rail Rack ULSD North #4 MOV Open
+DockComms.PrBus15_22.Q0_0 - HS4251	North Rail Accuload Meter #1 Start Permissive
+DockComms.PrBus15_22.Q0_1 - HS4253	North Rail Accuload Meter #2 Start Permissive
+DockComms.PrBus15_22.Q0_2 - HS4255	North Rail Accuload Meter #3 Start Permissive
+DockComms.PrBus15_22.Q0_3 - HS4257	North Rail Accuload Meter #4 Start Permissive
+DockComms.PrBus15_22.Q0_4	
+DockComms.PrBus15_22.Q0_5	
+DockComms.PrBus15_22.Q0_6	
+DockComms.PrBus15_22.Q0_7	
+DockComms.PrBus15_23.Q0_0	
+DockComms.PrBus15_23.Q0_1	
+DockComms.PrBus15_23.Q0_2	
+DockComms.PrBus15_23.Q0_3	
+DockComms.PrBus15_23.Q0_4	
+DockComms.PrBus15_23.Q0_5	
+DockComms.PrBus15_23.Q0_6	
+DockComms.PrBus15_23.Q0_7	
+DockComms.PrBus15_24.Q0_0	
+DockComms.PrBus15_24.Q0_1	
+DockComms.PrBus15_24.Q0_2	
+DockComms.PrBus15_24.Q0_3	
+DockComms.PrBus15_24.Q0_4	
+DockComms.PrBus15_24.Q0_5	
+DockComms.PrBus15_24.Q0_6	
+DockComms.PrBus15_24.Q0_7	
+DockComms.PrBus11_13.I0_0 - LAL4220	F4202 Stove to Rail Rack Deaerator Low Level Alarm
+DockComms.PrBus11_13.I0_1 - LAL4230	F4201 ULSD to Rail Rack Deaerator Low Level Alarm
+DockComms.PrBus11_13.I0_2	
+DockComms.PrBus11_13.I0_3	
+DockComms.PrBus11_13.I0_4	
+DockComms.PrBus11_13.I0_5	
+DockComms.PrBus11_13.I0_6	
+DockComms.PrBus11_13.I0_7	
+DockComms.PrBus11_17.CHQ0 - PY4220	Stove to Rail Rack Pressure Control Output
+DockComms.PrBus11_17.CHQ1 - PY4230	ULSD to Rail Rack Pressure Control Output
+DockComms.PrBus11_17.CHQ2	
+DockComms.PrBus11_17.CHQ3	
+DockComms.PrBus11_18.CHI0 - PI4219	Stove to Rail Rack Pressure Upstream CV
+DockComms.PrBus11_18.CHI1 - PI4220	Stove to Rail Rack CV Pressure
+DockComms.PrBus11_18.CHI2 - PI4229	ULSD to Rail Rack Pressure Upstream CV
+DockComms.PrBus11_18.CHI3 - PI4230	ULSD to Rail Rack CV Pressure
+DockComms.PrBus11_19.CHI0 - ZY4220	Stove to Rail Rack CV Position
+DockComms.PrBus11_19.CHI1 - ZY4230	ULSD to Rail Rack CV Position
+DockComms.PrBus11_19.CHI2 - LI4206	F4203 Rail Rack Slop Tank High Level
+DockComms.PrBus11_19.CHI3	
+DockComms.PrBus11_16.Q0_0	
+DockComms.PrBus11_16.Q0_1	
+DockComms.PrBus11_16.Q0_2	
+DockComms.PrBus11_16.Q0_3	
+DockComms.PrBus11_16.Q0_4	
+DockComms.PrBus11_16.Q0_5	
+DockComms.PrBus11_16.Q0_6	
+DockComms.PrBus11_16.Q0_7	
+DockComms.PrBus11_16.Q0_0 - DO4220	Stove-to-Rail CV emergency close solenoid
+DockComms.PrBus11_16.Q0_1 - DO4230	ULSD-to-Rail CV emergency close solenoid
+DockComms.PrBus15_10.Q0_0 - XV4252	Rail Rack Stove South #1 MOV Open
+DockComms.PrBus15_10.Q0_1 - XV4262	Rail Rack ULSD South #1 MOV Open
+DockComms.PrBus15_10.Q0_2 - XV4254	Rail Rack Stove South #3 MOV Open
+DockComms.PrBus15_10.Q0_3 - XV4264	Rail Rack ULSD South #3 MOV Open
+DockComms.PrBus15_10.Q0_4 - XV4256	Rail Rack Stove South #4 MOV Open
+DockComms.PrBus15_10.Q0_5 - XV4266	Rail Rack ULSD South #4 MOV Open
+DockComms.PrBus15_10.Q0_6 - XV4258	Rail Rack Stove South #5 MOV Open
+DockComms.PrBus15_10.Q0_7 - XV4268	Rail Rack ULSD South #5 MOV Open
+DockComms.RailCounter.Q0_0	
+DockComms.RailCounter.Q0_1	
+DockComms.RailCounter.Q0_2	
+DockComms.RailCounter.Q0_3	
+DockComms.RailCounter.I0_0	
+DockComms.RailCounter.I0_1	
+DockComms.RailCounter.I0_2	
+DockComms.RailCounter.I0_3	
+DockComms.RailCounter.I0_4	
+DockComms.RailCounter.I0_5	
+DockComms.RailCounter.I0_6	
+DockComms.RailCounter.I0_7	
+DockComms.RailCounterMode0.InputChannel1 - FQ4252	South Rail Meter #1 Pulse Counter
+DockComms.RailCounterMode0.InputChannel2 - FQ4254	South Rail Meter #3 Pulse Counter
+DockComms.RailCounterMode0.InputChannel3 - FQ4256	South Rail Meter #4 Pulse Counter
+DockComms.RailCounterMode0.InputChannel4 - FQ4258	South Rail Meter #5 Pulse Counter
+DockComms.RailCounterMode0.InputChannel5 - FQ4251	North Rail Meter #1 Pulse Counter
+DockComms.RailCounterMode0.InputChannel6 - FQ4253	North Rail Meter #3 Pulse Counter
+DockComms.RailCounterMode0.InputChannel7 - FQ4255	North Rail Meter #4 Pulse Counter
+DockComms.RailCounterMode0.InputChannel8 - FQ4257	North Rail Meter #5 Pulse Counter
+DockComms.RailCounterMode0.ResetChannel1 - FQ4252reset	South Rail Meter #1 Counter Reset
+DockComms.RailCounterMode0.ResetChannel2 - FQ4254reset	South Rail Meter #3 Counter Reset
+DockComms.RailCounterMode0.ResetChannel3 - FQ4256reset	South Rail Meter #4 Counter Reset
+DockComms.RailCounterMode0.ResetChannel4 - FQ4258reset	South Rail Meter #5 Counter Reset
+DockComms.RailCounterMode0.ResetChannel5 - FQ4251reset	North Rail Meter #1 Counter Reset
+DockComms.RailCounterMode0.ResetChannel6 - FQ4253reset	North Rail Meter #3 Counter Reset
+DockComms.RailCounterMode0.ResetChannel7 - FQ4255reset	North Rail Meter #4 Counter Reset
+DockComms.RailCounterMode0.ResetChannel8 - FQ4257reset	North Rail Meter #5 Counter Reset
+DockComms.PrBus15_6.I0_3 - XA4223	Rail Rack Building Loss of Pressure
+DockComms.PrBus9_3.I0_0	
+DockComms.PrBus9_3.I0_1	
+DockComms.PrBus9_3.I0_2	
+DockComms.PrBus9_2.I0_6 - QA4217	Lower Plant Warehouse Fire Alarm
+Communications.PrBus3_3.I0_6 - XA3007	Dispatch Office Fire Alarm Panel System Trouble
+Communications.PrBus3_3.I0_7 - QA3021	Dispatch Office Fire Alarm
+DockComms.PrBus11_9.I0_3 - XA4004	Compressor bldg fire alarm panel system trouble
+DockComms.PrBus9_3.I0_3 - XA4205	LT Warehouse Fire Alarm Panel System Trouble
+DockComms.PrBus9_9.I0_6	
+DockComms.PrBus9_9.I0_7	
+Communications.PrBus17_2.I0_0 - ZL3009	J-3009 BioDiesel Off-Loading Running
+Communications.PrBus17_2.I0_1 - XA3009	BioDiesel Unloading Scully Ground Ok
+Communications.PrBus17_2.I0_2 - ZL3010	J-3010 BioDiesel Transfer Running
+Communications.PrBus17_2.I0_3 - HL3010	J-3010 BioDiesel Transfer Auto
+Communications.PrBus17_2.I0_4 - ZSC3080	HV3080 Closed
+Communications.PrBus17_2.I0_5 - ZSO3080	HV3080 Opened
+Communications.PrBus17_2.I0_6 - ZSC3082	XV3082 Tank 3296 Shutoff Closed
+Communications.PrBus17_2.I0_7 - ZSO3082	XV3082 Tank 3296 Shutoff Opened
+Communications.PrBus17_3.I0_0 - LSL3083	Tank 3296 Low Level Switch
+Communications.PrBus17_3.I0_1 - LSH3083	Tank 3296 High Level Switch
+Communications.PrBus17_3.I0_2 - LSHH3083	Tank 3296 HiHi Level Switch
+Communications.PrBus17_3.I0_3 - CA3009	BioDiesel Emergency Stop Alarm
+Communications.PrBus17_3.I0_4	
+Communications.PrBus17_3.I0_5	
+Communications.PrBus17_3.I0_6	
+Communications.PrBus17_3.I0_7	
+Communications.PrBus17_4.I0_0	
+Communications.PrBus17_4.I0_1	
+Communications.PrBus17_4.I0_2	
+Communications.PrBus17_4.I0_3	
+Communications.PrBus17_4.I0_4	
+Communications.PrBus17_4.I0_5	
+Communications.PrBus17_4.I0_6	
+Communications.PrBus17_4.I0_7	
+Communications.PrBus17_5.I0_0	
+Communications.PrBus17_5.I0_1	
+Communications.PrBus17_5.I0_2	
+Communications.PrBus17_5.I0_3	
+Communications.PrBus17_5.I0_4	
+Communications.PrBus17_5.I0_5	
+Communications.PrBus17_5.I0_6	
+Communications.PrBus17_5.I0_7	
+Communications.PrBus17_6.I0_0	
+Communications.PrBus17_6.I0_1	
+Communications.PrBus17_6.I0_2	
+Communications.PrBus17_6.I0_3	
+Communications.PrBus17_6.I0_4	
+Communications.PrBus17_6.I0_5	
+Communications.PrBus17_6.I0_6	
+Communications.PrBus17_6.I0_7	
+Communications.PrBus17_7.Q0_0 - HS3009	BioDiesel Emergency Stop Relay
+Communications.PrBus17_7.Q0_1 - HS3010	J-3010 BioDiesel Transfer Start
+Communications.PrBus17_7.Q0_2 - HS3009R	J-3009 Not Permitted to Unload Lamp
+Communications.PrBus17_7.Q0_3 - HS3009G	J-3009 Permitted to Unload Lamp
+Communications.PrBus17_7.Q0_4 - HS3084A	Tank 3296 Zone 1 Steam Valve Shutoff Solenoid
+Communications.PrBus17_7.Q0_5 - HS3084B	Tank 3296 Zone 2 Steam Valve Shutoff Solenoid
+Communications.PrBus17_7.Q0_6 - HS3082	XV3082 Tank 3296 Shutoff Open
+Communications.PrBus17_7.Q0_7	
+Communications.PrBus17_8.Q0_0	
+Communications.PrBus17_8.Q0_1	
+Communications.PrBus17_8.Q0_2	
+Communications.PrBus17_8.Q0_3	
+Communications.PrBus17_8.Q0_4	
+Communications.PrBus17_8.Q0_5	
+Communications.PrBus17_8.Q0_6	
+Communications.PrBus17_8.Q0_7	
+Communications.PrBus17_9.Q0_0	
+Communications.PrBus17_9.Q0_1	
+Communications.PrBus17_9.Q0_2	
+Communications.PrBus17_9.Q0_3	
+Communications.PrBus17_9.Q0_4	
+Communications.PrBus17_9.Q0_5	
+Communications.PrBus17_9.Q0_6	
+Communications.PrBus17_9.Q0_7	
+Communications.PrBus17_10.CHQ0 - LI3087B	Tank 3296 Remaining Capacity
+Communications.PrBus17_10.CHQ1	
+Communications.PrBus17_10.CHQ2	
+Communications.PrBus17_10.CHQ3	
+Communications.PrBus17_11.CHI0 - AI3080_IN	BioDiesel Unloading Sump HC Detector
+Communications.PrBus17_11.CHI1 - PI3080_IN	J-3009 Suction Pressure
+Communications.PrBus17_11.CHI2 - FI3081_IN	B100 to Tank 3296 Flow
+Communications.PrBus17_11.CHI3 - TI3081_IN	B100 to Tank 3296 Temperature
+Communications.PrBus17_12.CHI0 - PI3086_IN	B100 to Upper Terminal Pressure
+Communications.PrBus17_12.CHI1 - PDI3088_IN	BioDiesel Filter L-3009 Differential Pressure
+Communications.PrBus17_12.CHI2	
+Communications.PrBus17_12.CHI3	
+Communications.PrBus17_13.CHI0 - TI3084A_IN	Tank 3296 Zone 1 Temperature
+Communications.PrBus17_13.CHI1 - TI3084B_IN	Tank 3296 Zone 2 Temperature
+Communications.PrBus17_13.CHI2 - FI3085_IN	Padding Air to Tank 3296 Flow
+Communications.PrBus17_13.CHI3	
+Communications.PrBus5_2.I0_5 - P3001I02	Accuload Eth Start Request
+Communications.PrBus5_2.I0_6 - P3002I02	Accuload Rul Start Request
+Communications.PrBus18_2.I0_0 - ZSC3021	MOV3021 Closed
+Communications.PrBus18_2.I0_1 - ZSO3021	MOV3021 Opened
+Communications.PrBus18_2.I0_2 - ZSB3021	MOV3021 Battery Low
+Communications.PrBus18_2.I0_3 - ZSA3021	MOV3021 Alarm
+Communications.PrBus18_2.I0_4 - ZSR3021	MOV3021 Remote
+Communications.PrBus18_2.I0_5 - ZSC3022	MOV3022 Closed
+Communications.PrBus18_2.I0_6 - ZSO3022	MOV3022 Opened
+Communications.PrBus18_2.I0_7 - ZSB3022	MOV3022 Battery Low
+Communications.PrBus18_2.I1_0 - ZSA3022	MOV3022 Alarm
+Communications.PrBus18_2.I1_1 - ZSR3022	MOV3022 Remote
+Communications.PrBus18_2.I1_2 - ZSC3023	MOV3023 Closed
+Communications.PrBus18_2.I1_3 - ZSO3023	MOV3023 Opened
+Communications.PrBus18_2.I1_4 - ZSB3023	MOV3023 Battery Low
+Communications.PrBus18_2.I1_5 - ZSA3023	MOV3023 Alarm
+Communications.PrBus18_2.I1_6 - ZSR3023	MOV3023 Remote
+Communications.PrBus18_2.I1_7	
+Communications.PrBus18_3.I0_0	
+Communications.PrBus18_3.I0_1	
+Communications.PrBus18_3.I0_2	
+Communications.PrBus18_3.I0_3	
+Communications.PrBus18_3.I0_4	
+Communications.PrBus18_3.I0_5	
+Communications.PrBus18_3.I0_6	
+Communications.PrBus18_3.I0_7	
+Communications.PrBus18_4.I0_0	
+Communications.PrBus18_4.I0_1	
+Communications.PrBus18_4.I0_2	
+Communications.PrBus18_4.I0_3	
+Communications.PrBus18_4.I0_4	
+Communications.PrBus18_4.I0_5	
+Communications.PrBus18_4.I0_6	
+Communications.PrBus18_4.I0_7	
+Communications.PrBus18_5.Q0_0 - DO3021S	MOV3021 Stop Output
+Communications.PrBus18_5.Q0_1 - DO3021C	MOV3021 Close Output
+Communications.PrBus18_5.Q0_2 - DO3021O	MOV3021Open Output
+Communications.PrBus18_5.Q0_3 - DO3022S	MOV3022 Stop Output
+Communications.PrBus18_5.Q0_4 - DO3022C	MOV3022 Close Output
+Communications.PrBus18_5.Q0_5 - DO3022O	MOV3022 Open Output
+Communications.PrBus18_5.Q0_6 - DO3023S	MOV3023 Stop Output
+Communications.PrBus18_5.Q0_7 - DO3023C	MOV3023 Close Output
+Communications.PrBus18_6.Q0_0 - DO3023O	MOV3023 Open Output
+Communications.PrBus18_6.Q0_1	
+Communications.PrBus18_6.Q0_2	
+Communications.PrBus18_6.Q0_3	
+Communications.PrBus18_6.Q0_4	
+Communications.PrBus18_6.Q0_5	
+Communications.PrBus18_6.Q0_6	
+Communications.PrBus18_6.Q0_7	
+Communications.PrBus18_7.CHI0 - AI3006A_IN	Truck Rack Sump Ethanol Detector
+Communications.PrBus18_7.CHI1 - AI3006B_IN	Truck Rack Sump Hydrocarbon Detector
+Communications.PrBus18_7.CHI2	
+Communications.PrBus18_7.CHI3	
+DockComms.PrBus11_6.I0_3	
+DockComms.PrBus11_13.I0_2 - ZL4201	J-4301 Ethanol Offloading Pump Running
+DockComms.PrBus11_13.I0_3 - ZL4204	J-4204 Ethanol Offloading Pump Running
+DockComms.PrBus11_13.I0_4 - PAL4287	J-4201/4 Ethanol Offloading Pressure Switch
+DockComms.PrBus11_13.I0_5 - FAL4287A	J-4201 Ethanol Offloading Flow Switch
+DockComms.PrBus11_13.I0_6 - FAL4287B	J-4204 Ethanol Offloading Flow Switch
+DockComms.PrBus11_16.Q0_2 - HS4201	J-4201 Ethanol Offloading Pump Permissive
+DockComms.PrBus11_16.Q0_3 - HS4204	J-4204 Ethanol Offloading Pump Permissive
+DockComms.PrBus11_19.CHI3 - PI4287	Ethanol to Tank 2197 Pressure
+DockComms.PrBus9_11a.CHI0 - AI4204A	Rail Rack Ethanol Gas Detector #1
+DockComms.PrBus9_11a.CHI1 - AI4204B	Rail Rack Ethanol Gas Detector #2
+DockComms.PrBus9_11a.CHI2 - AI4204C	Rail Rack Ethanol Gas Detector #3
+DockComms.PrBus9_11a.CHI3 - AI4204D	Rail Rack Ethanol Gas Detector #4
+DockComms.PrBus9_12a.CHI0 - AI4204E	Rail Rack Ethanol Gas Detector #5
+DockComms.PrBus9_12a.CHI1 - AI4204F	Rail Rack Ethanol Gas Detector #6
+DockComms.PrBus9_12a.CHI2 - AI4207A	Rail Rack Hydrocarbon Gas Detector #1
+DockComms.PrBus9_12a.CHI3 - AI4207B	Rail Rack Hydrocarbon Gas Detector #2
+DockComms.PrBus9_13a.CHI0 - AI4207C	Rail Rack Hydrocarbon Gas Detector #3
+DockComms.PrBus9_13a.CHI1 - AI4207D	Rail Rack Hydrocarbon Gas Detector #4
+DockComms.PrBus9_13a.CHI2 - AI4207E	Rail Rack Hydrocarbon Gas Detector #5
+DockComms.PrBus9_13a.CHI3	
+DockComms.PrBus9_11.CHI0 - AI4204A	Rail Rack Ethanol Gas Detector #1
+DockComms.PrBus9_11.CHI1 - AI4204B	Rail Rack Ethanol Gas Detector #2
+DockComms.PrBus9_11.CHI2 - AI4204C	Rail Rack Ethanol Gas Detector #3
+DockComms.PrBus9_11.CHI3 - AI4204D	Rail Rack Ethanol Gas Detector #4
+DockComms.PrBus9_12.CHI0 - AI4204E	Rail Rack Ethanol Gas Detector #5
+DockComms.PrBus9_12.CHI1 - AI4204F	Rail Rack Ethanol Gas Detector #6
+DockComms.PrBus9_12.CHI2 - AI4207A	Rail Rack Hydrocarbon Gas Detector #1
+DockComms.PrBus9_12.CHI3 - AI4207B	Rail Rack Hydrocarbon Gas Detector #2
+DockComms.PrBus9_13.CHI0 - AI4207C	Rail Rack Hydrocarbon Gas Detector #3
+DockComms.PrBus9_13.CHI1 - AI4207D	Rail Rack Hydrocarbon Gas Detector #4
+DockComms.PrBus9_13.CHI2 - AI4207E	Rail Rack Hydrocarbon Gas Detector #5
+DockComms.PrBus9_13.CHI3	
+Communications.PrBus17_13.CHI2 - FI3085_DP	Padding Air to Tank 3296 Flow -- Diff. pressure
+DockComms.PrBus11_13.I0_4 - PSL4287	J-4201/4 Ethanol Offloading Pressure Switch
+DockComms.PrBus11_13.I0_5 - FSL4287A	J-4201 Ethanol Offloading Flow Switch
+DockComms.PrBus11_13.I0_6 - FSL4287B	J-4204 Ethanol Offloading Flow Switch
+DockComms.PrBus11_19.CHI3 - PI4287_IN	Ethanol to Tank 2197 Pressure
+DockComms.PrBus9_11.CHI0 - AI4204A_IN	Rail Rack Ethanol Gas Detector #1
+DockComms.PrBus9_11.CHI1 - AI4204B_IN	Rail Rack Ethanol Gas Detector #2
+DockComms.PrBus9_11.CHI2 - AI4204C_IN	Rail Rack Ethanol Gas Detector #3
+DockComms.PrBus9_11.CHI3 - AI4204D_IN	Rail Rack Ethanol Gas Detector #4
+DockComms.PrBus9_12.CHI0 - AI4204E_IN	Rail Rack Ethanol Gas Detector #5
+DockComms.PrBus9_12.CHI1 - AI4204F_IN	Rail Rack Ethanol Gas Detector #6
+DockComms.PrBus9_12.CHI2 - AI4207A_IN	Rail Rack Hydrocarbon Gas Detector #1
+DockComms.PrBus9_12.CHI3 - AI4207B_IN	Rail Rack Hydrocarbon Gas Detector #2
+DockComms.PrBus9_13.CHI0 - AI4207C_IN	Rail Rack Hydrocarbon Gas Detector #3
+DockComms.PrBus9_13.CHI1 - AI4207D_IN	Rail Rack Hydrocarbon Gas Detector #4
+DockComms.PrBus9_13.CHI2 - AI4207E_IN	Rail Rack Hydrocarbon Gas Detector #5
+Communications.PrBus4_9.I0_6 - ZSC3008	HV3008 JUMP FROM TK113 TO SUL TO DOCK CLOSED
+Communications.PrBus4_9.I0_7 - ZSO3008	HV3008 JUMP FROM TK113 TO SUL TO DOCK OPENED
+Communications.PrBus5_2.I0_0 - M10PMP	Accuload Meter 10 Pump Start Request
+Communications.PrBus5_2.I0_2 - M20PMP	Accuload Meter 20 Pump Start Request
+Communications.PrBus5_2.I0_3 - CA3052	Accuload Meter 20 Fault
+Communications.PrBus5_2.I0_4 - M20BVR1	Accuload Meter 20 Product 1 (RUL) Request
+Communications.PrBus5_2.I0_5 - M10BVR2	Accuload Meter 10 Product 2 (ETH) Request
+Communications.PrBus5_2.I0_6 - M20BVR2	Accuload Meter 20 Product 2 (ETH) Request
+Communications.PrBus5_2.I0_7 - M10BVR1	Accuload Meter 10 Product 1 (RUL) Request
+Communications.PrBus4_10.I0_2 - ZL3032	J-3032 VRU vacuum pump running
+Communications.PrBus5_5.Q0_0 - M10BVF1	Accuload Meter 10 Product 1 (RUL) Ready
+Communications.PrBus5_5.Q0_1 - M10BVF2	Accuload Meter 10 Product 2 (ETH) Ready
+Communications.PrBus5_5.Q0_2 - M20BVF1	Accuload Meter 20 Product 1 (RUL) Ready
+Communications.PrBus5_5.Q0_3 - M20BVF2	Accuload Meter 20 Product 2 (ETH) Ready
+Communications.PrBus4_7.CHI0 - PI3013_IN	Gasoline Booster Pump Suction Pressure
+Communications.PrBus4_7.CHI1 - PI3011_IN	Gasoline Booster Pump  Discharge Pressure
+Communications.PrBus4_7.CHI2 - PI3012_IN	Export Gasoline Discharge Line Pressure
+Communications.PrBus4_7.CHI3 - PI3031_IN	Distillate Booster Pump Discharge Pressure
+Communications.PrBus4_11.I0_0	
+Communications.PrBus4_11.I0_1	
+Communications.PrBus4_11.I0_2	
+Communications.PrBus4_11.I0_3	
+Communications.PrBus4_11.I0_4	
+Communications.PrBus4_11.I0_5	
+Communications.PrBus4_11.I0_6	
+Communications.PrBus4_11.I0_7	
+Communications.PrBus4_14.CHI0 - PI3033_IN	Distillate Booster Pump Suction Pressure
+Communications.PrBus4_14.CHI1 - PI3034_IN	Hi Sulphur Distillate Suction Header Pressure
+Communications.PrBus4_14.CHI2 - PI3035_IN	Hi Sulphur Distillate Discharge Header Pressure
+Communications.PrBus18_7.CHI2 - AI3006C_IN	Truck Rack Sump Hydrocarbon Detector
+DockComms.PrBus12_6.CHI1 - PI4001_IN	West Dock Export Gasoline Pressure
+DockComms.PrBus12_6.CHI2 - PI4002_IN	West Dock Export Diesel Pressure
+DockComms.PrBus12_14.CHI2 - PI4098A_IN	
+Communications.PrBus3_6.Q0_2 - HS4049B	MID PLANT ESD on West Pit Containment Hydrocarbon Detection
+Communications.PrBus3_6.Q0_4 - MOV3051C	OILY WATER SEPARATOR MOV CLOSED
+Communications.PrBus3_6.Q0_5 - MOV3051O	OILY WATER SEPARATOR MOV OPENED
+Communications.PrBus4_8.I0_3 - ZSO3004	10'' RUL TO TANK3156 OPEN
+Communications.PrBus4_8.I0_7 - ZSC3008	6'' SUL TO TK3156
+Communications.PrBus4_9.I0_6 - ZSC3124	HV3124 Closed - Tank 3156 to Docks RUL
+Communications.PrBus4_9.I0_7 - ZSO3124	HV3124 Opened - Tank 3156 to Docks RUL
+Communications.PrBus4_10.I0_3 - ZSO3008	6'' SUL to TK3156
+Communications.PrBus4_10.I0_4 - ZSC3034	HV3034 Closed - 12" Diesel to Tank 3157
+Communications.PrBus4_10.I0_5 - ZSO3034	HV3034 Opened - 12" Diesel to Tank 3157
+Communications.PrBus4_10.I0_6 - ZSC3136	HV3136 Closed - 10" RUL to 8" RUL to Docks
+Communications.PrBus4_10.I0_7 - ZSO3136	HV3136 Opened - 10" RUL to 8" RUL to Docks
+Communications.PrBus4_11.I0_0 - ZSC3126	HV3126 Closed - 12" RUL tender to Tank 3156
+Communications.PrBus4_11.I0_1 - ZSO3126	HV3126 Opened - 12" RUL tender to Tank 3156
+Communications.PrBus4_11.I0_2 - ZSC3032	HV3032 Closed - 10" RSD tender to Tank 3117
+Communications.PrBus4_11.I0_3 - ZSO3032	HV3032 Opened - 10" RSD tender to Tank 3117
+Communications.PrBus4_11.I0_4 - ZSC3116	HV3116 Closed - 10" Stove/LSD to Docks
+Communications.PrBus4_11.I0_5 - ZSO3116	HV3116 Opened - 10" Stove/LSD to Docks
+Communications.PrBus4_11.I0_6 - ZSC3133	HV3133 Closed - 12" Gas Export to Docks
+Communications.PrBus4_11.I0_7 - ZSO3133	HV3133 Opened - 12" Gas Export to Docks
+Communications.PrBus17_3.I0_4 - ZSC3037	10'' Green Distillate To Tank 3116
+Communications.PrBus17_3.I0_5 - ZSO3037	10'' Green Distillate To Tank 3116
+Communications.PrBus17_3.I0_6 - ZSC3038	10" Yellow Distillate to Tank 3116
+Communications.PrBus17_3.I0_7 - ZSO3038	10" Yellow Distillate to Tank 3116
+Communications.PrBus17_4.I0_0 - ZSC3039	10" Yellow Distillate to Tank 3117
+Communications.PrBus17_4.I0_1 - ZSO3039	10" Yellow Distillate to Tank 3117
+Communications.PrBus17_4.I0_2 - ZSC3171	Tank 3116 to Dock and Rail B5 Line
+Communications.PrBus17_4.I0_3 - ZSO3171	Tank 3116 to Dock and Rail B5 Line
+Communications.PrBus17_4.I0_4 - ZSC3172	Tank 3116 to Dock and Rail LSD Line
+Communications.PrBus17_4.I0_5 - ZSO3172	Tank 3116 to Dock and Rail LSD Line
+Communications.PrBus17_4.I0_6 - ZL3116	Tank 3116 Mixer Running
+Communications.PrBus17_4.I0_7 - HL3116	Tank 3116 Mixer Auto Selected
+Communications.PrBus17_5.I0_0 - DI3051C	OILY WATER SEPARATOR MOV CLOSE
+Communications.PrBus17_5.I0_1 - DI3051O	OILY WATER SEPARATOR MOV OPEN
+Communications.PrBus17_5.I0_2 - DI3051L	OILY WATER SEPARATOR LOCAL SELECTED
+Communications.PrBus17_5.I0_3 - DI3051R	OILY WATER SEPARATOR REMOTE SELECTED
+Communications.PrBus17_5.I0_4 - DI3051PP	OILY WATER SEPERATOR MONITOR RELAY
+Communications.PrBus17_5.I0_5 - LSHH3051A	OILY WATER SEPARATOR SURGE CHAMBER HIHI LEVEL ALARM
+Communications.PrBus17_5.I0_6 - LSHH3051B	OILY WATER SEPARATOR DETENTION TANK HIHI LEVEL ALARM
+Communications.PrBus17_7.Q0_7 - HS3116	Tank 3116 Mixer Start/Stop
+Communications.PrBus17_8.Q0_0 - DO3051O	OILY WATER SEPARATOR OPEN MOV
+Communications.PrBus17_8.Q0_1 - DO3051C	OILY WATER SEPARATOR CLOSE MOV
+Communications.PrBus17_8.Q0_2 - DO3051S	OILY WATER SEPARATOR STOP MOV
+Communications.PrBus17_12.CHI2 - AI3014A_IN	MP Manifold Area Hydrocarbon Detector #1
+Communications.PrBus17_12.CHI3 - AI3014B_IN	MP Manifold Area Hydrocarbon Detector #2
+Communications.PrBus17_13.CHI3 - AI3007_IN	West Side H2O HC Detector
+Communications.PrBus6_2.I0_7 - DI3050C	MOV3050 CLOSED
+Communications.PrBus6_3.I0_4 - DI3050O	MOV3050 OPENED
+Communications.PrBus6_3.I0_5 - DI3050L	MOV3050 LOCAL SELECTED
+Communications.PrBus6_3.I0_6 - DI3050R	MOV3050 REMOTE SELECTED
+Communications.PrBus6_3.I0_7 - DI3050PP	MOV3050 MONITOR RELAY
+Communications.PrBus6_4.Q0_4 - DO3050O	OPEN MOV3050
+Communications.PrBus6_4.Q0_5 - DO3050C	CLOSE MOV3050
+Communications.PrBus6_4.Q0_6 - DO3050S	STOP MOV3050
+Communications.PrBus6_7.CHI0 - AI3090_IN	STORM INTERCEPTOR HYDROCARBON DETECTOR
+Communications.PrBus6_7.CHI1	Input channel 1
+Communications.PrBus6_7.CHI2	Input channel 2
+Communications.PrBus6_7.CHI3	Input channel 3
+Communications.PrBus6_7.CHI4	Input channel 4
+Communications.PrBus6_7.CHI5	Input channel 5
+Communications.PrBus6_7.CHI6	Input channel 6
+Communications.PrBus6_7.CHI7	Input channel 7
+Communications.IO6S04DI.I0_0 - ZSC3041	FOAM MOV 3041 - CLOSED
+Communications.IO6S04DI.I0_1 - ZSO3041	FOAM MOV 3041 - OPENED
+Communications.IO6S04DI.I0_2 - ZSM3041	FOAM MOV 3041 - MOTOR RUNNING
+Communications.IO6S04DI.I0_3 - ZSR3041	FOAM MOV 3041 - REMOTE
+Communications.IO6S04DI.I0_4 - ZSP3041	FOAM MOV 3041 - POWER PRESENT STATUS
+Communications.IO6S04DI.I0_5 - ZSA3041	FOAM MOV 3041 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S04DI.I0_6 - ZSL3041	FOAM MOV 3041 - LOCAL
+Communications.IO6S04DI.I0_7	spare
+Communications.IO6S04DI.I1_0 - ZSC3042	FOAM MOV 3042 - CLOSED
+Communications.IO6S04DI.I1_1 - ZSO3042	FOAM MOV 3042 - OPENED
+Communications.IO6S04DI.I1_2 - ZSM3042	FOAM MOV 3042 - MOTOR RUNNING
+Communications.IO6S04DI.I1_3 - ZSR3042	FOAM MOV 3042 - REMOTE
+Communications.IO6S04DI.I1_4 - ZSP3042	FOAM MOV 3042 - POWER PRESENT STATUS
+Communications.IO6S04DI.I1_5 - ZSA3042	FOAM MOV 3042 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S04DI.I1_6 - ZSL3042	FOAM MOV 3042 - LOCAL
+Communications.IO6S04DI.I1_7	spare
+Communications.IO6S05DI.I0_0 - ZSC3043	FOAM MOV 3043 - CLOSED
+Communications.IO6S05DI.I0_1 - ZSO3043	FOAM MOV 3043 - OPENED
+Communications.IO6S05DI.I0_2 - ZSM3043	FOAM MOV 3043 - MOTOR RUNNING
+Communications.IO6S05DI.I0_3 - ZSR3043	FOAM MOV 3043 - REMOTE
+Communications.IO6S05DI.I0_4 - ZSP3043	FOAM MOV 3043 - POWER PRESENT STATUS
+Communications.IO6S05DI.I0_5 - ZSA3043	FOAM MOV 3043 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S05DI.I0_6 - ZSL3043	FOAM MOV 3043 - LOCAL
+Communications.IO6S05DI.I0_7	spare
+Communications.IO6S05DI.I1_0 - ZSC3044	FOAM MOV 3044 - CLOSED
+Communications.IO6S05DI.I1_1 - ZSO3044	FOAM MOV 3044 - OPENED
+Communications.IO6S05DI.I1_2 - ZSM3044	FOAM MOV 3044 - MOTOR RUNNING
+Communications.IO6S05DI.I1_3 - ZSR3044	FOAM MOV 3044 - REMOTE
+Communications.IO6S05DI.I1_4 - ZSP3044	FOAM MOV 3044 - POWER PRESENT STATUS
+Communications.IO6S05DI.I1_5 - ZSA3044	FOAM MOV 3044 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S05DI.I1_6 - ZSL3044	FOAM MOV 3044 - LOCAL
+Communications.IO6S05DI.I1_7	spare
+Communications.IO6S06DI.I0_0 - ZSC3045	FOAM MOV 3045 - CLOSED
+Communications.IO6S06DI.I0_1 - ZSO3045	FOAM MOV 3045 - OPENED
+Communications.IO6S06DI.I0_2 - ZSM3045	FOAM MOV 3045 - MOTOR RUNNING
+Communications.IO6S06DI.I0_3 - ZSR3045	FOAM MOV 3045 - REMOTE
+Communications.IO6S06DI.I0_4 - ZSP3045	FOAM MOV 3045 - POWER PRESENT STATUS
+Communications.IO6S06DI.I0_5 - ZSA3045	FOAM MOV 3045 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S06DI.I0_6 - ZSL3045	FOAM MOV 3045 - LOCAL
+Communications.IO6S06DI.I0_7	spare
+Communications.IO6S06DI.I1_0 - ZSC3046	FOAM MOV 3046 - CLOSED
+Communications.IO6S06DI.I1_1 - ZSO3046	FOAM MOV 3046 - OPENED
+Communications.IO6S06DI.I1_2 - ZSM3046	FOAM MOV 3046 - MOTOR RUNNING
+Communications.IO6S06DI.I1_3 - ZSR3046	FOAM MOV 3046 - REMOTE
+Communications.IO6S06DI.I1_4 - ZSA3046	FOAM MOV 3046 - MOTOR TRANSF. THERMOSTAT STATUS
+Communications.IO6S06DI.I1_5 - ZSB3046	FOAM MOV 3046 - Batterie Low
+Communications.IO6S06DI.I1_6 - ZSL3046	FOAM MOV 3046 - LOCAL
+Communications.IO6S06DI.I1_7	spare
+Communications.IO6S07SPARE.I0_0	Input channel 0
+Communications.IO6S07SPARE.I0_1	Input channel 1
+Communications.IO6S07SPARE.I0_2	Input channel 2
+Communications.IO6S07SPARE.I0_3	Input channel 3
+Communications.IO6S07SPARE.I0_4	Input channel 4
+Communications.IO6S07SPARE.I0_5	Input channel 5
+Communications.IO6S07SPARE.I0_6	Input channel 6
+Communications.IO6S07SPARE.I0_7	Input channel 7
+Communications.IO6S07SPARE.I1_0	Input channel 8
+Communications.IO6S07SPARE.I1_1	Input channel 9
+Communications.IO6S07SPARE.I1_2	Input channel 10
+Communications.IO6S07SPARE.I1_3	Input channel 11
+Communications.IO6S07SPARE.I1_4	Input channel 12
+Communications.IO6S07SPARE.I1_5	Input channel 13
+Communications.IO6S07SPARE.I1_6	Input channel 14
+Communications.IO6S07SPARE.I1_7	Input channel 15
+Communications.IO6S08DO.Q0_0	spare
+Communications.IO6S08DO.Q0_1	spare
+Communications.IO6S08DO.Q0_2	spare
+Communications.IO6S08DO.Q0_3	spare
+Communications.IO6S08DO.Q0_4	spare
+Communications.IO6S08DO.Q0_5	spare
+Communications.IO6S08DO.Q0_6	spare
+Communications.IO6S08DO.Q0_7	spare
+Communications.IO6S09DO.Q0_0	spare
+Communications.IO6S09DO.Q0_1	spare
+Communications.IO6S09DO.Q0_2	spare
+Communications.IO6S09DO.Q0_3	spare
+Communications.IO6S09DO.Q0_4	spare
+Communications.IO6S09DO.Q0_5	spare
+Communications.IO6S09DO.Q0_6	spare
+Communications.IO6S09DO.Q0_7	spare
+Communications.IO6S10AI.CHI0 - PT3060	FOAM SHED - Firewater Pressure Transmitter
+Communications.IO6S10AI.CHI1 - IT3014	FOAM SHED - Firewater Booster - Current Monitoring
+Communications.IO6S10AI.CHI2	Input channel 2
+Communications.IO6S10AI.CHI3	Input channel 3
+Communications.IO6S10AI.CHI4	Input channel 4
+Communications.IO6S10AI.CHI5	Input channel 5
+Communications.IO6S10AI.CHI6	Input channel 6
+Communications.IO6S10AI.CHI7	Input channel 7
+DockComms.PrBus11_2.I1_0 - ZSO4246	R100 TO F4201 TO RAIL OPEN
+DockComms.PrBus11_2.I1_1 - ZSC4246	R100 to F4201 TO RAIL CLOSED
+DockComms.PrBus11_2.I1_2 - ZL4049	SV4049 ENERGIZED
+DockComms.PrBus11_2.I1_3 - HL4049	SV4049 AUTO SELECT
+DockComms.PrBus11_2.I1_4 - LSHH4049	SV4049 LEVEL SWITCH HiHi ALARM
+DockComms.PrBus11_2.I1_5	
+DockComms.PrBus11_2.I1_6	
+DockComms.PrBus11_2.I1_7	
+DockComms.PrBus11_3.I1_0 - ZSO4082	HV4082-Open Feedback-Ethanol WD to TK-2197
+DockComms.PrBus11_3.I1_1 - ZSC4082	HV4082-Close Feedback-Ethanol WD to TK-2197
+DockComms.PrBus11_3.I1_2 - ZSO4281	
+DockComms.PrBus11_3.I1_3 - ZSC4281	
+DockComms.PrBus11_3.I1_4 - ZSO4279	
+DockComms.PrBus11_3.I1_5 - ZSC4279	
+DockComms.PrBus11_3.I1_6 - ZSO4236	
+DockComms.PrBus11_3.I1_7 - ZSC4236	
+DockComms.PrBus11_4.I1_0 - ZSO4241	HV4241-Open Feedback-J4201/04 to T-3157
+DockComms.PrBus11_4.I1_1 - ZSC4241	HV4241-Close Feedback-J4201/04 to T-3157
+DockComms.PrBus11_4.I1_2 - ZSO4269	HV4269-Open Feedback-J4201/04 to T-2197
+DockComms.PrBus11_4.I1_3 - ZSC4269	HV4269-Close Feedback-J4201/04 to T-2197
+DockComms.PrBus11_4.I1_4	
+DockComms.PrBus11_4.I1_5	
+DockComms.PrBus11_4.I1_6 - FSL4287B	J-4201B Ethanol Offloading Flow Switch
+DockComms.PrBus11_4.I1_7 - FSL4287C	J-4201C Ethanol Offloading Flow Switch
+DockComms.PrBus11_8.I0_6 - ZL4201B	J-4201B Ethanol Offloading Pump Running
+DockComms.PrBus11_9.I0_5 - ZL4201C	J-4201C Ethanol Offloading Pump Running
+DockComms.PrBus11_13.I0_2 - ZL4201A	J-4201A Ethanol Offloading Pump Running
+DockComms.PrBus11_13.I0_3 - ZL4201D	J-4201D Ethanol Offloading Pump Running
+DockComms.PrBus11_13.I0_6 - FSL4287D	J-4201D Ethanol Offloading Flow Switch
+DockComms.PrBus11_15.Q0_7 - HS4049A	START PERMISSIVE FOR WEST PIT CONTAINMENT AIR PUMP
+DockComms.PrBus11_16.Q0_2 - HS4201AA	J-4201A Ethanol Offloading Pump Permissive
+DockComms.PrBus11_16.Q0_3 - HS4201D	J-4201D Ethanol Offloading Pump Permissive
+DockComms.PrBus11_16.Q0_4 - HS4201BB	J-4201B Ethanol Offloading Pump Permissive
+DockComms.PrBus11_16.Q0_5 - HS4201C	J-4201C Ethanol Offloading Pump Permissive
+DockComms.PrBus11_20.CHI1 - AI4048_IN	West Pit H2O Separator HC Detector
+DockComms.PrBus11_20.CHI2 - AI4287_IN	Ethanol Pump J4204 Vibration Monitor
+DockComms.PrBus11_20.CHI3 - PI4286_IN	PT4286 Ethanol Off-loading Header Pressure Monitor
+DockComms.PrBus11_21.CHI0 - AI4049_IN	WEST PIT CONTAINMENT HYDROCARBON DETECTOR
+DockComms.PrBus11_21.CHI1 - LI4208_IN	RAIL SLOP TANK F4200 LEVEL
+DockComms.PrBus11_21.CHI2	
+DockComms.PrBus11_21.CHI3	
+DockComms.PrBus11_26.CHI0 - PI4047	Plant/Instrument Air Pressure
+DockComms.PrBus11_26.CHI1 - PI4050	Jet 'A' Monitoring (Upstream)
+DockComms.PrBus11_26.CHI2 - PI4051	Jet 'A' Monitoring (Downstream)
+DockComms.PrBus11_26.CHI3 - FI4010	Jet 'A' to West Dock
+DockComms.PrBus12_9.I0_3 - LAHH4000	West Dock Slop Tank HiHi Level Alarm
+DockComms.PrBus12_12.I0_0 - ZSO4089	HV4089-Open Feedback-12" Gas Export to MOV4001
+DockComms.PrBus12_12.I0_1 - ZSC4089	HV4089-Close Feedback-12" Gas Export to MOV4001
+DockComms.PrBus12_12.I0_2 - ZSO4088	HV4088-Open Feedback-12" Gas Export to 6" TK-2197
+DockComms.PrBus12_12.I0_3 - ZSC4088	HV4089-Close Feedback-12" Gas Export to 6" TK-2197
+DockComms.PrBus12_12.I0_4 - ZSO4086	HV4086-Open Feedback-12" Gas Export to J4007
+DockComms.PrBus12_12.I0_5 - ZSC4086	HV4086-Close Feedback-12" Gas Export to J4007
+DockComms.PrBus12_12.I0_6	 
+DockComms.PrBus12_12.I0_7	 
+DockComms.PrBus12_12.I1_0	 
+DockComms.PrBus12_12.I1_1	 
+DockComms.PrBus12_12.I1_2	 
+DockComms.PrBus12_12.I1_3	 
+DockComms.PrBus12_12.I1_4	 
+DockComms.PrBus12_12.I1_5	
+DockComms.PrBus12_12.I1_6	
+DockComms.PrBus12_12.I1_7	
+DockComms.PrBus9_14.CHI0 - AI4280A_IN	Water Separator Hydrocarbon North Detector
+DockComms.PrBus9_14.CHI1 - AI4280B_IN	Water Separator Hydrocarbon South Detector
+DockComms.PrBus9_14.CHI2	
+DockComms.PrBus9_14.CHI3	
+Communications.PrBus38_2.I0_0	Accuload Meter 10 Pump Start Request
+Communications.PrBus38_2.I0_1	Accuload Meter 10 Fault
+Communications.PrBus38_2.I0_2	Accuload Meter 20 Pump Start Request
+Communications.PrBus38_2.I0_3	Accuload Meter 20 Fault
+Communications.PrBus38_2.I0_4	Accuload Meter 20 Product 1 (RUL) Request
+Communications.PrBus38_2.I0_5	Accuload Meter 10 Product 2 (ETH) Request
+Communications.PrBus38_2.I0_6	Accuload Meter 20 Product 2 (ETH) Request
+Communications.PrBus38_2.I0_7	Accuload Meter 10 Product 1 (RUL) Request
+Communications.PrBus38_3.I0_0	OGA Rul Injector Cycle Complete
+Communications.PrBus38_3.I0_1	OGA Additive Pump Start/Stop
+Communications.PrBus38_3.I0_2	OGASul Cycle Complete
+Communications.PrBus38_3.I0_3	
+Communications.PrBus38_3.I0_4	Dye RUL Injector Cycle Complete
+Communications.PrBus38_3.I0_5	Dye Additive Pump Start/Stop
+Communications.PrBus38_3.I0_6	
+Communications.PrBus38_3.I0_7	
+Communications.PrBus38_4.I0_0	
+Communications.PrBus38_4.I0_1	
+Communications.PrBus38_4.I0_2	
+Communications.PrBus38_4.I0_3	
+Communications.PrBus38_4.I0_4	
+Communications.PrBus38_4.I0_5	
+Communications.PrBus38_4.I0_6	
+Communications.PrBus38_4.I0_7	
+Communications.PrBus38_5.Q0_0	Accuload Meter 10 Product 1 (RUL) Ready
+Communications.PrBus38_5.Q0_1	Accuload Meter 10 Product 2 (ETH) Ready
+Communications.PrBus38_5.Q0_2	Accuload Meter 20 Product 1 (RUL) Ready
+Communications.PrBus38_5.Q0_3	Accuload Meter 20 Product 2 (ETH) Ready
+Communications.PrBus38_5.Q0_4	
+Communications.PrBus38_5.Q0_5	
+Communications.PrBus38_5.Q0_6	
+Communications.PrBus38_5.Q0_7	
+Communications.PrBus25_2.I0_0 - M10PMP	Accuload Meter 10 Pump Start Request
+Communications.PrBus25_2.I0_1 - CA3051	Accuload Meter 10 Fault
+Communications.PrBus25_2.I0_2 - M20PMP	Accuload Meter 20 Pump Start Request
+Communications.PrBus25_2.I0_3 - CA3052	Accuload Meter 20 Fault
+Communications.PrBus25_2.I0_4 - M20BVR1	Accuload Meter 20 Product 1 (RUL) Request
+Communications.PrBus25_2.I0_5 - M10BVR2	Accuload Meter 10 Product 2 (ETH) Request
+Communications.PrBus25_2.I0_6 - M20BVR2	Accuload Meter 20 Product 2 (ETH) Request
+Communications.PrBus25_2.I0_7 - M10BVR1	Accuload Meter 10 Product 1 (RUL) Request
+Communications.PrBus25_3.I0_0 - XA3051	OGA Rul Injector Cycle Complete
+Communications.PrBus25_3.I0_1 - P3007I01	OGA Additive Pump Start/Stop
+Communications.PrBus25_3.I0_2 - XA3052	OGASul Cycle Complete
+Communications.PrBus25_3.I0_3	
+Communications.PrBus25_3.I0_4 - XA3053	Dye RUL Injector Cycle Complete
+Communications.PrBus25_3.I0_5 - P3011I01	Dye Additive Pump Start/Stop
+Communications.PrBus25_3.I0_6	
+Communications.PrBus25_3.I0_7	
+Communications.PrBus25_4.I0_0	
+Communications.PrBus25_4.I0_1	
+Communications.PrBus25_4.I0_2	
+Communications.PrBus25_4.I0_3	
+Communications.PrBus25_4.I0_4	
+Communications.PrBus25_4.I0_5	
+Communications.PrBus25_4.I0_6	
+Communications.PrBus25_4.I0_7	
+Communications.PrBus25_5.Q0_0 - M10BVF1	Accuload Meter 10 Product 1 (RUL) Ready
+Communications.PrBus25_5.Q0_1 - M10BVF2	Accuload Meter 10 Product 2 (ETH) Ready
+Communications.PrBus25_5.Q0_2 - M20BVF1	Accuload Meter 20 Product 1 (RUL) Ready
+Communications.PrBus25_5.Q0_3 - M20BVF2	Accuload Meter 20 Product 2 (ETH) Ready
+Communications.PrBus25_5.Q0_4	
+Communications.PrBus25_5.Q0_5	
+Communications.PrBus25_5.Q0_6	
+Communications.PrBus25_5.Q0_7	
+Communications.PrBus25_6.Q0_0 - M10BVF1	Accuload Meter 10 Product 1 (RUL) Ready
+Communications.PrBus25_6.Q0_1 - M10BVF2	Accuload Meter 10 Product 2 (ETH) Ready
+Communications.PrBus25_6.Q0_2 - M20BVF1	Accuload Meter 20 Product 1 (RUL) Ready
+Communications.PrBus25_6.Q0_3 - M20BVF2	Accuload Meter 20 Product 2 (ETH) Ready
+Communications.PrBus25_6.Q0_4	
+Communications.PrBus25_6.Q0_5	
+Communications.PrBus25_6.Q0_6	
+Communications.PrBus25_6.Q0_7	
+Communications.PrBus25_7.I0_0 - XA4200	LT WAREHOUSE ELECTRICAL ROOM FIRE ALARM PANEL SYSTEM TROUBLE
+Communications.PrBus25_7.I0_1 - QA4200	Rail Spur Fire Alarm
+Communications.PrBus25_7.I0_2 - XL4200	LT Warehouse Elec Room Fire Alarm Panel Abort/Test Selected
+Communications.PrBus25_7.I0_3 - XA4201A	SV4201A Deluge East Valve Activated
+Communications.PrBus25_7.I0_4 - XA4201B	SV4201B Deluge West Valve Activated
+Communications.PrBus25_7.I0_5	
+Communications.PrBus25_7.I0_6	
+Communications.PrBus25_7.I0_7	
+Communications.PrBus25_7.I1_0 - QA4201	West UV/IR No. 1
+Communications.PrBus25_7.I1_1 - QA4202	West UV/IR No. 2
+Communications.PrBus25_7.I1_2 - QA4203	West UV/IR No. 3
+Communications.PrBus25_7.I1_3 - QA4204	West UV/IR No. 4
+Communications.PrBus25_7.I1_4 - QA4205	West UV/IR No. 5
+Communications.PrBus25_7.I1_5 - QA4206	West UV/IR No. 6
+Communications.PrBus25_7.I1_6 - QA4207	West UV/IR No. 7
+Communications.PrBus25_7.I1_7 - QA4208	West UV/IR No. 8
+Communications.PrBus38_7.CHI0 - AI3006A_IN	Truck Rack Ground Ethanol Detector #1
+Communications.PrBus38_7.CHI1 - AI3006B_IN	Truck Rack Sump Ethanol Detector #2
+Communications.PrBus38_7.CHI2 - AI3006C_IN	Truck Rack Sump Hydrocarbon Detector
+Communications.PrBus38_7.CHI3	
+Communications.PrBus38_2.I0_0 - ZSC3021	MOV3021 Closed
+Communications.PrBus38_2.I0_1 - ZSO3021	MOV3021 Opened
+Communications.PrBus38_2.I0_2 - ZSB3021	MOV3021 Battery Low
+Communications.PrBus38_2.I0_3 - ZSA3021	MOV3021 Alarm
+Communications.PrBus38_2.I0_4 - ZSR3021	MOV3021 Remote
+Communications.PrBus38_2.I0_5 - ZSC3022	MOV3022 Closed
+Communications.PrBus38_2.I0_6 - ZSO3022	MOV3022 Opened
+Communications.PrBus38_2.I0_7 - ZSB3022	MOV3022 Battery Low
+Communications.PrBus38_2.I1_0 - ZSA3022	MOV3022 Alarm
+Communications.PrBus38_2.I1_1 - ZSR3022	MOV3022 Remote
+Communications.PrBus38_2.I1_2 - ZSC3023	MOV3023 Closed
+Communications.PrBus38_2.I1_3 - ZSO3023	MOV3023 Opened
+Communications.PrBus38_2.I1_4 - ZSB3023	MOV3023 Battery Low
+Communications.PrBus38_2.I1_5 - ZSA3023	MOV3023 Alarm
+Communications.PrBus38_2.I1_6 - ZSR3023	MOV3023 Remote
+Communications.PrBus38_2.I1_7	
+Communications.PrBus38_5.Q0_0 - DO3021S	MOV3021 Stop Output
+Communications.PrBus38_5.Q0_1 - DO3021C	MOV3021 Close Output
+Communications.PrBus38_5.Q0_2 - DO3021O	MOV3021Open Output
+Communications.PrBus38_5.Q0_3 - DO3022S	MOV3022 Stop Output
+Communications.PrBus38_5.Q0_4 - DO3022C	MOV3022 Close Output
+Communications.PrBus38_5.Q0_5 - DO3022O	MOV3022 Open Output
+Communications.PrBus38_5.Q0_6 - DO3023S	MOV3023 Stop Output
+Communications.PrBus38_5.Q0_7 - DO3023C	MOV3023 Close Output
+Communications.PrBus38_6.Q0_0 - DO3023O	MOV3023 Open Output
+Communications.PrBus38_6.Q0_1	
+Communications.PrBus38_6.Q0_2	
+Communications.PrBus38_6.Q0_3	
+Communications.PrBus38_6.Q0_4	
+Communications.PrBus38_6.Q0_5	
+Communications.PrBus38_6.Q0_6	
+Communications.PrBus38_6.Q0_7	
+Communications.PrBus3_3.I0_1	
+Communications.PrBus3_3.I0_2	
+MidComm.PrBus3_5.I0_0 - XA3006	Truck Rack UV/IR
+MidComm.PrBus3_5.I0_1 - QA3001	Zone 1 or 2
+MidComm.PrBus3_5.I0_2 - QA3003	Zone 3 or 4
+MidComm.PrBus3_5.I0_3 - QA3005	Zone 5 or 6
+MidComm.PrBus3_5.I0_4 - QA3007	Zone 7 or 8
+MidComm.PrBus3_5.I0_5 - QA3009	Zone 9
+MidComm.PrBus3_5.I0_6 - QA3010	Zone 10
+MidComm.PrBus3_5.I0_7 - QA3011	Zone 11
+MidComm.PrBus3_5.I1_0 - QA3012	Zone 12
+MidComm.PrBus3_5.I1_1 - QA3013	Zone 13
+MidComm.PrBus3_5.I1_2 - QA3014	Zone 14
+MidComm.PrBus3_5.I1_3 - XA3005	15 Second Warning to Foam Deluge
+MidComm.PrBus3_5.I1_4 - XA3004	Deluge Activated
+MidComm.PrBus3_5.I1_5 - CA3001	Fire Alarm Panel Trouble
+MidComm.PrBus3_5.I1_6	
+MidComm.PrBus3_5.I1_7	
+MidComm.PrBus3_2.I0_0 - ZL3014	Firewater Booster Pump on/off
+MidComm.PrBus3_2.I0_1 - HL3014	Firewater Booster Pump Power
+MidComm.PrBus3_2.I0_2 - XA3002	Foam System Abort at Truck Rack
+MidComm.PrBus3_2.I0_3 - XA3001	Manual Foam Activation At Rack
+MidComm.PrBus3_2.I0_4 - XA3003	Firewater Valve VJ Test
+MidComm.PrBus3_2.I0_5 - EL3001	Foam Control Power Available
+MidComm.PrBus3_2.I0_6 - FAH3001	Foam/Water Flowing to Rack
+MidComm.PrBus3_2.I0_7	
+MidComm.PrBus3_3.I0_0 - HL3061	TruckEntrance Gate Hand/Open
+MidComm.PrBus3_3.I0_1	
+MidComm.PrBus3_3.I0_2	
+MidComm.PrBus3_3.I0_3	
+MidComm.PrBus3_3.I0_4	
+MidComm.PrBus3_3.I0_5	
+MidComm.PrBus3_3.I0_6 - XA3007	Dispatch Office Fire Alarm Panel System Trouble
+MidComm.PrBus3_3.I0_7 - QA3021	Dispatch Office Fire Alarm
+MidComm.PrBus3_4.I0_0	
+MidComm.PrBus3_4.I0_1	
+MidComm.PrBus3_4.I0_2	
+MidComm.PrBus3_4.I0_3	
+MidComm.PrBus3_4.I0_4	
+MidComm.PrBus3_4.I0_5	
+MidComm.PrBus3_4.I0_6	
+MidComm.PrBus3_4.I0_7	
+MidComm.PrBus3_6.Q0_0 - XS3001	Fire Alarm Panel Silence
+MidComm.PrBus3_6.Q0_1 - XS3002	Fire Alarm Panel Reset
+MidComm.PrBus3_6.Q0_2 - HS4049B	MID PLANT ESD on West Pit Containment Hydrocarbon Detection
+MidComm.PrBus3_6.Q0_3	
+MidComm.PrBus3_6.Q0_4 - MOV3051C	OILY WATER SEPARATOR MOV CLOSED
+MidComm.PrBus3_6.Q0_5 - MOV3051O	OILY WATER SEPARATOR MOV OPENED
+MidComm.PrBus3_6.Q0_6	
+MidComm.PrBus3_6.Q0_7	
+MidComm.PrBus18_2.I0_0 - ZSC3021	MOV3021 Closed
+MidComm.PrBus18_2.I0_1 - ZSO3021	MOV3021 Opened
+MidComm.PrBus18_2.I0_2 - ZSB3021	MOV3021 Battery Low
+MidComm.PrBus18_2.I0_3 - ZSA3021	MOV3021 Alarm
+MidComm.PrBus18_2.I0_4 - ZSR3021	MOV3021 Remote
+MidComm.PrBus18_2.I0_5 - ZSC3022	MOV3022 Closed
+MidComm.PrBus18_2.I0_6 - ZSO3022	MOV3022 Opened
+MidComm.PrBus18_2.I0_7 - ZSB3022	MOV3022 Battery Low
+MidComm.PrBus18_2.I1_0 - ZSA3022	MOV3022 Alarm
+MidComm.PrBus18_2.I1_1 - ZSR3022	MOV3022 Remote
+MidComm.PrBus18_2.I1_2 - ZSC3023	MOV3023 Closed
+MidComm.PrBus18_2.I1_3 - ZSO3023	MOV3023 Opened
+MidComm.PrBus18_2.I1_4 - ZSB3023	MOV3023 Battery Low
+MidComm.PrBus18_2.I1_5 - ZSA3023	MOV3023 Alarm
+MidComm.PrBus18_2.I1_6 - ZSR3023	MOV3023 Remote
+MidComm.PrBus18_2.I1_7	
+MidComm.PrBus18_3.I0_0	
+MidComm.PrBus18_3.I0_1	
+MidComm.PrBus18_3.I0_2	
+MidComm.PrBus18_3.I0_3	
+MidComm.PrBus18_3.I0_4	
+MidComm.PrBus18_3.I0_5	
+MidComm.PrBus18_3.I0_6	
+MidComm.PrBus18_3.I0_7	
+MidComm.PrBus18_4.I0_0	
+MidComm.PrBus18_4.I0_1	
+MidComm.PrBus18_4.I0_2	
+MidComm.PrBus18_4.I0_3	
+MidComm.PrBus18_4.I0_4	
+MidComm.PrBus18_4.I0_5	
+MidComm.PrBus18_4.I0_6	
+MidComm.PrBus18_4.I0_7	
+MidComm.PrBus18_5.Q0_0 - DO3021S	MOV3021 Stop Output
+MidComm.PrBus18_5.Q0_1 - DO3021C	MOV3021 Close Output
+MidComm.PrBus18_5.Q0_2 - DO3021O	MOV3021 Open Output
+MidComm.PrBus18_5.Q0_3 - DO3022S	MOV3022 Stop Output
+MidComm.PrBus18_5.Q0_4 - DO3022C	MOV3022 Close Output
+MidComm.PrBus18_5.Q0_5 - DO3022O	MOV3022 Open Output
+MidComm.PrBus18_5.Q0_6 - DO3023S	MOV3023 Stop Output
+MidComm.PrBus18_5.Q0_7 - DO3023C	MOV3023 Close Output
+MidComm.PrBus18_6.Q0_0 - DO3023O	MOV3023 Open Output
+MidComm.PrBus18_6.Q0_1	
+MidComm.PrBus18_6.Q0_2	
+MidComm.PrBus18_6.Q0_3	
+MidComm.PrBus18_6.Q0_4	
+MidComm.PrBus18_6.Q0_5	
+MidComm.PrBus18_6.Q0_6	
+MidComm.PrBus18_6.Q0_7	
+MidComm.PrBus18_7.CHI0 - AI3006A_IN	Truck Rack Ground Ethanol Detector #1
+MidComm.PrBus18_7.CHI1 - AI3006B_IN	Truck Rack Sump Ethanol Detector #2
+MidComm.PrBus18_7.CHI2 - AI3006C_IN	Truck Rack Sump Hydrocarbon Detector
+MidComm.PrBus18_7.CHI3	
+MidComm.PrBus4_2.I0_0 - ZL3001	J3001 Super Green Running
+MidComm.PrBus4_2.I0_1 - FAL3001	J3001 Super Green Low Flow
+MidComm.PrBus4_2.I0_2 - HL3001	J3001 Super Green Auto Selected
+MidComm.PrBus4_2.I0_3	
+MidComm.PrBus4_2.I0_4 - ZL3002	J3002 RUL Running
+MidComm.PrBus4_2.I0_5 - FAL3002	J3002 Rul Low Flow
+MidComm.PrBus4_2.I0_6 - HL3002	J3002 Rul Auto Selected
+MidComm.PrBus4_2.I0_7	
+MidComm.PrBus4_3.I0_0 - HL3007	J3007 OGA Auto Sel
+MidComm.PrBus4_3.I0_1 - ZL3007	J3007 OGA Running
+MidComm.PrBus4_3.I0_2 - HL3011	J3011 Dye Auto Sel
+MidComm.PrBus4_3.I0_3 - ZL3011	J3011 Due Running
+MidComm.PrBus4_3.I0_4 - HL3156	TK3156 Mixer Auto Selected
+MidComm.PrBus4_3.I0_5 - ZL3156	TK3156 Mixer Running
+MidComm.PrBus4_3.I0_6 - ZL3006B	Import Gasoline Booster Pump Running
+MidComm.PrBus4_3.I0_7 - HL3006B	Import Gasoline Booster Pump Auto Selected
+MidComm.PrBus4_4.I0_0 - XA4003	Lower Plant ESD Push Button Pushed
+MidComm.PrBus4_4.I0_1 - XA3021	Tank Dynamite Valve's Alarm
+MidComm.PrBus4_4.I0_2 - XA3022	Middle Plant ESD Push Button Pushed
+MidComm.PrBus4_4.I0_3 - EA3002A	MP Substation UPS AC Fail
+MidComm.PrBus4_4.I0_4 - EA3002B	MP Substation UPS Battery Low
+MidComm.PrBus4_4.I0_5	
+MidComm.PrBus4_4.I0_6 - HL3006A	J3006A Unloading Pump Auto Selected
+MidComm.PrBus4_4.I0_7 - ZL3006A	J3006A Unloading Pmp Running
+MidComm.PrBus4_5.Q0_0 - HS3001	J3001 Super Green Start/Stop
+MidComm.PrBus4_5.Q0_1 - HS3002	J3002 Rul Start/Stop
+MidComm.PrBus4_5.Q0_2 - HS3007	J3007 OGA Start/Stop
+MidComm.PrBus4_5.Q0_3 - HS3011	J3011 Dye Start/Stop
+MidComm.PrBus4_5.Q0_4 - HS3156	Tank 3156 Mixer Start/Stop
+MidComm.PrBus4_5.Q0_5 - HS3006B	Import Gasoline Booster Pump Start/Stop
+MidComm.PrBus4_5.Q0_6 - HS3006A	J3006A Import Pump Start/Stop
+MidComm.PrBus4_5.Q0_7 - HS3096	Tk2196 Mixer Start/Stop
+MidComm.PrBus4_6.Q0_0 - HS3157	Tank 3157 Mixer Start/Stop
+MidComm.PrBus4_6.Q0_1 - HS3117	Tank 3117 Mixer Start/Stop
+MidComm.PrBus4_6.Q0_2	
+MidComm.PrBus4_6.Q0_3	
+MidComm.PrBus4_6.Q0_4	
+MidComm.PrBus4_6.Q0_5	
+MidComm.PrBus4_6.Q0_6	
+MidComm.PrBus4_6.Q0_7	
+MidComm.PrBus4_7.CHI0 - PI3013_IN	Gasoline Booster Pump Suction Pressure
+MidComm.PrBus4_7.CHI1 - PI3011_IN	Gasoline Booster Pump  Discharge Pressure
+MidComm.PrBus4_7.CHI2 - PI3012_IN	Export Gasoline Discharge Line Pressure
+MidComm.PrBus4_7.CHI3 - PI3031_IN	Distillate Booster Pump Discharge Pressure
+MidComm.PrBus4_8.I0_0 - ZSC3004	6" Gasoline to Tk3156
+MidComm.PrBus4_8.I0_1 - ZSC3005	10" Gasoline to Dock
+MidComm.PrBus4_8.I0_2 - ZSC3033	6" Stove to Tk3117
+MidComm.PrBus4_8.I0_3 - ZSO3004	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus4_8.I0_4 - ZSC3035	10" Diesel to Dock
+MidComm.PrBus4_8.I0_5 - ZSC3036	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus4_8.I0_6 - ZSO3036	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus4_8.I0_7 - ZSC3008	6'' SUL TO TK3156
+MidComm.PrBus4_9.I0_0 - HL3096	Tk2196 Mixer Auto Selected
+MidComm.PrBus4_9.I0_1 - ZL3096	Tk2196 Mixer Running
+MidComm.PrBus4_9.I0_2 - HL3157	Tank 3157 Mixer Auto Selected
+MidComm.PrBus4_9.I0_3 - ZL3157	Tank 3157 Mixer Running
+MidComm.PrBus4_9.I0_4 - HL3117	Tank 3117 Mixer Auto Selected
+MidComm.PrBus4_9.I0_5 - ZL3117	Tank 3117 Mixer Running
+MidComm.PrBus4_9.I0_6 - ZSC3124	HV3124 Closed - Tank 3156 to Docks RUL
+MidComm.PrBus4_9.I0_7 - ZSO3124	HV3124 Opened - Tank 3156 to Docks RUL
+MidComm.PrBus4_10.I0_0 - CA3008	Mid Plant Genset Trouble Alarm
+MidComm.PrBus4_10.I0_1 - ZL3008	Mid Plant Genset Running
+MidComm.PrBus4_10.I0_2 - ZL3032	J-3032 VRU vacuum pump running
+MidComm.PrBus4_10.I0_3 - ZSO3008	6'' SUL to TK3156
+MidComm.PrBus4_10.I0_4 - ZSC3034	HV3034 Closed - 12" Diesel to Tank 3157
+MidComm.PrBus4_10.I0_5 - ZSO3034	HV3034 Opened - 12" Diesel to Tank 3157
+MidComm.PrBus4_10.I0_6 - ZSC3136	HV3136 Closed - 10" RUL to 8" RUL to Docks
+MidComm.PrBus4_10.I0_7 - ZSO3136	HV3136 Opened - 10" RUL to 8" RUL to Docks
+MidComm.PrBus4_11.I0_0 - ZSC3126	HV3126 Closed - 12" RUL tender to Tank 3156
+MidComm.PrBus4_11.I0_1 - ZSO3126	HV3126 Opened - 12" RUL tender to Tank 3156
+MidComm.PrBus4_11.I0_2 - ZSC3032	HV3032 Closed - 10" RSD tender to Tank 3117
+MidComm.PrBus4_11.I0_3 - ZSO3032	HV3032 Opened - 10" RSD tender to Tank 3117
+MidComm.PrBus4_11.I0_4 - ZSC3116	HV3116 Closed - 10" Stove/LSD to Docks
+MidComm.PrBus4_11.I0_5 - ZSO3116	HV3116 Opened - 10" Stove/LSD to Docks
+MidComm.PrBus4_11.I0_6 - ZSC3133	HV3133 Closed - 12" Gas Export to Docks
+MidComm.PrBus4_11.I0_7 - ZSO3133	HV3133 Opened - 12" Gas Export to Docks
+MidComm.PrBus4_14.CHI0 - PI3033_IN	Distillate Booster Pump Suction Pressure
+MidComm.PrBus4_14.CHI1 - PI3034_IN	Hi Sulphur Distillate Suction Header Pressure
+MidComm.PrBus4_14.CHI2 - PI3035_IN	Hi Sulphur Distillate Discharge Header Pressure
+MidComm.PrBus4_14.CHI3	
+MidComm.PrBus17_6X.I0_0	6" Gasoline to Tk3156
+MidComm.PrBus17_6X.I0_1	10" Gasoline to Dock
+MidComm.PrBus17_6X.I0_2	6" Stove to Tk3117
+MidComm.PrBus17_6X.I0_3	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus17_6X.I0_4	10" Diesel to Dock
+MidComm.PrBus17_6X.I0_5	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_6X.I0_6	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_6X.I0_7	6'' SUL TO TK3156
+MidComm.PrBus17_2X.I0_0 - ZL3009	6" Gasoline to Tk3156
+MidComm.PrBus17_2X.I0_1 - XA3009	10" Gasoline to Dock
+MidComm.PrBus17_2X.I0_2 - ZL3010	6" Stove to Tk3117
+MidComm.PrBus17_2X.I0_3 - HL3010	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus17_2X.I0_4 - ZSC3080	10" Diesel to Dock
+MidComm.PrBus17_2X.I0_5 - ZSO3080	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_2X.I0_6 - ZSC3082	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_2X.I0_7 - ZSO3082	6'' SUL TO TK3156
+MidComm.PrBus17_3X.I0_0 - LSL3083	6" Gasoline to Tk3156
+MidComm.PrBus17_3X.I0_1 - LSH3083	10" Gasoline to Dock
+MidComm.PrBus17_3X.I0_2 - LSHH3083	6" Stove to Tk3117
+MidComm.PrBus17_3X.I0_3 - CA3009	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus17_3X.I0_4 - ZSC3037	10" Diesel to Dock
+MidComm.PrBus17_3X.I0_5 - ZSO3037	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_3X.I0_6 - ZSC3038	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_3X.I0_7 - ZSO3038	6'' SUL TO TK3156
+MidComm.PrBus17_5X.I0_0 - DI3051C	6" Gasoline to Tk3156
+MidComm.PrBus17_5X.I0_1 - DI3051O	10" Gasoline to Dock
+MidComm.PrBus17_5X.I0_2 - DI3051L	6" Stove to Tk3117
+MidComm.PrBus17_5X.I0_3 - DI3051R	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus17_5X.I0_4 - DI3051PP	10" Diesel to Dock
+MidComm.PrBus17_5X.I0_5 - LSHH3051A	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_5X.I0_6 - LSHH3051B	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_5X.I0_7	6'' SUL TO TK3156
+MidComm.PrBus17_7X.Q0_0 - HS3009	J3001 Super Green Start/Stop
+MidComm.PrBus17_7X.Q0_1 - HS3010	J3002 Rul Start/Stop
+MidComm.PrBus17_7X.Q0_2 - HS3009R	J3007 OGA Start/Stop
+MidComm.PrBus17_7X.Q0_3 - HS3009G	J3011 Dye Start/Stop
+MidComm.PrBus17_7X.Q0_4 - HS3084A	Tank 3156 Mixer Start/Stop
+MidComm.PrBus17_7X.Q0_5 - HS3084B	Import Gasoline Booster Pump Start/Stop
+MidComm.PrBus17_7X.Q0_6 - HS3082	J3006A Import Pump Start/Stop
+MidComm.PrBus17_7X.Q0_7 - HS3116	Tk2196 Mixer Start/Stop
+MidComm.PrBus17_4X.I0_0 - ZSC3039	6" Gasoline to Tk3156
+MidComm.PrBus17_4X.I0_1 - ZSO3039	10" Gasoline to Dock
+MidComm.PrBus17_4X.I0_2 - ZSC3171	6" Stove to Tk3117
+MidComm.PrBus17_4X.I0_3 - ZSO3171	10'' RUL TO TANK3156 OPEN
+MidComm.PrBus17_4X.I0_4 - ZSC3172	10" Diesel to Dock
+MidComm.PrBus17_4X.I0_5 - ZSO3172	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_4X.I0_6 - ZL3116	HV3036 Tank 2196 Finished SUL91 Gasoline
+MidComm.PrBus17_4X.I0_7 - HL3116	6'' SUL TO TK3156
+MidComm.PrBus17_13X.CHI0 - TI3084A_IN	Tank 3296 Zone 1 Temperature
+MidComm.PrBus17_13X.CHI1 - TI3084B_IN	Tank 3296 Zone 2 Temperature
+MidComm.PrBus17_13X.CHI2 - FI3085_DP	Padding Air to Tank 3296 Flow -- Diff. pressure
+MidComm.PrBus17_13X.CHI3 - AI3007_IN	West Side H2O HC Detector
+MidComm.PrBus17_8X.Q0_0 - DO3051O	J3001 Super Green Start/Stop
+MidComm.PrBus17_8X.Q0_1 - DO3051C	J3002 Rul Start/Stop
+MidComm.PrBus17_8X.Q0_2 - DO3051S	J3007 OGA Start/Stop
+MidComm.PrBus17_8X.Q0_3	J3011 Dye Start/Stop
+MidComm.PrBus17_8X.Q0_4	Tank 3156 Mixer Start/Stop
+MidComm.PrBus17_8X.Q0_5	Import Gasoline Booster Pump Start/Stop
+MidComm.PrBus17_8X.Q0_6	J3006A Import Pump Start/Stop
+MidComm.PrBus17_8X.Q0_7	Tk2196 Mixer Start/Stop
+MidComm.PrBus17_9X.Q0_0	J3001 Super Green Start/Stop
+MidComm.PrBus17_9X.Q0_1	J3002 Rul Start/Stop
+MidComm.PrBus17_9X.Q0_2	J3007 OGA Start/Stop
+MidComm.PrBus17_9X.Q0_3	J3011 Dye Start/Stop
+MidComm.PrBus17_9X.Q0_4	Tank 3156 Mixer Start/Stop
+MidComm.PrBus17_9X.Q0_5	Import Gasoline Booster Pump Start/Stop
+MidComm.PrBus17_9X.Q0_6	J3006A Import Pump Start/Stop
+MidComm.PrBus17_9X.Q0_7	Tk2196 Mixer Start/Stop
+MidComm.PrBus17_10X.CHQ0 - LI3087B	Tank 3296 Remaining Capacity
+MidComm.PrBus17_10X.CHQ1	
+MidComm.PrBus17_10X.CHQ2	
+MidComm.PrBus17_10X.CHQ3	
+MidComm.PrBus17_11X.CHI0 - AI3080_IN	BioDiesel Unloading Sump HC Detector
+MidComm.PrBus17_11X.CHI1 - PI3080_IN	J-3009 Suction Pressure
+MidComm.PrBus17_11X.CHI2 - FI3081_IN	B100 to Tank 3296 Flow
+MidComm.PrBus17_11X.CHI3 - TI3081_IN	B100 to Tank 3296 Temperature
+MidComm.PrBus17_12X.CHI0 - PI3086_IN	B100 to Upper Terminal Pressure
+MidComm.PrBus17_12X.CHI1 - PDI3088_IN	BioDiesel Filter L-3009 Differential Pressure
+MidComm.PrBus17_12X.CHI2 - AI3014A_IN	MP Manifold Area Hydrocarbon Detector #1
+MidComm.PrBus17_12X.CHI3 - AI3014B_IN	MP Manifold Area Hydrocarbon Detector #2
+MidComm.PrBus5_2.I0_0 - M10PMP	Accuload Meter 10 Pump Start Request
+MidComm.PrBus5_2.I0_1 - CA3051	Accuload Meter 10 Fault
+MidComm.PrBus5_2.I0_2 - M20PMP	Accuload Meter 20 Pump Start Request
+MidComm.PrBus5_2.I0_3 - CA3052	Accuload Meter 20 Fault
+MidComm.PrBus5_2.I0_4 - M20BVR1	Accuload Meter 20 Product 1 (RUL) Request
+MidComm.PrBus5_2.I0_5 - M10BVR2	Accuload Meter 10 Product 2 (ETH) Request
+MidComm.PrBus5_2.I0_6 - M20BVR2	Accuload Meter 20 Product 2 (ETH) Request
+MidComm.PrBus5_2.I0_7 - M10BVR1	Accuload Meter 10 Product 1 (RUL) Request
+MidComm.PrBus5_3.I0_0 - XA3051	OGA Rul Injector Cycle Complete
+MidComm.PrBus5_3.I0_1 - P3007I01	OGA Additive Pump Start/Stop
+MidComm.PrBus5_3.I0_2 - XA3052	OGASul Cycle Complete
+MidComm.PrBus5_3.I0_3	
+MidComm.PrBus5_3.I0_4 - XA3053	Dye RUL Injector Cycle Complete
+MidComm.PrBus5_3.I0_5 - P3011I01	Dye Additive Pump Start/Stop
+MidComm.PrBus5_3.I0_6	
+MidComm.PrBus5_3.I0_7	
+MidComm.PrBus5_4.I0_0	
+MidComm.PrBus5_4.I0_1	
+MidComm.PrBus5_4.I0_2	
+MidComm.PrBus5_4.I0_3	
+MidComm.PrBus5_4.I0_4	
+MidComm.PrBus5_4.I0_5	
+MidComm.PrBus5_4.I0_6	
+MidComm.PrBus5_4.I0_7	
+MidComm.PrBus5_5.Q0_0 - M10BVF1	Accuload Meter 10 Product 1 (RUL) Ready
+MidComm.PrBus5_5.Q0_1 - M10BVF2	Accuload Meter 10 Product 2 (ETH) Ready
+MidComm.PrBus5_5.Q0_2 - M20BVF1	Accuload Meter 20 Product 1 (RUL) Ready
+MidComm.PrBus5_5.Q0_3 - M20BVF2	Accuload Meter 20 Product 2 (ETH) Ready
+MidComm.PrBus5_5.Q0_4	
+MidComm.PrBus5_5.Q0_5	
+MidComm.PrBus5_5.Q0_6	
+MidComm.PrBus5_5.Q0_7	
+MidComm.PrBus6_2.I0_0 - HL3022	J3022 Slop Pump Auto Selected
+MidComm.PrBus6_2.I0_1 - ZL3022	J3022 Slop Pump Running
+MidComm.PrBus6_2.I0_2 - LAL3010	Tank 2195 LO Level Alarm
+MidComm.PrBus6_2.I0_3 - LAHH3010	Tank 2195 HIHI Level Alarm
+MidComm.PrBus6_2.I0_4 - LAL3011	Tank 2198 LO Level Alarm
+MidComm.PrBus6_2.I0_5 - LAHH3011	Tank 2198 HIHI Level Alarm
+MidComm.PrBus6_2.I0_6 - FAL3010	J3022 Slop Pump Low Flow SD
+MidComm.PrBus6_2.I0_7 - DI3050C	MOV3050 CLOSED
+MidComm.PrBus6_3.I0_0 - HL3019	J3019 Unloading Pmp1 Auto Selected
+MidComm.PrBus6_3.I0_1 - ZL3019	J3019 Unloading Pmp1 Running
+MidComm.PrBus6_3.I0_2 - HL3020	J3020 Unloading Pmp2 Auto Select
+MidComm.PrBus6_3.I0_3 - ZL3020	J3020 Unloading Pmp2 Running
+MidComm.PrBus6_3.I0_4 - DI3050O	MOV3050 OPENED
+MidComm.PrBus6_3.I0_5 - DI3050L	MOV3050 LOCAL SELECTED
+MidComm.PrBus6_3.I0_6 - DI3050R	MOV3050 REMOTE SELECTED
+MidComm.PrBus6_3.I0_7 - DI3050PP	MOV3050 MONITOR RELAY
+MidComm.PrBus6_4.Q0_0 - HS3022	J3022 Slop Pump Start/Stop
+MidComm.PrBus6_4.Q0_1 - HS3019	J3019 Unloading Pmp1 Start/Stop
+MidComm.PrBus6_4.Q0_2 - HS3020	J3020 Unloading Pmp2 Start/Stop
+MidComm.PrBus6_4.Q0_3	Output channel 3
+MidComm.PrBus6_4.Q0_4 - DO3050O	OPEN MOV3050
+MidComm.PrBus6_4.Q0_5 - DO3050C	CLOSE MOV3050
+MidComm.PrBus6_4.Q0_6 - DO3050S	STOP MOV3050
+MidComm.PrBus6_4.Q0_7	Output channel 7
+MidComm.PrBus6_7.CHI0 - AI3090_IN	STORM INTERCEPTOR HYDROCARBON DETECTOR
+MidComm.PrBus6_7.CHI1	Input channel 1
+MidComm.PrBus6_7.CHI2	Input channel 2
+MidComm.PrBus6_7.CHI3	Input channel 3
+MidComm.PrBus6_7.CHI4	Input channel 4
+MidComm.PrBus6_7.CHI5	Input channel 5
+MidComm.PrBus6_7.CHI6	Input channel 6
+MidComm.PrBus6_7.CHI7	Input channel 7
+MidComm.IO6S06DI.I0_0 - ZSC3045	FOAM MOV 3045 - CLOSED
+MidComm.IO6S06DI.I0_1 - ZSO3045	FOAM MOV 3045 - OPENED
+MidComm.IO6S06DI.I0_2 - ZSM3045	FOAM MOV 3045 - MOTOR RUNNING
+MidComm.IO6S06DI.I0_3 - ZSR3045	FOAM MOV 3045 - REMOTE
+MidComm.IO6S06DI.I0_4 - ZSP3045	FOAM MOV 3045 - POWER PRESENT STATUS
+MidComm.IO6S06DI.I0_5 - ZSA3045	FOAM MOV 3045 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S06DI.I0_6 - ZSL3045	FOAM MOV 3045 - LOCAL
+MidComm.IO6S06DI.I0_7	spare
+MidComm.IO6S06DI.I1_0 - ZSC3046	FOAM MOV 3046 - CLOSED
+MidComm.IO6S06DI.I1_1 - ZSO3046	FOAM MOV 3046 - OPENED
+MidComm.IO6S06DI.I1_2 - ZSM3046	FOAM MOV 3046 - MOTOR RUNNING
+MidComm.IO6S06DI.I1_3 - ZSR3046	FOAM MOV 3046 - REMOTE
+MidComm.IO6S06DI.I1_4 - ZSA3046	FOAM MOV 3046 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S06DI.I1_5 - ZSB3046	FOAM MOV 3046 - Batterie Low
+MidComm.IO6S06DI.I1_6 - ZSL3046	FOAM MOV 3046 - LOCAL
+MidComm.IO6S06DI.I1_7	spare
+MidComm.IO6S07SPARE.I0_0	Input channel 0
+MidComm.IO6S07SPARE.I0_1	Input channel 1
+MidComm.IO6S07SPARE.I0_2	Input channel 2
+MidComm.IO6S07SPARE.I0_3	Input channel 3
+MidComm.IO6S07SPARE.I0_4	Input channel 4
+MidComm.IO6S07SPARE.I0_5	Input channel 5
+MidComm.IO6S07SPARE.I0_6	Input channel 6
+MidComm.IO6S07SPARE.I0_7	Input channel 7
+MidComm.IO6S07SPARE.I1_0	Input channel 8
+MidComm.IO6S07SPARE.I1_1	Input channel 9
+MidComm.IO6S07SPARE.I1_2	Input channel 10
+MidComm.IO6S07SPARE.I1_3	Input channel 11
+MidComm.IO6S07SPARE.I1_4	Input channel 12
+MidComm.IO6S07SPARE.I1_5	Input channel 13
+MidComm.IO6S07SPARE.I1_6	Input channel 14
+MidComm.IO6S07SPARE.I1_7	Input channel 15
+MidComm.IO6S04DI.I0_0 - ZSC3041	FOAM MOV 3041 - CLOSED
+MidComm.IO6S04DI.I0_1 - ZSO3041	FOAM MOV 3041 - OPENED
+MidComm.IO6S04DI.I0_2 - ZSM3041	FOAM MOV 3041 - MOTOR RUNNING
+MidComm.IO6S04DI.I0_3 - ZSR3041	FOAM MOV 3041 - REMOTE
+MidComm.IO6S04DI.I0_4 - ZSP3041	FOAM MOV 3041 - POWER PRESENT STATUS
+MidComm.IO6S04DI.I0_5 - ZSA3041	FOAM MOV 3041 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S04DI.I0_6 - ZSL3041	FOAM MOV 3041 - LOCAL
+MidComm.IO6S04DI.I0_7	spare
+MidComm.IO6S04DI.I1_0 - ZSC3042	FOAM MOV 3042 - CLOSED
+MidComm.IO6S04DI.I1_1 - ZSO3042	FOAM MOV 3042 - OPENED
+MidComm.IO6S04DI.I1_2 - ZSM3042	FOAM MOV 3042 - MOTOR RUNNING
+MidComm.IO6S04DI.I1_3 - ZSR3042	FOAM MOV 3042 - REMOTE
+MidComm.IO6S04DI.I1_4 - ZSP3042	FOAM MOV 3042 - POWER PRESENT STATUS
+MidComm.IO6S04DI.I1_5 - ZSA3042	FOAM MOV 3042 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S04DI.I1_6 - ZSL3042	FOAM MOV 3042 - LOCAL
+MidComm.IO6S04DI.I1_7	spare
+MidComm.IO6S05DI.I0_0 - ZSC3043	FOAM MOV 3043 - CLOSED
+MidComm.IO6S05DI.I0_1 - ZSO3043	FOAM MOV 3043 - OPENED
+MidComm.IO6S05DI.I0_2 - ZSM3043	FOAM MOV 3043 - MOTOR RUNNING
+MidComm.IO6S05DI.I0_3 - ZSR3043	FOAM MOV 3043 - REMOTE
+MidComm.IO6S05DI.I0_4 - ZSP3043	FOAM MOV 3043 - POWER PRESENT STATUS
+MidComm.IO6S05DI.I0_5 - ZSA3043	FOAM MOV 3043 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S05DI.I0_6 - ZSL3043	FOAM MOV 3043 - LOCAL
+MidComm.IO6S05DI.I0_7	spare
+MidComm.IO6S05DI.I1_0 - ZSC3044	FOAM MOV 3044 - CLOSED
+MidComm.IO6S05DI.I1_1 - ZSO3044	FOAM MOV 3044 - OPENED
+MidComm.IO6S05DI.I1_2 - ZSM3044	FOAM MOV 3044 - MOTOR RUNNING
+MidComm.IO6S05DI.I1_3 - ZSR3044	FOAM MOV 3044 - REMOTE
+MidComm.IO6S05DI.I1_4 - ZSP3044	FOAM MOV 3044 - POWER PRESENT STATUS
+MidComm.IO6S05DI.I1_5 - ZSA3044	FOAM MOV 3044 - MOTOR TRANSF. THERMOSTAT STATUS
+MidComm.IO6S05DI.I1_6 - ZSL3044	FOAM MOV 3044 - LOCAL
+MidComm.IO6S05DI.I1_7	spare
+MidComm.IO6S08DO.Q0_0	spare
+MidComm.IO6S08DO.Q0_1	spare
+MidComm.IO6S08DO.Q0_2	spare
+MidComm.IO6S08DO.Q0_3	spare
+MidComm.IO6S08DO.Q0_4	spare
+MidComm.IO6S08DO.Q0_5	spare
+MidComm.IO6S08DO.Q0_6	spare
+MidComm.IO6S08DO.Q0_7	spare
+MidComm.IO6S09DO.Q0_0	spare
+MidComm.IO6S09DO.Q0_1	spare
+MidComm.IO6S09DO.Q0_2	spare
+MidComm.IO6S09DO.Q0_3	spare
+MidComm.IO6S09DO.Q0_4	spare
+MidComm.IO6S09DO.Q0_5	spare
+MidComm.IO6S09DO.Q0_6	spare
+MidComm.IO6S09DO.Q0_7	spare
+MidComm.IO6S10AI.CHI0 - PT3060	FOAM SHED - Firewater Pressure Transmitter
+MidComm.IO6S10AI.CHI1 - IT3014	FOAM SHED - Firewater Booster - Current Monitoring
+MidComm.IO6S10AI.CHI2	Input channel 2
+MidComm.IO6S10AI.CHI3	Input channel 3
+MidComm.IO6S10AI.CHI4	Input channel 4
+MidComm.IO6S10AI.CHI5	Input channel 5
+MidComm.IO6S10AI.CHI6	Input channel 6
+MidComm.IO6S10AI.CHI7	Input channel 7
+LowComm.PrBus19_2.I0_0 - HL4203A	Sump Pump 1 Auto Selected
+LowComm.PrBus19_2.I0_1 - ZL4203A	Sump Pump 1 Running
+LowComm.PrBus19_2.I0_2 - HL4203B	Sump Pump 2 Auto Selected
+LowComm.PrBus19_2.I0_3 - ZL4203B	Sump Pump 2 Running
+LowComm.PrBus19_2.I0_4 - LAH4203	Level Switch High
+LowComm.PrBus19_2.I0_5 - PAL4202	Lower Plant Water System Pressure Low
+LowComm.PrBus19_2.I0_6 - XA4200	FAP System Trouble Zone 1
+LowComm.PrBus19_2.I0_7 - QA4200	Fire Alarm Zone 1
+LowComm.PrBus19_3.I0_0 - EA4201A	MAINT ELEC UPS AC FAIL
+LowComm.PrBus19_3.I0_1 - EA4201B	MAINT ELEC UPS BATTERY LOW
+LowComm.PrBus19_3.I0_2 - CA4004	Lower Plant Genset Trouble Alarm
+LowComm.PrBus19_3.I0_3 - ZL4004	Lower Plant Genset Running
+LowComm.PrBus19_3.I0_4 - FIRE_WEST	Input channel 4
+LowComm.PrBus19_3.I0_5 - FIRE_EAST	Input channel 5
+LowComm.PrBus19_3.I0_6 - QA4220	Input channel 6
+LowComm.PrBus19_3.I0_7	Input channel 7
+LowComm.PrBus19_4.I0_0	Input channel 0
+LowComm.PrBus19_4.I0_1	Input channel 1
+LowComm.PrBus19_4.I0_2	Input channel 2
+LowComm.PrBus19_4.I0_3	Input channel 3
+LowComm.PrBus19_4.I0_4	Input channel 4
+LowComm.PrBus19_4.I0_5	Input channel 5
+LowComm.PrBus19_4.I0_6	Input channel 6
+LowComm.PrBus19_4.I0_7	Input channel 7
+LowComm.PrBus19_5.Q0_0 - HS4203A	Sump Pump 1 Start
+LowComm.PrBus19_5.Q0_1 - HS4203B	Sump Pump 2 Start
+LowComm.PrBus19_5.Q0_2	
+LowComm.PrBus19_5.Q0_3	
+LowComm.PrBus19_5.Q0_4	
+LowComm.PrBus19_5.Q0_5	
+LowComm.PrBus19_5.Q0_6	
+LowComm.PrBus19_5.Q0_7	
+LowComm.PrBus19_6.Q0_0 - DVZ101	Deluge Valve North Zone 1
+LowComm.PrBus19_6.Q0_1 - DVZ102	Deluge Valve South Zone 1
+LowComm.PrBus19_6.Q0_2 - DVZ103	Deluge Valve Trench Zone 1
+LowComm.PrBus19_6.Q0_3 - DVZ201	Deluge Valve Zone 2
+LowComm.PrBus19_6.Q0_4	
+LowComm.PrBus19_6.Q0_5	
+LowComm.PrBus19_6.Q0_6 - SV4201A_IN	Rail Spur West Deluge Solenoid
+LowComm.PrBus19_6.Q0_7 - SV4201B_IN	Rail Spur East Deluge Solenoid
+LowComm.PrBus19_7.CHI0 - AI4204A_IN	Rail Rack Ethanol Gas Detector #1
+LowComm.PrBus19_7.CHI1 - AI4204B_IN	Rail Rack Ethanol Gas Detector #2
+LowComm.PrBus19_7.CHI2 - AI4204C_IN	Rail Rack Ethanol Gas Detector #3
+LowComm.PrBus19_7.CHI3 - AI4204D_IN	Rail Rack Ethanol Gas Detector #4
+LowComm.PrBus19_7.CHI4 - AI4204E_IN	Rail Rack Ethanol Gas Detector #5
+LowComm.PrBus19_7.CHI5 - AI4204F_IN	Rail Rack Ethanol Gas Detector #6
+LowComm.PrBus19_7.CHI6 - AI4207A_IN	Rail Rack Hydrocarbon Gas Detector #1
+LowComm.PrBus19_7.CHI7 - AI4207B_IN	Rail Rack Hydrocarbon Gas Detector #2
+LowComm.PrBus19_8.CHI0 - AI4207C_IN	Rail Rack Hydrocarbon Gas Detector #3
+LowComm.PrBus19_8.CHI1 - AI4207D_IN	Rail Rack Hydrocarbon Gas Detector #4
+LowComm.PrBus19_8.CHI2 - AI4207E_IN	Rail Rack Hydrocarbon Gas Detector #5
+LowComm.PrBus19_8.CHI3	
+LowComm.PrBus19_8.CHI4	
+LowComm.PrBus19_8.CHI5	
+LowComm.PrBus19_8.CHI6	
+LowComm.PrBus19_8.CHI7	
+LowComm.PrBus19_9.CHI0	
+LowComm.PrBus19_9.CHI1	
+LowComm.PrBus19_9.CHI2	
+LowComm.PrBus19_9.CHI3	
+LowComm.PrBus19_9.CHI4	
+LowComm.PrBus19_9.CHI5	
+LowComm.PrBus19_9.CHI6	
+LowComm.PrBus19_9.CHI7	
+LowComm.PrBus22_2.I0_0 - XA4204	First Aid Alarm
+LowComm.PrBus22_2.I0_1 - EA4230A	OPS COMP ROOM UPS AC FAIL
+LowComm.PrBus22_2.I0_2 - EA4230B	OPS COMP ROOM UPS  BATTERY LOW
+LowComm.PrBus22_2.I0_3 - XA4218	OPS FAP SYSTEM TROUBLE
+LowComm.PrBus22_2.I0_4 - QA4218	OPS BUILDING FIRE ALARM
+LowComm.PrBus22_2.I0_5	Input channel 5
+LowComm.PrBus22_2.I0_6	Input channel 6
+LowComm.PrBus22_2.I0_7	Input channel 7
+LowComm.PrBus22_3.I0_0	Input channel 0
+LowComm.PrBus22_3.I0_1	Input channel 1
+LowComm.PrBus22_3.I0_2	Input channel 2
+LowComm.PrBus22_3.I0_3	Input channel 3
+LowComm.PrBus22_3.I0_4	Input channel 4
+LowComm.PrBus22_3.I0_5	Input channel 5
+LowComm.PrBus22_3.I0_6	Input channel 6
+LowComm.PrBus22_3.I0_7	Input channel 7
+LowComm.PrBus22_4.Q0_0	
+LowComm.PrBus22_4.Q0_1	
+LowComm.PrBus22_4.Q0_2	
+LowComm.PrBus22_4.Q0_3	
+LowComm.PrBus22_4.Q0_4	
+LowComm.PrBus22_4.Q0_5	
+LowComm.PrBus22_4.Q0_6	
+LowComm.PrBus22_4.Q0_7	
+LowComm.PrBus22_5.CHI0 - AI4280A_IN	OIL/WATER Separator North Hydrocarbon Detect
+LowComm.PrBus22_5.CHI1 - AI4280B_IN	OIL/WATER Separator South Hydrocarbon Detect
+LowComm.PrBus22_5.CHI2	
+LowComm.PrBus22_5.CHI3	
+LowComm.PrBus22_5.CHI4	
+LowComm.PrBus22_5.CHI5	
+LowComm.PrBus22_5.CHI6	
+LowComm.PrBus22_5.CHI7	
+LowComm.PrBus15_2.I0_0 - ZSO4252	Rail Rack Stove South #1 MOV Opened
+LowComm.PrBus15_2.I0_1 - ZSC4252	Rail Rack Stove South #1 MOV Closed
+LowComm.PrBus15_2.I0_2 - ZSO4262	Rail Rack ULSD South #1 MOV Opened
+LowComm.PrBus15_2.I0_3 - ZSC4262	Rail Rack ULSD South #1 MOV Closed
+LowComm.PrBus15_2.I0_4 - ZSO4254	Rail Rack Stove South #3 MOV Opened
+LowComm.PrBus15_2.I0_5 - ZSC4254	Rail Rack Stove South #3 MOV Closed
+LowComm.PrBus15_2.I0_6 - ZSO4264	Rail Rack ULSD South #3 MOV Opened
+LowComm.PrBus15_2.I0_7 - ZSC4264	Rail Rack ULSD South #3 MOV Closed
+LowComm.PrBus15_3.I0_0 - ZSO4256	Rail Rack Stove South #4 MOV Opened
+LowComm.PrBus15_3.I0_1 - ZSC4256	Rail Rack Stove South #4 MOV Closed
+LowComm.PrBus15_3.I0_2 - ZSO4266	Rail Rack ULSD South #4 MOV Opened
+LowComm.PrBus15_3.I0_3 - ZSC4266	Rail Rack ULSD South #4 MOV Closed
+LowComm.PrBus15_3.I0_4 - ZSO4258	Rail Rack Stove South #5 MOV Opened
+LowComm.PrBus15_3.I0_5 - ZSC4258	Rail Rack Stove South #5 MOV Closed
+LowComm.PrBus15_3.I0_6 - ZSO4268	Rail Rack ULSD South #5 MOV Opened
+LowComm.PrBus15_3.I0_7 - ZSC4268	Rail Rack ULSD South #5 MOV Closed
+LowComm.PrBus15_4.I0_0 - P4252I01	South Rail Accuload Meter #1 Stop
+LowComm.PrBus15_4.I0_1 - CA4252	South Rail Accuload Meter #1 Fault
+LowComm.PrBus15_4.I0_2 - P4254I01	South Rail Accuload Meter #3 Stop
+LowComm.PrBus15_4.I0_3 - CA4254	South Rail Accuload Meter #3 Fault
+LowComm.PrBus15_4.I0_4 - P4256I01	South Rail Accuload Meter #4 Stop
+LowComm.PrBus15_4.I0_5 - CA4256	South Rail Accuload Meter #4 Fault
+LowComm.PrBus15_4.I0_6 - P4258I01	South Rail Accuload Meter #5 Stop
+LowComm.PrBus15_4.I0_7 - CA4258	South Rail Accuload Meter #5 Fault
+LowComm.PrBus15_5.I0_0 - XA4224	South Rail #1 Tank Car Grounding
+LowComm.PrBus15_5.I0_1 - XA4232	South Rail #1 Tank Car Level High
+LowComm.PrBus15_5.I0_2 - XA4225	South Rail #3 Tank Car Grounding
+LowComm.PrBus15_5.I0_3 - XA4233	South Rail #3 Tank Car Level High
+LowComm.PrBus15_5.I0_4 - XA4226	South Rail #4 Tank Car Grounding
+LowComm.PrBus15_5.I0_5 - XA4234	South Rail #4 Tank Car Level High
+LowComm.PrBus15_5.I0_6 - XA4227	South Rail #5 Tank Car Grounding
+LowComm.PrBus15_5.I0_7 - XA4235	South Rail #5 Tank Car Level High
+LowComm.PrBus15_6.I0_0 - XA4221	Rail Car Emergency Shutdown
+LowComm.PrBus15_6.I0_1 - EA4222A	Rail Rack UPS AC Fail
+LowComm.PrBus15_6.I0_2 - EA4222B	Rail Rack UPS Battery Low
+LowComm.PrBus15_6.I0_3 - XA4223	Rail Rack Building Loss of Pressure
+LowComm.PrBus15_6.I0_4	
+LowComm.PrBus15_6.I0_5	
+LowComm.PrBus15_6.I0_6	
+LowComm.PrBus15_6.I0_7	
+LowComm.PrBus15_7.I0_0 - HL4252	Rail Rack Stove South #1 MOV Request
+LowComm.PrBus15_7.I0_1 - HL4262	Rail Rack ULSD South #1 MOV Request
+LowComm.PrBus15_7.I0_2 - HL4254	Rail Rack Stove South #3 MOV Request
+LowComm.PrBus15_7.I0_3 - HL4264	Rail Rack ULSD South #3 MOV Request
+LowComm.PrBus15_7.I0_4 - HL4256	Rail Rack Stove South #4 MOV Request
+LowComm.PrBus15_7.I0_5 - HL4266	Rail Rack ULSD South #4 MOV Request
+LowComm.PrBus15_7.I0_6 - HL4258	Rail Rack Stove South #5 MOV Request
+LowComm.PrBus15_7.I0_7 - HL4268	Rail Rack ULSD South #5 MOV Request
+LowComm.PrBus15_8.I0_0	
+LowComm.PrBus15_8.I0_1	
+LowComm.PrBus15_8.I0_2	
+LowComm.PrBus15_8.I0_3	
+LowComm.PrBus15_8.I0_4	
+LowComm.PrBus15_8.I0_5	
+LowComm.PrBus15_8.I0_6	
+LowComm.PrBus15_8.I0_7	
+LowComm.PrBus15_9.I0_0	
+LowComm.PrBus15_9.I0_1	
+LowComm.PrBus15_9.I0_2	
+LowComm.PrBus15_9.I0_3	
+LowComm.PrBus15_9.I0_4	
+LowComm.PrBus15_9.I0_5	
+LowComm.PrBus15_9.I0_6	
+LowComm.PrBus15_9.I0_7	
+LowComm.PrBus15_10.Q0_0 - XV4252	Rail Rack Stove South #1 MOV Open
+LowComm.PrBus15_10.Q0_1 - XV4262	Rail Rack ULSD South #1 MOV Open
+LowComm.PrBus15_10.Q0_2 - XV4254	Rail Rack Stove South #3 MOV Open
+LowComm.PrBus15_10.Q0_3 - XV4264	Rail Rack ULSD South #3 MOV Open
+LowComm.PrBus15_10.Q0_4 - XV4256	Rail Rack Stove South #4 MOV Open
+LowComm.PrBus15_10.Q0_5 - XV4266	Rail Rack ULSD South #4 MOV Open
+LowComm.PrBus15_10.Q0_6 - XV4258	Rail Rack Stove South #5 MOV Open
+LowComm.PrBus15_10.Q0_7 - XV4268	Rail Rack ULSD South #5 MOV Open
+LowComm.PrBus15_11.Q0_0 - HS4252	South Rail Accuload Meter #1 Start Permissive
+LowComm.PrBus15_11.Q0_1 - HS4254	South Rail Accuload Meter #3 Start Permissive
+LowComm.PrBus15_11.Q0_2 - HS4256	South Rail Accuload Meter #4 Start Permissive
+LowComm.PrBus15_11.Q0_3 - HS4258	South Rail Accuload Meter #5 Start Permissive
+LowComm.PrBus15_11.Q0_4	
+LowComm.PrBus15_11.Q0_5	
+LowComm.PrBus15_11.Q0_6	
+LowComm.PrBus15_11.Q0_7	
+LowComm.PrBus15_12.Q0_0	
+LowComm.PrBus15_12.Q0_1	
+LowComm.PrBus15_12.Q0_2	
+LowComm.PrBus15_12.Q0_3	
+LowComm.PrBus15_12.Q0_4	
+LowComm.PrBus15_12.Q0_5	
+LowComm.PrBus15_12.Q0_6	
+LowComm.PrBus15_12.Q0_7	
+LowComm.PrBus15_13.Q0_0	
+LowComm.PrBus15_13.Q0_1	
+LowComm.PrBus15_13.Q0_2	
+LowComm.PrBus15_13.Q0_3	
+LowComm.PrBus15_13.Q0_4	
+LowComm.PrBus15_13.Q0_5	
+LowComm.PrBus15_13.Q0_6	
+LowComm.PrBus15_13.Q0_7	
+LowComm.PrBus15_14.I0_0 - ZSO4251	Rail Rack Stove North #1 MOV Opened
+LowComm.PrBus15_14.I0_1 - ZSC4251	Rail Rack Stove North #1 MOV Closed
+LowComm.PrBus15_14.I0_2 - ZSO4261	Rail Rack ULSD North #1 MOV Opened
+LowComm.PrBus15_14.I0_3 - ZSC4261	Rail Rack ULSD North #1 MOV Closed
+LowComm.PrBus15_14.I0_4 - ZSO4253	Rail Rack Stove North #3 MOV Opened
+LowComm.PrBus15_14.I0_5 - ZSC4253	Rail Rack Stove North #3 MOV Closed
+LowComm.PrBus15_14.I0_6 - ZSO4263	Rail Rack ULSD North #3 MOV Opened
+LowComm.PrBus15_14.I0_7 - ZSC4263	Rail Rack ULSD North #3 MOV Closed
+LowComm.PrBus15_15.I0_0 - ZSO4255	Rail Rack Stove North #4 MOV Opened
+LowComm.PrBus15_15.I0_1 - ZSC4255	Rail Rack Stove North #4 MOV Closed
+LowComm.PrBus15_15.I0_2 - ZSO4265	Rail Rack ULSD North #4 MOV Opened
+LowComm.PrBus15_15.I0_3 - ZSC4265	Rail Rack ULSD North #4 MOV Closed
+LowComm.PrBus15_15.I0_4 - ZSO4257	Rail Rack Stove North #5 MOV Opened
+LowComm.PrBus15_15.I0_5 - ZSC4257	Rail Rack Stove North #5 MOV Closed
+LowComm.PrBus15_15.I0_6 - ZSO4267	Rail Rack ULSD North #5 MOV Opened
+LowComm.PrBus15_15.I0_7 - ZSC4267	Rail Rack ULSD North #5 MOV Closed
+LowComm.PrBus15_16.I0_0 - P4251I01	North Rail Accuload Meter #1 Stop
+LowComm.PrBus15_16.I0_1 - CA4251	North Rail Accuload Meter #1 Fault
+LowComm.PrBus15_16.I0_2 - P4253I01	North Rail Accuload Meter #3 Stop
+LowComm.PrBus15_16.I0_3 - CA4253	North Rail Accuload Meter #3 Fault
+LowComm.PrBus15_16.I0_4 - P4255I01	North Rail Accuload Meter #4 Stop
+LowComm.PrBus15_16.I0_5 - CA4255	North Rail Accuload Meter #4 Fault
+LowComm.PrBus15_16.I0_6 - P4257I01	North Rail Accuload Meter #5 Stop
+LowComm.PrBus15_16.I0_7 - CA4257	North Rail Accuload Meter #5 Fault
+LowComm.PrBus15_17.I0_0 - XA4228	North Rail #1 Tank Car Grounding
+LowComm.PrBus15_17.I0_1 - XA4236	North Rail #1 Tank Car Level High
+LowComm.PrBus15_17.I0_2 - XA4229	North Rail #3 Tank Car Grounding
+LowComm.PrBus15_17.I0_3 - XA4237	North Rail #3 Tank Car Level High
+LowComm.PrBus15_17.I0_4 - XA4230	North Rail #4 Tank Car Grounding
+LowComm.PrBus15_17.I0_5 - XA4238	North Rail #4 Tank Car Level High
+LowComm.PrBus15_17.I0_6 - XA4231	North Rail #5 Tank Car Grounding
+LowComm.PrBus15_17.I0_7 - XA4239	North Rail #5 Tank Car Level High
+LowComm.PrBus15_18.I0_0 - HL4251	Rail Rack Stove North #1 MOV Request
+LowComm.PrBus15_18.I0_1 - HL4261	Rail Rack ULSD North #1 MOV Request
+LowComm.PrBus15_18.I0_2 - HL4253	Rail Rack Stove North #3 MOV Request
+LowComm.PrBus15_18.I0_3 - HL4263	Rail Rack ULSD North #3 MOV Request
+LowComm.PrBus15_18.I0_4 - HL4255	Rail Rack Stove North #4 MOV Request
+LowComm.PrBus15_18.I0_5 - HL4265	Rail Rack ULSD North #4 MOV Request
+LowComm.PrBus15_18.I0_6 - HL4257	Rail Rack Stove North #5 MOV Request
+LowComm.PrBus15_18.I0_7 - HL4267	Rail Rack ULSD North #5 MOV Request
+LowComm.PrBus15_19.I0_0	
+LowComm.PrBus15_19.I0_1	
+LowComm.PrBus15_19.I0_2	
+LowComm.PrBus15_19.I0_3	
+LowComm.PrBus15_19.I0_4	
+LowComm.PrBus15_19.I0_5	
+LowComm.PrBus15_19.I0_6	
+LowComm.PrBus15_19.I0_7	
+LowComm.PrBus15_20.I0_0	
+LowComm.PrBus15_20.I0_1	
+LowComm.PrBus15_20.I0_2	
+LowComm.PrBus15_20.I0_3	
+LowComm.PrBus15_20.I0_4	
+LowComm.PrBus15_20.I0_5	
+LowComm.PrBus15_20.I0_6	
+LowComm.PrBus15_20.I0_7	
+LowComm.PrBus15_21.Q0_0 - XV4251	Rail Rack Stove North #1 MOV Open
+LowComm.PrBus15_21.Q0_1 - XV4261	Rail Rack ULSD North #1 MOV Open
+LowComm.PrBus15_21.Q0_2 - XV4253	Rail Rack Stove North #3 MOV Open
+LowComm.PrBus15_21.Q0_3 - XV4263	Rail Rack ULSD North #3 MOV Open
+LowComm.PrBus15_21.Q0_4 - XV4255	Rail Rack Stove North #4 MOV Open
+LowComm.PrBus15_21.Q0_5 - XV4265	Rail Rack ULSD North #4 MOV Open
+LowComm.PrBus15_21.Q0_6 - XV4257	Rail Rack Stove North #5 MOV Open
+LowComm.PrBus15_21.Q0_7 - XV4267	Rail Rack ULSD North #5 MOV Open
+LowComm.PrBus15_22.Q0_0 - HS4251	North Rail Accuload Meter #1 Start Permissive
+LowComm.PrBus15_22.Q0_1 - HS4253	North Rail Accuload Meter #3 Start Permissive
+LowComm.PrBus15_22.Q0_2 - HS4255	North Rail Accuload Meter #4 Start Permissive
+LowComm.PrBus15_22.Q0_3 - HS4257	North Rail Accuload Meter #5 Start Permissive
+LowComm.PrBus15_22.Q0_4	
+LowComm.PrBus15_22.Q0_5	
+LowComm.PrBus15_22.Q0_6	
+LowComm.PrBus15_22.Q0_7	
+LowComm.PrBus15_23.Q0_0	
+LowComm.PrBus15_23.Q0_1	
+LowComm.PrBus15_23.Q0_2	
+LowComm.PrBus15_23.Q0_3	
+LowComm.PrBus15_23.Q0_4	
+LowComm.PrBus15_23.Q0_5	
+LowComm.PrBus15_23.Q0_6	
+LowComm.PrBus15_23.Q0_7	
+LowComm.PrBus15_24.Q0_0	
+LowComm.PrBus15_24.Q0_1	
+LowComm.PrBus15_24.Q0_2	
+LowComm.PrBus15_24.Q0_3	
+LowComm.PrBus15_24.Q0_4	
+LowComm.PrBus15_24.Q0_5	
+LowComm.PrBus15_24.Q0_6	
+LowComm.PrBus15_24.Q0_7	
+LowComm.RailCounter.Q0_0	
+LowComm.RailCounter.Q0_1	
+LowComm.RailCounter.Q0_2	
+LowComm.RailCounter.Q0_3	
+LowComm.RailCounter.I0_0	
+LowComm.RailCounter.I0_1	
+LowComm.RailCounter.I0_2	
+LowComm.RailCounter.I0_3	
+LowComm.RailCounter.I0_4	
+LowComm.RailCounter.I0_5	
+LowComm.RailCounter.I0_6	
+LowComm.RailCounter.I0_7	
+LowComm.RailCounterMode0.InputChannel1 - FQ4252	South Rail Meter #1 Pulse Counter
+LowComm.RailCounterMode0.InputChannel2 - FQ4254	South Rail Meter #3 Pulse Counter
+LowComm.RailCounterMode0.InputChannel3 - FQ4256	South Rail Meter #4 Pulse Counter
+LowComm.RailCounterMode0.InputChannel4 - FQ4258	South Rail Meter #5 Pulse Counter
+LowComm.RailCounterMode0.InputChannel5 - FQ4251	North Rail Meter #1 Pulse Counter
+LowComm.RailCounterMode0.InputChannel6 - FQ4253	North Rail Meter #3 Pulse Counter
+LowComm.RailCounterMode0.InputChannel7 - FQ4255	North Rail Meter #4 Pulse Counter
+LowComm.RailCounterMode0.InputChannel8 - FQ4257	North Rail Meter #5 Pulse Counter
+LowComm.RailCounterMode0.ResetChannel1 - FQ4252reset	South Rail Meter #1 Counter Reset
+LowComm.RailCounterMode0.ResetChannel2 - FQ4254reset	South Rail Meter #3 Counter Reset
+LowComm.RailCounterMode0.ResetChannel3 - FQ4256reset	South Rail Meter #4 Counter Reset
+LowComm.RailCounterMode0.ResetChannel4 - FQ4258reset	South Rail Meter #5 Counter Reset
+LowComm.RailCounterMode0.ResetChannel5 - FQ4251reset	North Rail Meter #1 Counter Reset
+LowComm.RailCounterMode0.ResetChannel6 - FQ4253reset	North Rail Meter #3 Counter Reset
+LowComm.RailCounterMode0.ResetChannel7 - FQ4255reset	North Rail Meter #4 Counter Reset
+LowComm.RailCounterMode0.ResetChannel8 - FQ4257reset	North Rail Meter #5 Counter Reset
+DockComm.PrBus11_2.I0_0 - ZSO4011	RUL to WD Meter #1 Open
+DockComm.PrBus11_2.I0_1 - ZSC4011	RUL to WD Meter #1 Closed
+DockComm.PrBus11_2.I0_2 - ZSO4012	RUL to WD Meter #2 Open
+DockComm.PrBus11_2.I0_3 - ZSC4012	RUL to WD Meter #2 Closed
+DockComm.PrBus11_2.I0_4 - ZSO4111	RUL to ED Meter #1 Open
+DockComm.PrBus11_2.I0_5 - ZSC4111	RUL to ED Meter #1 Closed
+DockComm.PrBus11_2.I0_6 - ZSO4112	RUL to ED Meter #2 Open
+DockComm.PrBus11_2.I0_7 - ZSC4112	RUL to ED Meter #2 Closed
+DockComm.PrBus11_2.I1_0 - ZSO4246	R100 TO F4201 TO RAIL OPEN
+DockComm.PrBus11_2.I1_1 - ZSC4246	R100 to F4201 TO RAIL CLOSED
+DockComm.PrBus11_2.I1_2 - ZL4049	SV4049 ENERGIZED
+DockComm.PrBus11_2.I1_3 - HL4049	SV4049 AUTO SELECT
+DockComm.PrBus11_2.I1_4 - LSHH4049	SV4049 LEVEL SWITCH HiHi ALARM
+DockComm.PrBus11_2.I1_5	
+DockComm.PrBus11_2.I1_6	
+DockComm.PrBus11_2.I1_7	
+DockComm.PrBus11_3.I0_0 - ZSO4021	SUL to WD Meter #1 Open
+DockComm.PrBus11_3.I0_1 - ZSC4021	SUL to WD Meter #1 Closed
+DockComm.PrBus11_3.I0_2 - ZSO4022	SUL to WD Meter #2 Open
+DockComm.PrBus11_3.I0_3 - ZSC4022	SUL to WD Meter #2 Closed
+DockComm.PrBus11_3.I0_4 - ZSO4121	SUL to ED Meter #1 Open
+DockComm.PrBus11_3.I0_5 - ZSC4121	SUL to ED Meter #1 Closed
+DockComm.PrBus11_3.I0_6 - ZSO4122	SUL to ED Meter #2 Open
+DockComm.PrBus11_3.I0_7 - ZSC4122	SUL to ED Meter #2 Closed
+DockComm.PrBus11_3.I1_0 - ZSO4082	HV4082-Open Feedback-Ethanol WD to TK-2197
+DockComm.PrBus11_3.I1_1 - ZSC4082	HV4082-Close Feedback-Ethanol WD to TK-2197
+DockComm.PrBus11_3.I1_2 - ZSO4281	
+DockComm.PrBus11_3.I1_3 - ZSC4281	
+DockComm.PrBus11_3.I1_4 - ZSO4279	
+DockComm.PrBus11_3.I1_5 - ZSC4279	
+DockComm.PrBus11_3.I1_6 - ZSO4236	
+DockComm.PrBus11_3.I1_7 - ZSC4236	
+DockComm.PrBus11_4.I0_0 - ZSO4031	S/D TO WD METER #3 OPEN
+DockComm.PrBus11_4.I0_1 - ZSC4031	S/D TO METER #3 CLOSED
+DockComm.PrBus11_4.I0_2 - ZSO4032	S/D TO WD METER #4 OPEN
+DockComm.PrBus11_4.I0_3 - ZSC4032	S/D TO WD METER #4 CLOSED
+DockComm.PrBus11_4.I0_4 - ZSO4131	S/D TO ED ED METER #3 OPEN
+DockComm.PrBus11_4.I0_5 - ZSC4131	S/D TO ED METER #3 CLOSED
+DockComm.PrBus11_4.I0_6 - ZSO4132	S/D TO ED METER #4 OPEN
+DockComm.PrBus11_4.I0_7 - ZSC4132	S/D TO ED METER #4 CLOSED
+DockComm.PrBus11_4.I1_0 - ZSO4241	HV4241-Open Feedback-J4201/04 to T-3157
+DockComm.PrBus11_4.I1_1 - ZSC4241	HV4241-Close Feedback-J4201/04 to T-3157
+DockComm.PrBus11_4.I1_2 - ZSO4269	HV4269-Open Feedback-J4201/04 to T-2197
+DockComm.PrBus11_4.I1_3 - ZSC4269	HV4269-Close Feedback-J4201/04 to T-2197
+DockComm.PrBus11_4.I1_4 - XA4050	SUBSTATION US2 NGR GROUND FAULT
+DockComm.PrBus11_4.I1_5 - XA4055	SUBSTATION US2 NGR RESISTOR FAULT
+DockComm.PrBus11_4.I1_6 - FSL4287B	J-4201B Ethanol Offloading Flow Switch
+DockComm.PrBus11_4.I1_7 - FSL4287C	J-4201C Ethanol Offloading Flow Switch
+DockComm.PrBus11_5.I0_0 - ZSO4041	RSD to WD Meter #3 Open
+DockComm.PrBus11_5.I0_1 - ZSC4041	RSD to WD Meter #3 Closed
+DockComm.PrBus11_5.I0_2 - ZSO4042	RSD to WD Meter #4 Open
+DockComm.PrBus11_5.I0_3 - ZSC4042	RSD to WD Meter #4 Closed
+DockComm.PrBus11_5.I0_4 - ZSO4141	RSD to ED Meter #3 Open
+DockComm.PrBus11_5.I0_5 - ZSC4141	RSD to ED Meter #3 Closed
+DockComm.PrBus11_5.I0_6 - ZSO4142	RSD to ED Meter #4 Open
+DockComm.PrBus11_5.I0_7 - ZSC4142	RSD to ED Meter #4 Closed
+DockComm.PrBus11_6.I0_0 - ZSC4005	6" Gas to Header (dual service)
+DockComm.PrBus11_6.I0_1 - ZSC4015	Tank 3156 to WD Meter #1
+DockComm.PrBus11_6.I0_2 - ZSC4025	Tank 2196 to WD Meter #2
+DockComm.PrBus11_6.I0_3	
+DockComm.PrBus11_6.I0_4 - ZSC4030	Stove/Diesel to Export
+DockComm.PrBus11_6.I0_5 - ZSC4035	Tank 3117 to WD Meter #3
+DockComm.PrBus11_6.I0_6 - ZSC4040	RSD to Export
+DockComm.PrBus11_6.I0_7 - ZSC4045	Tank 3157 to WD Meter #4
+DockComm.PrBus11_7.I0_0 - ZSC4115	Tank 3156 to ED Meter #2
+DockComm.PrBus11_7.I0_1 - ZSC4125	Tank 2196 to ED Meter #1
+DockComm.PrBus11_7.I0_2 - ZSC4126	Tank 2197 to ED Meter #1
+DockComm.PrBus11_7.I0_3 - ZSC4135	Tank 3117 to ED Meter #3
+DockComm.PrBus11_7.I0_4 - ZSC4145	Tank 3157 to ED Meter #4
+DockComm.PrBus11_7.I0_5 - QA4002	Compressor Building Fire Alarm
+DockComm.PrBus11_7.I0_6 - EA4002A	AC Fail Compressor Building
+DockComm.PrBus11_7.I0_7 - EA4002B	Battery Low Compressor Building
+DockComm.PrBus11_9.I0_0 - XA4047B	Air Compressor General Shutdown
+DockComm.PrBus11_9.I0_1 - XA4047C	Air Compressor General Warning
+DockComm.PrBus11_9.I0_2 - XA4047D	Air Compressor Auto Operation
+DockComm.PrBus11_9.I0_3 - XA4004	Compressor bldg fire alarm panel system trouble
+DockComm.PrBus11_9.I0_4 - ZSC4055	Jet A Valve Indicator
+DockComm.PrBus11_9.I0_5 - ZL4201C	J-4201C Rail Offloading Pump Running
+DockComm.PrBus11_9.I0_6 - ZSO4043	Temp - non existant
+DockComm.PrBus11_9.I0_7 - ZSC4043	Temp - non existant
+DockComm.PrBus11_10.I0_0 - ZL4021	Jet A De-Icer Additive Pump Running
+DockComm.PrBus11_10.I0_1 - HL4021	Jet A De-Icer Additive Pump Auto Select
+DockComm.PrBus11_10.I0_2 - ZL4022	Jet A Corrosion Inhibitor Additive Pump Running
+DockComm.PrBus11_10.I0_3 - HL4022	Jet A Corrosion Inhibitor Additive Pump Auto Select
+DockComm.PrBus11_10.I0_4 - XS4021	Jet A De-Icer Additive Pump Start Input (From Blendtech)
+DockComm.PrBus11_10.I0_5 - XS4022	Jet A Corrosion Inhibitor Additive Pump Start Input (From Blendtech)
+DockComm.PrBus11_10.I0_6 - XA4051A	Additive  Failure Meter 3
+DockComm.PrBus11_10.I0_7 - XA4051B	Additive Failure Meter 4
+DockComm.PrBus11_11.I0_0 - ZL4024	WD JetA DeWatering Drain Pump Running
+DockComm.PrBus11_11.I0_1 - HL4024	WD JetA DeWatering Drain Pump Auto Selected
+DockComm.PrBus11_11.I0_2 - LAHH4055	WD JetA Tank F4006 Level High High Alarm
+DockComm.PrBus11_11.I0_3 - LAH4055	WD JetA Tank F4006 Level High Alarm
+DockComm.PrBus11_11.I0_4 - LAL4055	WD JetA Tank F4006 Level Low Alarm
+DockComm.PrBus11_11.I0_5 - XV4055_DUP	WD JetA Position Switch - Suction from Tk F4006 to Pmp4055
+DockComm.PrBus11_11.I0_6 - ZSO4143	RSD to EastDock Meters 5&6 Open
+DockComm.PrBus11_11.I0_7 - ZSC4143	RSD to EastDock Meters 5&6 Open
+DockComm.PrBus11_12.I0_0 - ZSO4235	T3117 Stove to Rail Rack Opened
+DockComm.PrBus11_12.I0_1 - ZSC4235	T3117 Stove to Rail Rack Closed
+DockComm.PrBus11_12.I0_2 - ZSO4245	T3157 ULSD to Rail Rack Opened
+DockComm.PrBus11_12.I0_3 - ZSC4245	T3157 ULSD to Rail Rack Closed
+DockComm.PrBus11_12.I0_4 - ZSO4231	West Pit Stove to Rail Rack Opened
+DockComm.PrBus11_12.I0_5 - ZSC4231	West Pit Stove to Rail Rack Closed
+DockComm.PrBus11_12.I0_6 - ZSO4232	West Pit ULSD to Rail Rack Opened
+DockComm.PrBus11_12.I0_7 - ZSC4232	West Pit ULSD to Rail Rack Closed
+DockComm.PrBus11_13.I0_0 - LAL4220	F4202 Stove to Rail Rack Deaerator Low Level Alarm
+DockComm.PrBus11_13.I0_1 - LAL4230	F4201 ULSD to Rail Rack Deaerator Low Level Alarm
+DockComm.PrBus11_13.I0_2 - ZL4201A	J-4201A Rail Offloading Pump Running
+DockComm.PrBus11_13.I0_3 - ZL4201D	J-4201D Rail Offloading Pump Running
+DockComm.PrBus11_13.I0_4 - PSL4287	J-4201/4 Rail Offloading Pressure Switch
+DockComm.PrBus11_13.I0_5 - FSL4287A	J-4201A Rail Offloading Flow Switch
+DockComm.PrBus11_13.I0_6 - FSL4287D	J-4201D Rail Offloading Flow Switch
+DockComm.PrBus11_13.I0_7	
+DockComm.PrBus11_8.I0_0 - XA4046	Air Dryer Hi Dew Point Alarm
+DockComm.PrBus11_8.I0_1 - XA4001A	West Dock Deluge Activated
+DockComm.PrBus11_8.I0_2 - PALL4048	Pressure Switch LOLO Alarm
+DockComm.PrBus11_8.I0_3 - ZSO4051	Compressor Building Latching Solenoid Position Sw
+DockComm.PrBus11_8.I0_4 - ZL4023p	WD OGA Additive Pump Running
+DockComm.PrBus11_8.I0_5 - HL4023p	WD OGA Additive Pump Auto
+DockComm.PrBus11_8.I0_6 - ZL4201B	J-4201B Rail Offloading Pump Running
+DockComm.PrBus11_8.I0_7 - ZSC4052	Railcar Latching Solenoid Position Switch
+DockComm.PrBus11_14.Q0_0 - XL4051	Backup Air Solenoid at Comp. Bldg (close on lolo)
+DockComm.PrBus11_14.Q0_1 - XL4052	Backup Air Solenoid at Railcar (open PALL)
+DockComm.PrBus11_14.Q0_2 - XL4053	West Dock Air Solenoid (closes on PAL)
+DockComm.PrBus11_14.Q0_3 - CBBELL	Compressor Building Alarm Bell
+DockComm.PrBus11_14.Q0_4 - HS4023p	OGA Pump Start/Stop
+DockComm.PrBus11_14.Q0_5 - CBSTROBE	Compressor Building Strobe
+DockComm.PrBus11_14.Q0_6 - HS4021	Jet A De-Icer Additive Pump Start
+DockComm.PrBus11_14.Q0_7 - HS4022	Jet A Corrosion Inhibitor Additive Pump Start
+DockComm.PrBus11_15.Q0_0 - DO4011	RUL pressure control solenoid valve
+DockComm.PrBus11_15.Q0_1 - DO4021	SUL pressure control solenoid valve
+DockComm.PrBus11_15.Q0_2 - DO4031	Stove pressure control solenoid valve
+DockComm.PrBus11_15.Q0_3 - DO4041	RSD pressure control solenoid valve
+DockComm.PrBus11_15.Q0_4 - DO4051	Jet pressure control solenoid valve
+DockComm.PrBus11_15.Q0_5 - HS4024	WD Jet A Filter Drain Pump Start
+DockComm.PrBus11_15.Q0_6 - XVO4055	Solenoid Valve Energize
+DockComm.PrBus11_15.Q0_7 - HS4049A	START PERMISSIVE FOR WEST PIT CONTAINMENT AIR PUMP
+DockComm.PrBus11_16.Q0_0 - DO4220	Stove-to-Rail CV emergency close solenoid
+DockComm.PrBus11_16.Q0_1 - DO4230	ULSD-to-Rail CV emergency close solenoid
+DockComm.PrBus11_16.Q0_2 - HS4201AA	J-4201A Rail Offloading Pump Permissive
+DockComm.PrBus11_16.Q0_3 - HS4201D	J-4201D Rail Offloading Pump Permissive
+DockComm.PrBus11_16.Q0_4 - HS4201BB	J-4201B Rail Offloading Pump Permissive
+DockComm.PrBus11_16.Q0_5 - HS4201C	J-4201C Rail Offloading Pump Permissive
+DockComm.PrBus11_16.Q0_6	
+DockComm.PrBus11_16.Q0_7	
+DockComm.PrBus11_17.CHQ0 - PY4220	Stove to Rail Rack Pressure Control Output
+DockComm.PrBus11_17.CHQ1 - PY4230	ULSD to Rail Rack Pressure Control Output
+DockComm.PrBus11_17.CHQ2	
+DockComm.PrBus11_17.CHQ3	
+DockComm.PrBus11_18.CHI0 - PI4219	Stove to Rail Rack Pressure Upstream CV
+DockComm.PrBus11_18.CHI1 - PI4220	Stove to Rail Rack CV Pressure
+DockComm.PrBus11_18.CHI2 - PI4229	ULSD to Rail Rack Pressure Upstream CV
+DockComm.PrBus11_18.CHI3 - PI4230	ULSD to Rail Rack CV Pressure
+DockComm.PrBus11_19.CHI0 - ZY4220	Stove to Rail Rack CV Position
+DockComm.PrBus11_19.CHI1 - ZY4230	ULSD to Rail Rack CV Position
+DockComm.PrBus11_19.CHI2 - LI4206	F4203 Rail Rack Slop Tank High Level
+DockComm.PrBus11_19.CHI3 - PI4287_IN	Diesel/Ethanol Rail to MidPlant Pressure
+DockComm.PrBus11_20.CHI0 - PDI4052	JetA Filter
+DockComm.PrBus11_20.CHI1 - AI4048_IN	West Pit H2O Separator HC Detector
+DockComm.PrBus11_20.CHI2	
+DockComm.PrBus11_20.CHI3 - PI4286_IN	PT4286 Rail Off-loading Header Pressure Monitor
+DockComm.PrBus11_21.CHI0 - AI4049_IN	WEST PIT CONTAINMENT HYDROCARBON DETECTOR
+DockComm.PrBus11_21.CHI1 - LI4208_IN	RAIL SLOP TANK F4200 LEVEL
+DockComm.PrBus11_21.CHI2	
+DockComm.PrBus11_21.CHI3	
+DockComm.PrBus11_22.CHQ0 - PY4011	RUL Pressure Control Output
+DockComm.PrBus11_22.CHQ1 - PY4031	Stove/Diesel Pressure Control Output
+DockComm.PrBus11_22.CHQ2 - PY4051	Jet pressure control output
+DockComm.PrBus11_22.CHQ3	
+DockComm.PrBus11_23.CHQ0 - PY4021	SUL Pressure Control Output
+DockComm.PrBus11_23.CHQ1 - PY4041	RSD Pressure Control Output
+DockComm.PrBus11_23.CHQ2	
+DockComm.PrBus11_23.CHQ3	
+DockComm.PrBus11_24.CHI0 - PI4010	RUL Line Pressure Upstream CV
+DockComm.PrBus11_24.CHI1 - PI4011	RUL CV Pressure
+DockComm.PrBus11_24.CHI2 - PI4030	Stove/Diesel Line Pressure Upstream CV
+DockComm.PrBus11_24.CHI3 - PI4031	Stove/Diesel CV Pressure
+DockComm.PrBus11_25.CHI0 - PI4020	SUL Line Pressure Upstream CV
+DockComm.PrBus11_25.CHI1 - PI4021	SUL CV Pressure
+DockComm.PrBus11_25.CHI2 - PI4040	RSD Line Pressure Upstream CV
+DockComm.PrBus11_25.CHI3 - PI4041	RSD CV Pressure
+DockComm.PrBus11_26.CHI0 - PI4047	Plant/Instrument Air Pressure
+DockComm.PrBus11_26.CHI1 - PI4050	Jet 'A' Monitoring (Upstream)
+DockComm.PrBus11_26.CHI2 - PI4051	Jet 'A' Monitoring (Downstream)
+DockComm.PrBus11_26.CHI3 - FI4010	Jet 'A' to West Dock
+DockComm.PrBus12_2.I0_0 - P4018I01	WD Accuload Meter #1 Stop
+DockComm.PrBus12_2.I0_1 - CA4018	WD Accuload Meter #1 Fault
+DockComm.PrBus12_2.I0_2 - P4023I01	WD Accuload Meter #2 Stop
+DockComm.PrBus12_2.I0_3 - CA4023	WD Accuload Meter #2 Fault
+DockComm.PrBus12_2.I0_4 - P4028I01	WD Accuload Meter #3 Stop
+DockComm.PrBus12_2.I0_5 - CA4028	WD Accuload Meter #3 Fault
+DockComm.PrBus12_2.I0_6 - P4033I01	WD Accuload Meter #4 Stop
+DockComm.PrBus12_2.I0_7 - CA4033	WD Accuload Meter #4 Fault
+DockComm.PrBus12_3.I0_0 - P4038I01	West Dock Meter #6 Stop (RSD)
+DockComm.PrBus12_3.I0_1 - QA4001	West Dock Fire Alarm
+DockComm.PrBus12_3.I0_2 - XA4010	West Dock Bldg. Loss of Pressure Alarm
+DockComm.PrBus12_3.I0_3 - LAH4001	West Dock Slop Tank Hi Level
+DockComm.PrBus12_3.I0_4 - EA4001A	West Dock UPS AC Fail
+DockComm.PrBus12_3.I0_5 - EA4001B	West Dock UPS Battery Low
+DockComm.PrBus12_3.I0_6 - XA4002	West Dock Emergency Shutdown
+DockComm.PrBus12_3.I0_7 - CA4038	WD Accuload Meter #6 Fault
+DockComm.PrBus12_4.I0_0 - XS4023A	Regular Additive Pump Start Input
+DockComm.PrBus12_4.I0_1 - XS4023B	SUL Additive Pump Start Input
+DockComm.PrBus12_4.I0_2 - P4013I01	Meter 5 Stop
+DockComm.PrBus12_4.I0_3 - CA4013	Meter 5 Fault
+DockComm.PrBus12_4.I0_4 - ZSO4013	Alkylate/Export Gas Valve Open
+DockComm.PrBus12_4.I0_5 - ZSC4013	Alkylate/Export Gas Valve Open
+DockComm.PrBus12_4.I0_6 - P4043I01	WD Accuload Meter #7 Stop
+DockComm.PrBus12_4.I0_7 - CA4043	WD Accuload Meter #7 Fault
+DockComm.PrBus12_5.Q0_0 - HS4018	WD Meter #1 Start Permissive
+DockComm.PrBus12_5.Q0_1 - HS4023	WD Meter #2 Start Permissive
+DockComm.PrBus12_5.Q0_2 - HS4028	WD Meter #3 Start Permissive
+DockComm.PrBus12_5.Q0_3 - HS4033	WD Meter #4 Start Permissive
+DockComm.PrBus12_5.Q0_4 - WDBELL	West Dock Alarm Bell
+DockComm.PrBus12_5.Q0_5 - WDSTROBE	West Dock Alarm Strobe
+DockComm.PrBus12_5.Q0_6 - WDCHIME	West Dock Alarm Chime
+DockComm.PrBus12_5.Q0_7 - HS4013	Meter 5 Start Permit
+DockComm.PrBus12_6.CHI0 - PI4013	West Dock Meter #5 Pressure (Jet)
+DockComm.PrBus12_6.CHI1 - PI4001_IN	West Dock Export Gasoline Pressure
+DockComm.PrBus12_6.CHI2 - PI4002_IN	West Dock Export Diesel Pressure
+DockComm.PrBus12_6.CHI3	
+DockComm.PrBus12_7.CHI0 - PI4018	West Dock Meter #1 Pressure (RUL)
+DockComm.PrBus12_7.CHI1 - PI4023	West Dock Meter #2 Pressure (SUL)
+DockComm.PrBus12_7.CHI2 - PI4028	West Dock Meter #3 Pressure (STOVE)
+DockComm.PrBus12_7.CHI3 - PI4033	West Dock Meter #4 Pressure (Diesel)
+DockComm.PrBus12_8.I0_0 - DI4001R	MOV 4001 Remote Selected
+DockComm.PrBus12_8.I0_1 - DI4001O	MOV 4001 Opened
+DockComm.PrBus12_8.I0_2 - DI4001C	MOV 4001 Closed
+DockComm.PrBus12_8.I0_3 - ZSC4047	Back Flush CLOSED
+DockComm.PrBus12_8.I0_4 - DI4002C	MOV 4002 Closed
+DockComm.PrBus12_8.I0_5 - DI4002O	MOV 4002 Opened
+DockComm.PrBus12_8.I0_6 - DI4002R	MOV 4002 Remote Selected
+DockComm.PrBus12_8.I0_7 - ZSO4047	Back Flush OPENED
+DockComm.PrBus12_9.I0_0 - DI4003C	MOV 4003 CLOSED
+DockComm.PrBus12_9.I0_1 - DI4003O	MOV 4003 OPEN
+DockComm.PrBus12_9.I0_2 - DI4003R	MOV 4003 Remote Selected
+DockComm.PrBus12_9.I0_3 - LAHH4000	West Dock Slop Tank HiHi Level Alarm
+DockComm.PrBus12_9.I0_4 - ZSO4044	RSD TO METER 6 OPEN
+DockComm.PrBus12_9.I0_5 - ZSC4044	RSD TO METER 6 CLOSED
+DockComm.PrBus12_9.I0_6 - ZSO4046	RSD TO METER 7 OPEN
+DockComm.PrBus12_9.I0_7 - ZSC4046	RSD TO METER 7 CLOSED
+DockComm.PrBus12_10.Q0_0 - DO4001S	MOV 4001 Stop
+DockComm.PrBus12_10.Q0_1 - DO4001C	MOV 4001 Close
+DockComm.PrBus12_10.Q0_2 - DO4001O	MOV 4001 Open
+DockComm.PrBus12_10.Q0_3 - DO4002S	MOV 4002 Stop
+DockComm.PrBus12_10.Q0_4 - DO4002C	MOV 4002 Close
+DockComm.PrBus12_10.Q0_5 - DO4002O	MOV 4002 Open
+DockComm.PrBus12_10.Q0_6 - HS4038	WD Meter #6 Start Permissive
+DockComm.PrBus12_10.Q0_7 - HS4043	WD Meter #7 Start Permissive
+DockComm.PrBus12_11.Q0_0 - DO4003S	MOV 4003 STOP
+DockComm.PrBus12_11.Q0_1 - DO4003C	MOV 4003 CLOSE
+DockComm.PrBus12_11.Q0_2 - DO4003O	MOV 4003 OPEN
+DockComm.PrBus12_11.Q0_3	
+DockComm.PrBus12_11.Q0_4	
+DockComm.PrBus12_11.Q0_5	
+DockComm.PrBus12_11.Q0_6	
+DockComm.PrBus12_11.Q0_7	
+DockComm.PrBus12_14.CHI0 - PI4038	West Dock Meter #6 Pressure (RSD)
+DockComm.PrBus12_14.CHI1 - PI4043	West Dock Meter #7 Pressure (RSD)
+DockComm.PrBus12_14.CHI2 - PI4098A_IN	
+DockComm.PrBus12_14.CHI3	
+DockComm.PrBus12_12.I0_0 - ZSO4089	HV4089-Open Feedback-12" Gas Export to MOV4001
+DockComm.PrBus12_12.I0_1 - ZSC4089	HV4089-Close Feedback-12" Gas Export to MOV4001
+DockComm.PrBus12_12.I0_2 - ZSO4088	HV4088-Open Feedback-12" Gas Export to 6" TK-2197
+DockComm.PrBus12_12.I0_3 - ZSC4088	HV4089-Close Feedback-12" Gas Export to 6" TK-2197
+DockComm.PrBus12_12.I0_4 - ZSO4086	HV4086-Open Feedback-12" Gas Export to J4007
+DockComm.PrBus12_12.I0_5 - ZSC4086	HV4086-Close Feedback-12" Gas Export to J4007
+DockComm.PrBus12_12.I0_6	 
+DockComm.PrBus12_12.I0_7	 
+DockComm.PrBus12_12.I1_0	 
+DockComm.PrBus12_12.I1_1	 
+DockComm.PrBus12_12.I1_2	 
+DockComm.PrBus12_12.I1_3	 
+DockComm.PrBus12_12.I1_4	 
+DockComm.PrBus12_12.I1_5	
+DockComm.PrBus12_12.I1_6	
+DockComm.PrBus12_12.I1_7	
+DockComm.PrBus10_2.I0_0 - P4153I01	ED Accuload Meter #1 Stop (SUL)
+DockComm.PrBus10_2.I0_1 - CA4153	ED Accuload Meter #1 Fault (SUL)
+DockComm.PrBus10_2.I0_2 - P4158I01	ED Accuload Meter #2 Stop (SUL)
+DockComm.PrBus10_2.I0_3 - CA4158	ED Accuload Meter #2 Fault (RUL)
+DockComm.PrBus10_2.I0_4 - P4163I01	ED Accuload Meter #3 Stop (Stove)
+DockComm.PrBus10_2.I0_5 - CA4163	ED Accuload Meter #3 Fault (Stove)
+DockComm.PrBus10_2.I0_6 - P4168I01	ED Accuload Meter #4 Stop (Diesel)
+DockComm.PrBus10_2.I0_7 - CA4168	ED Accuload Meter #4 Fault (Diesel)
+DockComm.PrBus10_3.I0_0 - XA4101	East Dock Deluge Push Button
+DockComm.PrBus10_3.I0_1 - QA4101	East Dock Fire Alarm
+DockComm.PrBus10_3.I0_2 - XA4110	East Dock Bldg. Loss of Pressure
+DockComm.PrBus10_3.I0_3 - EA4101A	East Dock UPS AC Fail
+DockComm.PrBus10_3.I0_4 - EA4101B	East Dock UPS Battery Low
+DockComm.PrBus10_3.I0_5 - XA4102	East Dock Emergency Shutdown
+DockComm.PrBus10_3.I0_6	
+DockComm.PrBus10_3.I0_7	
+DockComm.PrBus10_4.I0_0 - P4173I01	ED Accuload Meter #5 Stop (RSD)
+DockComm.PrBus10_4.I0_1 - CA4173	ED Accuload Meter #5 Fault (RSD)
+DockComm.PrBus10_4.I0_2 - P4178I01	ED Accuload Meter #6 Fault (RSD)
+DockComm.PrBus10_4.I0_3 - CA4178	ED Accuload Meter #6 Fault (RSD)
+DockComm.PrBus10_4.I0_4	
+DockComm.PrBus10_4.I0_5	
+DockComm.PrBus10_4.I0_6	
+DockComm.PrBus10_4.I0_7	
+DockComm.PrBus10_5.Q0_0 - HS4153	East Dock Meter #1 Start Permissive (SUL)
+DockComm.PrBus10_5.Q0_1 - HS4158	East Dock Meter #2 Start Permissive (RUL)
+DockComm.PrBus10_5.Q0_2 - HS4163	East Dock Meter #3 Start Permissive (Stove)
+DockComm.PrBus10_5.Q0_3 - HS4168	East Dock Meter #4 Start Permissive (Diesel)
+DockComm.PrBus10_5.Q0_4 - EDBELL	East Dock Alarm Bell
+DockComm.PrBus10_5.Q0_5 - EDSTROBE	East Dock Alarm Strobe
+DockComm.PrBus10_5.Q0_6 - EDCHIME	East Dock Alarm Chime
+DockComm.PrBus10_5.Q0_7	
+DockComm.PrBus10_6.CHI0 - PI4173	East Dock Meter #5 Pressure (RSD)
+DockComm.PrBus10_6.CHI1 - PI4178	East Dock Meter #6 Pressure (RSD)
+DockComm.PrBus10_6.CHI2	
+DockComm.PrBus10_6.CHI3	
+DockComm.PrBus10_7.CHI0 - PI4153	East Dock Meter #1 Pressure (SUL)
+DockComm.PrBus10_7.CHI1 - PI4158	East Dock Meter #2 Pressure (RUL)
+DockComm.PrBus10_7.CHI2 - PI4163	East Dock Meter #3 Pressure (Stove)
+DockComm.PrBus10_7.CHI3 - PI4168	East Dock Meter #4 Pressure (Diesel)
+DockComm.PrBus10_8.Q0_0 - HS4173	East Dock Meter #5 Start Permissive (RSD)
+DockComm.PrBus10_8.Q0_1 - HS4178	East Dock Meter #6 Start Permissive (RSD)
+DockComm.PrBus10_8.Q0_2	
+DockComm.PrBus10_8.Q0_3	
+DockComm.PrBus10_8.Q0_4	
+DockComm.PrBus10_8.Q0_5	
+DockComm.PrBus10_8.Q0_6	
+DockComm.PrBus10_8.Q0_7	
+LowComm.PrBus31_2.I0_0 - ZSO4454	STN G1002-01 XV-4454 OPEN-ZONE1
+LowComm.PrBus31_2.I0_1 - ZSC4454	STN G1002-01 XV-4454 CLOSE-ZONE1
+LowComm.PrBus31_2.I0_2 - ZSO4457	STN G1002-02 XV-4457 OPEN-ZONE1
+LowComm.PrBus31_2.I0_3 - ZSC4457	STN G1002-02 XV-4457 CLOSE-ZONE1
+LowComm.PrBus31_2.I0_4 - ZSO4461	STN G1002-03 XV-4461 OPEN-ZONE1
+LowComm.PrBus31_2.I0_5 - ZSC4461	STN G1002-03 XV-4461 CLOSE-ZONE1
+LowComm.PrBus31_2.I0_6 - ZSO4467	STN G1002-04 XV-4467 OPEN-ZONE1
+LowComm.PrBus31_2.I0_7 - ZSC4467	STN G1002-04 XV-4467 CLOSE-ZONE1
+LowComm.PrBus31_2.I1_0 - ZSO4452	STN G1003-01 XV-4452 OPEN-ZONE1
+LowComm.PrBus31_2.I1_1 - ZSC4452	STN G1003-01 XV-4452 CLOSE-ZONE1
+LowComm.PrBus31_2.I1_2 - ZSO4455	STN G1003-02 XV-4455 OPEN-ZONE1
+LowComm.PrBus31_2.I1_3 - ZSC4455	STN G1003-02 XV-4455 CLOSE-ZONE1
+LowComm.PrBus31_2.I1_4 - ZSO4459	STN G1003-03 XV-4459 OPEN-ZONE1
+LowComm.PrBus31_2.I1_5 - ZSC4459	STN G1003-03 XV-4459 CLOSE-ZONE1
+LowComm.PrBus31_2.I1_6 - ZSO4465	STN G1003-04 XV-4465 OPEN-ZONE1
+LowComm.PrBus31_2.I1_7 - ZSC4465	STN G1003-04 XV-4465 CLOSE-ZONE1
+LowComm.PrBus31_3.I0_0 - ZSO4448	STN G1002-05 XV-4448 OPEN-ZONE2
+LowComm.PrBus31_3.I0_1 - ZSC4448	STN G1002-05 XV-4448 CLOSE-ZONE2
+LowComm.PrBus31_3.I0_2 - ZSO4444	STN G1002-06 XV-4444 OPEN-ZONE2
+LowComm.PrBus31_3.I0_3 - ZSC4444	STN G1002-06 XV-4444 CLOSE-ZONE2
+LowComm.PrBus31_3.I0_4 - ZSO4440	STN G1002-07 XV-4440 OPEN-ZONE2
+LowComm.PrBus31_3.I0_5 - ZSC4440	STN G1002-07 XV-4440 CLOSE-ZONE2
+LowComm.PrBus31_3.I0_6 - ZSO4436	STN G1002-08 XV-4436 OPEN-ZONE2
+LowComm.PrBus31_3.I0_7 - ZSC4436	STN G1002-08 XV-4436 CLOSE-ZONE2
+LowComm.PrBus31_3.I1_0 - ZSO4446	STN G1003-05 XV-4446 OPEN-ZONE2
+LowComm.PrBus31_3.I1_1 - ZSC4446	STN G1003-05 XV-4446 CLOSE-ZONE2
+LowComm.PrBus31_3.I1_2 - ZSO4442	STN G1003-06 XV-4442 OPEN-ZONE2
+LowComm.PrBus31_3.I1_3 - ZSC4442	STN G1003-06 XV-4442 CLOSE-ZONE2
+LowComm.PrBus31_3.I1_4 - ZSO4438	STN G1003-07 XV-4438 OPEN-ZONE2
+LowComm.PrBus31_3.I1_5 - ZSC4438	STN G1003-07 XV-4438 CLOSE-ZONE2
+LowComm.PrBus31_3.I1_6 - ZSO4434	STN G1003-08 XV-4434 OPEN-ZONE2
+LowComm.PrBus31_3.I1_7 - ZSC4434	STN G1003-08 XV-4434 CLOSE-ZONE2
+LowComm.PrBus31_4.I0_0 - LSHL4307	SUMP LEVEL ZONE2
+LowComm.PrBus31_4.I0_1 - LSHL4432	SUMP LEVEL ZONE3
+LowComm.PrBus31_4.I0_2 - LSHL4309	SUMP LEVEL ZONE4
+LowComm.PrBus31_4.I0_3 - FSH4400	SAFETY SHOWER IN USE
+LowComm.PrBus31_4.I0_4	
+LowComm.PrBus31_4.I0_5	
+LowComm.PrBus31_4.I0_6	
+LowComm.PrBus31_4.I0_7	
+LowComm.PrBus31_4.I1_0	
+LowComm.PrBus31_4.I1_1	
+LowComm.PrBus31_4.I1_2	
+LowComm.PrBus31_4.I1_3	
+LowComm.PrBus31_4.I1_4	
+LowComm.PrBus31_4.I1_5	
+LowComm.PrBus31_4.I1_6	
+LowComm.PrBus31_4.I1_7	
+LowComm.PrBus31_5.I0_0 - ZSO4431	STN G1002-09 XV-4431 OPEN-ZONE3
+LowComm.PrBus31_5.I0_1 - ZSC4431	STN G1002-09 XV-4431 CLOSE-ZONE3
+LowComm.PrBus31_5.I0_2 - ZSO4427	STN G1002-10 XV-4427 OPEN-ZONE3
+LowComm.PrBus31_5.I0_3 - ZSC4427	STN G1002-10 XV-4427 CLOSE-ZONE3
+LowComm.PrBus31_5.I0_4 - ZSO4423	STN G1002-11 XV-4423 OPEN-ZONE3
+LowComm.PrBus31_5.I0_5 - ZSC4423	STN G1002-11 XV-4423 CLOSE-ZONE3
+LowComm.PrBus31_5.I0_6 - ZSO4419	STN G1002-12 XV-4419 OPEN-ZONE3
+LowComm.PrBus31_5.I0_7 - ZSC4419	STN G1002-12 XV-4419 CLOSE-ZONE3
+LowComm.PrBus31_5.I1_0 - ZSO4429	STN G1003-09 XV-4429 OPEN-ZONE3
+LowComm.PrBus31_5.I1_1 - ZSC4429	STN G1003-09 XV-4429 CLOSE-ZONE3
+LowComm.PrBus31_5.I1_2 - ZSO4425	STN G1003-10 XV-4425 OPEN-ZONE3
+LowComm.PrBus31_5.I1_3 - ZSC4425	STN G1003-10 XV-4425 CLOSE-ZONE3
+LowComm.PrBus31_5.I1_4 - ZSO4421	STN G1003-11 XV-4421 OPEN-ZONE3
+LowComm.PrBus31_5.I1_5 - ZSC4421	STN G1003-11 XV-4421 CLOSE-ZONE3
+LowComm.PrBus31_5.I1_6 - ZSO4417	STN G1003-12 XV-4417 OPEN-ZONE3
+LowComm.PrBus31_5.I1_7 - ZSC4417	STN G1003-12 XV-4417 CLOSE-ZONE3
+LowComm.PrBus31_6.I0_0 - ZSO4415	STN G1002-13 XV-4431 OPEN-ZONE4
+LowComm.PrBus31_6.I0_1 - ZSC4415	STN G1002-13 XV-4431 CLOSE-ZONE4
+LowComm.PrBus31_6.I0_2 - ZSO4411	STN G1002-14 XV-4427 OPEN-ZONE4
+LowComm.PrBus31_6.I0_3 - ZSC4411	STN G1002-14 XV-4427 CLOSE-ZONE4
+LowComm.PrBus31_6.I0_4 - ZSO4407	STN G1002-15 XV-4423 OPEN-ZONE4
+LowComm.PrBus31_6.I0_5 - ZSC4407	STN G1002-15 XV-4423 CLOSE-ZONE4
+LowComm.PrBus31_6.I0_6 - ZSO4403	STN G1002-16 XV-4419 OPEN-ZONE4
+LowComm.PrBus31_6.I0_7 - ZSC4403	STN G1002-16 XV-4419 CLOSE-ZONE4
+LowComm.PrBus31_6.I1_0 - ZSO4413	STN G1003-13 XV-4429 OPEN-ZONE4
+LowComm.PrBus31_6.I1_1 - ZSC4413	STN G1003-13 XV-4429 CLOSE-ZONE4
+LowComm.PrBus31_6.I1_2 - ZSO4409	STN G1003-14 XV-4425 OPEN-ZONE4
+LowComm.PrBus31_6.I1_3 - ZSC4409	STN G1003-14 XV-4425 CLOSE-ZONE4
+LowComm.PrBus31_6.I1_4 - ZSO4405	STN G1003-15 XV-4421 OPEN-ZONE4
+LowComm.PrBus31_6.I1_5 - ZSC4405	STN G1003-15 XV-4421 CLOSE-ZONE4
+LowComm.PrBus31_6.I1_6 - ZSO4401	STN G1003-16 XV-4417 OPEN-ZONE4
+LowComm.PrBus31_6.I1_7 - ZSC4401	STN G1003-16 XV-4417 CLOSE-ZONE4
+LowComm.PrBus31_9.I0_0 - LSL4311	DIESEL OFFLOADING SUCTION HEADER ZONE 5
+LowComm.PrBus31_9.I0_1 - LSHL4479	SUMP LEVEL ZONE 5
+LowComm.PrBus31_9.I0_2 - FSL4305A	PUMP J-4206A SUCTION FLOW ZONE 5
+LowComm.PrBus31_9.I0_3 - FSL4305B	PUMP J-4206B SUCTION FLOW ZONE 5
+LowComm.PrBus31_9.I0_4 - FSL4305C	PUMP J-4206C SUCTION FLOW ZONE 5
+LowComm.PrBus31_9.I0_5 - FSL4305D	PUMP J-4206D SUCTION FLOW ZONE 5
+LowComm.PrBus31_9.I0_6	
+LowComm.PrBus31_9.I0_7	
+LowComm.PrBus31_9.I1_0 - ZSO4471	HV-4471 WEST PIT 12" DIESEL ISOLATION MANUAL VALVE OPEN
+LowComm.PrBus31_9.I1_1 - ZSC4471	HV-4471 WEST PIT 12" DIESEL ISOLATION MANUAL VALVE CLOSED
+LowComm.PrBus31_9.I1_2 - ZSO4495	HV-4495 WEST PIT 10" DIESEL ISOLATION MANUAL VALVE OPEN
+LowComm.PrBus31_9.I1_3 - ZSC4495	HV-4495 WEST PIT 10" DIESEL ISOLATION MANUAL VALVE CLOSED
+LowComm.PrBus31_9.I1_4	
+LowComm.PrBus31_9.I1_5	
+LowComm.PrBus31_9.I1_6	
+LowComm.PrBus31_9.I1_7	
+LowComm.PrBus31_8.I0_0 - LSL4430	DIESEL OFFLOADING STN G1002-09 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_1 - LSL4426	DIESEL OFFLOADING STN G1002-10 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_2 - LSL4422	DIESEL OFFLOADING STN G1002-11 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_3 - LSL4418	DIESEL OFFLOADING STN G1002-12 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_4 - LSL4428	DIESEL OFFLOADING STN G1003-09 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_5 - LSL4424	DIESEL OFFLOADING STN G1003-10 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_6 - LSL4420	DIESEL OFFLOADING STN G1003-11 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I0_7 - LSL4416	DIESEL OFFLOADING STN G1003-12 LOW LEVEL ZONE 3
+LowComm.PrBus31_8.I1_0 - LSL4414	DIESEL OFFLOADING STN G1002-13 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_1 - LSL4410	DIESEL OFFLOADING STN G1002-14 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_2 - LSL4406	DIESEL OFFLOADING STN G1002-15 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_3 - LSL4402	DIESEL OFFLOADING STN G1002-16 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_4 - LSL4412	DIESEL OFFLOADING STN G1003-13 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_5 - LSL4408	DIESEL OFFLOADING STN G1003-14 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_6 - LSL4404	DIESEL OFFLOADING STN G1003-15 LOW LEVEL ZONE 4
+LowComm.PrBus31_8.I1_7 - LSL4400	DIESEL OFFLOADING STN G1003-16 LOW LEVEL ZONE 4
+LowComm.PrBus31_7.I0_0 - LSL4453	DIESEL OFFLOADING STN G1002-01 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_1 - LSL4458	DIESEL OFFLOADING STN G1002-02 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_2 - LSL4462	DIESEL OFFLOADING STN G1002-03 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_3 - LSL4468	DIESEL OFFLOADING STN G1002-04 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_4 - LSL4451	DIESEL OFFLOADING STN G1003-01 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_5 - LSL4456	DIESEL OFFLOADING STN G1003-02 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_6 - LSL4460	DIESEL OFFLOADING STN G1003-03 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I0_7 - LSL4466	DIESEL OFFLOADING STN G1003-03 LOW LEVEL ZONE 1
+LowComm.PrBus31_7.I1_0 - LSL4447	DIESEL OFFLOADING STN G1002-05 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_1 - LSL4443	DIESEL OFFLOADING STN G1002-06 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_2 - LSL4439	DIESEL OFFLOADING STN G1002-07 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_3 - LSL4435	DIESEL OFFLOADING STN G1002-08 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_4 - LSL4445	DIESEL OFFLOADING STN G1003-05 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_5 - LSL4441	DIESEL OFFLOADING STN G1003-06 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_6 - LSL4437	DIESEL OFFLOADING STN G1003-07 LOW LEVEL ZONE 2
+LowComm.PrBus31_7.I1_7 - LSL4433	DIESEL OFFLOADING STN G1003-08 LOW LEVEL ZONE 2
+LowComm.PrBus32_2.Q0_0 - XYV4454	STN G1002-01 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_1 - XYV4457	STN G1002-02 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_2 - XYV4461	STN G1002-03 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_3 - XYV4467	STN G1002-04 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_4 - XYV4452	STN G1003-01 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_5 - XYV4455	STN G1003-02 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_6 - XYV4459	STN G1003-03 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_2.Q0_7 - XYV4465	STN G1003-04 SOLENOID VALVE-ZONE1
+LowComm.PrBus32_3.Q0_0 - XYV4448	STN G1002-05 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_1 - XYV4444	STN G1002-06 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_2 - XYV4440	STN G1002-07 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_3 - XYV4436	STN G1002-08 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_4 - XYV4446	STN G1003-05 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_5 - XYV4442	STN G1003-06 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_6 - XYV4438	STN G1003-07 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_3.Q0_7 - XYV4434	STN G1003-08 SOLENOID VALVE-ZONE2
+LowComm.PrBus32_4.Q0_0 - XYV4431	STN G1002-09 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_1 - XYV4427	STN G1002-10 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_2 - XYV4423	STN G1002-11 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_3 - XYV4419	STN G1002-12 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_4 - XYV4429	STN G1003-09 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_5 - XYV4425	STN G1003-10 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_6 - XYV4421	STN G1003-11 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_4.Q0_7 - XYV4417	STN G1003-12 SOLENOID VALVE-ZONE3
+LowComm.PrBus32_5.Q0_0 - XYV4415	STN G1002-13 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_1 - XYV4411	STN G1002-14 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_2 - XYV4407	STN G1002-15 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_3 - XYV4403	STN G1002-16 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_4 - XYV4413	STN G1003-13 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_5 - XYV4409	STN G1003-14 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_6 - XYV4405	STN G1003-15 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_5.Q0_7 - XYV4401	STN G1003-16 SOLENOID VALVE-ZONE4
+LowComm.PrBus32_6.Q0_0 - YA4487AH	ESD ALARM HORN ZONE 2
+LowComm.PrBus32_6.Q0_1 - YA4487AL	ESD ALARM STROBE ZONE 2
+LowComm.PrBus32_6.Q0_2 - YA4487BH	ESD ALARM HORN ZONE 3
+LowComm.PrBus32_6.Q0_3 - YA4487BL	ESD ALARM STROBE ZONE 3
+LowComm.PrBus32_6.Q0_4 - DVZ301	DELUGE VALVE ZONE 3
+LowComm.PrBus32_6.Q0_5 - DVZ401	DELUGE VALVE ZONE 4
+LowComm.PrBus32_6.Q0_6	
+LowComm.PrBus32_6.Q0_7	
+LowComm.PrBus32_7.Q0_0	
+LowComm.PrBus32_7.Q0_1	
+LowComm.PrBus32_7.Q0_2	
+LowComm.PrBus32_7.Q0_3	
+LowComm.PrBus32_7.Q0_4	
+LowComm.PrBus32_7.Q0_5	
+LowComm.PrBus32_7.Q0_6	
+LowComm.PrBus32_7.Q0_7	
+LowComm.PrBus32_10.CHI0 - PDT4483A	DIESEL OFFLOADING PUMP J-4206A SUCTION FILTER DIFF PRESSURE
+LowComm.PrBus32_10.CHI1 - PDT4483B	DIESEL OFFLOADING PUMP J-4206B SUCTION FILTER DIFF PRESSURE
+LowComm.PrBus32_10.CHI2 - PDT4483C	DIESEL OFFLOADING PUMP J-4206C SUCTION FILTER DIFF PRESSURE
+LowComm.PrBus32_10.CHI3 - PDT4483D	DIESEL OFFLOADING PUMP J-4206D SUCTION FILTER DIFF PRESSURE
+LowComm.PrBus32_10.CHI4	
+LowComm.PrBus32_10.CHI5	
+LowComm.PrBus32_10.CHI6	
+LowComm.PrBus32_10.CHI7	
+LowComm.PrBus32_11.CHI0 - AT4204G	GAS DETECTOR ETHANOL OVERFLOW FROM ZONE 1 CONTAINMENT
+LowComm.PrBus32_11.CHI1 - AT4484D	HYDROCARBON LEAK DETECTOR ZONE 1 SUMP PUMP
+LowComm.PrBus32_11.CHI2 - AT4484A	HYDROCARBON LEAK DETECTOR ZONE 2 SUMP PUMP
+LowComm.PrBus32_11.CHI3 - AT4484B	HYDROCARBON LEAK DETECTOR ZONE 3 SUMP PUMP
+LowComm.PrBus32_11.CHI4 - AT4484C	HYDROCARBON LEAK DETECTOR ZONE 4 SUMP PUMP
+LowComm.PrBus32_11.CHI5 - AT4480	HYDROCARBON LEAK DETECTOR ZONE 5 PUMP PIT
+LowComm.PrBus32_11.CHI6	
+LowComm.PrBus32_11.CHI7	
+LowComm.PrBus32_12.CHI0	
+LowComm.PrBus32_12.CHI1	
+LowComm.PrBus32_12.CHI2	
+LowComm.PrBus32_12.CHI3	
+LowComm.PrBus32_12.CHI4	
+LowComm.PrBus32_12.CHI5	
+LowComm.PrBus32_12.CHI6	
+LowComm.PrBus32_12.CHI7	
+LowComm.PrBus32_9.CHI0 - PT4304A	PUMP J-4206A DISCHARGE PRESSURE
+LowComm.PrBus32_9.CHI1 - PT4304B	PUMP J-4206B DISCHARGE PRESSURE
+LowComm.PrBus32_9.CHI2 - PT4304C	PUMP J-4206C DISCHARGE PRESSURE
+LowComm.PrBus32_9.CHI3 - PT4304D	PUMP J-4206D DISCHARGE PRESSURE
+LowComm.PrBus32_9.CHI4 - PT4313	RAIL OFFLOADING PUMPS SUCTION PRESSURE
+LowComm.PrBus32_9.CHI5 - TT4473	RAIL OFFLOADING PUMPS SUCTION TEMPERATURE
+LowComm.PrBus32_9.CHI6 - LT4496	F-4204 RAIL SLOP TANK ZONE 5 LEVEL
+LowComm.PrBus32_9.CHI7 - FT4499	RAIL OFFLOADING PUMPS DISCHARGE FLOW
+LowComm.PrBus33_2.I0_0 - HL4207A	SUMP PUMP J-4207A AUTO SELECTED
+LowComm.PrBus33_2.I0_1 - ZL4207A	SUMP PUMP J-4207A RUNNING
+LowComm.PrBus33_2.I0_2 - HL4207B	SUMP PUMP J-4207B AUTO SELECTED
+LowComm.PrBus33_2.I0_3 - ZL4207B	SUMP PUMP J-4207B RUNNING
+LowComm.PrBus33_2.I0_4 - HL4208A	SUMP PUMP J-4208A AUTO SELECTED
+LowComm.PrBus33_2.I0_5 - ZL4208A	SUMP PUMP J-4208A RUNNING
+LowComm.PrBus33_2.I0_6 - HL4208B	SUMP PUMP J-4208B AUTO SELECTED
+LowComm.PrBus33_2.I0_7 - ZL4208B	SUMP PUMP J-4208B RUNNING
+LowComm.PrBus33_3.I0_0 - HL4209A	SUMP PUMP J-4209A AUTO SELECTED
+LowComm.PrBus33_3.I0_1 - ZL4209A	SUMP PUMP J-4209A RUNNING
+LowComm.PrBus33_3.I0_2 - HL4209B	SUMP PUMP J-4209B AUTO SELECTED
+LowComm.PrBus33_3.I0_3 - ZL4209B	SUMP PUMP J-4209B RUNNING
+LowComm.PrBus33_3.I0_4 - HL4211A	SUMP PUMP J-4211A AUTO SELECTED
+LowComm.PrBus33_3.I0_5 - ZL4211A	SUMP PUMP J-4211A RUNNING
+LowComm.PrBus33_3.I0_6 - HL4211B	SUMP PUMP J-4211B AUTO SELECTED
+LowComm.PrBus33_3.I0_7 - ZL4211B	SUMP PUMP J-4211B RUNNING
+LowComm.PrBus33_4.I0_0 - QA4220X	Maintenance Building Fire Alarm
+LowComm.PrBus33_4.I0_1 - XXA4220	Maintenance FAP panel Trouble Alarm
+LowComm.PrBus33_4.I0_2	
+LowComm.PrBus33_4.I0_3	
+LowComm.PrBus33_4.I0_4 - HS4206BA	DIESEL OFFLOADING PUMP J-4206B AUTO SELECTED
+LowComm.PrBus33_4.I0_5 - HS4206BM	DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED
+LowComm.PrBus33_4.I0_6	
+LowComm.PrBus33_4.I0_7 - ZS4206B	DIESEL OFFLOADING PUMP J-4206B RUNNING STATUS
+LowComm.PrBus33_5.I0_0 - HS4206CA	DIESEL OFFLOADING PUMP J-4206C AUTO SELECTED
+LowComm.PrBus33_5.I0_1 - HS4206CM	DIESEL OFFLOADING PUMP J-4206C MANUAL SELECTED
+LowComm.PrBus33_5.I0_2	
+LowComm.PrBus33_5.I0_3 - ZS4206C	DIESEL OFFLOADING PUMP J-4206C RUNNING STATUS
+LowComm.PrBus33_5.I0_4	
+LowComm.PrBus33_5.I0_5	
+LowComm.PrBus33_5.I0_6	
+LowComm.PrBus33_5.I0_7	
+LowComm.PrBus33_6.I0_0	
+LowComm.PrBus33_6.I0_1	
+LowComm.PrBus33_6.I0_2	
+LowComm.PrBus33_6.I0_3	
+LowComm.PrBus33_6.I0_4	
+LowComm.PrBus33_6.I0_5	
+LowComm.PrBus33_6.I0_6	
+LowComm.PrBus33_6.I0_7	
+LowComm.PrBus33_7.Q0_0 - HS4207AS	SUMP PUMP J-4207A START/STOP COMMAND
+LowComm.PrBus33_7.Q0_1 - HS4207BS	SUMP PUMP J-4207B START/STOP COMMAND
+LowComm.PrBus33_7.Q0_2 - HS4208AS	SUMP PUMP J-4208A START/STOP COMMAND
+LowComm.PrBus33_7.Q0_3 - HS4208BS	SUMP PUMP J-4208B START/STOP COMMAND
+LowComm.PrBus33_7.Q0_4 - HS4209AS	SUMP PUMP J-4209A START/STOP COMMAND
+LowComm.PrBus33_7.Q0_5 - HS4209BS	SUMP PUMP J-4209B START/STOP COMMAND
+LowComm.PrBus33_7.Q0_6 - HS4211AS	SUMP PUMP J-4211A START/STOP COMMAND
+LowComm.PrBus33_7.Q0_7 - HS4211BS	SUMP PUMP J-4211B START/STOP COMMAND
+LowComm.PrBus33_8.Q0_0	
+LowComm.PrBus33_8.Q0_1	
+LowComm.PrBus33_8.Q0_2	
+LowComm.PrBus33_8.Q0_3	
+LowComm.PrBus33_8.Q0_4	
+LowComm.PrBus33_8.Q0_5	
+LowComm.PrBus33_8.Q0_6	
+LowComm.PrBus33_8.Q0_7	
+LowComm.PrBus33_9.Q0_0 - HS4206AP	DIESEL OFFLOADING PUMP J-4206A START PERMISSIVE
+LowComm.PrBus33_9.Q0_1 - HS4206BP	DIESEL OFFLOADING PUMP J-4206B START PERMISSIVE
+LowComm.PrBus33_9.Q0_2 - HS4206AH	DIESEL OFFLOADING PUMP JÅ4206A RUN ON HAND
+LowComm.PrBus33_9.Q0_3	
+LowComm.PrBus33_9.Q0_4 - HS4206CP	DIESEL OFFLOADING PUMP J-4206C START PERMISSIVE
+LowComm.PrBus33_9.Q0_5	
+LowComm.PrBus33_9.Q0_6 - HS4206DH	DIESEL OFFLOADING PUMP JÅ4206D RUN ON HAND
+LowComm.PrBus33_9.Q0_7 - HS4206DP	DIESEL OFFLOADING PUMP J-4206D START PERMISSIVE
+DockComm.PrBus12_9.I0_0 - UA60A	Loading Arm 1st Alarm
+DockComm.PrBus12_9.I0_1 - UA60B	Loading Arm 2nd Alarm
+DockComm.PrBus12_9.I0_2 - UA55	Loading Arm PLC HI Temp
+MidComm.PrBus17_6X.I0_2 - XA3037A	Transformer B30-TR-0037 Sudden Pressure Rise (63SPR) Alarm
+MidComm.PrBus17_6X.I0_3 - XA3037B	Transformer B30-TR-0037 Winding Temperature (49T) Alarm
+MidComm.PrBus17_6X.I0_4 - XA3037C	Transformer B30-TR-0037 Low Level (71Q) Alarm
+MidComm.PrBus17_6X.I0_5 - XA3037D	Transformer B30-TR-0037 Liquid Temperature (26Q) Alarm
+MidComm.PrBus17_6X.I0_6 - XA3039A	Transformer B30-TR-0037 Ground Fault Alarm
+MidComm.PrBus17_6X.I0_7 - XA3039B	Transformer B30-TR-0037 Resistor Fault Alarm
+MidComm.PrBus20_2.I0_0 - ZSO3142	HV3142 12" DIESEL FROM TK3116 TO J3034A/B
+MidComm.PrBus20_2.I0_1 - ZSC3142	HV3142 12" DIESEL FROM TK3116 TO J3034A/B
+MidComm.PrBus20_2.I0_2 - ZSO3148	HV3148 10" DIESEL FROM RAIL OFFLOADING TO TK3117
+MidComm.PrBus20_2.I0_3 - ZSC3148	HV3148 10" DIESEL FROM RAIL OFFLOADING TO TK3117
+MidComm.PrBus20_2.I0_4 - ZSO3150	HV3150 12" DIESEL FROM TK3117 TO J3034A/B
+MidComm.PrBus20_2.I0_5 - ZSC3150	HV3150 12" DIESEL FROM TK3117 TO J3034A/B
+MidComm.PrBus20_2.I0_6 - ZSO3153	HV3153 10" DIESEL FROM TK3157 TO J3034A/B
+MidComm.PrBus20_2.I0_7 - ZSC3153	HV3153 10" DIESEL FROM TK3157 TO J3034A/B
+MidComm.PrBus20_2.I1_0 - ZSO3173	HV3173 10" DIESEL FROM RAIL OFFLOADING TO TK3116
+MidComm.PrBus20_2.I1_1 - ZSC3173	HV3173 10" DIESEL FROM RAIL OFFLOADING TO TK3116
+MidComm.PrBus20_2.I1_2 - ZSO3158	HV3158 10" DIESEL FROM RAIL OFFLOADING TO TK3157
+MidComm.PrBus20_2.I1_3 - ZSC3158	HV3158 10" DIESEL FROM RAIL OFFLOADING TO TK3157
+MidComm.PrBus20_2.I1_4	
+MidComm.PrBus20_2.I1_5	
+MidComm.PrBus20_2.I1_6	
+MidComm.PrBus20_2.I1_7	
+MidComm.PrBus20_3.I0_0 - XA3036A	TRANSFORMER B30-TR-0036 SUDDEN PRESSURE RISE (63SPR) ALARM
+MidComm.PrBus20_3.I0_1 - XA3036B	TRANSFORMER B30-TR-0036 WINDING TEMPERATURE (49T) ALARM
+MidComm.PrBus20_3.I0_2 - XA3036C	TRANSFORMER B30-TR-0036 LOW LEVEL (71Q) ALARM
+MidComm.PrBus20_3.I0_3 - XA3036D	TRANSFORMER B30-TR-0036 LIQUID TEMPERATURE (26Q) ALARM
+MidComm.PrBus20_3.I0_4 - XA3038A	NGR B30-NGR-0036 GROUND FAULT ALARM
+MidComm.PrBus20_3.I0_5 - XA3038B	NGR B30-NGR-0036 RESISTOR FAULT ALARM
+MidComm.PrBus20_3.I0_6	
+MidComm.PrBus20_3.I0_7	
+MidComm.PrBus20_3.I1_0	
+MidComm.PrBus20_3.I1_1	
+MidComm.PrBus20_3.I1_2	
+MidComm.PrBus20_3.I1_3	
+MidComm.PrBus20_3.I1_4	
+MidComm.PrBus20_3.I1_5	
+MidComm.PrBus20_3.I1_6	
+MidComm.PrBus20_3.I1_7	
+MidComm.PrBus20_4.I0_0 - LSHH3160	FINISHED DIESEL STORAGE TANK TK3157 HIGH HIGH LEVEL
+MidComm.PrBus20_4.I0_1 - LSHH3161	FINISHED DIESEL STORAGE TANK TK3116 HIGH HIGH LEVEL
+MidComm.PrBus20_4.I0_2 - LSHH3162	FINISHED DIESEL STORAGE TANK TK3117 HIGH HIGH LEVEL
+MidComm.PrBus20_4.I0_3	
+MidComm.PrBus20_4.I0_4 - HA3160	TK3157 HIGH HIGH LVL LSHH-3160 BYPASSED ALARM
+MidComm.PrBus20_4.I0_5 - HA3161	TK3116 HIGH HIGH LVL LSHH-3161 BYPASSED ALARM
+MidComm.PrBus20_4.I0_6 - HA3162	TK3117 HIGH HIGH LVL LSHH-3162 BYPASSED ALARM
+MidComm.PrBus20_4.I0_7	
+MidComm.PrBus20_5.I0_0 - HL3034AA	HS3154A 'AUTO' SELECTED
+MidComm.PrBus20_5.I0_1 - ZL3034A	J3034A 'RUNNING'
+MidComm.PrBus20_5.I0_2 - HL3034BA	HS3154B 'AUTO' SELECTED
+MidComm.PrBus20_5.I0_3 - ZL3034B	J3034B 'RUNNING'
+MidComm.PrBus20_5.I0_4 - EA3174A	B30-UPS-0011 AC FAIL ALARM
+MidComm.PrBus20_5.I0_5 - EA3174B	B30-UPS-0011 AC TROUBLE ALARM
+MidComm.PrBus20_5.I0_6	
+MidComm.PrBus20_5.I0_7	
+MidComm.PrBus20_6.I0_0 - EA3175A	B30-UPS-0012 AC FAIL ALARM
+MidComm.PrBus20_6.I0_1 - EA3175B	B30-UPS-0012 AC TROUBLE ALARM
+MidComm.PrBus20_6.I0_2	
+MidComm.PrBus20_6.I0_3	
+MidComm.PrBus20_6.I0_4	
+MidComm.PrBus20_6.I0_5	
+MidComm.PrBus20_6.I0_6	
+MidComm.PrBus20_6.I0_7	
+MidComm.PrBus20_8.Q0_0	
+MidComm.PrBus20_8.Q0_1	
+MidComm.PrBus20_8.Q0_2	
+MidComm.PrBus20_8.Q0_3	
+MidComm.PrBus20_8.Q0_4	
+MidComm.PrBus20_8.Q0_5	
+MidComm.PrBus20_8.Q0_6	
+MidComm.PrBus20_8.Q0_7	
+MidComm.PrBus20_7.Q0_0 - HS3034AP	J3034A RUN PERMIT
+MidComm.PrBus20_7.Q0_1 - HS3034BP	J3034B RUN PERMIT
+MidComm.PrBus20_7.Q0_2	
+MidComm.PrBus20_7.Q0_3	
+MidComm.PrBus20_7.Q0_4 - HS3034A	J3034A ON/OFF COMMAND
+MidComm.PrBus20_7.Q0_5 - HS3034B	J3034B ON/OFF COMMAND
+MidComm.PrBus20_7.Q0_6	
+MidComm.PrBus20_7.Q0_7	
+MidComm.PrBus20_9.CHI0 - FT3146	J3034A/B DISCHARGE FLOW
+MidComm.PrBus20_9.CHI1 - PT3163	DIESEL TRANSFER PUMP J3034A SUCTION PRESSURE
+MidComm.PrBus20_9.CHI2 - PT3164	DIESEL TRANSFER PUMP J3034B SUCTION PRESSURE
+MidComm.PrBus20_9.CHI3	
+MidComm.PrBus20_9.CHI4	
+MidComm.PrBus20_9.CHI5	
+MidComm.PrBus20_9.CHI6	
+MidComm.PrBus20_9.CHI7	
+MidComm.PrBus20_10.CHI0	
+MidComm.PrBus20_10.CHI1	
+MidComm.PrBus20_10.CHI2	
+MidComm.PrBus20_10.CHI3	
+MidComm.PrBus20_10.CHI4	
+MidComm.PrBus20_10.CHI5	
+MidComm.PrBus20_10.CHI6	
+MidComm.PrBus20_10.CHI7	
+LowComm.PrBus31_9.I0_1 - LSH-L4479	SUMP LEVEL ZONE 5
+LowComm.PrBus33_4.I0_4 - HI4206BA	DIESEL OFFLOADING PUMP J-4206B AUTO SELECTED
+LowComm.PrBus33_4.I0_5 - HI4206BM	DIESEL OFFLOADING PUMP J-4206B MANUAL SELECTED
+LowComm.PrBus33_5.I0_0 - HI4206CA	DIESEL OFFLOADING PUMP J-4206C AUTO SELECTED
+LowComm.PrBus33_5.I0_1 - HI4206CM	DIESEL OFFLOADING PUMP J-4206C MANUAL SELECTED
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD1_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD1_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD2_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD2_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD1_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD1_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD2_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD2_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Reference_Speed - SC4206A	Reference Speed to Set in % Value
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.StopCommand - HS4206ASP	Stop command to the Drive
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.VFDFaultAlarm - YA4206A	VFD alarm over fault
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoMode_Active - HI4206AA	Automatic Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.ManualMode_Active - HI4206AM	Manual Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.HandMode_Active - HI4206AH	Hand Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.DRIVERUNNING - ZL4206A	Drive is Running
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.MotorHighTempAlarm_Active - TAH4206A	RTD Alarms are Active 
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.SpeedFeedback - ZI4206A	Speed feedback from VFD
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.AutoCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Manual__HandCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Local_RemoteModeSet.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Thermistor_AlarmCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206A.Drive_RunningStatus.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD1_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD1_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD2_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD2_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD1_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD1_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD2_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD2_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Reference_Speed - SC4206D	Reference Speed to Set in % Value
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.StopCommand - HS4206DSP	Stop command to the Drive
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.VFDFaultAlarm - YA4206D	VFD alarm over fault
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoMode_Active - HI4206DA	Automatic Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.ManualMode_Active - HI4206DM	Manual Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.HandMode_Active - HI4206DH	Hand Mode is Active
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.DRIVERUNNING - ZL4206D	Drive is Running
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.MotorHighTempAlarm_Active - TAH4206D	RTD Alarms are Active 
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.SpeedFeedback - ZI4206D	Speed feedback from VFD
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.AutoCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Manual__HandCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Local_RemoteModeSet.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Thermistor_AlarmCheck.PZD6_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ID_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ID_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.IND_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.IND_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_IN_3	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_IN_4	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.SW_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.SW_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ACT_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ACT_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD3_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD3_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD4_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD4_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD5_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD5_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD6_IN_1	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD6_IN_2	Input
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ID_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.ID_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.IND_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.IND_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_OUT_3	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.VALUE_OUT_4	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.CW_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.CW_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.REF_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.REF_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD3_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD3_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD4_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD4_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD5_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD5_OUT_2	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD6_OUT_1	Output
+PumpControl_Comm.FPBA_IOModule_PPO4_J4206D.Drive_RunningStatus.PZD6_OUT_2	Output
+PumpControl_Comm.AnyBus_IPModule.Pump3034A	Input from Multilin 469 of Pump J3034A Output Relay Status
+PumpControl_Comm.AnyBus_IPModule.Pump3034B	Input from Multilin 469 of Pump J3034B Output Relay Status
+PumpControl_Comm.Multilin369_InputModule_4206B.In1	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In2	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In3	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In4	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In5	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In6	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In7	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In8	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In9	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In10	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In11	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In12	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In13	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In14	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In15	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In16	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In17	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In18	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In19	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In20	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In21	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In22	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In23	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In24	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In25	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In26	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In27	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In28	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In29	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In30	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In31	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.In32	Input
+PumpControl_Comm.Multilin369_InputModule_4206B.Running - ZL4206B	Pump Status - Running
+PumpControl_Comm.Multilin369_InputModule_4206B.FaultAlarm - YA4206B	Motor Fault Alarm
+PumpControl_Comm.Multilin369_OutputModule_4206B.StopPump	Output
+PumpControl_Comm.Multilin369_InputModule_4206C.In1	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In2	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In3	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In4	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In5	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In6	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In7	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In8	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In9	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In10	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In11	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In12	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In13	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In14	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In15	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In16	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In17	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In18	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In19	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In20	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In21	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In22	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In23	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In24	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In25	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In26	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In27	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In28	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In29	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In30	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In31	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.In32	Input
+PumpControl_Comm.Multilin369_InputModule_4206C.Running - ZL4206C	Pump Status - Running
+PumpControl_Comm.Multilin369_InputModule_4206C.FaultAlarm - YA4206C	Motor Fault Alarm
+PumpControl_Comm.Multilin369_OutputModule_4206C.StopPump	Output

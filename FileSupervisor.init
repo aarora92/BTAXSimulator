@@ -1,0 +1,9 @@
+FILES= *.prj
+FILES= *.typ
+FILES= *.txt
+FILES= *.glb
+FILES= *.script
+FILES= *.tree
+FILES= *.pls
+FILES= *.data
+FILES= *.DAT

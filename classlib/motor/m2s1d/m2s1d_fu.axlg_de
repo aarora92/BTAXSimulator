@@ -1,0 +1,64 @@
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+Modi [Text Normal]	Modi
+Modi [Text Activ]	Wartungsoptionen verwenden
+Simulation [Text Normal]	Simulation
+Simulation [Text Activ]	Button
+Verriegelung_umgehen [Text Normal]	Verriegelung umgehen
+Verriegelung_umgehen [Text Activ]	Button
+Laeuft_langsam_Emulation [Text Normal]	Läuft langsam Emulation
+Laeuft_langsam_Emulation [Text Activ]	Button
+Bereit_Emulation [Text Normal]	Bereit Emulation
+Bereit_Emulation [Text Activ]	Button
+MCC_keine_Stoerung_Emulation [Text Normal]	MCC keine Störung Emulation
+MCC_keine_Stoerung_Emulation [Text Activ]	Button
+Emulation [Text Normal]	Emulation
+Emulation [Text Activ]	Wartungsoptionen verwenden
+Max_laeft_Rueckmeldung_langsam [Text Normal]	Max. läuft Rückmeldung langsam:
+Max_laeft_Rueckmeldung_langsam [Text Activ]	Text
+Max_laeft_Rueckmeldung_schnell [Text Normal]	Max. läuft Rückmeldung schnell:
+Max_laeft_Rueckmeldung_schnell [Text Activ]	Text
+Stopzeit [Text Normal]	Stopzeit:
+Stopzeit [Text Activ]	Text
+Umschaltdauer [Text Normal]	Umschaltdauer:
+Umschaltdauer [Text Activ]	Text
+Laeuft_schnell_Emulation [Text Normal]	Läuft schnell Emulation
+Laeuft_schnell_Emulation [Text Activ]	Button
+Laeuft_Verzoegerung_langsam [Text Normal]	Läuft Verzögerung langsam:
+Laeuft_Verzoegerung_langsam [Text Activ]	Text
+Laeuft_Verzoegerung_schnell [Text Normal]	Läuft Verzögerung schnell:
+Laeuft_Verzoegerung_schnell [Text Activ]	Text
+Stoerung_mit_MCC [Text Normal]	Störung mit MCC
+Stoerung_mit_MCC [Text Activ]	Störung mit MCC
+Gesperrt_mit_FU [Text Normal]	Gesperrt mit FU
+Gesperrt_mit_FU [Text Activ]	Gesperrt mit FU
+Auto_Ein_mit_FU [Text Normal]	Auto Ein mit FU
+Auto_Ein_mit_FU [Text Activ]	Auto Ein mit FU
+MCC [Text Normal]	MCC
+MCC [Text Activ]	MCC
+FU [Text Normal]	FU
+FU [Text Activ]	FU
+Gesperrt_mit_MCC [Text Normal]	Gesperrt mit MCC
+Gesperrt_mit_MCC [Text Activ]	Gesperrt mit MCC
+Stoerung_mit_FU [Text Normal]	Störung mit FU
+Stoerung_mit_FU [Text Activ]	Störung Langsam
+Auto_Ein_mit_MCC [Text Normal]	Auto Ein mit MCC
+Auto_Ein_mit_MCC [Text Activ]	Auto Ein mit MCC
+Hand [Text Normal]	Hand
+Hand [Text Activ]	Hand
+Auto [Text Normal]	Auto
+Auto [Text Activ]	Auto
+Aus [Text Normal]	Aus
+Aus [Text Activ]	Aus
+Quittieren [Text Normal]	Quittieren
+Quittieren [Text Activ]	Quittieren
+Ein [Text Normal]	Ein
+Ein [Text Activ]	Ein
+Bereit [Text Normal]	Bereit
+Bereit [Text Activ]	Bereit
+Laeuft_mit_FU [Text Normal]	Läuft mit FU
+Laeuft_mit_FU [Text Activ]	Läuft mit FU
+Laeuft_mit_MCC [Text Normal]	Läuft mit MCC
+Laeuft_mit_MCC [Text Activ]	Läuft mit MCC
+Stoerung_MCC [Text Normal]	Störung MCC
+Stoerung_MCC [Text Activ]	Störung MCC

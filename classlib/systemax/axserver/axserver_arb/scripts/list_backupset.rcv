@@ -1,0 +1,7 @@
+set DBID=1511997728
+
+connect target sys/axsys@aximst;
+list backup;
+
+exit
+

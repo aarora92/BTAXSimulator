@@ -1,0 +1,66 @@
+error_mcc [Text Normal]	non FU Allarme
+error_mcc [Text Activ]	FU Allarme
+text1 [Text Normal]	Controlo Velocitá
+text1 [Text Activ]	Controlo Velocitá
+text2 [Text Normal]	Esterno
+text2 [Text Activ]	Esterno
+text3 [Text Normal]	Interno
+text3 [Text Activ]	Interno
+text4 [Text Normal]	Attuale
+text4 [Text Activ]	Attuale
+run [Text Normal]	In Marcia
+run [Text Activ]	In Marcia
+error [Text Normal]	Allarme
+error [Text Activ]	Allarme
+locked [Text Normal]	Blocco
+locked [Text Activ]	Blocco
+auto_on [Text Normal]	Auto acc
+auto_on [Text Activ]	Auto acc
+man [Text Normal]	Man
+man [Text Activ]	Man
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+man_off [Text Normal]	Arresto
+man_off [Text Activ]	Arresto
+ack [Text Normal]	Confermare
+ack [Text Activ]	Confermare
+man_on [Text Normal]	Marcia
+man_on [Text Activ]	Marcia
+ready [Text Normal]	Pronto
+ready [Text Activ]	Non Pronto
+operation_mode [Text Normal]	Modo Norma
+operation_mode [Text Activ]	Modo Norma
+text_intern_button [Text Normal]	Interno
+text_intern_button [Text Activ]	Interno
+text_extern_button [Text Normal]	Esterno
+text_extern_button [Text Activ]	Esterno
+current [Text Normal]	Corrente
+current [Text Activ]	Corrente
+torque [Text Normal]	Momento
+torque [Text Activ]	Momento
+power [Text Normal]	Potenza
+power [Text Activ]	Potenza
+parameter [Text Normal]	Parametro
+parameter [Text Activ]	Parametro
+mode [Text Normal]	Modo
+mode [Text Activ]	Modo
+simulation [Text Normal]	Simulazione
+simulation [Text Activ]	Simulazione
+no_lock [Text Normal]	senza interblocco
+no_lock [Text Activ]	senza interblocco
+run_emulation [Text Normal]	In Marcia Emulazione
+run_emulation [Text Activ]	In Marcia Emulazione
+rdy_emulation [Text Normal]	Pronto Emulazione
+rdy_emulation [Text Activ]	Pronto Emulazione
+emulation [Text Normal]	Emulazione
+emulation [Text Activ]	Emulazione
+max_run_feedb [Text Normal]	Ritardare l'Allarme del In Marcia
+max_run_feedb [Text Activ]	Ritardare l'Allarme del In Marcia
+delaytime [Text Normal]	Tempo
+delaytime [Text Activ]	Tempo
+lock_setpt [Text Normal]	Blocco Valore impostato
+lock_setpt [Text Activ]	Blocco Valore impostato
+error_mcc_emulation [Text Normal]	Locale Emulazione
+error_mcc_emulation [Text Activ]	Locale Emulazione
+manual_at_fault [Text Normal]	Manuale l´Allarme
+manual_at_fault [Text Activ]	Manuale l´Allarme

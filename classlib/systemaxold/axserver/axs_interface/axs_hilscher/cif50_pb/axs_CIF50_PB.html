@@ -1,0 +1,230 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+   <title>axs_CIF50_PB</title>
+</head>
+<body>
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#ffffff"><font size=+4>axs_CIF50_PB</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><font color="#3333ff"><A href="#Features">Features</a>&nbsp;</font><font color="#000000">|</font><font color="#3333ff">
+<A href="#Installation">Installation</a>&nbsp;</font><font color="#000000">|</font><font color="#3333ff">
+<A href="#UserInterface">User Interface</a> </font><font color="#000000">|</font><font color="#3333ff"><A href="#implementation">Implementation
+Notes</a> </font><font color="#000000">| </font></font><font face="Arial,Helvetica"><font color="#3333ff"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"><A href="#settings"></a></font><font face="Arial,Helvetica">
+|<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<p><a NAME="Features"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The CIF 50 PB panel displays if there is
+an Hilscher PCI Card installed and denotes the values of</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">active slaves</font>
+
+<li>
+<font face="Arial,Helvetica">IO Points</font>
+
+<li>
+<font face="Arial,Helvetica">Outputs and</font>
+
+<li>
+<font face="Arial,Helvetica">Inputs</font></li>
+</ul>
+<font color="#3333ff"><font face="Arial"><A href="#Features">Features</a><FONT color=black> |
+</FONT>
+ <A href="#Installation">Installation</a><FONT color=black> | </FONT>  <A href="#UserInterface">User
+Interface</a><FONT color=black> | </FONT>  <A href="#implementation">Implementation Notes</a><FONT color=black> | </FONT>  </font><font face="Arial,Helvetica"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"> |<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<hr ALIGN="left" WIDTH="75%"><a NAME="Installation"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The axs_CIF50_PB class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="623">
+<tr>
+<td VALIGN=top WIDTH="26%" BGCOLOR="#ffffff"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=top WIDTH="36%" BGCOLOR="#ffffff"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=top WIDTH="38%" BGCOLOR="#ffffff"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">axs_CIF50_PB.symbol</font>
+<p>&nbsp;</p></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">some documentation</font>
+<br><font face="Arial">pixel maps</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=top WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=top WIDTH="38%"><font face="Arial">axs_CIF50_PB.htm</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub-directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<p><font color="#3333ff"><font face="Arial"><A href="#Features">Features</a> <FONT color=black>| </FONT>
+ <A href="#Installation">Installation</a><FONT color=black> | </FONT>  <A href="#UserInterface">User
+Interface</a><FONT color=black> | </FONT>  <A href="#implementation">Implementation Notes</a><FONT color=black> | </FONT>  </font><font face="Arial,Helvetica"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"> |<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<hr ALIGN="left" WIDTH="90%"><p><a NAME="Redundancy"></a><b><font size="+2" color="#0000ff" face="Arial">Redundancy</font></b><p><font face="Arial">To
+install a redundancy connection between two station you must do follow steps:</font>
+<ul>
+  <li><font face="Arial">Install an IP-connection between the master and the
+    standby staion. Use for the connection an extra ethernet card in each
+    station.</font></li>
+  <li><font face="Arial">Connect the stations with the profibus. (see figure
+    redundancy connetion)&nbsp;</font><p><img src="Redundanz.gif" width="603" height="238"><p><font face="Arial" size="2">Figure:
+    redundancy connetion</font></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+  <li><font face="Arial">Set the station addres form the hilscher cards, in the
+    master to the value <font color="#0000FF"><b>&quot;2&quot;</b></font>, and
+    on the standby station to the <b>same</b>  value.&nbsp; You can set the station addres, by pushing on the <font color="#0000FF">&quot;Slave
+    aktive&quot;</font> field in the graphical representation. Chose the button <font color="#0000FF">Parmeter
+    </font>(Figure 1) </font><font face="Arial">and instert the new station
+    addres in the <font color="#0000FF">Adresse</font> field </font><font face="Arial">(Figure
+    2). Reset the hilscher card after the change.</font></li>
+</ul>
+<blockquote>
+  <p><font face="Arial">Note:</font></p>
+  <p><font face="Arial">The if you stet the standby station to addres 2 the real
+  addres of th DB-Master is 1, <b>don't give the addres 1 to an other device at
+  the profibus !&nbsp;</b></font></p>
+  <p><font face="Arial"><img border="0" src="axs_CI1.gif" width="274" height="249"></font></p>
+  <p><font face="Arial" size="2">Figure 1</font></p>
+  <p><img border="0" src="axs_CI2.gif" width="342" height="477"></p>
+  <p><font face="Arial" size="2">Figure 2</font></p>
+</blockquote>
+<ul>
+  <li><font face="Arial">At next you must shotdown the AXServer, and&nbsp; then
+    restart the staions with this command line:</font></li>
+</ul>
+<blockquote>
+  <p><font face="Arial">For the master station:</font></p>
+  <p><font color="#FFFFFF" face="Courier New"><span style="background-color: #666666">C:\AutomationX\bin\flash
+  -server </span></font><span style="background-color: #666666"><font face="Courier New" color="#FFFF00">&lt;hostname
+  of the standby station&gt;</font><font color="#FFFFFF" face="Courier New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></p>
+</blockquote>
+<blockquote>
+  <p><font face="Arial">For the stanby station:</font></p>
+  <p><span style="background-color: #666666"><font color="#FFFFFF" face="Courier New">C:\AutomationX\bin\flash
+  -standby </font><font face="Courier New" color="#FFFF00">&lt;hostname of the
+  master station&gt;</font><font color="#FFFFFF" face="Courier New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></p>
+  <p><font face="Arial">The hostnames of the stations can you get with the
+  command </font><font face="Courier New" color="#0000FF"><b>hostname</b></font><font face="Arial">:&nbsp;</font></p>
+  <p><span style="background-color: #666666"><font face="Courier New" color="#FFFFFF">C:\hostname&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></p>
+  <p><font face="Arial">Be shure that the station don't have the same station
+  addresses.</font></p>
+</blockquote>
+<p>&nbsp;<p>&nbsp;
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr ALIGN="left" WIDTH="90%"><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><b><font face="Arial,Helvetica"><font size=+1>CIF 50 PB Panel</font></font></b>
+<p><font face="Arial,Helvetica">The CIF 50 PB panel displays if there is
+an Hilscher PCI Card existing and denotes the values of</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">active slaves</font>
+
+<li>
+<font face="Arial,Helvetica">IO Points</font>
+
+<li>
+<font face="Arial,Helvetica">Outputs and</font>
+
+<li>
+<font face="Arial,Helvetica">Inputs</font></li>
+</ul>
+
+<ul><IMG height=331 src="axs_hilscher_display.gif" width=138></ul>
+
+<p><br><font face="Arial,Helvetica">The LED display at the top of the panel
+indicates the error-state.</font>
+<br><font face="Arial,Helvetica">The following table provides a summary:</font>
+<br>&nbsp;
+<table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="346">
+<tr>
+<td VALIGN=top WIDTH="60" BGCOLOR="#ffffff"><b><font face="Arial">LED Color</font></b></td>
+
+<td VALIGN=top WIDTH="333" BGCOLOR="#ffffff"><b><font face="Arial">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="60"><font face="Arial">Green</font></td>
+
+<td VALIGN=top WIDTH="333"><font face="Arial">There is no error.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="60"><font face="Arial">Red</font></td>
+
+<td VALIGN=top WIDTH="333"><font face="Arial">An error occurs.</font></td>
+</tr>
+</table>
+
+<p><font color="#3333ff"><font face="Arial"><A href="#Features">Features</a><FONT color=black> | </FONT>
+ <A href="#Installation">Installation</a><FONT color=black> | </FONT>  <A href="#UserInterface">User
+Interface</a><FONT color=black> | </FONT>  <A href="#implementation">Implementation Notes</a><FONT color=black> | </FONT>  </font><font face="Arial,Helvetica"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"> |<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<hr ALIGN="left" WIDTH="90%"><a NAME="implementation"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial,Helvetica">The axs_CIF50_PB class is an integral part
+of the "axsystem" program. In terms of implementation it is required to
+have the "axsystem.tree" program installed into the running project. I.e.
+in the "Configuration" directory of the Project Window.</font>
+<p><font color="#3333ff"><font face="Arial"><A href="#Features">Features</a><FONT color=black> | </FONT>
+ <A href="#Installation">Installation</a><FONT color=black> | </FONT>  <A href="#UserInterface">User
+Interface</a><FONT color=black> | </FONT>  <A href="#implementation">Implementation Notes</a><FONT color=black> | </FONT>  </font><font face="Arial,Helvetica"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"> |<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<hr ALIGN="left" WIDTH="90%"><a NAME="settings"></a><b><font face="Arial"><font color="#0000ff"><font size=+2>Settings</font></font></font></b>
+<p><font face="Arial"><A href="axs_hilscher_pb.htm">Card and Profibus Settings
+/ Status</a></font>
+<p><font face="Arial"><A href="#Features">Features</a> | <A href="#Installation">Installation</a>
+| <A href="#UserInterface">User Interface</a> | <A href="#implementation">Implementation
+Notes</a> | </font><font face="Arial,Helvetica"><font color="#3333ff"><A href="#settings">Settings</a></font></font>
+<font face="Arial,Helvetica"><A href="#settings"></a></font><font face="Arial,Helvetica">
+|<font color="#3333ff"> <a href="#Redundancy">Redundancy</a></font>
+</font>
+<br>
+<hr ALIGN="left" WIDTH="90%">
+</body>
+</html>

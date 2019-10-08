@@ -1,0 +1,709 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [de] (WinNT; I) [Netscape]">
+   <META NAME="Microsoft Theme" CONTENT="none, default">
+   <META NAME="Microsoft Border" CONTENT="none, default">
+   <META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+   <TITLE>sm321_di16_alarm_new_</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#800080">
+&nbsp;
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="731" >
+<TR>
+<TD VALIGN=TOP WIDTH="723" HEIGHT="53" BGCOLOR="#808080"><B><FONT FACE="Arial"><FONT COLOR="#FFFFFF"><FONT SIZE=+4>Digital
+Input sm321_di16_alarm</FONT></FONT></FONT></B></TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR><A NAME="Features"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Features</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The "sm321_di16_alarm": DI16 x DC 24V with process-
+and diagnosis alarm is characterized by the following qualities:</FONT>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- 16 inputs, isolated in groups of 2</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- DC 24V entry nominal voltage</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- for switch and 2-/3-/4 string proximity switch (BEROs)</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- 2 surge-proof supplies to sender for in each case 8 channels</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- external redundant feeding possible at supply to sender</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- status indicators "Geberspannung (Vs) O.K."</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- collecting error indication (SF)</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- parametrizable diagnosis alarm</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- parametrizable process alarms</FONT></B>
+
+<P><B><FONT FACE="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- variable entry delays</FONT></B>
+
+<P><FONT FACE="Arial">The sm321_di16_alarm class can be used in a <B>S7-300</B>
+or a <B>Profibus DP Slave-System</B> (ET200M IM153). The module summarizes
+the individual digital inputs to an input byte(s).</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="75%">
+<BR><A NAME="Installation"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Installation</FONT></FONT></FONT></B>
+
+<P>&nbsp;<FONT FACE="Arial">The sm321_di16_alarm class is comprised of
+the following components (files):</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<TR>
+<TD VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Class
+Component</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Description</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">File
+Name(s)</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Class Color File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Includes some class specific
+color definitions.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%">&nbsp;<FONT FACE="Arial">sm321_di16_alarm.color</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Class File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Includes the process picture
+representation and any popup menus.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">sm321_di16_alarm.symbol</FONT>&nbsp;
+
+<P>&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Graphic Files</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">axclassdoku16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axclassdoku_grey16.bmp</FONT>&nbsp;&nbsp;
+
+<P><FONT FACE="Arial">axinstanzdoku16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axinstanzdoku_grey16.bmp</FONT>&nbsp;&nbsp;
+
+<P><FONT FACE="Arial">axparam16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axparam_grey16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axservice16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axservice_grey16.bmp</FONT>&nbsp;&nbsp;
+
+<P><FONT FACE="Arial">axtrend16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axtrend_grey16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">(and some documentation</FONT>&nbsp;
+<BR><FONT FACE="Arial">pixel maps)</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">HTML-Document</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">HTML document for Online
+Help.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">sm321_di16_alarm.htm</FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><B>Installation: </B>The above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A></FONT> <FONT FACE="Arial">|<A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="UserInterface"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Graphical
+User Interface</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The sm321_di16_alarm class represents an actual I/O
+module. The class name appears at the top of the module. When the module
+is not connected or not valid, the title will flash red. The instance name
+of the module will appear&nbsp; in large blue text in the middle of the
+light blue "label" area. The names of the I/O points will appear in small
+black text just to the left of their corresponding channel, in the light
+blue area of the module.</FONT>
+
+<P><FONT FACE="Arial">The sixteen I/O points are split up into two groups
+of eight numbered 0-7, each channel represented by a small rectangle. The
+rectangles denote the current state of the channel: grey if inactive, green
+if set and yellow if "Force" is on.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><IMG SRC="Graphical_User_Interf_sm321_di16_alarm.gif" ALT="Image34.gif (14336 bytes)" HEIGHT=499 WIDTH=392>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 2: Graphical Representation</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial">The <B>Force PopUp</B> is invoked by selecting the
+graphical representation. The "Norm/Force" button allows each channel to
+be set to force mode to simulate its value, which is necessary so that
+PLC-programs can be tested when there is no connection to the I/O. The
+value of each channel is then simulated/forced with the "ON/OFF" button
+in the respective section (channel). This button is only active if the
+"Norm/Force" button is set to "Force".</FONT>
+
+<P><IMG SRC="popup32x.gif" HEIGHT=391 WIDTH=600>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 3: The Force PopUp</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial">Figure 4 shows the Object Explorer in Online mode
+(click Shift + Right mouse button on the module to invoke the Object Explorer).
+The user can see where the Instance name and Remarks are declared. A red
+rectangle indicator appears to the right of the I/O name if the module
+is NOT VALID. The indicator will not be present if the channel is forced
+or when the module is VALID.</FONT>
+
+<P><IMG SRC="Explorer_sm321_di16x.gif" HEIGHT=479 WIDTH=627>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 4: The Object Explorer</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="Configuration"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Configuration</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The following table lists the configuration parameters
+for the Simulator sm321_di16_alarm. The parameter data type, the default
+values and a brief description are listed. The grey shaded rows are parameters
+which must not be changed.</FONT>
+
+<P><FONT FACE="Arial">The variables I0_0 to I1_7 are VAR-GLOBAL.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER CELLPADDING=2 WIDTH="860" >
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<CENTER><B><FONT FACE="Arial">Item</FONT></B></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Variable</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<CENTER><B><FONT FACE="Arial">Type</FONT></B></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<CENTER><B><FONT FACE="Arial">Default</FONT></B></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Description</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">1</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 0</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">2</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_1</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 1</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_2</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 2</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">4</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 3</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">5</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_4</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 4</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">6</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_5</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 5</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">7</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_6</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 6</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">8</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I0_7</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 7</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">9</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 8</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">10</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_1</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 9</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">11</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_2</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 10</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">12</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 11</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">13</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_4</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 12</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">14</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_5</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 13</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">15</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_6</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 14</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">16</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">I1_7</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Input
+channel 15</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#FFFFFF"><FONT FACE="Arial">17</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#FFFFFF"><FONT FACE="Arial">Connection</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><FONT FACE="Arial">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><FONT FACE="Arial">...</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#FFFFFF"><FONT FACE="Arial">The
+next unit is connected by entering the instance name in this parameter.</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">18</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">DataValid</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">YES
+if the profibus DP communication is valid.</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">20</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">InputData[2]</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">USINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Input
+data array used by profibus DP and handles the digital inputs of this module.</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">21</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">ModuleName</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">6ES7
+321-7BH0*-0AA0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><FONT FACE="Arial">The
+module slave name. This is checked with the GSD file of the profibus DP
+slave (constant).</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">23</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">ModuleValid</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">YES
+if the module itself has no error.</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">24</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">error_msg[10]</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">...</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Error
+message array</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">22</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">ModulePosition</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">USINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Shows
+the position of the module in order.</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">25</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Force[16]</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Force
+array</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="5%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">26</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="24%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Val[16]</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="53%" HEIGHT="1" BGCOLOR="#C0C0C0"><FONT FACE="Arial">Val
+array</FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A></FONT> <FONT FACE="Arial">|
+<A HREF="#Class_Modification_History">Modifications History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="implementation"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Implementation
+Notes</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">Data Transfer will only work correctly when the sm321
+Module is connected with at least one Module or Slave.</FONT>&nbsp; <FONT FACE="Arial">The
+system will check for an existing module or slave automatically and display
+the name at the bottom of the graphical representation.</FONT>
+
+<P><FONT FACE="Arial">The position of the Data Modules should be the same
+as it is defined in the PLC. Each module must be connected in series with
+the next module. To do this, assign the "Instance" name of the next module
+into the "Connection" string variable of the current module. If there is
+no module next in the series, the "connection"field" remains blank.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><IMG SRC="implementation_sm321_di16_alarm.gif" ALT="Image25.gif (17455 bytes)" HEIGHT=498 WIDTH=473>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 5: An example of two SM321 modules
+in series</FONT></FONT>
+
+<P><IMG SRC="Connection_sm321_di16_alarm.gif" HEIGHT=745 WIDTH=574>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 6: Two modules in the Object
+Explorer</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="Class_Modification_History"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Modification
+History</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The following table lists the modifications made
+to the sm321_di16_alarm class.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER CELLPADDING=3 WIDTH="623" >
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><B><FONT FACE="Arial">Item</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><B><FONT FACE="Arial">Date</FONT></B>&nbsp;
+<BR><B><FONT FACE="Arial">(m/d/y)</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><B><FONT FACE="Arial">Name</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="7%"><B><FONT FACE="Arial">File</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><B><FONT FACE="Arial">Description</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><B><FONT FACE="Arial">Reason</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial">1</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial">04/06/97</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial">Manfred Dobaj</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="7%">&nbsp;</TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial">Initial Design</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial">2</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial">15/07/98</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial">Manfred Dobaj</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="7%">&nbsp;</TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial">Redesign the user interface</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial">3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial">23/02/99</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial">J&uuml;rgen Tossold</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="7%">&nbsp;</TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial">Graphical Class Standard</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial">4</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial">22/12/99</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial">Thomas Lang</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="7%">&nbsp;</TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial">Redesign Graphical Class
+Standard</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%">&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A></FONT> <FONT FACE="Arial">|<A HREF="#Class_Modification_History">Modifications
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+</BODY>
+</HTML>

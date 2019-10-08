@@ -1,0 +1,11 @@
+reboot:	no=0,
+		yes=1;
+hardware: 	Unknown=0,
+		PC=1,
+		aXController=2,
+		aXPanel=3,
+		Beckhoff=4,
+		aXSpeedPanel=5,
+		XEA500=6;
+
+AdstecSwitch:STOP=0,RUN/PROG=32,MSET=64;

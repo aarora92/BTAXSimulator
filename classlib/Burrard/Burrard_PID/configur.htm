@@ -1,0 +1,377 @@
+<html>
+
+<head>
+<title>Configuration</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h2><a name="top"></a><big><big><strong><big>PID Configuration</big></strong></big></big></h2>
+<font SIZE="2">
+
+<p></font><font size="4">The following table lists the configuration parameters for the
+Regulatory PID controller. The parameter data type, the default values and a brief
+description are listed.</p>
+</font>
+
+<p><font size="4">&nbsp;</font></p>
+<div align="left">
+
+<table border="1" cellpadding="2" cellspacing="0" width="899">
+  <tr>
+    <td width="45" bgcolor="#C0C0C0"><big>Item</big></td>
+    <td width="208" bgcolor="#C0C0C0"><big>Variable</big></td>
+    <td width="53" bgcolor="#C0C0C0"><big>Type</big></td>
+    <td width="53" bgcolor="#C0C0C0"><big>Default</big></td>
+    <td width="490" bgcolor="#C0C0C0"><big>Description</big></td>
+  </tr>
+  <tr>
+    <td width="45">1</td>
+    <td width="208"><font COLOR="#0000ff" size="4"><b>value_in</b></font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">measured value - feedback</font></td>
+  </tr>
+  <tr>
+    <td width="45">2</td>
+    <td width="208"><font COLOR="#0000ff" size="4"><b>setpoint_in</b></font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">setpoint</font></td>
+  </tr>
+  <tr>
+    <td width="45">3</td>
+    <td width="208"><font COLOR="#0000ff" size="4"><b>Dv</b></font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">disturbance value</font></td>
+  </tr>
+  <tr>
+    <td width="45">4</td>
+    <td width="208"><font COLOR="#ff0000" size="4"><b>control_out</b></font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">controller output</font></td>
+  </tr>
+  <tr>
+    <td width="45">5</td>
+    <td width="208"><font size="4">control_extern</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">external assigned control value.</font></td>
+  </tr>
+  <tr>
+    <td width="45">6</td>
+    <td width="208"><font size="4">control_extern_enable</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53"><font size="4">NO</font></td>
+    <td width="490"><font size="4">enable external control value</font></td>
+  </tr>
+  <tr>
+    <td width="45">7</td>
+    <td width="208"><font size="4">control_internal</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">internal control value with a range of 0-100%</font></td>
+  </tr>
+  <tr>
+    <td width="45">8</td>
+    <td width="208"><font size="4">dv_internal</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">internal disturbance value with a range of 0-100%</font></td>
+  </tr>
+  <tr>
+    <td width="45">9</td>
+    <td width="208"><font size="4">setpoint_visual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">setpoint for visualization. In manual setpoint mode , this
+    value is used as setpoint and can be changed by the operator on a popup.</font></td>
+  </tr>
+  <tr>
+    <td width="45">10</td>
+    <td width="208"><font size="4">value_visual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">measured value after smoothing</font></td>
+  </tr>
+  <tr>
+    <td width="45">11</td>
+    <td width="208"><font size="4">control_visual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53"><font size="4">0</font></td>
+    <td width="490"><font size="4">control value for visualization. In manual mode, this value
+    is used as output value and can be changed by the operator on a popup.</font></td>
+  </tr>
+  <tr>
+    <td width="45">12</td>
+    <td width="208"><font size="4">Kp</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">1</td>
+    <td width="490"><font size="4">proportional factor (gain)</font></td>
+  </tr>
+  <tr>
+    <td width="45">13</td>
+    <td width="208"><font size="4">Ti</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">10.0</td>
+    <td width="490"><font size="4">time constant of integrational part</font></td>
+  </tr>
+  <tr>
+    <td width="45">14</td>
+    <td width="208"><font size="4">Td</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">1.0</td>
+    <td width="490"><font size="4">time constant of derivative part</font></td>
+  </tr>
+  <tr>
+    <td width="45">15</td>
+    <td width="208"><font size="4">td_d</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">delay time of derivative part</font></td>
+  </tr>
+  <tr>
+    <td width="45">16</td>
+    <td width="208"><font size="4">tu_sp</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">time for runup ramp- setpoint ( MIN_SCALE to MAX_SCALE)</font></td>
+  </tr>
+  <tr>
+    <td width="45">17</td>
+    <td width="208"><font size="4">td_sp</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">time for rundown ramp- setpoint ( MAX_SCALE to MIN_SCALE)</font></td>
+  </tr>
+  <tr>
+    <td width="45">18</td>
+    <td width="208"><font size="4">tu_con</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">time for runup ramp- control value (control_min to
+    control_max)</font></td>
+  </tr>
+  <tr>
+    <td width="45">19</td>
+    <td width="208"><font size="4">td_con</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">time for rundown ramp- control value(control_max to
+    control_min)</font></td>
+  </tr>
+  <tr>
+    <td width="45">20</td>
+    <td width="208"><font size="4">ts</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">smoothing time for measured value</font></td>
+  </tr>
+  <tr>
+    <td width="45">21</td>
+    <td width="208"><font size="4">control_min</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0.20</td>
+    <td width="490"><font size="4">minimal control value</font></td>
+  </tr>
+  <tr>
+    <td width="45">22</td>
+    <td width="208"><font size="4">control_max</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">100.0</td>
+    <td width="490"><font size="4">maximal control value</font></td>
+  </tr>
+  <tr>
+    <td width="45">23</td>
+    <td width="208"><font size="4">integral_off</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">100.0</td>
+    <td width="490"><font size="4">if error signal exceeds this value the integral part is
+    disabled</font></td>
+  </tr>
+  <tr>
+    <td width="45">24</td>
+    <td width="208"><font size="4">error_deadband</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">deadband width for error signal</font></td>
+  </tr>
+  <tr>
+    <td width="45">25</td>
+    <td width="208"><font size="4">error_last_cycle</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">error signal in last plc-cycle</font></td>
+  </tr>
+  <tr>
+    <td width="45">26</td>
+    <td width="208"><font size="4">I_last_cycle</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">integral value in last plc-cycle</font></td>
+  </tr>
+  <tr>
+    <td width="45">27</td>
+    <td width="208"><font size="4">d_last_cycle</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">derivative value in last plc-cycle</font></td>
+  </tr>
+  <tr>
+    <td width="45">28</td>
+    <td width="208"><font size="4">sp_last_cycle</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">setpoint in last plc-cycle</font></td>
+  </tr>
+  <tr>
+    <td width="45">29</td>
+    <td width="208"><font size="4">control_last_cycle</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">control value in last plc-cycle</font></td>
+  </tr>
+  <tr>
+    <td width="45">30</td>
+    <td width="208"><font size="4">setpoint_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual setpoint</font></td>
+  </tr>
+  <tr>
+    <td width="45">31</td>
+    <td width="208"><font size="4">value_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual measured value (smoothed)</font></td>
+  </tr>
+  <tr>
+    <td width="45">32</td>
+    <td width="208"><font size="4">error_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual error signal</font></td>
+  </tr>
+  <tr>
+    <td width="45">33</td>
+    <td width="208"><font size="4">p_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual proportional part</font></td>
+  </tr>
+  <tr>
+    <td width="45">34</td>
+    <td width="208"><font size="4">I_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual integral part</font></td>
+  </tr>
+  <tr>
+    <td width="45">35</td>
+    <td width="208"><font size="4">d_actual</font></td>
+    <td width="53"><font size="4">REAL</font></td>
+    <td width="53">0</td>
+    <td width="490"><font size="4">actual derivative part</font></td>
+  </tr>
+  <tr>
+    <td width="45">36</td>
+    <td width="208"><font size="4">auto</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">enables the automatic mode </font></td>
+  </tr>
+  <tr>
+    <td width="45">37</td>
+    <td width="208"><font size="4">sp_auto</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">enables the automatic mode for setpoint</font></td>
+  </tr>
+  <tr>
+    <td width="45">38</td>
+    <td width="208"><font size="4">shutdown</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">set the setpoint to zero</font></td>
+  </tr>
+  <tr>
+    <td width="45">39</td>
+    <td width="208"><font size="4">freeze</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">froze the control value</font></td>
+  </tr>
+  <tr>
+    <td width="45">40</td>
+    <td width="208"><font size="4">enable</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">YES</td>
+    <td width="490"><font size="4">enables the controller, otherwise control value =
+    control_min</font></td>
+  </tr>
+  <tr>
+    <td width="45">41</td>
+    <td width="208"><font size="4">p_enable</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">YES</td>
+    <td width="490"><font size="4">enables the proportional part</font></td>
+  </tr>
+  <tr>
+    <td width="45">42</td>
+    <td width="208"><font size="4">I_enable</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">YES</td>
+    <td width="490"><font size="4">enables the integral part</font></td>
+  </tr>
+  <tr>
+    <td width="45">43</td>
+    <td width="208"><font size="4">d_enable</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">enables the derivative part</font></td>
+  </tr>
+  <tr>
+    <td width="45">44</td>
+    <td width="208"><font COLOR="#00ff00" size="4">$$_cycle_time</font></td>
+    <td width="53"><font size="4">BOOL</font></td>
+    <td width="53">NO</td>
+    <td width="490"><font size="4">system-wide&nbsp; plc cycle time</font></td>
+  </tr>
+  <tr>
+    <td width="45">45</td>
+    <td width="208"><font size="4">SPS_Constuctor</font></td>
+    <td width="53"><font size="4">Code</font></td>
+    <td width="53">&nbsp;</td>
+    <td width="490"><font size="4">class code</font></td>
+  </tr>
+</table>
+</div><div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+  <tr>
+    <td><font FACE="Arial" size="3"><b><u><p ALIGN="left"></u></b></font><font size="4">Table
+    2: PID Configuration Parameters</font></td>
+  </tr>
+</table>
+</div>
+
+<hr>
+
+<p align="center"><font face="Arial">[</font><big> <a href="pid_lag.htm#Home">Home</a> | <a
+href="#top">Top of Page</a> | <a href="pid_lag.htm#Content">Contents</a> </big><font
+face="Arial">]</font></p>
+<font SIZE="2">
+
+<p>&nbsp;</p>
+</font><font FACE="Arial" SIZE="2">
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</font> </p>
+</body>
+</html>

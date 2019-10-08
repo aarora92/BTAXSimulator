@@ -1,0 +1,510 @@
+Menu.Main.File	File
+Menu.File.Login	Login
+Menu.File.Login.Accelerator	Ctrl+L
+Menu.File.Print	Print
+Menu.File.Print.Accelerator	Ctrl+P
+Menu.File.PrinterSetup	Printer Setup...
+Menu.File.PrinterSetup.Accelerator	Ctrl+S
+Menu.File.Restart	Restart
+Menu.File.Exit	Exit
+Menu.Main.Edit	Edit
+Menu.Edit.OpenProject	Project...
+Menu.Edit.OpenProject.Accelerator	 
+Menu.Edit.EditProgram	Edit this Program 
+Menu.Edit.EditProgram.Accelerator	 
+Menu.Edit.Cut	Cut
+Menu.Edit.Cut.Accelerator	Ctrl+X
+Menu.Edit.Copy	Copy
+Menu.Edit.Copy.Accelerator	Ctrl+C
+Menu.Edit.Paste	Paste
+Menu.Edit.Paste.Accelerator	Ctrl+V
+Menu.Edit.Search	Search 
+Menu.Edit.Color	Color...
+Menu.Edit.Font	Font...
+Menu.Main.View	View
+Menu.View.Next Page	Previous Page
+Menu.View.Next Page.Accelerator	PgUp
+Menu.View.Prev Page	Next Page
+Menu.View.Prev Page.Accelerator	PgDown
+Menu.View.Language	Language
+Menu.View.Picture	Picture
+Menu.View.Journal	Journal
+Menu.View.Customize	Customize
+Menu.View.FullScreen	FullScreen
+Menu.View.Show Tags	Show Tags
+Menu.Main.Alarm	Alarm
+Menu.Alarm.Previous Alarm	Previous Alarm     
+Menu.Alarm.Previous Alarm.Accelerator	F9
+Menu.Alarm.Next Alarm	Next Alarm
+Menu.Alarm.Next Alarm.Accelerator	F10
+Menu.Alarm.Acknowledge Alarm	Acknowledge Alarm
+Menu.Alarm.Acknowledge Alarm.Accelerator	F11
+Menu.Alarm.Acknowledge All Alarm	Acknowledge All Alarm
+Menu.Alarm.Acknowledge All Alarm.Accelerator	F12
+Menu.Alarm.Customize	Customize 
+batch.MenuViewer.Preparation	Preparation
+batch.MenuViewer.Batch	Batch
+batch.MenuViewer.Batchcontrol	Batch Selection
+batch.MenuViewer.RecipeList	Recipe
+batch.MenuViewer.Product	Product List
+batch.MenuViewer.Tank	Tank List
+batch.MenuViewer.Statistic	Statistics
+Button.Previous	Previous
+Button.Next	Next
+Button.Login	User
+Button.Search	Search
+Button.Journal	Journal
+Button.Print	Print
+Button.PostIt	PostIt
+Button.Zoom	Zoom
+Button.Trend	Trend
+Button.Trend.Collections	Trend Set Collections
+Button.Trend.Sets	Trend Sets
+Button.TrendConf	Trend Conf.
+Button.Prev Alarm	Prev Alarm
+Button.Next Alarm	Next Alarm
+Button.Ack Alarm	Ack.Alarm
+Button.Ack All Alarm	Ack. All
+Menu.MiddlePlant	MiddlePlant
+Menu.Accelerator.MiddlePlant	[F1]
+Menu.Dock	Dock
+Menu.Accelerator.Dock	[F2]
+Menu.RailSpur	RailSpur
+Menu.Accelerator.RailSpur	[F3]
+Menu.Leak Detection	Leak Detection
+Menu.Accelerator.Leak Detection	[F4]
+AlarmList Tab Alarm All	Alarm All
+AlarmList Tab Alarm Group	Alarm Group
+AlarmList Tab Alarm Picture	Alarm Picture
+AlarmList Tab Forces	Forces
+AlarmList.Label: Nr	Nr
+AlarmList.Label: Prio	Prio
+AlarmList.Label: Time	Time
+AlarmList.Label: Page	Page
+AlarmList.Label: Position	Position
+AlarmList.Label: Comment	Comment
+AlarmList.Label: Value	Value
+AlarmList.Label: Var Name	Var Name
+AlarmList.Label: Reference	Reference
+Menu.Edit.Edit this Program	Edit this Program
+Install.Message.ShowInViewer	Install-Messages: Show in Viewer
+Install.Message.Head	Install - Messages
+PLCBrowser.Cancel	Cancel
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+Install.Message.Messages	Install Messages ...
+Instance Context Menu.Explorer	Explorer
+Instance Context Menu.Class	Class
+Instance Context Menu.Trend	Trend
+Instance Context Menu.Cross Reference	Cross Reference
+Instance Context Menu.Trend.Show Trend	Show Trend
+Instance Context Menu.Trend.Add Predefined	Add Predefined
+Instance Context Menu.Class Description	Class Description
+Instance Context Menu.Instance Description	Instance Description
+Instance Context Menu.Properties	Properties
+Menu.File.Close	Close
+Editor.Instance	Instance:
+Editor.Remark	Remark :
+Editor.ClassType	Type:
+Editor.TypeLocal	Local
+Editor.Class	Class:
+Editor.Ref	Ref.
+Editor.Use_Alarms	Use Alarms
+Editor.RemoteSite	Site:
+Editor.RemoteInstance	Instance:
+Editor.ServerData	Server Data
+Editor.ClientData	Client Data
+Editor.RemoteData	Remote Data
+Editor.Declaration	Declaration
+Editor.Type	Type
+Editor.Reference	Reference
+Editor.NC	NC
+Editor.INV	INV
+Editor.Subrange	Subrange
+Editor.Dimension	Dimension
+Editor.IOScale	IoScale
+Editor.Physical	Physical
+Editor.StringSize	String Size
+Editor.DecimalPoints	DecimalPoints
+Editor.ArrayCount	Array Count
+Editor.Trending	Trending
+Editor.Retentive	Retentive
+Editor.Constant	Constant
+Editor.Private	Private
+Editor.Local	Local
+Editor.Parameter	Parameter
+Editor.ConfValue	Conf.Value
+Editor.OnlineInit	OnlineInit
+Editor.Tolerance	Tolerance
+Editor.IOVar	IO Var
+Editor.VirtualIO	Virtual I/O
+Editor.ExternVarRead	Read
+Editor.ExternVarWrite	Write
+Editor.FlagInterface	Interface
+Install.Message.AllowStart	Install Messages:Allow start AXEditor
+Install.Message.Head	Install - Messages
+PLCBrowser.Cancel	Cancel
+Install.Message.Messages	Install Messages ...
+PasswordDialog.Header	Login
+PasswordDialog.Type in your login name and password	Type in your login name and password
+PasswordDialog.Login	Login
+PasswordDialog.Password	Password
+PasswordDialog.OK	Ok
+PasswordDialog.Cancel	Cancel
+Journal.Menu.File	File
+Journal.Menu.File.PrinterSetup	Printer Setup...
+Journal.Menu.File.Print	Print...
+Journal.Menu.File.Print.Accelerator	Ctrl+P
+Journal.Menu.File.SetDefaultFilterProfile	Set Default Filter Profile
+Journal.Menu.File.RemoveDefaultFilterProfile	Remove Default Filter Profile
+Journal.Menu.File.SaveFilterProfile	Save Filter Profile...
+Journal.Menu.File.DeleteFilterProfile	Delete Filter Profile...
+Journal.Menu.File.Exit	Exit
+Journal.Button.Load	Load
+Journal.Button.Print	Print
+Journal.Button.Delete	Delete
+Journal.Button.Refresh	Refresh
+Journal.Button.Message Source	Message Source
+Journal.Button.Journal APPLICATION	Soft-PLC
+Journal.Button.Journal SYSTEM	System
+Journal.Button.Journal Logger	User
+Journal.Button.Profibus	Profibus
+Journal.Button.  Filter Off	   Filter Off
+Journal.Button.Label: Nr	Nr
+Journal.Button.Label: Prio	Prio
+Journal.Button.Label: Date-Time	Date-Time
+Journal.Button.Label: Position	Position
+Journal.Button.Label: Set to:	Set to:
+Journal.Button.Label: Message	Message
+Journal.Button.Label: User	User
+Journal.Button.Label: Host	Host
+FTT.Dropdown.Cut.Accelerator	Ctrl+X
+FTT.Dropdown.Cut	Cut
+Journal.ContextMenu Table.Menu Cut	Cut
+FTT.Dropdown.Copy.Accelerator	Ctrl+C
+FTT.Dropdown.Copy	Copy
+Journal.ContextMenu Table.Menu Copy	Copy
+FTT.Dropdown.Paste.Accelerator	Ctrl+V
+FTT.Dropdown.Paste	Paste
+Journal.ContextMenu Table.Menu Paste	Paste
+FTT.Dropdown.Filter	Filter
+FTT.Dropdown.Filter.Accelerator	Ctrl+F
+FTT.Dropdown.SetupColumn	Setup Column
+Journal.ContextMenu Table.Menu Setup Column	Setup Column
+FTT.Dropdown.TableSetup	Table Setup
+Journal.ContextMenu Table.Menu Font Setup	Font Setup
+FTT.Dropdown.TableSetup.LabelFont	Label Font
+FTT.Dropdown.TableSetup.FieldFont	Field Font
+FTT.Dropdown.TableSetup.HorizontalLine	Horzontal Line
+FTT.Dropdown.TableSetup.VerticalLine	Vertical Line
+Instance Context Menu.Cross Reference.<- Instance	<- Instance: %s [Page %d]
+Instance Context Menu.Cross Reference.-> Instance	-> Instance: %s [Page %d]
+Instance Context Menu.Cross Reference.<- Program	<- Program: %s [Page %d]
+Instance Context Menu.Cross Reference.-> Program	-> Program: %s [Page %d]
+Viewer.Cross Reference.Dependency	Dependency: %s [Page %d]
+Viewer.Cross Reference.Instance	Instance: %s
+Error.Msg.Sound MessageA	Error can't play sounds!
+Error.Msg.Sound MessageB	Please make sure that axclientservice is running on this terminal !
+SearchDialog.Search Header	Search
+SearchDialog.Find what:	Find what:
+SearchDialog.Replace:	Replace:
+SearchDialog.Case sensitive	Case sensitive
+SearchDialog.Include instance data	Include instance data
+SearchDialog.Find Next	Find Next
+SearchDialog.Find Prev	Find Prev
+SearchDialog.Cancel	Cancel
+SearchDialog.continue search from the first page ?	continue search from the first page ?
+SearchDialog.Find complete Header	Find complete
+Viewer.Warning.PicRestart	Picture Set changed by PLC.\Please restart aX Viewer
+Viewer.Restart	Please restart
+Viewer.Button.Restart	 Restart 
+Viewer.Warning.PicRestart	Picture Set changed by PLC.\Please restart aX Viewer
+Viewer.Restart	Please restart
+Viewer.Warning.PicRestart	Picture Set changed by PLC.\Please restart aX Viewer
+Viewer.Restart	Please restart
+Viewer.Button.Restart	 Restart 
+Viewer.Button.Restart	 Restart 
+Viewer.Warning.PicRestart	Picture Set changed by PLC.\Please restart aX Viewer
+Viewer.Restart	Please restart
+Viewer.Button.Restart	 Restart 
+Viewer.Warning.PicRestart	Picture Set changed by PLC.\Please restart aX Viewer
+Viewer.Restart	Please restart
+Viewer.Button.Restart	 Restart 
+ClassProperties.Title	Class Properties:
+ClassProperties.Frame	Class Information
+Menu.Test Alarm	Test Alarm
+Menu.Accelerator.Test Alarm	[F4]
+Alarm.Header.Alarm configuration	Alarm Configuration
+Global.Main.Menu.File	File
+Global.Main.Menu.File.Accelerator.Quit	Ctrl+Q
+Global.Main.Menu.File.Quit	Quit
+Alarm.Menu.Save	Save
+Alarm.Menu.Down	Down
+Alarm.Menu.Up	Up
+Alarm.Menu.PixMap	Pixmap
+AlarmConf.Label: Prio	Prio
+AlarmConf.Label: Pixmap (16x16)	Pixmap (16x16)
+AlarmConf.Label: Popup	Popup
+AlarmConf.Label: GroupName	GroupName
+AlarmConf.Label: AlarmDescription	AlarmDescription
+AlarmConf.Label: Beep	Beep
+AlarmConf.Label: Alarm Color	Alarm Color
+AlarmConf.Label: Ack  Color	Ack. Color
+AlarmConf.Label: Ack Ne Color	Ack.Ne.Color
+Fsb.Title.Pixmap	Load Alarm Pixmap
+Alarm.Menu.Delete	Remove
+Journal.ContextMenu Table.Menu Filter	Filter
+PrintDialog.Header	Print
+PrintDialog.Printer	Printer
+PrintDialog.Options	Options
+PrintDialog.Printer:	Printer:
+PrintDialog.From Page:	From Page:
+PrintDialog.To Page:	To Page:
+PrintDialog.Adjust brightness (in %)	Adjust brightness (in %)
+PrintDialog.Comment:	Comment:
+PrintDialog.Show Tags	Show Tags
+SearchDialog.not found !	not found !
+Journal.SetDefaultProfileDialog.Action Not Possible	ERROR: No active Filter found !\Please select a Filter first.
+Journal.DeleteProfileDialog.Delete not possible	ERROR: No active Filter found !\Please select a Filter first.
+Journal.SaveProfileDialog.Save not possible	Filter isn't set in the Table\It doesn't make sense to save a profile !
+Journal.SetDefaultProfileDialog.Action Not Possible	ERROR: No active Filter found !\Please select a Filter first.
+Journal.FSB Load.Title	Load Journal
+Editor.Msg.Find Complete	%s not found !
+Editor.Msg.Find Complete Header	Find complete
+Warning.Msg.No dependency found	No dependency found!
+Registry.Header	automationX - Registry
+Registry.Main.Menu.File	File
+Registry.Main.Menu.File.Quit	Quit
+Registry.Main.Menu.File.Quit.Accelerator	Ctrl+Q
+Registry.Main.Menu.Edit	Edit
+Registry.Main.Menu.Edit.Cut	Cut
+Registry.Main.Menu.Edit.Cut.Accelerator	Ctrl+X
+Registry.Main.Menu.Tool	Tools
+Registry.Main.Menu.Tool.ExportNames&Access	Export Names and Access
+Registry.Main.Menu.Tool.ExportValues	Export Values
+Registry.Main.Menu.Tool.ImportNames	Import Names
+Registry.Button.Save	Save
+CoolbConf.Label: Function	Function
+CoolbConf.Label: Value	Value
+CoolbConf.Label: A1	A1
+CoolbConf.Label: A2	A2
+CoolbConf.Label: A3	A3
+CoolbConf.Label: A4	A4
+CoolbConf.Label: A5	A5
+CoolbConf.Label: A6	A6
+CoolbConf.Label: A7	A7
+CoolbConf.Label: A8	A8
+CoolbConf.Label: A9	A9
+CoolbConf.Label: A10	A10
+CoolbConf.Label: A11	A11
+CoolbConf.Label: A12	A12
+CoolbConf.Label: A13	A13
+CoolbConf.Label: A14	A14
+CoolbConf.Label: A15	A15
+Registry.FTT.Context Menu Info	Info... 
+Journal.PrintDialog.Header	Print Journal
+Journal.PrintDialog.PrinterFrame	Printer
+Journal.PrintDialog.Printer	Printer:
+Journal.PrintDialog.PrintModeFrame	Print Modes
+Journal.PrintDialog.GraphicalPrint	Graphical Print Method
+Journal.PrintDialog.TextModePrint	Send as Plain Text
+Journal.PrintDialog.PrintToFile	Print to File
+Journal.PrintDialog.PrintFileOptions	Advanced...
+Journal.PrintDialog.OptionFrame	Options
+Journal.PrintDialog.EntireJournal	Print the Entire Journal
+Journal.PrintDialog.PrinterButton	Printer...
+PrintDialog.Default printer	Default Printer:
+PrintDialog.defPrinter	defPrinter
+PrintDialog.OK	Ok
+PrintDialog.Cancel	Cancel
+Printer.Dlg.Title	Printer setup
+Viewer.Dependency.TitleBar.Dependency	Dependency
+Viewer.Dependency.TitleBar.%s: %s (program %s, page %d)	%s: %s (program %s, page %d)
+Dependency.Show Activ	Show Activ
+Dependency.Show Inactiv	Show Inactiv
+Dependency.Show Normal	Show Normal
+Dependency.Close	Close
+Journal.PrintFileOptionsDialog.Header	Print to File Options
+Journal.PrintFileOptionsDialog.OutputFrame	Output File
+Journal.PrintFileOptionsDialog.SelectFile	Select File
+Journal.PrintFileOptionsDialog.ProcessingFrame	Output File Processing
+Journal.PrintFileOptionsDialog.FileSelection	Select Output File
+ContextMenu Table.Menu Cut	Cut
+ContextMenu Table.Menu Copy	Copy
+ContextMenu Table.Menu Paste	Paste
+ContextMenu Table.Menu Filter	Filter
+ContextMenu Table.Menu Setup Column	Setup Column
+ContextMenu Table.Menu Font Setup	Font Setup
+Instance Context Menu.Search...	Search...
+Instance Context Menu.Dependency [Ctrl+Button1]	Dependency [Ctrl+Button1]
+Instance Context Menu.Usage List	Usage List
+Instance Context Menu.aXDevInstanceEdit	Edit aXdevice instance
+Viewer.Dependency.TitleBar.Usage List	Usage List
+Editor.ErrMsg no bitmap	Can't find bitmap:%s
+Viewer.RestartServer	You must restart the aX Viewer for changes to take effect
+Editor.CollapseArr	Collapse Array
+Journal.SaveProfileDialog.Title	Save Profile...
+Journal.SaveProfileDialog.Label	Profile Name:
+Journal.DeleteProfileDialog.Delete Dialog Message	Delete Filter :
+ColorDef.Header.Color def	Color Def.
+Menu.Communications	Communications
+Menu.Accelerator.Communications	[F5]
+Journal.Button.Lougheed	Lougheed
+Menu.UpperPlant	UpperPlant
+Menu.Accelerator.UpperPlant	[F6]
+Warning.Msg.No Uses Found	Variable Not Used!
+Journal.FSB Delete.Title	Delete Journal
+Registry.Header2	automationX - Registry :%s
+Registry.Msg.Save	Save changes ?                          
+Journal.Print.Header	AutomationX Journal:
+Journal.Print.Header.Data	Date:
+Journal.Print.Header.Project	Project:
+Error.Could not find Instance in Process Graphics: 	Could not find Instance in Process Graphics: 
+Menu.Edit.Change Password	Change Password
+Menu.View.Show Logic Remarks	Show Logic Remarks
+batch.MenuViewer.Version	Version
+AlarmList Tab Locked	Locked
+Viewer.Error.NoProcessPic	ERROR: No Process Picture(s) defined !
+Viewer.Close	Close aX-Viewer
+AlarmList.Label: TT_ID	TT_ID
+AlarmList.Label: TT_State	TT_State
+AlarmList.Label: ExtID	ExtID
+Menu.Page.Title	Page
+LIC_TEMP	LIC_TEMP
+LicenseManager.Copy	Copy
+Editor.ExtID	ExtID:
+Editor.ExtId	ExtId
+Editor.Datalog	Datalog
+Editor.DatalogRecMode	Record mode
+Editor.ValueReset	Value Reset
+Editor.RecTrigger	Rec.Trigger
+LIC_DEMO_EXPIRED	LIC_DEMO_EXPIRED
+LIC_OK	LIC_OK
+Journal.Menu.Save_Filter_Profile	Save Filter Profile...
+Journal.Menu.Delete_Filter_Profile	Delete Filter Profile...
+Journal.Menu.Exit	Exit
+Journal.Menu.Source	Source
+Journal.Button.softplc	softplc
+Menu.softplc	softplc
+Journal.Button.system	system
+Menu.system	system
+Menu.user	user
+Menu.EthBuffer	EthBuffer
+Menu.Lougheed	Lougheed
+Menu.Profibus	Profibus
+Journal.Button.Online	Online
+Journal.AlarmTree.Menu Display Alarm Tree	Display Alarm Tree
+Journal.AlarmTree.Menu Hide Alarm Tree	Hide Alarm Tree
+Menu.filename	filename
+ACL-Help.Insert Function	Insert ACL-Function
+ACL-Help.Help	Help
+Menu.CreatePopup("Popup_Name",PosX,PosY,rel_abs);	CreatePopup("Popup_Name",PosX,PosY,rel_abs);
+Menu.DestroyPopup("Popup_Name");	DestroyPopup("Popup_Name");
+Menu.ClosePopups("Instance_Name", int num);	ClosePopups("Instance_Name", int num);
+Menu.ClosePopupsR("Instance_Name", int num);	ClosePopupsR("Instance_Name", int num);
+Menu.ReplacePopup("Popup_Name1","Popup_Name2");	ReplacePopup("Popup_Name1","Popup_Name2");
+Menu.StartProcess("Process_Name");	StartProcess("Process_Name");
+Menu.SelectPage("Picture_Name");	SelectPage("Picture_Name");
+Menu.AXTrend("TrendSetName.txs");	AXTrend("TrendSetName.txs");
+Menu.AXprint("SYM","Message %s",szString);	AXprint("SYM","Message %s",szString);
+Menu.AXMarkElement("Instance_Name","Page_Name");	AXMarkElement("Instance_Name","Page_Name");
+Menu.AXStartFunc("Function_Name", "Parameter");	AXStartFunc("Function_Name", "Parameter");
+Menu.AXDependency("Variable_Name");	AXDependency("Variable_Name");
+Menu.AXDependencyExist("Variable_Name");	AXDependencyExist("Variable_Name");
+Menu.AXIsUser("User_Name");	AXIsUser("User_Name");
+Menu.AXPrevPage();	AXPrevPage();
+Menu.AXSendMail("server","address","subject", "from","message1"..."message6");	AXSendMail("server","address","subject", "from","message1"..."message6");
+Menu.AXExit();	AXExit();
+Menu.AXGetDisplay(display);	AXGetDisplay(display);
+Menu.AXGetAccess();	AXGetAccess();
+Menu.AXJournalMessage("position","Message %s",szString);	AXJournalMessage("position","Message %s",szString);
+Menu.AXOpenJournal("filename","filtername");	AXOpenJournal("filename","filtername");
+Menu.sprintf(StringVar,"Message");	sprintf(StringVar,"Message");
+Menu.strcmp(StringVar1,StringVar2);	strcmp(StringVar1,StringVar2);
+Menu.strcat(StringVar1,StringVar2);	strcat(StringVar1,StringVar2);
+Menu.strstr(StringVar1,StringVar2);	strstr(StringVar1,StringVar2);
+Menu.stricmp(StringVar1,StringVar2);	stricmp(StringVar1,StringVar2);
+Menu.AXPageAccess();	AXPageAccess();
+Menu.AXGetUserID();	AXGetUserID();
+Menu.AXOpenDocu("Filename.html",PosX,PosY,SizeX,SizeY);	AXOpenDocu("Filename.html",PosX,PosY,SizeX,SizeY);
+Menu.AXLog("Filename","position","Message","Value");	AXLog("Filename","position","Message","Value");
+Menu.AXMsg("Message");	AXMsg("Message");
+Menu.AXPrintPopup("Popup_Name");	AXPrintPopup("Popup_Name");
+Menu.AXPrintPage("Page_Name",bring_dialog(0));	AXPrintPage("Page_Name",bring_dialog(0));
+Menu.AXArrayCopy(Array1,Array2);	AXArrayCopy(Array1,Array2);
+Menu.AXSetFocus(Object);	AXSetFocus(Object);
+Menu.AXStoreParameter("$Instance",filenamedir,0,15,count);	AXStoreParameter("$Instance",filenamedir,0,15,count);
+Menu.AXStoreParameterCRC("$Instance",filenamedir,0,15,count);	AXStoreParameterCRC("$Instance",filenamedir,0,15,count);
+Menu.AXReadParameter("$Instance",filenamedir,4,0,read_count);	AXReadParameter("$Instance",filenamedir,4,0,read_count);
+Menu.AXDeleteParameter("$Instance",filenamedir,4,0,delete_count);	AXDeleteParameter("$Instance",filenamedir,4,0,delete_count);
+Menu.AXGetInstanceName(StringVar);	AXGetInstanceName(StringVar);
+Menu.AXGetInstanceRemark(StringVar);	AXGetInstanceRemark(StringVar);
+Menu.AXGetInstanceExtId(StringVar);	AXGetInstanceExtId(StringVar);
+Menu.AXReplaceParameter("$Instance",filenamedir,4,0);	AXReplaceParameter("$Instance",filenamedir,4,0);
+Menu.AXStoreVisualParameter("$Instance",filenamedir,0,15,count);	AXStoreVisualParameter("$Instance",filenamedir,0,15,count);
+Menu.AXReadVisualParameter("$Instance",filenamedir,4,0,read_count);	AXReadVisualParameter("$Instance",filenamedir,4,0,read_count);
+Menu.AXReplaceVisualParameter("$Instance",filenamedir,4,0);	AXReplaceVisualParameter("$Instance",filenamedir,4,0);
+Menu.AXDeleteVisualParameter("$Instance",filenamedir,4,0,delete_count);	AXDeleteVisualParameter("$Instance",filenamedir,4,0,delete_count);
+Menu.AXShowAllTags(0);	AXShowAllTags(0);
+Menu.AXStartRemoteProcess("path","process","argument");	AXStartRemoteProcess("path","process","argument");
+Menu.AXCreateAlarmWindow(PosX,PosY,Width,Height,"Prio","Time","Page","Pos","Comment");	AXCreateAlarmWindow(PosX,PosY,Width,Height,"Prio","Time","Page","Pos","Comment");
+Menu.AXLoadLanguage("Extension");	AXLoadLanguage("Extension");
+Menu.AXGetLanguageText("LanguageIdentifier","Default-Value",szString);	AXGetLanguageText("LanguageIdentifier","Default-Value",szString);
+Menu.AXRegistryGetValue(szPath,szValue);	AXRegistryGetValue(szPath,szValue);
+Menu.AXRegistrySetValue(szPath,szValue);	AXRegistrySetValue(szPath,szValue);
+Menu.AXGetLanguageExtension(szString);	AXGetLanguageExtension(szString);
+Menu.AXReadArray("$Instance",filenamedir,10,0,count);	AXReadArray("$Instance",filenamedir,10,0,count);
+Menu.AXStoreArray("$Instance",filenamedir,10,0,count);	AXStoreArray("$Instance",filenamedir,10,0,count);
+Menu.AXOpenUserPrmConfigDialog("$Instance");	AXOpenUserPrmConfigDialog("$Instance");
+Menu.AXSetZoom("Zoom Value (0.5-2.0)");	AXSetZoom("Zoom Value (0.5-2.0)");
+Menu.AXSetLayer("LayerNr,On(1)/Off(0)");	AXSetLayer("LayerNr,On(1)/Off(0)");
+Menu.AXGetLayer();	AXGetLayer();
+Menu.AXStartSiteProcess("Site","Process_Name");	AXStartSiteProcess("Site","Process_Name");
+Menu.AXGetIpAddress(ipaddress,hostname,timeout);	AXGetIpAddress(ipaddress,hostname,timeout);
+Menu.AXCreateCustomPicMenu("Filename",xPos,yPos);	AXCreateCustomPicMenu("Filename",xPos,yPos);
+Menu.AXCreateCustomPicNavigator(up|left|right, "Picture", "Filename");	AXCreateCustomPicNavigator(up|left|right, "Picture", "Filename");
+Menu.AXOpenJournal("Filename", "InstanceFilter");	AXOpenJournal("Filename", "InstanceFilter");
+Menu.AXGoBack();	AXGoBack();
+Menu.AXGoForward();	AXGoForward();
+Menu.AXBackPageCount();	AXBackPageCount();
+Menu.AXForwardPageCount();	AXForwardPageCount();
+Menu.AXPrevAlarm();	AXPrevAlarm();
+Menu.AXNextAlarm();	AXNextAlarm();
+Menu.AXAckAlarm();	AXAckAlarm();
+Menu.AXAckAlarmAll();	AXAckAlarmAll();
+Menu.AXGetPictureName(szName);	AXGetPictureName(szName);
+Menu.AXGetGroupName(szName);	AXGetGroupName(szName);
+Menu.AXLogin();	AXLogin();
+Menu.AXGetInstAlarmInfo(instance_name,PRIO,REMARK,BEEP,ACK,NACK,TEXT,TT_ID,TT_TE,TT_ST);	AXGetInstAlarmInfo(instance_name,PRIO,REMARK,BEEP,ACK,NACK,TEXT,TT_ID,TT_TE,TT_ST);
+Menu.AXLowerWindow();	AXLowerWindow();
+Menu.AXLoadPictures();	AXLoadPictures();
+Menu.AXChangePassword();	AXChangePassword();
+Menu.AXGetValue("Varname", "Variable");	AXGetValue("Varname", "Variable");
+Menu.AXSetValue("Varname", "Variable");	AXSetValue("Varname", "Variable");
+Menu.AXCheckPassword(username,password,level);	AXCheckPassword(username,password,level);
+Menu.AXCreateNewUser(Username,Userremark,Password,Usergruppe);	AXCreateNewUser(Username,Userremark,Password,Usergruppe);
+Menu.AXReplacePassword(Username,OldPassword,NewPassword);	AXReplacePassword(Username,OldPassword,NewPassword);
+Menu.LeftChars(input,num,output);	LeftChars(input,num,output);
+Menu.RightChars(input,num,output);	RightChars(input,num,output);
+Menu.StringLength(input,output);	StringLength(input,output);
+Menu.CentChars(input,pos,length,output);	CentChars(input,pos,length,output);
+Menu.FindChars(Str1,Str2,output);	FindChars(Str1,Str2,output);
+Menu.SetArray(ArrayName,Value);	SetArray(ArrayName,Value);
+Menu.GetFileList(ArrayName,"DirName",filter,type);	GetFileList(ArrayName,"DirName",filter,type);
+Menu.AXAlarmServer_AckAlarm("AlarmServer", index);	AXAlarmServer_AckAlarm("AlarmServer", index);
+Menu.AXAlarmServer_AckAllAlarms("AlarmServer");	AXAlarmServer_AckAllAlarms("AlarmServer");
+Menu.test	test
+Menu.Accelerator.test	[F2]
+Viewer.StopLoad	Stop Loading
+Viewer.Installax	Install AutomationX
+Viewer.LoadPic.Title	Load Pictures...
+Viewer.LoadPic	Load Picture:
+Viewer.Msg.Load Picture	Load Picture: %s
+LIC_CLIENTS_EXCEEDED	LIC_CLIENTS_EXCEEDED
+Menu.OPC-Client	OPC-Client
+Menu.OPC-Client	OPC-Client
+Menu.Rail Offloading	Rail Offloading
+Menu.Accelerator.Rail Offloading	[F7]

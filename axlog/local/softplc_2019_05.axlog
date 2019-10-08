@@ -1,0 +1,1291 @@
+2019-05-14 11:43:54-611	25	Xlink_1.RingError	ON	.Xlink Ring open, please check Soft- and Hardware Components
+2019-05-14 11:43:54-611	25	MP_Profibus3.CommError	OFF	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:43:54-611	25	MP_Profibus4.CommError	OFF	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-611	25	MP_Profibus17.CommError	OFF	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-611	25	MP_Profibus5.CommError	OFF	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus19.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:43:54-611	25	MP_Profibus18.CommError	OFF	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus22.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:43:54-611	25	MP_Profibus6.CommError	OFF	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus15.CommError	OFF	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:43:54-611	25	MP_IO6.CommError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus11.CommError	OFF	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus10.CommError	OFF	Profibus10 - East Dock.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus14.CommError	OFF	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus12.CommError	OFF	Profibus12 - West Dock.Communication error
+2019-05-14 11:43:54-611	25	LP_Profibus13.CommError	OFF	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:43:54-611	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2019-05-14 11:43:54-611	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2019-05-14 11:43:54-611	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2019-05-14 11:43:54-611	25	PrBus19_1.software_error	ON	.software error
+2019-05-14 11:43:54-611	25	PrBus22_1.software_error	ON	.software error
+2019-05-14 11:43:54-611	0	RailCounter.software_error	ON	.Software Fehler
+2019-05-14 11:43:54-611	0	LeakComm_err	OFF	Leak Communications Error
+2019-05-14 11:43:54-611	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2019-05-14 11:43:54-611	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2019-05-14 11:43:54-611	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2019-05-14 11:43:54-611	4	TK2195.LAL	ON	.TANK LO ALARM
+2019-05-14 11:43:54-611	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2019-05-14 11:43:54-611	4	TK2198.LAL	ON	.TANK LO ALARM
+2019-05-14 11:43:54-611	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2019-05-14 11:43:54-611	5	scanner_3.Alarm	ON	.
+2019-05-14 11:43:54-611	5	scanner_4.Alarm	ON	.
+2019-05-14 11:43:54-611	5	scanner_5.Alarm	ON	.
+2019-05-14 11:43:54-611	5	scanner_6.Alarm	ON	.
+2019-05-14 11:43:54-611	5	scanner_7.Alarm	ON	.
+2019-05-14 11:43:54-611	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2019-05-14 11:43:54-611	5	QA3010ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2019-05-14 11:43:54-611	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2019-05-14 11:43:54-611	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2019-05-14 11:43:54-611	5	QA3011ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2019-05-14 11:43:54-611	5	QA3012ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2019-05-14 11:43:54-611	5	QA3013ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3007ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3014ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3009ALRM_1.Alarm	ON	Future.
+2019-05-14 11:43:54-611	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2019-05-14 11:43:54-611	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2019-05-14 11:43:54-611	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2019-05-14 11:43:54-611	5	XA4055ALRM.Alarm	ON	NGR RESISTOR FAULT.
+2019-05-14 11:43:54-611	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2019-05-14 11:43:54-611	5	XA4050ALRM.Alarm	ON	NGR GROUND FAULT.
+2019-05-14 11:43:54-611	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2019-05-14 11:43:54-611	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 11:43:54-611	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 11:43:54-611	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2019-05-14 11:43:54-611	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 11:43:54-611	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 11:43:54-611	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 11:43:54-611	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2019-05-14 11:43:54-611	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2019-05-14 11:43:54-611	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2019-05-14 11:43:54-611	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2019-05-14 11:43:54-611	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-05-14 11:43:54-611	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-05-14 11:43:54-611	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-05-14 11:43:54-611	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-05-14 11:43:54-611	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-05-14 11:43:54-611	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2019-05-14 11:43:54-611	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2019-05-14 11:43:54-611	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-05-14 11:43:54-611	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-05-14 11:43:54-611	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-05-14 11:43:54-611	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-05-14 11:43:54-611	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2019-05-14 11:43:54-611	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2019-05-14 11:43:54-611	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2019-05-14 11:43:54-859	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2019-05-14 11:43:54-859	25	MP_Profibus3.CommError	ON	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:43:54-859	25	MP_Profibus4.CommError	ON	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-859	25	MP_Profibus17.CommError	ON	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-859	25	MP_Profibus5.CommError	ON	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus19.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:43:54-859	25	MP_Profibus18.CommError	ON	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus22.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:43:54-859	25	MP_Profibus6.CommError	ON	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus15.CommError	ON	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:43:54-859	25	MP_IO6.CommError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus11.CommError	ON	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus10.CommError	ON	Profibus10 - East Dock.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus14.CommError	ON	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus12.CommError	ON	Profibus12 - West Dock.Communication error
+2019-05-14 11:43:54-859	25	LP_Profibus13.CommError	ON	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:43:54-859	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2019-05-14 11:43:54-859	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2019-05-14 11:43:54-859	5	RAIL_DSL3157_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-05-14 11:43:54-859	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2019-05-14 11:43:54-859	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-05-14 11:43:55-461	25	Xlink_1.RingError	OFF	.Xlink Ring open, please check Soft- and Hardware Components
+2019-05-14 11:43:55-461	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2019-05-14 11:43:55-461	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2019-05-14 11:43:55-461	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2019-05-14 11:43:55-461	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2019-05-14 11:43:55-461	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2019-05-14 11:43:55-461	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2019-05-14 11:43:55-461	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2019-05-14 11:43:55-461	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2019-05-14 11:43:55-461	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2019-05-14 11:43:55-461	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2019-05-14 11:43:55-461	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2019-05-14 11:43:55-461	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2019-05-14 11:43:55-461	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2019-05-14 11:43:55-461	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2019-05-14 11:43:55-461	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2019-05-14 11:43:55-461	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2019-05-14 11:43:55-461	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2019-05-14 11:43:55-461	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2019-05-14 11:43:55-461	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2019-05-14 11:43:55-461	5	XA4200AL.Alarm	ON	Maint Fire Alarm Panel Trouble.
+2019-05-14 11:43:55-461	5	QA4200AL.Alarm	ON	Maint Fire Alarm.
+2019-05-14 11:43:55-461	5	QA4220AL.Alarm	ON	Maint Fire Alarm.
+2019-05-14 11:43:55-461	5	EA4201AAL.Alarm	ON	Maint Elec UPS AC Fail Alarm.
+2019-05-14 11:43:55-461	5	EA4201BAL.Alarm	ON	Maint Elec UPS Low Battery Alarm.
+2019-05-14 11:43:55-461	5	EA4230AAL.Alarm	ON	Ops Computer Room UPS AC Fail Alarm.
+2019-05-14 11:43:55-461	5	EA4230BAL.Alarm	ON	Ops Computer Room UPS Low Battery Alarm.
+2019-05-14 11:43:55-461	5	XA4218AL.Alarm	ON	OPS Fire Alarm Panel Trouble.
+2019-05-14 11:43:55-461	5	QA4218AL.Alarm	ON	OPS Fire Alarm.
+2019-05-14 11:43:55-461	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2019-05-14 11:43:55-461	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2019-05-14 11:43:55-461	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2019-05-14 11:43:55-461	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2019-05-14 11:43:55-461	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2019-05-14 11:43:55-461	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2019-05-14 11:43:55-461	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2019-05-14 11:43:55-461	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2019-05-14 11:43:55-461	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2019-05-14 11:43:55-461	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2019-05-14 11:43:55-461	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2019-05-14 11:43:56-464	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:43:56-464	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:43:56-464	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:43:56-464	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-05-14 11:43:56-464	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-05-14 11:43:56-464	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-05-14 11:43:59-473	20	SlowPLC_Stopped	ON	SlowPLC is not running - LNJ Comms, Meter tickets DOWN
+2019-05-14 11:44:00-875	0	XL_PBM_1.Device_not_on_Bus	OFF	.
+2019-05-14 11:44:01-076	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:44:01-076	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:44:01-076	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:44:01-076	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 11:44:01-076	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 11:44:01-076	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 11:44:01-276	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:01-476	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:04-483	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2019-05-14 11:44:04-483	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2019-05-14 11:44:04-483	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2019-05-14 11:44:04-483	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2019-05-14 11:44:04-483	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2019-05-14 11:44:04-483	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2019-05-14 11:44:04-483	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-05-14 11:44:06-487	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:06-688	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:09-493	0	LeakComm_err	ON	Leak Communications Error
+2019-05-14 11:44:11-698	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:11-900	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:16-908	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:17-109	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:22-319	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:22-520	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:27-532	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:27-733	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:32-743	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:32-944	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:38-155	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:38-357	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:40-361	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-05-14 11:44:40-361	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-05-14 11:44:40-361	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-05-14 11:44:43-368	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:43-569	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:45-174	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-05-14 11:44:48-581	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:48-782	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:53-993	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:54-194	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:44:59-206	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:44:59-407	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:04-417	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:04-618	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:09-829	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:10-029	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:15-040	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:15-242	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:20-253	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:20-454	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:25-667	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:25-867	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:30-880	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:31-078	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:36-091	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:36-292	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:41-505	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:41-704	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:46-717	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:46-917	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:51-930	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:52-131	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:45:54-937	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:45:57-344	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:45:57-543	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:02-556	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:02-756	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:07-767	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:07-967	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:13-180	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:13-381	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:17-592	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:46:17-592	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:46:17-592	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:46:17-592	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-05-14 11:46:17-592	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-05-14 11:46:17-592	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-05-14 11:46:17-993	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:46:17-993	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:46:17-993	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:46:17-993	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 11:46:17-993	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 11:46:17-993	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 11:46:18-392	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:18-592	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:20-598	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:46:23-607	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:23-806	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:24-809	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:46:26-813	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:46:26-813	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:46:26-813	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:46:26-813	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-05-14 11:46:26-813	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-05-14 11:46:26-813	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-05-14 11:46:27-214	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:46:27-214	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:46:27-214	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:46:27-214	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 11:46:27-214	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 11:46:27-214	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 11:46:28-617	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:46:29-017	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:29-219	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:32-826	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:46:34-230	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:34-430	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:39-443	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:39-642	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:44-855	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:45-055	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:50-066	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:50-267	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:46:55-279	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:46:55-479	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:00-691	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:00-892	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:05-904	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:06-105	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:11-115	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:11-315	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:14-520	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:47:14-921	20	SlowPLC_Stopped	OFF	SlowPLC is not running - LNJ Comms, Meter tickets DOWN
+2019-05-14 11:47:16-523	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:16-723	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:21-734	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:21-936	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:26-947	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:27-148	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:28-549	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:47:28-549	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:47:28-549	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:47:28-549	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-05-14 11:47:28-549	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-05-14 11:47:28-549	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-05-14 11:47:28-950	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:47:28-950	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:47:28-950	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:47:28-950	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 11:47:28-950	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 11:47:28-950	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 11:47:32-359	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:32-559	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:37-571	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:37-772	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:42-782	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:42-983	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:48-194	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:48-394	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:53-404	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:53-605	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:47:55-609	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:47:55-609	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:47:55-609	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:47:55-609	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-05-14 11:47:55-609	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-05-14 11:47:55-609	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-05-14 11:47:56-010	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 11:47:56-010	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 11:47:56-010	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 11:47:56-010	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 11:47:56-010	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 11:47:56-010	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 11:47:56-812	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:47:58-615	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:47:58-816	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:00-621	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:48:04-030	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:04-230	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:09-243	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:09-443	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:14-454	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:14-655	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:19-868	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:20-068	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:24-880	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:25-081	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:30-092	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:30-292	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:35-503	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:35-704	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:43-368	25	MP_Profibus3.CommError	OFF	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus3.DataError	OFF	Profibus3 - Dispatch Office.Data error
+2019-05-14 11:48:43-368	25	MP_Profibus4.CommError	OFF	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus4.DataError	OFF	Profibus4 - MP Unit Sub.Data error
+2019-05-14 11:48:43-368	25	MP_Profibus17.CommError	OFF	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus17.DataError	OFF	Profibus17 - MP Unit Sub.Data error
+2019-05-14 11:48:43-368	25	MP_Profibus5.CommError	OFF	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus5.DataError	OFF	Profibus5 - MP Unit Sub.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus19.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus19.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:48:43-368	25	MP_Profibus18.CommError	OFF	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus18.DataError	OFF	Profibus18 - MP Unit Sub.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus22.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus22.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:48:43-368	25	MP_Profibus6.CommError	OFF	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:48:43-368	15	MP_Profibus6.DataError	OFF	Profibus6 - MCC2 Building.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus15.CommError	OFF	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus15.DataError	OFF	Profibus15 - Rail Rack.Data error
+2019-05-14 11:48:43-368	25	MP_IO6.CommError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:48:43-368	15	MP_IO6.DataError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus11.CommError	OFF	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus11.DataError	OFF	Profibus11 - West Dock Pit.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus10.CommError	OFF	Profibus10 - East Dock.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus10.DataError	OFF	Profibus10 - East Dock.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus14.CommError	OFF	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus14.DataError	OFF	Profibus14 - East Dock Counter.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus12.CommError	OFF	Profibus12 - West Dock.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus12.DataError	OFF	Profibus12 - West Dock.Data error
+2019-05-14 11:48:43-368	25	LP_Profibus13.CommError	OFF	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:48:43-368	15	LP_Profibus13.DataError	OFF	Profibus13 - West Dock Counter.Data error
+2019-05-14 11:48:43-368	5	scanner_3.Alarm	OFF	.
+2019-05-14 11:48:43-368	5	scanner_4.Alarm	OFF	.
+2019-05-14 11:48:43-368	5	scanner_5.Alarm	OFF	.
+2019-05-14 11:48:43-368	5	scanner_6.Alarm	OFF	.
+2019-05-14 11:48:43-368	5	scanner_7.Alarm	OFF	.
+2019-05-14 11:48:43-967	15	MP_Profibus3.DataError	ON	Profibus3 - Dispatch Office.Data error
+2019-05-14 11:48:43-967	15	MP_Profibus4.DataError	ON	Profibus4 - MP Unit Sub.Data error
+2019-05-14 11:48:43-967	15	MP_Profibus17.DataError	ON	Profibus17 - MP Unit Sub.Data error
+2019-05-14 11:48:43-967	15	MP_Profibus5.DataError	ON	Profibus5 - MP Unit Sub.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus19.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:48:43-967	15	MP_Profibus18.DataError	ON	Profibus18 - MP Unit Sub.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus22.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:48:43-967	15	MP_Profibus6.DataError	ON	Profibus6 - MCC2 Building.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus15.DataError	ON	Profibus15 - Rail Rack.Data error
+2019-05-14 11:48:43-967	15	MP_IO6.DataError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus11.DataError	ON	Profibus11 - West Dock Pit.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus10.DataError	ON	Profibus10 - East Dock.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus14.DataError	ON	Profibus14 - East Dock Counter.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus12.DataError	ON	Profibus12 - West Dock.Data error
+2019-05-14 11:48:43-967	15	LP_Profibus13.DataError	ON	Profibus13 - West Dock Counter.Data error
+2019-05-14 11:48:44-368	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2019-05-14 11:48:44-368	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2019-05-14 11:48:44-368	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2019-05-14 11:48:44-368	25	PrBus19_1.software_error	ON	.software error
+2019-05-14 11:48:44-368	25	PrBus22_1.software_error	ON	.software error
+2019-05-14 11:48:44-368	0	RailCounter.software_error	ON	.Software Fehler
+2019-05-14 11:48:44-368	5	scanner_3.Alarm	ON	.
+2019-05-14 11:48:44-368	5	scanner_4.Alarm	ON	.
+2019-05-14 11:48:44-368	5	scanner_5.Alarm	ON	.
+2019-05-14 11:48:44-368	5	scanner_6.Alarm	ON	.
+2019-05-14 11:48:44-368	5	scanner_7.Alarm	ON	.
+2019-05-14 11:48:44-569	25	MP_Profibus3.CommError	ON	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:48:44-569	25	MP_Profibus4.CommError	ON	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:48:44-569	25	MP_Profibus17.CommError	ON	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:48:44-569	25	MP_Profibus5.CommError	ON	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus19.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:48:44-569	25	MP_Profibus18.CommError	ON	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus22.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:48:44-569	25	MP_Profibus6.CommError	ON	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus15.CommError	ON	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:48:44-569	25	MP_IO6.CommError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus11.CommError	ON	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus10.CommError	ON	Profibus10 - East Dock.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus14.CommError	ON	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus12.CommError	ON	Profibus12 - West Dock.Communication error
+2019-05-14 11:48:44-569	25	LP_Profibus13.CommError	ON	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:48:47-976	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:48:47-976	20	AX_SYS.log_count_all_alarm	ON	.
+2019-05-14 11:48:48-980	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:49-180	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:50-783	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:48:50-783	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-05-14 11:48:54-194	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:54-394	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:59-407	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:59-608	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:04-822	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:05-022	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:10-035	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:10-234	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:14-246	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:49:15-247	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:15-448	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:20-661	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:20-861	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:25-875	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:26-075	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:31-089	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:31-289	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:36-503	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:36-704	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:41-717	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:41-917	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:46-930	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:47-131	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:48:40-717	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:48:40-917	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:49:55-894	25	MP_Profibus3.CommError	OFF	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus3.DataError	OFF	Profibus3 - Dispatch Office.Data error
+2019-05-14 11:49:55-894	25	MP_Profibus4.CommError	OFF	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus4.DataError	OFF	Profibus4 - MP Unit Sub.Data error
+2019-05-14 11:49:55-894	25	MP_Profibus17.CommError	OFF	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus17.DataError	OFF	Profibus17 - MP Unit Sub.Data error
+2019-05-14 11:49:55-894	25	MP_Profibus5.CommError	OFF	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus5.DataError	OFF	Profibus5 - MP Unit Sub.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus19.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus19.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:49:55-894	25	MP_Profibus18.CommError	OFF	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus18.DataError	OFF	Profibus18 - MP Unit Sub.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus22.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus22.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:49:55-894	25	MP_Profibus6.CommError	OFF	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:49:55-894	15	MP_Profibus6.DataError	OFF	Profibus6 - MCC2 Building.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus15.CommError	OFF	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus15.DataError	OFF	Profibus15 - Rail Rack.Data error
+2019-05-14 11:49:55-894	25	MP_IO6.CommError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:49:55-894	15	MP_IO6.DataError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus11.CommError	OFF	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus11.DataError	OFF	Profibus11 - West Dock Pit.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus10.CommError	OFF	Profibus10 - East Dock.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus10.DataError	OFF	Profibus10 - East Dock.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus14.CommError	OFF	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus14.DataError	OFF	Profibus14 - East Dock Counter.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus12.CommError	OFF	Profibus12 - West Dock.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus12.DataError	OFF	Profibus12 - West Dock.Data error
+2019-05-14 11:49:55-894	25	LP_Profibus13.CommError	OFF	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:49:55-894	15	LP_Profibus13.DataError	OFF	Profibus13 - West Dock Counter.Data error
+2019-05-14 11:49:55-894	5	scanner_3.Alarm	OFF	.
+2019-05-14 11:49:55-894	5	scanner_4.Alarm	OFF	.
+2019-05-14 11:49:55-894	5	scanner_5.Alarm	OFF	.
+2019-05-14 11:49:55-894	5	scanner_6.Alarm	OFF	.
+2019-05-14 11:49:55-894	5	scanner_7.Alarm	OFF	.
+2019-05-14 11:49:56-494	15	MP_Profibus3.DataError	ON	Profibus3 - Dispatch Office.Data error
+2019-05-14 11:49:56-494	15	MP_Profibus4.DataError	ON	Profibus4 - MP Unit Sub.Data error
+2019-05-14 11:49:56-494	15	MP_Profibus17.DataError	ON	Profibus17 - MP Unit Sub.Data error
+2019-05-14 11:49:56-494	15	MP_Profibus5.DataError	ON	Profibus5 - MP Unit Sub.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus19.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:49:56-494	15	MP_Profibus18.DataError	ON	Profibus18 - MP Unit Sub.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus22.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 11:49:56-494	15	MP_Profibus6.DataError	ON	Profibus6 - MCC2 Building.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus15.DataError	ON	Profibus15 - Rail Rack.Data error
+2019-05-14 11:49:56-494	15	MP_IO6.DataError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus11.DataError	ON	Profibus11 - West Dock Pit.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus10.DataError	ON	Profibus10 - East Dock.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus14.DataError	ON	Profibus14 - East Dock Counter.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus12.DataError	ON	Profibus12 - West Dock.Data error
+2019-05-14 11:49:56-494	15	LP_Profibus13.DataError	ON	Profibus13 - West Dock Counter.Data error
+2019-05-14 11:49:56-694	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2019-05-14 11:49:56-694	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2019-05-14 11:49:56-694	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2019-05-14 11:49:56-694	25	PrBus19_1.software_error	ON	.software error
+2019-05-14 11:49:56-694	25	PrBus22_1.software_error	ON	.software error
+2019-05-14 11:49:56-694	0	RailCounter.software_error	ON	.Software Fehler
+2019-05-14 11:49:56-694	5	scanner_3.Alarm	ON	.
+2019-05-14 11:49:56-694	5	scanner_4.Alarm	ON	.
+2019-05-14 11:49:56-694	5	scanner_5.Alarm	ON	.
+2019-05-14 11:49:56-694	5	scanner_6.Alarm	ON	.
+2019-05-14 11:49:56-694	5	scanner_7.Alarm	ON	.
+2019-05-14 11:49:56-694	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:49:56-894	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:49:56-894	20	AX_SYS.log_count_all_alarm	ON	.
+2019-05-14 11:49:56-894	25	MP_Profibus3.CommError	ON	Profibus3 - Dispatch Office.Communication error
+2019-05-14 11:49:56-894	25	MP_Profibus4.CommError	ON	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 11:49:56-894	25	MP_Profibus17.CommError	ON	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 11:49:56-894	25	MP_Profibus5.CommError	ON	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus19.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:49:56-894	25	MP_Profibus18.CommError	ON	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus22.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 11:49:56-894	25	MP_Profibus6.CommError	ON	Profibus6 - MCC2 Building.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus15.CommError	ON	Profibus15 - Rail Rack.Communication error
+2019-05-14 11:49:56-894	25	MP_IO6.CommError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus11.CommError	ON	Profibus11 - West Dock Pit.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus10.CommError	ON	Profibus10 - East Dock.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus14.CommError	ON	Profibus14 - East Dock Counter.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus12.CommError	ON	Profibus12 - West Dock.Communication error
+2019-05-14 11:49:56-894	25	LP_Profibus13.CommError	ON	Profibus13 - West Dock Counter.Communication error
+2019-05-14 11:49:56-894	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:02-108	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:02-309	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:04-716	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:50:04-716	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-05-14 11:50:07-322	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:07-523	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:12-536	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:12-736	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:17-950	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:18-151	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:23-164	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:23-365	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:26-171	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:50:28-377	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:28-578	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:33-792	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:33-992	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:39-003	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:39-203	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:39-404	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:50:44-219	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:44-417	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:49-631	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:49-832	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:50:54-845	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:50:55-046	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:00-056	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:00-256	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:05-470	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:05-671	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:10-683	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:10-882	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:15-897	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:16-096	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:21-309	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:21-510	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:26-522	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:26-723	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:31-736	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:31-936	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:37-150	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:37-351	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:42-364	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:42-565	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:47-578	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:47-779	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:52-992	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:53-193	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:51:58-204	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:51:58-405	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:03-414	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:03-615	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:08-825	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:09-026	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:14-036	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:14-237	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:19-250	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:19-451	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:24-665	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:24-865	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:29-878	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:30-078	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:35-091	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:35-292	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:39-703	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:52:40-506	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:40-706	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:45-719	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:45-918	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:50-931	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:51-132	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:52:56-345	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:52:56-546	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:01-558	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:01-757	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:06-769	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:06-970	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:12-183	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:12-384	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:17-397	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:17-596	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:22-609	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:22-809	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:28-023	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:28-223	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:33-236	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:33-437	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:38-450	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:38-651	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:43-864	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:44-065	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:49-076	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:49-278	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:54-290	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:54-490	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:53:59-503	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:53:59-703	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:53:59-904	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:04-917	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:05-118	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:10-131	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:10-332	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:15-543	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:15-744	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:20-756	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:20-957	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:25-970	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:26-171	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:31-384	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:31-584	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:36-595	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:36-796	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:41-805	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:42-006	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:47-220	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:47-418	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:52-433	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:52-632	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:54:57-644	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:54:57-845	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:03-058	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:03-257	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:08-270	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:08-470	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:13-482	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:13-683	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:18-894	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:19-094	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:24-105	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:24-305	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:29-315	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:29-515	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:34-729	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:34-928	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:39-941	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:40-141	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:45-155	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:45-355	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:50-569	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:50-770	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:55-783	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:55:55-983	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:55:59-793	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:56:00-996	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:01-197	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:06-411	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:06-611	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:11-625	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:11-825	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:16-838	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:17-039	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:22-253	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:22-453	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:27-466	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:27-667	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:32-678	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:32-880	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:38-092	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:38-292	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:43-303	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:43-505	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:48-517	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:48-719	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:53-933	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:54-132	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:56:59-144	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:56:59-345	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:04-358	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:04-559	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:04-759	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 11:57:08-769	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 11:57:09-772	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:09-971	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:14-984	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:15-184	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:19-596	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:57:20-197	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:20-398	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:25-609	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:25-809	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:30-822	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:31-023	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:36-035	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:36-236	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:41-447	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:41-647	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:46-661	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:46-861	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:51-875	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:52-075	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:57:57-288	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:57:57-489	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:02-500	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:02-700	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:07-710	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:07-910	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:13-122	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:13-323	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:18-335	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:18-536	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:23-548	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:23-747	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:28-957	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:29-157	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:34-168	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:34-369	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:39-381	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:39-581	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:44-795	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:44-994	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:50-007	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:50-207	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:58:55-217	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:58:55-418	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:00-631	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:00-832	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:05-845	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:06-046	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:11-059	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:11-259	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:16-473	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:16-674	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:19-881	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 11:59:21-684	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:21-885	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:26-898	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:27-098	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:32-309	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:32-509	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:37-520	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:37-721	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:42-734	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:42-936	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:48-148	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:48-348	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:53-361	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:53-562	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 11:59:58-573	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 11:59:58-775	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:03-989	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:04-188	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:09-203	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:09-403	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:14-417	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:14-617	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:19-831	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:20-030	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:25-046	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:25-246	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:30-259	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:30-459	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:35-673	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:35-874	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:39-483	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:00:40-887	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:41-086	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:46-101	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:46-301	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:51-515	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:51-716	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:00:56-729	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:00:56-930	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:01-940	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:02-141	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:07-355	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:07-555	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:12-565	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:12-766	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:17-776	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:17-977	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:23-190	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:23-391	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:28-401	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:28-602	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:33-615	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:33-815	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:39-026	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:39-226	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:44-239	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:44-440	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:49-451	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:49-653	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:01:54-867	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:01:55-066	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:00-076	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:00-278	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:05-289	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:05-490	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:10-703	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:10-904	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:15-917	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:16-118	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:21-131	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:21-332	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:26-545	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:26-744	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:31-757	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:31-957	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:36-970	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:37-171	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:39-776	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:02:42-381	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:42-581	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:47-592	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:47-792	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:52-805	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:53-005	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:02:58-217	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:02:58-417	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:03-430	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:03-631	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:08-644	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:08-845	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:14-058	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:14-259	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:19-270	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:19-471	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:24-483	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:24-683	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:29-894	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:30-095	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:35-108	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:35-309	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:40-322	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:40-523	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:45-736	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:45-937	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:50-950	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:51-151	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:56-161	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:03:56-361	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:03:59-569	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:04:01-572	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:01-773	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:06-786	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:06-986	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:12-000	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:12-200	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:17-414	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:17-615	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:22-628	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:22-828	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:27-841	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:28-042	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:33-253	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:33-453	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:38-466	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:38-665	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:43-677	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:43-878	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:49-092	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:49-292	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:04:54-305	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:04:54-506	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:11-344	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:11-543	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:16-552	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:16-752	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:21-765	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:21-964	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:26-977	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:27-177	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:32-187	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:32-388	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:37-400	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:37-601	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:42-815	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:43-013	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:48-026	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:48-226	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:53-237	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:53-438	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:58-651	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:05:58-849	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:05:59-852	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:06:03-861	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:04-061	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:09-072	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:09-273	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:14-484	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:14-684	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:19-697	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:19-898	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:24-905	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:25-105	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:30-316	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:30-516	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:35-529	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:35-730	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:40-743	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:40-943	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:46-157	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:46-358	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:51-369	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:51-569	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:06:56-582	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:06:56-782	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:01-994	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:02-196	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:07-207	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:07-407	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:12-420	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:12-619	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:17-834	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:18-035	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:19-437	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:07:23-043	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:23-244	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:28-256	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:28-457	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:33-668	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:33-869	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:38-881	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:39-082	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:44-092	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:44-293	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:49-505	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:49-706	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:54-717	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:07:54-918	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:07:59-930	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:00-131	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:05-342	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:05-542	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:10-553	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:10-755	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:15-766	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:15-967	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:21-180	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:21-380	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:26-391	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:26-592	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:31-604	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:31-805	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:37-019	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:37-219	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:42-232	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:42-431	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:08:47-444	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:08:47-644	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:14:40-973	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:14:41-174	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:14:46-183	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:14:46-384	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:14:51-390	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:14:51-591	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:14:56-802	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:14:57-002	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:02-010	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:02-210	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:07-220	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:07-421	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:12-631	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:12-832	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:17-839	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:18-039	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:23-046	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:23-246	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:28-456	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:28-655	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:33-667	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:33-865	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:38-877	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:39-078	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:44-290	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:44-490	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:49-502	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:49-700	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:54-710	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:15:54-911	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:15:59-721	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:16:00-122	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:00-322	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:05-335	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:05-535	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:10-548	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:10-747	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:15-960	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:16-161	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:21-171	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:21-371	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:26-384	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:26-584	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:31-796	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:31-997	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:33-109	25	MP_Profibus3.CommError	OFF	Profibus3 - Dispatch Office.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus3.DataError	OFF	Profibus3 - Dispatch Office.Data error
+2019-05-14 12:16:33-109	25	MP_Profibus4.CommError	OFF	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus4.DataError	OFF	Profibus4 - MP Unit Sub.Data error
+2019-05-14 12:16:33-109	25	MP_Profibus17.CommError	OFF	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus17.DataError	OFF	Profibus17 - MP Unit Sub.Data error
+2019-05-14 12:16:33-109	25	MP_Profibus5.CommError	OFF	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus5.DataError	OFF	Profibus5 - MP Unit Sub.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus19.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus19.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 12:16:33-109	25	MP_Profibus18.CommError	OFF	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus18.DataError	OFF	Profibus18 - MP Unit Sub.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus22.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus22.DataError	OFF	Profibus9 - LP Warehouse.Data error
+2019-05-14 12:16:33-109	25	MP_Profibus6.CommError	OFF	Profibus6 - MCC2 Building.Communication error
+2019-05-14 12:16:33-109	15	MP_Profibus6.DataError	OFF	Profibus6 - MCC2 Building.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus15.CommError	OFF	Profibus15 - Rail Rack.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus15.DataError	OFF	Profibus15 - Rail Rack.Data error
+2019-05-14 12:16:33-109	25	MP_IO6.CommError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 12:16:33-109	15	MP_IO6.DataError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus11.CommError	OFF	Profibus11 - West Dock Pit.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus11.DataError	OFF	Profibus11 - West Dock Pit.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus10.CommError	OFF	Profibus10 - East Dock.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus10.DataError	OFF	Profibus10 - East Dock.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus14.CommError	OFF	Profibus14 - East Dock Counter.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus14.DataError	OFF	Profibus14 - East Dock Counter.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus12.CommError	OFF	Profibus12 - West Dock.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus12.DataError	OFF	Profibus12 - West Dock.Data error
+2019-05-14 12:16:33-109	25	LP_Profibus13.CommError	OFF	Profibus13 - West Dock Counter.Communication error
+2019-05-14 12:16:33-109	15	LP_Profibus13.DataError	OFF	Profibus13 - West Dock Counter.Data error
+2019-05-14 12:16:33-109	0	LeakComm_err	OFF	Leak Communications Error
+2019-05-14 12:16:33-109	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2019-05-14 12:16:33-109	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2019-05-14 12:16:33-109	4	TK2195.LAL	ON	.TANK LO ALARM
+2019-05-14 12:16:33-109	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2019-05-14 12:16:33-109	4	TK2198.LAL	ON	.TANK LO ALARM
+2019-05-14 12:16:33-109	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2019-05-14 12:16:33-109	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2019-05-14 12:16:33-109	5	QA3010ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2019-05-14 12:16:33-109	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2019-05-14 12:16:33-109	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2019-05-14 12:16:33-109	5	QA3011ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2019-05-14 12:16:33-109	5	QA3012ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2019-05-14 12:16:33-109	5	QA3013ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3007ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3014ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3009ALRM_1.Alarm	ON	Future.
+2019-05-14 12:16:33-109	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2019-05-14 12:16:33-109	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2019-05-14 12:16:33-109	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2019-05-14 12:16:33-109	5	XA4055ALRM.Alarm	ON	NGR RESISTOR FAULT.
+2019-05-14 12:16:33-109	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2019-05-14 12:16:33-109	5	XA4050ALRM.Alarm	ON	NGR GROUND FAULT.
+2019-05-14 12:16:33-109	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2019-05-14 12:16:33-109	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 12:16:33-109	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 12:16:33-109	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2019-05-14 12:16:33-109	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 12:16:33-109	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 12:16:33-109	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2019-05-14 12:16:33-109	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2019-05-14 12:16:33-109	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2019-05-14 12:16:33-109	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2019-05-14 12:16:33-109	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2019-05-14 12:16:33-109	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-05-14 12:16:33-109	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-05-14 12:16:33-109	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-05-14 12:16:33-109	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-05-14 12:16:33-109	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-05-14 12:16:33-109	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2019-05-14 12:16:33-109	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2019-05-14 12:16:33-109	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-05-14 12:16:33-109	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-05-14 12:16:33-109	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-05-14 12:16:33-109	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-05-14 12:16:33-109	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2019-05-14 12:16:33-109	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2019-05-14 12:16:33-109	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2019-05-14 12:16:33-309	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2019-05-14 12:16:33-309	5	RAIL_DSL3157_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-05-14 12:16:33-309	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2019-05-14 12:16:33-309	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-05-14 12:16:34-109	15	MP_Profibus3.DataError	ON	Profibus3 - Dispatch Office.Data error
+2019-05-14 12:16:34-109	15	MP_Profibus4.DataError	ON	Profibus4 - MP Unit Sub.Data error
+2019-05-14 12:16:34-109	15	MP_Profibus17.DataError	ON	Profibus17 - MP Unit Sub.Data error
+2019-05-14 12:16:34-109	15	MP_Profibus5.DataError	ON	Profibus5 - MP Unit Sub.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus19.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 12:16:34-109	15	MP_Profibus18.DataError	ON	Profibus18 - MP Unit Sub.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus22.DataError	ON	Profibus9 - LP Warehouse.Data error
+2019-05-14 12:16:34-109	15	MP_Profibus6.DataError	ON	Profibus6 - MCC2 Building.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus15.DataError	ON	Profibus15 - Rail Rack.Data error
+2019-05-14 12:16:34-109	15	MP_IO6.DataError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus11.DataError	ON	Profibus11 - West Dock Pit.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus10.DataError	ON	Profibus10 - East Dock.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus14.DataError	ON	Profibus14 - East Dock Counter.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus12.DataError	ON	Profibus12 - West Dock.Data error
+2019-05-14 12:16:34-109	15	LP_Profibus13.DataError	ON	Profibus13 - West Dock Counter.Data error
+2019-05-14 12:16:34-109	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2019-05-14 12:16:34-109	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2019-05-14 12:16:34-109	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2019-05-14 12:16:34-109	25	PrBus19_1.software_error	ON	.software error
+2019-05-14 12:16:34-109	25	PrBus22_1.software_error	ON	.software error
+2019-05-14 12:16:34-109	0	RailCounter.software_error	ON	.Software Fehler
+2019-05-14 12:16:34-109	5	scanner_3.Alarm	ON	.
+2019-05-14 12:16:34-109	5	scanner_4.Alarm	ON	.
+2019-05-14 12:16:34-109	5	scanner_5.Alarm	ON	.
+2019-05-14 12:16:34-109	5	scanner_6.Alarm	ON	.
+2019-05-14 12:16:34-109	5	scanner_7.Alarm	ON	.
+2019-05-14 12:16:34-109	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2019-05-14 12:16:34-109	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2019-05-14 12:16:34-109	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2019-05-14 12:16:34-109	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2019-05-14 12:16:34-109	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2019-05-14 12:16:34-109	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2019-05-14 12:16:34-109	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2019-05-14 12:16:34-109	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2019-05-14 12:16:34-109	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2019-05-14 12:16:34-109	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2019-05-14 12:16:34-109	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2019-05-14 12:16:34-109	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2019-05-14 12:16:34-109	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2019-05-14 12:16:34-109	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2019-05-14 12:16:34-109	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2019-05-14 12:16:34-109	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2019-05-14 12:16:34-109	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2019-05-14 12:16:34-109	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2019-05-14 12:16:34-109	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2019-05-14 12:16:34-109	5	XA4200AL.Alarm	ON	Maint Fire Alarm Panel Trouble.
+2019-05-14 12:16:34-109	5	QA4200AL.Alarm	ON	Maint Fire Alarm.
+2019-05-14 12:16:34-109	5	QA4220AL.Alarm	ON	Maint Fire Alarm.
+2019-05-14 12:16:34-109	5	EA4201AAL.Alarm	ON	Maint Elec UPS AC Fail Alarm.
+2019-05-14 12:16:34-109	5	EA4201BAL.Alarm	ON	Maint Elec UPS Low Battery Alarm.
+2019-05-14 12:16:34-109	5	EA4230AAL.Alarm	ON	Ops Computer Room UPS AC Fail Alarm.
+2019-05-14 12:16:34-109	5	EA4230BAL.Alarm	ON	Ops Computer Room UPS Low Battery Alarm.
+2019-05-14 12:16:34-109	5	XA4218AL.Alarm	ON	OPS Fire Alarm Panel Trouble.
+2019-05-14 12:16:34-109	5	QA4218AL.Alarm	ON	OPS Fire Alarm.
+2019-05-14 12:16:34-109	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2019-05-14 12:16:34-109	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2019-05-14 12:16:34-109	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2019-05-14 12:16:34-109	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2019-05-14 12:16:34-109	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2019-05-14 12:16:34-109	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2019-05-14 12:16:34-109	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2019-05-14 12:16:34-109	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2019-05-14 12:16:34-109	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2019-05-14 12:16:34-109	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2019-05-14 12:16:34-109	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2019-05-14 12:16:34-309	25	MP_Profibus3.CommError	ON	Profibus3 - Dispatch Office.Communication error
+2019-05-14 12:16:34-309	25	MP_Profibus4.CommError	ON	Profibus4 - MP Unit Sub.Communication error
+2019-05-14 12:16:34-309	25	MP_Profibus17.CommError	ON	Profibus17 - MP Unit Sub.Communication error
+2019-05-14 12:16:34-309	25	MP_Profibus5.CommError	ON	Profibus5 - MP Unit Sub.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus19.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 12:16:34-309	25	MP_Profibus18.CommError	ON	Profibus18 - MP Unit Sub.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus22.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-05-14 12:16:34-309	25	MP_Profibus6.CommError	ON	Profibus6 - MCC2 Building.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus15.CommError	ON	Profibus15 - Rail Rack.Communication error
+2019-05-14 12:16:34-309	25	MP_IO6.CommError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus11.CommError	ON	Profibus11 - West Dock Pit.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus10.CommError	ON	Profibus10 - East Dock.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus14.CommError	ON	Profibus14 - East Dock Counter.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus12.CommError	ON	Profibus12 - West Dock.Communication error
+2019-05-14 12:16:34-309	25	LP_Profibus13.CommError	ON	Profibus13 - West Dock Counter.Communication error
+2019-05-14 12:16:37-917	20	SlowPLC_Stopped	ON	SlowPLC is not running - LNJ Comms, Meter tickets DOWN
+2019-05-14 12:16:38-920	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:39-121	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:42-930	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:16:42-930	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:16:42-930	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:16:42-930	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:16:42-930	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:16:42-930	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2019-05-14 12:16:42-930	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-05-14 12:16:44-134	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:44-334	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:47-944	0	LeakComm_err	ON	Leak Communications Error
+2019-05-14 12:16:49-348	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:49-548	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:54-562	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:16:54-762	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:16:59-973	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:00-173	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:05-187	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:05-387	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:10-400	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:10-599	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:15-811	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:16-012	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:18-818	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-05-14 12:17:18-818	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-05-14 12:17:18-818	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-05-14 12:17:21-025	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:21-223	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:23-227	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-05-14 12:17:26-236	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:26-436	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:31-645	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:31-846	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:36-858	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:37-059	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:42-071	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:42-269	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:47-483	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:47-684	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:52-690	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:52-891	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:17:57-904	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:17:58-104	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:03-315	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:03-516	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:08-526	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:08-726	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:13-737	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:13-938	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:19-150	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:19-351	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:24-362	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:24-563	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:29-576	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:29-778	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:33-384	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:18:34-987	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:35-187	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:40-198	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:40-400	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:18:45-408	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-05-14 12:18:45-609	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2019-05-14 12:19:19-683	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:19:20-084	20	SlowPLC_Stopped	OFF	SlowPLC is not running - LNJ Comms, Meter tickets DOWN
+2019-05-14 12:21:19-960	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:22:39-743	25	AX_PLC.aXflash_not_running	OFF	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:24:40-009	25	AX_PLC.aXflash_not_running	ON	AX Soft PLC.AutomationX Main Process not runnging; please call Systemadministrator
+2019-05-14 12:26:50-367	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:26:50-367	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:26:50-367	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:26:50-367	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:26:50-367	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:26:50-367	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2019-05-14 12:26:50-367	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-05-14 12:26:55-378	0	LeakComm_err	ON	Leak Communications Error
+2019-05-14 12:27:11-414	0	XL_PBM_1.Device_not_active	ON	.
+2019-05-14 12:27:11-414	0	XL_PBM_1.Device_not_on_Bus	OFF	.
+2019-05-14 12:27:11-615	0	XL_PBM_1.Device_not_active	OFF	.
+2019-05-14 12:27:11-815	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 12:27:11-815	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 12:27:11-815	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 12:27:11-815	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 12:27:11-815	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 12:27:11-815	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 12:27:26-230	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-05-14 12:27:26-230	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-05-14 12:27:26-230	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-05-14 12:27:30-638	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-05-14 12:28:41-778	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 12:28:41-778	20	AX_SYS.log_count_all_alarm	ON	.
+2019-05-14 12:28:45-786	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 12:28:45-786	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-05-14 12:35:39-798	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:35:39-798	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:35:39-798	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:35:39-798	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:35:39-798	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2019-05-14 12:35:39-798	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2019-05-14 12:35:39-798	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-05-14 12:35:44-806	0	LeakComm_err	ON	Leak Communications Error
+2019-05-14 12:36:15-667	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-05-14 12:36:15-667	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-05-14 12:36:15-667	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-05-14 12:36:19-878	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-05-14 12:36:30-900	0	XL_PBM_1.Device_not_active	ON	.
+2019-05-14 12:36:30-900	0	XL_PBM_1.Device_not_on_Bus	OFF	.
+2019-05-14 12:36:31-099	0	XL_PBM_1.Device_not_active	OFF	.
+2019-05-14 12:36:31-301	25	PrBus3_1.hardware_error	OFF	Dispatch Office Profibus Address 3.hardware error
+2019-05-14 12:36:31-301	25	PrBus6_1.hardware_error	OFF	MCC2 Profibus Address 6.hardware error
+2019-05-14 12:36:31-301	25	IO6PB.hardware_error	OFF	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-05-14 12:36:31-301	25	PrBus19_1.hardware_error	OFF	.hardware error
+2019-05-14 12:36:31-301	25	PrBus22_1.hardware_error	OFF	.hardware error
+2019-05-14 12:36:31-301	0	RailCounter.hardware_error	OFF	.Hardware Fehler
+2019-05-14 12:37:30-835	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 12:37:30-835	20	AX_SYS.log_count_all_alarm	ON	.
+2019-05-14 12:37:34-845	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-14 12:37:34-845	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-05-14 21:19:55-055	20	AX_SYS.log_count_all_warning	ON	.
+2019-05-14 21:19:58-661	20	AX_SYS.log_count_all_warning	OFF	.
+2019-05-27 06:40:05-848	20	XA4001AL.Alarm	OFF	West Dock Deluge Activated.
+2019-05-27 06:40:58-345	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2019-05-27 06:41:06-559	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-05-27 06:41:12-765	20	XA4001AL.Alarm	OFF	West Dock Deluge Activated.

@@ -1,0 +1,302 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="Author" content="rk">
+   <title>Siemens_sm321_ao4</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="710" >
+<tr>
+<td VALIGN=TOP WIDTH="99%" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Analog
+Output cpu315_2_ao4</font></font></font></b></td>
+</tr>
+</table>
+
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The </font><font face="Arial"><font color="#000000">cpu315_2_ao4</font></font><font face="Arial,Helvetica">
+class includes 4 analog Outputs and is exclusive for use with</font>
+<br><font face="Arial,Helvetica">cpu315_DPS class. The module summarize
+the individual analog Outputs to Words in a S7 Datablock who is connected
+to cpu315_2 with Step7.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<br>&nbsp;
+<p><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The <font color="#000000">cpu315_2_ao4</font>class
+is comprised of the following components (files):</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes some class specific
+color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial"><font color="#000000">cpu315_2_ao4</font>.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial"><font color="#000000">cpu315_2_ao4</font>.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axclassdoku_grey16.bmp</font>
+<p><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<p><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial">axparam_grey16.bmp</font>
+<p><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<p><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<br><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial"><font color="#000000">cpu315_2_ao4</font>.htm</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><b>Installation: </b>The above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<br>&nbsp;
+<p><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The cpu315_2_ao4 class represents an S7-datablock
+from four words. The instance name of the module will appear in the middle
+of the class. The names of the I/O points will appear above the slider
+from each channel. When the module is not connected or not valid, the I/O
+names will have red background and if Force is on they will have yellow
+background.</font>
+<p><font face="Arial,Helvetica">The four I/O points are displayed as slider
+and as value. Also shown are the configured min- and maxscale of the Output
+at the right of the slider.</font>
+<p><img SRC="cpu315_2_ao4_GR.gif" height=503 width=165>
+<p><font face="Arial"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">The <b>Force PopUp </b>is invoked by selecting
+the graphical representation. The "Force" button allows each channel to
+be set to force mode to simulate its value, which is necessary so that
+I/O can be tested when there is no connection to the PLC-program. The value
+of each channel is then simulated/forced with the editvalue in the respective
+section (channel). This editvalue is only active if the "Force" button
+is set to "Force".</font>
+<p><img SRC="cpu315_2_ao4_Popup.gif" height=589 width=410>
+<br><font face="Arial"><font size=-1>Figure 2: The Force PopUp</font></font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<br>&nbsp;
+<p><a NAME="Configuration"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the <font color="#000000">cpu315_2_ao4</font>. The parameter data type,
+the default values and a brief description are listed. The grey shaded
+rows are parameters which must not be changed.</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLPADDING=2 WIDTH="860" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial">Item</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial">Variable</font></b></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial">Type</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial">Default</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">CHQ0</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Output
+channel 0</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">2</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">CHQ1</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Output
+channel 1</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">3</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">CHQ2</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Output
+channel 2</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">4</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">CHQ3</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Output
+channel 3</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial">5</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial">Connection</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial">...</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial">The
+next unit is connected by entering the instance name in this parameter.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">6</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">DataValid</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">YES
+if the profibus DP communication is valid.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">7</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">OutputData[8]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">Output
+data array used by profibus DP and handles the analog&nbsp; outputs of
+this module.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">8</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">ModuleName</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">Master_A
+Slave_E&nbsp; 4 Wo Einheit</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial">The
+modulename. This is checked with the GSD file of the profibus DP slave
+(constant).</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial">9</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial">ModulePosition</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial">Shows
+the position of the module in order.</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<p><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial">Data Transfer will only work correctly when the <font color="#000000">cpu315_2_ao4</font>
+Module is connected with at least one Module or Slave.</font>
+<br><font face="Arial">The position of the Data Modules should be the same
+as it is defined in the PLC. Each module must be connected in series with
+the next module. To do this, assign the "Instance" name of the next module
+into the "Connection" string variable of the current module. If there is
+no module next in the series, the "connection"field" remains blank.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

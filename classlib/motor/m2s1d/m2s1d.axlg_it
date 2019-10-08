@@ -1,0 +1,66 @@
+parameter [Text Normal]	Parametri
+parameter [Text Activ]	Parametri
+modes [Text Normal]	Modi
+modes [Text Activ]	Modi
+simulation [Text Normal]	Simulazione
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	Senza interblocco
+no_interlock [Text Activ]	Button
+emulate_run_slow [Text Normal]	In mmarcia emulazione lento
+emulate_run_slow [Text Activ]	Button
+emulate_ready [Text Normal]	Pronto emulazione
+emulate_ready [Text Activ]	Button
+emulate_local [Text Normal]	Locale emulazione
+emulate_local [Text Activ]	Button
+Emulation [Text Normal]	Emulazione
+Emulation [Text Activ]	Wartungsoptionen verwenden
+feedbacktime_slow [Text Normal]	Ritardare l'Allarme lento:
+feedbacktime_slow [Text Activ]	Text
+Max_laeuft_Rueckmeldung_schnell [Text Normal]	Ritardare l'Allarme veloce:
+Max_laeuft_Rueckmeldung_schnell [Text Activ]	Text
+decel_time [Text Normal]	Tempo dopo veloce:
+decel_time [Text Activ]	Text
+time_slow_at_start_fast [Text Normal]	Tempo lento primo veloce:
+time_slow_at_start_fast [Text Activ]	Text
+emulate_run_fast [Text Normal]	Emulazione marcia veloce:
+emulate_run_fast [Text Activ]	Button
+delaytime_slow [Text Normal]	tempo lento:
+delaytime_slow [Text Activ]	Text
+delaytime_fast [Text Normal]	tempo veloce:
+delaytime_fast [Text Activ]	Text
+error_fast [Text Normal]	Errore veloce
+error_fast [Text Activ]	Errore veloce
+lock_slow [Text Normal]	Blocco lento
+lock_slow [Text Activ]	Blocco lento
+auto_on_slow [Text Normal]	Auto acc. lento
+auto_on_slow [Text Activ]	Auto acc. lento
+fast [Text Normal]	Veloce
+fast [Text Activ]	Veloce
+slow [Text Normal]	Lento
+slow [Text Activ]	Lento
+lock_fast [Text Normal]	Blocco veloce
+lock_fast [Text Activ]	Blocco veloce
+error_slow [Text Normal]	Errore lento
+error_slow [Text Activ]	Errore lento
+auto_on_fast [Text Normal]	Auto acc. veloce
+auto_on_fast [Text Activ]	Auto acc. veloce
+man [Text Normal]	Man
+man [Text Activ]	Man
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+off [Text Normal]	Arresto
+off [Text Activ]	Arresto
+ack [Text Normal]	Confermare
+ack [Text Activ]	Confermare
+on [Text Normal]	Marcia
+on [Text Activ]	Marcia
+ready [Text Normal]	Pronto
+ready [Text Activ]	Non pronto
+run_slow [Text Normal]	In marcia lento
+run_slow [Text Activ]	In marcia lento
+run_fast [Text Normal]	In marcia veloce
+run_fast [Text Activ]	In marcia veloce
+local [Text Normal]	Pronto locale
+local [Text Activ]	Non pronto locale
+manual_at_fault [Text Normal]	Modo man se errore
+manual_at_fault [Text Activ]	Button

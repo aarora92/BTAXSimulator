@@ -1,0 +1,64 @@
+System [Text Normal]	System
+System [Text Activ]	System
+axversion [Text Normal]	aX Version
+axversion [Text Activ]	Text
+License [Text Normal]	License
+License [Text Activ]	Sh. Mem Min
+Space1 [Text Normal]	Disc Space
+Space1 [Text Activ]	Text
+Total_memory [Text Normal]	Total Memory 
+Total_memory [Text Activ]	Text
+Real_memory [Text Normal]	Real Memory 
+Real_memory [Text Activ]	Text
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Text
+Real_memory_Warning [Text Normal]	warning:
+Real_memory_Warning [Text Activ]	Text
+Real_memory_Alarm [Text Normal]	alarm:
+Real_memory_Alarm [Text Activ]	Text
+Total_memory_Warning [Text Normal]	warning:
+Total_memory_Warning [Text Activ]	Text
+Total_memory_Alarm [Text Normal]	alarm:
+Total_memory_Alarm [Text Activ]	Text
+Total_memory_used [Text Normal]	used:
+Total_memory_used [Text Activ]	Text
+Total_memory_free [Text Normal]	free:
+Total_memory_free [Text Activ]	Text
+Total_memory_total [Text Normal]	total:
+Total_memory_total [Text Activ]	Text
+Real_memory_used [Text Normal]	used:
+Real_memory_used [Text Activ]	Text
+Real_memory_free [Text Normal]	free:
+Real_memory_free [Text Activ]	Text
+Real_memory_total [Text Normal]	total:
+Real_memory_total [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Trend [Text Normal]	Trend
+Trend [Text Activ]	Trend
+License_Info [Text Normal]	 License Info 
+License_Info [Text Activ]	Text
+License_Info_free [Text Normal]	Points free:
+License_Info_free [Text Activ]	Text
+License_Info_Points_used [Text Normal]	Points used:
+License_Info_Points_used [Text Activ]	Text
+License_Info_State [Text Normal]	 State: 
+License_Info_State [Text Activ]	Text
+License_Info_HostID [Text Normal]	 Host ID: 
+License_Info_HostID [Text Activ]	Text
+Hysteresis_space [Text Normal]	 Hysteresis Space: 
+Hysteresis_space [Text Activ]	Text
+Hysteresis_memory [Text Normal]	 Hysteresis Memory: 
+Hysteresis_memory [Text Activ]	Text
+Working_space [Text Normal]	 Working Space 
+Working_space [Text Activ]	Text
+Working_space_Warning [Text Normal]	warning:
+Working_space_Warning [Text Activ]	Text
+Working_space_Alarm [Text Normal]	alarm:
+Working_space_Alarm [Text Activ]	Text
+Working_space_used [Text Normal]	used:
+Working_space_used [Text Activ]	Text
+Working_space_free [Text Normal]	free:
+Working_space_free [Text Activ]	Text
+Working_space_total [Text Normal]	total:
+Working_space_total [Text Activ]	Text

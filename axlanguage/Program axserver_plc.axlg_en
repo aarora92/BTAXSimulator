@@ -1,0 +1,50 @@
+CycleTime [Text Normal]	CycleTime
+CycleTime [Text Activ]	Text
+TrendSharedMemory [Text Normal]	Trend SHM
+TrendSharedMemory [Text Activ]	Trend SHM min
+SoftPLC [Text Normal]	 Soft  PLC
+SoftPLC [Text Activ]	Text
+SharedMemory [Text Normal]	Shared Memory
+SharedMemory [Text Activ]	SHM min
+SoftPLC_Running [Text Normal]	PLC Not Running
+SoftPLC_Running [Text Activ]	PLC - Running
+SoftPLC_PeakDet [Text Normal]	Peak  Det
+SoftPLC_PeakDet [Text Activ]	Text
+SoftPLC_ResetPeak [Text Normal]	Reset Peak
+SoftPLC_ResetPeak [Text Activ]	Reset Peak
+SoftPLCSlow_free [Text Normal]	free
+SoftPLCSlow_free [Text Activ]	Text
+SoftPLCSlow_locked [Text Normal]	locked
+SoftPLCSlow_locked [Text Activ]	Text
+SoftPLCSlow_SharedMem [Text Normal]	 Shared Mem
+SoftPLCSlow_SharedMem [Text Activ]	 Shared Mem
+SoftPLC_LastTime [Text Normal]	Last Time
+SoftPLC_LastTime [Text Activ]	Text
+SoftPLC_ID [Text Normal]	ID
+SoftPLC_ID [Text Activ]	Text
+SoftPLC_Lifetick [Text Normal]	Lifetick
+SoftPLC_Lifetick [Text Activ]	Text
+SoftPLC_CycleTime [Text Normal]	Cycle Time
+SoftPLC_CycleTime [Text Activ]	Text
+SoftPLC_Exit [Text Normal]	Exit
+SoftPLC_Exit [Text Activ]	Text
+SoftPLC_slow [Text Normal]	 Soft PLC - Slow 
+SoftPLC_slow [Text Activ]	Text
+SoftPLCSlow_CycleTime [Text Normal]	Cycle Time
+SoftPLCSlow_CycleTime [Text Activ]	Text
+SoftPLCSlow_Running [Text Normal]	PLC Not Running
+SoftPLCSlow_Running [Text Activ]	PLC - Running
+SoftPLCSlow_Lifetick [Text Normal]	Lifetick
+SoftPLCSlow_Lifetick [Text Activ]	Text
+SoftPLC_Trend [Text Normal]	Trend
+SoftPLC_Trend [Text Activ]	Trend
+SoftPLC_Help [Text Normal]	Help
+SoftPLC_Help [Text Activ]	Help
+trend_free [Text Normal]	free
+trend_free [Text Activ]	Text
+trend_locked [Text Normal]	locked
+trend_locked [Text Activ]	Text
+trend_SharedMem [Text Normal]	 Trend Shared Memory 
+trend_SharedMem [Text Activ]	 Trend Shared Memory 
+AXFlash [Text Normal]	 AX Flash
+AXFlash [Text Activ]	Text

@@ -1,0 +1,29 @@
+2019-09-11 09:20:59-013	12	<BTAXSA>P_DPS	DiagMsg	PrBus32_1 Adr=32: Diagnose Daten=[ 2|5|0|ff|80|1e|]	admin	BTAXSA
+2019-09-11 09:20:59-013	12	<BTAXSA>P_DPS	DiagMsg	PrBus32_1 Adr=32: no Master_Adr	admin	BTAXSA
+2019-09-11 09:20:59-013	12	<BTAXSA>P_DPS	DiagMsg	PrBus33_1 Adr=33: Diagnose Daten=[ 2|5|0|ff|80|1e|]	admin	BTAXSA
+2019-09-11 09:20:59-013	12	<BTAXSA>P_DPS	DiagMsg	PrBus33_1 Adr=33: no Master_Adr	admin	BTAXSA
+2019-09-11 09:21:00-611	12	<BTAXSA>P_DPS	DiagMsg	PrBus32_1 Adr=32: WD_On	admin	BTAXSA
+2019-09-11 09:21:00-611	12	<BTAXSA>P_DPS	DiagMsg	PrBus33_1 Adr=33: WD_On	admin	BTAXSA
+2019-09-11 09:32:34-586	12	<BTAXSA>P_DPS	DiagMsg	PrBus32_1 Adr=32: WD_On	admin	BTAXSA
+2019-09-11 09:32:34-586	12	<BTAXSA>P_DPS	DiagMsg	PrBus33_1 Adr=33: WD_On	admin	BTAXSA
+2019-09-11 09:35:33-568	12	<BTAXSA>P_DPS	DiagMsg	PrBus31_1 Adr=31: Diagnose Daten=[ 2|5|0|ff|80|1e|]	admin	BTAXSA
+2019-09-11 09:35:33-568	12	<BTAXSA>P_DPS	DiagMsg	PrBus31_1 Adr=31: no Master_Adr	admin	BTAXSA
+2019-09-11 09:35:35-164	12	<BTAXSA>P_DPS	DiagMsg	PrBus31_1 Adr=31: WD_On	admin	BTAXSA
+2019-09-13 00:05:57-029	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	admin	BTAXSA
+2019-09-13 00:05:57-029	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	admin	BTAXSA
+2019-09-13 00:05:57-029	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	admin	BTAXSA
+2019-09-13 12:02:47-115	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-13 12:02:47-115	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-13 12:02:47-115	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-17 18:46:58-147	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-17 18:46:58-147	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-17 18:46:58-147	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-18 21:52:26-631	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-18 21:52:26-631	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-18 21:52:26-631	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-20 23:55:33-035	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-20 23:55:33-035	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-20 23:55:33-035	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-24 06:49:15-089	12	<BTAXSA>P_DPS	ErrorMsg	PrBus31_1 Adr=31: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-24 06:49:15-089	12	<BTAXSA>P_DPS	ErrorMsg	PrBus32_1 Adr=32: No Confirmation ### Reset Slave ###	guest	BTAXSA
+2019-09-24 06:49:15-089	12	<BTAXSA>P_DPS	ErrorMsg	PrBus33_1 Adr=33: No Confirmation ### Reset Slave ###	guest	BTAXSA

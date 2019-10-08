@@ -1,0 +1,88 @@
+Redundancy [Text Normal]	Redundancy
+Redundancy [Text Activ]	Text
+RDRDSW [Text Normal]	RD-SW
+RDRDSW [Text Activ]	Text
+RDComOK [Text Normal]	Com OK
+RDComOK [Text Activ]	Text
+RDErrorMsg [Text Normal]	Error Msg
+RDErrorMsg [Text Activ]	Text
+RDHelp [Text Normal]	Help
+RDHelp [Text Activ]	Help
+RDExit [Text Normal]	Exit
+RDExit [Text Activ]	Exit
+RDResetCard [Text Normal]	Reset card
+RDResetCard [Text Activ]	Reset card
+RedRedundancyError [Text Normal]	Redundancy Error
+RedRedundancyError [Text Activ]	Text
+RedRedundancyStatus [Text Normal]	Redundancy Status
+RedRedundancyStatus [Text Activ]	Text
+RedProfibusRedundancy [Text Normal]	Profibus Redundancy
+RedProfibusRedundancy [Text Activ]	Text
+RedProfibus [Text Normal]	Profibus
+RedProfibus [Text Activ]	Text
+RedSW [Text Normal]	PB-SW
+RedSW [Text Activ]	Text
+RedStatus [Text Normal]	PB-Status
+RedStatus [Text Activ]	Text
+RedRunCnt [Text Normal]	PB-RunCnt
+RedRunCnt [Text Activ]	Text
+RedHelp [Text Normal]	Help
+RedHelp [Text Activ]	Help
+RedExit [Text Normal]	Exit
+RedExit [Text Activ]	Exit
+RedParameter [Text Normal]	Parameter
+RedParameter [Text Activ]	Parameter
+RedActiveDevices [Text Normal]	Active Devices
+RedActiveDevices [Text Activ]	Text
+RedInputData [Text Normal]	Input Data
+RedInputData [Text Activ]	Text
+RedOutputData [Text Normal]	Output Data
+RedOutputData [Text Activ]	Text
+Profibus [Text Normal]	Profibus
+Profibus [Text Activ]	Text
+PBSW [Text Normal]	PB-SW
+PBSW [Text Activ]	Text
+PBStatus [Text Normal]	PB-Status
+PBStatus [Text Activ]	Text
+PBRunCnt [Text Normal]	PB-RunCnt
+PBRunCnt [Text Activ]	Text
+PBHelp [Text Normal]	Help
+PBHelp [Text Activ]	Help
+PBExit [Text Normal]	Exit
+PBExit [Text Activ]	Exit
+PBParameter [Text Normal]	Parameter
+PBParameter [Text Activ]	Parameter
+PBActiveDevices [Text Normal]	Active Devices
+PBActiveDevices [Text Activ]	Text
+PBInputData [Text Normal]	Input Data
+PBInputData [Text Activ]	Text
+PBOutputData [Text Normal]	Output Data
+PBOutputData [Text Activ]	Text
+Address [Text Normal]	Address
+Address [Text Activ]	Text
+SlotTime [Text Normal]	Slot Time
+SlotTime [Text Activ]	Text
+BaudRate [Text Normal]	Baud Rate
+BaudRate [Text Activ]	Text
+tsdrmax [Text Normal]	tsdr_max
+tsdrmax [Text Activ]	Text
+tsdrmin [Text Normal]	tsdr_min
+tsdrmin [Text Activ]	Text
+ttr [Text Normal]	ttr
+ttr [Text Activ]	Text
+ResetSetNewPBParameter [Text Normal]	Reset --> Set new PB Parameter
+ResetSetNewPBParameter [Text Activ]	Reset
+gap [Text Normal]	gap
+gap [Text Activ]	Text
+tset [Text Normal]	tset
+tset [Text Activ]	Text
+hsa [Text Normal]	hsa
+hsa [Text Activ]	Text
+ProfibusParameter [Text Normal]	Profibus Parameter
+ProfibusParameter [Text Activ]	Text
+filename [Text Normal]	filename
+filename [Text Activ]	Text
+PPHelp [Text Normal]	Help
+PPHelp [Text Activ]	Help
+PPExit [Text Normal]	Exit
+PPExit [Text Activ]	Exit

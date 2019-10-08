@@ -1,0 +1,8 @@
+2019-06-12 10:19:47-852	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	guest	BTAXSB
+2019-06-12 10:19:47-852	12		ErrorMsg	Driver AX_NPF service succefull installed	guest	BTAXSB
+2019-06-12 10:37:41-430	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	guest	BTAXSA
+2019-06-12 10:37:41-430	12		ErrorMsg	Driver AX_NPF service succefull installed	guest	BTAXSA
+2019-06-17 15:57:56-763	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	guest	BTAXSA
+2019-06-17 15:57:56-763	12		ErrorMsg	Driver AX_NPF service succefull installed	guest	BTAXSA
+2019-06-18 00:06:21-713	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	guest	BTAXSA
+2019-06-18 00:06:21-713	12		ErrorMsg	Driver AX_NPF service succefull installed	guest	BTAXSA

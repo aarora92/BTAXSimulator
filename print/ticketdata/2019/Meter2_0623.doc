@@ -1,0 +1,53 @@
+
+
+
+                             PETRO-CANADA PRODUCTS
+                             METER DELIVERY TICKET
+
+  DELIVERY TO      :  ESSO LOUGHEED TERMINAL
+
+  ACCOUNT OF       :  PETRO-CANADA
+
+  PRODUCT ID       :  00                     TANK ID     : 65
+
+  LOCATION         :  BURRARD PRODUCTS TERMINAL
+
+  BATCH ID NUMBER  :  00-0158                TICKET REF# : 623
+
+  ============================================================================
+
+  FLOW COMPUTER ID : FX9514     METER ID : 02
+
+                        CLOSE DATE : 2019/08/03       CLOSE TIME : 15:40:47
+                        OPEN  DATE : 2019/08/03       OPEN  TIME : 11:01:25
+
+     METER K FACTOR (PULSES/m3) ___:    6465.057
+     METER PROVE FACTOR ___________:      1.0057
+
+     CLOSING GROSS UNCAL. (m3) ____:  42732992.0
+     OPENING GROSS UNCAL. (m3) ____:  42731332.0
+     GROSS UNCAL VOLUME (m3) ______:      1661.2
+
+  FLOW WEIGHTED AVERAGES
+
+     TEMPERATURE (Celsius) ________:       23.79
+     PRESSURE (Kilo Pascals) ______:      3303.2
+     DENSITY (Kg/m3 @ 15 C) _______:       747.3
+     VCF __________________________:     0.98935
+     CPL __________________________:     1.00376
+
+     NET WET VOLUME (m3) __________:      1659.1
+
+     BAD PULSES ___________________:           0     (1 = Bad Pulses > 100) 
+
+  ============================================================================
+
+
+  WITNESSED BY ________________________________  FOR ESSO
+
+
+  WITNESSED BY ________________________________  FOR PETRO-CANADA PRODUCTS
+
+
+  PRODUCT ID's:  [00-RBOB   ] [01-91 SUPER] [02-92 SUPER] [03-    ] [04-STOVE]
+                 [05-LSSD   ] [06-B5 ULSD ] [07-        ] [08-    ] [09-     ]

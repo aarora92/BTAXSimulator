@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<Configuration>
+    <Format>1</Format>
+<Name>K_AIO32.acl</Name>
+<System>
+<Name>System</Name>
+<ACL>
+<![CDATA[#DECLARE_SYSTEM_CONFIG
+	MODULE[0] = 0x2DC0  (* 6ES7 138-4CA00-0AA0 PM-E DC24V *)
+	MODULE[1] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[2] = 0x15C3  (* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	MODULE[3] = 0x15C3  (* 6ES7 134-4FB50-0AB0 2AI U      *)
+	MODULE[4] = 0x15C3  (* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	MODULE[5] = 0x25D8  (* 6ES7 135-4FB00-0AB0 2AO U *)
+	MODULE[6] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[7] = 0x15C3  (* 6ES7 134-4LB00-0AB0 2AI U      *)
+	MODULE[8] = 0x15C3  (* 6ES7 134-4JB50-0AB0 2AI RTD    *)
+	MODULE[9] = 0x15C3  (* 6ES7 134-4FB00-0AB0 2AI U      *)
+	MODULE[10] = 0x25D8  (* 6ES7 135-4FB00-0AB0 2AO U *)
+	MODULE[11] = 0x15C3  (* 6ES7 134-4FB00-0AB0 2AI U      *)
+	MODULE[12] = 0x15C3  (* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	MODULE[13] = 0x15C3  (* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	MODULE[14] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[15] = 0x15C3  (* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	MODULE[16] = 0x15C3  (* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	MODULE[17] = 0x15C3  (* 6ES7 134-4FB00-0AB0 2AI U      *)
+	MODULE[18] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[19] = 0x15C3  (* 6ES7 134-4FB50-0AB0 2AI U      *)
+	MODULE[20] = 0x15C3  (* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	MODULE[21] = 0x15C3  (* 6ES7 134-4FB00-0AB0 2AI U      *)
+	MODULE[22] = 0x15C3  (* 6ES7 134-4JB50-0AB0 2AI RTD    *)
+	MODULE[23] = 0x2DC0  (* 6ES7 138-4CA00-0AA0 PM-E DC24V *)
+	MODULE[24] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[25] = 0x25D8  (* 6ES7 135-4GB00-0AB0 2AO I *)
+	MODULE[26] = 0x15C3  (* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	MODULE[27] = 0x15C3  (* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	MODULE[28] = 0x15C3  (* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	MODULE[29] = 0x25D8  (* 6ES7 135-4FB00-0AB0 2AO U *)
+	MODULE[30] = 0x15C3  (* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	MODULE[31] = 0x89E0  (* 6ES7 132-4BD00-0AA0  4DO DC24V *)
+
+	(* 6ES7 138-4CA00-0AA0 PM-E DC24V *)
+	PARAMETER[0].len = 3
+	PARAMETER[0].sp  = 0
+	PARAMETER[0].prm[0] = 0x00
+	PARAMETER[0].prm[1] = 0x00
+	PARAMETER[0].prm[2] = 0x01
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[1].len = 7
+	PARAMETER[1].sp  = 1
+	PARAMETER[1].prm[0] = 0x60
+	PARAMETER[1].prm[1] = 0x00
+	PARAMETER[1].prm[2] = 0x00
+	PARAMETER[1].prm[3] = 0x00
+	PARAMETER[1].prm[4] = 0x00
+	PARAMETER[1].prm[5] = 0x00
+	PARAMETER[1].prm[6] = 0x00
+
+	(* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	PARAMETER[2].len = 4
+	PARAMETER[2].sp  = 2
+	PARAMETER[2].prm[0] = 0x40
+	PARAMETER[2].prm[1] = 0x00
+	PARAMETER[2].prm[2] = 0x80
+	PARAMETER[2].prm[3] = 0x00
+
+	(* 6ES7 134-4FB50-0AB0 2AI U      *)
+	PARAMETER[3].len = 4
+	PARAMETER[3].sp  = 3
+	PARAMETER[3].prm[0] = 0x40
+	PARAMETER[3].prm[1] = 0x03
+	PARAMETER[3].prm[2] = 0x00
+	PARAMETER[3].prm[3] = 0xEE
+
+	(* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	PARAMETER[4].len = 4
+	PARAMETER[4].sp  = 4
+	PARAMETER[4].prm[0] = 0x4C
+	PARAMETER[4].prm[1] = 0x00
+	PARAMETER[4].prm[2] = 0x80
+	PARAMETER[4].prm[3] = 0x00
+
+	(* 6ES7 135-4FB00-0AB0 2AO U *)
+	PARAMETER[5].len = 7
+	PARAMETER[5].sp  = 5
+	PARAMETER[5].prm[0] = 0x60
+	PARAMETER[5].prm[1] = 0x71
+	PARAMETER[5].prm[2] = 0x99
+	PARAMETER[5].prm[3] = 0x08
+	PARAMETER[5].prm[4] = 0x00
+	PARAMETER[5].prm[5] = 0x08
+	PARAMETER[5].prm[6] = 0x00
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[6].len = 7
+	PARAMETER[6].sp  = 6
+	PARAMETER[6].prm[0] = 0x60
+	PARAMETER[6].prm[1] = 0x00
+	PARAMETER[6].prm[2] = 0x00
+	PARAMETER[6].prm[3] = 0x00
+	PARAMETER[6].prm[4] = 0x00
+	PARAMETER[6].prm[5] = 0x00
+	PARAMETER[6].prm[6] = 0x00
+
+	(* 6ES7 134-4LB00-0AB0 2AI U      *)
+	PARAMETER[7].len = 4
+	PARAMETER[7].sp  = 7
+	PARAMETER[7].prm[0] = 0x40
+	PARAMETER[7].prm[1] = 0x00
+	PARAMETER[7].prm[2] = 0x80
+	PARAMETER[7].prm[3] = 0x00
+
+	(* 6ES7 134-4JB50-0AB0 2AI RTD    *)
+	PARAMETER[8].len = 4
+	PARAMETER[8].sp  = 8
+	PARAMETER[8].prm[0] = 0x48
+	PARAMETER[8].prm[1] = 0x07
+	PARAMETER[8].prm[2] = 0x80
+	PARAMETER[8].prm[3] = 0xAA
+
+	(* 6ES7 134-4FB00-0AB0 2AI U      *)
+	PARAMETER[9].len = 4
+	PARAMETER[9].sp  = 9
+	PARAMETER[9].prm[0] = 0x40
+	PARAMETER[9].prm[1] = 0x03
+	PARAMETER[9].prm[2] = 0x80
+	PARAMETER[9].prm[3] = 0x06
+
+	(* 6ES7 135-4FB00-0AB0 2AO U *)
+	PARAMETER[10].len = 7
+	PARAMETER[10].sp  = 10
+	PARAMETER[10].prm[0] = 0x60
+	PARAMETER[10].prm[1] = 0x00
+	PARAMETER[10].prm[2] = 0x09
+	PARAMETER[10].prm[3] = 0x00
+	PARAMETER[10].prm[4] = 0x00
+	PARAMETER[10].prm[5] = 0x00
+	PARAMETER[10].prm[6] = 0x00
+
+	(* 6ES7 134-4FB00-0AB0 2AI U      *)
+	PARAMETER[11].len = 4
+	PARAMETER[11].sp  = 11
+	PARAMETER[11].prm[0] = 0x40
+	PARAMETER[11].prm[1] = 0x00
+	PARAMETER[11].prm[2] = 0x80
+	PARAMETER[11].prm[3] = 0x00
+
+	(* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	PARAMETER[12].len = 4
+	PARAMETER[12].sp  = 12
+	PARAMETER[12].prm[0] = 0x40
+	PARAMETER[12].prm[1] = 0x00
+	PARAMETER[12].prm[2] = 0x00
+	PARAMETER[12].prm[3] = 0x00
+
+	(* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	PARAMETER[13].len = 4
+	PARAMETER[13].sp  = 13
+	PARAMETER[13].prm[0] = 0x40
+	PARAMETER[13].prm[1] = 0x00
+	PARAMETER[13].prm[2] = 0x00
+	PARAMETER[13].prm[3] = 0x00
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[14].len = 7
+	PARAMETER[14].sp  = 14
+	PARAMETER[14].prm[0] = 0x60
+	PARAMETER[14].prm[1] = 0x00
+	PARAMETER[14].prm[2] = 0x00
+	PARAMETER[14].prm[3] = 0x00
+	PARAMETER[14].prm[4] = 0x00
+	PARAMETER[14].prm[5] = 0x00
+	PARAMETER[14].prm[6] = 0x00
+
+	(* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	PARAMETER[15].len = 4
+	PARAMETER[15].sp  = 15
+	PARAMETER[15].prm[0] = 0x4C
+	PARAMETER[15].prm[1] = 0x00
+	PARAMETER[15].prm[2] = 0x80
+	PARAMETER[15].prm[3] = 0x00
+
+	(* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	PARAMETER[16].len = 4
+	PARAMETER[16].sp  = 16
+	PARAMETER[16].prm[0] = 0x40
+	PARAMETER[16].prm[1] = 0x00
+	PARAMETER[16].prm[2] = 0x00
+	PARAMETER[16].prm[3] = 0x00
+
+	(* 6ES7 134-4FB00-0AB0 2AI U      *)
+	PARAMETER[17].len = 4
+	PARAMETER[17].sp  = 17
+	PARAMETER[17].prm[0] = 0x40
+	PARAMETER[17].prm[1] = 0x00
+	PARAMETER[17].prm[2] = 0x80
+	PARAMETER[17].prm[3] = 0x00
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[18].len = 7
+	PARAMETER[18].sp  = 18
+	PARAMETER[18].prm[0] = 0x60
+	PARAMETER[18].prm[1] = 0x00
+	PARAMETER[18].prm[2] = 0x00
+	PARAMETER[18].prm[3] = 0x00
+	PARAMETER[18].prm[4] = 0x00
+	PARAMETER[18].prm[5] = 0x00
+	PARAMETER[18].prm[6] = 0x00
+
+	(* 6ES7 134-4FB50-0AB0 2AI U      *)
+	PARAMETER[19].len = 4
+	PARAMETER[19].sp  = 19
+	PARAMETER[19].prm[0] = 0x40
+	PARAMETER[19].prm[1] = 0x00
+	PARAMETER[19].prm[2] = 0x00
+	PARAMETER[19].prm[3] = 0x00
+
+	(* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	PARAMETER[20].len = 4
+	PARAMETER[20].sp  = 20
+	PARAMETER[20].prm[0] = 0x40
+	PARAMETER[20].prm[1] = 0x00
+	PARAMETER[20].prm[2] = 0x80
+	PARAMETER[20].prm[3] = 0x00
+
+	(* 6ES7 134-4FB00-0AB0 2AI U      *)
+	PARAMETER[21].len = 4
+	PARAMETER[21].sp  = 21
+	PARAMETER[21].prm[0] = 0x40
+	PARAMETER[21].prm[1] = 0x00
+	PARAMETER[21].prm[2] = 0x80
+	PARAMETER[21].prm[3] = 0x00
+
+	(* 6ES7 134-4JB50-0AB0 2AI RTD    *)
+	PARAMETER[22].len = 4
+	PARAMETER[22].sp  = 22
+	PARAMETER[22].prm[0] = 0x48
+	PARAMETER[22].prm[1] = 0x00
+	PARAMETER[22].prm[2] = 0x80
+	PARAMETER[22].prm[3] = 0xAA
+
+	(* 6ES7 138-4CA00-0AA0 PM-E DC24V *)
+	PARAMETER[23].len = 3
+	PARAMETER[23].sp  = 23
+	PARAMETER[23].prm[0] = 0x00
+	PARAMETER[23].prm[1] = 0x00
+	PARAMETER[23].prm[2] = 0x01
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[24].len = 7
+	PARAMETER[24].sp  = 24
+	PARAMETER[24].prm[0] = 0x60
+	PARAMETER[24].prm[1] = 0x00
+	PARAMETER[24].prm[2] = 0x00
+	PARAMETER[24].prm[3] = 0x00
+	PARAMETER[24].prm[4] = 0x00
+	PARAMETER[24].prm[5] = 0x00
+	PARAMETER[24].prm[6] = 0x00
+
+	(* 6ES7 135-4GB00-0AB0 2AO I *)
+	PARAMETER[25].len = 7
+	PARAMETER[25].sp  = 25
+	PARAMETER[25].prm[0] = 0x60
+	PARAMETER[25].prm[1] = 0x00
+	PARAMETER[25].prm[2] = 0x00
+	PARAMETER[25].prm[3] = 0x00
+	PARAMETER[25].prm[4] = 0x00
+	PARAMETER[25].prm[5] = 0x00
+	PARAMETER[25].prm[6] = 0x00
+
+	(* 6ES7 134-4GB00-0AB0 2AI I 2DMU *)
+	PARAMETER[26].len = 4
+	PARAMETER[26].sp  = 26
+	PARAMETER[26].prm[0] = 0x40
+	PARAMETER[26].prm[1] = 0x00
+	PARAMETER[26].prm[2] = 0x80
+	PARAMETER[26].prm[3] = 0x00
+
+	(* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	PARAMETER[27].len = 4
+	PARAMETER[27].sp  = 27
+	PARAMETER[27].prm[0] = 0x40
+	PARAMETER[27].prm[1] = 0x00
+	PARAMETER[27].prm[2] = 0x00
+	PARAMETER[27].prm[3] = 0x00
+
+	(* 6ES7 134-4JB00-0AB0 AI 2xTC    *)
+	PARAMETER[28].len = 4
+	PARAMETER[28].sp  = 28
+	PARAMETER[28].prm[0] = 0x4C
+	PARAMETER[28].prm[1] = 0x00
+	PARAMETER[28].prm[2] = 0x80
+	PARAMETER[28].prm[3] = 0x00
+
+	(* 6ES7 135-4FB00-0AB0 2AO U *)
+	PARAMETER[29].len = 7
+	PARAMETER[29].sp  = 29
+	PARAMETER[29].prm[0] = 0x60
+	PARAMETER[29].prm[1] = 0x00
+	PARAMETER[29].prm[2] = 0x00
+	PARAMETER[29].prm[3] = 0x00
+	PARAMETER[29].prm[4] = 0x00
+	PARAMETER[29].prm[5] = 0x00
+	PARAMETER[29].prm[6] = 0x00
+
+	(* 6ES7 134-4GB50-0AB0 2AI I 2DMU *)
+	PARAMETER[30].len = 4
+	PARAMETER[30].sp  = 30
+	PARAMETER[30].prm[0] = 0x40
+	PARAMETER[30].prm[1] = 0x00
+	PARAMETER[30].prm[2] = 0x00
+	PARAMETER[30].prm[3] = 0x00
+
+	(*
+	 6ES7 132-4BD00-0AA0  4DO DC24V
+	PARAMETER[x].len = 1
+	PARAMETER[x].sp  = 31
+	PARAMETER[x].prm[0] = 0x12
+	*)
+
+#END_DECLARE
+]]>
+</ACL>
+</System>
+<VarAccess>
+<Name>VA.acc</Name>
+<ACL>
+<![CDATA[VAR_ACCESS
+	Seppl2 : test.iHorst.xxx : BOOL;
+	(*karl : test.iHorst.xxx : BOOL;*)
+END_VAR
+]]>
+</ACL>
+</VarAccess>
+<Resources>
+<Resource>
+<Name>test.rsc</Name>
+<ACL>
+<![CDATA[RESOURCE test ON VM0
+	VAR_GLOBAL	(*AUTOMATICALLY GENERATED, DO NOT MODIFY*)
+		M02_CHQ0 AT %QW0 : WORD;
+		M02_CHQ1 AT %QW2 : WORD;
+		M03_CHI0 AT %IW0 : WORD;
+		M03_CHI1 AT %IW2 : WORD;
+		M04_CHI0 AT %IW4 : WORD;
+		M04_CHI1 AT %IW6 : WORD;
+		M05_CHI0 AT %IW8 : WORD;
+		M05_CHI1 AT %IW10 : WORD;
+		M06_CHQ0 AT %QW4 : WORD;
+		M06_CHQ1 AT %QW6 : WORD;
+		M07_CHQ0 AT %QW8 : WORD;
+		M07_CHQ1 AT %QW10 : WORD;
+		M08_CHI0 AT %IW12 : WORD;
+		M08_CHI1 AT %IW14 : WORD;
+		M09_CHI0 AT %IW16 : WORD;
+		M09_CHI1 AT %IW18 : WORD;
+		M10_CHI0 AT %IW20 : WORD;
+		M10_CHI1 AT %IW22 : WORD;
+		M11_CHQ0 AT %QW12 : WORD;
+		M11_CHQ1 AT %QW14 : WORD;
+		M12_CHI0 AT %IW24 : WORD;
+		M12_CHI1 AT %IW26 : WORD;
+		M13_CHI0 AT %IW28 : WORD;
+		M13_CHI1 AT %IW30 : WORD;
+		M14_CHI0 AT %IW32 : WORD;
+		M14_CHI1 AT %IW34 : WORD;
+		M15_CHQ0 AT %QW16 : WORD;
+		M15_CHQ1 AT %QW18 : WORD;
+		M16_CHI0 AT %IW36 : WORD;
+		M16_CHI1 AT %IW38 : WORD;
+		M17_CHI0 AT %IW40 : WORD;
+		M17_CHI1 AT %IW42 : WORD;
+		M18_CHI0 AT %IW44 : WORD;
+		M18_CHI1 AT %IW46 : WORD;
+		M19_CHQ0 AT %QW20 : WORD;
+		M19_CHQ1 AT %QW22 : WORD;
+		M20_CHI0 AT %IW48 : WORD;
+		M20_CHI1 AT %IW50 : WORD;
+		M21_CHI0 AT %IW52 : WORD;
+		M21_CHI1 AT %IW54 : WORD;
+		M22_CHI0 AT %IW56 : WORD;
+		M22_CHI1 AT %IW58 : WORD;
+		M23_CHI0 AT %IW60 : WORD;
+		M23_CHI1 AT %IW62 : WORD;
+		M25_CHQ0 AT %QW24 : WORD;
+		M25_CHQ1 AT %QW26 : WORD;
+		M26_CHQ0 AT %QW28 : WORD;
+		M26_CHQ1 AT %QW30 : WORD;
+		M27_CHI0 AT %IW64 : WORD;
+		M27_CHI1 AT %IW66 : WORD;
+		M28_CHI0 AT %IW68 : WORD;
+		M28_CHI1 AT %IW70 : WORD;
+		M29_CHI0 AT %IW72 : WORD;
+		M29_CHI1 AT %IW74 : WORD;
+		M30_CHQ0 AT %QW32 : WORD;
+		M30_CHQ1 AT %QW34 : WORD;
+		M31_CHI0 AT %IW76 : WORD;
+		M31_CHI1 AT %IW78 : WORD;
+		M32_Q0_0 AT %QX36.0 : BOOL;
+		M32_Q0_1 AT %QX36.1 : BOOL;
+		M32_Q0_2 AT %QX36.2 : BOOL;
+		M32_Q0_3 AT %QX36.3 : BOOL;
+	END_VAR	(*DO NOT MODIFY UNTIL HERE*)
+	
+	VAR_GLOBAL
+		SYS_any  	   AT %MX0.0 : BOOL;
+		SYS_Coldstart  AT %MX0.1 : BOOL;
+		SYS_Warmstart  AT %MX0.2 : BOOL;
+		SYS_HotStart   AT %MX0.3 : BOOL;
+		SYS_timeout	   AT %MX0.4 : BOOL;
+		SYS_peek  	   AT %MX0.5 : BOOL;
+		SYS_stop	   AT %MX0.7 : BOOL;
+		
+		SYS_TaskId 	   AT %MB1   : USINT;
+		SYS_TaskTime   AT %MW2   : UINT;
+		SYS_TaskTimeout AT %MW4  : UINT;
+		SYS_test1	   AT %MW6	 : UINT;		
+		SYS_test2	   AT %MB8	 : UINT;	
+		SYS_test3	   AT %MB9	 : UINT;	
+		SYS_Elapsed	   AT %MW10	 : UINT;
+		
+		
+		SBUS_any  	  AT %MX14.0 : BOOL;
+		SBUS_plugged  AT %MX14.1 : BOOL;
+		SBUS_pulled   AT %MX14.2 : BOOL;
+		SBUS_wrongmod AT %MX14.3 : BOOL;
+		SBUS_diag	  AT %MX14.4 : BOOL;
+		SBUS_alarm	  AT %MX14.5 : BOOL;
+		SBUS_slot	  AT %MB15   : USINT;
+	
+		SBUS_DiagSlot AT %MB16   : USINT;
+		SBUS_DiagChn  AT %MB17   : USINT;
+		SBUS_DiagType AT %MB18   : USINT;
+	
+		DPS_any  	  AT %MX19.0 : BOOL;
+		DPS_Dataex    AT %MX19.1 : BOOL;
+		DPS_noDataex  AT %MX19.2 : BOOL;
+		DPS_Cfg		  AT %MX19.3 : BOOL;
+		DPS_Prm  	  AT %MX19.4 : BOOL;
+	
+		DPS_adr		  AT %MB20	: USINT;	
+		
+	END_VAR
+	VAR_GLOBAL
+		in0 AT %IX0.0 : BOOL;
+		in1 AT %IX0.1 : BOOL;
+		out0 AT %QX0.0 : BOOL;
+		out1 AT %QX0.1 : BOOL;
+		bOut0 AT %QB36 : BYTE;
+ 	    error : ARRAY [0..63] OF USINT; 
+ 	    outval : WORD;
+	END_VAR
+	TASK SysEvent (SINGLE:=SBUS_any,PRIORITY:=0,PHASE:=T#0ms,TIMEOUT:= T#20ms);
+	TASK slow (INTERVAL:=T#20ms,PRIORITY:=1,PHASE:=T#0ms,TIMEOUT := T#20ms);
+	PROGRAM iEvents WITH SysEvent : events;
+	PROGRAM iHorst WITH slow : horst;
+END_RESOURCE
+]]>
+</ACL>
+</Resource>
+</Resources>
+<Globals>
+</Globals>
+<LibFiles>
+</LibFiles>
+<POUList>
+<POUFolder>
+<Name>P3</Name>
+<POU>
+<Name>horst.pgm.st</Name>
+<Build>1</Build>
+<ACL>
+<![CDATA[PROGRAM horst
+	VAR_INPUT
+		xxx : BOOL;
+	END_VAR	
+	VAR
+		res : REAL := 23.4;
+		a : SINT;
+		x : WORD;
+		i : INT;
+		value0,value1 : INT;
+		init : BOOL := FALSE;
+		index : USINT;
+		err : USINT;
+		(*stra,strb :STRING;*)
+	END_VAR
+	VAR_EXTERNAL
+		in0,in1 : BOOL;
+		out0,out1 : BOOL;
+		bOut0 : BYTE;
+		M06_CHQ0,M06_CHQ1 : WORD;
+		M03_CHI0,M03_CHI1  : WORD;
+		M11_CHQ0 : WORD;
+		error : ARRAY [0..63] OF USINT; 
+		outval : WORD;
+	END_VAR
+	a := a + 1;			
+	bOut0 := a;
+	x := x + 50;	
+	M06_CHQ0 := x;
+	M06_CHQ1 := x;
+	value0 := M03_CHI0;
+	value1 := M03_CHI1;
+	IF NOT init THEN
+		FOR i := 0 TO 63 DO
+		   error[i] := 0; 
+		END_FOR;
+		init := TRUE;
+		M11_CHQ0 := 27000;
+		
+	END_IF;	
+	err := error[index];	
+END_PROGRAM
+]]>
+</ACL>
+</POU>
+<POU>
+<Name>events.pgm.st</Name>
+<Build>1</Build>
+<ACL>
+<![CDATA[PROGRAM events
+	VAR_EXTERNAL
+		 SBUS_plugged  : BOOL;
+		 SBUS_pulled   : BOOL;
+		 SBUS_wrongmod : BOOL;
+		 SBUS_diag     : BOOL;
+		 SBUS_DiagChn  : USINT;
+		 SBUS_DiagSlot  : USINT;
+		 SBUS_DiagType : USINT;
+		 
+		 SBUS_any     : BOOL;
+		 SBUS_slot	   : USINT;	
+		 SYS_stop : BOOL;
+		 error : ARRAY [0..63] OF USINT; 
+		 M11_CHQ0 :WORD;
+		 
+	END_VAR
+	
+	
+	VAR
+		test : USINT;
+		cnt : INT;
+	END_VAR
+	SBUS_any := FALSE;
+	SBUS_plugged := FALSE;
+	SBUS_pulled := FALSE;
+	SBUS_wrongmod := FALSE; 
+	IF SBUS_diag THEN
+		SBUS_diag := FALSE;
+		IF SBUS_DiagSlot = 9 THEN
+			IF SBUS_DiagType THEN
+				M11_CHQ0 := 100;
+			ELSE
+				M11_CHQ0 := 27000;
+			END_IF;	
+		END_IF; 
+		cnt := cnt + 1;
+		error[SBUS_DiagSlot] := SBUS_DiagType;
+	END_IF;	
+	(*SYS_stop := TRUE;*)
+	IF SBUS_slot = 3 THEN
+		SBUS_slot := 16#FF;
+		SYS_stop := TRUE;
+	END_IF;	
+END_PROGRAM
+]]>
+</ACL>
+<BP>31</BP>
+</POU>
+</POUFolder>
+</POUList>
+</Configuration>

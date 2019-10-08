@@ -1,0 +1,44 @@
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+max_feedback [Text Normal]	max. run-feedbacktime:
+max_feedback [Text Activ]	Text
+modes [Text Normal]	Modes
+modes [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	simulation
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	no interlock
+no_interlock [Text Activ]	Button
+run_emulation [Text Normal]	run emulation
+run_emulation [Text Activ]	Button
+ready_emulation [Text Normal]	ready emulation
+ready_emulation [Text Activ]	Button
+delaytime [Text Normal]	delay time:
+delaytime [Text Activ]	Text
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+run [Text Normal]	run
+run [Text Activ]	run
+error [Text Normal]	error
+error [Text Activ]	error
+locked [Text Normal]	locked
+locked [Text Activ]	locked
+auto_on [Text Normal]	auto
+auto_on [Text Activ]	auto
+man [Text Normal]	man
+man [Text Activ]	man
+auto [Text Normal]	auto
+auto [Text Activ]	auto
+off [Text Normal]	off
+off [Text Activ]	off
+ack [Text Normal]	acknowledge
+ack [Text Activ]	acknowledge
+on [Text Normal]	on
+on [Text Activ]	on
+bereit [Text Normal]	ready
+bereit [Text Activ]	not ready
+local [Text Normal]	local ready
+local [Text Activ]	local not ready
+local_emulation [Text Normal]	local emulation
+local_emulation [Text Activ]	Button
+manual_at_fault [Text Normal]	manual mode at error
+manual_at_fault [Text Activ]	Button

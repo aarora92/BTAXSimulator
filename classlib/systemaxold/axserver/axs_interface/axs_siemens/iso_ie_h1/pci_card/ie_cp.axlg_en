@@ -1,0 +1,20 @@
+State [Text Normal]	State
+State [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+ActiveDevices [Text Normal]	Active Devices
+ActiveDevices [Text Activ]	Text
+InputData [Text Normal]	Input Data
+InputData [Text Activ]	Text
+OutputData [Text Normal]	Output Data
+OutputData [Text Activ]	Text
+SRAccessPoint [Text Normal]	SR Access Point
+SRAccessPoint [Text Activ]	Text
+MACAddress [Text Normal]	MAC Address
+MACAddress [Text Activ]	Text
+Open [Text Normal]	Open
+Open [Text Activ]	Open
+Close [Text Normal]	Close
+Close [Text Activ]	Close

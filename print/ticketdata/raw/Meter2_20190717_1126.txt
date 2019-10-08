@@ -1,0 +1,2 @@
+TicketName	ProdID	TankID	BatchID_A	BatchID_B	TicketRef	MeterName	MeterID	OpenTime	CloseTime	K_Factor	Prove_Factor	Closing_Gross	Opening_Gross	Gross_Volume	Temp	Press	Dens	VCF	CPL	Net_Volume	Bad_Pulses
+Meter2	6	53	6	147	570	FX9514	2	1563323094	1563387945	6465.057	1.0046	42644984.0	42641824.0	3163.1	22.20	2855.2	855.7	0.99406	1.00214	3165.5	0

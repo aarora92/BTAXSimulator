@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Configuration>
+    <Format>1</Format>
+<Name>im151_axd.acl</Name>
+<System>
+<Name>System</Name>
+</System>
+<VarAccess>
+</VarAccess>
+<Resources>
+<Resource>
+<Name>im151_axd.rsc</Name>
+<ACL>
+<![CDATA[RESOURCE im151_axd ON VM0
+	VAR_GLOBAL
+		SYS_any  	   AT %MX0.0 : BOOL;
+		SYS_Coldstart  AT %MX0.1 : BOOL;
+		SYS_Warmstart  AT %MX0.2 : BOOL;
+		SYS_HotStart   AT %MX0.3 : BOOL;
+		SYS_timeout	   AT %MX0.4 : BOOL;
+		SYS_peek  	   AT %MX0.5 : BOOL;
+		SYS_stop	   AT %MX0.7 : BOOL;
+		
+		SYS_TaskId 	   AT %MB1   : USINT;
+		SYS_TaskTime   AT %MW2   : UINT;
+		SYS_TaskTimeout AT %MW4  : UINT;
+		SYS_test1	   AT %MW6	 : UINT;		
+		SYS_test2	   AT %MB8	 : UINT;	
+		SYS_test3	   AT %MB9	 : UINT;	
+		SYS_Elapsed	   AT %MW10	 : UINT;
+		
+		
+		SBUS_any  	  AT %MX14.0 : BOOL;
+		SBUS_plugged  AT %MX14.1 : BOOL;
+		SBUS_pulled   AT %MX14.2 : BOOL;
+		SBUS_wrongmod AT %MX14.3 : BOOL;
+		SBUS_diag	  AT %MX14.4 : BOOL;
+		SBUS_alarm	  AT %MX14.5 : BOOL;
+		SBUS_slot	  AT %MB15   : USINT;
+	
+		SBUS_DiagSlot AT %MB16   : USINT;
+		SBUS_DiagChn  AT %MB17   : USINT;
+		SBUS_DiagType AT %MB18   : USINT;
+	
+		DPS_any  	  AT %MX19.0 : BOOL;
+		DPS_Dataex    AT %MX19.1 : BOOL;
+		DPS_noDataex  AT %MX19.2 : BOOL;
+		DPS_Cfg		  AT %MX19.3 : BOOL;
+		DPS_Prm  	  AT %MX19.4 : BOOL;
+	
+		DPS_adr		  AT %MB20	: USINT;	
+	END_VAR
+	TASK SysEvent (SINGLE:=SBUS_any,PRIORITY:=0,PHASE:=T#0ms,TIMEOUT:= T#20ms);
+	TASK slow (INTERVAL:=T#20ms,PRIORITY:=1,PHASE:=T#0ms,TIMEOUT := T#20ms);
+	PROGRAM iSBUS_events WITH SysEvent : SBUS_events;
+END_RESOURCE
+]]>
+</ACL>
+</Resource>
+</Resources>
+<Globals>
+</Globals>
+<LibFiles>
+</LibFiles>
+<POUList>
+<POUFolder>
+<Name>axdevice</Name>
+<POU>
+<Name>sbus_events.pgm.st</Name>
+<Build>1</Build>
+<ACL>
+<![CDATA[(****************************************************************************)
+(* Bespiel PROGRAM fuer die Behandlung von Ausnahmen und Diagnosen des SBUS *)
+(* AutomationX 040902 														*)
+(****************************************************************************)  
+PROGRAM SBUS_events
+	VAR_EXTERNAL
+		 SBUS_any     	: BOOL;
+		 SBUS_slot	   	: USINT;	
+		 SBUS_plugged  	: BOOL;
+		 SBUS_pulled   	: BOOL;
+		 SBUS_wrongmod 	: BOOL;
+		 SBUS_diag     	: BOOL;
+		 SBUS_DiagChn  	: USINT;
+		 SBUS_DiagType 	: USINT;
+		 SYS_stop 		: BOOL;
+	END_VAR
+	VAR
+		cnt : INT;
+	END_VAR
+	SBUS_any := FALSE; 			(* trigger fuer task muss immer zurueckgesetzt werden *) 
+	SBUS_pulled := FALSE;		(* wird der "ziehen" Merker zurueckgesetzt laeft die Anwendung weiter *)
+								(* wird der Merker nicht zurueckgesetzt wird die Anwendung mit einer "EXCEPTION_EA_MODULE_PULLED" gestoppt *)
+	SBUS_plugged := FALSE;  	(* der "stecken" merker sollte hier ebenfalls zurueckgesetzt werden *)
+	SBUS_wrongmod := FALSE; 	(* der "falsches Modul" Merker sollte hier ebenfalls zurueckgesetzt werden *)
+	
+	IF SBUS_slot = 80 THEN 	  	(* mit Hilfe des Merkers SBUS_slot (Module Steckplatz) kann entschieden werden ob die Anwendung angehalten werden *)
+		SBUS_slot := 16#FF;     (* soll oder nicht *)
+		SYS_stop := TRUE;
+	ELSE	
+		IF SBUS_diag THEN		(* ist ein Eintrag in der SBUS Diagnose Warteschlange so wird der "SBUS_diag" Merker gesetzt *)
+								(* mit Hilfe des "SBUS_slot,SBUS_DiagChn" kann der Modulsteckplatz und der Kanal ermittelt werden *)
+								(* der Fehlertyp kann aus dem Merker "SBUS_DiagType" ausgelesen werden *)
+			SBUS_diag := FALSE; (* durch das zurcksetzen wird die naechste Diagnose sofern eine weitere in der Warteschlange steht gemeldet *)
+			cnt := cnt + 1;
+		END_IF;	
+	END_IF;
+
+END_PROGRAM
+]]>
+</ACL>
+</POU>
+</POUFolder>
+</POUList>
+</Configuration>

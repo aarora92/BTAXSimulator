@@ -1,0 +1,993 @@
+2018-04-09 09:49:05-446	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 09:49:05-696	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 09:49:15-322	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 09:49:16-519	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-09 09:51:05-467	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-09 09:52:17-979	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 09:52:18-227	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 09:53:33-503	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 09:53:37-892	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 09:53:38-292	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-09 09:53:46-671	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-09 09:55:04-292	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 09:55:58-766	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-09 09:56:03-756	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-09 09:58:37-999	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 10:01:33-992	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 10:03:00-191	-2	<AX-NB-46>EDT	3	Saving file:axserver_sys.symbol
+2018-04-09 10:03:00-191	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:03:00-591	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-09 10:07:41-940	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 10:07:42-190	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 10:08:32-795	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 10:09:46-032	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 10:12:29-818	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:12:30-016	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:12:30-414	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-09 10:14:29-622	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:14:29-822	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:14:30-220	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-09 10:15:16-793	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 10:15:18-983	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:15:19-181	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:15:19-579	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-09 10:16:01-572	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:16:01-572	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:16:36-796	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:16:36-996	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:16:37-194	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-09 10:18:38-194	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:18:38-392	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:18:38-790	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-09 10:22:00-793	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 10:22:47-562	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-09 10:28:09-427	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-09 10:29:35-101	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-09 10:29:57-615	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-09 10:32:14-292	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:32:14-292	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:32:14-691	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-09 10:38:15-456	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:38:15-456	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:38:15-854	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-09 10:40:01-545	-2	<AX-NB-46>EDT	3	Saving file:Communications.tree
+2018-04-09 10:40:01-743	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:40:01-944	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[10]
+2018-04-09 10:40:13-295	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-09 10:40:17-078	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 10:40:17-476	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[11]
+2018-04-09 10:40:57-085	-2	<AX-NB-46>EDT	3	Saving file:ab_slc_ox8_sst.symbol
+2018-04-09 10:40:57-085	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:40:57-483	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[12]
+2018-04-09 10:41:35-900	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:41:35-900	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:41:36-298	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[13]
+2018-04-09 10:41:59-586	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:41:59-786	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:42:00-184	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[14]
+2018-04-09 10:44:10-147	-2	<AX-NB-46>EDT	3	Saving file:axsystem.tree
+2018-04-09 10:44:10-147	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:44:10-545	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[15]
+2018-04-09 10:44:17-318	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-09 10:45:56-223	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-09 10:47:11-842	-2	<AX-NB-46>EDT	3	Saving file:Communications.tree
+2018-04-09 10:47:12-042	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:47:12-440	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[16]
+2018-04-09 10:57:16-025	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:57:16-025	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:58:26-073	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 10:58:26-073	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:58:26-471	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[17]
+2018-04-09 10:58:46-572	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:58:46-572	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:59:13-040	-2	<AX-NB-46>EDT	3	Saving file:EastDock.tree
+2018-04-09 10:59:13-040	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:59:13-438	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[18]
+2018-04-09 10:59:30-753	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 10:59:30-753	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 10:59:31-151	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[19]
+2018-04-09 11:01:33-743	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 11:01:33-743	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:03:11-273	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-09 11:03:11-473	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:03:11-871	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[20]
+2018-04-09 11:04:07-608	-2	<AX-NB-46>EDT	3	Saving file:EastDock.tree
+2018-04-09 11:04:07-608	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:04:07-808	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[21]
+2018-04-09 11:06:10-618	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-09 11:06:10-618	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:06:11-016	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[22]
+2018-04-09 11:06:39-678	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-09 11:11:00-006	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 11:11:00-404	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[23]
+2018-04-09 11:12:45-091	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 11:12:45-489	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[24]
+2018-04-09 11:14:13-861	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 11:14:13-861	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:14:14-259	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[25]
+2018-04-09 11:18:45-332	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-09 11:24:16-473	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 11:24:16-871	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[26]
+2018-04-09 11:25:14-395	-2	<AX-NB-46>EDT	3	Saving file:ModbusTcpM.symbol
+2018-04-09 11:25:14-395	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:25:14-793	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[27]
+2018-04-09 11:25:36-091	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 11:25:36-091	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 11:25:36-489	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[28]
+2018-04-09 12:55:45-292	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 12:55:45-690	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[29]
+2018-04-09 12:56:12-546	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 12:56:12-796	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 12:56:31-352	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 13:30:11-112	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:30:11-312	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:30:11-710	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-09 13:35:05-242	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-09 13:45:38-068	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:45:38-266	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:45:38-466	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-09 13:45:49-809	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:45:50-007	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:45:50-207	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-09 13:48:34-381	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:48:34-381	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:48:34-779	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-09 13:49:03-038	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:49:03-038	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:49:03-436	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-09 13:49:13-193	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-09 13:49:50-207	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:49:50-407	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:49:50-805	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-09 13:50:04-336	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:50:04-536	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:50:04-734	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-09 13:50:27-032	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 13:50:27-280	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 13:50:29-719	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 13:51:13-703	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:51:13-703	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:51:14-101	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-09 13:51:47-733	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 13:51:47-931	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 13:51:48-329	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-09 14:08:45-535	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-09 14:08:45-783	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-09 14:10:31-315	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-09 14:14:27-552	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 14:14:27-750	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:14:28-148	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-09 14:14:40-289	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-09 14:14:40-489	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:14:40-887	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-09 14:26:33-778	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 14:26:33-778	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:26:34-176	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-09 14:27:06-210	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 14:27:06-210	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:27:06-608	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-09 14:28:05-313	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-09 14:28:41-927	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 14:28:42-125	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:28:42-325	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-09 14:52:12-426	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 14:52:12-426	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:52:12-823	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-09 14:53:50-732	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-09 14:53:50-732	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-09 14:53:50-930	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-09 14:54:04-862	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-09 14:54:05-062	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[10]
+2018-04-10 09:05:55-836	-2	<AX-NB-46>SPS	3	ERROR: lost Restart Data - only COLDSTART possible !!
+2018-04-10 09:05:58-282	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 09:05:58-532	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 09:06:04-948	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 09:06:18-081	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 09:06:18-479	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 09:07:55-203	-2	<AX-NB-46>SPS	3	ERROR: lost Restart Data - only COLDSTART possible !!
+2018-04-10 09:08:00-164	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 09:08:00-414	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 09:08:07-826	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 09:08:38-674	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 09:10:20-562	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:10:25-538	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:11:23-049	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:11:23-049	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:13:16-881	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 09:14:01-655	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:14:01-855	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:14:26-332	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:14:26-530	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:14:45-634	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:14:45-634	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:14:52-201	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:14:52-401	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:15:21-852	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:15:22-052	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:16:33-095	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:16:33-295	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:17:27-025	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:17:27-223	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:17:58-267	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:17:58-467	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:18:14-585	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:18:14-585	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:18:37-273	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:18:37-471	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:19:04-138	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:19:04-138	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:19:42-744	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:19:42-944	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:20:26-923	-2	<AX-NB-46>EDT	3	Saving file:UpperPlant.tree
+2018-04-10 09:20:26-923	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 09:20:27-321	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 09:28:18-780	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 09:28:18-780	-2	<AX-NB-46>AXPV	3	terminated (display = local)[SRV]
+2018-04-10 09:28:44-857	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 09:31:38-398	-2	<AX-NB-46>AXSRV	3	Error: Can't start user process <pls>
+2018-04-10 09:31:38-398	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:34:58-394	-2	<AX-NB-46>AXSRV	3	Error: Can't start user process <pls>
+2018-04-10 09:34:58-394	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:38:18-388	-2	<AX-NB-46>AXSRV	3	Error: Can't start user process <pls>
+2018-04-10 09:38:18-388	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:41:38-384	-2	<AX-NB-46>AXSRV	3	Error: Can't start user process <pls>
+2018-04-10 09:41:38-384	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:45:29-994	-2	<AX-NB-46>SPS	3	ERROR: lost Restart Data - only COLDSTART possible !!
+2018-04-10 09:45:32-875	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 09:45:33-125	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 09:45:51-085	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:45:54-467	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 09:45:55-661	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:51:36-586	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 09:53:13-960	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:54:24-595	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 09:56:38-881	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 09:56:39-082	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 09:56:45-068	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 09:58:03-286	-2	<AX-NB-46>EDT	3	Saving file:axserver_sys.symbol
+2018-04-10 09:58:03-286	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 09:58:03-884	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 09:58:26-631	-2	<AX-NB-46>EDT	3	Saving file:axs_xlink.symbol
+2018-04-10 09:58:26-631	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 09:58:27-030	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-10 09:59:31-880	-2	<AX-NB-46>EDT	3	Saving file:axs_xlink.symbol
+2018-04-10 09:59:31-880	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 09:59:32-279	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-10 10:02:28-469	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 10:02:44-433	-2	<AX-NB-46>EDT	3	Saving file:axs_xlink.symbol
+2018-04-10 10:02:44-433	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:02:44-832	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-10 10:03:56-865	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 10:09:11-486	-2	<AX-NB-46>EDT	3	Saving file:axsystem.tree
+2018-04-10 10:09:11-486	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:09:11-884	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-10 10:09:20-463	-2	<AX-NB-46>AXPV	3	restart (display = local)[SRV]
+2018-04-10 10:09:20-663	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:09:32-834	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 10:09:51-986	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:09:57-970	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:10:31-286	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:14:10-138	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:14:37-069	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:14:45-848	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:14:58-217	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:15:16-770	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:15:16-770	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:15:17-170	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-10 10:16:52-131	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:16:52-131	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:16:52-529	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-10 10:18:58-211	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:19:29-931	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:19:29-931	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:19:30-331	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[10]
+2018-04-10 10:22:07-161	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:22:07-161	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:22:07-559	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[11]
+2018-04-10 10:24:48-588	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:24:48-588	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:24:53-177	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:24:53-177	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:24:53-576	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[12]
+2018-04-10 10:26:06-608	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:26:06-608	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:26:07-006	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[13]
+2018-04-10 10:26:52-900	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:26:52-900	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:26:53-299	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[14]
+2018-04-10 10:27:23-430	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:27:23-430	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:27:23-828	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[15]
+2018-04-10 10:27:48-769	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:27:48-769	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:27:49-170	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[16]
+2018-04-10 10:31:29-262	-2	<AX-NB-46>EDT	3	Saving file:PCTANK.symbol
+2018-04-10 10:31:29-262	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:31:29-460	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[17]
+2018-04-10 10:32:20-740	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:32:20-740	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:32:21-140	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[18]
+2018-04-10 10:32:54-259	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 10:33:24-190	-2	<AX-NB-46>EDT	3	Saving file:SystemAlarms.tree
+2018-04-10 10:33:24-190	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:33:24-588	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[19]
+2018-04-10 10:38:54-625	-2	<AX-NB-46>EDT	3	Saving file:MidPLogic.tree
+2018-04-10 10:38:54-625	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:38:55-025	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[20]
+2018-04-10 10:40:02-851	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:40:19-012	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:40:19-012	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:40:19-411	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[21]
+2018-04-10 10:40:42-352	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:41:17-861	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:43:03-994	-2	<AX-NB-46>EDT	3	Saving file:MidPLogic.tree
+2018-04-10 10:43:03-994	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:43:04-394	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[22]
+2018-04-10 10:43:22-148	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:43:22-148	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:43:22-548	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[23]
+2018-04-10 10:43:55-864	-2	<AX-NB-46>EDT	3	Saving file:MidPLogic.tree
+2018-04-10 10:43:55-864	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:43:56-063	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[24]
+2018-04-10 10:44:35-961	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:49:48-388	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:49:57-767	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 10:49:58-167	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[25]
+2018-04-10 10:50:18-119	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:50:35-878	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 10:50:35-878	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:50:36-278	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[26]
+2018-04-10 10:51:34-342	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 10:51:34-742	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[27]
+2018-04-10 10:52:48-967	-2	<AX-NB-46>EDT	3	Saving file:axs_xlink_pbm.symbol
+2018-04-10 10:52:48-967	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:52:49-368	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[28]
+2018-04-10 10:53:08-124	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 10:53:08-322	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[29]
+2018-04-10 10:53:38-053	-2	<AX-NB-46>EDT	3	Saving file:ModbusSerS.symbol
+2018-04-10 10:53:38-053	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:53:38-453	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[30]
+2018-04-10 10:53:48-628	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:53:49-028	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:53:52-220	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 10:53:56-010	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 10:53:56-410	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[31]
+2018-04-10 10:56:06-907	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:57:19-141	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 10:57:22-933	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 10:59:03-499	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 10:59:46-000	-2	<AX-NB-46>EDT	3	Saving file:MidPLogic.tree
+2018-04-10 10:59:46-000	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 10:59:46-400	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[32]
+2018-04-10 11:00:08-348	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.tree
+2018-04-10 11:00:08-348	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:00:08-747	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[33]
+2018-04-10 11:00:24-111	-2	<AX-NB-46>EDT	3	Saving file:Communications.tree
+2018-04-10 11:00:24-111	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:00:24-510	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[34]
+2018-04-10 11:00:40-073	-2	<AX-NB-46>EDT	3	Saving file:DockComms.tree
+2018-04-10 11:00:40-073	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:00:40-473	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[35]
+2018-04-10 11:03:30-279	-2	<AX-NB-46>EDT	3	Saving file:TDCComm.tree
+2018-04-10 11:03:30-479	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:03:30-878	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[36]
+2018-04-10 11:03:46-242	-2	<AX-NB-46>EDT	3	Saving file:EssoComm.tree
+2018-04-10 11:03:46-242	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:03:46-641	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[37]
+2018-04-10 11:04:01-605	-2	<AX-NB-46>EDT	3	Saving file:ShellComm.tree
+2018-04-10 11:04:01-605	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:04:02-003	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[38]
+2018-04-10 11:04:17-168	-2	<AX-NB-46>EDT	3	Saving file:PCanOmniComm.tree
+2018-04-10 11:04:17-168	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:04:17-568	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[39]
+2018-04-10 11:05:25-410	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 11:05:25-608	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:05:26-007	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[40]
+2018-04-10 11:05:48-555	-2	<AX-NB-46>EDT	3	Saving file:CommLayout.tree
+2018-04-10 11:05:48-555	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:05:48-953	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[41]
+2018-04-10 11:06:25-269	-2	<AX-NB-46>EDT	3	Saving file:LeakData.tree
+2018-04-10 11:06:25-269	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:06:25-668	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[42]
+2018-04-10 11:06:41-430	-2	<AX-NB-46>EDT	3	Saving file:GlobalPipeStat.tree
+2018-04-10 11:06:41-430	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:06:41-831	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[43]
+2018-04-10 11:06:57-992	-2	<AX-NB-46>EDT	3	Saving file:BatchTrack.tree
+2018-04-10 11:06:57-992	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:06:58-391	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[44]
+2018-04-10 11:07:33-509	-2	<AX-NB-46>EDT	3	Saving file:Esso.tree
+2018-04-10 11:07:33-509	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:07:33-907	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[45]
+2018-04-10 11:07:48-273	-2	<AX-NB-46>EDT	3	Saving file:PCanOmni.tree
+2018-04-10 11:07:48-473	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:07:48-871	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[46]
+2018-04-10 11:08:03-237	-2	<AX-NB-46>EDT	3	Saving file:PCan.tree
+2018-04-10 11:08:03-237	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:08:03-637	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[47]
+2018-04-10 11:08:24-588	-2	<AX-NB-46>EDT	3	Saving file:DockTags.tree
+2018-04-10 11:08:24-588	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:08:24-987	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[48]
+2018-04-10 11:08:40-750	-2	<AX-NB-46>EDT	3	Saving file:Shell.tree
+2018-04-10 11:08:40-750	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:08:41-148	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[49]
+2018-04-10 11:08:56-513	-2	<AX-NB-46>EDT	3	Saving file:SystemAlarms.tree
+2018-04-10 11:08:56-513	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:08:56-911	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[50]
+2018-04-10 11:13:37-655	-2	<AX-NB-46>EDT	3	Saving file:BatchTrackLogic.tree
+2018-04-10 11:13:37-655	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:13:38-055	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[51]
+2018-04-10 11:13:53-414	-2	<AX-NB-46>EDT	3	Saving file:EssoPipeline.tree
+2018-04-10 11:13:53-414	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:13:53-813	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[52]
+2018-04-10 11:14:12-167	-2	<AX-NB-46>EDT	3	Saving file:MidPLogic.tree
+2018-04-10 11:14:12-167	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:14:12-565	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[53]
+2018-04-10 11:14:38-299	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.tree
+2018-04-10 11:14:38-299	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:14:38-698	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[54]
+2018-04-10 11:15:06-826	-2	<AX-NB-46>EDT	3	Saving file:TicketProgram.tree
+2018-04-10 11:15:06-826	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:15:07-226	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[55]
+2018-04-10 11:15:44-530	-2	<AX-NB-46>EDT	3	Saving file:UpperPlant.tree
+2018-04-10 11:15:44-730	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:15:44-930	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[56]
+2018-04-10 11:15:59-292	-2	<AX-NB-46>EDT	3	Saving file:UpperPlant.tree
+2018-04-10 11:15:59-292	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:15:59-690	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[57]
+2018-04-10 11:16:55-151	-2	<AX-NB-46>EDT	3	Saving file:ImportPumps.tree
+2018-04-10 11:16:55-151	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:16:55-549	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[58]
+2018-04-10 11:17:10-312	-2	<AX-NB-46>EDT	3	Saving file:ImportPumps.tree
+2018-04-10 11:17:10-512	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:17:10-910	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[59]
+2018-04-10 11:17:45-621	-2	<AX-NB-46>EDT	3	Saving file:ImportPumps.tree
+2018-04-10 11:17:45-822	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:17:46-220	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[60]
+2018-04-10 11:18:09-760	-2	<AX-NB-46>EDT	3	Saving file:ImportPumps.tree
+2018-04-10 11:18:09-760	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:18:10-160	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[61]
+2018-04-10 11:18:56-243	-2	<AX-NB-46>EDT	3	Saving file:GasolinetoDocks.tree
+2018-04-10 11:18:56-441	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:18:56-841	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[62]
+2018-04-10 11:28:17-036	-2	<AX-NB-46>EDT	3	Saving file:DistiltoDocks.tree
+2018-04-10 11:28:17-236	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:28:17-634	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[63]
+2018-04-10 11:28:44-770	-2	<AX-NB-46>EDT	3	Saving file:DistiltoDocks.tree
+2018-04-10 11:28:44-970	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:28:45-170	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[64]
+2018-04-10 11:29:21-684	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-10 11:29:21-684	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:29:22-084	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[65]
+2018-04-10 11:29:39-243	-2	<AX-NB-46>EDT	3	Saving file:WestDock.tree
+2018-04-10 11:29:39-243	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:29:39-642	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[66]
+2018-04-10 11:30:19-948	-2	<AX-NB-46>EDT	3	Saving file:EastDock.tree
+2018-04-10 11:30:19-948	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:30:20-348	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[67]
+2018-04-10 11:31:17-213	-2	<AX-NB-46>EDT	3	Saving file:RailLoading.tree
+2018-04-10 11:31:17-213	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:31:17-612	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[68]
+2018-04-10 11:34:49-918	-2	<AX-NB-46>AXPV	3	terminated (display = local)[SRV]
+2018-04-10 11:34:49-918	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 11:34:49-918	-2	<AX-NB-46>AXPV	3	terminated (display = local)[SRV]
+2018-04-10 11:34:53-111	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 11:35:10-272	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 11:35:53-174	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 11:36:00-954	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 11:37:12-795	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-10 11:38:20-438	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 11:38:25-029	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 11:39:18-904	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 11:48:06-875	-2	<AX-NB-46>EDT	3	Saving file:PCanOmniComm.tree
+2018-04-10 11:48:06-875	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:48:07-275	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[69]
+2018-04-10 11:49:14-105	-2	<AX-NB-46>EDT	3	Saving file:PCanOmniComm.tree
+2018-04-10 11:49:14-105	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:49:14-305	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[70]
+2018-04-10 11:50:05-776	-2	<AX-NB-46>EDT	3	Saving file:PCanOmniComm.tree
+2018-04-10 11:50:05-776	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:50:06-174	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[71]
+2018-04-10 11:54:43-473	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 11:54:43-473	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:54:59-634	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 11:54:59-832	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:55:44-121	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 11:55:44-121	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 11:55:44-519	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[72]
+2018-04-10 13:01:59-849	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:01:59-849	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:02:00-249	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[73]
+2018-04-10 13:14:48-368	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:14:57-348	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:07-523	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:17-500	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:27-477	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:37-454	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:47-431	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:15:57-608	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:16:07-385	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:16:17-362	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:16:26-944	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:16:26-944	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:16:27-344	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[74]
+2018-04-10 13:16:27-542	-2	<AX-NB-46>AXSRV	3	User Processes [plserver] restart
+2018-04-10 13:23:21-786	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:23:21-786	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:23:22-184	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[75]
+2018-04-10 13:24:10-273	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:24:10-273	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:24:10-671	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[76]
+2018-04-10 13:24:54-569	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:24:54-569	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:24:54-969	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[77]
+2018-04-10 13:26:16-578	-2	<AX-NB-46>EDT	3	Saving file:LNJComm.tree
+2018-04-10 13:26:16-578	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:26:16-776	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[78]
+2018-04-10 13:48:31-226	-2	<AX-NB-46>EDT	3	Saving file:DistiltoDocks.tree
+2018-04-10 13:48:31-427	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:48:32-224	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[79]
+2018-04-10 13:48:38-809	-2	<AX-NB-46>AXSRV	3	User Processes [slowsps] restart
+2018-04-10 13:48:43-996	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 13:48:48-585	-2	<AX-NB-46>AXSRV	3	User Processes [slowsps] restart
+2018-04-10 13:48:58-562	-2	<AX-NB-46>AXSRV	3	User Processes [slowsps] restart
+2018-04-10 13:49:16-203	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 13:49:16-453	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 13:49:22-489	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 13:49:58-404	-2	<AX-NB-46>PLS	3	SPS_Warmstart
+2018-04-10 13:49:58-605	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 13:50:56-220	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 13:50:56-469	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 13:50:58-513	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 13:52:34-890	-2	<AX-NB-46>EDT	3	Saving file:Communications.tree
+2018-04-10 13:52:34-890	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 13:52:35-289	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 14:02:29-513	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 14:02:54-056	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 14:03:49-128	-2	<AX-NB-46>AXPV	3	started (display = )[SRV]
+2018-04-10 14:03:52-321	-2	<AX-NB-46>AXPV	3	closed (display = )[SRV]
+2018-04-10 14:03:59-703	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:04:12-072	-2	<AX-NB-46>AXPV	3	started (display = )[SRV]
+2018-04-10 14:04:14-865	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:04:25-437	-2	<AX-NB-46>AXPV	3	closed (display = )[SRV]
+2018-04-10 14:16:34-957	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 14:16:35-206	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 14:16:39-844	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 14:17:08-575	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 14:17:10-769	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:28:02-042	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 14:28:02-290	-2	<AX-NB-46>AXSRV	3	User Processes [axlogsrv] restart
+2018-04-10 14:28:02-539	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 14:28:06-180	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:28:39-696	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 14:28:42-888	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 14:29:07-631	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 14:29:22-996	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:31:16-532	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:31:16-733	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:31:17-131	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 14:32:05-819	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 14:34:26-025	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 14:34:26-025	-2	<AX-NB-46>AXSRV	3	User Processes [axlogsrv] restart
+2018-04-10 14:34:26-273	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 14:34:30-713	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 14:35:04-634	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 14:35:33-168	-2	<AX-NB-46>AXPV	3	terminated (display = local)[SRV]
+2018-04-10 14:35:33-168	-2	<AX-NB-46>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-10 14:35:41-349	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 14:37:00-566	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:37:00-566	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:37:00-966	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 14:37:26-107	-2	<AX-NB-46>AXPV	3	started (display = )[SRV]
+2018-04-10 14:37:28-102	-2	<AX-NB-46>AXPV	3	closed (display = )[SRV]
+2018-04-10 14:37:29-299	-2	<AX-NB-46>AXPV	3	started (display = )[SRV]
+2018-04-10 14:39:46-581	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:39:46-780	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:39:47-180	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-10 14:40:41-255	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:40:41-255	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:40:41-654	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-10 14:45:52-135	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:45:52-135	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:45:52-734	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-10 14:46:11-092	-2	<AX-NB-46>AXPV	3	closed (display = )[SRV]
+2018-04-10 14:46:23-862	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:46:23-862	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:46:24-262	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-10 14:46:37-032	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:46:37-032	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:46:37-430	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-10 14:47:04-568	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:47:04-766	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:47:05-167	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-10 14:48:29-770	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:48:29-770	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:48:30-369	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[10]
+2018-04-10 14:49:09-678	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:49:09-678	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:49:10-078	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[11]
+2018-04-10 14:49:43-200	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:49:43-200	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:49:43-598	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[12]
+2018-04-10 14:50:48-049	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:50:48-049	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:50:48-448	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[13]
+2018-04-10 14:51:30-154	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:51:30-154	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:51:30-555	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[14]
+2018-04-10 14:52:09-664	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:52:09-664	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:52:10-062	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[15]
+2018-04-10 14:52:24-828	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:52:24-828	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:52:25-227	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[16]
+2018-04-10 14:53:45-641	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:53:45-841	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:53:46-240	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[17]
+2018-04-10 14:56:19-085	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:56:19-283	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:56:19-683	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[18]
+2018-04-10 14:56:35-645	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:56:35-645	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:56:36-045	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[19]
+2018-04-10 14:56:58-391	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:56:58-391	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:56:58-790	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[20]
+2018-04-10 14:57:23-334	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:57:23-334	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:57:23-733	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[21]
+2018-04-10 14:58:42-549	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:58:42-549	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:58:42-948	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[22]
+2018-04-10 14:58:57-115	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:58:57-115	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:58:57-515	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[23]
+2018-04-10 14:59:09-686	-2	<AX-NB-46>EDT	3	Saving file:TruckRackSys.tree
+2018-04-10 14:59:09-686	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 14:59:10-085	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[24]
+2018-04-10 15:00:59-819	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 15:01:00-318	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 15:01:08-150	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-10 15:01:09-147	-2	<AX-NB-46>AXPV	3	started (display = local)[SRV]
+2018-04-10 15:01:19-921	-2	<AX-NB-46>AXPV	3	closed (display = local)[SRV]
+2018-04-10 15:05:04-802	-2	<AX-NB-46>AXSRV	3	User Processes [pls] restart
+2018-04-10 15:07:28-875	-2	<AX-NB-46>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-10 15:08:38-914	-2	<AX-NB-46>EDT	3	Saving file:axsystem.tree
+2018-04-10 15:08:38-914	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:08:39-312	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[3]
+2018-04-10 15:08:59-068	-2	<AX-NB-46>EDT	3	Saving file:axsystem.tree
+2018-04-10 15:08:59-068	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:08:59-467	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[4]
+2018-04-10 15:11:40-694	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:11:40-694	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:11:41-094	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[5]
+2018-04-10 15:12:27-176	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.tree
+2018-04-10 15:12:27-176	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:12:27-575	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[6]
+2018-04-10 15:13:02-480	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:13:02-480	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:13:02-878	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[7]
+2018-04-10 15:16:32-312	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:16:32-312	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:16:32-711	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[8]
+2018-04-10 15:17:00-036	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:17:00-036	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:17:00-436	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[9]
+2018-04-10 15:17:14-799	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:17:14-999	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:17:15-198	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[10]
+2018-04-10 15:19:44-624	-2	<AX-NB-46>EDT	3	Saving file:LeakPrint.symbol
+2018-04-10 15:19:44-624	-2	<AX-NB-46>EDT	3	SPS_Warmstart
+2018-04-10 15:19:45-023	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[11]
+2018-04-10 16:04:43-665	-2	<AX-NB-46>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-10 16:04:44-164	-2	<AX-NB-46>SPS	3	SPS warmstart made spsid=[2]
+2018-04-10 16:04:51-196	-2	<AX-NB-46>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-11 00:14:43-081	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-04-11 00:14:45-128	-2	<WCPBTMRA>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-11 00:14:45-378	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-11 00:14:49-487	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:14:54-769	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:15:01-473	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:15:21-989	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:15:26-052	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:15:32-957	-2	<WCPBTMRA>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-11 00:16:12-536	-2	<WCPBTMRA>FSRV	3	FSV started PID# 1036 as CLIENT on projects/pcannew/
+2018-04-11 00:16:12-551	-2	<WCPBTMRA>FSRV	3	Installed listen-socket 396 
+2018-04-11 00:16:36-441	-2	<WCPBTMRA>AXSRV	3	automationX started :: Startmode=Warmstart RD-Mode=SERVER
+2018-04-11 00:16:36-707	-2	<WCPBTMRA>ARB	3	START-->FAM: initialization finished
+2018-04-11 00:16:36-707	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-11 00:16:40-818	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:16:44-677	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:16:49-959	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:17:00-115	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:17:18-398	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:17:19-210	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:17:44-398	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:18:26-444	-2	<WCPBTMRA>ARB	3	FAMILAR: set to MASTER (STATUS DECISION)
+2018-04-11 00:18:27-460	-2	<WCPBTMRA>FSRV	3	FORCE_CHECK_IN_FAMILARIZATION
+2018-04-11 00:18:27-460	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2018-04-11 00:18:29-288	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2018-04-11 00:18:36-803	-2	<WCPBTMRA>ARB	3	FAM-->MAIN: timeout expired
+2018-04-11 00:18:38-023	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:18:38-428	-2	<WCPBTMRA>RDSRV	3	RdServer: connection to <WCPBTMRB> established
+2018-04-11 00:18:39-444	-2	<WCPBTMRA>RDSRV	3	Warning: RdServer lost connection to <WCPBTMRB>
+2018-04-11 00:18:39-444	-2	<WCPBTMRA>RDSRV	3	RdServer: connection to <WCPBTMRB> established
+2018-04-11 00:18:40-460	-2	<WCPBTMRA>RDSRV	3	Warning: RdServer lost connection to <WCPBTMRB>
+2018-04-11 00:18:40-460	-2	<WCPBTMRA>RDSRV	3	RdServer: connection to <WCPBTMRB> established
+2018-04-11 00:19:31-444	-2	<WCPBTMRA>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-11 00:19:38-759	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-11 00:20:17-351	-2	<WCPBTMRA>ARB	3	MAIN-->PREP_SB: preparing for vol. step back
+2018-04-11 00:20:17-961	-2	<WCPBTMRA>ARB	3	PREP_SB-->STANDBY: stepping back
+2018-04-11 00:20:19-180	-2	<WCPBTMRA>RDSRV	3	Warning: RdServer lost connection to <WCPBTMRB>
+2018-04-11 00:20:19-382	-2	<WCPBTMRA>RDSRV	3	RdServer: connection to <WCPBTMRB> established
+2018-04-11 00:20:19-993	-2	<WCPBTMRA>FSRV	3	TABLE_CHECK_START
+2018-04-11 00:20:20-601	-2	<WCPBTMRA>FSRV	3	TABLE_CHECK_END got
+2018-04-11 00:20:48-025	-2	<WCPBTMRA>ARB	3	WAIT-->STANDBY: TCP & MIO connection ok.
+2018-04-11 00:20:57-775	-2	<WCPBTMRA>ARB	3	STANDBY-->PREP_TO: preparing for taking over
+2018-04-11 00:20:58-384	-2	<WCPBTMRA>ARB	3	PREP_TO-->MAIN: taking over
+2018-04-11 00:20:59-401	-2	<WCPBTMRA>AXSRV	3	User Processes [rdserver] restart
+2018-04-11 00:20:59-604	-2	<WCPBTMRA>RDSRV	3	RdServer: connection to <WCPBTMRB> established
+2018-04-11 00:21:48-964	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 00:21:54-855	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 00:23:39-871	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-11 00:55:12-826	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-11 01:09:02-404	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:03-420	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:03-420	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:04-232	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:04-436	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:05-247	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:05-450	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:06-263	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:06-467	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:07-482	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:08-499	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:09-515	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:10-529	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:11-545	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axviewer.axprofile_fsvtmp to projects/pcannew/axviewer.axprofile
+2018-04-11 01:09:31-045	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axbuilder.axprofile_fsvtmp to projects/pcannew/axbuilder.axprofile
+2018-04-11 01:09:31-858	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axbuilder.axprofile_fsvtmp to projects/pcannew/axbuilder.axprofile
+2018-04-11 01:09:32-872	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axbuilder.axprofile_fsvtmp to projects/pcannew/axbuilder.axprofile
+2018-04-11 01:09:33-890	-2	<WCPBTMRA>FSRV	3	File successfully renamed projects/pcannew/axbuilder.axprofile_fsvtmp to projects/pcannew/axbuilder.axprofile
+2018-04-11 01:09:42-624	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-11 01:13:34-799	-2	<WCPBTMRA>EDT	3	Saving file:LeakPrint.symbol
+2018-04-11 01:13:34-799	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 01:13:35-408	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2018-04-11 01:13:35-408	-2	<WCPBTMRA>FSRV	3	Local client 2680 forces TableCheck
+2018-04-11 01:13:35-611	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2018-04-11 01:13:37-644	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2018-04-11 01:14:10-552	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 01:16:44-523	-2	<WCPBTMRA>EDT	3	Saving file:LeakPrint.symbol
+2018-04-11 01:16:44-523	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 01:16:44-927	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[4]
+2018-04-11 01:16:45-131	-2	<WCPBTMRA>FSRV	3	Local client 2680 forces TableCheck
+2018-04-11 01:16:45-335	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2018-04-11 01:16:45-944	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2018-04-11 01:17:48-101	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-11 01:19:36-979	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-11 01:19:40-430	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-11 01:19:45-104	-2	<WCPBTMRA>AXSRV	3	User Processes [pls] restart
+2018-04-11 01:19:59-525	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-11 01:21:17-934	-2	<WCPBTMRA>EDT	3	Saving file:LeakPrint.tree
+2018-04-11 01:21:17-934	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 01:21:18-542	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[5]
+2018-04-11 01:21:18-746	-2	<WCPBTMRA>FSRV	3	Local client 2872 forces TableCheck
+2018-04-11 01:21:18-947	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2018-04-11 01:21:19-762	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2018-04-11 01:22:11-154	-2	<WCPBTMRA>EDT	3	Saving file:WatchVariables.symbol
+2018-04-11 01:22:11-154	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:22:40-403	-2	<WCPBTMRA>EDT	3	Saving file:WatchVariables.symbol
+2018-04-11 01:22:40-403	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:25:43-828	-2	<WCPBTMRA>EDT	3	Saving file:Modbus_Slave.symbol
+2018-04-11 01:25:43-828	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:26:03-125	-2	<WCPBTMRA>EDT	3	Saving file:Burrard_PID.symbol
+2018-04-11 01:26:03-328	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:26:18-562	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-11 01:27:09-141	-2	<WCPBTMRA>EDT	3	Saving file:LeakMaster.symbol
+2018-04-11 01:27:09-141	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:27:25-188	-2	<WCPBTMRA>EDT	3	Saving file:LeakDetect.symbol
+2018-04-11 01:27:25-391	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:34:53-088	-2	<WCPBTMRA>EDT	3	Saving file:ABDF1_Master.symbol
+2018-04-11 01:34:53-088	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:35:31-276	-2	<WCPBTMRA>EDT	3	Saving file:DF1MIO_M.symbol
+2018-04-11 01:35:31-479	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:36:15-151	-2	<WCPBTMRA>EDT	3	Saving file:ABDF1_Client.symbol
+2018-04-11 01:36:15-355	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:36:34-042	-2	<WCPBTMRA>EDT	3	Saving file:DF1_Client.symbol
+2018-04-11 01:36:34-246	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:36:49-480	-2	<WCPBTMRA>EDT	3	Saving file:DF1_Client.symbol
+2018-04-11 01:36:49-480	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:39:12-279	-2	<WCPBTMRA>EDT	3	Saving file:ABDF1_Master.symbol
+2018-04-11 01:39:12-279	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:42:38-252	-2	<WCPBTMRA>EDT	3	Saving file:Modbus_Master.symbol
+2018-04-11 01:42:38-252	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:43:10-145	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 01:43:35-332	-2	<WCPBTMRA>EDT	3	Saving file:Modbus_Client.symbol
+2018-04-11 01:43:35-332	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:44:27-332	-2	<WCPBTMRA>EDT	3	Saving file:im153_2.symbol
+2018-04-11 01:44:27-536	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:44:55-770	-2	<WCPBTMRA>EDT	3	Saving file:ActivBus.symbol
+2018-04-11 01:44:55-973	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:45:13-240	-2	<WCPBTMRA>EDT	3	Saving file:empty_slot.symbol
+2018-04-11 01:45:13-443	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:45:25-834	-2	<WCPBTMRA>EDT	3	Saving file:modular_dpslave.symbol
+2018-04-11 01:45:26-036	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:45:40-459	-2	<WCPBTMRA>EDT	3	Saving file:modular_dpslave1.symbol
+2018-04-11 01:45:40-661	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:46:07-881	-2	<WCPBTMRA>EDT	3	Saving file:aX4401_pbc1.symbol
+2018-04-11 01:46:08-492	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:46:23-319	-2	<WCPBTMRA>EDT	3	Saving file:pbc_1.symbol
+2018-04-11 01:46:23-522	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:46:45-460	-2	<WCPBTMRA>EDT	3	Saving file:aX4401_mode_1_counter.symbol
+2018-04-11 01:46:45-663	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-11 01:46:56-835	-2	<WCPBTMRA>PLS	3	SPS_Warmstart
+2018-04-11 01:46:57-648	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[6]
+2018-04-11 01:46:58-053	-2	<WCPBTMRA>FSRV	3	Local client 2976 forces TableCheck
+2018-04-11 01:46:58-053	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2018-04-11 01:47:01-303	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2018-04-11 01:47:04-960	-2	<WCPBTMRA>MSRV	3	Confirmation for Restart-Instruction received from <WCPBTMRB>
+2018-04-11 01:47:56-351	-2	<WCPBTMRA>FSRV	3	ReadSocket:TCP_CONNECTION_BROKEN->close conn
+2018-04-11 01:48:00-822	-2	<WCPBTMRA>RDSRV	3	Warning: RdServer lost connection to <WCPBTMRB>
+2018-04-11 01:48:52-417	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 01:58:02-519	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-11 01:59:23-161	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-11 02:21:12-730	-2	<WCPBTMRA>EDT	3	Saving file:HPUMP.symbol
+2018-04-11 02:21:12-730	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:21:13-339	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[7]
+2018-04-11 02:26:22-095	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-11 02:30:17-522	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-11 02:37:09-872	-2	<WCPBTMRA>EDT	3	Saving file:axs_xlink_pbm.symbol
+2018-04-11 02:37:09-872	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:37:10-279	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[8]
+2018-04-11 02:38:12-641	-2	<WCPBTMRA>EDT	3	Saving file:axsystem.tree
+2018-04-11 02:38:12-641	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:38:13-046	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[9]
+2018-04-11 02:40:04-157	-2	<WCPBTMRA>EDT	3	Saving file:axs_xlink_pbm_main.symbol
+2018-04-11 02:40:04-157	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:40:04-563	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[10]
+2018-04-11 02:41:45-315	-2	<WCPBTMRA>EDT	3	Saving file:axsystem.tree
+2018-04-11 02:41:45-315	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:41:45-721	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[11]
+2018-04-11 02:41:56-285	-2	<WCPBTMRA>AXSRV	3	User Processes [pls] restart
+2018-04-11 02:42:50-520	-2	<WCPBTMRA>EDT	3	Saving file:axs_xlink.symbol
+2018-04-11 02:42:50-520	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:42:50-926	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[12]
+2018-04-11 02:43:24-645	-2	<WCPBTMRA>EDT	3	Saving file:axs_xlink.symbol
+2018-04-11 02:43:24-645	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:43:25-052	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[13]
+2018-04-11 02:43:58-365	-2	<WCPBTMRA>EDT	3	Saving file:axs_xlink.symbol
+2018-04-11 02:43:58-365	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-11 02:43:58-770	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[14]
+2018-04-11 03:12:32-161	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-11 03:54:46-792	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-11 04:37:01-447	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-11 05:19:15-273	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-11 06:01:29-505	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-12 00:43:25-849	-2	<WCPBTMRA>FSRV	3	FSV started PID# 2484 as CLIENT on projects/pcannew/
+2018-04-12 00:43:25-865	-2	<WCPBTMRA>FSRV	3	Installed listen-socket 396 
+2018-04-12 00:43:58-351	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-12 00:44:05-398	-2	<WCPBTMRA>AXSRV	3	automationX started :: Startmode=Warmstart RD-Mode=SERVER
+2018-04-12 00:44:05-648	-2	<WCPBTMRA>ARB	3	START-->FAM: initialization finished
+2018-04-12 00:44:06-163	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-04-12 00:44:07-961	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-04-12 00:44:09-756	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-04-12 00:44:12-805	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-12 00:44:17-336	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 00:44:20-180	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 00:44:20-992	-2	<WCPBTMRA>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-12 00:44:35-821	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 00:46:03-368	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 00:46:03-572	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 00:46:04-181	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2018-04-12 00:46:05-805	-2	<WCPBTMRA>ARB	3	FAM-->MAIN: timeout expired
+2018-04-12 00:48:26-168	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 00:48:41-809	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 00:49:19-388	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 00:49:19-592	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 00:49:19-996	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[4]
+2018-04-12 00:50:56-483	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 00:50:56-483	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 00:51:02-576	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 00:51:02-779	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 00:52:26-266	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 00:52:26-469	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 00:52:26-875	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[5]
+2018-04-12 00:55:15-677	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:03:30-904	-2	<WCPBTMRA>EDT	3	Saving file:var1d.symbol
+2018-04-12 01:03:31-513	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-12 01:03:53-247	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 01:03:53-450	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 01:03:54-872	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:04:23-716	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 01:04:23-920	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 01:05:19-170	-2	<WCPBTMRA>EDT	3	Saving file:var1d.symbol
+2018-04-12 01:05:19-170	-2	<WCPBTMRA>EDT	3	SPS_TestProject
+2018-04-12 01:05:26-888	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 01:05:26-888	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 01:05:27-296	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[6]
+2018-04-12 01:11:42-880	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 01:11:42-880	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 01:12:15-177	-2	<WCPBTMRA>PLS	3	X-IO Error (display = :0)[SRV]
+2018-04-12 01:13:13-617	-2	<WCPBTMRA>FSRV	3	FSV started PID# 1180 as CLIENT on projects/pcannew/
+2018-04-12 01:13:13-617	-2	<WCPBTMRA>FSRV	3	Installed listen-socket 396 
+2018-04-12 01:13:38-273	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-12 01:13:39-039	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-12 01:13:39-539	-2	<WCPBTMRA>AXSRV	3	automationX started :: Startmode=Warmstart RD-Mode=SERVER
+2018-04-12 01:13:39-789	-2	<WCPBTMRA>ARB	3	START-->FAM: initialization finished
+2018-04-12 01:13:39-789	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-12 01:13:43-694	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 01:13:43-898	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 01:13:45-118	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 01:13:46-539	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-12 01:14:00-759	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:14:53-368	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:14:56-009	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:15:13-072	-2	<WCPBTMRA>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-12 01:15:39-884	-2	<WCPBTMRA>ARB	3	FAM-->MAIN: timeout expired
+2018-04-12 01:16:38-183	-2	<WCPBTMRA>EDT	3	Saving file:Communications.tree
+2018-04-12 01:16:38-183	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-12 01:16:38-994	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2018-04-12 01:19:48-920	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:19:53-186	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-12 01:19:57-671	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:22:04-095	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:22:21-377	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:22:21-595	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:30:53-292	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:34:40-578	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:42:07-398	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-04-12 01:51:56-226	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-12 01:57:26-746	-2	<WCPBTMRA>AXSRV	3	User Processes [msgserver] restart
+2018-04-12 02:03:02-796	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.44 sec]
+2018-04-13 01:27:52-367	-2	<WCPBTMRA>FSRV	3	FSV started PID# 1796 as CLIENT on projects/pcannew/
+2018-04-13 01:27:52-384	-2	<WCPBTMRA>FSRV	3	Installed listen-socket 396 
+2018-04-13 01:28:18-414	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-13 01:28:18-915	-2	<WCPBTMRA>AXSRV	3	automationX started :: Startmode=Warmstart RD-Mode=SERVER
+2018-04-13 01:28:19-180	-2	<WCPBTMRA>ARB	3	START-->FAM: initialization finished
+2018-04-13 01:28:19-180	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-13 01:28:23-088	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:23-493	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:25-322	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:26-947	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:29-384	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:39-134	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:28:42-181	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:29:22-605	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:29:32-355	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:29:48-200	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:29:53-888	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:30:19-278	-2	<WCPBTMRA>ARB	3	FAM-->MAIN: timeout expired
+2018-04-13 01:37:26-461	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 01:38:34-104	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:26-476	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-04-13 04:20:27-742	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-04-13 04:20:28-257	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-04-13 04:20:38-368	-2	<WCPBTMRA>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-04-13 04:20:39-632	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-04-13 04:20:39-882	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-04-13 04:20:43-789	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:43-993	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:44-196	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:44-601	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:45-211	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:47-852	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:20:55-571	-2	<WCPBTMRA>AXSRV	3	User <h> logged in: access=0xFFFFFFFF
+2018-04-13 04:21:02-072	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:21:37-619	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:21:39-042	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:22:07-278	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:24:09-969	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-04-13 04:24:24-390	-2	<WCPBTMRA>EDT	3	Saving file:ShellComm.tree
+2018-04-13 04:24:24-390	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-13 04:24:25-811	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2018-04-13 04:24:46-328	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-13 04:24:48-967	-2	<WCPBTMRA>EDT	3	Saving file:PCanOmniComm.tree
+2018-04-13 04:24:48-967	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-04-13 04:24:49-983	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[4]
+2018-04-13 04:25:04-611	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-13 04:34:56-516	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-04-13 04:38:07-661	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-04-13 04:38:32-443	-2	<WCPBTMRA>PLS	3	SPS_Warmstart
+2018-04-13 04:38:32-849	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[5]
+2018-04-13 04:40:17-868	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-13 05:27:00-049	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-04-13 06:22:54-895	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[1.17 sec]

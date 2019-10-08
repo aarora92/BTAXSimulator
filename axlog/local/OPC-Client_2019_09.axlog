@@ -1,0 +1,397 @@
+2019-09-26 05:53:19-111	0	_	-	Client in standby status	admin	BTAXSA
+2019-09-26 05:53:24-326	0	_	-	No Instances Found	admin	BTAXSB
+2019-09-26 05:53:24-326	0	_	-	Client in running status	admin	BTAXSB
+2019-09-26 05:59:43-470	0	_	-	Client in standby status	admin	BTAXSB
+2019-09-26 05:59:48-441	0	_	-	No Instances Found	admin	BTAXSA
+2019-09-26 05:59:48-441	0	_	-	Client in running status	admin	BTAXSA
+2019-09-26 06:14:14-006	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:14:14-006	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:14:14-206	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:14:16-203	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-203	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-203	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-203	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-203	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-403	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-403	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-403	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-403	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:14:16-403	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:28-092	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:30-288	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:27:32-483	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:31:50-732	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:31:50-732	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:33:08-967	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : PI4001_IN_OPC 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : PI4002_IN_OPC 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : PI3080_IN_OPC 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	 Cann't get exec data : FI3081_IN_OPC 	admin	BTAXSA
+2019-09-26 06:34:25-200	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:34:25-398	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:35:46-624	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Cann't get exec data : VRU_TI202_PV_OPV 	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:37:41-970	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:45:27-542	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:45:27-542	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:45:27-542	0	_	-	 Cann't get exec data : VRU_TI202_PV_OPV 	admin	BTAXSA
+2019-09-26 06:45:57-477	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 06:45:57-477	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 06:45:58-674	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:45:58-674	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:45:58-674	0	_	-	 Cann't get exec data : VRU_TI202_PV_OPV 	admin	BTAXSA
+2019-09-26 06:46:28-809	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 06:46:28-809	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Cann't get exec data : VRU_TI202_PV_OPV 	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Cann't get exec data : ZSC3080_OPC 	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:46:30-007	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-128	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:47:07-128	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:47:07-128	0	_	-	 Cann't get exec data : ZSC3080_OPC 	admin	BTAXSA
+2019-09-26 06:47:07-128	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:47:07-328	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-602	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 06:52:46-602	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 06:52:46-602	0	_	-	 Cann't get exec data : ZSC3080_OPC 	admin	BTAXSA
+2019-09-26 06:52:46-602	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 06:52:46-802	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Cann't get exec data : ZSC3080_OPC 	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:00-256	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Cann't get exec data : ZSC3080_OPC 	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:00:02-450	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:52-683	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:02:52-683	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:02:54-878	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:07-923	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:04:07-923	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakServer1_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakHeartbeat1 : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LocalHeartbeat : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakServer2_alive : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakHeartbeat2 : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.RUNLG_LheedOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.RUNLG_ShellOK : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.IOLESDBYPIOL : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakServer1_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:04:10-118	0	_	-	 Unknown Item : Global.LeakServer2_inuse : error= 0x1	admin	BTAXSA
+2019-09-26 07:07:08-341	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-09-26 07:07:08-341	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-09-26 08:10:32-128	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : MidTags.PI3033.PV	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : Global.PI4040	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : Global.PI4153	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : Global.PI4158	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : MidTags.TI3081.PV	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : MidTags.TI3084A.PV	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : MidTags.PDI3088.PV	admin	BTAXSA
+2019-09-26 08:11:54-141	0	A123	-	Invalid Item : MidTags.VRU_TI102.PV	admin	BTAXSA
+2019-09-26 08:11:54-141	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSA
+2019-09-26 08:11:55-138	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSA
+2019-09-26 08:12:24-273	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:12:24-273	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:12:30-858	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:12:30-858	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:12:30-858	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:13:12-163	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:13:12-163	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:14:42-155	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:14:42-155	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:14:43-355	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:14:43-355	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:14:43-355	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:16:12-154	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:16:12-154	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:17:42-150	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:17:42-150	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:18:42-214	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:18:44-608	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.PI3034.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.PI3012.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.PI3031.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : Global.PI4030	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : Global.PI4018	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : Global.PI4051	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.TI3081.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.PDI3088.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	A123	-	Invalid Item : MidTags.TI3084B.PV	admin	BTAXSA
+2019-09-26 08:20:19-602	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSA
+2019-09-26 08:20:20-601	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSA
+2019-09-26 08:20:49-732	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:20:49-732	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:21:05-296	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:21:05-296	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:21:05-296	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:21:49-595	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:21:49-595	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:23:49-522	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:23:49-522	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:23:50-719	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:23:50-719	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:23:50-719	0	_	-	Can not add group in opc server	admin	BTAXSA
+2019-09-26 08:25:49-648	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-26 08:26:54-700	0	_	-	Client in standby status	admin	BTAXSA
+2019-09-26 08:27:01-723	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:27:02-721	0	_	-	Client in running status	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.PI3034.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.PI3012.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.PI3013.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.PI4041	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.PI4018	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.PI4153	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.PI4051	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : Global.FI4010	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.TI3081.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.TI3084A.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	A123	-	Invalid Item : MidTags.PDI3088.PV	admin	BTAXSB
+2019-09-26 08:27:34-694	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSB
+2019-09-26 08:27:35-693	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSB
+2019-09-26 08:28:05-480	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:28:05-480	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:28:25-076	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:28:25-875	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:28:26-673	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:29:04-664	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:29:04-664	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:30:34-670	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:30:34-670	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:32:04-660	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:32:04-660	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:33:34-842	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:33:34-842	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:33:40-237	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:33:41-036	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:33:41-836	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:35:04-842	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:35:04-842	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:35:10-042	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:35:11-043	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:35:11-844	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:36:34-855	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:36:34-855	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:36:40-058	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:36:41-056	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:36:41-855	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:38:04-875	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:38:04-875	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:38:10-069	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:38:11-069	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:38:11-868	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:39:34-880	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:39:34-880	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:39:40-078	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:39:41-079	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:39:41-880	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:41:04-891	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:41:04-891	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:41:10-098	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:41:11-095	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:41:11-897	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:42:34-901	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:42:34-901	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:42:40-292	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:42:41-094	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:42:41-894	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:44:04-891	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:44:04-891	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:44:10-289	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:44:11-088	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:44:11-890	0	_	-	Can not add group in opc server	admin	BTAXSB
+2019-09-26 08:45:07-292	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:45:37-298	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:45:37-298	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:45:54-292	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : MidTags.PI3034.PV	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : Global.PI4030	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : Global.PI4163	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : Global.PI4051	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : Global.FI4010	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : MidTags.TI3081.PV	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : MidTags.TI3084B.PV	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : LowTags.PI4286.PV	admin	BTAXSB
+2019-09-26 08:47:25-295	0	A123	-	Invalid Item : LowTags.PI4287.PV	admin	BTAXSB
+2019-09-26 08:47:25-295	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSB
+2019-09-26 08:47:26-292	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSB
+2019-09-26 08:47:56-086	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:47:56-086	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-09-26 08:48:11-688	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.PI3035.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.PI4098A.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.PI3033.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4021	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4030	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4018	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4050	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : Global.PI4051	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.TI3081.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.PDI3088.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	A123	-	Invalid Item : MidTags.TI3084B.PV	admin	BTAXSB
+2019-09-26 08:48:36-881	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSB
+2019-09-26 08:48:37-878	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSB
+2019-09-26 08:48:51-075	0	_	-	Client in standby status	admin	BTAXSB
+2019-09-26 08:50:06-506	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-09-26 08:50:17-680	0	_	-	Client in standby status	admin	BTAXSB
+2019-09-26 08:50:36-667	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-09-26 08:50:36-667	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-09-26 08:50:36-667	0	_	-	Client in running status	admin	BTAXSA
+2019-09-26 08:50:37-864	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-27 11:38:27-796	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-27 11:41:37-191	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-27 11:42:51-553	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-09-27 11:43:50-680	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA

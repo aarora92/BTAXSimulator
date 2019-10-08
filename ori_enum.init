@@ -1,0 +1,83 @@
+DataFormat:	VZ15Bit=0, 	// S7-Format; ET200M
+		VZ12Bit=1, 	// S5-Format ( bit0..Ü  /  bit1..F /  bit2..X);  MURR Input
+		VZ11Bit=2, 	// S5-Analog Module; MURR Output
+		VZ8Bit=3, 
+		NVZ8Bit=4, 
+		VZ7Bit=5,
+		NVZ16Bit=6,	// Lenzing all 16Bits
+		NVZ16BitLE=7; // Lenzing all 16Bits; Little endean
+
+Baudrate:Bd_12M=9,Bd_6M=8,Bd_3M=7,Bd_1M5=6,aX_1M5=5,Bd_500K=4,Bd_187K5=3,Bd_93K7=2,Bd_19K2=1,Bd_9K6=0;
+
+Master_Con:	automationX_ISA{ 
+			ISA1_MIO_0=0,
+	 		ISA1_MIO_1=1,
+			ISA1_MIO_2=2,
+			ISA1_MIO_3=3,
+			ISA1_MIO_4=4,
+			ISA1_MIO_5=5},
+		automationX_PCI{
+			PCI1_PB_0/SER=50,
+	 		PCI1_PB_1=51,
+			PCI2_PB_0/SER=52,
+		 	PCI2_PB_1=53,
+			PCI3_PB_0/SER=54,
+		 	PCI3_PB_1=55,
+			PCI4_PB_0/SER=60,
+		 	PCI4_PB_1=61,
+			PCI5_PB_0/SER=62,
+		 	PCI5_PB_1=63,
+			PCI6_PB_0/SER=64,
+		 	PCI6_PB_1=65},
+		Softing{
+			PROFIBoard0=20,
+			PROFIBoard1=21,
+			PROFIBoard2=22,
+			PROFIBoard3=23},
+		Siemens{
+			IE_ISO_CP1=30,
+			IE_ISO_CP2=31,
+			IE_ISO_CP3=32,
+			IE_ISO_CP4=33},
+		Hilscher{
+			CIF_PB_1=40,
+			CIF_PB_2=41,
+			CIF_PB_3=42,
+			CIF_PB_4=43};
+
+Module_Selection:
+		not_valid= -1,
+		ET200U_Profibus=0,
+		RS485=1,
+		SER_PCI=3,
+		RS232=4,
+		RS485=5,
+		RS422=6,
+		WRAP=8,
+		Dig_Input=12,
+		Dig_Output=13,
+		IEEE488=14,
+		Profibus_1M5=19,
+		Redundancy=16,
+		Profibus=17,
+		W_Plexer =18;
+
+MIO_Card_Selection:	ISA_1 = 0,
+			PCI_1 = 2,
+			PCI_2 = 3,
+			PCI_3 = 4,
+			PCI_4 = 5,
+			PCI_5 = 6,
+			PCI_6 = 7;
+
+LiveList:		no=0,
+		DEVICE_Used=1,
+		DEVICE_OK=2,
+		MASTER_Used=3,
+		MASTER_OK=4;
+
+
+SwitchColor:Blue,Green,Red,Yellow;
+State:links,rechts;
+Alarmtype:keiner,X_gleich_W,X_ungleich_W,X_groesser_W,X_kleiner_W;
+Input:High,Low;

@@ -1,0 +1,50 @@
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+SpsSearch.Label: Name	Name
+SpsSearch.Label: Prog	Prog
+SpsSearch.Label: Page	Page
+SpsSearch.Label: Type	Type
+SpsSearch.Label: Used As	Used As
+SpsSearch.Label: Remark	Remark
+InstanceExplorer.Label: Nr	Nr
+InstanceExplorer.Label: Name	Name
+InstanceExplorer.Label: Type	Type
+InstanceExplorer.Label: Dec 	Dec.
+InstanceExplorer.Label: Init  Value	Init. Value
+InstanceExplorer.Label: Remark	Remark
+InstanceExplorer.Label: Reference	Reference
+InstanceExplorer.Label: Range	Range
+InstanceExplorer.Label: Min	Min
+InstanceExplorer.Label: Max	Max
+InstanceExplorer.Label: Dim	Dim
+InstanceExplorer.Label:  	.
+InstanceExplorer.Label: Trend	Trend
+InstanceExplorer.Label: Reten	Reten
+InstanceExplorer.Label: Const	Const
+InstanceExplorer.Label: Priv	Priv
+InstanceExplorer.Label: Local	Local
+InstanceExplorer.Label: Param	Param
+InstanceExplorer.Label: Maint	Maint
+InstanceExplorer.Label: OnlIn	OnlIn
+InstanceExplorer.Label: Nc	Nc
+InstanceExplorer.Label: Inv	Inv
+InstanceExplorer.Label: A-Prio	A-Prio
+InstanceExplorer.Label: A-Lock	A-Lock
+InstanceExplorer.Label: A-Beep	A-Beep
+InstanceExplorer.Label: A-Jour	A-Jour
+InstanceExplorer.Label: A-AckN	A-AckN
+InstanceExplorer.Label: A-AltPos	A-AltPos
+InstanceExplorer.Label: A-Text	A-Text
+InstanceExplorer.Label: IO-Min	IO-Min
+InstanceExplorer.Label: IO-Max	IO-Max
+InstanceExplorer.Label: Phys-Min	Phys-Min
+InstanceExplorer.Label: Phys-Max	Phys-Max
+Modification History.Label: Version	Version
+Modification History.Label: Major/Minor	Major/Minor
+Modification History.Label: Date	Date
+Modification History.Label: Name	Name
+Modification History.Label: Comment	Comment
+Modification History.Label: Host	Host

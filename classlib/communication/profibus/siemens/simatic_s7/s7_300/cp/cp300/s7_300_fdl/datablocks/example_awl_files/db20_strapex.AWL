@@ -1,0 +1,76 @@
+DATA_BLOCK "zrDB20"
+TITLE =Daten von der SPS zum Zellenrechener 1
+VERSION : 0.1
+
+
+  STRUCT 	
+   AutoAngew : BOOL ;	
+   AutoLaeuft : BOOL ;	
+   EinzelLaeuft : BOOL ;	
+   TipLaeuft : BOOL ;	
+   ZellEin : BOOL ;	
+   Stoerung : BOOL ;	
+   PalVoll : BOOL ;	
+   Res : BOOL ;	
+   BarReadPos1 : BOOL ;	
+   BarReadPos2 : BOOL ;	
+   AbholBel : BOOL ;	
+   Pos2Bel : BOOL ;	
+   HoeheLese : BOOL ;	
+   BarRes5 : BOOL ;	
+   BarRes6 : BOOL ;	
+   BarRes7 : BOOL ;	
+   HoeheRes0 : BOOL ;	
+   HoeheinfoPos1 : BOOL ;	
+   StauWarnung : BOOL ;	//StauWarnung
+   ResAllg : STRUCT 	
+    ResA1 : BYTE ;	
+    ResA2 : BYTE ;	
+    resA3 : BYTE ;	
+    ResrA4 : BYTE ;	
+    ResA5 : BYTE ;	
+    ResA6 : BYTE ;	
+   END_STRUCT ;	
+   Gut : DWORD ;	
+   Schlecht : DWORD ;	
+   CodeInfos : STRUCT 	
+    PosVorUr : DWORD ;	
+    Ur : DWORD ;	
+    ZwPuffer : DWORD ;	
+    Wickler : DWORD ;	
+   END_STRUCT ;	
+  END_STRUCT ;	
+BEGIN
+   AutoAngew := FALSE; 
+   AutoLaeuft := FALSE; 
+   EinzelLaeuft := FALSE; 
+   TipLaeuft := FALSE; 
+   ZellEin := FALSE; 
+   Stoerung := FALSE; 
+   PalVoll := FALSE; 
+   Res := FALSE; 
+   BarReadPos1 := FALSE; 
+   BarReadPos2 := FALSE; 
+   AbholBel := FALSE; 
+   Pos2Bel := FALSE; 
+   HoeheLese := FALSE; 
+   BarRes5 := FALSE; 
+   BarRes6 := FALSE; 
+   BarRes7 := FALSE; 
+   HoeheRes0 := FALSE; 
+   HoeheinfoPos1 := FALSE; 
+   StauWarnung := FALSE; 
+   ResAllg.ResA1 := B#16#0; 
+   ResAllg.ResA2 := B#16#0; 
+   ResAllg.resA3 := B#16#0; 
+   ResAllg.ResrA4 := B#16#0; 
+   ResAllg.ResA5 := B#16#0; 
+   ResAllg.ResA6 := B#16#0; 
+   Gut := DW#16#0; 
+   Schlecht := DW#16#0; 
+   CodeInfos.PosVorUr := DW#16#0; 
+   CodeInfos.Ur := DW#16#0; 
+   CodeInfos.ZwPuffer := DW#16#0; 
+   CodeInfos.Wickler := DW#16#0; 
+END_DATA_BLOCK
+

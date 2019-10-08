@@ -1,0 +1,6 @@
+CIF50PB [Text Normal]	 CIF 50 PB 
+CIF50PB [Text Activ]	Text
+ActiveDevices [Text Normal]	Active Devices
+ActiveDevices [Text Activ]	Text
+Text [Text Normal]	This is a HILSCHER profibus pci card. The state led \displays the actual card state.\\To get detailed information about the profibus channel,\click on the field below.\\
+Text [Text Activ]	Text

@@ -1,0 +1,368 @@
+#This is an automatically generated menu file for all elements
+#The syntax is:
+# #comment line  		-- comment line begins with #
+# [library_name] pixmap_file	-- description of library
+# element_name;button_name 		-- function name to search
+# DUMMY         		-- empty tab in table
+#
+# New library:
+[Administrative Elements] mini-paint.xpm
+_PopupPane;DialogShell;PopupDef.bmp
+#
+# New library:
+[Draw Primitives] mini-paint.xpm
+_Text;Text;Text.bmp
+_Line;Line;Line.bmp
+_Arc;Arc;Arc.bmp
+_Rectangle;Rectangle;Rectangle.bmp
+_Value;Value;Value.bmp
+_VerticalBar;Bar;VerticalBar.bmp
+#
+# New library:
+[Control Elements] mini-paint.xpm
+_EditValue;ControlValue;EditValue.bmp
+_VerticalSlider;ControlBar;VerticalSlider.bmp
+_Button;Button;ButtonSymb.bmp
+#
+# New library:
+[Automation Classes] mini-paint.xpm
+_Pipe;Pipe;Pipe.bmp
+--------------------------
+#
+# New library:
+[Function Block Core Classes] basic_func.xpm
+_C;Connection;QmConnectionLineClass.xpm
+_G;InputVariable
+_S;OutputVariable
+_GenericFB;DerivedFB
+#
+# New library:
+[BASICS + FUNCTIONS] basic_func.xpm
+AND;AND
+OR;OR
+XOR;XOR
+ASSIGN;Assign
+FUNCTION;Math Funct
+FloatRunden;Round Off
+:classlib/Data/real_data/real_data.symbol;real_data
+:classlib/Data/bool_data/bool_data.symbol;bool_data
+:classlib/Data/int_data/int_data.symbol;int_data
+:classlib/Data/uint_data/uint_data.symbol;uint_data
+:classlib/Data/longreal_data/longreal_data.symbol;longreal_data
+:classlib/Burrard/Burrard_PID/Burrard_PID.symbol;Burrard_PID
+:classlib/Burrard/Valves/23cv/BTCValve.symbol;BTCValve
+#
+# New library:
+[BIT STREAM FUNCTIONS] basic_func.xpm
+SHL;ShiftLeft
+SHR;ShiftRight
+ROL;RotateLeft
+ROR;RotateRight
+#
+# New library:
+[COMPARISON] sel_comp.xpm
+MiniCompare;= ?
+COMP;Comp
+W_COMP;F-Comp
+RealToUInt;RealToUInt
+UIntToReal;UIntToReal
+GT;GT
+GE;GE
+EQ;EQ
+LE;LE
+LT;LT
+NE;NE
+#
+# New library:
+[SELECTION] sel_comp.xpm
+MUX;MUX
+DEMUX;DEMUX
+MIN;MIN
+MAX;MAX
+Limit;Limit
+BitsToDW;BitsToDW
+DWToBits;DWToBits
+#
+# New library:
+[TIMERS] basic_timer.xpm
+FGEN;Frequency Gen
+MonoFlop;MonoFlop
+MonoFlop_RT;RT MonoFlop
+ONDELAY;ON-DELAY
+OFFDELAY;OFF-DELAY
+ATIME;Current Time
+ADATE;Current Date
+TIMECOMP;Time Comp
+AIMPULS;AIMPULS
+Average;Average
+RollingAverage;Roll Average
+OFFD;OFFD 0.5
+OND;OND 0.5
+OFFD15;OFFD15 15.0
+Time_timet;time t
+ATIME2000;Actual Time (Y2K)
+#
+# New library:
+[IEC TIMERS] basic_timer.xpm
+PulseT;TimedPulse
+OnDelayIEC;OnDelayIEC
+OffDelayIEC;OffDelayIEC
+#
+# New library:
+[EDGEDETECTION] bist_element.xpm
+SET;S
+RESET;R
+DATA;DATA
+S_DATA;S_DATA
+PULSE;P
+RiseEdge;RE
+FallEdge;FE
+#
+# New library:
+[FLIP FLOPS] bist_element.xpm
+RS;RS-FF
+SRFF;SR-FF
+DFF;D-FF
+JK;JK-FF
+JK_MS;JK-MS
+PID;PID
+#
+# New library:
+[Counter Functions] basic_func.xpm
+UP_COUNTER;Up Count
+DOWN_COUNTER;Down Count
+UD_COUNTER;UD Count
+COUNTER;COUNTER
+#
+# New library:
+[String Functions] basic_func.xpm
+StringLength;Str Len
+LeftChars;LeftChars
+RightChars;RightChars
+CentChars;CentChars
+ConcatStr;ConcatStr
+InsChars;InsChars
+DelChars;DelChars
+RepChars;RepChars
+FindChars;FindChars
+SPRINT;SPRINTF
+FormTime;FormTime
+Data_w;Data_w
+--------------------------
+#
+# New library:
+[PCan] control.xpm
+:classlib/Burrard/MOVs/MOVFOAM.symbol;MOVFOAM
+:classlib/Burrard/MOVs/MOV23ZS.symbol;MOV23ZS
+:classlib/Burrard/Valves/23bv/BVLV23.symbol;BVLV23
+:classlib/Burrard/Valves/23hv/HV23ZS.symbol;HV23ZS
+:classlib/Burrard/Valves/23dockhv/DockHV23.symbol;DockHV23
+:classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol;DHV23Cst
+:classlib/Burrard/Valves/23vent/VENT23ZS.symbol;VENT23ZS
+:classlib/Burrard/Valves/23pidcv/BTCV23pid.symbol;BTCV23pid
+:classlib/Burrard/AirSystem/AirSolVlv.symbol;AirSolVlv
+:classlib/Burrard/Pumps/23hpmps/HPUMP.symbol;HPUMP
+:classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol;HPMP23ZS
+:classlib/Burrard/Pumps/23vpmps/VPUMP.symbol;VPUMP
+:classlib/Burrard/Pumps/Injpmp/IPUMP.symbol;IPUMP
+:classlib/Burrard/Mixer/MIXER.symbol;MIXER
+:classlib/Burrard/Tanks/PCTANK.symbol;PCTANK
+:classlib/Burrard/Alarms/AlarmOFF.symbol;AlarmOFF
+:classlib/Burrard/Alarms/AlarmON.symbol;AlarmON
+:classlib/Burrard/Misc/MeterBox.symbol;MeterBox
+:classlib/Burrard/LeakDetect/LeakMaster.symbol;LeakMaster
+:classlib/Burrard/LeakDetect/LeakDetect.symbol;LeakDetect
+:classlib/Burrard/LeakDetect/LeakPrint.symbol;LeakPrint
+:classlib/Burrard/LeakDetect/PrintTicket.symbol;PrintTicket
+:classlib/Burrard/Misc/DisplayDate.symbol;DisplayDate
+:classlib/Burrard/Misc/DisplayTime.symbol;DisplayTime
+:classlib/Burrard/Alarms/DockONAlrm.symbol;DockONAlrm
+:classlib/Burrard/Alarms/DockOFFAlrm.symbol;DockOFFAlrm
+:classlib/Burrard/MOVs/MOV.symbol;MOV
+:classlib/Burrard/Valves/23bv/BV23PROD.symbol;BV23PROD
+:classlib/Burrard/Misc/PCDelugeStart.symbol;PCDelugeStart
+:classlib/Burrard/Misc/EStopButton.symbol;EStopButton
+:classlib/Burrard/MOVs/MOV_new/MOV_new.symbol;MOV_new
+:classlib/Burrard/Pumps/23hpmps/hpump_new/hpump_new.symbol;hpump_new
+:classlib/Burrard/MOVs/MOVSTEP.symbol;MOVSTEP
+:classlib/Burrard/Misc/ValWithAlrm.symbol;ValWithAlrm
+:classlib/FlashingAlarm.symbol;FlashingAlarm1
+:classlib/Burrard/Misc/LowWaterPress.symbol;LowWaterPress
+:classlib/Burrard/MOVs/MOVRAIL.symbol;MOVRAIL
+:classlib/Burrard/Misc/RailStation.symbol;RailStation
+:classlib/Burrard/LeakDetect/TicketPCT.symbol;TicketPCT
+:classlib/Burrard/Valves/23bv/BVControl.symbol;BVControl
+:classlib/Burrard/Misc/IndAnalog.symbol;IndAnalog
+:classlib/Burrard/Misc/Totalizer.symbol;Totalizer
+:classlib/Burrard/Pumps/23hpmps/HPUMP2.symbol;HPUMP2
+:classlib/Burrard/Pumps/23hpmps/HPUMPStop.symbol;HPUMPStop
+:classlib/Burrard/Misc/IndAnalogH.symbol;IndAnalogH
+:classlib/Burrard/Alarms/AlarmInd.symbol;AlarmInd
+:classlib/Burrard/Pumps/23vpmps/VPUMP2.symbol;VPUMP2
+:classlib/Burrard/Alarms/AlarmProfibusSST.symbol;AlarmProfibusSST
+:classlib/Burrard/Alarms/AlarmProfibusAB.symbol;AlarmProfibusAB
+:classlib/Burrard/Alarms/AlarmProfibusPBC1.symbol;AlarmProfibusPBC1
+:classlib/Burrard/Alarms/AlarmProfibus4401.symbol;AlarmProfibus4401
+:classlib/Burrard/Misc/BatchTracker.symbol;BatchTracker
+#
+# New library:
+[PCanStatic] 
+:classlib/Burrard/Valves/23hv/PC23HvStat.symbol;PC23HvStat
+:classlib/Burrard/Valves/23bv/BVLV23STAT.symbol;BVLV23STAT
+:classlib/Burrard/AirSystem/AirFilter.symbol;AirFilter
+:classlib/Burrard/AirSystem/AirDrier.symbol;AirDrier
+:classlib/Burrard/AirSystem/AirComp.symbol;AirComp
+:classlib/Burrard/Misc/PCStar.symbol;PCStar
+:classlib/Burrard/Misc/PCHand.symbol;PCHand
+:classlib/Burrard/Misc/PCKey.symbol;PCKey
+:classlib/Burrard/Misc/PCTemp.symbol;PCTemp
+:classlib/Burrard/Misc/PwrOn.symbol;PwrOn
+:classlib/Burrard/Misc/PwrOff.symbol;PwrOff
+:classlib/Burrard/StaticPictures/PCVerTk.symbol;PCVerTk
+:classlib/Burrard/StaticPictures/PCHorTk.symbol;PCHorTk
+:classlib/Burrard/StaticPictures/PCArrow.symbol;PCArrow
+:classlib/Burrard/StaticPictures/PCMeter.symbol;PCMeter
+:classlib/Burrard/StaticPictures/PCTrkSp.symbol;PCTrkSp
+:classlib/Burrard/StaticPictures/HandleGold.symbol;HandleGold
+:classlib/HandleYellow.symbol;HndlYllw
+:classlib/Burrard/MOVs/PC23MOVMag.symbol;PC23MOVMag
+:classlib/Indicator.symbol;Indicator
+:classlib/Burrard/StaticPictures/HandleWhite.symbol;HandleWhite
+:classlib/Burrard/StaticPictures/PCDownArrow.symbol;PCDownArrow
+:classlib/Burrard/StaticPictures/HandlePink.symbol;HandlePink
+:classlib/Burrard/StaticPictures/HandleGreen.symbol;HandleGreen
+:classlib/Burrard/StaticPictures/HandlePurple.symbol;HandlePurple
+#
+# New library:
+[Communications] system.xpm
+:classlib/modbus/modbus_rtu/com/ModbusSerS.symbol;ModbusSerS
+:classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol;ModbusMioS
+:classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol;ModbusMioM
+:classlib/modbus/modbus_rtu/client/ModbusCL.symbol;ModbusCL
+:classlib/serial/DF1/DF1_Master/ABDF1_Master.symbol;ABDF1_Master
+:classlib/serial/DF1/DF1_Master/DF1MIO_M.symbol;DF1MIO_M
+:classlib/serial/DF1/DF1_Task/ABDF1_Client.symbol;ABDF1_Client
+:classlib/serial/DF1/DF1_Task/DF1_Client.symbol;DF1_Client
+:classlib/Communications/tcpserver/TCP_RW.symbol;TCP_RW
+:classlib/Communications/TCP_data/TCP_ByteExchange.symbol;TCP_ByteExchange
+#
+# New library:
+[MIO Devices] 
+:classlib/profibus/M&R/MIO_Cards/Master.symbol;Profi Master
+:classlib/ISA_Cards/M&R/MIOIsa.symbol;ISA Board
+:classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol;ab_slc500_slave
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IA8/ab_slc_ia8.symbol;SLC500 IA8
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/OX8/ab_slc_ox8.symbol;SLC500 OX8
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IB8/ab_slc_ib8.symbol;SLC500 IB8
+:classlib/profibus/AB/AB_SLC500/AnalogDevices/NO4I/ab_slc_no4i.symbol;ab_slc_no4i
+:classlib/profibus/AB/AB_SLC500/AnalogDevices/NI4/ab_slc_ni4.symbol;ab_slc_ni4
+:classlib/profibus/AB/AB_SLC500/EmptySlot/ab_slc_empty.symbol;ab_slc_empty
+:classlib/profibus/M&R/Counter/pbc1.symbol;pbc1
+:classlib/Communications/MuR/MIO_Cards/rs232_master.symbol;RS232 Master
+:classlib/RS232/ABDF1/ABDF1_Master.symbol;ABDF1_Master
+:classlib/RS232/ABDF1/ABDF1_Client.symbol;ABDF1_Client
+:classlib/RS232/Modbus/Modbus_Master.symbol;Modbus_Master
+:classlib/RS232/Modbus/Modbus_Client.symbol;Modbus_Client
+:classlib/RS232/Modbus/Modbus_Slave.symbol;Modbus_Slave
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/ia16/ab_slc_ia16.symbol;ab_slc_ia16
+:classlib/profibus/aX/aX4401_pbc1/aX4401_pbc1.symbol;aX4401_pbc1
+:classlib/profibus/aX/pbc1/pbc_1.symbol;pbc_1
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_pbconverter1.symbol;aX4401_pbconverter1
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_module/aX4401_mode_1_counter/aX4401_mode_1_counter.symbol;aX4401_mode_1_counter
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_module/aX4401_mode_0_counter/aX4401_mode_0_counter.symbol;aX4401_mode_0_counter
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IA8/ab_slc_ia8_sst.symbol;ab_slc_ia8_sst
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/ia16/ab_slc_ia16_sst.symbol;ab_slc_ia16_sst
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/OX8/ab_slc_ox8_sst.symbol;ab_slc_ox8_sst
+:classlib/profibus/AB/AB_SLC500/SLAVE/sst_pfb_slc_adp.symbol;sst_pfb_slc_adp
+#
+# New library:
+[Administrative] 
+:classlib/systemax/axserver/axserver_sys/axserver_sys.symbol;axserver_sys
+:classlib/systemax/axserver/axserver_plc/axserver_plc.symbol;axserver_plc
+:classlib/systemax/axserver/axserver_arb/axserver_arb.symbol;axserver_arb
+:classlib/systemax/axserver/axs_mio/axs_mio.symbol;axs_mio
+:classlib/WatchVariables/WatchVariables.symbol;WatchVariables
+:classlib/systemax/axvarious/axplaysound/ax_playalarmsound.symbol;ax_playalarmsound
+#
+# New library:
+[PcanJason] 
+:classlib/Burrard/AirSystem/AirSolVlv.symbol;AirSolVlv
+:classlib/Burrard/AirSystem/AirComp.symbol;AirComp
+:classlib/Burrard/AirSystem/AirDrier.symbol;AirDrier
+:classlib/Burrard/AirSystem/AirFilter.symbol;AirFilter
+:classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol;AlarmBoxAutoMan
+:classlib/Burrard/Alarms/AlarmBoxOff.symbol;AlarmBoxOff
+:classlib/Burrard/Alarms/AlarmBoxOn.symbol;AlarmBoxOn
+:classlib/Burrard/Alarms/AlarmFire.symbol;AlarmFire
+:classlib/Burrard/Alarms/AlarmOFF.symbol;AlarmOFF
+:classlib/Burrard/Alarms/AlarmON.symbol;AlarmON
+:classlib/Burrard/Alarms/AlarmText.symbol;AlarmText
+:classlib/Burrard/Alarms/DockAlrm.symbol;DockAlrm
+:classlib/Burrard/Alarms/DockOFFAlrm.symbol;DockOFFAlrm
+:classlib/Burrard/Alarms/DockONAlrm.symbol;DockONAlrm
+:classlib/Burrard/Burrard_PID/Burrard_PID.symbol;Burrard_PID
+:classlib/Burrard/LeakDetect/LeakDetect.symbol;LeakDetect
+:classlib/Burrard/LeakDetect/LeakMaster.symbol;LeakMaster
+:classlib/Burrard/LeakDetect/LeakPrint.symbol;LeakPrint
+:classlib/Burrard/LeakDetect/PrintTicket.symbol;PrintTicket
+:classlib/Burrard/MOVs/HPUMPtemp.symbol;HPUMPtemp
+:classlib/Burrard/MOVs/MOV.symbol;MOV
+:classlib/Burrard/MOVs/MOV23ZS.symbol;MOV23ZS
+:classlib/Burrard/MOVs/MOVFOAM.symbol;MOVFOAM
+:classlib/Burrard/MOVs/MOVFULL.symbol;MOVFULL
+:classlib/Burrard/MOVs/MOVSTEP.symbol;MOVSTEP
+:classlib/Burrard/MOVs/MOV_NoCtrl.symbol;MOV_NoCtrl
+:classlib/Burrard/MOVs/PC23MOVMag.symbol;PC23MOVMag
+:classlib/Burrard/MOVs/MOV_new/MOV_new.symbol;MOV_new
+:classlib/Burrard/Misc/DisplayDate.symbol;DisplayDate
+:classlib/Burrard/Misc/DisplayTime.symbol;DisplayTime
+:classlib/Burrard/Misc/EStopButton.symbol;EStopButton
+:classlib/Burrard/Misc/EmergencyStopButton.symbol;EmergencyStopButton
+:classlib/Burrard/Misc/Input.symbol;Input
+:classlib/Burrard/Misc/Level.symbol;Level
+:classlib/Burrard/Misc/LowWaterPress.symbol;LowWaterPress
+:classlib/Burrard/Misc/MeterBox.symbol;MeterBox
+:classlib/Burrard/Misc/PCDelugeStart.symbol;PCDelugeStart
+:classlib/Burrard/Misc/PCHand.symbol;PCHand
+:classlib/Burrard/Misc/PCKey.symbol;PCKey
+:classlib/Burrard/Misc/PCStar.symbol;PCStar
+:classlib/Burrard/Misc/PCTemp.symbol;PCTemp
+:classlib/Burrard/Misc/PCValue.symbol;PCValue
+:classlib/Burrard/Misc/Prop.symbol;Prop
+:classlib/Burrard/Misc/Prop1.symbol;Prop1
+:classlib/Burrard/Misc/PwrOff.symbol;PwrOff
+:classlib/Burrard/Misc/PwrOn.symbol;PwrOn
+:classlib/Burrard/Misc/ValWithAlrm.symbol;ValWithAlrm
+:classlib/Burrard/Mixer/MIXER.symbol;MIXER
+:classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol;HPMP23ZS
+:classlib/Burrard/Pumps/23hpmps/HPUMP.symbol;HPUMP
+:classlib/Burrard/Pumps/23hpmps/hpump_new/hpump_new.symbol;hpump_new
+:classlib/Burrard/Pumps/23vpmps/VPUMP.symbol;VPUMP
+:classlib/Burrard/Pumps/Injpmp/IPUMP.symbol;IPUMP
+:classlib/Burrard/Pumps/Sump/SPUMP.symbol;SPUMP
+:classlib/Burrard/StaticPictures/HandleGold.symbol;HandleGold
+:classlib/Burrard/StaticPictures/HandleGreen.symbol;HandleGreen
+:classlib/Burrard/StaticPictures/HandlePink.symbol;HandlePink
+:classlib/Burrard/StaticPictures/HandlePurple.symbol;HandlePurple
+:classlib/Burrard/StaticPictures/HandleWhite.symbol;HandleWhite
+:classlib/Burrard/StaticPictures/PCArrow.symbol;PCArrow
+:classlib/Burrard/StaticPictures/PCDownArrow.symbol;PCDownArrow
+:classlib/Burrard/StaticPictures/PCHorTk.symbol;PCHorTk
+:classlib/Burrard/StaticPictures/PCMeter.symbol;PCMeter
+:classlib/Burrard/StaticPictures/PCTrkSp.symbol;PCTrkSp
+:classlib/Burrard/StaticPictures/PCVerTk.symbol;PCVerTk
+:classlib/Burrard/Tanks/PCTANK.symbol;PCTANK
+:classlib/Burrard/Valves/23bv/BV23PROD.symbol;BV23PROD
+:classlib/Burrard/Valves/23bv/BV23ZS.symbol;BV23ZS
+:classlib/Burrard/Valves/23bv/BVLV23.symbol;BVLV23
+:classlib/Burrard/Valves/23bv/BVLV23STAT.symbol;BVLV23STAT
+:classlib/Burrard/Valves/23bv/bv23cyan.symbol;bv23cyan
+:classlib/Burrard/Valves/23cv/BTCValve.symbol;BTCValve
+:classlib/Burrard/Valves/23dockhv/DockHV23.symbol;DockHV23
+:classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol;DHV23Cst
+:classlib/Burrard/Valves/23hv/HV23ZS.symbol;HV23ZS
+:classlib/Burrard/Valves/23hv/PC23HvStat.symbol;PC23HvStat
+:classlib/Burrard/Valves/23pidcv/BTCV23pid.symbol;BTCV23pid
+:classlib/Burrard/Valves/23pidcv/pid_stritt.symbol;pid_stritt
+:classlib/Burrard/Valves/23vent/VENT23ZS.symbol;VENT23ZS
+:classlib/Burrard/Tanks/ProductPick.symbol;ProductPick

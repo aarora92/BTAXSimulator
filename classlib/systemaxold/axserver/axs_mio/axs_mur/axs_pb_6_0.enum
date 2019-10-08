@@ -1,0 +1,2 @@
+Baudrate:Bd_93K=2,Bd_187K=3,Bd_500K=4;
+LiveList:	no=0,DEVICE_Used=1,DEVICE_OK=2,MASTER_Used=3,MASTER_OK=4;

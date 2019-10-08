@@ -1,0 +1,393 @@
+2018-04-09 09:49:15-322	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 09:53:33-503	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 09:58:37-999	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 10:09:46-032	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 11:10:42-690	0	flowpulse_in.DINT.FORCE	on	.North Rail Meter #1 Pulse Counter	h	AX-NB-46
+2018-04-09 11:10:44-084	0	flowpulse_in.DINT.FORCE_VALUE	1	.North Rail Meter #1 Pulse Counter	h	AX-NB-46
+2018-04-09 11:10:45-676	0	flowpulse_in.DINT.FORCE_VALUE	0	.North Rail Meter #1 Pulse Counter	h	AX-NB-46
+2018-04-09 11:10:46-073	0	flowpulse_in.DINT.FORCE	off	.North Rail Meter #1 Pulse Counter	h	AX-NB-46
+2018-04-09 12:56:31-352	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 13:31:16-384	0	MBM.com_port	2	.	h	AX-NB-46
+2018-04-09 13:31:18-573	0	MBM.com_port	1	.	h	AX-NB-46
+2018-04-09 13:31:22-155	0	MBM.select	off	.Symbol selection	h	AX-NB-46
+2018-04-09 13:31:23-151	0	MBM.select	on	.Symbol selection	h	AX-NB-46
+2018-04-09 13:31:24-543	0	MBM.reset	on	.resets the serial communication	h	AX-NB-46
+2018-04-09 13:50:10-704	0	WRITE1.address	2	.The destination highway address of the modbus slave	h	AX-NB-46
+2018-04-09 13:50:13-292	0	WRITE1.address	1	.The destination highway address of the modbus slave	h	AX-NB-46
+2018-04-09 13:50:29-719	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 14:10:31-315	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-09 14:29:14-759	0	EssoRead.data[0]	1	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:16-349	0	EssoRead.data[0]	2	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:16-549	0	EssoRead.data[0]	3	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:16-747	0	EssoRead.data[0]	4	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-145	0	EssoRead.data[0]	5	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-345	0	EssoRead.data[0]	6	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-543	0	EssoRead.data[0]	7	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-543	0	EssoRead.data[0]	8	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-743	0	EssoRead.data[0]	9	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:17-941	0	EssoRead.data[0]	10	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:18-141	0	EssoRead.data[0]	20	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:29:18-339	0	EssoRead.data[0]	30	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:31:19-519	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:20-115	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:21-907	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:22-503	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:22-901	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:23-499	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:23-897	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:24-095	0	XL2184	on	.PCan Transfer Pump(s) Running	h	AX-NB-46
+2018-04-09 14:31:33-448	0	0	1		h	AX-NB-46
+2018-04-09 14:31:43-200	0	0	0		h	AX-NB-46
+2018-04-09 14:31:47-180	0	0	1		h	AX-NB-46
+2018-04-09 14:41:22-687	0	0	0		h	AX-NB-46
+2018-04-09 14:41:24-677	0	0	1		h	AX-NB-46
+2018-04-09 14:41:28-459	0	0	0		h	AX-NB-46
+2018-04-09 14:41:31-444	0	0	1		h	AX-NB-46
+2018-04-09 14:41:36-220	0	0	2		h	AX-NB-46
+2018-04-09 14:41:37-016	0	0	3		h	AX-NB-46
+2018-04-09 14:41:37-214	0	0	4		h	AX-NB-46
+2018-04-09 14:41:39-404	0	0	3		h	AX-NB-46
+2018-04-09 14:41:39-602	0	0	2		h	AX-NB-46
+2018-04-09 14:41:39-802	0	0	1		h	AX-NB-46
+2018-04-09 14:41:41-194	0	0	0		h	AX-NB-46
+2018-04-09 14:41:45-970	0	0	1		h	AX-NB-46
+2018-04-09 14:42:09-453	0	0	2		h	AX-NB-46
+2018-04-09 14:42:10-647	0	0	1		h	AX-NB-46
+2018-04-09 14:42:10-845	0	0	0		h	AX-NB-46
+2018-04-09 14:42:16-019	0	0	1		h	AX-NB-46
+2018-04-09 14:42:21-990	0	0	0		h	AX-NB-46
+2018-04-09 14:42:56-019	0	0	1		h	AX-NB-46
+2018-04-09 14:43:47-561	0	0	0		h	AX-NB-46
+2018-04-09 14:43:53-730	0	0	1		h	AX-NB-46
+2018-04-09 14:44:00-694	0	0	0		h	AX-NB-46
+2018-04-09 14:44:09-252	0	0	1		h	AX-NB-46
+2018-04-09 14:44:13-828	0	0	0		h	AX-NB-46
+2018-04-09 14:44:18-605	0	0	1		h	AX-NB-46
+2018-04-09 14:44:27-759	0	0	0		h	AX-NB-46
+2018-04-09 14:44:34-325	0	0	1		h	AX-NB-46
+2018-04-09 14:45:46-164	0	EssoRead.slave_offset	0	Esso Read Modbus Client.The offset within the Modbus slave	h	AX-NB-46
+2018-04-09 14:45:57-905	0	EssoRead.slave_offset	5999	Esso Read Modbus Client.The offset within the Modbus slave	h	AX-NB-46
+2018-04-09 14:46:44-671	0	EssoRead.data[0]	0	.The array of data to store/send	h	AX-NB-46
+2018-04-09 14:49:09-543	0	EssoRead.poll_mode	Trigger	Esso Read Modbus Client.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-09 14:49:10-339	0	EssoRead.trigger	on	Esso Read Modbus Client.Trigger the client block function to execute	h	AX-NB-46
+2018-04-09 14:49:14-121	0	EssoRead.trigger	on	Esso Read Modbus Client.Trigger the client block function to execute	h	AX-NB-46
+2018-04-09 14:49:15-315	0	EssoRead.trigger	on	Esso Read Modbus Client.Trigger the client block function to execute	h	AX-NB-46
+2018-04-09 14:49:19-493	0	EssoRead.poll_mode	Cyclic	Esso Read Modbus Client.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 09:06:04-948	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 09:08:07-826	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 09:21:59-457	0	J3006B_RSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:00-253	0	J3006B_RSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:00-851	0	J3006B_RSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:01-249	0	J3006B_RSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:03-637	0	J3006B_LSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:04-233	0	J3006B_LSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:05-229	0	J3006A_LSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:05-627	0	J3019_LSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:06-025	0	J3006B_LSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:06-621	0	J3020_LSD_sel	on		h	AX-NB-46
+2018-04-10 09:22:07-417	0	J3019_LSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:07-617	0	J3006A_LSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:08-015	0	J3006B_LSD_sel	off		h	AX-NB-46
+2018-04-10 09:22:08-611	0	J3020_LSD_sel	off		h	AX-NB-46
+2018-04-10 09:45:54-467	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 10:06:12-736	0	Profibus_15M.max_retry_limit	4	.	h	AX-NB-46
+2018-04-10 10:07:22-760	0	XL_PBM_1.max_retry_limit	3	.	h	AX-NB-46
+2018-04-10 10:07:23-160	0	XL_PBM_1.max_retry_limit	4	.	h	AX-NB-46
+2018-04-10 10:07:23-559	0	XL_PBM_1.max_retry_limit	5	.	h	AX-NB-46
+2018-04-10 10:22:36-493	0	LALL	on	.TANK LOLO ALARM	h	AX-NB-46
+2018-04-10 10:22:37-290	0	LALL	on	.TANK LOLO ALARM	h	AX-NB-46
+2018-04-10 10:22:37-690	0	LALL	on	.TANK LOLO ALARM	h	AX-NB-46
+2018-04-10 10:35:28-102	0	LEVELTK16	5	.	h	AX-NB-46
+2018-04-10 10:35:30-497	0	LEVELTK16	1	.	h	AX-NB-46
+2018-04-10 10:35:30-697	0	LEVELTK16	1	.	h	AX-NB-46
+2018-04-10 10:35:30-897	0	LEVELTK16	1	.	h	AX-NB-46
+2018-04-10 10:35:35-686	0	LALLIN	off	.Boolean One	h	AX-NB-46
+2018-04-10 10:35:36-684	0	LALIN	NC:off	.	h	AX-NB-46
+2018-04-10 10:35:36-882	0	LAHIN	NC:off	.	h	AX-NB-46
+2018-04-10 10:35:37-282	0	LAHHIN	NC:off	.	h	AX-NB-46
+2018-04-10 10:35:38-479	0	LALLIN	on	.Boolean One	h	AX-NB-46
+2018-04-10 10:35:39-278	0	LALLIN	off	.Boolean One	h	AX-NB-46
+2018-04-10 10:35:43-069	0	LALLIN	on	.Boolean One	h	AX-NB-46
+2018-04-10 10:35:56-039	0	LALLIN	off	.Boolean One	h	AX-NB-46
+2018-04-10 10:48:28-578	0	TDCComm.data[135]	123	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:33-167	0	TDCComm.data[135]	200	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:33-765	0	TDCComm.data[135]	300	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:34-164	0	TDCComm.data[135]	400	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:34-364	0	TDCComm.data[135]	500	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:34-562	0	TDCComm.data[135]	600	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:34-763	0	TDCComm.data[135]	700	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:34-961	0	TDCComm.data[135]	800	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-161	0	TDCComm.data[135]	900	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-361	0	TDCComm.data[135]	1000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-561	0	TDCComm.data[135]	2000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-759	0	TDCComm.data[135]	3000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-960	0	TDCComm.data[135]	4000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:35-960	0	TDCComm.data[135]	5000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:36-158	0	TDCComm.data[135]	6000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:36-358	0	TDCComm.data[135]	7000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 10:48:38-154	0	TDCComm.data[135]	6000	.The memory buffer used to store the slave's data.	h	AX-NB-46
+2018-04-10 11:35:10-272	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 13:02:36-355	0	0	-130		h	AX-NB-46
+2018-04-10 13:03:08-078	0	0	-128		h	AX-NB-46
+2018-04-10 13:03:14-661	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:15-259	0	_tr	off		h	AX-NB-46
+2018-04-10 13:03:15-658	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:16-058	0	_tr	off		h	AX-NB-46
+2018-04-10 13:03:18-851	0	0	-90		h	AX-NB-46
+2018-04-10 13:03:20-246	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:20-845	0	_tr	off		h	AX-NB-46
+2018-04-10 13:03:21-444	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:22-242	0	_tr	off		h	AX-NB-46
+2018-04-10 13:03:34-811	0	0	0		h	AX-NB-46
+2018-04-10 13:03:36-207	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:37-005	0	_tr	off		h	AX-NB-46
+2018-04-10 13:03:38-401	0	_tr	on		h	AX-NB-46
+2018-04-10 13:03:38-801	0	_tr	off		h	AX-NB-46
+2018-04-10 13:06:50-121	0	500	200		h	AX-NB-46
+2018-04-10 13:06:55-507	0	0	-199		h	AX-NB-46
+2018-04-10 13:06:57-104	0	_tr	on		h	AX-NB-46
+2018-04-10 13:06:57-503	0	_tr	off		h	AX-NB-46
+2018-04-10 13:06:58-500	0	_tr	on		h	AX-NB-46
+2018-04-10 13:06:59-098	0	_tr	off		h	AX-NB-46
+2018-04-10 13:06:59-697	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:00-296	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:07-278	0	0	0		h	AX-NB-46
+2018-04-10 13:07:09-671	0	0	1		h	AX-NB-46
+2018-04-10 13:07:12-265	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:13-062	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:47-775	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:48-572	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:48-971	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:49-171	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:49-371	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:49-569	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:50-168	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:51-165	0	_tr	off		h	AX-NB-46
+2018-04-10 13:07:51-963	0	_tr	on		h	AX-NB-46
+2018-04-10 13:07:52-562	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:14-707	0	500	128		h	AX-NB-46
+2018-04-10 13:08:16-503	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:17-301	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:21-690	0	500	1127		h	AX-NB-46
+2018-04-10 13:08:24-282	0	500	127		h	AX-NB-46
+2018-04-10 13:08:25-480	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:26-078	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:26-278	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:27-674	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:30-267	0	500	128		h	AX-NB-46
+2018-04-10 13:08:31-664	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:32-263	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:34-657	0	500	127		h	AX-NB-46
+2018-04-10 13:08:36-253	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:36-851	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:46-427	0	0	0		h	AX-NB-46
+2018-04-10 13:08:48-421	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:49-818	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:53-808	0	500	128		h	AX-NB-46
+2018-04-10 13:08:55-404	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:56-003	0	_tr	off		h	AX-NB-46
+2018-04-10 13:08:56-801	0	_tr	on		h	AX-NB-46
+2018-04-10 13:08:57-398	0	_tr	off		h	AX-NB-46
+2018-04-10 13:13:47-509	0	0	-128		h	AX-NB-46
+2018-04-10 13:13:49-503	0	_tr	on		h	AX-NB-46
+2018-04-10 13:13:50-502	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:12-052	0	0	-137		h	AX-NB-46
+2018-04-10 13:14:14-048	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:14-647	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:15-644	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:16-243	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:19-434	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:20-233	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:30-809	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:31-806	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:41-184	0	0	-10		h	AX-NB-46
+2018-04-10 13:14:42-183	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:42-980	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:43-578	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:46-173	0	0	-500		h	AX-NB-46
+2018-04-10 13:14:47-171	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:47-569	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:48-568	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:48-967	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:55-750	0	0	0		h	AX-NB-46
+2018-04-10 13:14:57-148	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:57-946	0	_tr	on		h	AX-NB-46
+2018-04-10 13:14:58-944	0	_tr	off		h	AX-NB-46
+2018-04-10 13:14:59-542	0	_tr	on		h	AX-NB-46
+2018-04-10 13:15:00-141	0	_tr	off		h	AX-NB-46
+2018-04-10 13:15:16-303	0	0	-130		h	AX-NB-46
+2018-04-10 13:15:18-697	0	_tr	on		h	AX-NB-46
+2018-04-10 13:15:19-696	0	_tr	off		h	AX-NB-46
+2018-04-10 13:15:21-092	0	_tr	on		h	AX-NB-46
+2018-04-10 13:15:21-690	0	_tr	off		h	AX-NB-46
+2018-04-10 13:15:26-081	0	_tr	on		h	AX-NB-46
+2018-04-10 13:15:27-279	0	_tr	off		h	AX-NB-46
+2018-04-10 13:16:30-934	0	_tr	on		h	AX-NB-46
+2018-04-10 13:16:31-532	0	_tr	off		h	AX-NB-46
+2018-04-10 13:20:40-757	0	WriteLNJ1.slave_offset	128	.The offset within the Modbus slave	h	AX-NB-46
+2018-04-10 13:21:56-782	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:22:04-963	0	_tr	on		h	AX-NB-46
+2018-04-10 13:22:05-762	0	_tr	off		h	AX-NB-46
+2018-04-10 13:22:06-161	0	_tr	on		h	AX-NB-46
+2018-04-10 13:22:06-759	0	_tr	off		h	AX-NB-46
+2018-04-10 13:22:19-329	0	133	130		h	AX-NB-46
+2018-04-10 13:22:20-726	0	_tr	on		h	AX-NB-46
+2018-04-10 13:22:21-724	0	_tr	off		h	AX-NB-46
+2018-04-10 13:23:56-305	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:23:59-897	0	1	0		h	AX-NB-46
+2018-04-10 13:24:01-493	0	1	1		h	AX-NB-46
+2018-04-10 13:24:28-430	0	WriteLNJ1.data	2	.The array of data to store/send	h	AX-NB-46
+2018-04-10 13:24:29-227	0	WriteLNJ1.data	2	.The array of data to store/send	h	AX-NB-46
+2018-04-10 13:24:30-625	0	WriteLNJ1_data	2		h	AX-NB-46
+2018-04-10 13:24:35-612	0	1	0		h	AX-NB-46
+2018-04-10 13:24:36-611	0	1	1		h	AX-NB-46
+2018-04-10 13:24:41-997	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:24:42-398	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:24:42-796	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:24:44-193	0	1	0		h	AX-NB-46
+2018-04-10 13:24:45-589	0	1	1		h	AX-NB-46
+2018-04-10 13:24:46-588	0	1	2		h	AX-NB-46
+2018-04-10 13:24:47-785	0	1	1		h	AX-NB-46
+2018-04-10 13:24:47-984	0	1	0		h	AX-NB-46
+2018-04-10 13:25:31-282	0	_jhg	on		h	AX-NB-46
+2018-04-10 13:25:32-081	0	_jhg	off		h	AX-NB-46
+2018-04-10 13:25:32-680	0	_jhg	on		h	AX-NB-46
+2018-04-10 13:25:33-279	0	_jhg	off		h	AX-NB-46
+2018-04-10 13:25:40-461	0	_jhg	on		h	AX-NB-46
+2018-04-10 13:25:41-059	0	_jhg	off		h	AX-NB-46
+2018-04-10 13:25:50-438	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:25:51-835	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:25:52-634	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:25:53-232	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:25:53-431	0	WriteLNJ1_data	2		h	AX-NB-46
+2018-04-10 13:25:54-628	0	WriteLNJ1_data	3		h	AX-NB-46
+2018-04-10 13:25:55-825	0	_jhg	on		h	AX-NB-46
+2018-04-10 13:25:56-424	0	_jhg	off		h	AX-NB-46
+2018-04-10 13:25:59-019	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:25:59-417	0	WriteLNJ1_data	1		h	AX-NB-46
+2018-04-10 13:26:02-411	0	_jhg	on		h	AX-NB-46
+2018-04-10 13:26:04-805	0	WriteLNJ1_data	2		h	AX-NB-46
+2018-04-10 13:26:05-604	0	WriteLNJ1_data	3		h	AX-NB-46
+2018-04-10 13:26:07-400	0	WriteLNJ1_data	4		h	AX-NB-46
+2018-04-10 13:28:51-019	0	Read2.poll_mode	Cyclic	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:28:53-812	0	Read1.poll_mode	Cyclic	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:28:57-605	0	Write1.poll_mode	Cyclic	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:28:59-599	0	Write2.poll_mode	Cyclic	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:29:36-115	0	Write1.poll_mode	Trigger	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:29:38-710	0	Write2.poll_mode	Trigger	.The communication method (cyclic or triggered)	h	AX-NB-46
+2018-04-10 13:47:14-803	0	PMP3010.BYPASS	on	J-3010 BioDiesel Transfer Pump.Bypass flag (internal/external)	h	AX-NB-46
+2018-04-10 13:47:16-999	0	PMP3010.BYPASS	off	J-3010 BioDiesel Transfer Pump.Bypass flag (internal/external)	h	AX-NB-46
+2018-04-10 13:47:17-598	0	PMP3010.BYPASS	on	J-3010 BioDiesel Transfer Pump.Bypass flag (internal/external)	h	AX-NB-46
+2018-04-10 13:47:17-996	0	PMP3010.BYPASS	off	J-3010 BioDiesel Transfer Pump.Bypass flag (internal/external)	h	AX-NB-46
+2018-04-10 13:47:21-986	0	XA3009AL.normal	off	Bio-Diesel Offloading Scully Ground.Normal value (ie. no alarm if PV=normal)	h	AX-NB-46
+2018-04-10 13:47:22-786	0	XA3009AL.normal	on	Bio-Diesel Offloading Scully Ground.Normal value (ie. no alarm if PV=normal)	h	AX-NB-46
+2018-04-10 13:49:22-489	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 13:50:58-513	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 13:51:31-437	0	AX_ARB.takeover_tout	3.5 sec	AX Arbitration.	h	AX-NB-46
+2018-04-10 14:03:59-703	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 14:04:14-865	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 14:17:10-769	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 14:28:06-180	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 14:29:22-996	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 14:34:30-713	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 15:01:08-150	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-10 15:07:09-516	0	Xlink_1.HasRing	on	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:07:10-313	0	Xlink_1.HasRing	off	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:07:12-907	0	Xlink_1.HasRing	on	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:07:14-105	0	Xlink_1.HasRing	off	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:07:15-302	0	Xlink_1.HasRing	on	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:07:15-901	0	Xlink_1.HasRing	off	.Is 1 if a redundand ethernet card in "EthCardB" was defined	h	AX-NB-46
+2018-04-10 15:13:29-607	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:13:33-795	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:13:34-992	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:16:40-690	0	Leak_Print.Path	/LeakData/	.	h	AX-NB-46
+2018-04-10 15:17:36-345	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:17:45-921	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:17:49-711	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:17:51-308	0	Leak_Print.PrintLeak	on	.	h	AX-NB-46
+2018-04-10 15:45:47-898	0	Ticket1.Reset	on	.	h	AX-NB-46
+2018-04-10 15:45:49-694	0	Ticket2.Reset	on	.	h	AX-NB-46
+2018-04-10 15:48:04-559	0	Ticket1.Reset	off	.	h	AX-NB-46
+2018-04-10 15:48:27-302	0	Ticket2.Reset	off	.	h	AX-NB-46
+2018-04-10 16:04:51-196	0	Login		User <h> logged in: access=0xFFFFFFFF	h	AX-NB-46
+2018-04-11 00:15:32-957	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRA
+2018-04-11 00:19:31-444	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRA
+2018-04-11 00:19:36-082	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRB
+2018-04-11 00:20:17-150	0	AX_ARB.step_back_button	on	AX Arbitration.	h	WCPBTMRA
+2018-04-11 00:20:17-150	0	AX_ARB.step_back_button	off	AX Arbitration.	h	WCPBTMRA
+2018-04-11 00:20:56-961	0	AX_ARB.step_back_button	off	AX Arbitration.	h	WCPBTMRA
+2018-04-11 00:20:56-961	0	AX_ARB.take_control_button	on	AX Arbitration.	h	WCPBTMRA
+2018-04-11 00:20:56-961	0	AX_ARB.take_control_button	off	AX Arbitration.	h	WCPBTMRA
+2018-04-11 01:09:31-565	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRB
+2018-04-11 01:13:38-660	0	Leak_Print._tri	on	.	h	WCPBTMRA
+2018-04-11 01:13:39-674	0	Leak_Print._tri	off	.	h	WCPBTMRA
+2018-04-11 01:13:40-285	0	Leak_Print._tri	on	.	h	WCPBTMRA
+2018-04-11 01:13:40-892	0	Leak_Print._tri	off	.	h	WCPBTMRA
+2018-04-11 02:12:42-878	0	MOV4002.BYPASS	on	Diesel Export MOV.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-11 02:12:45-924	0	MOV4002.BYPASS	off	Diesel Export MOV.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-11 02:18:55-618	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:18:57-040	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:18:57-447	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:19:09-838	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:19:10-651	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:19:12-479	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:19:22-838	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:19:24-056	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:19:24-667	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:19:25-681	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:14-763	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:15-575	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:16-184	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:16-996	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:34-263	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:38-529	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:39-138	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:46-246	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:47-467	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:48-075	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:48-686	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:49-092	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:21:49-700	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:21:50-513	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:23-825	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:26-061	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:26-671	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:27-686	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:28-296	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:28-904	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:29-513	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:30-325	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:31-749	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:33-372	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-11 02:22:37-842	0	PMP3002.BYPASS	on	.	h	WCPBTMRA
+2018-04-11 02:22:39-670	0	PMP3002.BYPASS	off	.	h	WCPBTMRA
+2018-04-12 00:44:20-992	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRA
+2018-04-12 00:49:24-872	0	M1234.BYPASS	on	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:49:44-575	0	M1234.BYPASS	off	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:49:45-997	0	M1234.BYPASS	on	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:49:52-092	0	M1234.BYPASS	off	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:49:56-763	0	M1234.BYPASS	on	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:50:00-825	0	M1234.BYPASS	off	.Bypass flag (internal/external)	h	WCPBTMRA
+2018-04-12 00:54:22-253	0	M1234.BYPASS	on	.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-12 00:54:28-956	0	M1234.BYPASS	off	.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-12 00:54:30-581	0	M1234.BYPASS	on	.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-12 00:54:31-190	0	M1234.BYPASS	off	.PUMP IS IN BYPASS	h	WCPBTMRA
+2018-04-12 00:54:33-832	0	M1234.LOCALMAN	NC:on	.	h	WCPBTMRA
+2018-04-12 01:05:33-999	0	M1234.ack	on	.fault acknowledge	h	WCPBTMRA
+2018-04-12 01:05:37-250	0	M1234.sim_local	on	.local simulation	h	WCPBTMRA
+2018-04-12 01:05:39-280	0	M1234.ack	on	.fault acknowledge	h	WCPBTMRA
+2018-04-12 01:05:40-499	0	M1234.man	on	.manual mode	h	WCPBTMRA
+2018-04-12 01:05:41-515	0	M1234.man_on	on	.manual on	h	WCPBTMRA
+2018-04-12 01:05:55-124	0	M1234.ext_sw	on	.external setpoint selected	h	WCPBTMRA
+2018-04-12 01:05:58-171	0	M1234.ext_sw	off	.external setpoint selected	h	WCPBTMRA
+2018-04-12 01:06:01-421	0	M1234.intern	68 %	.internal setpoint	h	WCPBTMRA
+2018-04-12 01:06:03-250	0	M1234.ext_sw	on	.external setpoint selected	h	WCPBTMRA
+2018-04-12 01:06:30-265	0	M1234.man_on	off	.manual on	h	WCPBTMRA
+2018-04-12 01:06:33-108	0	M1234.man	off	.manual mode	h	WCPBTMRA
+2018-04-12 01:06:37-983	0	M1234.man	on	.manual mode	h	WCPBTMRA
+2018-04-12 01:06:39-203	0	M1234.man_on	on	.manual on	h	WCPBTMRA
+2018-04-12 01:06:41-641	0	M1234.man_on	off	.manual on	h	WCPBTMRA
+2018-04-12 01:15:13-072	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRA
+2018-04-12 01:15:34-197	0	UserAdmin	0	USER: r created !	h	WCPBTMRA
+2018-04-12 01:15:52-072	0	UserAdmin	0	USER: ramin created !	h	WCPBTMRA
+2018-04-13 04:20:55-571	0	Login		User <h> logged in: access=0xFFFFFFFF	h	WCPBTMRA

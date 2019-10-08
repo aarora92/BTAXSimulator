@@ -1,0 +1,340 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>clock</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>clock</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#program">Time
+Control Program</a></font>
+<p><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The clock module includes following features:</font>
+<br>&nbsp;
+<ul>
+<li>
+<b><font face="Arial,Helvetica">Eight output channels</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Combination with the time control program</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Simulation Mode</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Operator Pop-Up Window</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Trending</font></b></li>
+</ul>
+
+<p><br><b><font face="Arial">Combination with the time control program</font></b>
+<p><font face="Arial">The clock class is combined with the time control
+program, which can be started in th AX-Viewer. The day-designations, shown
+in the form in the time control program, can be changed in the server-data
+of the clock class.</font>
+<p><font face="Arial,Helvetica">Its possible to input up to 16 designations
+for the days, shown in the rows of the form in the time control program.</font>
+<br>&nbsp;
+<p><img SRC="explorer_names.gif" height=764 width=455>
+<p><font face="Arial"><font size=-1>Figure 1: Possible designations for
+the days in the program</font></font>
+<p><b><font face="Arial,Helvetica">=> See section "Time Control Program"</font></b>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial">Simulation Mode</font></b>
+<p><font face="Arial,Helvetica">In the Simulation PopUp the user has the
+possibility of sending the entered simulation time to the PLC instead of&nbsp;
+the actual time (if the checkbox "Simulation ON / OFF" is set). So its
+possible to simulate the settings of channels in different time periods,
+without changing the entry in the time-control-program.</font>
+<br>&nbsp;
+<p><img SRC="clock_popup_sim.gif" height=337 width=290>
+<p><font face="Arial"><font size=-1>Figure 2: PopUp - activated Simulation</font></font>
+<br>&nbsp;
+<p><img SRC="clock_sim_var.gif" height=176 width=455>
+<p><font face="Arial"><font size=-1>Figure 3: Simulation Variables</font></font>
+<br>&nbsp;
+<p><b><font face="Arial">Pop-Up Menu</font></b>
+<p><font face="Arial">The clock class contains an interface pop-up window
+for Operation. This window is already built into the class and no further
+configuration is necessary to access it. The Operator Interface pop-up
+window is accessed by selecting the Simulation-Button at the clock object.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial">Trending</font></b>
+<p><font face="Arial">As a default setting, the clock class will trend
+the eight output channels.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#program">Time
+Control Program</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The class clock is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">Program File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">Program, which
+runs in the PLC</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">clockaxx.axx</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">Program File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">Graphical program
+surface</font></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">clockprg.axa</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP><font face="Arial">Includes some class specific color definitions.</font></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">CLOCK.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">CLOCK.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP><font face="Arial">Class Specific Graphic Files for both,
+class definition and documentation.</font></td>
+
+<td VALIGN=TOP><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial,Helvetica">axparam_grey16.bmp</font>
+<br><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<br><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><b><font face="Arial">HTML Document</font></b></td>
+
+<td><font face="Arial">HTML document for Online Help.</font></td>
+
+<td VALIGN=TOP><font face="Arial,Helvetica">clock.htm</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><b>Installation: </b>The class color file, the class
+file, the graphic files and the HTML-Document file must be copied into
+a common sub directory within the project's "classlib" directory. </font><font face="Arial,Helvetica">The
+name of the common directory can be chosen freely.</font>
+<p><font face="Arial,Helvetica">The .axx-file and the .axa-file must be
+copied into the "bindebug"-directory.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#program">Time
+Control Program</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The clock's graphical user interface includes:</font>
+<ul>
+<li>
+<b><font face="Arial,Helvetica">Graphical Representation</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">Operator Interface</font></b></li>
+</ul>
+<b><font face="Arial,Helvetica">1. Graphical Representation</font></b>
+<p><font face="Arial,Helvetica">The eight output channels are represented
+by small circles.</font>
+<br><font face="Arial">The circles denote the current state of the channel
+by color: red if inactive and green if set.</font>
+<p><img SRC="clock_graph.gif" height=281 width=238>
+<p><font face="Arial"><font size=-1>Figure 4: Graphical Representation</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER WIDTH="56%" >
+<tr>
+<td><img SRC="clock_inactive_channel.gif" height=27 width=110></td>
+
+<td><font face="Arial,Helvetica">circle is red - output-channel is inactive</font></td>
+</tr>
+
+<tr>
+<td><img SRC="clock_active_channel.gif" height=27 width=110></td>
+
+<td><font face="Arial,Helvetica">circle is green - output-channel is active</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">2. Operator Simulation PopUp</font></b>
+<p><font face="Arial">The <b>Simulation PopUp</b> is invoked by selecting
+the Simulation-Link on the class graphical representation.</font>
+<p><img SRC="clock_popup.gif" height=337 width=290>
+<p><font face="Arial"><font size=-1>Figure 5: The Simulation PopUp</font></font>
+<br>&nbsp;
+<p><font face="Arial">The Operator Simulation Menu is comprised of the
+following:</font>
+<ul>
+<li>
+<font face="Arial"><b>Identification</b>: the texts for tag name and remark
+are automatically taken from the instance's Name and Remark Field. A mouse
+click in this section <b>closes</b> the pop-up menu!</font></li>
+
+<li>
+<font face="Arial"><b>Menu Pane for Extended Functions</b>: such as "Class
+Documentation", "Instance Documentation", "Parameterization", and "Service
+Functions".</font></li>
+
+<li>
+<font face="Arial"><b>Edit Section</b>: Edit Values for entering a simulation
+time.</font></li>
+</ul>
+<font face="Arial,Helvetica">The simulation time in the popup under the
+edit values displays the actual time. If the checkbox "Simulation ON /
+OFF" is set, the displayed simulation time is the entered time of the edit
+values. If this simulation time is in the time period, signed in the program,
+the circle associated to the chosen output channel will be green.</font>
+<p><img SRC="clock_popup_sim.gif" height=337 width=290>
+<p><font face="Arial"><font size=-1>Figure 6: PopUp with the set "Simulation
+ON / OFF"- Checkbox</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Its possible to give the output channels,
+shown on the graphical representation, other designations in the server-data
+of the class.</font>
+<p><img SRC="explorer_channels.gif" height=351 width=455>
+<p><font face="Arial"><font size=-1>Figure 7: Possible designations for
+the output channels</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#program">Time
+Control Program</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="program"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Time Control
+Program</font></font></font></b>
+<p><font face="Arial,Helvetica">The Time Control Program can be started
+in the AX-Viewer. There is an item in the menu bar called "Time Control".
+After selecting "clock programs" the following window will be invoked.
+In the left part of the window, the existing clock-objects of the project
+are listed. Now the user can select one of the listed clock objects. Its
+possible to create a time control program for each clock object. First
+the user can choose one of the output channels in the channel bar. When
+the mouse-arrow is accross the form, an order and the time, associated
+to the mouse-position will be visible above the mouse-arrow. By entering
+the left mouse button, the user can draw a line in a day-designation row,
+which represents the setting of the chosen channel for a time period. The
+length of the line is associated to the time period. By entering the right
+mouse button the line will be deleted and the output channel will be reset.
+Its only possible to set the output channels in 5 minute steps.</font>
+<br><font face="Arial,Helvetica">The setting of all eight output channels
+at the same time is possible.</font>
+<br>&nbsp;
+<p><img SRC="progwindow.gif" height=484 width=700>
+<p><font face="Arial"><font size=-1>Figure 8: The time control program
+window</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">If the time which is set in the program
+is reached, the color of the selected output channel in the graph will
+turn from red to green.</font>
+<p><img SRC="clock_graph.gif" height=281 width=238>
+<br><font face="Arial"><font size=-1>Figure 9: Graph with the set output
+channel</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">In the program, the user has the possibility
+of assigning dates as holidays by executing the following steps:</font>
+<br>&nbsp;
+<ul>
+<li>
+<b><font face="Arial,Helvetica">menu bar => Edit => Define Holidays</font></b></li>
+
+<li>
+<b><font face="Arial,Helvetica">select with the left mouse button the days
+in the calendar area, that should be holidays</font></b></li>
+</ul>
+<font face="Arial,Helvetica">The color of the display of the selected holiday
+will turn to red.</font>
+<p><img SRC="calendar_holiday.gif" height=154 width=168>
+<p><font face="Arial"><font size=-1>Figure 10: Calendar with defined Holidays</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">If there is no program defined for a day
+in the calendar area, the background of the day-display is grey.</font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">If the weekday-designation in the form
+is not the same as the weekday in the calendar area, which the program
+is associated to, the background of the day-display will turn to orange.</font>
+<p><img SRC="day_display_orange.gif" height=152 width=164>
+<p><font face="Arial"><font size=-1>Figure 11: day-display without any
+defined programs and day-displays with defined programs from different
+weekdays</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Standard Settings</font></b>
+<p><font face="Arial,Helvetica">By selecting the "standard"-icon under
+the menu bar, all defined programs for the year will be deleted and the
+standard-settings will be activated. That means, for each day in the calendar
+area, the program for the associated weekday in the form will be defined.</font>
+<p><img SRC="Standard-Icon.gif" height=42 width=286>
+<br>&nbsp;<font face="Arial"><font size=-1>Figure 12: Standard-Icon</font></font>
+<p><font face="Arial,Helvetica">All of the day-displays in the calendar-area
+will turn to white, because each day will be connected to the associated
+weekday-settings in the program-window.</font>
+<p><img SRC="calendar_standard.gif" height=179 width=1004>
+<br>&nbsp;<font face="Arial"><font size=-1>Figure 13: calendar-area, when
+the standard-settings are activated</font></font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#program">Time
+Control Program</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+</body>
+</html>

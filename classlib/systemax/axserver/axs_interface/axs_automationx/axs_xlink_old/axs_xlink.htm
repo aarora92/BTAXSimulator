@@ -1,0 +1,999 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=Generator content="Microsoft Word 10 (filtered)">
+<title>axs_mio_pci</title>
+
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+<meta name="Microsoft Border" content="none, default">
+<meta name=Template content="C:\Programme\Office97\Office\html.dot">
+</head>
+
+<body bgcolor=white lang=DE link=blue vlink=purple>
+
+<div class=Section1>
+
+<p class=MsoNormal>&nbsp; </p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=652
+ style='width:489.0pt'>
+ <tr style='height:39.75pt'>
+  <td valign=top style='background:gray;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:39.75pt'>
+  <p class=MsoNormal><b><span style='font-size:36.0pt;font-family:Arial;
+  color:white'>axs_xlink</span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><a href="#WINDOWS"><span style='font-family:Arial'>Windows-Treiber</span></a><span
+style='font-family:Arial'> | <a href="#Linux">Linux-Treiber</a> | <a
+href="#Installation">Installation</a> | <a href="#Klasse">Klassenfunktion</a> |
+<a href="#Debug">Fehlersuche</a></span> <span style='font-family:Arial'>| <a
+href="#Debug">Topologien</a></span></p>
+
+<p><a name=Features></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Allgemeines</span></b></p>
+
+<p><span style='font-family:Arial'>Die axs_xlink Klasse ermöglicht die
+Ansteuerung&nbsp; von AX-Felbuscontrollern und von Lenzing SlaveNote Modulen
+über eine Ethernetkarte. Über die verwendete Ethernetkarte können keine
+normalen TCP/IP Verbindungen mehr geöffnet werden. </span>&nbsp;<span
+style='font-family:Arial'>Die Xlink-Module können zu einer Kette zusammen
+geschaltet werden oder über einen Switch als Netzwerk betreiben werden.
+angeschlossen werden. Weiters werden auf redundanten AX-Sever-Paaren über diese
+Schnittstelle Redundanzpakete versand.</span></p>
+
+<p><span style='font-family:Arial'>Graphical Representation</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=144 height=338 src=xlink.gif></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Als Instanzname muss &quot;<span
+style='color:teal'>Xlink_?</span>&quot; für die Klasse verwendet werden. Das
+Fragezeichen steht für eine Zahl von 1 bis 9. Falls nur ein XlinkMaster
+verwendet wird sollte beim Instanznamen &quot;<span style='color:teal'>Xlink_1</span>&quot;
+begonnen werden.</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#WINDOWS">Installation
+     der Netzwerkstreiber unter Windows</a></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#Linux">Installation
+     der Netzwerkstreiber unter Linux</a></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#Installation">Installation
+     der Klasse</a></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#Klasse">Funktion
+     der Klasse</a></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#Debug">Fehlersuche
+     und Debugging</a></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#Topologien">Topologien</a>&nbsp;
+     </span></li>
+ <li class=MsoNormal><span style='font-family:Arial'><a href="#IPMIX">Xlink-Netze
+     mit Firmennetzen verbinden</a></span></li>
+</ul>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=WINDOWS></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Installation der Netzwerkstreiber unter Windows</span></b></p>
+
+<p><span style='font-family:Arial'>Der Netzwerkstreiber heißt <i>axnpf.sys</i>
+und befindet sich im <i>./bin</i> Verzeichnis von automationX. Er wird beim
+ersten Start des Xlink-Masters automatisch installiert. Dabei wird der
+Windows-Registry-Eintrag <i><span style='color:teal'>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AXNPF</span></i><span
+style='color:teal'> </span>angelegt. Durch löschen dieses Eintrages und einem
+Neustart des Rechners kann der Treiber reinstalliert werden.</span></p>
+
+<p><span style='font-family:Arial'>Damit das Echtzeitverhalten der
+Xlink-Verbindung nicht gestört wird müssen die IP-Dinste auf der Ethernet-Karte
+abgeschalten werden. Dazu führen sie folgende Schritte aus:</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Öffnen sie den Explorer
+     und wählen sie <i>Systemsteuerung/Netzwerkverbindungen</i> aus.</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Machen sie einen
+     Doppelklick auf die LAN-Verbindung die für Xlink vorgesehen ist.</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Drücken sei Eigenschaften.</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Wählen sie alle Elemente
+     für die Verbindung ab und drücken sie <i>Schließen</i>:</span></li>
+</ul>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=367 height=443 src=NetworkSettings.jpg></p>
+
+</blockquote>
+
+<p>&nbsp;</p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=Linux></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Installation der Netzwerkstreiber unter Linux</span></b></p>
+
+<p><span style='font-family:Arial'>Unter Linux ist kein Netzwerktreiber
+notwendig. Es ist möglich direkt auf eth0 bis eth7 zu zu greifen. Damit das
+Echtzeitverhalten der Xlink-Verbindung nicht gestört wird müssen die IP-Dinste
+auf der Ethernet-Karte abgeschalten werden. Dazu führen sie folgende Schritte
+aus:</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Öffnen sie die Datei </span><span
+     style='font-size:10.0pt;font-family:"Courier New"'>/<span
+     style='color:blue'>etc</span>/<span style='color:blue'>sysconfig</span>/<span
+     style='color:blue'>network-scrips</span>/<span style='color:blue'>ifcfg-eth?</span></span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Öffnen löschen sie bei
+     folgenden Einträgen die IP-Adddressen:<br>
+     <b>&nbsp;&nbsp;&nbsp;&nbsp; </b></span><b><span style='font-size:10.0pt;
+     font-family:"Courier New";color:blue'>IPADDR</span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New"'>=<br>
+     </span></b><b><span style='font-family:Arial'>&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New";color:blue'>NETMASK</span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New"'>= <br>
+     </span></b><b><span style='font-family:Arial'>&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New";color:blue'>NETWORK</span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New"'>=</span></b><b><span
+     style='font-family:Arial'>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+     &nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span style='font-size:10.0pt;
+     font-family:"Courier New";color:blue'>GATEWAY</span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New"'>=<br>
+     </span></b><b><span style='font-family:Arial'>&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New";color:blue'>BROADCAST</span></b><b><span
+     style='font-size:10.0pt;font-family:"Courier New"'>=</span></b></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Setzen sie den Parameter </span><b><span
+     style='font-size:10.0pt;font-family:"Courier New";color:blue'>BOOTPROTO</span></b><span
+     style='font-size:10.0pt;font-family:"Courier New"'> </span><span
+     style='font-family:Arial'>auf </span><b><span style='font-size:10.0pt;
+     font-family:"Courier New";color:purple'>none</span></b></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Zuletzt müssen die
+     Etherner-Schnittstellen neu gestartet werden:<br>
+     &nbsp;&nbsp;&nbsp; </span><b><span style='font-size:10.0pt;font-family:
+     "Courier New"'>/<span style='color:blue'>etc</span>/<span
+     style='color:blue'>init.d</span>/<span style='color:blue'>network</span> <span
+     style='color:purple'>restart</span></span></b><span style='font-size:10.0pt;
+     font-family:"Courier New"'><br>
+     &nbsp;</span></li>
+</ul>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=Installation></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Installation der Klasse</span></b></p>
+
+<p><span style='font-family:Arial'>Für die Installation der Klasse öffnen sie
+das Projekt, und wählen in der Konfiguration den Tree <i><span
+style='color:blue'>axsystem</span></i> aus. Hier fügen sie die Klasse <i><span
+style='color:blue'>axs_xlink</span></i> aus dem Pfad <i>.\<span
+style='color:blue'>classlib</span>\<span style='color:blue'>systemax</span>\<span
+style='color:blue'>axserver</span>\<span style='color:blue'>axs_interface</span>\<span
+style='color:blue'>axs_xlink</span> </i>ein. Für die Klasse kann ein beliebiger
+Instanzname vergeben werden. </span></p>
+
+<p><span style='font-family:Arial'><br>
+Alls erstes muss unter <i>EthCardA</i> der Name benutzten Ethernetkarte
+eingetragen werden (z.B. <i><span style='color:navy'>eth1</span></i>) oder die
+MAC-Adresse einer Karte. Für redundante Systeme muss hier <i><span
+style='color:navy'>eth0</span></i> oder <i><span style='color:navy'>eth1</span></i>
+oder ... eingetragen werden. Unter Windows kann die MAC-Adresse über die Datei <i><span
+style='color:teal'>./cache/rdip/local_ethernet_&lt;host&gt;.mac</span> </i>einer
+Ethernetkarte (eth??) zugeordnet werden. (<span style='color:navy'>&lt;host&gt;</span>
+steht für den Hostnamen des Rechners) Diese Datei hat folgende Form:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><b><span style='font-size:10.0pt;font-family:"Courier New";color:blue'>eth0</span></b><b><span
+style='font-size:10.0pt;font-family:"Courier New"'> = <span style='color:teal'>00-50-BA-E5-E4-B9</span><br>
+<span style='color:blue'>eth1</span> = <span style='color:teal'>00-30-4A-67-9A-3F</span></span></b></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Mit dem Tool <i><span style='color:teal'>EthInfo.exe</span></i>
+können die Etherneteinstellungen bearbeitet werden. Klicken sie einfach mit der
+rechten Maustaste auf das Icon im linken oberen Eck. Und wählen sie <i><span
+style='color:teal'>&quot;MAC-Adressen konfigurieren&quot;</span></i>.</span></p>
+
+<p><span style='font-family:Arial'>Wenn Linux verwendet wird ist diese Datei
+nicht notwendig. Der Treiber holt sich die MAC-Adressen direkt von der
+Systemkonfiguration. Die MAC-Adressen können unter Windows mit <i><span
+style='color:teal'>&nbsp;ipconfig /all </span></i>abgefragt werden. (siehe bei <i>&quot;<span
+style='color:teal'>Physikalische Adresse</span>&quot;</i>), unter Linux kann <i><span
+style='color:teal'>ifconfig</span></i> verwendet werden.</span></p>
+
+<p><span style='font-family:Arial'>Wollen sie einen redundanten Ring mit Xlink
+aufbauen, so ist unter <i>EthCardB</i> die Ethernetkarte einzutragen über die
+der Ring geschlossen wird. </span></p>
+
+<p><span style='font-family:Arial'>Unter Windows können sie mit dem Tool <i><span
+style='color:teal'>EthInfo.exe</span></i> nähere Informationen über die
+eingebauten Netzwerkskarten abrufen:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=599 height=283 src=EthInfo.gif><span style='font-family:
+Arial'><br>
+&nbsp;</span></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Bei allen aXlink100 müssen sie über die
+Enumeratorvariabel&nbsp; <i>XlinkMaster</i> auswählen an welcher
+Xlink-Verbindung der aXlink100 angeschlossen ist.<br>
+&nbsp;</span></p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=Klasse></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Funktion der Klasse</span></b></p>
+
+<p><span style='font-family:Arial'>Die Klasse enthält folgende Element:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0 width="100%"
+ style='width:100.0%' id=AutoNumber1>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span style='font-size:10.0pt;font-family:Arial'>Variabel</span></b></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span style='font-size:10.0pt;font-family:Arial'>Funktion</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>EthCardA</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ist der
+  Name der benutzen Ethernetkarte<i> eth? </i>oder die MAC-Adresse der
+  Ethernetkarte.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>EthCardB</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Bei einem
+  redundanten <a href="#Ring">Ring</a> ist es der Name der zweiten
+  Ethernetkarte<i> eth? </i>oder die MAC-Adresse, bzw. ist diese Variabel leer zu
+  lassen wenn kein Ring vorhanden ist.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Reset</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Mit
+  diesem Flag kann der Xlink-Master resetiert werden. </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>EthernetCardValidA</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn die angegebene erste Ethernetkarte geöffnet
+  werden konnte.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>EthernetCardValidB</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn die angegebene zweite Ethernetkarte geöffnet
+  werden konnte.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>LinkErrorA</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn kein Ethernet-Kabel an der ersten
+  Ethernetkarte angeschlossen ist.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>LinkErrorB</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn kein Ethernet-Kabel an der zweiten
+  Ethernetkarte angeschlossen ist.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>State </span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ist der
+  aktuelle Zustand des Masters. Eine Beschreibung zu den einzelnen Zuständen
+  findet man weiter unten.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>HasRing</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag geht auf 1 wenn die Ethernet-Karte-B für einen Ring benutzt wird.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>RingOk</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn der Master erkennt das Telegramme
+  ordnungsgemäß im Kreis laufen.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>RdLifetick</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Dieses
+  Flag wird auf TRUE gesetzt wenn vom anderem AX-Server ein Redundanz-Lifetick
+  auf dieser Xlink-Verbindung empfangen wird.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Debug</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Über
+  diese Bits kann eingestellt werden welche Debug-Meldungen der Maser in den
+  Runtime-Messages ausgeben soll.<br>
+  Bit 0 (0x01) = Bus-Scans anzeigen</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>DevicesOnBus</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ist die Anzahl
+  der gefunden über Geräte am Bus. Geräte mit doppelten Adressen werden nur
+  einmal gezählt. </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Devices</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ist ein
+  Array das Informationen zu allen Geräten die gefunden wurden liefert. Der
+  Offset im Array bestimmt die Geräte Adresse. Ist ein Eintrag Null, so wurde
+  dieses Gerät am Bus nicht gefunden.<br>
+  Bit 0 = Das Gerät hat eine Verbindung auf Link A<br>
+  Bit 1 = Das Gerät hat eine Verbindung auf Link B<br>
+  Bit 2 = Nur für interne Zwecke<br>
+  Bit 3 = Das Gerät ist aktiviert.<br>
+  Bit 4 = unbenutzt<br>
+  Bit 5 = unbenutzt<br>
+  Bit 6 = unbenutzt<br>
+  Bit 7 = Ein weiteres Gerät mit der gleichen Adresse ist am Bus vorhanden. </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>ErrorString</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Enthält
+  einen Text mit der aktuellen Fehlermeldung.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>MacAddressUsedA</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Hier wird
+  die MAC-Adresse der benutzten ersten Ethernetkarte angezeigt.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="12%" valign=top style='width:12.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>MacAddressUsedB</span></p>
+  </td>
+  <td width="88%" valign=top style='width:88.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Hier wird
+  die MAC-Adresse der benutzten zweiten Ethernetkarte angezeigt.</span></p>
+  </td>
+ </tr>
+</table>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Der aktuelle Zustand des Masters kann auf
+der Klassenansicht im Feld <i>&quot;<span style='color:teal'>State</span>&quot;</i>
+abgelesen werden. Wenn die LED im linken oberen Eck rot ist dann konnte die
+Ethernetkarte nicht geöffnet werden.</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=144 height=338 src=xlink.gif></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Der Xlink-Master kennt folgende Zustände:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><b><span style='font-family:Arial;color:blue'>OK</span></b><span
+style='font-family:Arial'>: Das ist der Betriebszustand in dem alles in Ordnung
+ist.</span></p>
+
+<p><b><span style='font-family:Arial;color:blue'>Link_Error</span></b><span
+style='font-family:Arial'>: Dieser Zustand passiert wenn bei einer
+Ethernetkarte das Kabel nicht angeschlossen ist.<br>
+<br>
+<b><span style='color:blue'>NO_Link</span></b>: Dieser Zustand passiert wenn
+bei keiner Ethernetkarte ein Kabel angeschlossen ist.</span></p>
+
+<p><b><span style='font-family:Arial;color:blue'>Wrong_Address</span></b><span
+style='font-family:Arial'>: Es liegt ein Fehler in der Konfiguration der
+angeschlossenen Felbuscontroller bzw. SlaveNotes vor. Bei einem dieser Geräte
+ist die Adresse auf 0,254 oder 255 gestellt. In den Runtime-Memessages wird die
+MAC-Adresse des betroffenen Gerätes angezeigt. Mit dem Tool <i>EthScanner.exe</i>
+können sie die Netzwerkstopologie ansehen.</span></p>
+
+<p><b><span style='font-family:Arial;color:blue'>Double_Address</span></b><span
+style='font-family:Arial'>: Es liegt ein Fehler in der Konfiguration der
+angeschlossenen Felbuscontroller bzw. SlaveNotes vor. Bei mindestens zwei
+dieser Geräte ist eine Gleiche eingestellt. In den Runtime-Messages wird die
+Adresse und die MAC-Adresse des betroffenen Gerätes angezeigt. Mit dem Tool <i>EthScanner.exe</i>
+können sie die Netzwerkstopologie ansehen.</span></p>
+
+<p><b><span style='font-family:Arial;color:blue'>Ethernet_Error</span></b><span
+style='font-family:Arial'>: Dieser Zustand passiert wenn die Ethernetkarte
+nicht geöffnet werden konnte. Prüfen sie in diesem Fall <i><span
+style='color:teal'>MacAddress</span></i> oder die Datei <i><span
+style='color:teal'>./cache/rdip/local_ethernet_&lt;host&gt;.mac</span></i>.
+Unter Linux müssen die MAC-Addresen mit den Werten von <i><span
+style='color:teal'>ifconfig</span></i> übereinstimmen.</span></p>
+
+</blockquote>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><b><span style='font-family:Arial;color:blue'>Remote_Error</span></b><span
+style='font-family:Arial'>: Dieser Zustand passiert wenn die MAC Adressen des
+anderen AX-Servers in einem redundanden System nicht konfiguriert sind. Prüfen
+sie in diesem Fall die Datei <i><span style='color:teal'>./cache/rdip/remote_ethernet_&lt;remote-host&gt;.mac</span></i>.
+Diese Datei hat folgende Form:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><b><span style='font-size:10.0pt;font-family:"Courier New";color:blue'>eth0</span></b><b><span
+style='font-size:10.0pt;font-family:"Courier New"'> = <span style='color:teal'>00-50-BA-E5-E4-B9</span><br>
+<span style='color:blue'>eth1</span> = <span style='color:teal'>00-30-4A-67-9A-3F</span></span></b></p>
+
+</blockquote>
+
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p><span style='font-family:Arial'>Die beiden obersten LED zeigen an welche
+Ethernetschnittstellen von der Klasse benutzt werden. Die Farbe bestimmt den
+Zustand der Ethernetschnittstelle:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><span style='font-family:Arial'>rot = Ethernetkarte konnte nicht geöffnet
+werden <br>
+gelb = Das Kabel an der Ethernetkarte ist ab gesteckt<br>
+grün = Alles ok</span></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Die LED Devices zeigt an wie viele Geräte am
+Bus gefunden wurden. Sie wechselt auf gelb wenn keine Geräte gefunden werden
+konnten.</span></p>
+
+<p><span style='font-family:Arial'>Die Ring-LED zeigt an ob der Ethernetring
+geschlossen ist. Die Prüfung ob der Ring geschlossen ist, erfolg nur alle 30
+Sekunden.</span></p>
+
+<p><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p style='text-indent:35.4pt'><b><u><span style='font-family:Arial;color:blue'>Popup:</span></u></b></p>
+
+<p style='text-indent:35.4pt'><span style='font-family:Arial'>Beim Klick auf
+die Klasse öffnet sich folgendes Popup:</span></p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'><img border=0 width=309
+height=224 src="axs_xlink-Dateien/image001.jpg"></p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'><span style='color:#339966'>Devices
+on Bus</span>: Anzahl der XLinks auf dem Bus</p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'><span style='color:#339966'>Current
+State</span>: &nbsp;zeigt den Status wie schon oben beschrieben an, </p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'><span style='color:#339966'>Textfeld</span>:
+Hier wird der ErrorString angezeigt</p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'>Button <span style='color:
+#339966'>EthInfo</span>: Öffnet das Programm EthInfo.exe</p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'>Button <span style='color:
+#339966'>EthScanner</span>: Öffnet das Programm EthScanner.exe</p>
+
+<p style='margin-left:35.4pt;text-indent:35.4pt'>Button <span style='color:
+#339966'>EthXlinkScanner</span>: Öffnet das Programm EthXlinkScanner.exe</p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=Debug></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Fehlersuche und Debugging</span></b></p>
+
+<p><span style='font-family:Arial'>Wenn der Xlink-Master nicht in den
+OK-Zustand kommt, ist es nützlich zu wissen was das Problem verursacht. Dazu
+sollte man die <i><span style='color:teal'>Debug</span></i> Variabel auf einen
+Wert 1 setzen und das Runtime-Message-Fenster öffnen. Danach wählen sie <i>&quot;<span
+style='color:teal'>Xlink</span>&quot;</i> aus:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=908 height=373 src="axs_xl1.jpg"></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Eine weitere Möglichkeit ist das Tool <i><span
+style='color:teal'>EthScanner.exe</span></i>. Mit ihm kann die
+Netzwerkstopologie angezeigt werden:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=522 height=483 src="axs_xl2.jpg"></p>
+
+<p>&nbsp;</p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Sollten Probleme bei der Redundanzverbindung
+vorhanden sein, prüfen sie die Dateien <i><span style='color:teal'>./cache/rdip/remote_ethernet_&lt;remote-host&gt;.mac</span><span
+style='color:blue'> </span></i>auf beiden Rechnern. Am Master müssen die
+MAC-Adressen der Ethernetkarten des Standby-Rechners eingetragen sein, und
+umgekehrt. Mit dem Tool <i><span style='color:teal'>EthInfo.exe</span></i>
+können sie die MAC-Adressen des eigenen Rechners auslesen:</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=599 height=283 src=EthInfo.gif></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Mit <i><span style='color:teal'>EthInfo.exe</span></i>
+können auch die Remote-MAC-Adressen konfiguriert werden. Klicken sie einfach
+mit der rechten Maustaste auf das Icon im linken oberen Eck. Und wählen sie <i><span
+style='color:teal'>&quot;Remote Adressen konfigurieren&quot;</span></i>.</span></p>
+
+<p><span style='font-family:Arial'>Ein weiteres Programm ist&nbsp; <i><span
+style='color:teal'>EthXlinkScanner.exe</span></i>. Damit kann der
+Xlink-Datenverkehr auf einer Neztwerkskarte analysiert werden.</span></p>
+
+<p>&nbsp;</p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><b><span style='font-size:18.0pt;font-family:Arial;color:blue'>Firmwareupgrade</span></b></p>
+
+<p><span style='font-family:Arial'>Mithilfe des Tools Ethscanner kann man ein
+Firmwareupgrade auf den aXlink100 machen.</span></p>
+
+<p><span style='font-family:Arial'>Man öffnet dazu den EthScanner:</span></p>
+
+<p><img border=0 width=245 height=226 src="axs_xlink-Dateien/image001.jpg"></p>
+
+<p>Klickt man nun doppelt auf einen der angezeigten aXlinks100 öffnet sich
+folgendes Popup:</p>
+
+<p><img border=0 width=316 height=272 src="axs_xlink-Dateien/image002.jpg"></p>
+
+<p>In der Anzeige wird die aktuelle Firmware mit dem Datum angezeigt. Weiters
+werden die Macadressen angezeigt.</p>
+
+<p>Das Firmwarefile auf dem Xlink heißt netx.rom und kann nicht umbenannt
+werden. </p>
+
+<p>Mit dem Button Choose wählt man jetzt die Firmware aus und mit dem Button
+Upload kann man die neue Firmware dann einspielen.</p>
+
+<p>Nach dem Upload ist noch ein Reset nötig, damit die neue Firmware geladen
+wird. Es kann auch sein das ein zusätzliches Activate notwendig ist.</p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=Topologien></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Topologien </span></b></p>
+
+<p class=MsoNormal style='margin-left:14.2pt'><span style='font-family:Arial'>Die
+Vor und Nachteile der einzelnen Topologien sind in der unteren Tabelle
+aufgelistet:&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=586
+ style='width:439.4pt;margin-left:19.6pt;border-collapse:collapse'>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-family:Arial'><a href="#Kette">Kette</a></span></b></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-family:Arial'><a href="#Ring">Ring</a></span></b></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-family:Arial'><a href="#Net">Netzwerk</a></span></b></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-family:Arial'><a href="#RNet">Netzwerk <br>
+  redundant</a></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ausfall
+  eines einzelnen Devices erlaubt</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ausfall
+  mehrerer Devices erlaubt</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Ausfall
+  eines einzelnen Switches möglich</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Einfache&nbsp;
+  Leitungsunterbrechung erlaubt</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nur nach Switch</span></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Ja</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=227 valign=top style='width:6.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Mehrfache&nbsp;
+  Leitungsunterbrechung erlaubt</span></p>
+  </td>
+  <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nein</span></p>
+  </td>
+  <td width=94 valign=top style='width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nur nach Switch</span></p>
+  </td>
+  <td width=104 valign=top style='width:77.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:10.0pt;font-family:Arial'>Nur in einem Subnetz</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-left:14.2pt'><span style='font-family:Arial'>Die
+Topologie <i>Netzwerk</i> und <i>Kette</i> kann auch kombiniert werden, siehe <a
+href="#NetChain">heir</a>. Im Xlink-Netzwerk&nbsp; können handelsübliche
+Switches verwendet werden, sofern das Xlink-Netz nicht mit einem <a
+href="#IPMIX">IP-Netz kombiniert</a> wird.&nbsp; Beim Anschluss der Xlink-Greäte
+ist es egal ob X1 oder X2 benutzt wird. Ebenso ist es egal ob man eins-zu-eins
+Netzwerkskabel oder ausgekreuzte Kabel verwendet. <br>
+<br>
+Die folgenden Bilder zeigen wie einzelne Geräte zusammen geschalten werden
+können:</span></p>
+
+<p>&nbsp;</p>
+
+<p><a name=Kette></a><b><span style='font-family:Arial'>Kette</span></b></p>
+
+<p><span style='font-family:Arial'>Bei einer Kette sind alle XLink-Geräte in
+einer Daisy-Chain-Line zusammen geschalten, und nur über eine Netzwerkskarte an
+einem AX-Rechner angeschlossen. </span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=520 height=785 src=Line.gif></p>
+
+</blockquote>
+
+<p><a name=Ring></a><b><span style='font-family:Arial'>Ring</span></b></p>
+
+<p><span style='font-family:Arial'>Bei einem Ring sind alle XLink-Geräte in
+einer Daisy-Chain-Line zusammen geschalten. Das Ende der Linie wird auf die zweite
+Netzwerkskarte am AX-Rechner zurückgeführt. Bei einem redundanten Aufbau mit
+Master und Standby, müssen die beiden AX-Rechner über Switches mit der
+Daisy-Chain verbunden werden.</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p>&nbsp;</p>
+
+<p><img border=0 width=501 height=638 src=DaisyChain.gif></p>
+
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p><a name=Net></a><b><span style='font-family:Arial'>Netzwerk</span></b></p>
+
+<p><span style='font-family:Arial'>Bei einem Netzwerk ist jedes Xlink-Gerät an
+einem Port eines Switches angeschlossen. Damit lassen sich alle Arten von
+Baumtopologien realisieren.</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=499 height=533 src=Network.gif></p>
+
+</blockquote>
+
+<p><a name=RNet></a><b><span style='font-family:Arial'>Netzwerk (redundant) </span></b></p>
+
+<p><span style='font-family:Arial'>Bei einem rdundanden Netzwerk ist jedes
+Xlink-Gerät an einem Port eines Switches angeschlossen (grün). Der zweite
+Netzwerksanschluss der Xlink-Geräte wir an ein separates Subnetz angeschlossen
+(blau). Wenn nun ein Subnetz ausfällt, kann das zweite Subnetz die
+Kommunikation immer noch aufrecht erhalten.</span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=499 height=533 src=NetworkRed.gif></p>
+
+</blockquote>
+
+<p><a name=NetChain></a><b><span style='font-family:Arial'>Netzwerk mit
+Unterketten</span></b></p>
+
+<p><span style='font-family:Arial'>Bei einer Netzwerktopologie können auch
+einzelnen Ketten aus Xlink-Geräten an die Port der Switches angehängt werden.</span></p>
+
+<p>&nbsp;</p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=499 height=564 src=NetworkLine.gif></p>
+
+</blockquote>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p><a name=IPMIX></a><b><span style='font-size:18.0pt;font-family:Arial;
+color:blue'>Xlink-Netze mit Firmennetzen verbinden </span></b></p>
+
+<p><span style='font-family:Arial'>Wenn ein Xlink-Netzwerk mit einem normalen
+Firmen-Ip-Netzwerk gemischt werden soll, so müssen zwei VLAN's erstellt werden.
+Ein VLAN für den Xlink-Datenverkehr und das andere VLAN für den
+IP-Datenverkehr. Die eingesetzten Switches müssen daher VLAN fähig sein, und
+müssen so konfiguriert werden das der Xlink-Datenverkehr die höchste Priorität
+hat. Sollten die Switches diese beiden Optionen nicht unterstützen so kann für
+die ordnungsgemäße Funktion des Netzwerkes nicht garantiert werden. (näheres
+siehe in der <i>aXlink100</i> Dokumentation) </span></p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p><img border=0 width=498 height=277 src=IpNetwork.gif></p>
+
+</blockquote>
+
+<p><span style='font-family:Arial'>Auf den AX-Servern muss für die
+Xlink-Verbindung immer eine extra Netzwerkskarte verwendet werden.</span></p>
+
+<p><span style='font-family:Arial'>&nbsp;&nbsp;</span></p>
+
+<p>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

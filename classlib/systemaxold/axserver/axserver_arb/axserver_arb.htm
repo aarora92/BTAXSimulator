@@ -1,0 +1,442 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Microsoft Office\Office\html.dot">
+   <title>AutomationX Redundancy</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="773" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>AutomationX
+Redundancy</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br><a NAME="Features"></a>
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Redundancy panel displays the system's role in a redundancy 
+  scenario or as a standalone server, and the current network status.</font> 
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"><a href="#Class_Modification_History"></a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The axserver_arb class is comprised of the
+following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="150" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="214" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="223" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial">axserver_arb.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial,Helvetica">AXLedGreen.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGreenGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedRed.bmp</font>
+<br><font face="Arial,Helvetica">AXLedRedGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedYellow.bmp</font>
+<br><font face="Arial,Helvetica">AXLedYellowGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGrey.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGreyGR.bmp</font>
+<p><font face="Arial">(and&nbsp; some documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial">axserver_arb.htm</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><font size=-2>Table 1 - Redundancy class components</font></font>
+<p><font face="Arial"><b>Installation: </b>The&nbsp; files&nbsp; listed above 
+  must be copied to a common sub-directory within the project's "classlib" directory. 
+  The name of the common directory can be chosen freely.</font> 
+<p><br>
+  &nbsp; 
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"><a href="#Class_Modification_History"></a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><b><font face="Arial"><font size=+1>Redundancy display panel</font></font></b>
+<p><font face="Arial">The Redundancy panel displays the current role and
+status of its host (local) computer.</font>
+<p><img SRC="redundancy2.gif" ALT="redundancy2.gif (6600 bytes)" height=335 width=145>
+<p><font face="Arial">The LED display at the top of the panel indicates the current 
+  role by color. The following table provides a summary:</font> 
+<p><br>
+  &nbsp; 
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="60" BGCOLOR="#FFFFFF"><b><font face="Arial">LED Color</font></b></td>
+
+<td VALIGN=TOP WIDTH="333" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial">Yellow</font></td>
+
+<td VALIGN=TOP WIDTH="333"><font face="Arial">Host is designated as the
+Main Server.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial">Green</font></td>
+
+<td VALIGN=TOP WIDTH="333"><font face="Arial">Host is designated as the
+Standby Server or host is a stand alone server.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial">Blue</font></td>
+
+<td VALIGN=TOP WIDTH="333"><font face="Arial">There is a failure on the
+host computer.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="60"><font face="Arial">Red</font></td>
+
+<td VALIGN=TOP WIDTH="333"><font face="Arial">Host computer has lost its
+connection to the network.</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica"><font size=-2>Table 2 - Redundancy LED
+colors</font></font>
+<p><font face="Arial,Helvetica">Also, the Redundancy Display panel provides a 
+  number of messages to define different states of the local computer. The following 
+  table provides a summary:</font> 
+<p><br>
+  &nbsp; 
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="32" BGCOLOR="#FFFFFF"><b><font face="Arial">Message</font></b></td>
+
+<td VALIGN=TOP WIDTH="361" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Start"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">starting as the Main or Stand-By
+server.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Familiarization"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">initializing and establishing
+communication with the network.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Main Server"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">designated as the Main Server.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Stand-By Server"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">designated as the Standby
+Server.&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Prep Step-Back"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">preparing to relinquish control
+and become the Standby.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Prep Take-Over"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">preparing to take over as
+the Main Server.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Desensitized"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">will not assume control if
+the Master fails.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Failure"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">There is a failure on the
+host computer or network.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Stand-By Warmstart"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">Stand-By server is in Warmstart.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="32"><font face="Arial">"Standalone"</font></td>
+
+<td VALIGN=TOP WIDTH="361"><font face="Arial">Host is a stand alone server.</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica"><font size=-2>Table 3 - Redundancy messages</font></font>
+<p><font face="Arial,Helvetica">If the system is a standalone, the <b>TCP/IP</b>
+and <b>MIO-ProfiDP</b> displays will be inactive (“grayed” out). If a network
+is present, however, they will turn green for the active protocols and
+red if they are not connected. The TCP/IP also displays the IP address
+of the local computer.</font>
+<p><b><font face="Arial,Helvetica"><font size=+1>Redundancy popup window</font></font></b>
+<p><font face="Arial">The Redundancy (AX_ARB) popup </font><font face="Arial,Helvetica">contains 
+  local and remote system status, including network and redundancy card status 
+  (if the card is present).</font><font face="Arial"> </font><font face="Arial,Helvetica">The 
+  window can be opened on both a redundant</font><font face="Arial"> system or 
+  stand alone. It is divided into five sections:</font> 
+<ul>
+<li>
+<font face="Arial"><b>Local</b>: information about the host computer.</font></li>
+
+<li>
+<font face="Arial"><b>Remote</b>: information about the other connected
+computer.</font></li>
+
+<li>
+<font face="Arial"><b>Redundancy Card</b>: existence and state of any redundancy
+card on the host computer.</font></li>
+
+<li>
+<font face="Arial"><b>Control</b>: control commands for the host computer.</font></li>
+
+<li>
+<font face="Arial"><b>Settings</b>: various settings, timers and communication
+status.</font></li>
+</ul>
+<img SRC="redundancy_popup.gif" ALT="redundancy_popup.gif (12046 bytes)" height=569 width=391>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial">Local</font></b>
+<p><font face="Arial">At the top of the "Local" section is specific information
+about the local computer:</font>
+<ul>
+<li>
+<font face="Arial"><b>Hostname</b>: the name of the local computer.</font></li>
+
+<li>
+<font face="Arial"><b>TCP/IP</b>: the IP address currently assigned to
+the local computer's network card.</font></li>
+
+<li>
+<font face="Arial"><b>Configured</b>: "as Main Server" or "as Standby Server"
+depending on the local machine's current assignment.</font></li>
+</ul>
+<font face="Arial">The three indications provide the current <b>status
+of the local computer</b>, the <b>Soft PLC </b>and <b>RD Data</b> (redundancy
+communication).</font>
+<ul>
+<li>
+<font face="Arial">The <b>local computer status</b> is the same indication
+as the status display on the Redundancy panel. For details, see tables
+1 and 2 above.</font></li>
+
+<li>
+<font face="Arial">The <b>Soft PLC </b>status indicates a fault on the
+local Soft PLC by flashing red. If the local Soft PLC is running OK, the
+display is green.</font></li>
+
+<li>
+<font face="Arial">The <b>RD Data</b> status indicates a fault in redundancy
+communication by flashing red. If communication is OK, the display is green.</font></li>
+</ul>
+<font face="Arial">At the bottom of the "Local " section is information
+about
+<b>TCP/IP</b> and <b>MIO</b> communications. If there is an error
+in the TCP/IP connection to the remote computer, the "TCP" indication flashes
+red - otherwise it is green. Likewise with the ""MIO" indication. To the
+right is a tally of communication packets sent and received - to the remote
+computer - for each TCP and MIO.</font>
+<p><b><font face="Arial">Remote</font></b>
+<p><font face="Arial">At the top of the "Remote" section is specific information
+about the remote computer:</font>
+<ul>
+<li>
+<font face="Arial"><b>Hostname</b>: the name of the remote computer.</font></li>
+
+<li>
+<font face="Arial"><b>TCP/IP</b>: the IP address currently assigned to
+the remote computer's network card.</font></li>
+
+<li>
+<font face="Arial"><b>Configured</b>: "as Main Server" or "as Standby Server"
+depending on the remote machine's current assignment.</font></li>
+</ul>
+<font face="Arial">The three indications provide the current <b>status
+of the remote computer</b>, the <b>Soft PLC </b>and <b>RD Data</b> (redundancy
+communication).</font>
+<ul>
+<li>
+<font face="Arial">The <b>remote computer status</b> is the same indication
+as the status display on the Redundancy panel. For details, see tables
+1 and 2 above.</font></li>
+
+<li>
+<font face="Arial">The <b>Soft PLC </b>status indicates a fault on the
+local Soft PLC by flashing red. If the remote Soft PLC is running OK, the
+display is green.</font></li>
+
+<li>
+<font face="Arial">The <b>RD Data</b> status indicates a fault in redundancy
+communication by flashing red. If communication is OK, the display is green.</font></li>
+</ul>
+<b><font face="Arial">Redundancy Card</font></b>
+<p><font face="Arial">This section provides the status of the local computer's
+connection to the redundancy card. If the connection is OK the indication
+is green; if the connection is lost the indication is flashing red. If
+lost, the user can attempt to re-establish the connection by pressing the
+"Reset Red Card" button.</font>
+<p><b><font face="Arial">Control</font></b>
+<p><font face="Arial">The control section provides four toggle buttons
+to modify behavior of the local computer.</font>
+<ul>
+<li>
+<font face="Arial"><b>Take Ctrl</b>: allows the local machine to assume
+Main Server status.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Step Back</b>: allows the </font><font face="Arial">local
+machine</font><font face="Arial,Helvetica"> to relinquish control to another
+master.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Sensitive/De-Sensitive</b>: sets whether
+or not the </font><font face="Arial">local machine</font><font face="Arial,Helvetica">
+will assume control in the event of a failure on the master</font> <font face="Arial,Helvetica">system.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Reset</b>: resets the system back to its
+original state</font>.</li>
+</ul>
+<b><font face="Arial">Settings</font></b>
+<p><font face="Arial">The toggle button "<b>Lock Redundancy Alarms</b>"
+will suppress redundancy alarms from the local computer. This is useful
+during setup and system configuration.</font>
+<p><font face="Arial">There are three "timeout" setpoints available here:
+Takeover, Soft PLC and RD Connection.</font>
+<ul>
+<li>
+<font face="Arial"><b>Takeover Timeout:</b> time limit for the local to
+assume control as the Main Server.</font></li>
+
+<li>
+<font face="Arial"><b>Soft PLC Timeout</b>: an error occurs if communication
+between the local Soft PLC and remote Soft PLC is inactive beyond this
+setting.</font></li>
+
+<li>
+<font face="Arial"><b>RD Connection Timeout</b>: error occurs if the data
+between the Main and Standby servers is not exchanged within this time.</font></li>
+</ul>
+<p><font face="Arial"><b>Peak Detection</b> is the longest amount of time (seconds) 
+  that it took to receive communication from the remote computer. "Reset Peak" 
+  resets this time to 2 seconds. Receive Delay is a live register of the delay 
+  time between data receipts from the remote computer.</font> </p>
+<p><b><font face="Arial, Helvetica, sans-serif">Stand Alone servers</font></b></p>
+<p><font face="Arial, Helvetica, sans-serif">The Redundancy Panel indicates when 
+  automationX is running on a standalone server and without a redundancy card. 
+  </font></p>
+<p><img src="standalone.gif" width="300" height="438"></p>
+<p>&nbsp;</p>
+<p><b><font face="Arial"><font size=+1>Trending</font></font></b>
+<p><font face="Arial">The Redundancy class is preconfigured to trend the
+following variables:</font>
+<ul>
+<li>
+<font face="Arial"><b>takeover_tout</b> (take over timeout)</font></li>
+
+<li>
+<font face="Arial"><b>softplc_tout</b> (Soft PLC timeout)</font></li>
+
+<li>
+<font face="Arial"><b>rdconn_tout</b> (Redundancy connection timeout)</font></li>
+
+<li>
+<font face="Arial"><b>recv_peak_det</b> (Peak detection timeout)</font></li>
+
+<li>
+<font face="Arial"><b>recv_delay</b> (Receive delay time)</font></li>
+</ul>
+
+<p><img SRC="trend.gif" ALT="trend.gif (16266 bytes)" height=457 width=832>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"><font size=+1><a href="#Class_Modification_History"></a></font></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial,Helvetica">The Redundancy class is an integral part
+of the "axsystem" program. In terms of implementation it is required to
+have the "axsystem.tree" program installed into the running project. I.e.
+in the "Configuration" directory of the Project Window.</font>
+<p><img SRC="Project.gif" ALT="Project.gif (8945 bytes)" height=261 width=697>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

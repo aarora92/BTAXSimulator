@@ -1,0 +1,334 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Daniel Schoyen">
+   <title>ModbusSA85 Master</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="604" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>ModbusSA85
+Master</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a></font>
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The ModbusSA85 Master class establishes communication
+with a Modbus Plus network using distributed automationX Modbus Plus drivers.
+It's role is to provide the routing path, server selection, indications
+for the state of communication, and create a link for the Modbus Plus clients;
+sending and receiving data to and from the network.</font>
+<p><font face="Arial">The ModbusSA85 Master class includes the following
+features:</font>
+<ul>
+<li>
+<b><font face="Arial">Configurable Modbus Plus Routing</font></b></li>
+
+<li>
+<b><font face="Arial">Server Selection</font></b></li>
+
+<li>
+<b><font face="Arial">Data Send/Recieve Status</font></b></li>
+
+<li>
+<b><font face="Arial">Connection Status and Runtime Messages</font></b></li>
+
+<br><b><font face="Arial">Online Technical Documentation</font></b></ul>
+
+<p><br><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The ModbusSA85 class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes class specific color
+definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusSA85.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class definition file (generated
+by automationX); includes graphical representation, user interface, internal
+control logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusSA85.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files</font>
+<br><font face="Arial">for class operation,</font>
+<br><font face="Arial">physical appearance and&nbsp; documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">axclassdoku16.bmp</font>
+<br><font face="Arial,Helvetica">axinstanzdoku16.bmp</font>
+<br><font face="Arial,Helvetica">ax_icon.bmp</font>
+<br><font face="Arial,Helvetica">ax_iconhelp.bmp</font>
+<br><font face="Arial,Helvetica">axledgreen.bmp</font>
+<br><font face="Arial,Helvetica">axledgreengr.bmp</font>
+<br><font face="Arial,Helvetica">axledred.bmp</font>
+<br><font face="Arial,Helvetica">axledredgr.bmp</font>
+<br><font face="Arial,Helvetica">axledgrey.bmp</font>
+<br><font face="Arial,Helvetica">axledgreygr.bmp</font>
+<br><font face="Arial,Helvetica">iconhelp.gif</font>
+<br><font face="Arial,Helvetica">titlebarback.gif</font>
+<br><font face="Arial,Helvetica">errologic.gif</font>
+<br><font face="Arial,Helvetica">routingpath.bmp</font>
+<br><font face="Arial,Helvetica">routingpathdeclare.bmp</font>
+<br><font face="Arial,Helvetica">selectserver.bmp</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusSA85.htm</font></td>
+</tr>
+
+<tr ALIGN=LEFT VALIGN=TOP>
+<td><b><font face="Arial,Helvetica">Enum File</font></b></td>
+
+<td><font face="Arial,Helvetica">Enumerator information for selectors</font></td>
+
+<td><font face="Arial,Helvetica">ModbusSA85.enum</font></td>
+</tr>
+</table>
+<font face="Arial"><b>Installation: </b>All of the above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>User
+Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The unique name indentifier ($Instance)
+is shown on the top of the graphical representation. Below this some displays
+are located.</font>
+<p><img SRC="ModbusSA85.gif" height=482 width=251>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical Representation</font></font><font face="Arial,Helvetica"></font>
+<p><b><font face="Arial">Communication Status</font></b>
+<p><font face="Arial">Indicators for communication status:</font>
+<ul>
+<li>
+<font face="Arial">Network Status: green = ok; flashing red = problem communicating
+with network</font></li>
+
+<li>
+<font face="Arial">Receive: green = receiving signal from Modbus network</font></li>
+
+<li>
+<font face="Arial">Send: green = sending signal to Modbus Network</font></li>
+</ul>
+<b><font face="Arial">Routing Path</font></b>
+<p><font face="Arial">See <a href="#ImplementationNotes">Implementation
+Notes </a>- Modbus Routing.</font>
+<p><b><font face="Arial">Server Selection</font></b>
+<p><font face="Arial,Helvetica">The ModbusSA85 Master allows a choice of
+servers for communication:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><i>Server</i> - communication is active only
+when the station is the main server.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><i>Standby</i> - communication is active only
+when the station is the backup server.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><i>Both - </i>communication is always active
+regardless of the station's current state.</font></li>
+</ul>
+<b><font face="Arial,Helvetica">Connection Status and Runtime Messages</font></b>
+<p><font face="Arial,Helvetica">Communication status and messages are provided
+in the lower portion of the graphical interface. The error indication is
+linked to two bits from within the class: <i>InitError</i> and <i>HardwareError</i>.
+Both bits are driven by the automationX Modbus software; the InitError
+bit indicates a configuration error (invalid routing) while the HardwareError
+bit indicates a problem communicating with the SA85 card or a network node.</font>
+<p><font face="Arial,Helvetica">The runtime messages are linked to the
+StatusString variable in the class. This variable receives messages from
+the automationX Modbus Plus software during runtime. Possible messages
+- and their meanings - are:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">"Initialize-Phase" - initialization during
+a warmstart sequence.</font></li>
+
+<li>
+<font face="Arial,Helvetica">"Open Path (ADD_NAME)" - trying to establish
+a connection to MB+ device</font></li>
+
+<li>
+<font face="Arial,Helvetica">"Lost Connection..." - communication to MB+
+lost</font></li>
+
+<li>
+<font face="Arial,Helvetica">"No Connection - Wrong Parameter" - invalid
+setting on the SA85 card (address) or invalid routing</font></li>
+
+<li>
+<font face="Arial,Helvetica">"Send" - send state</font></li>
+
+<li>
+<font face="Arial,Helvetica">"Receive" - receive state</font></li>
+</ul>
+<font face="Arial,Helvetica">Figure 2 shows the operator popup, which is
+envoked by selecting the graphical representation. This popup shows also
+the routing path and the connection status like the graphical representation
+but moreover the server can be selected and the documentation can be opened.</font><font face="Arial,Helvetica"></font>
+<p><img SRC="ModbusSA85_pop.gif" height=261 width=178>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 2: Operator popup</font></font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><b><font face="Arial,Helvetica">Hardware</font></b>
+<p><font face="Arial,Helvetica">Ensure proper installation of the Modicon
+SA85 card. Consult technical documentation provided by Modicon for detailed
+installation instructions.</font>
+<p><b><font face="Arial,Helvetica">Modicon Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The SA85 device includes a set of software
+programs required for proper installation. These include devices drivers,
+setup programs, a library of C functions for Modicon's NetBIOS implementation,
+a diagnostic utility and sample programs for addressing and data transfers.</font>
+<p><b><font face="Arial,Helvetica">automationX Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The aX Modbus Plus class set includes driver
+&amp; application software - two files - located in the "automationX/bin"
+directory:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">MBSA85.axx</font></li>
+
+<li>
+<font face="Arial,Helvetica">ModbusDLL.dll</font></li>
+</ul>
+
+<p><br><b><font face="Arial,Helvetica">ModbusSA85 Master Class</font></b>
+<p><font face="Arial,Helvetica">Take the following steps to configure the
+ModbusSA85 class:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">Assign an instance name to the ModbusSA85
+object that will uniquely identify it.</font></li>
+
+<li>
+<font face="Arial,Helvetica">Assign routing to the RoutingPath variable.
+Include declaration for path type. E.g. DM.5.0.0.0.0</font></li>
+</ul>
+
+<p><br><b><font face="Arial,Helvetica">Troubleshooting</font></b>
+<p><font face="Arial,Helvetica">Please see <i>Troubleshooting</i> in the
+Modbus Plus Overview if problems are encountered.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="ImplementationNotes"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><font face="Arial">Modbus Plus Routing</font></b>
+<p><font face="Arial">Modbus Plus nodes use a <i>five byte</i> routing
+path&nbsp; - embedded in a Modbus Plus message - to address each other.
+This allows routing to destination nodes up to four networks away from
+the original node. Consider the following figure:</font>
+<br><img SRC="RoutingPath.gif" BORDER=0 height=305 width=400>
+<br>&nbsp;
+<p><font face="Arial">This example shows routing to a controller through
+three networks - connected by two bridge devices. According to the path,
+the message is first sent to node 20; a bridge on the local network. That
+bridge forwards the message to a second bridge - at node 12 on the second
+network. The second bridge forwards the message to its destination - a
+controller at node 10 on the third network. A value of 0 for addresses
+4 and 5 indicates no further routing.</font>
+<p><font face="Arial">Each network device uses the routing bytes in a specific
+way. The following section describe the differences:</font>
+<br>&nbsp;
+<ul>
+<li>
+<font face="Arial">For <i>984 Programmable Controllers,</i> the last non-zero
+byte specifies the network node address of the controller (range: 1 ...
+64). For example, the routing path 4.0.0.0.0 routes to address 4 on the
+local network.</font></li>
+
+<li>
+<font face="Arial">For <i>Network Adapters</i> - such as SA85 - the path
+up to and including the adapter's node address specifies the routing. The
+first byte after the adapter's node address specifies an internal path
+or task (range: 1 ... 8). Bytes after the task byte control custom applications
+within the adapter's host program (range: 1 ... 255). For example, the
+path 25.6.100.0.0 specifies routing to path 6 in an adapter at node address
+25. The 100 is used for further application in the host program.</font></li>
+
+<li>
+<font face="Arial">For <i>Bridge Multiplexors</i>, the routing is specific
+to the slave device configuration at the Multiplexor's port. A single slave
+device is addressed using two bytes. The second to last non-zero byte specifies
+the node (range: 1 ... 64), while the last non-zero byte specifies the
+port (range: 1 ... 4). Specifying the port automatically addresses the
+device at that port. For example, a path 25.1.0.0.0 routes a message to
+the single slave device at a Bridge multiplexor's port 1.A network slave
+device at the multiplexor's port is addressed using a third byte. The last
+non-zero byte specifying the Modbus address of the slave device (range:
+1 ... 247). For example, a path 25.1.200.0.0 routes a message to multiplexor
+node address 25, port 1, slave device 200.</font></li>
+</ul>
+<b><font face="Arial">Declaring a Path Type</font></b>
+<p><font face="Arial">The ModbusSA85 Master class uses the <i>Data Master</i>
+(DM) path type; enabling reads and writes to the Modbus Plus network. This
+type must be declared - included in the routing path - as "DM". For example,
+DM.5.0.0.0.0</font>
+<p><b><font face="Arial">Changing the Routing Path</font></b>
+<p><font face="Arial">The routing path in the ModbusSA85 Master exists
+in two states: <i>Init</i> and <i>Online</i>. Init is the initial or startup
+value. Online is a retentive value that can be changed while the system
+is running, overwriting the Init value. Routing is declared in the <i>RoutingPath</i>
+variable under the Server Data list.</font>
+<p><font face="Arial">The <i>initial</i> routing configuration requires
+the RoutingPath variable be changed from the ModbusSA85 object in the aX-Builder
+- i.e. editing the program. The Online routing configuration can be changed
+- while the program is running - using the Explorer window.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+</body>
+</html>

@@ -1,0 +1,17 @@
+2019-03-01 00:00:00-493	0	Original-BatchTrack	0	SWING - Omni strobe sent	r	BTAXSA
+2019-03-01 00:00:00-694	0	Original-BatchTrack	1	SWING - ESSO signal sent	r	BTAXSA
+2019-03-01 00:00:10-921	0	Original-BatchTrack	1	SWING - TDC signal sent	r	BTAXSA
+2019-03-06 16:59:22-665	0	Original-BatchTrack	0	Omni product code changed	guest	BTAXSA
+2019-03-06 17:05:18-857	0	Original-BatchTrack	0	Omni product code changed	guest	BTAXSA
+2019-03-11 13:05:26-743	0	BatchTrackLogic	1	Batch start request from TDC	r	BTAXSA
+2019-03-11 13:05:26-743	0	Original-BatchTrack	1	Batch start request from TDC	r	BTAXSA
+2019-03-11 13:05:27-746	0	BatchTrackLogic	1	Batch start return sent to TDC	r	BTAXSA
+2019-03-11 13:05:27-947	0	Original-BatchTrack	1	Batch start return sent to TDC	r	BTAXSA
+2019-03-11 13:07:00-946	0	Batch3	0	Omni product code changed	r	BTAXSA
+2019-03-11 13:07:04-755	0	Original-BatchTrack	0	Omni product code changed	r	BTAXSA
+2019-03-11 13:09:02-206	0	Batch3	66	SWING - Omni strobe sent	r	BTAXSA
+2019-03-11 13:09:02-206	0	Batch3	1	SWING - ESSO signal sent	r	BTAXSA
+2019-03-11 13:09:05-614	0	Original-BatchTrack	66	SWING - Omni strobe sent	r	BTAXSA
+2019-03-11 13:09:05-813	0	Original-BatchTrack	1	SWING - ESSO signal sent	r	BTAXSA
+2019-03-11 13:09:12-227	0	Batch3	1	SWING - TDC signal sent	r	BTAXSA
+2019-03-11 13:09:16-036	0	Original-BatchTrack	1	SWING - TDC signal sent	r	BTAXSA

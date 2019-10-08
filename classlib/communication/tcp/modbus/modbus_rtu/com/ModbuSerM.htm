@@ -1,0 +1,341 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>ModbusSerM</TITLE>
+<META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<P><A NAME="top"></A></P>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=652>
+<TR><TD VALIGN="TOP" BGCOLOR="#808080" HEIGHT=53>
+<P><B><FONT FACE="Arial" SIZE=7 COLOR="#ffffff">ModbusSerM</B></FONT></TD>
+</TR>
+</TABLE>
+
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Features"></A>Features</B></FONT> </P>
+<FONT FACE="Arial"><P>The Modbus Master symbol communicates with Modbus Slaves via the <STRONG>standard serial Interface</STRONG>.<BR>
+It uses Modbus Client classes as database -&gt; see Configuration.<BR>
+<BR>
+</FONT><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> </P>
+</FONT><P><HR ALIGN="LEFT" WIDTH="75%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Class_Components"><A NAME="Installation"></A></A>Components and Installation</B></FONT> <BR>
+&nbsp; <BR>
+&nbsp;<FONT FACE="Arial">The ModbusSerM class is comprised of the following components (files):</FONT> </P>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH=621>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P><B><FONT FACE="Arial">Class Component</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP" BGCOLOR="#ffffff">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP" BGCOLOR="#ffffff">
+<B><FONT FACE="Arial"><P>File Name(s)</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Class File</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Includes the process picture representation and any popup menus.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>ModbusSerM.symbol</FONT> </P>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Graphic Files</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Class Specific Graphic Files for documentation.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>ModbusSerM_GUI.gif</P>
+<P>ModbusSerM _POP.gif</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>HTML-Document</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>HTML document for Online Help.</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>ModbusSerM.htm</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<B><FONT FACE="Arial"><P>Enum-File</B></FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP">
+<FONT FACE="Arial"><P>Enumerator file</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<FONT FACE="Arial"><P>ModbusSerM.enum</FONT></TD>
+</TR>
+</TABLE>
+
+<B><FONT FACE="Arial"><P>Installation: </B>The above listed files must be copied into a common sub-directory<BR>
+within the project's "classlib" directory. The name of the common directory can be chosen freely.</FONT> <BR>
+<BR>
+<A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> </P>
+</FONT><P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="UserInterface"></A>Graphical User Interface</B></FONT> <BR>
+&nbsp; <BR>
+<FONT FACE="Arial">The ModbusSerM class represents an actual master module. The instance name of the module will appear&nbsp; in white text on the top right of the symbol. The title will change from green to flashing red if an error occurs. </P>
+<P>The symbol is divided into four sections:</P>
+<OL>
+
+<LI>Communication Nr. e.g. COM 1, COM 2, ...</LI>
+<LI>Client Information<BR>
+The Instance name, the Modbus Function, array Nr. and Modbus address of the actual Modbus client <BR>
+is displayed.</LI>
+<LI>Frame counts<BR>
+Number of sent and received frames.</LI>
+<LI>State string <BR>
+Informational string.</LI></OL>
+
+</FONT><P>&nbsp;<IMG SRC="ModbusSerM_GUI.gif" WIDTH=308 HEIGHT=216></P>
+<P><small><FONT FACE="Arial">Figure 2: Graphical Representation</FONT> </small><BR>
+&nbsp; </P>
+<FONT FACE="Arial"><P>The <STRONG>PopUp</STRONG> is invoked by selecting the graphical representation. It shows the communication settings and the actual client. To activate the symbol the Select button must be on. On the top of the PopUp the communication settings are displayed. </P>
+</FONT><P><IMG SRC="ModbusSerM_POP.gif" WIDTH=260 HEIGHT=272></P>
+<P><small><FONT FACE="Arial">Figure 3: The communication PopUp</small></FONT> </P>
+<P>&nbsp;<A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> </P>
+</FONT><P><HR ALIGN="LEFT" WIDTH="90%"></P>
+<B><FONT FACE="Arial" SIZE=6 COLOR="#0000ff"><P><A NAME="Configuration"></A>Configuration</B></FONT> </P>
+<FONT FACE="Arial"><P>The following table lists the configuration parameters for the ModbusM symbol. The parameter data type, the default values and a brief description are listed. The grey shaded rows are parameters which must not be changed.</FONT> </P>
+<TABLE BORDER CELLSPACING=1 WIDTH=718>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<P ALIGN="CENTER"><FONT FACE="Arial">Item</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P>Variable</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P ALIGN="CENTER">Type </FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P ALIGN="CENTER">Default </FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=21>
+<FONT FACE="Arial"><P>Description</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>1</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>com_port</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>USINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>0</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Number of the communication port</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>3</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>baudrate</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Baudrate_Serial</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>BD_1200</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Baudrate</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>4</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>databits</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Databits_Serial</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>DATABITS_8</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Databits</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>5</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>stopbits</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Stopbits_Serial</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>NO_STOPBIT</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Stopbit</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>6</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>parity</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Parity_Serial</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>PARITY_NON</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Parity</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>7</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>communication</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>CommType</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>RS232</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>Informational communication enumerator </FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>8</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>response_timeout</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>UINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>50</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=22>
+<FONT FACE="Arial"><P>Response timeout from uP</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>9</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>slave_timeout</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>UINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>5</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Slave timeout in seconds</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>10</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>select</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>BOOL</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>NO</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Symbol selection</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>11</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>reset</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>BOOL</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>NO</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT FACE="Arial"><P>Resets the communication</P>
+<P>and the symbol</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>12</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>state</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>USINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>0</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>State of communication</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>13</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>state_string</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>STRING</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>State string of communication</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>14</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>send_frame</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>UDINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>0</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Send frame counter</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>15</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>receive_frame</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>UDINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>0</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Receive frame counter</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>16</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>current_client</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>USINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>0</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Array index from the active client</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>17</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>current_function</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>MB_Function</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Current function of activated client</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>18</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>current_address</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>USINT</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Current address of activated client</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P>19</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P>client_name</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P>STRING</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=27>
+<FONT FACE="Arial"><P>String array of client instance names</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>20</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>error</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>ALARM</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>NO</FONT></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Error var</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>21</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>local_struct</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>POINTER</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Internal pointer for the local structure</FONT></TD>
+</TR>
+<TR><TD WIDTH="5%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>22</FONT></TD>
+<TD WIDTH="19%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>SPS_Cycle</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>code</FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27><P></P></TD>
+<TD WIDTH="50%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT FACE="Arial"><P>Run the AXX function</FONT></TD>
+</TR>
+</TABLE>
+
+<B><FONT FACE="Arial"><P>The Modbus Master uses Modbus Clients (ModbusCL.class) as database.<BR>
+You must install at least one Modbus Client to communicate with a slave.<BR>
+Then fill in its Instance name into the Client name array of the Modbus Master.</P>
+</B></FONT><P><A HREF="#Features"><FONT FACE="Arial" SIZE=4>Features</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Installation"><FONT FACE="Arial" SIZE=4>Installation</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#UserInterface"><FONT FACE="Arial" SIZE=4>User Interface</FONT></A><FONT FACE="Arial" SIZE=4> | </FONT><A HREF="#Configuration"><FONT FACE="Arial" SIZE=4>Configuration</FONT></A><FONT FACE="Arial" SIZE=4> </P>
+</FONT><P><HR ALIGN="LEFT" WIDTH="90%"></P></BODY>
+</HTML>

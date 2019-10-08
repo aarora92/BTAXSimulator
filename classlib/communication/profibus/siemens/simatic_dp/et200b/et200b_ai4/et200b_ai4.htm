@@ -1,0 +1,270 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>et200b_ai4</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+<a NAME="top"></a>
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="583" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Analog
+Input et200b_ai4</font></font></font></b></td>
+</tr>
+</table>
+<b><font face="Arial"><font color="#0000FF"><font size=+3>Features</font></font></font></b>
+<p><font face="Arial">The et200b_ai4 includes four analog inputs.</font>
+<br>&nbsp;
+<p><font face="Arial"><font size=+1><a href="#top">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+3>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The et200b_ai4 class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes some class specific
+color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%">&nbsp;<font face="Arial">et200b_ai4.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">et200b_ai4.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<p><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<p><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<p><font face="Arial">axservice16.bmp</font>
+<p><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<p><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<p><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">et200b_ai4.htm</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Installation: </font>The above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</b>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><font size=+1><a href="#top">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font></font>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The et200b_ai4 class represents an actual compact
+dp slave profibus module. The class name appears on the left top. When
+the module is not connected or not valid, the classname will flash red.
+The instance name of the module is shown on the left in the light blue
+label area. The names of the I/O points will appear in small black text
+just to the left of their corresponding channel, in the light blue area
+of the module.</font>
+<br>&nbsp;
+<p><img SRC="et200b_ai4_default.gif" height=340 width=320>
+<br><font face="Arial"><font size=-1>Figure 2: Graphical Representation</font></font>
+<p>&nbsp;<font face="Arial,Helvetica">In the upper right corner of the
+graphical representation can be found the power (RUN), bus fault (BF) and
+diagnosis display (ON).</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=3 CELLPADDING=3 WIDTH="700" >
+<tr>
+<td VALIGN=CENTER WIDTH="25%"><b><font face="Arial,Helvetica">Indication</font></b></td>
+
+<td VALIGN=CENTER WIDTH="15%"><b><font face="Arial,Helvetica">State</font></b></td>
+
+<td VALIGN=CENTER WIDTH="70%"><b><font face="Arial,Helvetica">Condition</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="25%"><font face="Arial,Helvetica">RUN</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">green</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Power is on</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">Bus Fault</font>
+<br><font face="Arial,Helvetica">(BF)</font></td>
+
+<td><font face="Arial,Helvetica">red flashing</font>
+<p><font face="Arial,Helvetica">red</font></td>
+
+<td><font face="Arial,Helvetica">Wrong parameterization - no data transfere
+beteween DP master and compact profibus DP slave</font>
+<br><font face="Arial,Helvetica">Wrong baud rate or DP-address</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><font face="Arial,Helvetica">DIA</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">red</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Assigns module error</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">Figure 2 shows the <b>Address Popup</b>,
+which is invoked by a mouse click on the slave unit of the graphical representation.
+The popup displays the profibus address and the actual state of the module.
+From here, you can change the profibus address, reset the module plus open
+the HTML documentations.</font>
+<p><img SRC="et200b_ai4_dpcfg.gif" height=245 width=178>
+<br>&nbsp;<font face="Arial,Helvetica"><font size=-1>Figure 2: The Address
+PopUp</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Figure 3 shows the <b>Error Popup</b>,
+which will invoke if there are any new errors. The popup will display the
+actual errors plus error messages.</font>
+<p><img SRC="et200b_ai4_errorpopup.gif" height=229 width=291>
+<br>&nbsp;<font face="Arial,Helvetica"><font size=-1>Figure 3: The Error
+PopUp</font></font>
+<br>&nbsp;
+<p><font face="Arial">The <b>Force PopUp's</b> are invoked by selecting
+</font><font face="Arial,Helvetica">the
+I/O point area in the light blue label</font><font face="Arial"> on the
+graphical representation. The "Norm/Force" button allows each channel to
+be set to force mode to simulate its value, which is necessary so that
+PLC-programs can be tested when there is no connection to the I/O. The
+value of each channel is then simulated/forced with the "ON/OFF" button
+in the respective section (channel). This button is only active if the
+"Norm/Force" button is set to "Force".</font>
+<p><font face="Arial">Figure 4b:</font>
+<br><font face="Arial">If a channel will be forced, the specific channel
+will get a yellow colored rectangle. In force-state the pen-color of the
+gauges is yellow.</font>
+<p><img SRC="et200b_ai4_popup.gif" height=581 width=414>
+<p><font face="Arial"><font size=-1>Figure 4: The Force PopUp</font></font>
+<br>&nbsp;
+<p><img SRC="et200b_ai4_forced.gif" BORDER=0 height=344 width=667>
+<p><font face="Arial"><font size=-1>&nbsp;Figure 4b: User-Interface in
+forced state</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">Figure 5 shows the <b>Object Explorer</b> in online
+mode (click Shift + Right mouse button on the module to invoke the Object
+Explorer). The user can see where the instance name and remarks are declared.
+A red rectangle indicator appears to the right of the I/O name if the module
+is NOT VALID. The indicator will not be present if the channel is forced
+or when the module is VALID.</font>
+<p><img SRC="et200b_ai4_explorer.gif" height=970 width=616>
+<br><font face="Arial"><font size=-1>Figure 5: The Object Explorer</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="et200b_ai4_rangecfg.gif" height=136 width=598><img SRC="et200b_ai4_rangeenum.gif" height=141 width=150>
+<br>Figure 6:&nbsp; range-selection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Figure 6b:&nbsp; range-enum
+<p><font face="Arial,Helvetica">You can make for each channel another range-configuration.
+Figure 6b show the possibilities of the range-configuration.</font>
+<br><font face="Arial,Helvetica"><u>Example</u>: In Figure6-Range[0]&nbsp;
+is a voltage-range&nbsp; +/- 1,25V&nbsp; configured.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><font size=+1><a href="#top">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+<p><a NAME="implementation"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Implementation
+Notes</font></font></font></b>
+<p><b><u><font face="Arial,Helvetica"><font size=+1>How to Create the profibus
+Slave</font></font></u></b>
+<p><font face="Arial,Helvetica">The first step is to configure a Profibus
+Slave module. To create a Profibus Slave, take the following steps:</font>
+<p><b><font face="Arial,Helvetica">Step 1</font>:</b>
+<br><font face="Arial,Helvetica">Select the Profibus Slave class and drop
+an instance of it into the picture window</font>
+<p><b><font face="Arial,Helvetica">Step 2</font>:</b>
+<br><font face="Arial,Helvetica">With the slave object selected, enter
+a unique instance name and remark in the declaration field, in the configuration
+panel.</font>
+<p><i><font face="Arial,Helvetica">When you are naming I/O modules, be
+sure to assign meaningful names that you will be able to recognize later.
+For example, the Profibus Slave should at least be given an address number:</font></i>
+<br>&nbsp;
+<ul>
+<li>
+<i><font face="Arial,Helvetica">Instance name = et200b_ai4</font></i></li>
+</ul>
+<img SRC="et200b_ai4_instance.gif" height=115 width=618>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 4: Declaration for
+the Profibus Master</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Step3:</font></b>
+<br><font face="Arial,Helvetica">Open the Server Data tab. Find the resource
+called "master" in the data list. Click the value field with the left mouse
+button.</font>
+<p><i><font face="Arial,Helvetica">Automationx automatically detects the
+master and present it in a drop down list.</font></i>
+<p><font face="Arial,Helvetica">Choose the master name from the list.</font>
+<p><img SRC="et200b_ai4_mastersel.gif" height=152 width=695>
+<br><font face="Arial,Helvetica"><font size=-1>Figure5: Assign the master</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Step 4</font>:</b>
+<br><font face="Arial,Helvetica">Find the resource called "address" in
+the Server Data list. Use the increment/decrement arrows to set the address
+number of the slave.</font>
+<p><i><font face="Arial,Helvetica">For example, if the address of the slave
+class were 4 you need set the number to 4. When you save the display, you
+will see this number reflected on the object`s "counter".</font></i>
+<p><img SRC="et200b_ai4_slaveaddr.gif" height=32 width=580>
+<p><font face="Arial,Helvetica"><font size=-1>&nbsp;Figure 6: Assign the
+Profibus Slave address</font></font>
+<p><font face="Arial"><font size=+1><a href="#top">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

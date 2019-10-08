@@ -1,0 +1,524 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>Siemens Analog Input sm331_ai2</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="924" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Analog
+Output sm332_ao4 x 16Bit</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<br><a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">This analog output module SM 332 AO4 includes
+four outputs with a resolution of 16 bit. It can be used in a S7-300 or
+in a Profibus DP Slave-System (ET200M IM153).</font>
+<br><font face="Arial,Helvetica">The module converts the digital value
+to a analog process signal with its resolution.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The sm332_ao4 class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Defines the local color for
+the class.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm332_ao4_16bit.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup</font>
+<br><font face="Arial">menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm332_ao4_16bit.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td><b><font face="Arial">Enumerator File</font></b></td>
+
+<td><font face="Arial">Defines the enumerator for the class.</font></td>
+
+<td><font face="Arial">sm332_ao4_16bit</font><font face="Arial,Helvetica">.enum</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial">axparam_grey16.bmp</font>
+<br><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<br><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">sm332_ao4_16bit.htm</font></td>
+</tr>
+</table>
+<b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<br>&nbsp;
+<p><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The SM332 AO4 user interface includes a
+process picture representation and several popup menus. The SM332 AO4 process
+representation is shown in Figure 2. The SM332 AO4 popup menus include
+the operater interface, shown by Figure 3.</font>
+<p><font face="Arial,Helvetica">The SM332 AO4 process picture has a unique
+name identifier ($Instance) for the SM332 AO4 displayed in the middle of
+the picture (SM332_4AO). Each channel is visualized by a slider and a value
+display. The two of the four channels are displayed above the unique name
+identifier and the other two below. If a channel's value is forced by using
+the operater interface the rectangle above the value display change its
+color to red. The rectangle at the top right signalled a service fault
+and the black rectangle at the bottom left shows the module position.</font>
+<p><img SRC="sm332_ao4_Graph.gif" height=544 width=204>
+<br><font face="Arial"><font size=-1>Figure 2: SM332 AO4 Graphical Representation</font></font>
+<p><font face="Arial,Helvetica"><font color="#000000">Using the left mouse
+button down at one of sliders on SM332 AO4 process representation causes
+the Operations Interface window, Figure 3, to be</font></font>
+<br><font face="Arial,Helvetica"><font color="#000000">opened on the computer
+screen.</font></font>
+<p><img SRC="sm332_ao4_Popup.gif" height=589 width=410>
+<p><font face="Arial"><font size=-1>Figure 3: SM332 AO2 Operations Interface</font></font>
+<p><font face="Arial,Helvetica">The SM332 AO4 operater graphic also includes
+the Instance name or the Analog Output SM332 AO4 and below it there is
+a comment describing the Analog Output unit. The button which hosts the
+Instance name and the comment can close the popup.</font>
+<p><font face="Arial,Helvetica">The operater interface is splitted in four
+parts, for each channel one. The right slider shows always the real output
+value. With the button at the bottom of each channel section the mode could
+be changed from normal mode to force mode. Then the output value can be
+force by the left slider which isn't sensitive as long as the button shows
+"Norm". This means that output value is simulated with a variable value
+edited by a slider to test the plc programs without any I/O's.</font>
+<p><font face="Arial,Helvetica">The right text above the channel section
+signalled whether the module or the data is valid. This text dis appear
+only if the module and the data is valid.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<br>&nbsp;
+<p><a NAME="Configuration"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the Analog Input</font>
+<br><font face="Arial">SM332 AO4. The parameter data type, the default
+values and a brief</font>
+<br><font face="Arial">description are listed. The grey shaded rows cotains
+parameters which must</font>
+<br><font face="Arial">not be changed.</font>
+<br>&nbsp;
+<table BORDER CELLPADDING=2 WIDTH="860" BGCOLOR="#FFFFFF" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Item</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Variable</font></b></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Type</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#FFFFFF">
+<center><b><font face="Arial,Helvetica">Default</font></b></center>
+</td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">1</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">CH0</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Output
+channel 0&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">2</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">CH1&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">REAL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Output
+channel 1</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">3</font></td>
+
+<td><font face="Arial,Helvetica">CH2</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Output channel 2</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">4</font></td>
+
+<td><font face="Arial,Helvetica">CH3</font></td>
+
+<td><font face="Arial,Helvetica">REAL</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Output channel 3</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">5</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">Connection</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">...</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#FFFFFF"><font face="Arial,Helvetica">With
+the instance name of the following unit the next unit will be connected
+to this one.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">6</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">DataValid</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">YES
+if the profibus DP communication is valid.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">7</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">OutputData[8]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Output
+data array used by profibus DP and handles the analog outputs of this module.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">8</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">ModuleValid</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="42" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">YES
+if the module itself has no error.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">9</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">error_msg[10]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">...</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Error
+message array.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">10</font></td>
+
+<td><font face="Arial,Helvetica">ModulePosition</font></td>
+
+<td><font face="Arial,Helvetica">USINT&nbsp;</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Shows the position of the module in an
+order.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">11</font></td>
+
+<td><font face="Arial,Helvetica">ModuleName</font></td>
+
+<td><font face="Arial,Helvetica">STRING</font></td>
+
+<td><font face="Arial,Helvetica">6ES7</font>
+<br><font face="Arial,Helvetica">332-7ND0*-0AB0</font></td>
+
+<td><font face="Arial,Helvetica">It's the module name which is checked
+with the GSD file of the profibus DP slave (constant).</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">12</font></td>
+
+<td><font face="Arial,Helvetica">UsrPrmDataValid</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">YES if the user parameter data (UsrPrmData)
+is valid.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">13</font></td>
+
+<td><font face="Arial,Helvetica">UsrPrmDataLen</font></td>
+
+<td><font face="Arial,Helvetica">USINT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">The real UsrPrmData length of this module.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">14</font></td>
+
+<td VALIGN=CENTER WIDTH="24%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">UsrPrmData[24]</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="9%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=CENTER WIDTH="53%" HEIGHT="1" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">User
+Parameter Data array used by profibus DP and handles the parameterization
+of the channels.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">15</font></td>
+
+<td><font face="Arial,Helvetica">Force[4]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">The bits in this array set the force module
+of each channel.</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">16</font></td>
+
+<td><font face="Arial,Helvetica">ModuleRange[4]</font></td>
+
+<td><font face="Arial,Helvetica">ENUM:Config</font></td>
+
+<td><font face="Arial,Helvetica">deact.</font></td>
+
+<td><font face="Arial,Helvetica">Select measuring range and measuring mode
+for each channel cluster.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">17</font></td>
+
+<td><font face="Arial,Helvetica">Globaldiag[4]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">collecting diagnosis.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">18</font></td>
+
+<td><font face="Arial,Helvetica">DiagAlarm</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">diagnosis alarm.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">19</font></td>
+
+<td><font face="Arial,Helvetica">DefaultValue[4]</font></td>
+
+<td><font face="Arial,Helvetica">UINT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">startup data, or is used if no last data
+is avaliable.</font></td>
+</tr>
+
+<tr BGCOLOR="#C0C0C0">
+<td><font face="Arial,Helvetica">20</font></td>
+
+<td><font face="Arial,Helvetica">HoldLastData[4]</font></td>
+
+<td><font face="Arial,Helvetica">BOOL</font></td>
+
+<td><font face="Arial,Helvetica">NO</font></td>
+
+<td><font face="Arial,Helvetica">YES holds the last data at bus failure.</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">21</font></td>
+
+<td><font color="#0000FF"><font size=+1>DataFormat</font></font></td>
+
+<td><font face="Arial,Helvetica">USINT</font></td>
+
+<td><font face="Arial,Helvetica">0</font></td>
+
+<td><font face="Arial,Helvetica">Changes the data format S7/M7-S5. Depends
+on DP slave.</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The "sm332_ao4.color" file contains the
+SM332 AO4 class color definitions. This file holds all defined class color
+schemes. The SM332 AO4 defined colors are:</font>
+<br>&nbsp;
+<table BORDER COLS=2 WIDTH="100%" >
+<tr BGCOLOR="#C0C0C0">
+<td><b><font face="Arial,Helvetica">Color</font></b></td>
+
+<td><b><font face="Arial,Helvetica">Default RGB Values</font></b></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-BG</font></td>
+
+<td><font face="Arial,Helvetica">80/100/80</font></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica">S7-Label</font></td>
+
+<td><font face="Arial,Helvetica">0/255/255</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica">The "sm332_ao4.symbol" file contains the
+Analog Output SM332 AO4 class definition for AutomationX. This file holds
+the user interface, the pop-up menus, the class parameters, and the logic.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|
+<a href="#Class_Modification_History">Modification
+History</a></font>
+<br>&nbsp;
+<p><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial"><b>Qualities:</b> The SM332 AO4 x 16Bit is characterized
+by the following qualities:</font>
+<p><font face="Arial"><font size=-1>- 4 outputs in 4 channel clusters</font></font>
+<p><font face="Arial"><font size=-1>- the outputs are optional according
+to channel as</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ voltage output</font></font>
+<br><font face="Arial"><font size=-1>&nbsp;&nbsp;&nbsp; ~ current output</font></font>
+<p><font face="Arial"><font size=-1>- resolution 16 bits</font></font>
+<p><font face="Arial"><font size=-1>- parametriable diagnosis</font></font>
+<p><font face="Arial"><font size=-1>- parametriable diagnosis alarm</font></font>
+<p><font face="Arial"><font size=-1>- parametriable replacement value edition</font></font>
+<p><font face="Arial"><font size=-1>- isolated compared to CPU and load
+supply according to channel</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modification
+History</a></font>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

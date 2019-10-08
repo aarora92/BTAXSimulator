@@ -1,0 +1,26 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (WinNT; U) [Netscape]">
+   <meta name="Author" content="Daniel Schoyen">
+   <title>ModbusSA85 Master</title>
+</head>
+<body bgcolor="#FFFFFF">
+<b><font face="Arial"><font color="#000000"><font size=+1>Troubleshooting</font></font></font></b>
+<br>
+<hr WIDTH="100%">
+<p><b><font face="Arial,Helvetica">Install Message: </font></b><font face="Courier New,Courier">"Can't
+find function &lt;SPS_CycleModbus...> in &lt;MBSA85.axx>"</font>
+<p><font face="Arial,Helvetica">This problem is likely occurring because
+the MBX driver is not installed, or has not installed correctly. The automationX
+Modbus driver communicates to the MBX Driver through a file called </font><font face="Courier New,Courier">Netlib.dll</font><font face="Arial,Helvetica">.&nbsp;
+This file is installed by the MBX Driver software and should be located
+in the </font><font face="Courier New,Courier">WinNT/system32</font><font face="Arial,Helvetica">&nbsp;
+directory on the server. If not, try reinstalling the MBX Driver.</font>
+<p><font face="Arial,Helvetica">If the problem persists, the install routine
+for the MBX Driver may be corrupt or not functioning properly. Contact
+your MBX Driver software provider for assistance.</font>
+</body>
+</html>

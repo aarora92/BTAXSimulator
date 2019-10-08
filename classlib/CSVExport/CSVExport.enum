@@ -1,0 +1,4 @@
+enum_test: 	Value1=11,
+		Value2=22,
+		Value3=33,
+		Value4=44;

@@ -1,0 +1,232 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>Siemens ET200S IM 151-1</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="97%" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial,Helvetica"><font color="#FFFFFF"><font size=+4>Siemens
+ET200M&nbsp; IM 151_1</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a>
+<br><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+3>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The ET 200S Profibus DP Slave IM 151-1
+enables you to connect S7 ET200S modules with Profibus - DP.</font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br>&nbsp;
+<p><a NAME="Installation"></a>
+<br><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+3>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial,Helvetica">The class im151-1 Slave is comprised
+of the following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="24%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="32%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial,Helvetica">Class Color
+File</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial,Helvetica">Includes some class
+specific color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="32%">&nbsp;<font face="Arial,Helvetica">im151_1.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial,Helvetica">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial,Helvetica">Includes the process
+picture representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial,Helvetica">im151_1.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><b><font face="Arial,Helvetica">Enumerator Files</font></b></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Difines the enumerator for
+the class</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">im151_1.enum</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial,Helvetica">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial,Helvetica">Class Specific
+Graphic Files for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial,Helvetica">axclassdocu16.bmp</font>
+<br><font face="Arial,Helvetica">axclassdocu_grey16.bmp</font>
+<br><font face="Arial,Helvetica">axinstancedocu16.bmp</font>
+<br><font face="Arial,Helvetica">axinstancedocu_grey_16.bmp</font>
+<p><font face="Arial,Helvetica">(and&nbsp; some documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="24%"><b><font face="Arial,Helvetica">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="44%"><font face="Arial,Helvetica">HTML document for
+Online Help.</font></td>
+
+<td VALIGN=TOP WIDTH="32%"><font face="Arial,Helvetica">im151_1.htm</font></td>
+</tr>
+</table>
+<b></b>
+<p><font face="Arial,Helvetica"><b>Installation:</b> The above listed files
+must be copied into a common sub-directory within the project's "classlib"
+directory. The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p><a NAME="UserInterface"></a>
+<br><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+3>User
+Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The IM 151-1 graphical representation displays
+the unique name identifier ($Instance) in the middle of the graphical representation.
+Also, the profibus address appears above the instance name.</font>
+<p><font face="Arial,Helvetica">In the upper right corner of the graphical
+representation can be found theService Fault (SF), Bus Fault (BF) and&nbsp;
+power display (ON).</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=3 CELLPADDING=3 WIDTH="700" >
+<tr>
+<td VALIGN=CENTER WIDTH="25%"><b><font face="Arial,Helvetica">Indication</font></b></td>
+
+<td VALIGN=CENTER WIDTH="15%"><b><font face="Arial,Helvetica">State</font></b></td>
+
+<td VALIGN=CENTER WIDTH="70%"><b><font face="Arial,Helvetica">Condition</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="25%"><font face="Arial,Helvetica">Bus Fault</font>
+<br><font face="Arial,Helvetica">(BF)</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">red flashing</font>
+<p><font face="Arial,Helvetica">red</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Wrong Parameterization -
+no data transfere beteween DP Master and IM 153-1</font>
+<p><font face="Arial,Helvetica">Wrong Baudrate or DP-Address</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><font face="Arial,Helvetica">Service Fault</font>
+<br><font face="Arial,Helvetica">(SF)</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">red</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Configuration is not the
+same as defined in the PLC</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER><font face="Arial,Helvetica">ON</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">green</font></td>
+
+<td VALIGN=CENTER><font face="Arial,Helvetica">Power is on (will appear
+grey when no power)</font></td>
+</tr>
+</table>
+
+<p><img SRC="im151_1graph.gif" height=489 width=166>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Figure 2 shows the <b>Address Popup</b>,
+which is invoked by selecting the graphical representation. The popup displays
+the Profibus Address and the actual State of the module. From here, you
+can change the Profibus address, reset the Module plus open the HTML Documentation.</font>
+<p><img SRC="im151_1addresspop.gif" height=245 width=178>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 2: The Address PopUp</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Figure 3 shows the <b>Error Popup</b>,
+which will invoke if there are any new errors. The popup will display the
+actual errors plus error messages.</font>
+<p><img SRC="im151_1error.gif" height=305 width=289>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 3: Error Popup</font></font>
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br>&nbsp;
+<p><a NAME="implementation"></a>
+<br><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+3>Implementation
+Notes</font></font></font></b>
+<p><b><u><font face="Arial,Helvetica"><font size=+1>How to Create the profibus
+Slave</font></font></u></b>
+<p><font face="Arial,Helvetica">The first step is to configure a Profibus
+Slave module. To create a Profibus Slave, take the following steps:</font>
+<p><b><font face="Arial,Helvetica">Step 1</font>:</b>
+<br><font face="Arial,Helvetica">Select the Profibus Slave class and drop
+an instance of it into the picture window</font>
+<p><b><font face="Arial,Helvetica">Step 2</font>:</b>
+<br><font face="Arial,Helvetica">With the slave object selected, enter
+a unique instance name and remark in the declaration field, in the configuration
+panel.</font>
+<p><i><font face="Arial,Helvetica">When you are naming I/O modules, be
+sure to assign meaningful names that you will be able to recognize later.
+For example, the Profibus Slave should at least be given an address number:</font></i>
+<br>&nbsp;
+<ul>
+<li>
+<i><font face="Arial,Helvetica">Instance name = IM151_1</font></i></li>
+</ul>
+<img SRC="im151_1instance.gif" height=148 width=461>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 4: Declaration for
+the Profibus Master</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Step3:</font>
+<br><font face="Arial,Helvetica">Open the Server Data tab. Find the resource
+called "master" in the data list. Click the value field with the left mouse
+button.</font>
+<p><i><font face="Arial,Helvetica">Automationx automatically detects the
+master and present it in a drop down list.</font></i>
+<p><font face="Arial,Helvetica">Choose the master name from the list.</font>
+<p><img SRC="im151_1master.gif" height=319 width=539>
+<br><font face="Arial,Helvetica"><font size=-1>Figure5: Assign the master</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Step 4</font>:</b>
+<br><font face="Arial,Helvetica">Find the resource called "address" in
+the Server Data list. Use the increment/decrement arrows to set the address
+number of the slave.</font>
+<p><i><font face="Arial,Helvetica">For example, if the address of the slave
+class were 08 you need set the number to 8. When you save thedisplay, you
+will see this number reflected on the object`s "counter".</font></i>
+<p><img SRC="im151_1addr.gif" height=270 width=462>
+<p><font face="Arial,Helvetica"><font size=-1>&nbsp;Figure 6: Assign the
+Profibus Slave address</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

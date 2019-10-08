@@ -1,0 +1,14 @@
+ControlMode:	ByHost=0,
+		Blind=2;
+
+FunctionDO1:	Output=0,
+		ActivAtCounter>CompareVal=1,
+		ActivAtCounter<CompareVal=2,
+		PulseOnReachCompareVal=3,
+		SwitchingOfCompareVal=4,
+		Disabled=5;
+
+FunctionDO2:	Output=0,
+		ActivAtCounter>=CompareVal=1,
+		ActivAtCounter<=CompareVal=2,
+		PulseOnReachCompareVal=3;

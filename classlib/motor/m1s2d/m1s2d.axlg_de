@@ -1,0 +1,74 @@
+manual_at_fault [Text Normal]	Hand bei Störung
+manual_at_fault [Text Activ]	Button
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+modes [Text Normal]	Modes
+modes [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	keine Verriegelung
+no_interlock [Text Activ]	Button
+emulation_run_rev [Text Normal]	Emulation läuft
+emulation_run_rev [Text Activ]	Button
+emulate_ready [Text Normal]	Emulation bereit
+emulate_ready [Text Activ]	Button
+emulate_local [Text Normal]	Emulation Vorort
+emulate_local [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_feedbacktime_fwd [Text Normal]	Fehlerzeit
+max_feedbacktime_fwd [Text Activ]	Text
+max_feedbacktime_rev [Text Normal]	Fehlerzeit
+max_feedbacktime_rev [Text Activ]	Text
+switchover_time [Text Normal]	Verz. Wechsel Drehricht.:
+switchover_time [Text Activ]	Text
+emulation_run_fwd [Text Normal]	Emulation läuft
+emulation_run_fwd [Text Activ]	Button
+delay_rev [Text Normal]	Verzögerung
+delay_rev [Text Activ]	Text
+delay_fwd [Text Normal]	Verzögerung
+delay_fwd [Text Activ]	Text
+dir2 [Text Normal]	Drehricht.2
+dir2 [Text Activ]	Pos2
+dir1 [Text Normal]	Drehricht.1
+dir1 [Text Activ]	Pos1
+text_delay_rev [Text Normal]	Drehricht.2
+text_delay_rev [Text Activ]	Pos1
+text_delay_fwd [Text Normal]	Drehricht.1
+text_delay_fwd [Text Activ]	Pos2
+text_emul_rev [Text Normal]	Drehricht.2
+text_emul_rev [Text Activ]	Pos1
+text_emul_fwd [Text Normal]	Drehricht.1
+text_emul_fwd [Text Activ]	Pos2
+fault_fwd [Text Normal]	Fehler
+fault_fwd [Text Activ]	Fehler
+lock_rev [Text Normal]	verr.
+lock_rev [Text Activ]	verr.
+auto_on_rev [Text Normal]	Auto
+auto_on_rev [Text Activ]	Auto
+fwd [Text Normal]	vorwärts
+fwd [Text Activ]	vorwärts
+lock_fwd [Text Normal]	verr.
+lock_fwd [Text Activ]	verr.
+fault_rev [Text Normal]	Fehler
+fault_rev [Text Activ]	Fehler
+auto_on_fwd [Text Normal]	Auto
+auto_on_fwd [Text Activ]	Auto
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+off [Text Normal]	Aus
+off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+on [Text Normal]	Ein
+on [Text Activ]	Ein
+ready [Text Normal]	Bereit
+ready [Text Activ]	nicht Bereit
+run_fwd [Text Normal]	läuft
+run_fwd [Text Activ]	läuft
+local [Text Normal]	Vorort Bereit
+local [Text Activ]	Vorort nicht bereit
+run_rev [Text Normal]	Drehricht.2
+run_rev [Text Activ]	Pos1

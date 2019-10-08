@@ -1,0 +1,23 @@
+Baudrate:Baud_300=0,Baud_600,Baud_1200,Baud_2400,Baud_4800,Baud_9600,
+		 Baud_19200,Baud_38400;
+
+Parity:No Parity,Even Parity,Odd Parity;
+
+Protokoll_selection:R_3964,Zeichenverzugszeit,Start-/Endezeichen,Zeichenzahl;
+ 
+Triggerbyte_Modus:keinTriggerbyte,Triggerbyte;
+
+Startsignal:kein Startzeichen,Startzeichen;
+
+Number_Stopsignal:ein Endezeichen,zwei Endezeichen;
+
+Lengthbyte:kein Laengenbyte,Laengenbyte;
+
+Prioritat:SS-Prio niedrig,SS-Prio hoch;
+
+Timeout_Controll:eingeschaltet,ausgeschaltet;
+
+Sendend_recognition:ausgeschaltet,eingeschaltet;
+
+Ext_Diag-Bit:aktiv,nicht aktiv;
+

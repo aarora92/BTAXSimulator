@@ -1,0 +1,310 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Daniel Schoyen">
+   <title>ReadBack</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="604" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>ReadBack</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a></font>
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The ReadBack class is only required for applications
+where data is stored both on the Modbus and automationX. It's role is to
+maintain consistent&nbsp; - and current - values between the network and
+automationX prior to any write operation or system restart.</font>
+<p><font face="Arial">The ReadBack class features the following:</font>
+<ul>
+<li>
+<b><font face="Arial">Configurable for up to 15 clients (Modbus_Coils,
+Modbus_Register &amp; Modbus_Float)</font></b></li>
+
+<li>
+<b><font face="Arial">"Write Lock" during ReadBack operation</font></b></li>
+
+<li>
+<b><font face="Arial">Adjustable ReadBack time</font></b></li>
+
+<li>
+<b><font face="Arial">Modbus Plus network, ReadBack and Write Lock status</font></b></li>
+
+<li>
+<b><font face="Arial">Suspend ReadBack operation</font></b></li>
+
+<li>
+<b><font face="Arial">Force ReadBack operation</font></b></li>
+
+<li>
+<b><font face="Arial">Suspend Write Lock operation</font></b></li>
+
+<li>
+<b><font face="Arial">Checks Retentive Data</font></b></li>
+
+<li>
+<b><font face="Arial">Online Technical Documentation</font></b></li>
+</ul>
+
+<p><br><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p><font face="Arial">The ReadBack class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes class specific color
+definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ReadBack.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class definition file (generated
+by automationX); includes graphical representation, user interface, internal
+control logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ReadBack.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files</font>
+<br><font face="Arial">for class operation,</font>
+<br><font face="Arial">physical appearance and&nbsp; documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">axclassdoku16.bmp</font>
+<br><font face="Arial,Helvetica">axinstanzdoku16.bmp</font>
+<br><font face="Arial,Helvetica">ax_icon.bmp</font>
+<br><font face="Arial,Helvetica">ax_iconhelp.bmp</font>
+<br><font face="Arial,Helvetica">axledgreen.bmp</font>
+<br><font face="Arial,Helvetica">axledgreengr.bmp</font>
+<br><font face="Arial,Helvetica">axledred.bmp</font>
+<br><font face="Arial,Helvetica">axledredgr.bmp</font>
+<br><font face="Arial,Helvetica">axledgrey.bmp</font>
+<br><font face="Arial,Helvetica">axledgreygr.bmp</font>
+<br><font face="Arial,Helvetica">iconhelp.gif</font>
+<br><font face="Arial,Helvetica">titlebarback.gif</font>
+<br><font face="Arial,Helvetica">Address.gif</font>
+<br><font face="Arial,Helvetica">DirectoryStruct.gif</font>
+<br><font face="Arial,Helvetica">ReadBack.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ReadBack.htm</font></td>
+</tr>
+
+<tr ALIGN=LEFT VALIGN=TOP>
+<td><b><font face="Arial,Helvetica">Enum File</font></b></td>
+
+<td><font face="Arial,Helvetica">Enumerator information for selectors</font></td>
+
+<td><font face="Arial,Helvetica">ReadBack.enum</font></td>
+</tr>
+</table>
+<font face="Arial"><b>Installation: </b>All of the above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial,Helvetica">The unique name indentifier ($Instance)
+is shown on the top of the graphical representation. Below this some displays
+are located.</font>
+<br><img SRC="ReadBack.gif" height=425 width=394>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical representation</font></font>
+<p><b><font face="Arial">Instance Name</font></b>
+<p><font face="Arial,Helvetica">The instance name of a ReadBack object
+is displayed at the top of the graphical interface.</font>
+<p><b><font face="Arial">Technical Documentation</font></b>
+<p><font face="Arial">The toolbar below the Instance Name provides access
+to instance documentation, class documentation and the Modbus technical
+overview. All documents - with the exception of instance documentation
+- are included. All documents are available online in HTML format and run
+in aX's native HTML browser.</font>
+<p><b><font face="Arial">Read Back Time</font></b>
+<p><font face="Arial">The Read Back Time determines how long - in seconds
+- the process will stay in Read Back mode. During this time all write operations
+to the network will be locked. The time can be manually adjusted in the
+operator popup.</font>
+<p><b><font face="Arial">Network, ReadBack and Write Lock Status</font></b>
+<p><font face="Arial">The <i>Network</i> status indicator shows the current
+connection status to the Modbus Plus network - connected = green, not connected
+= grey. The <i>Read Back</i> status indicates when the system is in Read
+Back mode - on = green, off = grey. The <i>Write Lock</i> status shows
+when write operations are locked - locked = red, unlocked = grey.</font>
+<p><b><font face="Arial">Control display, Control buttons (operator popup)</font></b>
+<p><font face="Arial">The control buttons allow certain control over Read
+Back and Write Lock operations. Suspend ReadBack means to disable the Read
+Back mode for the duration in which the button is depressed. <i>Note: this
+will override the Force ReadBack button if both are activated.</i></font>
+<p><font face="Arial">The Force ReadBack button forces the system to stay
+in Read Back mode - locking out any write operations to the network for
+the duration the button is depressed, or the Suspend ReadBack button is
+activated.</font>
+<p><font face="Arial">The Suspend Write Lock button disables the write
+lock operation for the duration the button is depressed - allowing write
+access to the Modbus from the automationX Modbus Plus client classes.</font>
+<p><img SRC="ReadBack_popup.gif" height=337 width=178>
+<br><font face="Arial,Helvetica"><font size=-1>Figure 2: Operator popup</font></font><font face="Arial,Helvetica"><font size=-1></font></font>
+<p><font face="Arial,Helvetica"><font size=-1>In the operator popup the
+documentation can also be opened.</font></font>
+<br><font face="Arial,Helvetica"><font size=-1></font></font>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><b><font face="Arial,Helvetica">Hardware</font></b>
+<p><font face="Arial,Helvetica">Ensure proper installation of the Modicon
+SA85 card. Consult technical documentation provided by Modicon for detailed
+installation instructions.</font>
+<p><b><font face="Arial,Helvetica">Modicon Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The SA85 device includes a set of software
+programs required for proper installation. These include devices drivers,
+setup programs, a library of C functions for Modicon's NetBIOS implementation,
+a diagnostic utility and sample programs for addressing and data transfers.</font>
+<p><b><font face="Arial,Helvetica">automationX Distribution Software</font></b>
+<p><font face="Arial,Helvetica">The aX Modbus Plus class set includes driver
+&amp; application software - two files - located in the "automationX/bin"
+directory:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">MBSA85.axx</font></li>
+
+<li>
+<font face="Arial,Helvetica">ModbusDLL.dll</font></li>
+</ul>
+
+<p><br><b><font face="Arial,Helvetica">Troubleshooting</font></b>
+<p><font face="Arial,Helvetica">Please see <i>Troubleshooting</i> in the
+Modbus Plus Overview if problems are encountered.</font>
+<br><font face="Arial,Helvetica"></font>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="ImplementationNotes"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><font face="Arial">Declaring an Instance Name</font></b>
+<p><font face="Arial">Declare an instance name - in the Instance field
+- for the ReadBack object.</font>
+<p><b><font face="Arial">Network Validation</font></b>
+<p><font face="Arial">The ReadBack class checks for a valid network connection
+via the ConnBroken and IN1-IN15 variables. The logic for this operation
+is built in the class.</font><font face="Arial"></font>
+<p><font face="Arial">The variables IN1-IN15 are connected to the "Busy"
+variable in the Modbus_Coil, Modbus_Register or Modbus_Float classes. Up
+to 15 Modbus clients can be configured per ReadBack class. The link is
+made in the Reference field of the IN1-IN15 variable using the addressing
+standard:</font>
+<p><font face="Courier New,Courier"><font color="#000000"><i>instance_name</i>.Busy</font></font>
+<p><font face="Arial,Helvetica">Where </font><i><font face="Courier New,Courier"><font color="#000000">instance_name</font><font color="#009900">
+</font></font></i><font face="Arial,Helvetica">is
+the instance name of a Modbus client.</font><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">The ConnBroken variable is directly linked
+to the MB_Error variable in the ModbusSA85 Master class using the addressing
+standard:</font>
+<p><font face="Courier New,Courier"><font color="#000000">instance_name.MB_Error</font></font>
+<p><font face="Arial,Helvetica">Where </font><i><font face="Courier New,Courier"><font color="#000000">instance_name</font><font color="#009900">
+</font></font></i><font face="Arial,Helvetica">is
+the instance name of a Modbus master.</font>
+<br><font face="Arial,Helvetica"></font>&nbsp;
+<p><b><font face="Arial">Linking ReadBack status to the Modbus Clients</font></b>
+<p><font face="Arial">A Modbus client receives a Read Back signal - from
+the ReadBack class - to it's ReadBack variable. This must be implemented
+via separate function block logic during project configuration.</font>
+<br><img SRC="ReadBackBit.gif" BORDER=1 height=43 width=383>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">This example shows a ReadBack bit being
+written to Modbus_Coil class with the instance name "Coil1".</font>
+<p><b><font face="Arial,Helvetica">Locking Modbus Client Communication
+During a Read Back</font></b>
+<p><font face="Arial,Helvetica">When a Read Back is activated, all data
+write operations - for the modbus clients - must be paused. This is accomplished
+by linking the ComLock variable (in the ReadBack class) to the ComLock
+variable in the Modbus client using external function block logic.</font>
+<p><img SRC="ComLock.gif" BORDER=1 height=50 width=386>
+<p><font face="Arial,Helvetica">This example shows a ComLock bit being
+written to Modbus_Coil class with the instance name "Coil1".</font>
+<p><b><font face="Arial,Helvetica">Modbus Plus SPS Code (Data Safety)</font></b>
+<p><font face="Arial,Helvetica">In the event of a system wide shut-down
+or error on the network,&nbsp; the ReadBack class provides a safety mechanism
+to avoid retentive data from being lost.</font>
+<p><font face="Arial,Helvetica">The SPSCODE variable can be given a certain
+value, assigned to a Modbus Plus client, and written to the network. During
+a re-start, the client reads the value from the network and compares it
+to the original value. If the network value has changed - e.g. been lost
+during the shut-down - a Read Back will not happen. Instead, the values
+retained by automationX will be written back to the network, restoring
+the correct data.</font>
+<p><i><font face="Arial,Helvetica">EXAMPLE</font></i>
+<p><font face="Arial,Helvetica">Configure two Modbus Plus clients - one
+set to "Write", the other to "Read". The first client writes the SPS code
+to a specific register on the network - the variable SPSCODE assigned via
+function block logic. Use</font> <font face="Arial,Helvetica">the DATA
+SET function to check that the write lock operation (ComLock variable)
+is not active.</font>
+<p><img SRC="CodeWrite.gif" BORDER=1 height=50 width=382>
+<p><font face="Arial,Helvetica">The second client reads the SPSCODE back
+from the network and compares it to the original value in the ReadBack
+class. The result determines the state of the CODE_OK variable.</font>
+<p><img SRC="CodeRead.gif" BORDER=1 height=49 width=373>
+<p><font face="Arial,Helvetica">Alternatively, a single Modbus Plus client
+- set to "Async" - could be used to read and write the SPSCODE.</font>
+<p><font face="Arial,Helvetica">Inside the ReadBack class, both the "CODE_OK"
+variable and "toReadBack" variable must be true for a Read Back to take
+place.</font>
+<p><img SRC="ReadBackCondition.gif" BORDER=1 height=52 width=381>
+<br>&nbsp;
+<p><b><i><font face="Arial,Helvetica">Note: The FB logic shown with a dark
+grey background indicates programming outside the ReadBack class. The FB
+logic shown with a tan background indicates existing programming within
+the ReadBack class.</font></i></b>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+</body>
+</html>

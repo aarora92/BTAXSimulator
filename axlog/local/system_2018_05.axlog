@@ -1,0 +1,59 @@
+2018-05-23 14:40:08-408	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.25 sec]
+2018-05-23 14:40:09-160	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.25 sec]
+2018-05-23 14:40:09-910	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.25 sec]
+2018-05-23 14:40:10-174	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-05-23 14:40:11-924	-2	<WCPBTMRA>AXSRV	3	automationX started :  Startmode=Warmstart
+2018-05-23 14:40:12-424	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-05-23 14:40:16-739	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-23 14:40:17-551	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-23 14:40:17-756	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-05-23 14:40:17-971	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-05-23 14:40:33-410	-2	<WCPBTMRA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2018-05-23 14:40:44-596	-2	<WCPBTMRA>AXPV	3	started (display = local)[SRV]
+2018-05-23 14:40:54-971	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-05-23 14:41:17-535	-2	<WCPBTMRA>AXPV	3	closed (display = local)[SRV]
+2018-05-23 14:45:18-976	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-05-23 14:54:52-453	-2	<WCPBTMRA>EDT	3	Saving file:TDCComm.tree
+2018-05-23 14:54:52-657	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-05-23 14:54:53-266	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[3]
+2018-05-23 15:39:54-072	-2	<WCPBTMRA>EDT	3	Saving file:LNJComm.tree
+2018-05-23 15:40:15-604	-2	<WCPBTMRA>EDT	3	Saving file:LNJComm.tree
+2018-05-23 15:40:16-026	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-05-23 15:40:32-901	-2	<WCPBTMRA>EDT	3	Saving file:LNJComm.tree
+2018-05-23 15:40:32-901	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-05-23 15:40:33-306	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[4]
+2018-05-23 15:44:15-608	-2	<WCPBTMRA>EDT	3	Saving file:LNJComm.tree
+2018-05-23 15:44:15-608	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-05-23 15:44:16-217	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[5]
+2018-05-23 15:44:59-733	-2	<WCPBTMRA>EDT	3	Saving file:LNJComm.tree
+2018-05-23 15:44:59-733	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-05-23 15:45:00-138	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[6]
+2018-05-23 15:56:40-463	-2	<WCPBTMRA>EDT	3	Saving file:PCanOmniComm.tree
+2018-05-23 15:56:40-463	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2018-05-23 15:56:40-868	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[7]
+2018-05-23 16:03:23-046	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-05-25 09:54:57-783	-2	<WCPBTMRA>FSRV	3	FSV started PID# 1884 as CLIENT on projects/pcannew/
+2018-05-25 09:54:57-815	-2	<WCPBTMRA>FSRV	3	Installed listen-socket 396 
+2018-05-25 09:55:32-424	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.26 sec]
+2018-05-25 09:55:35-674	-2	<WCPBTMRA>AXSRV	3	automationX started :: Startmode=Warmstart RD-Mode=SERVER
+2018-05-25 09:55:35-926	-2	<WCPBTMRA>ARB	3	START-->FAM: initialization finished
+2018-05-25 09:55:36-191	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-05-25 09:55:41-253	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:56:03-003	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:56:24-628	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:56:41-019	-2	<WCPBTMRA>AXSRV	3	User Processes [pls] restart
+2018-05-25 09:56:46-128	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:57:08-144	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:57:08-667	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.27 sec]
+2018-05-25 09:57:29-880	-2	<WCPBTMRA>AXSRV	3	User Processes [axlogsrv] restart
+2018-05-25 09:57:35-973	-2	<WCPBTMRA>ARB	3	FAM-->MAIN: timeout expired
+2018-05-25 09:57:36-224	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[2]
+2018-05-25 09:57:40-349	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-25 09:57:49-897	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-25 09:57:51-522	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-25 09:58:15-085	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.20 sec]
+2018-05-25 09:59:05-665	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-05-25 09:59:18-665	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-05-25 09:59:18-882	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.21 sec]
+2018-05-25 10:01:40-884	-2	<WCPBTMRA>SPS	3	Peak in SPS detected time=[0.22 sec]
+2018-05-25 10:02:54-634	-2	<WCPBTMRA>AXSRV	3	User <ramin> logged in: access=0xFFFFFFFF

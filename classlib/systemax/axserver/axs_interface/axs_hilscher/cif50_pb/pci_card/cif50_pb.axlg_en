@@ -1,0 +1,92 @@
+RedundancyError [Text Normal]	Redundanz-Fehler
+RedundancyError [Text Activ]	Text
+RedundancyState [Text Normal]	Redundanz-Status
+RedundancyState [Text Activ]	Text
+ProfibusRedundancy [Text Normal]	Profibus-Redundanz
+ProfibusRedundancy [Text Activ]	Text
+RProfibus [Text Normal]	Profibus
+RProfibus [Text Activ]	Text
+RPBStatus [Text Normal]	PB-Status
+RPBStatus [Text Activ]	Text
+RActiveDevices [Text Normal]	Aktive Geräte
+RActiveDevices [Text Activ]	Text
+RActiveData [Text Normal]	Eingabe-Daten
+RActiveData [Text Activ]	Text
+ROutputData [Text Normal]	Ausgabe-Daten
+ROutputData [Text Activ]	Text
+RHelp [Text Normal]	Hilfe
+RHelp [Text Activ]	Hilfe
+RExit [Text Normal]	Beenden
+RExit [Text Activ]	Beenden
+RParameter [Text Normal]	Parameter
+RParameter [Text Activ]	Parameter
+SAProfibus [Text Normal]	Profibus
+SAProfibus [Text Activ]	Text
+SAPBStatus [Text Normal]	PB-Status
+SAPBStatus [Text Activ]	Text
+SAHelp [Text Normal]	Hilfe
+SAHelp [Text Activ]	Hilfe
+SAExit [Text Normal]	Beenden
+SAExit [Text Activ]	Beenden
+SAParameter [Text Normal]	Parameter
+SAParameter [Text Activ]	Parameter
+SAActiveDevices [Text Normal]	Aktive Geräte
+SAActiveDevices [Text Activ]	Text
+SAInputData [Text Normal]	Eingabe-Daten
+SAInputData [Text Activ]	Text
+SAOutputData [Text Normal]	Ausgabe-Daten
+SAOutputData [Text Activ]	Text
+PPAddress [Text Normal]	Adresse
+PPAddress [Text Activ]	Text
+PPSlotTime [Text Normal]	Slot Time
+PPSlotTime [Text Activ]	Text
+PPBautRate [Text Normal]	Baudrate
+PPBautRate [Text Activ]	Text
+PPtsdrmax [Text Normal]	tsdr max.
+PPtsdrmax [Text Activ]	Text
+PPtsdrmin [Text Normal]	tsdr min.
+PPtsdrmin [Text Activ]	Text
+PPttr [Text Normal]	ttr
+PPttr [Text Activ]	Text
+Reset_SetNewParameter [Text Normal]	Rücksetzen --> Neuen Parameter setzen
+Reset_SetNewParameter [Text Activ]	Rücksetzen
+PPgap [Text Normal]	gap
+PPgap [Text Activ]	Text
+PPtset [Text Normal]	tset
+PPtset [Text Activ]	Text
+PPhsa [Text Normal]	hsa
+PPhsa [Text Activ]	Text
+ProfibusParameter [Text Normal]	Profibus-Parameter
+ProfibusParameter [Text Activ]	Text
+PPFilename [Text Normal]	Dateiname
+PPFilename [Text Activ]	Text
+PPHelp [Text Normal]	Hilfe
+PPHelp [Text Activ]	Hilfe
+PPExit [Text Normal]	Beenden
+PPExit [Text Activ]	Beenden
+PPtqui [Text Normal]	tqui
+PPtqui [Text Activ]	Text
+PPmaxretrylimit [Text Normal]	max retry limit
+PPmaxretrylimit [Text Activ]	Text
+PPminslaveintervall [Text Normal]	min. slave intervall
+PPminslaveintervall [Text Activ]	Text
+CardParameter [Text Normal]	Karten-Parameter
+CardParameter [Text Activ]	Text
+CPpolltimeout [Text Normal]	poll. timeout
+CPpolltimeout [Text Activ]	Text
+CPdatactrltime [Text Normal]	data ctrl time
+CPdatactrltime [Text Activ]	Text
+CPmaxalarm [Text Normal]	max. alarm
+CPmaxalarm [Text Activ]	Text
+CPmaxusrglobctrl [Text Normal]	max usr glob ctrl
+CPmaxusrglobctrl [Text Activ]	Text
+CPfilenamefirmware [Text Normal]	Dateiname Firmware
+CPfilenamefirmware [Text Activ]	Text
+CPboardno [Text Normal]	Board No.
+CPboardno [Text Activ]	Text
+PPSave [Text Normal]	Save
+PPSave [Text Activ]	Save
+PPLoad [Text Normal]	Load
+PPLoad [Text Activ]	Load
+PPParameter [Text Normal]	Parameter
+PPParameter [Text Activ]	Text

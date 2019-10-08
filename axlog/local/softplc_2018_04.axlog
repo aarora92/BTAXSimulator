@@ -1,0 +1,661 @@
+2018-04-10 10:48:38-154	20	AX_SYS.log_count_all_warning	ON	.
+2018-04-10 10:48:42-144	20	AX_SYS.log_count_all_warning	OFF	.
+2018-04-10 11:39:21-098	-2	All Alarms	ACK	*** Acknowledge all Alarms ***  USER (h)
+2018-04-10 11:48:07-473	5	COM_PC_Omni.Alarm	OFF	Communication Error
+2018-04-10 11:48:08-470	5	COM_PC_Omni.Alarm	ON	Communication Error
+2018-04-10 11:55:44-719	5	modbus_3.Alarm	OFF	J3022 LO FLOW ALARM
+2018-04-10 11:55:45-716	5	modbus_3.Alarm	ON	J3022 LO FLOW ALARM
+2018-04-10 13:47:08-418	-2	All Alarms	ACK	*** Acknowledge all Alarms ***  USER (h)
+2018-04-10 13:48:53-773	20	SlowPLC_Stopped	ON	SlowPLC is not running - LNJ Comms, Meter tickets DOWN
+2018-04-10 13:49:46-233	5	VRU_LevelSwitchAlarms.err2	ON	VRU - Separator Low Level
+2018-04-10 13:49:46-233	25	VRU_LevelSwitchAlarms.err3	ON	VRU - Separator High Level
+2018-04-10 13:50:02-194	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 13:50:02-194	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 13:50:02-194	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 13:50:06-585	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 13:51:26-249	5	VRU_LevelSwitchAlarms.err2	ON	VRU - Separator Low Level
+2018-04-10 13:51:26-249	25	VRU_LevelSwitchAlarms.err3	ON	VRU - Separator High Level
+2018-04-10 13:51:42-211	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 13:51:42-211	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 13:51:42-211	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 13:51:46-601	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 13:53:10-806	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2018-04-10 13:53:10-806	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2018-04-10 13:53:10-806	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2018-04-10 14:17:04-984	5	VRU_LevelSwitchAlarms.err2	ON	VRU - Separator Low Level
+2018-04-10 14:17:04-984	25	VRU_LevelSwitchAlarms.err3	ON	VRU - Separator High Level
+2018-04-10 14:17:20-944	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 14:17:20-944	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 14:17:20-944	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 14:17:25-332	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 14:28:02-539	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2018-04-10 14:28:02-539	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2018-04-10 14:28:02-539	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2018-04-10 14:28:02-539	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2018-04-10 14:28:02-539	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2018-04-10 14:28:02-539	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2018-04-10 14:28:02-539	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2018-04-10 14:28:02-539	5	TK3156.LALL	ON	.TANK LOLO ALARM
+2018-04-10 14:28:02-539	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2018-04-10 14:28:02-539	4	TK2195.LAL	ON	.TANK LO ALARM
+2018-04-10 14:28:02-539	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2018-04-10 14:28:02-539	4	TK2198.LAL	ON	.TANK LO ALARM
+2018-04-10 14:28:02-539	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2018-04-10 14:28:02-539	5	scanner_3.Alarm	ON	.
+2018-04-10 14:28:02-539	5	scanner_4.Alarm	ON	.
+2018-04-10 14:28:02-539	5	scanner_5.Alarm	ON	.
+2018-04-10 14:28:02-539	5	scanner_6.Alarm	ON	.
+2018-04-10 14:28:02-539	5	scanner_7.Alarm	ON	.
+2018-04-10 14:28:02-539	5	modbus_2.Alarm	ON	TDC COM-ERROR Indicator.aX-TDC Modbus Link Error
+2018-04-10 14:28:02-539	5	QA3010ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2018-04-10 14:28:02-539	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2018-04-10 14:28:02-539	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2018-04-10 14:28:02-539	5	QA3011ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2018-04-10 14:28:02-539	5	QA3012ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2018-04-10 14:28:02-539	5	QA3013ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	QA3007ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	QA3014ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	QA3009ALRM_1.Alarm	ON	Future.
+2018-04-10 14:28:02-539	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2018-04-10 14:28:02-539	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2018-04-10 14:28:02-539	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2018-04-10 14:28:02-539	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2018-04-10 14:28:02-539	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2018-04-10 14:28:02-539	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:28:02-539	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:28:02-539	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2018-04-10 14:28:02-539	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:28:02-539	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:28:02-539	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:28:02-539	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2018-04-10 14:28:02-539	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2018-04-10 14:28:02-539	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-10 14:28:02-539	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-10 14:28:02-539	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-10 14:28:02-539	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-10 14:28:02-539	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2018-04-10 14:28:02-539	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2018-04-10 14:28:02-539	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-10 14:28:02-539	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-10 14:28:02-539	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-10 14:28:02-539	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-10 14:28:02-539	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2018-04-10 14:28:02-539	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2018-04-10 14:28:02-539	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2018-04-10 14:28:02-539	0	LeakComm_err	OFF	Leak Communications Error
+2018-04-10 14:28:02-539	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2018-04-10 14:28:02-539	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2018-04-10 14:28:02-539	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2018-04-10 14:28:02-539	5	VRU_Warning.err1	OFF	VRU System Warning.State 1 Alarm
+2018-04-10 14:28:02-539	15	VRU_Fault.err1	OFF	VRU System Fault.State 1 Alarm
+2018-04-10 14:28:02-539	5	VRU_LevelSwitchAlarms.err2	OFF	VRU Level Switch Alarms.State 2 Alarm
+2018-04-10 14:28:02-539	25	VRU_LevelSwitchAlarms.err3	OFF	VRU Level Switch Alarms.State 3 Alarm
+2018-04-10 14:28:02-789	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2018-04-10 14:28:02-789	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2018-04-10 14:28:02-789	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-10 14:28:02-789	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2018-04-10 14:28:02-789	5	UVIRAL.Alarm	ON	Rail Spur UV/IR Detectors Alarm.
+2018-04-10 14:28:02-789	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-10 14:28:02-789	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2018-04-10 14:28:03-187	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-10 14:28:03-388	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2018-04-10 14:28:03-388	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2018-04-10 14:28:03-388	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2018-04-10 14:28:03-388	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2018-04-10 14:28:03-388	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2018-04-10 14:28:03-388	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2018-04-10 14:28:03-388	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2018-04-10 14:28:03-388	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2018-04-10 14:28:03-388	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2018-04-10 14:28:03-388	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2018-04-10 14:28:03-388	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2018-04-10 14:28:03-388	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2018-04-10 14:28:03-388	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2018-04-10 14:28:03-388	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2018-04-10 14:28:03-388	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2018-04-10 14:28:03-388	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2018-04-10 14:28:03-388	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2018-04-10 14:28:03-388	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2018-04-10 14:28:03-388	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2018-04-10 14:28:03-388	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2018-04-10 14:28:03-388	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2018-04-10 14:28:03-388	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2018-04-10 14:28:03-388	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2018-04-10 14:28:03-388	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2018-04-10 14:28:03-388	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2018-04-10 14:28:03-388	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2018-04-10 14:28:03-388	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2018-04-10 14:28:03-388	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2018-04-10 14:28:03-388	5	QA4200AL.Alarm	ON	Rail Spur Fire Alarm.
+2018-04-10 14:28:03-388	5	EA4201AAL.Alarm	ON	Warehouse UPS AC Fail Alarm.
+2018-04-10 14:28:03-388	5	EA4201BAL.Alarm	ON	Warehouse UPS Low Battery Alarm.
+2018-04-10 14:28:03-388	5	PAL4201AAL.Alarm	ON	Rail Spur West Deluge Flowing Alarm.
+2018-04-10 14:28:03-388	5	PAL4201BAL.Alarm	ON	Rail Spur East Deluge Flowing Alarm.
+2018-04-10 14:28:03-388	5	PAL4201CAL.Alarm	ON	Deluge System Water Pressure Low Alarm.
+2018-04-10 14:28:03-388	5	XA4201AAL.Alarm	ON	Rail Spur West Deluge Push Button Alarm.
+2018-04-10 14:28:03-388	5	XA4201BAL.Alarm	ON	Rail Spur East Deluge Push Button Alarm.
+2018-04-10 14:28:03-388	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2018-04-10 14:28:03-388	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2018-04-10 14:28:03-786	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-10 14:28:03-786	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-10 14:28:04-384	5	VRU_Warning.err1	ON	VRU System Warning.State 1 Alarm
+2018-04-10 14:28:04-384	15	VRU_Fault.err1	ON	VRU System Fault.State 1 Alarm
+2018-04-10 14:28:12-365	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:28:12-365	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:28:12-365	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:28:12-365	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:28:12-365	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:28:12-365	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-10 14:28:12-365	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-10 14:28:17-351	0	LeakComm_err	ON	Leak Communications Error
+2018-04-10 14:28:32-315	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-10 14:28:32-315	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-10 14:28:48-276	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 14:28:48-276	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 14:28:48-276	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 14:28:52-665	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 14:29:52-326	-2		ACK	*** Acknowledge all Alarms ***  USER	h	AX-NB-46
+2018-04-10 14:34:26-273	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2018-04-10 14:34:26-273	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2018-04-10 14:34:26-273	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2018-04-10 14:34:26-273	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2018-04-10 14:34:26-273	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2018-04-10 14:34:26-273	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2018-04-10 14:34:26-273	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2018-04-10 14:34:26-273	5	TK3156.LALL	ON	.TANK LOLO ALARM
+2018-04-10 14:34:26-273	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2018-04-10 14:34:26-273	4	TK2195.LAL	ON	.TANK LO ALARM
+2018-04-10 14:34:26-273	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2018-04-10 14:34:26-273	4	TK2198.LAL	ON	.TANK LO ALARM
+2018-04-10 14:34:26-273	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2018-04-10 14:34:26-273	5	scanner_3.Alarm	ON	.
+2018-04-10 14:34:26-273	5	scanner_4.Alarm	ON	.
+2018-04-10 14:34:26-273	5	scanner_5.Alarm	ON	.
+2018-04-10 14:34:26-273	5	scanner_6.Alarm	ON	.
+2018-04-10 14:34:26-273	5	scanner_7.Alarm	ON	.
+2018-04-10 14:34:26-273	5	modbus_2.Alarm	ON	TDC COM-ERROR Indicator.aX-TDC Modbus Link Error
+2018-04-10 14:34:26-273	5	QA3010ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2018-04-10 14:34:26-273	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2018-04-10 14:34:26-273	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2018-04-10 14:34:26-273	5	QA3011ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2018-04-10 14:34:26-273	5	QA3012ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2018-04-10 14:34:26-273	5	QA3013ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	QA3007ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	QA3014ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	QA3009ALRM_1.Alarm	ON	Future.
+2018-04-10 14:34:26-273	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2018-04-10 14:34:26-273	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2018-04-10 14:34:26-273	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2018-04-10 14:34:26-273	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2018-04-10 14:34:26-273	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2018-04-10 14:34:26-273	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:34:26-273	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:34:26-273	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2018-04-10 14:34:26-273	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:34:26-273	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:34:26-273	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-10 14:34:26-273	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2018-04-10 14:34:26-273	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2018-04-10 14:34:26-273	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-10 14:34:26-273	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-10 14:34:26-273	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-10 14:34:26-273	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-10 14:34:26-273	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2018-04-10 14:34:26-273	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2018-04-10 14:34:26-273	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-10 14:34:26-273	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-10 14:34:26-273	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-10 14:34:26-273	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-10 14:34:26-273	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2018-04-10 14:34:26-273	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2018-04-10 14:34:26-273	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2018-04-10 14:34:26-273	0	LeakComm_err	OFF	Leak Communications Error
+2018-04-10 14:34:26-273	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2018-04-10 14:34:26-273	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2018-04-10 14:34:26-273	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2018-04-10 14:34:26-273	5	VRU_Warning.err1	OFF	VRU System Warning.State 1 Alarm
+2018-04-10 14:34:26-273	15	VRU_Fault.err1	OFF	VRU System Fault.State 1 Alarm
+2018-04-10 14:34:26-273	5	VRU_LevelSwitchAlarms.err2	OFF	VRU Level Switch Alarms.State 2 Alarm
+2018-04-10 14:34:26-273	25	VRU_LevelSwitchAlarms.err3	OFF	VRU Level Switch Alarms.State 3 Alarm
+2018-04-10 14:34:26-523	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2018-04-10 14:34:26-523	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2018-04-10 14:34:26-523	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-10 14:34:26-523	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2018-04-10 14:34:26-523	5	UVIRAL.Alarm	ON	Rail Spur UV/IR Detectors Alarm.
+2018-04-10 14:34:26-523	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-10 14:34:26-523	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2018-04-10 14:34:26-921	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-10 14:34:27-121	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2018-04-10 14:34:27-121	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2018-04-10 14:34:27-121	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2018-04-10 14:34:27-121	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2018-04-10 14:34:27-121	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2018-04-10 14:34:27-121	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2018-04-10 14:34:27-121	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2018-04-10 14:34:27-121	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2018-04-10 14:34:27-121	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2018-04-10 14:34:27-121	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2018-04-10 14:34:27-121	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2018-04-10 14:34:27-121	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2018-04-10 14:34:27-121	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2018-04-10 14:34:27-121	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2018-04-10 14:34:27-121	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2018-04-10 14:34:27-121	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2018-04-10 14:34:27-121	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2018-04-10 14:34:27-121	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2018-04-10 14:34:27-121	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2018-04-10 14:34:27-121	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2018-04-10 14:34:27-121	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2018-04-10 14:34:27-121	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2018-04-10 14:34:27-121	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2018-04-10 14:34:27-121	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2018-04-10 14:34:27-121	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2018-04-10 14:34:27-121	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2018-04-10 14:34:27-121	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2018-04-10 14:34:27-121	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2018-04-10 14:34:27-121	5	QA4200AL.Alarm	ON	Rail Spur Fire Alarm.
+2018-04-10 14:34:27-121	5	EA4201AAL.Alarm	ON	Warehouse UPS AC Fail Alarm.
+2018-04-10 14:34:27-121	5	EA4201BAL.Alarm	ON	Warehouse UPS Low Battery Alarm.
+2018-04-10 14:34:27-121	5	PAL4201AAL.Alarm	ON	Rail Spur West Deluge Flowing Alarm.
+2018-04-10 14:34:27-121	5	PAL4201BAL.Alarm	ON	Rail Spur East Deluge Flowing Alarm.
+2018-04-10 14:34:27-121	5	PAL4201CAL.Alarm	ON	Deluge System Water Pressure Low Alarm.
+2018-04-10 14:34:27-121	5	XA4201AAL.Alarm	ON	Rail Spur West Deluge Push Button Alarm.
+2018-04-10 14:34:27-121	5	XA4201BAL.Alarm	ON	Rail Spur East Deluge Push Button Alarm.
+2018-04-10 14:34:27-121	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2018-04-10 14:34:27-121	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2018-04-10 14:34:27-720	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-10 14:34:27-720	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-10 14:34:28-118	5	VRU_Warning.err1	ON	VRU System Warning.State 1 Alarm
+2018-04-10 14:34:28-118	15	VRU_Fault.err1	ON	VRU System Fault.State 1 Alarm
+2018-04-10 14:34:36-101	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:34:36-101	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:34:36-101	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:34:36-101	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:34:36-101	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-10 14:34:36-101	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-10 14:34:36-101	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-10 14:34:41-088	0	LeakComm_err	ON	Leak Communications Error
+2018-04-10 14:34:56-055	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-10 14:34:56-055	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-10 14:35:12-017	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 14:35:12-017	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 14:35:12-017	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 14:35:16-407	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 15:01:30-098	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-10 15:01:30-098	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-10 15:01:46-062	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-10 15:01:46-062	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-10 15:01:46-062	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-10 15:01:50-451	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-10 15:07:09-714	25	Xlink_1.RingError	ON	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-10 15:07:10-513	25	Xlink_1.RingError	OFF	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-10 15:07:13-108	25	Xlink_1.RingError	ON	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-10 15:07:14-305	25	Xlink_1.RingError	OFF	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-10 15:07:15-502	25	Xlink_1.RingError	ON	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-10 15:07:16-101	25	Xlink_1.RingError	OFF	.Xlink Ring open, please check Soft- and Hardware Components
+2018-04-11 00:15:15-283	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-11 00:15:15-283	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-11 00:15:31-128	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-11 00:15:31-128	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-11 00:15:31-128	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-11 00:15:35-394	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-11 00:16:46-505	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-11 00:16:46-505	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-11 00:16:46-505	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-11 00:16:46-505	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-11 00:16:46-505	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-11 00:16:46-505	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-11 00:16:46-505	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-11 00:16:51-584	0	LeakComm_err	ON	Leak Communications Error
+2018-04-11 00:17:06-615	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-11 00:17:06-615	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-11 00:17:22-457	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-11 00:17:22-457	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-11 00:17:22-457	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-11 00:17:26-723	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-11 00:18:38-428	20	AX_SYS.log_count_all_warning	ON	.
+2018-04-11 00:18:41-678	20	AX_SYS.log_count_all_warning	OFF	.
+2018-04-11 00:20:18-536	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-11 00:20:19-145	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-11 00:20:19-145	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-11 00:20:21-990	15	MP_Profibus3.DataError	ON	Profibus3 - Dispatch Office.Data error
+2018-04-11 00:20:21-990	15	MP_Profibus4.DataError	ON	Profibus4 - MP Unit Sub.Data error
+2018-04-11 00:20:21-990	15	MP_Profibus17.DataError	ON	Profibus17 - MP Unit Sub.Data error
+2018-04-11 00:20:21-990	15	MP_Profibus5.DataError	ON	Profibus5 - MP Unit Sub.Data error
+2018-04-11 00:20:21-990	15	MP_Profibus18.DataError	ON	Profibus18 - MP Unit Sub.Data error
+2018-04-11 00:20:21-990	15	MP_Profibus6.DataError	ON	Profibus6 - MCC2 Building.Data error
+2018-04-11 00:20:21-990	15	MP_IO6.DataError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2018-04-11 00:20:58-384	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2018-04-11 00:20:58-384	15	MP_Profibus3.DataError	OFF	Profibus3 - Dispatch Office.Data error
+2018-04-11 00:20:58-384	15	MP_Profibus4.DataError	OFF	Profibus4 - MP Unit Sub.Data error
+2018-04-11 00:20:58-384	15	MP_Profibus17.DataError	OFF	Profibus17 - MP Unit Sub.Data error
+2018-04-11 00:20:58-384	15	MP_Profibus5.DataError	OFF	Profibus5 - MP Unit Sub.Data error
+2018-04-11 00:20:58-384	15	MP_Profibus18.DataError	OFF	Profibus18 - MP Unit Sub.Data error
+2018-04-11 00:20:58-384	15	MP_Profibus6.DataError	OFF	Profibus6 - MCC2 Building.Data error
+2018-04-11 00:20:58-384	15	MP_IO6.DataError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2018-04-11 00:20:58-384	5	modbus_3.Alarm	OFF	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-11 00:20:58-384	5	COM_PC_Omni.Alarm	OFF	PC Omni Communication Error.
+2018-04-11 00:20:58-384	5	modbus_6.Alarm	OFF	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-11 00:20:58-586	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-11 00:20:59-197	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-11 00:20:59-197	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-11 00:21:01-836	20	AX_SYS.log_count_all_warning	ON	.
+2018-04-11 00:21:02-039	15	MP_Profibus3.DataError	ON	Profibus3 - Dispatch Office.Data error
+2018-04-11 00:21:02-039	15	MP_Profibus4.DataError	ON	Profibus4 - MP Unit Sub.Data error
+2018-04-11 00:21:02-039	15	MP_Profibus17.DataError	ON	Profibus17 - MP Unit Sub.Data error
+2018-04-11 00:21:02-039	15	MP_Profibus5.DataError	ON	Profibus5 - MP Unit Sub.Data error
+2018-04-11 00:21:02-039	15	MP_Profibus18.DataError	ON	Profibus18 - MP Unit Sub.Data error
+2018-04-11 00:21:02-039	15	MP_Profibus6.DataError	ON	Profibus6 - MCC2 Building.Data error
+2018-04-11 00:21:02-039	15	MP_IO6.DataError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Data error
+2018-04-11 00:21:05-494	20	AX_SYS.log_count_all_warning	OFF	.
+2018-04-12 00:44:12-805	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2018-04-12 00:44:12-805	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2018-04-12 00:44:12-805	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2018-04-12 00:44:12-805	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2018-04-12 00:44:12-805	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2018-04-12 00:44:12-805	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2018-04-12 00:44:12-805	5	TK3156.LALL	ON	.TANK LOLO ALARM
+2018-04-12 00:44:12-805	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2018-04-12 00:44:12-805	4	TK2195.LAL	ON	.TANK LO ALARM
+2018-04-12 00:44:12-805	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2018-04-12 00:44:12-805	4	TK2198.LAL	ON	.TANK LO ALARM
+2018-04-12 00:44:12-805	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2018-04-12 00:44:12-805	5	scanner_3.Alarm	ON	.
+2018-04-12 00:44:12-805	5	scanner_4.Alarm	ON	.
+2018-04-12 00:44:12-805	5	scanner_5.Alarm	ON	.
+2018-04-12 00:44:12-805	5	scanner_6.Alarm	ON	.
+2018-04-12 00:44:12-805	5	scanner_7.Alarm	ON	.
+2018-04-12 00:44:12-805	5	modbus_2.Alarm	ON	TDC COM-ERROR Indicator.aX-TDC Modbus Link Error
+2018-04-12 00:44:12-805	5	QA3010ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2018-04-12 00:44:12-805	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2018-04-12 00:44:12-805	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2018-04-12 00:44:12-805	5	QA3011ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2018-04-12 00:44:12-805	5	QA3012ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2018-04-12 00:44:12-805	5	QA3013ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	QA3007ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	QA3014ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	QA3009ALRM_1.Alarm	ON	Future.
+2018-04-12 00:44:12-805	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2018-04-12 00:44:12-805	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2018-04-12 00:44:12-805	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2018-04-12 00:44:12-805	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2018-04-12 00:44:12-805	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2018-04-12 00:44:12-805	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-12 00:44:12-805	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-12 00:44:12-805	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2018-04-12 00:44:12-805	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-12 00:44:12-805	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-12 00:44:12-805	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-12 00:44:12-805	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2018-04-12 00:44:12-805	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2018-04-12 00:44:12-805	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-12 00:44:12-805	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-12 00:44:12-805	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-12 00:44:12-805	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-12 00:44:12-805	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2018-04-12 00:44:12-805	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2018-04-12 00:44:12-805	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-12 00:44:12-805	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-12 00:44:12-805	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-12 00:44:12-805	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-12 00:44:12-805	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2018-04-12 00:44:12-805	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2018-04-12 00:44:12-805	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2018-04-12 00:44:12-805	0	LeakComm_err	OFF	Leak Communications Error
+2018-04-12 00:44:12-805	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2018-04-12 00:44:12-805	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2018-04-12 00:44:12-805	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2018-04-12 00:44:12-805	5	VRU_Warning.err1	OFF	VRU System Warning.State 1 Alarm
+2018-04-12 00:44:12-805	15	VRU_Fault.err1	OFF	VRU System Fault.State 1 Alarm
+2018-04-12 00:44:12-805	5	VRU_LevelSwitchAlarms.err2	OFF	VRU Level Switch Alarms.State 2 Alarm
+2018-04-12 00:44:12-805	25	VRU_LevelSwitchAlarms.err3	OFF	VRU Level Switch Alarms.State 3 Alarm
+2018-04-12 00:44:13-071	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2018-04-12 00:44:13-071	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2018-04-12 00:44:13-071	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-12 00:44:13-071	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2018-04-12 00:44:13-071	5	UVIRAL.Alarm	ON	Rail Spur UV/IR Detectors Alarm.
+2018-04-12 00:44:13-071	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-12 00:44:13-071	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2018-04-12 00:44:13-273	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-12 00:44:13-680	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-12 00:44:13-680	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-12 00:44:13-680	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2018-04-12 00:44:13-680	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2018-04-12 00:44:13-680	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2018-04-12 00:44:13-680	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2018-04-12 00:44:13-680	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2018-04-12 00:44:13-680	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2018-04-12 00:44:13-680	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2018-04-12 00:44:13-680	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2018-04-12 00:44:13-680	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2018-04-12 00:44:13-680	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2018-04-12 00:44:13-680	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2018-04-12 00:44:13-680	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2018-04-12 00:44:13-680	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2018-04-12 00:44:13-680	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2018-04-12 00:44:13-680	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2018-04-12 00:44:13-680	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2018-04-12 00:44:13-680	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2018-04-12 00:44:13-680	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2018-04-12 00:44:13-680	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2018-04-12 00:44:13-680	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2018-04-12 00:44:13-680	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2018-04-12 00:44:13-680	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2018-04-12 00:44:13-680	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2018-04-12 00:44:13-680	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2018-04-12 00:44:13-680	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2018-04-12 00:44:13-680	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2018-04-12 00:44:13-680	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2018-04-12 00:44:13-680	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2018-04-12 00:44:13-680	5	QA4200AL.Alarm	ON	Rail Spur Fire Alarm.
+2018-04-12 00:44:13-680	5	EA4201AAL.Alarm	ON	Warehouse UPS AC Fail Alarm.
+2018-04-12 00:44:13-680	5	EA4201BAL.Alarm	ON	Warehouse UPS Low Battery Alarm.
+2018-04-12 00:44:13-680	5	PAL4201AAL.Alarm	ON	Rail Spur West Deluge Flowing Alarm.
+2018-04-12 00:44:13-680	5	PAL4201BAL.Alarm	ON	Rail Spur East Deluge Flowing Alarm.
+2018-04-12 00:44:13-680	5	PAL4201CAL.Alarm	ON	Deluge System Water Pressure Low Alarm.
+2018-04-12 00:44:13-680	5	XA4201AAL.Alarm	ON	Rail Spur West Deluge Push Button Alarm.
+2018-04-12 00:44:13-680	5	XA4201BAL.Alarm	ON	Rail Spur East Deluge Push Button Alarm.
+2018-04-12 00:44:13-680	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2018-04-12 00:44:13-680	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2018-04-12 00:44:14-492	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2018-04-12 00:44:14-492	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2018-04-12 00:44:14-492	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2018-04-12 00:44:14-694	5	VRU_Warning.err1	ON	VRU System Warning.State 1 Alarm
+2018-04-12 00:44:14-694	15	VRU_Fault.err1	ON	VRU System Fault.State 1 Alarm
+2018-04-12 00:44:22-617	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-12 00:44:22-617	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-12 00:44:22-617	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-12 00:44:22-617	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-12 00:44:22-617	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-12 00:44:22-617	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-12 00:44:22-617	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-12 00:44:27-694	0	LeakComm_err	ON	Leak Communications Error
+2018-04-12 00:44:42-727	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-12 00:44:42-727	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-12 00:44:58-571	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-12 00:44:58-571	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-12 00:44:58-571	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-12 00:45:02-835	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-12 00:46:04-384	29	DP_55.software_error	ON	M1234.software error
+2018-04-12 00:46:06-213	29	DP_55.hardware_error	ON	M1234.hardware error
+2018-04-12 00:54:42-971	0	M1234.PTINAL	ON	.Command Disagree Alarm
+2018-04-12 00:54:48-253	0	M1234.PTINAL	OFF	.Command Disagree Alarm
+2018-04-12 01:05:27-500	20	M1234.rdy_alarm	ON	.ready fault
+2018-04-12 01:05:27-500	20	M1234.rem_alarm	ON	.safety switch fault
+2018-04-12 01:05:34-201	20	M1234.rdy_alarm	ACK	.ready fault
+2018-04-12 01:05:34-201	20	M1234.rem_alarm	ACK	.safety switch fault
+2018-04-12 01:05:37-250	2	M1234.sim_local	ON	.local simulation
+2018-04-12 01:05:39-483	20	M1234.rdy_alarm	OFF	.ready fault
+2018-04-12 01:05:39-483	20	M1234.rem_alarm	OFF	.safety switch fault
+2018-04-12 01:13:49-585	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-12 01:13:49-585	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-12 01:13:49-585	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-12 01:13:49-585	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-12 01:13:49-585	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-12 01:13:49-585	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-12 01:13:49-585	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-12 01:13:54-664	0	LeakComm_err	ON	Leak Communications Error
+2018-04-12 01:14:09-697	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-12 01:14:09-697	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-12 01:14:25-539	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-12 01:14:25-539	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-12 01:14:25-539	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-12 01:14:29-805	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-12 01:15:41-509	20	AX_SYS.log_count_all_warning	ON	.
+2018-04-12 01:15:44-759	20	AX_SYS.log_count_all_warning	OFF	.
+2018-04-13 01:28:28-979	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-13 01:28:28-979	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-13 01:28:28-979	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-13 01:28:28-979	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-13 01:28:28-979	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-13 01:28:28-979	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-13 01:28:28-979	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-13 01:28:34-055	0	LeakComm_err	ON	Leak Communications Error
+2018-04-13 01:28:49-088	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-13 01:28:49-088	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-13 01:29:04-931	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-13 01:29:04-931	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-13 01:29:04-931	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-13 01:29:09-197	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2018-04-13 01:30:20-901	20	AX_SYS.log_count_all_warning	ON	.
+2018-04-13 01:30:24-559	20	AX_SYS.log_count_all_warning	OFF	.
+2018-04-13 04:20:39-882	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2018-04-13 04:20:39-882	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2018-04-13 04:20:39-882	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2018-04-13 04:20:39-882	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2018-04-13 04:20:39-882	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2018-04-13 04:20:39-882	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2018-04-13 04:20:39-882	5	TK3156.LALL	ON	.TANK LOLO ALARM
+2018-04-13 04:20:39-882	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2018-04-13 04:20:39-882	4	TK2195.LAL	ON	.TANK LO ALARM
+2018-04-13 04:20:39-882	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2018-04-13 04:20:39-882	4	TK2198.LAL	ON	.TANK LO ALARM
+2018-04-13 04:20:39-882	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2018-04-13 04:20:39-882	5	scanner_3.Alarm	ON	.
+2018-04-13 04:20:39-882	5	scanner_4.Alarm	ON	.
+2018-04-13 04:20:39-882	5	scanner_5.Alarm	ON	.
+2018-04-13 04:20:39-882	5	scanner_6.Alarm	ON	.
+2018-04-13 04:20:39-882	5	scanner_7.Alarm	ON	.
+2018-04-13 04:20:39-882	5	modbus_2.Alarm	ON	TDC COM-ERROR Indicator.aX-TDC Modbus Link Error
+2018-04-13 04:20:39-882	5	QA3010ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2018-04-13 04:20:39-882	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2018-04-13 04:20:39-882	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2018-04-13 04:20:39-882	5	QA3011ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2018-04-13 04:20:39-882	5	QA3012ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2018-04-13 04:20:39-882	5	QA3013ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	QA3007ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	QA3014ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	QA3009ALRM_1.Alarm	ON	Future.
+2018-04-13 04:20:39-882	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2018-04-13 04:20:39-882	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2018-04-13 04:20:39-882	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2018-04-13 04:20:39-882	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2018-04-13 04:20:39-882	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2018-04-13 04:20:39-882	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-13 04:20:39-882	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-13 04:20:39-882	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2018-04-13 04:20:39-882	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-13 04:20:39-882	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-13 04:20:39-882	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2018-04-13 04:20:39-882	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2018-04-13 04:20:39-882	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2018-04-13 04:20:39-882	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-13 04:20:39-882	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-13 04:20:39-882	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-13 04:20:39-882	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-13 04:20:39-882	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2018-04-13 04:20:39-882	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2018-04-13 04:20:39-882	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2018-04-13 04:20:39-882	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2018-04-13 04:20:39-882	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2018-04-13 04:20:39-882	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2018-04-13 04:20:39-882	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2018-04-13 04:20:39-882	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2018-04-13 04:20:39-882	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2018-04-13 04:20:39-882	0	LeakComm_err	OFF	Leak Communications Error
+2018-04-13 04:20:39-882	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2018-04-13 04:20:39-882	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2018-04-13 04:20:39-882	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2018-04-13 04:20:39-882	5	VRU_Warning.err1	OFF	VRU System Warning.State 1 Alarm
+2018-04-13 04:20:39-882	15	VRU_Fault.err1	OFF	VRU System Fault.State 1 Alarm
+2018-04-13 04:20:39-882	5	VRU_LevelSwitchAlarms.err2	OFF	VRU Level Switch Alarms.State 2 Alarm
+2018-04-13 04:20:39-882	25	VRU_LevelSwitchAlarms.err3	OFF	VRU Level Switch Alarms.State 3 Alarm
+2018-04-13 04:20:40-132	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2018-04-13 04:20:40-132	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2018-04-13 04:20:40-132	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2018-04-13 04:20:40-132	5	UVIRAL.Alarm	ON	Rail Spur UV/IR Detectors Alarm.
+2018-04-13 04:20:40-132	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-13 04:20:40-132	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2018-04-13 04:20:40-335	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2018-04-13 04:20:40-335	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2018-04-13 04:20:40-743	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2018-04-13 04:20:40-743	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2018-04-13 04:20:40-743	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2018-04-13 04:20:40-743	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2018-04-13 04:20:40-743	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2018-04-13 04:20:40-743	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2018-04-13 04:20:40-743	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2018-04-13 04:20:40-743	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2018-04-13 04:20:40-743	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2018-04-13 04:20:40-743	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2018-04-13 04:20:40-743	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2018-04-13 04:20:40-743	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2018-04-13 04:20:40-743	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2018-04-13 04:20:40-743	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2018-04-13 04:20:40-743	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2018-04-13 04:20:40-743	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2018-04-13 04:20:40-743	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2018-04-13 04:20:40-743	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2018-04-13 04:20:40-743	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2018-04-13 04:20:40-743	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2018-04-13 04:20:40-743	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2018-04-13 04:20:40-743	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2018-04-13 04:20:40-743	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2018-04-13 04:20:40-743	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2018-04-13 04:20:40-743	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2018-04-13 04:20:40-743	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2018-04-13 04:20:40-743	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2018-04-13 04:20:40-743	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2018-04-13 04:20:40-743	5	QA4200AL.Alarm	ON	Rail Spur Fire Alarm.
+2018-04-13 04:20:40-743	5	EA4201AAL.Alarm	ON	Warehouse UPS AC Fail Alarm.
+2018-04-13 04:20:40-743	5	EA4201BAL.Alarm	ON	Warehouse UPS Low Battery Alarm.
+2018-04-13 04:20:40-743	5	PAL4201AAL.Alarm	ON	Rail Spur West Deluge Flowing Alarm.
+2018-04-13 04:20:40-743	5	PAL4201BAL.Alarm	ON	Rail Spur East Deluge Flowing Alarm.
+2018-04-13 04:20:40-743	5	PAL4201CAL.Alarm	ON	Deluge System Water Pressure Low Alarm.
+2018-04-13 04:20:40-743	5	XA4201AAL.Alarm	ON	Rail Spur West Deluge Push Button Alarm.
+2018-04-13 04:20:40-743	5	XA4201BAL.Alarm	ON	Rail Spur East Deluge Push Button Alarm.
+2018-04-13 04:20:40-743	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2018-04-13 04:20:40-743	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2018-04-13 04:20:41-759	5	VRU_Warning.err1	ON	VRU System Warning.State 1 Alarm
+2018-04-13 04:20:41-759	15	VRU_Fault.err1	ON	VRU System Fault.State 1 Alarm
+2018-04-13 04:20:41-961	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2018-04-13 04:20:41-961	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2018-04-13 04:20:43-993	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2018-04-13 04:20:43-993	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2018-04-13 04:20:43-993	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2018-04-13 04:20:49-680	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2018-04-13 04:20:49-680	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2018-04-13 04:20:49-680	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2018-04-13 04:20:49-680	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2018-04-13 04:20:49-680	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2018-04-13 04:20:49-680	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2018-04-13 04:20:49-680	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2018-04-13 04:20:54-759	0	LeakComm_err	ON	Leak Communications Error
+2018-04-13 04:21:09-790	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2018-04-13 04:21:09-790	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2018-04-13 04:21:25-634	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2018-04-13 04:21:25-634	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2018-04-13 04:21:25-634	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2018-04-13 04:21:29-901	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm

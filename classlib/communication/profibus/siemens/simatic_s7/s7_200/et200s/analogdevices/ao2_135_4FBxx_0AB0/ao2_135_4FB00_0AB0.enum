@@ -1,0 +1,7 @@
+ControlMode:		ByHost=0,
+			ByDevice=1,
+			Blind=2;
+
+module_range:	deact=0,
+		voltage_np_10=9,
+		voltage_1_5=7;

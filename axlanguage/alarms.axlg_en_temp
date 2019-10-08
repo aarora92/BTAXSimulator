@@ -1,0 +1,313 @@
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAHH	TANK HIHI ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAH	TANK HI ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAL	TANK LO ALARM
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LALL	TANK LOLO ALARM
+Class classlib/Burrard/Mixer/MIXER.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/Pumps/23hpmps/HPUMP.symbol Variable PTINAL	
+Class classlib/Burrard/Valves/23hv/HV23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmBoxOff.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/AlarmON.symbol Variable Alarm	J3022 LO FLOW ALARM
+Class classlib/Burrard/Alarms/AlarmBoxOn.symbol Variable Alarm	
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable TEMPALRM	HI MOTOR TRANSFORMER TEMP
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable MOVALRM	MOV ERROR
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable NOT_READYALRM	MOV NOT READY
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable HiHi	HiHi Alarm
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Hi	Hi Alarm
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Lo	Water Supply Low Pressure
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable LoLo	LoLo Alarm
+Class classlib/Burrard/MOVs/MOV23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Valves/23dockhv/DockHV23.symbol Variable Alarm	
+Class classlib/Burrard/Misc/EStopButton.symbol Variable EmergencyStop	MIddle Plant Import Pumps Emergency Stop
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable HITEMPAL	Hi Temperature Alarm
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable LOWBATAL	Low Battery Alarm
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/Valves/23vent/VENT23ZS.symbol Variable Alarm	
+Class classlib/Burrard/Misc/MeterBox.symbol Variable MeterFaultAlrm	Meter #4 Multiload Meter Fault
+Class classlib/Burrard/Misc/MeterBox.symbol Variable PathAlarm	West Dock Meter #4 Multiple Valves Open
+Class classlib/Burrard/Alarms/DockOFFAlrm.symbol Variable Alarm	
+Class classlib/Burrard/AirSystem/AirSolVlv.symbol Variable Alarm	
+Class classlib/Burrard/Alarms/DockONAlrm.symbol Variable Alarm	
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable NoDelugePressure	
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable Fail	autoX activation of Rail Spur Deluge failed!
+Class classlib/Burrard/Alarms/AlarmOFF.symbol Variable Alarm	
+Class classlib/Burrard/Pumps/Sump/SPUMP.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable HITEMPAL	High Temperature Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable LOWBATAL	Low Battery Alarm
+Class classlib/Burrard/MOVs/MOV.symbol Variable PTINAL	Command Disagree Alarm
+Class classlib/Burrard/LeakDetect/LeakPrint.symbol Variable Error	
+Class classlib/Burrard/Alarms/DockOFFAlrm.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/AirSystem/AirSolVlv.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Lo ON Text	ON
+Class WestDock.tree Variable PI4013AL200 ON Text	ON
+Class classlib/Burrard/Alarms/DockONAlrm.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Alarms/AlarmOFF.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Pumps/Sump/SPUMP.symbol Variable PTINAL ON Text	ON
+Class EastDock.tree Variable PI4173AL200	East Dock Meter #5 200 PSI
+Class EastDock.tree Variable PI4173AL200 ON Text	ON
+Class EastDock.tree Variable PI4173AL200	East Dock Meter #5 200 PSI
+Class EastDock.tree Variable PI4173AL200 ON Text	ON
+Class EastDock.tree Variable PI4173AL200	East Dock Meter #5 200 PSI
+Class EastDock.tree Variable PI4173AL200 ON Text	ON
+Class EastDock.tree Variable PI4173AL200	East Dock Meter #5 200 PSI
+Class EastDock.tree Variable PI4173AL200 ON Text	ON
+Class classlib/Burrard/Alarms/AlarmON.symbol Variable Alarm ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable hardware_error	Hardware Error ..... No Connection to Slave
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable hardware_error ON Text	ON
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable hardware_error	Hardware Failure
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable hardware_error ON Text	ON
+Class classlib/Burrard/Alarms/AlarmON.symbol Variable Alarm ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable hardware_error	Hardware Error ..... No Connection to Slave
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable hardware_error ON Text	ON
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable hardware_error	Hardware Failure
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable hardware_error ON Text	ON
+Class classlib/Burrard/Misc/MeterBox.symbol Variable MeterFaultAlrm ON Text	ON
+Class classlib/Burrard/Misc/MeterBox.symbol Variable MeterFaultAlrm ON Text	ON
+Class classlib/Burrard/Pumps/23hpmps/HPUMP.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/Pumps/23hpmps/HPUMP.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol Variable Alarm ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn	No TCP Connection
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn	No TCP Connection
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn	No TCP Connection
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn	No TCP Connection
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable no_tcp_conn ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault	Error Redundancy
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault	Error Redundancy
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault	Error Redundancy
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable plc_fault_remote ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault	Error Redundancy
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable arb_fault ON Text	ON
+Class classlib/serial/DF1/DF1_Master/DF1MIO_M.symbol Variable err	
+Class classlib/serial/DF1/DF1_Master/DF1MIO_M.symbol Variable err ON Text	ON
+Class classlib/Burrard/Misc/MeterBox.symbol Variable PathAlarm ON Text	ON
+Class classlib/Burrard/Alarms/AlarmBoxOff.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAHH ON Text	ON
+Class classlib/Burrard/Alarms/AlarmBoxOn.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable NOT_READYALRM ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAL ON Text	ON
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable MOVALRM ON Text	ON
+Class LeakComm2.tree Variable LeakComm_err	Leak Communications Error
+Class LeakComm2.tree Variable LeakComm_err ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_local	
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable rd_fault_local ON Text	ON
+Class WestDock.tree Variable PI4023AL200 ON Text	ON
+Class WestDock.tree Variable PI4023AL200 ON Text	ON
+Class WestDock.tree Variable PI4023AL200 ON Text	ON
+Class WestDock.tree Variable PI4028AL200 ON Text	ON
+Class WestDock.tree Variable PI4033AL200 ON Text	ON
+Class WestDock.tree Variable PI4023AL300 ON Text	ON
+Class WestDock.tree Variable PI4023AL250 ON Text	ON
+Class WestDock.tree Variable PI4023AL300 ON Text	ON
+Class WestDock.tree Variable PI4023AL250 ON Text	ON
+Class WestDock.tree Variable PI4023AL300 ON Text	ON
+Class WestDock.tree Variable PI4023AL250 ON Text	ON
+Class WestDock.tree Variable PI4018AL250 ON Text	ON
+Class WestDock.tree Variable PI4018AL250 ON Text	ON
+Class WestDock.tree Variable PI4028AL200 ON Text	ON
+Class WestDock.tree Variable PI4033AL200 ON Text	ON
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable PTINAL ON Text	ON
+Class WestDock.tree Variable PI4013AL250 ON Text	ON
+Class WestDock.tree Variable PI4013AL250 ON Text	ON
+Class WestDock.tree Variable PI4033AL200 ON Text	ON
+Class WestDock.tree Variable PI4033AL250 ON Text	ON
+Class WestDock.tree Variable PI4033AL250 ON Text	ON
+Class WestDock.tree Variable PI4033AL250 ON Text	ON
+Class WestDock.tree Variable PI4013AL300 ON Text	ON
+Class WestDock.tree Variable PI4013AL300 ON Text	ON
+Class WestDock.tree Variable PI4013AL300 ON Text	ON
+Class WestDock.tree Variable PI4013AL250 ON Text	ON
+Class WestDock.tree Variable PI4013AL300 ON Text	ON
+Class WestDock.tree Variable PI4013AL250 ON Text	ON
+Class EastDock.tree Variable PI4178AL200	East Dock Meter #6 200 PSI
+Class EastDock.tree Variable PI4178AL200 ON Text	ON
+Class EastDock.tree Variable PI4178AL200	East Dock Meter #6 200 PSI
+Class EastDock.tree Variable PI4178AL200 ON Text	ON
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem	To less Shared Memory
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem ON Text	ON
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem	To less Shared Memory
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem ON Text	ON
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem	To less Shared Memory
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem ON Text	ON
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem	To less Shared Memory
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem ON Text	ON
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem	To less Shared Memory
+Class classlib/systemax/axserver/axserver_plc/axserver_plc.symbol Variable min_shared_mem ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol Variable error ON Text	ON
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error	
+Class classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol Variable error ON Text	ON
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable Hi ON Text	ON
+Class EastDock.tree Variable PI4158AL270 ON Text	ON
+Class classlib/systemax/axserver/axserver_sys/axserver_sys.symbol Variable warning_phys_mem	Warning Real Memory Minimum
+Class classlib/systemax/axserver/axserver_sys/axserver_sys.symbol Variable warning_phys_mem ON Text	ON
+Class classlib/systemax/axserver/axserver_sys/axserver_sys.symbol Variable alarm_phys_mem	Alarm Real Memory Minimum
+Class classlib/systemax/axserver/axserver_sys/axserver_sys.symbol Variable alarm_phys_mem ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LAH ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LALL ON Text	ON
+Class classlib/Burrard/Mixer/MIXER.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/Valves/23hv/HV23ZS.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/MOVs/MOVFOAM.symbol Variable TEMPALRM ON Text	ON
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable HiHi ON Text	ON
+Class classlib/Burrard/Misc/ValWithAlrm.symbol Variable LoLo ON Text	ON
+Class classlib/Burrard/MOVs/MOV23ZS.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Misc/EStopButton.symbol Variable EmergencyStop ON Text	ON
+Class classlib/Burrard/Valves/23dockhv/DockHV23.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable HITEMPAL ON Text	ON
+Class classlib/Burrard/MOVs/MOVSTEP.symbol Variable LOWBATAL ON Text	ON
+Class classlib/Burrard/Valves/23vent/VENT23ZS.symbol Variable Alarm ON Text	ON
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable NoDelugePressure ON Text	ON
+Class classlib/Burrard/Misc/PCDelugeStart.symbol Variable Fail ON Text	ON
+Class classlib/Burrard/MOVs/MOV.symbol Variable HITEMPAL ON Text	ON
+Class classlib/Burrard/MOVs/MOV.symbol Variable LOWBATAL ON Text	ON
+Class classlib/Burrard/MOVs/MOV.symbol Variable PTINAL ON Text	ON
+Class MidPLogic.tree Variable TK3156_LALL ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LALL ON Text	ON
+Class MidPLogic.tree Variable TK3156_LALL ON Text	ON
+Class MidPLogic.tree Variable TK3156_LALL ON Text	ON
+Class MidPLogic.tree Variable TK3156_LALL ON Text	ON
+Class MidPLogic.tree Variable TK3156_LALL ON Text	ON
+Class classlib/Burrard/Tanks/PCTANK.symbol Variable LALL ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure	Error Standby Server FAILURE
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure	Error Standby Server FAILURE
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure	Error Standby Server FAILURE
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure	Error Standby Server FAILURE
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure ON Text	ON
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure	Error Standby Server FAILURE
+Class classlib/systemax/axserver/axserver_arb/axserver_arb.symbol Variable stby_failure ON Text	ON
+Class WestDock.tree Variable PI4043AL200	PI4043 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4043AL200 ON Text	ON
+Class WestDock.tree Variable PI4043AL200	PI4043 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4043AL200 ON Text	ON
+Class WestDock.tree Variable TestAlarm	
+Class WestDock.tree Variable TestAlarm ON Text	ON
+Class WestDock.tree Variable TestAlarm	
+Class WestDock.tree Variable TestAlarm ON Text	ON
+Class WestDock.tree Variable TestAlarm	
+Class WestDock.tree Variable TestAlarm ON Text	ON
+Class WestDock.tree Variable TestAlarm	
+Class WestDock.tree Variable TestAlarm ON Text	ON
+Class EastDock.tree Variable PI4168AL200 ON Text	ON
+Class EastDock.tree Variable PI4168AL200 ON Text	ON
+Class EastDock.tree Variable PI4168AL200 ON Text	ON
+Class EastDock.tree Variable PI4168AL200 ON Text	ON
+Class WestDock.tree Variable PI4018AL300 ON Text	ON
+Class EastDock.tree Variable PI4153AL270 ON Text	ON
+Class EastDock.tree Variable PI4153AL270 ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error	Software Error ...  Slave not in Cyclemode
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error	Software Error ...  Slave not in Cyclemode
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error	Software Error ...  Slave not in Cyclemode
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error ON Text	ON
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error	Software Error ...  Slave not in Cyclemode
+Class classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol Variable software_error ON Text	ON
+Class EastDock.tree Variable PI4153AL270 ON Text	ON
+Class EastDock.tree Variable PI4153AL300 ON Text	ON
+Class EastDock.tree Variable PI4153AL300 ON Text	ON
+Class EastDock.tree Variable PI4153AL300 ON Text	ON
+Class EastDock.tree Variable PI4153AL300 ON Text	ON
+Class EastDock.tree Variable PI4173AL250	East Dock Meter #5 250 PSI
+Class EastDock.tree Variable PI4173AL250 ON Text	ON
+Class EastDock.tree Variable PI4178AL250	East Dock Meter #6 250 PSI
+Class EastDock.tree Variable PI4178AL250 ON Text	ON
+Class EastDock.tree Variable PI4173AL250	East Dock Meter #5 250 PSI
+Class EastDock.tree Variable PI4173AL250 ON Text	ON
+Class EastDock.tree Variable PI4178AL250	East Dock Meter #6 250 PSI
+Class EastDock.tree Variable PI4178AL250 ON Text	ON
+Class EastDock.tree Variable PI4173AL250	East Dock Meter #5 250 PSI
+Class EastDock.tree Variable PI4173AL250 ON Text	ON
+Class EastDock.tree Variable PI4178AL250	East Dock Meter #6 250 PSI
+Class EastDock.tree Variable PI4178AL250 ON Text	ON
+Class EastDock.tree Variable PI4173AL250	East Dock Meter #5 250 PSI
+Class EastDock.tree Variable PI4173AL250 ON Text	ON
+Class EastDock.tree Variable PI4178AL250	East Dock Meter #6 250 PSI
+Class EastDock.tree Variable PI4178AL250 ON Text	ON
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error	
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error ON Text	ON
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error	
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error ON Text	ON
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error	
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error ON Text	ON
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error	
+Class classlib/systemax/axserver/axs_interface/axs_automationx/axs_pci_4xse/pci_card/pci_module/axs_mio_pci_ser_module.symbol Variable module_error ON Text	ON
+Class WestDock.tree Variable PI4028AL250 ON Text	ON
+Class EastDock.tree Variable PI4163AL270 ON Text	ON
+Class EastDock.tree Variable PI4168AL250 ON Text	ON
+Class EastDock.tree Variable PI4168AL250 ON Text	ON
+Class EastDock.tree Variable PI4168AL250 ON Text	ON
+Class EastDock.tree Variable PI4168AL250 ON Text	ON
+Class EastDock.tree Variable PI4158AL300 ON Text	ON
+Class EastDock.tree Variable PI4158AL300 ON Text	ON
+Class EastDock.tree Variable PI4158AL300 ON Text	ON
+Class GasolinetoDocks.tree Variable EastDockRadioALTest	
+Class GasolinetoDocks.tree Variable EastDockRadioALTest ON Text	ON
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable software_error	Software Failure
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable software_error ON Text	ON
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable software_error	Software Failure
+Class classlib/profibus/M&R/Counter/pbc1.symbol Variable software_error ON Text	ON
+Class WestDock.tree Variable PI4038AL200	PI4038 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4038AL200 ON Text	ON
+Class WestDock.tree Variable PI4038AL200	PI4038 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4038AL200 ON Text	ON
+Class WestDock.tree Variable PI4038AL200	PI4038 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4038AL200 ON Text	ON
+Class WestDock.tree Variable PI4038AL200	PI4038 Pressure Above 200 PSI
+Class WestDock.tree Variable PI4038AL200 ON Text	ON
+Class EastDock.tree Variable PI4168AL300 ON Text	ON
+Class WestDock.tree Variable PI4033AL300 ON Text	ON
+Class WestDock.tree Variable PI4033AL300 ON Text	ON
+Class EastDock.tree Variable PI4173AL300	East Dock Meter #5 300 PSI
+Class EastDock.tree Variable PI4173AL300 ON Text	ON
+Class EastDock.tree Variable PI4178AL300	East Dock Meter #6 300 PSI
+Class EastDock.tree Variable PI4178AL300 ON Text	ON
+Class EastDock.tree Variable PI4173AL300	East Dock Meter #5 300 PSI
+Class EastDock.tree Variable PI4173AL300 ON Text	ON
+Class EastDock.tree Variable PI4178AL300	East Dock Meter #6 300 PSI
+Class EastDock.tree Variable PI4178AL300 ON Text	ON
+Class EastDock.tree Variable PI4173AL300	East Dock Meter #5 300 PSI
+Class EastDock.tree Variable PI4173AL300 ON Text	ON
+Class EastDock.tree Variable PI4178AL300	East Dock Meter #6 300 PSI
+Class EastDock.tree Variable PI4178AL300 ON Text	ON
+Class EastDock.tree Variable PI4173AL300	East Dock Meter #5 300 PSI
+Class EastDock.tree Variable PI4173AL300 ON Text	ON
+Class EastDock.tree Variable PI4178AL300	East Dock Meter #6 300 PSI
+Class EastDock.tree Variable PI4178AL300 ON Text	ON

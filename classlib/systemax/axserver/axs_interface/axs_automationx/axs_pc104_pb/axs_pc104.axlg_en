@@ -1,0 +1,8 @@
+WrongInstance [Text Normal]	Text
+WrongInstance [Text Activ]	Wrong Instancename
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	This is a eightfold automationX pc104 card. The state\led displays the actual card state.\\To get detailed information about each mio card click\on the mio fields below.\(Detailed mio channel information is only available if \the card is running)
+Text [Text Activ]	Text

@@ -1,0 +1,1054 @@
+2016-02-01 00:00:00-638	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 00:00:10-840	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 13:38:20-957	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 13:38:20-957	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 13:38:21-957	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 13:38:22-157	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 13:40:57-844	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 13:40:58-444	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 13:42:41-274	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-01 13:42:41-474	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 13:42:51-680	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 17:13:07-968	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 17:13:07-968	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 17:13:08-968	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 17:13:09-168	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 17:15:15-794	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 17:15:16-394	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 17:16:17-815	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-01 17:16:17-815	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 17:16:18-415	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-01 17:16:18-615	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 17:16:27-817	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 17:16:28-817	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 17:28:25-090	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 17:28:25-090	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-01 17:28:26-090	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 17:28:26-290	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-01 17:31:01-923	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 17:31:02-523	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-01 17:31:15-925	0	Batch3	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-01 17:31:15-925	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 17:31:16-525	0	Original-BatchTrack	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-01 17:31:16-725	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-01 17:31:25-927	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 17:31:26-927	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-02 06:15:44-360	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 06:57:24-421	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 06:57:24-421	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 06:57:25-421	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 06:57:25-621	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 06:59:37-650	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 06:59:38-250	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 07:00:51-684	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 07:00:51-684	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 07:00:52-284	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 07:00:52-484	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 07:01:01-686	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 07:01:02-686	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 12:30:39-589	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 12:30:39-589	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 12:30:40-589	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 12:30:40-789	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 12:32:29-053	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 12:32:29-653	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 12:34:02-875	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 12:34:02-875	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 12:34:03-475	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 12:34:03-675	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 12:34:12-877	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 12:34:13-877	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 16:52:17-863	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 16:52:17-863	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 16:52:18-863	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 16:52:19-064	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 16:54:49-909	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 16:54:50-509	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 16:55:54-929	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 16:55:54-929	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 16:55:55-529	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 16:55:55-729	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 16:56:04-932	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 16:56:05-932	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 17:03:00-058	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 17:03:00-058	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-03 17:03:00-858	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 17:03:01-058	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 17:03:01-258	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-03 17:05:01-082	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 17:05:04-683	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-03 17:05:57-095	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 17:05:57-095	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 17:05:57-696	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-03 17:05:57-896	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-03 17:06:07-098	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 17:06:08-099	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-03 22:50:20-145	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 07:17:18-466	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 07:17:18-466	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 07:17:19-466	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 07:17:19-666	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 07:20:16-713	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 07:20:17-313	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 07:21:18-729	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 07:21:18-729	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 07:21:19-329	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 07:21:19-529	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 07:21:28-732	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-04 07:21:29-732	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-04 10:42:40-708	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 10:42:40-708	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 10:42:41-711	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 10:42:41-911	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 10:45:07-591	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 10:45:08-191	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 10:45:13-192	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 10:45:13-392	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 10:45:17-594	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 10:45:17-594	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 10:45:23-596	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-04 10:45:27-597	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-04 17:24:11-976	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 17:24:11-976	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-04 17:24:12-977	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 17:24:13-177	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-04 17:25:41-302	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 17:25:41-902	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-04 17:27:30-132	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 17:27:30-132	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 17:27:30-732	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-04 17:27:30-932	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-04 17:27:40-135	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-04 17:27:41-135	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-05 08:44:21-440	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 08:44:21-440	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 08:44:22-240	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 08:44:22-441	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 08:44:22-641	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 08:46:32-546	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 08:46:33-146	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 10:05:39-144	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 16:14:39-955	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 16:14:39-955	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 16:14:40-955	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 16:14:41-155	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 16:17:06-987	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 16:17:13-590	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 16:18:12-009	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-05 16:18:12-009	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-05 16:18:12-609	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-05 16:18:12-809	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-05 16:18:22-011	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-05 16:18:23-011	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-05 16:24:11-749	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 16:24:11-749	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-05 16:24:12-749	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 16:24:12-949	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-05 16:26:14-774	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 16:26:15-374	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-05 16:27:07-788	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-05 16:27:07-788	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-05 16:27:08-388	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-05 16:27:08-588	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-05 16:27:17-790	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-05 16:27:18-790	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-06 09:04:04-127	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 09:04:04-127	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 09:04:05-127	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 09:04:05-327	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 09:06:41-596	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 09:06:42-196	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:32:25-455	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 11:32:25-455	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 11:32:26-255	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:32:26-455	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 11:32:26-655	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 11:34:26-682	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:34:30-283	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:35:07-694	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-06 11:35:07-694	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-06 11:35:08-294	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-06 11:35:08-494	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-06 11:35:17-696	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-06 11:35:18-697	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-06 11:47:04-867	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 11:47:04-867	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 11:47:05-867	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 11:47:06-067	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 11:49:40-512	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:49:41-112	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 11:49:51-514	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-06 11:49:51-514	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-06 11:49:52-114	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-06 11:49:52-314	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-06 11:50:01-516	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-06 11:50:02-516	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-06 12:09:00-821	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 12:09:00-821	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-06 12:09:01-821	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 12:09:02-021	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-06 12:11:21-465	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 12:11:22-066	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-06 16:19:25-820	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 03:52:43-105	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 03:52:43-105	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 03:52:44-106	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 03:52:44-306	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 03:54:56-927	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 03:54:57-527	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 12:51:21-518	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 12:51:21-518	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 12:51:22-318	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 12:51:22-518	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 12:51:22-718	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 12:53:21-355	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 12:53:21-955	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 12:54:29-383	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-07 12:54:29-383	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-07 12:54:29-983	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-07 12:54:30-183	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-07 12:54:39-385	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-07 12:54:40-385	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-07 16:09:54-661	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 16:09:54-661	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-07 16:09:55-661	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 16:09:55-861	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-07 16:11:46-083	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 16:11:46-683	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-07 16:13:16-913	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-07 16:13:16-913	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-07 16:13:20-514	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-07 16:13:20-714	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-07 16:13:26-915	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-07 16:13:30-916	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-08 06:17:12-497	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-08 06:17:12-497	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-08 06:17:13-498	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-08 06:17:13-698	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-08 06:19:23-524	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-08 06:19:24-125	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-02-08 09:35:10-384	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-08 09:35:10-384	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-02-08 09:35:11-384	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-08 09:35:11-584	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-02-08 09:36:58-420	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-08 09:36:59-020	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-08 09:38:27-471	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-08 09:38:27-471	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-08 09:38:28-072	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-02-08 09:38:28-273	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-02-08 09:38:37-476	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-08 09:38:38-476	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-08 10:00:37-350	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-02-08 11:47:01-638	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 11:47:01-638	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 11:47:02-438	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-08 11:47:02-638	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 11:47:02-838	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 11:48:53-458	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-08 11:48:54-058	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-08 11:50:27-288	0	Batch3	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 11:50:27-288	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 11:50:27-888	0	Original-BatchTrack	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 11:50:28-088	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 11:50:37-297	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-08 11:50:38-297	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-08 15:39:52-422	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 15:39:52-422	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 15:39:53-423	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 15:39:53-623	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 15:42:20-869	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-08 15:42:21-469	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-08 15:43:22-897	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 15:43:22-897	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 15:43:23-497	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 15:43:23-697	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 15:43:32-899	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-08 15:43:33-899	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-08 15:50:21-804	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 15:50:21-804	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-08 15:50:22-805	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 15:50:23-005	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-08 15:52:24-827	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-08 15:52:25-427	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-08 15:53:17-838	0	Batch3	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 15:53:17-838	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 15:53:18-438	0	Original-BatchTrack	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-08 15:53:18-638	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-08 15:53:27-840	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-08 15:53:28-840	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-09 17:00:01-326	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-09 17:00:01-326	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-09 17:00:02-326	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-09 17:00:02-526	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-09 17:03:06-580	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-09 17:03:07-180	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-09 17:03:16-582	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-09 17:03:16-582	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-09 17:03:26-584	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-09 17:04:12-193	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-09 17:04:12-393	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-09 17:04:22-595	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-09 17:17:22-807	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-09 17:17:22-807	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-09 17:17:23-807	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-09 17:17:24-007	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-09 17:20:04-677	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-09 17:20:05-278	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-09 17:20:18-690	0	Batch3	72	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-09 17:20:18-690	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-09 17:20:19-290	0	Original-BatchTrack	72	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-09 17:20:19-490	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-09 17:20:28-695	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-09 17:20:29-695	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 07:47:51-153	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 07:47:51-153	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 07:47:52-154	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 07:47:52-354	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 07:50:17-386	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-10 07:50:17-986	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-10 07:51:19-398	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 07:51:19-398	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 07:51:19-998	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 07:51:20-198	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 07:51:29-400	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 07:51:30-401	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 09:36:03-215	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 09:36:03-215	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 09:36:04-215	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 09:36:04-415	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 09:38:05-238	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-10 09:38:05-838	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-10 09:39:01-250	0	Batch3	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 09:39:01-250	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 09:39:01-850	0	Original-BatchTrack	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 09:39:02-050	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 09:39:11-252	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 09:39:12-252	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 12:50:18-328	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:20:00-674	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 16:20:00-674	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 16:20:01-674	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 16:20:01-874	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 16:22:07-509	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:22:08-109	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:22:48-524	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 16:22:48-524	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 16:22:49-124	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 16:22:49-325	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 16:22:58-528	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 16:22:59-528	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 16:35:02-684	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 16:35:02-684	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-10 16:35:03-484	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:35:03-684	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 16:35:03-884	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-10 16:37:37-169	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:37:40-771	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-10 16:37:48-173	0	Batch3	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 16:37:48-173	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 16:37:48-774	0	Original-BatchTrack	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-10 16:37:48-974	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-10 16:37:58-177	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-10 16:37:59-177	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 07:45:55-928	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 07:45:55-928	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 07:45:56-928	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 07:45:57-128	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 07:48:02-358	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-12 07:48:05-959	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-12 07:48:55-372	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 07:48:55-372	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 07:48:55-972	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 07:48:56-172	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 07:49:05-374	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 07:49:06-374	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 09:06:55-810	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-12 09:33:50-077	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 09:33:50-077	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 09:33:51-078	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 09:33:51-278	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 09:35:50-308	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-12 09:35:53-909	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-12 09:36:46-320	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 09:36:46-320	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 09:36:46-920	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 09:36:47-120	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 09:36:56-323	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 09:36:57-323	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 17:06:00-289	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 17:06:00-289	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 17:06:01-289	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 17:06:01-489	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 17:08:03-919	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-12 17:08:07-520	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-12 17:08:44-934	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 17:08:44-934	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 17:08:45-534	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 17:08:45-734	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 17:08:54-936	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 17:08:55-936	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 17:20:44-789	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 17:20:44-789	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 17:20:45-590	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-12 17:20:45-790	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 17:20:45-990	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 17:23:18-237	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-12 17:23:18-837	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-12 17:23:26-842	0	Original-BatchTrack	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 17:23:27-042	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 17:23:28-242	0	Batch3	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-12 17:23:28-242	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-12 17:23:37-245	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 17:23:38-245	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-12 19:22:45-501	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 19:22:45-501	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-12 19:22:46-502	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 19:22:46-702	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-12 19:24:52-571	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-12 19:24:53-172	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-13 06:06:58-248	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-13 10:17:28-994	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-13 10:17:28-994	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-13 10:17:29-994	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-13 10:17:30-194	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-13 10:19:47-031	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-13 10:19:47-631	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-13 10:20:55-058	0	Batch3	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-13 10:20:55-058	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-13 10:20:55-659	0	Original-BatchTrack	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-13 10:20:55-859	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-13 10:21:05-063	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-13 10:21:06-063	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-13 15:49:13-853	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-13 15:49:13-853	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-13 15:49:14-853	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-13 15:49:15-053	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-13 15:51:07-487	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-13 15:51:08-088	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-13 15:52:57-540	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-13 15:52:57-540	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-13 15:52:58-140	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-13 15:52:58-340	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-13 15:53:07-542	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-13 15:53:08-542	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-14 11:26:58-222	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 11:26:58-222	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 11:26:59-023	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-14 11:26:59-223	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 11:26:59-423	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 11:29:09-063	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-14 11:29:09-663	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-14 12:52:49-498	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-14 13:08:49-028	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 13:08:49-028	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 13:08:50-029	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 13:08:50-229	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 13:11:22-863	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-14 13:11:26-464	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-14 13:12:27-879	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-14 13:12:27-879	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-14 13:12:28-479	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-14 13:12:28-679	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-14 13:12:37-881	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-14 13:12:38-881	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-14 14:57:18-383	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 14:57:18-383	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-14 14:57:19-383	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 14:57:19-583	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-14 14:59:18-810	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-14 14:59:19-411	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-14 15:00:14-851	0	Batch3	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-14 15:00:14-851	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-14 15:00:15-451	0	Original-BatchTrack	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-14 15:00:15-652	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-14 15:00:24-859	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-14 15:00:25-859	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 11:46:26-887	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 11:46:26-887	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 11:46:27-888	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 11:46:28-088	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 11:49:12-759	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-15 11:49:13-359	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-15 11:50:14-772	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 11:50:14-772	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 11:50:15-372	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 11:50:15-572	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 11:50:24-774	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 11:50:25-774	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 13:23:00-256	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 13:23:00-256	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 13:23:01-057	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-15 13:23:01-257	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 13:23:01-457	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 13:25:28-110	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-15 13:25:28-710	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-15 13:25:42-112	0	Batch3	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 13:25:42-112	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 13:25:42-713	0	Original-BatchTrack	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 13:25:42-913	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 13:25:52-114	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 13:25:53-114	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 16:41:50-392	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 16:41:50-392	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-15 16:41:51-392	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 16:41:51-592	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-15 16:43:41-816	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-15 16:43:42-416	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-15 16:45:34-851	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 16:45:34-851	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 16:45:35-451	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-15 16:45:35-651	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-15 16:45:44-856	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-15 16:45:45-856	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-16 02:10:42-642	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 17:52:18-122	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 17:52:18-122	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 17:52:19-123	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 17:52:19-323	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 17:54:31-799	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 17:54:32-399	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 18:28:35-199	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 18:28:35-199	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 18:28:36-199	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 18:28:36-399	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 18:30:49-627	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 18:30:50-228	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 20:07:32-556	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 20:07:32-556	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-16 20:07:33-356	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 20:07:33-556	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 20:07:33-756	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-16 20:09:45-389	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-16 20:09:45-989	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 10:27:19-815	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 10:27:19-815	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 10:27:20-816	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 10:27:21-016	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 10:29:32-451	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 10:29:36-052	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 11:25:18-879	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 11:25:18-879	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 11:25:19-879	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 11:25:20-079	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 11:27:33-509	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 11:27:34-109	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 13:17:58-998	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 13:17:58-998	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 13:17:59-998	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 13:18:00-198	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 13:20:10-236	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 13:20:10-836	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-17 14:48:08-303	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 14:48:08-303	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 14:48:09-304	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 14:48:09-504	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 14:50:36-968	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-17 14:50:37-568	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-17 14:51:41-182	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-17 14:51:41-182	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-17 14:51:41-782	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-17 14:51:41-982	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-17 14:51:51-184	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-17 14:51:52-184	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-17 15:24:14-895	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 15:24:14-895	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 15:24:15-896	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 15:24:16-096	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 15:26:17-155	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-17 15:26:17-756	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-17 15:27:10-199	0	Batch3	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-17 15:27:10-199	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-17 15:27:10-799	0	Original-BatchTrack	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-17 15:27:10-999	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-17 15:27:20-205	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-17 15:27:21-205	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-17 18:43:17-865	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 18:43:17-865	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 18:43:18-865	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 18:43:19-065	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 19:59:59-278	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 19:59:59-278	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-17 20:00:00-279	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 20:00:00-479	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-17 20:01:17-503	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-17 20:02:29-518	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-17 20:02:33-118	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 06:26:35-861	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 06:26:35-861	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 06:26:36-862	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 06:26:37-062	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 06:29:10-351	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 06:29:10-951	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 07:18:06-668	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 07:18:06-668	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 07:18:07-669	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 07:18:07-869	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 07:20:56-702	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-18 07:20:57-302	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-18 07:21:58-714	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 07:21:58-714	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 07:21:59-314	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 07:21:59-514	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 07:22:08-716	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 07:22:09-716	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 07:29:18-015	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 07:29:18-015	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 07:29:19-015	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 07:29:19-216	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 07:31:16-047	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 07:31:16-647	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 07:32:12-066	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 07:32:12-066	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 07:32:12-667	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 07:32:12-867	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 07:32:22-075	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 07:32:23-075	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 10:21:43-816	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 10:21:43-816	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 10:21:44-816	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 10:21:45-016	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 10:24:16-078	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 10:24:16-679	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 14:00:38-193	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 14:00:38-193	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 14:00:39-194	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 14:00:39-394	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 14:03:09-235	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 14:03:09-835	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 14:37:08-149	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 14:38:00-971	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 14:38:00-971	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 14:38:01-972	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 14:38:02-172	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 14:40:35-200	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 14:40:35-800	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:19:22-256	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:19:22-256	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:19:23-256	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:19:23-456	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:21:55-893	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:21:56-493	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:37:19-150	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:37:19-150	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:37:20-151	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:37:20-351	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:39:20-983	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:39:21-583	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:40:02-011	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 18:40:02-011	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 18:40:02-611	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 18:40:02-811	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 18:40:12-019	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 18:40:13-019	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 18:52:00-993	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:52:00-993	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-18 18:52:01-793	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:52:01-993	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:52:02-193	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-18 18:54:32-239	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:54:32-839	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-18 18:54:43-241	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 18:54:43-241	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 18:54:43-841	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-18 18:54:44-041	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-18 18:54:53-242	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-18 18:54:54-243	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 08:38:29-622	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 08:38:29-622	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 08:38:30-622	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 08:38:30-822	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 08:40:49-871	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-19 08:40:50-471	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-19 08:41:45-883	0	Batch3	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 08:41:45-883	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 08:41:46-483	0	Original-BatchTrack	34	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 08:41:46-683	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 08:41:55-885	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 08:41:56-885	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 10:05:31-633	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 10:05:31-633	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 10:05:32-633	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 10:05:32-833	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 10:05:55-050	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 10:05:55-050	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 10:05:56-050	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 10:05:56-250	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 10:07:34-279	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-19 10:07:55-284	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-19 10:07:58-884	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-19 10:09:29-106	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 10:09:29-106	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 10:09:29-706	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 10:09:29-906	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 10:09:39-109	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 10:09:40-109	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 10:09:51-512	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 13:16:17-581	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 13:16:17-581	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 13:16:18-585	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 13:16:18-785	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 13:18:46-616	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-19 13:18:47-216	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-19 13:18:55-218	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 13:18:55-418	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 13:18:56-618	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 13:18:56-618	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 13:19:05-624	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 13:19:06-624	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 18:31:52-123	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 18:31:52-123	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-19 18:31:53-123	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 18:31:53-323	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-19 18:33:34-361	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-19 18:33:40-961	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-19 18:35:00-405	0	Batch3	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 18:35:00-405	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 18:35:01-005	0	Original-BatchTrack	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-19 18:35:01-205	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-19 18:35:10-414	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 18:35:11-415	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-19 20:09:10-562	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-20 14:35:48-160	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 14:35:48-160	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 14:35:49-161	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 14:35:49-361	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 14:37:57-617	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-20 14:38:01-218	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:17:49-155	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 15:17:49-155	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 15:17:50-155	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 15:17:50-355	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 15:20:16-400	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:20:20-001	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:21:15-419	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-20 15:21:15-419	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-20 15:21:16-019	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-20 15:21:16-219	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-20 15:21:25-421	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-20 15:21:26-421	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-20 15:28:18-370	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 15:28:18-370	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-20 15:28:19-170	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:28:19-370	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 15:28:19-570	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-20 15:30:22-010	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:30:22-610	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-20 15:31:15-021	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-20 15:31:15-021	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-20 15:31:15-621	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-20 15:31:15-821	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-20 15:31:25-023	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-20 15:31:26-023	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-21 13:48:00-782	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-21 13:48:00-782	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-21 13:48:01-783	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-21 13:48:01-983	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-21 13:50:53-632	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-21 13:50:54-233	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-21 13:51:55-648	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-21 13:51:55-648	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-21 13:51:56-248	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-21 13:51:56-448	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-21 13:52:05-650	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-21 13:52:06-650	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-21 14:04:41-700	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-21 14:04:41-700	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-21 14:04:42-700	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-21 14:04:42-900	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-21 14:07:13-144	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-21 14:07:13-744	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-21 14:07:24-146	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-21 14:07:24-146	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-21 14:07:24-747	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-21 14:07:24-947	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-21 14:07:34-149	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-21 14:07:35-149	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-21 21:14:27-713	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:34:30-738	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-22 13:34:30-738	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-22 13:34:31-738	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-22 13:34:31-938	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-22 13:36:55-969	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:36:56-569	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:37:57-989	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-22 13:37:57-989	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-22 13:37:58-589	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-22 13:37:58-789	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-22 13:38:07-992	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-22 13:38:08-993	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-22 13:44:56-762	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-22 13:44:56-762	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-22 13:44:57-562	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:44:57-762	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-22 13:44:57-963	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-22 13:46:58-589	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:46:59-190	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-22 13:47:54-608	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-22 13:47:54-608	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-22 13:47:55-208	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-22 13:47:55-408	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-22 13:48:04-610	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-22 13:48:05-610	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-23 07:49:51-347	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 07:49:51-347	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 07:49:52-347	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 07:49:52-547	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 07:52:35-789	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-23 07:52:36-390	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-23 07:52:45-792	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-23 07:52:45-792	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-23 07:52:55-794	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-23 07:53:38-406	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-23 07:53:38-606	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-23 07:53:48-809	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-23 16:09:20-391	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 16:09:20-391	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 16:09:21-391	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 16:09:21-591	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 16:11:44-624	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-23 16:11:45-224	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-23 16:11:50-225	0	Original-BatchTrack	65	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-23 16:11:50-425	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-23 16:11:54-626	0	Batch3	65	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-23 16:11:54-626	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-23 16:12:00-627	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-23 16:12:04-628	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-23 19:17:45-561	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-23 21:59:47-282	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 21:59:47-282	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-23 21:59:48-282	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 21:59:48-482	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-23 22:01:55-117	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-23 22:01:55-717	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-24 09:12:02-446	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 09:12:02-446	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 09:12:03-246	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-24 09:12:03-446	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 09:12:03-646	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 09:14:18-874	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-24 09:14:22-475	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-24 09:15:29-892	0	Batch3	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 09:15:29-892	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 09:15:30-492	0	Original-BatchTrack	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 09:15:30-692	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 09:15:39-895	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 09:15:40-895	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 14:48:43-642	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 14:48:43-642	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 14:48:44-642	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 14:48:44-842	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 14:51:17-735	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-24 14:51:18-335	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-24 14:52:19-762	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 14:52:19-762	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 14:52:20-362	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 14:52:20-562	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 14:52:29-769	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 14:52:30-769	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 14:58:50-853	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 14:58:50-853	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-24 14:58:51-857	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 14:58:52-057	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-24 15:00:52-368	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-24 15:00:52-968	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-24 15:01:48-461	0	Batch3	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 15:01:48-461	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 15:01:49-062	0	Original-BatchTrack	43	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-24 15:01:49-262	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-24 15:01:58-467	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 15:01:59-467	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-24 17:59:35-758	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-25 07:46:01-341	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 07:46:01-341	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 07:46:02-341	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 07:46:02-541	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 07:48:49-791	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-25 07:48:53-391	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-25 07:48:53-391	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 07:48:53-591	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 07:48:59-792	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 07:48:59-792	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 07:49:03-793	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 07:49:09-794	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 08:02:44-591	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 08:02:44-591	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 08:02:45-391	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-25 08:02:45-592	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 08:02:45-792	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 08:05:16-034	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-25 08:05:16-634	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-25 08:05:27-038	0	Batch3	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 08:05:27-038	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 08:05:27-638	0	Original-BatchTrack	75	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 08:05:27-838	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 08:05:37-041	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 08:05:38-041	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 10:23:10-283	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 10:23:10-283	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 10:23:11-284	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 10:23:11-484	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 10:25:18-134	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-25 10:25:18-734	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-25 14:13:36-471	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 14:13:36-471	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 14:13:37-471	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 14:13:37-671	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 14:16:02-710	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-25 14:16:03-310	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-25 14:17:04-727	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 14:17:04-727	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 14:17:05-327	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 14:17:05-527	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 14:17:14-730	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 14:17:15-730	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 15:30:32-535	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 15:30:32-535	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-25 15:30:33-535	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 15:30:33-736	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-25 15:32:58-166	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-25 15:32:58-766	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-25 15:33:06-767	0	Original-BatchTrack	76	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 15:33:06-967	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 15:33:08-167	0	Batch3	76	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-25 15:33:08-167	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-25 15:33:17-169	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 15:33:18-169	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-25 23:37:52-021	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-26 12:26:10-378	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 12:26:10-378	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 12:26:11-179	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-26 12:26:11-379	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 12:26:11-579	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 12:28:49-826	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-26 12:28:50-426	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-26 12:29:54-845	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 12:29:54-845	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 12:29:55-445	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 12:29:55-645	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 12:30:04-847	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 12:30:05-848	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 14:20:21-929	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 14:20:21-929	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 14:20:22-929	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 14:20:23-129	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 14:22:48-577	0	Batch3	1	Omni product code changed	guest	WCPBTMRA
+2016-02-26 14:22:49-177	0	Original-BatchTrack	1	Omni product code changed	guest	WCPBTMRA
+2016-02-26 14:22:59-579	0	Batch3	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 14:22:59-579	0	Batch3	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 14:23:00-179	0	Original-BatchTrack	62	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 14:23:00-379	0	Original-BatchTrack	2	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 14:23:09-581	0	Batch3	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 14:23:10-582	0	Original-BatchTrack	2	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 17:06:39-689	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 17:06:39-689	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 17:06:40-689	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 17:06:40-889	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 17:09:10-354	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-26 17:09:13-956	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-26 17:10:18-383	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 17:10:18-383	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 17:10:18-983	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 17:10:19-183	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 17:10:28-385	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 17:10:29-385	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 17:16:44-681	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 17:16:44-681	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-26 17:16:45-682	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 17:16:45-882	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-26 17:18:47-708	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-26 17:18:48-308	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-26 17:19:40-719	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 17:19:40-719	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 17:19:41-319	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-26 17:19:41-519	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-26 17:19:50-721	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 17:19:51-721	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-26 19:04:58-530	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-27 11:24:13-118	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 11:24:13-118	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 11:24:13-918	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-27 11:24:14-118	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 11:24:14-318	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 11:26:48-556	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-27 11:26:49-156	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-27 13:03:56-491	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 13:03:56-491	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 13:03:57-491	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 13:03:57-691	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 13:05:58-313	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-27 13:05:58-913	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-27 13:06:39-320	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-27 13:06:39-320	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-27 13:06:39-920	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-27 13:06:40-120	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-27 13:06:49-321	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-27 13:06:50-321	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-27 14:02:06-570	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 14:02:06-570	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-27 14:02:07-571	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 14:02:07-771	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-27 14:04:32-428	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-27 14:04:33-028	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-27 14:04:38-029	0	Original-BatchTrack	65	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-27 14:04:38-230	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-27 14:04:42-431	0	Batch3	65	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-27 14:04:42-431	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-27 14:04:48-433	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-27 14:04:52-437	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-28 01:56:20-979	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:14:02-453	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-28 15:14:02-453	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-28 15:14:03-457	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-28 15:14:03-657	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-28 15:16:13-307	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:16:13-907	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:17:06-345	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-28 15:17:06-345	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-28 15:17:06-945	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-28 15:17:07-145	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-28 15:17:16-349	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-28 15:17:17-350	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-28 15:23:59-284	0	BatchTrackLogic	0	Batch start request from TDC	guest	WCPBTMRA
+2016-02-28 15:23:59-284	0	Original-BatchTrack	4	Batch start request from TDC	guest	WCPBTMRA
+2016-02-28 15:24:00-085	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:24:00-285	0	BatchTrackLogic	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-28 15:24:00-485	0	Original-BatchTrack	0	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-28 15:26:03-158	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:26:03-759	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-28 15:26:56-180	0	Batch3	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-28 15:26:56-180	0	Batch3	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-28 15:26:56-781	0	Original-BatchTrack	53	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-28 15:26:56-981	0	Original-BatchTrack	7	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-28 15:27:06-184	0	Batch3	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-28 15:27:07-185	0	Original-BatchTrack	7	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-29 14:31:05-293	0	BatchTrackLogic	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 14:31:05-293	0	Original-BatchTrack	1	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 14:31:06-294	0	BatchTrackLogic	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 14:31:06-494	0	Original-BatchTrack	1	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 14:33:41-348	0	Batch3	6	Omni product code changed	guest	WCPBTMRA
+2016-02-29 14:33:41-948	0	Original-BatchTrack	6	Omni product code changed	guest	WCPBTMRA
+2016-02-29 17:36:50-138	0	BatchTrackLogic	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 17:36:50-138	0	Original-BatchTrack	2	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 17:36:51-138	0	BatchTrackLogic	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 17:36:51-338	0	Original-BatchTrack	2	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 17:38:52-357	0	Batch3	4	Omni product code changed	guest	WCPBTMRA
+2016-02-29 17:38:52-957	0	Original-BatchTrack	4	Omni product code changed	guest	WCPBTMRA
+2016-02-29 17:39:30-363	0	Batch3	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-29 17:39:30-363	0	Batch3	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-29 17:39:30-963	0	Original-BatchTrack	35	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-29 17:39:31-163	0	Original-BatchTrack	5	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-29 17:39:40-365	0	Batch3	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-29 17:39:41-365	0	Original-BatchTrack	5	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-29 17:51:28-409	0	BatchTrackLogic	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 17:51:28-409	0	Original-BatchTrack	3	Batch start request from TDC	guest	WCPBTMRA
+2016-02-29 17:51:29-410	0	BatchTrackLogic	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 17:51:29-610	0	Original-BatchTrack	3	Batch start return sent to TDC	guest	WCPBTMRA
+2016-02-29 17:54:00-262	0	Batch3	0	Omni product code changed	guest	WCPBTMRA
+2016-02-29 17:54:00-862	0	Original-BatchTrack	0	Omni product code changed	guest	WCPBTMRA
+2016-02-29 17:54:14-267	0	Batch3	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-29 17:54:14-267	0	Batch3	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-29 17:54:14-867	0	Original-BatchTrack	66	SWING - Omni strobe sent	guest	WCPBTMRA
+2016-02-29 17:54:15-067	0	Original-BatchTrack	1	SWING - ESSO signal sent	guest	WCPBTMRA
+2016-02-29 17:54:24-270	0	Batch3	1	SWING - TDC signal sent	guest	WCPBTMRA
+2016-02-29 17:54:25-270	0	Original-BatchTrack	1	SWING - TDC signal sent	guest	WCPBTMRA

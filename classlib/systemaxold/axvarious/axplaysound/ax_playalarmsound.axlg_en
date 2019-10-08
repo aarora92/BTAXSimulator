@@ -1,0 +1,32 @@
+prio2 [Text Normal]	Priority for Sound 2:
+prio2 [Text Activ]	
+title [Text Normal]	Play Alarm Sound
+title [Text Activ]	Text
+display [Text Normal]	Display:
+display [Text Activ]	
+prio3 [Text Normal]	Priority for Sound 3:
+prio3 [Text Activ]	
+prio4 [Text Normal]	Priority for Sound 4:
+prio4 [Text Activ]	
+prio1 [Text Normal]	Priority for Sound 1:
+prio1 [Text Activ]	
+display1 [Text Normal]	Display:
+display1 [Text Activ]	
+rep_time [Text Normal]	Repeat Time:
+rep_time [Text Activ]	
+rep1 [Text Normal]	repeat Sound
+rep1 [Text Activ]	Button
+rep3 [Text Normal]	repeat Sound
+rep3 [Text Activ]	Button
+rep4 [Text Normal]	repeat Sound
+rep4 [Text Activ]	Button
+rep2 [Text Normal]	repeat Sound
+rep2 [Text Activ]	Button
+enable1 [Text Normal]	Enable Sound
+enable1 [Text Activ]	
+enable3 [Text Normal]	Enable Sound
+enable3 [Text Activ]	
+enable4 [Text Normal]	Enable Sound
+enable4 [Text Activ]	
+enable2 [Text Normal]	Enable Sound
+enable2 [Text Activ]	

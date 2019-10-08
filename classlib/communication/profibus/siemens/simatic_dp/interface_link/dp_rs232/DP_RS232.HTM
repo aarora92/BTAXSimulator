@@ -1,0 +1,767 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>dp_rs232__</TITLE>
+<META NAME="Microsoft Theme" CONTENT="none, default">
+<META NAME="Microsoft Border" CONTENT="none, default">
+<META NAME="Template" CONTENT="C:\Programme\Microsoft Office\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffe6">
+
+<I><STRONG><H1><A NAME="übersch">DP/RS232C Link </A></H1>
+<P><big></I></STRONG>With the DP/RS232C Link you got the ability to connect the </P>
+<P>RS232 modules with PROFIBUS-DP</big>.<A NAME="figure1"></A></P>
+
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=325>
+<TR><TD WIDTH="96%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT=25>
+<P><A HREF="#Class_Components"><I><U><FONT FACE="Arial" SIZE=4 COLOR="#0000ff"><STRONG>Class_Components</I></U></FONT></STRONG></A></P>
+<BLOCKQUOTE><A HREF="#table1"><FONT SIZE=4>Table: 1 Class Components</FONT></A></BLOCKQUOTE></TD>
+<TD WIDTH="4%" VALIGN="MIDDLE" ROWSPAN=5 HEIGHT=25><P></P></TD>
+<TD WIDTH="3%" VALIGN="MIDDLE" ROWSPAN=5 HEIGHT=25><P></P></TD>
+</TR>
+<TR><TD WIDTH="96%" VALIGN="TOP" BGCOLOR="#ffffff" HEIGHT=25>
+<P><A HREF="#Graphic_Interface"><I><U><FONT FACE="Arial" SIZE=4 COLOR="#0000ff"><STRONG>Graphic_Interface</I></U></FONT></STRONG></A> </P>
+<BLOCKQUOTE><A HREF="#figure2"><FONT SIZE=4>Figure 2: Graphic Representation</FONT></A><BR>
+<A HREF="#figure3"><FONT SIZE=4>Figure 3: Error Message Popup</FONT></A></BLOCKQUOTE></TD>
+</TR>
+<TR><TD WIDTH="96%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT=13>
+<P><A HREF="#Configuration"><I><U><FONT FACE="Arial" SIZE=4 COLOR="#0000ff"><STRONG>Configuration</I></U></FONT></STRONG></A></P>
+<BLOCKQUOTE><A HREF="#table2"><FONT SIZE=4>Table 2: Configuration Parameters</FONT></A></BLOCKQUOTE></TD>
+</TR>
+<TR><TD WIDTH="96%" VALIGN="TOP" BGCOLOR="#ffffff" HEIGHT=13>
+<P><A HREF="#Implementation_Notes"><I><U><FONT FACE="Arial" SIZE=4 COLOR="#0000ff"><STRONG>Implementation_Notes</I></U></FONT></STRONG></A></P>
+<BLOCKQUOTE><A HREF="#qualities"><FONT SIZE=4>Profibus DP Slave DP_rs232 Qualities</FONT></A></BLOCKQUOTE></TD>
+</TR>
+<TR><TD WIDTH="96%" VALIGN="TOP" BGCOLOR="#c0c0c0" HEIGHT=56>
+<P><A HREF="#Class_Modification_History"><B><FONT FACE="Arial" SIZE=4 COLOR="#0000ff"><EM>Class_Modification_History</B></FONT></EM></A></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="#table3"><FONT SIZE=4>Table 3: Modification History</FONT></A></P>
+</TD>
+</TR>
+</TABLE>
+
+<P><IMG SRC="Image1.gif" WIDTH=236 HEIGHT=326></P>
+<P>Figure 1: Graphical Representation </P>
+<EM><H2>&nbsp;</H2>
+<H2>DP_rs232:</EM><STRONG> <A NAME="Class_Components">Class Components</A></H2>
+</STRONG><B><FONT SIZE=4><P>The components of the&nbsp;DP_rs232 class are to be contained in the AutomationX </P>
+<P>class library, particularly in a directory named "DP_rs232".</P>
+
+<P><big></FONT>The Profibus DP Slave DP_rs232 Class components consist of the Class Color file, the Class Symbol file </P>
+<P>and the HTML document files. Table 1 lists the class components and the corresponding file names.</P>
+<P></big></P></B>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=2 WIDTH=718>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<P><B><FONT SIZE=4>Ite<A NAME="table1"></A>m</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<B><FONT SIZE=4><P>Class Component</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<B><FONT SIZE=4><P>Description</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<B><FONT SIZE=4><P>File Name</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>1</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Color File</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Defines the local color for the class</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>DP_rs232.color</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>2</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Class Symbol File</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Includes the process picture representation and any popup menus</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>DP_rs232.symbol</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" HEIGHT=37>
+<B><FONT SIZE=4><P>3</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE" HEIGHT=37>
+<B><FONT SIZE=4><P>Enumerator Files</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE" HEIGHT=37>
+<B><FONT SIZE=4><P>Defines the enumerator for the class</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE" HEIGHT=37>
+<B><FONT SIZE=4><P>DP_rs232.enum<BR>
+</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>4</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>HTML Document</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>HTML document and help file for class</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>DP_rs232.htm</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>5</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Document</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Document and help file for class</B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Docu_DP_rs232.pdf</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>6</B></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Class Pixmaps</B></FONT></TD>
+<TD WIDTH="42%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Used Pixmaps in Class </B></FONT></TD>
+<TD WIDTH="30%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>Image1.gif</P>
+<P>Image2.gif</P>
+<P>Image3.gif</P>
+<P>axclassdocu16.bmp</P>
+<P>axclassdocu_grey16.bmp</P>
+<P>axinstancedocu16.bmp</P>
+<P>axinstancedocu_grey16.bmp</P>
+<P>profibus_plug_white.bmp</P>
+<P>hole.bmp</B></FONT></TD>
+</TR>
+<TR><TD VALIGN="MIDDLE" COLSPAN=4>
+<P><B>Table 1: DP_rs232 Class Components</B></TD>
+</TR>
+</TABLE>
+
+<B><FONT SIZE=4>
+<P>The "DP_rs232.color" file contains the DP_rs232 class color definitions. </P>
+<P>This file holds all defined class color schemes. </P>
+<P>The DP_rs232 defined colors are:</P>
+</B></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=2 WIDTH=557>
+<TR><TD WIDTH="63%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<P><B><FONT SIZE=4>Color</B></FONT></TD>
+<TD WIDTH="37%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<B><FONT SIZE=4><P>Default RGB Values</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="63%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>RS_White</B></FONT></TD>
+<TD WIDTH="37%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>247/240/250</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="63%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>RS_green</B></FONT></TD>
+<TD WIDTH="37%" VALIGN="MIDDLE">
+<B><FONT SIZE=4><P>160/255/243</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="63%" VALIGN="MIDDLE" HEIGHT=11>
+<B><FONT SIZE=4><P>RS_Grey</B></FONT></TD>
+<TD WIDTH="37%" VALIGN="MIDDLE" HEIGHT=11>
+<B><FONT SIZE=4><P>211/211/211</B></FONT></TD>
+</TR>
+</TABLE>
+
+<B><FONT SIZE=4>
+<P>The "DP_rs232.symbol" file contains the Profibus DP Slave DP_rs232 class </P>
+<P>definition for AutomationX. </P>
+<P>This file holds the user interface, the pop-up menus, the class parameters, </P>
+<P>and the logic.</P>
+</FONT><P>&nbsp;</P></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=624>
+<TR><TD WIDTH="90%" VALIGN="MIDDLE">
+<P></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<P><A HREF="#figure1"><B><I><FONT FACE="Arial">Back to Index</B></I></FONT></A></TD>
+</TR>
+</TABLE>
+
+<P><HR ALIGN="LEFT" WIDTH="95%"></P>
+<EM><H2><A NAME="Graphic_Interface">DP_rs232:</EM> Graphic Interface</A></H2>
+<B><FONT SIZE=4><P>The DP_rs232 user interface includes a process picture representation and one popup menu. </P>
+<P>The DP_rs232 process representation is shown in Figure 2. </P>
+<P>The DP_rs232 popup menu include the error messages, shown on Figure 3.</P>
+
+<P><A NAME="figure2"></A><IMG SRC="Image3.gif" WIDTH=235 HEIGHT=324></P>
+</FONT><P>Figure2: DP_rs232</P>
+<FONT SIZE=4>
+<P>A new error on the DP_rs232 causes the Operations Interface window, </P>
+<P>Figure 3, to be opened on the computer screen.</P>
+
+</B></FONT><P><IMG SRC="Image2.gif" WIDTH=286 HEIGHT=300></P>
+<B><P><A NAME="figure3"></A>Figure 3: DP_rs232 Error Message Popup</P>
+<FONT SIZE=4>
+<P>The DP_rs232 operater graphic also includes the Instance name or the Profibus DP Slave DP_rs232 </P>
+<P>and below it there is a comment describing the Profibus DP Slave unit.</P>
+
+<P><big></FONT>The Popup shows the occuring errors below the header. It can be only closed with the "Quit" button at the bottom </P>
+<P>of the popup to ackknowledge the errors.</big></P></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=624>
+<TR><TD WIDTH="90%" VALIGN="MIDDLE" HEIGHT=15>
+<P></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" HEIGHT=15>
+<P><A HREF="#figure1"><B><I><FONT FACE="Arial">Back to Index</B></I></FONT></A></TD>
+</TR>
+</TABLE>
+
+<P><HR ALIGN="LEFT" WIDTH="95%"></P>
+<EM><H2><A NAME="Configuration">DP_rs232:</EM><STRONG> Configuration</A></H2>
+</STRONG><B><FONT SIZE=4><P>The following table lists the configuration parameters for the Profibus DP Slave DP_rs232. </P>
+<P>The parameter data type, the default values and a brief description are listed. </P>
+<P>The grey shaded rows cotains parameters which must not be changed.</P>
+</FONT><P>&nbsp;</P></B>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=2 WIDTH=689>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#808080" HEIGHT=21>
+<P><B><FONT SIZE=4 COLOR="#ffffff">Ite<A NAME="table2"></A>m</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#808080" HEIGHT=21>
+<B><FONT SIZE=4 COLOR="#ffffff"><P>Variable</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#808080" HEIGHT=21>
+<B><FONT SIZE=4 COLOR="#ffffff"><P>Type</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#808080" HEIGHT=21>
+<B><FONT SIZE=4 COLOR="#ffffff"><P>Default</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#808080" HEIGHT=21>
+<B><FONT SIZE=4 COLOR="#ffffff"><P>Description</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>1</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>Master</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>ENUM:Master_Con</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>MIO_0</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>Connection to profibus master</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>2</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>Adress</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>3</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>Profibus DP Slave adress</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>3</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>wd_on</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>YES</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>YES activates the watch dog(wd) on the DP Slave</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>4</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>wd_fact_1</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>100</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>wd_fact_1*wd_fact2*10ms is the delay for wd </big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>5</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>wd_fact_2</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>3</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>wd_fact_1*wd_fact2*10ms is the delay for wd </big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>6</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>GSD</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>STRING</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>SIEM8042.GSD</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>GSD name for this Profibus DP Slave</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>7</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>group_ident</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>0</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>DP Slave group identifier</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>8</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3 COLOR="#0000ff"><P>freeze_mode</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>the outputs on the slave system are frozen</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>9</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3 COLOR="#0000ff"><P>Unfreeze</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>deactivate the freeze mode</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>10</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3 COLOR="#0000ff"><P>sync_mode</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>hold out-/inputs as long as unsync is set</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>11</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3 COLOR="#0000ff"><P>Unsync</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>deactivate the sync mode</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>12</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT SIZE=3 COLOR="#0000ff"><STRONG><P>clear_data</FONT></STRONG></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>reset all in-/output data on the slave system</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>13</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT SIZE=3 COLOR="#0000ff"><STRONG><P>reset_slave</FONT></STRONG></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>reset the state machine for slave handling</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>14</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<FONT SIZE=3 COLOR="#0000ff"><STRONG><P>new_prm_request</FONT></STRONG></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=22>
+<P><big><B><FONT SIZE=3>request for new parameterization</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=42>
+<B><FONT SIZE=3><P>15</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=42>
+<B><FONT SIZE=3><P>Connection</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=42>
+<B><FONT SIZE=3><P>STRING</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=42>
+<B><FONT SIZE=3><P>...</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#ffffff" HEIGHT=42>
+<B><FONT SIZE=3><P>With the instance name of the following module </P>
+<P>the next module will be connected to this one.</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>16</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>init_counter</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<P><big><B><FONT SIZE=3>DINT</big></B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>0</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<P><big><B><FONT SIZE=3>counter for starting state machine</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>17</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>exchange_cycle</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>counter for valid data transfers</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>18</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>hardware_error</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>ALARM</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>NO</B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>YES if a hardware error occurs</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>19</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>software_error</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>ALARM</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>NO</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<big><B><FONT SIZE=3>YES if a software error occurs</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>20</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>module_error</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>ALARM</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<P><big><B><FONT SIZE=3>NO</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<big><B><FONT SIZE=3>YES if a module error occurs</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>21</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>Status</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>DINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<P><big><B><FONT SIZE=3>0</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<big><B><FONT SIZE=3>status value of the state machine</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>22</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>status_string</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>STRING</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>No valid Profibus Master</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<big><B><FONT SIZE=3>status string of the state machine</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>23</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>last_diag_msg</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>STRING</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<P><big><B><FONT SIZE=3>...</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<big><B><FONT SIZE=3>last diagnosis message</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>24</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>new_error_msg</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<FONT SIZE=3><STRONG><P>NO</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=27>
+<P><big><B><FONT SIZE=3>YES if a new error occurs</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=30>
+<B><FONT SIZE=3><P>25</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=30>
+<B><FONT SIZE=3><P>error_msg[10]</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=30>
+<B><FONT SIZE=3><P>STRING</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=30>
+<P><big><B><FONT SIZE=3>...</big></B></FONT></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=30>
+<B><FONT SIZE=3><P>Error message array</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>26</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>DPV1_DiagCycle</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>UDINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>after this sps cycle count start a acycle diagnosis </big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>27</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>NewDiagData</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>BYTE</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>shows the actual diagnosis data</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>28</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>ActDevDiagDataLen</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=17>
+<P><big><B><FONT SIZE=3>Active device diagnosis data lenght</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>29</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>DeviceDiagData[30]</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>Device diagnosis data</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>30</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>ActIdentDiagDataLen</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>Active identifier diagnosis data lenght</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>31</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>IdentifierDiagData[3]</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>Identifier diagnosis data</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>32</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>ActChanDiagData</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>Active channel diagnosis data lenght</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>33</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>ChannelDiagData[30]</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<B><FONT SIZE=3><P>USINT</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<FONT SIZE=3><STRONG><P>0</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=26>
+<P><big><B><FONT SIZE=3>Channel diagnosis data</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>34</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>Visual</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>NO</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>YES if error message popup is visible</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>35</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>Quit</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>BOOL</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>NO</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>YES to ackknowledge error messages</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>36</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>local_struct</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>POINTER</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>4320020 hex</FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>internal pointer for the local structure</big></B></FONT></TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>37</B></FONT></TD>
+<TD WIDTH="29%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>SPS_Cycle</B></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<B><FONT SIZE=3><P>Code</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<FONT SIZE=3><STRONG><P>Axx_function("profibus_DP",<BR>
+"SPSCycleHandleDPSlave"); </FONT></STRONG></TD>
+<TD WIDTH="47%" VALIGN="MIDDLE" BGCOLOR="#c0c0c0" HEIGHT=21>
+<P><big><B><FONT SIZE=3>Run the AXX function</big></B></FONT></TD>
+</TR>
+</TABLE>
+
+<B></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=700>
+<TR><TD VALIGN="MIDDLE">
+<P><B>Table 2: DP_rs232 Configuration Parameters</B></TD>
+</TR>
+</TABLE>
+
+<B></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=624>
+<TR><TD WIDTH="90%" VALIGN="MIDDLE">
+<P></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<P><A HREF="#figure1"><B><I><FONT FACE="Arial">Back to Index</B></I></FONT></A></TD>
+</TR>
+</TABLE>
+
+<P><HR ALIGN="LEFT" WIDTH="95%"></P>
+<EM><H2><A NAME="Implementation_Notes">DP_rs232:</EM><STRONG> Implementation Notes</A></H2>
+</STRONG><B><P>&nbsp;</P>
+<FONT SIZE=5><EM><P><A NAME="qualities"></A>Qualities:</B></EM><U><STRONG>&nbsp;</FONT><FONT SIZE=2>&nbsp;&nbsp;&nbsp;&nbsp;</FONT>&nbsp;&nbsp;<FONT SIZE=4>The DP_rs232 is characterized by the following qualities:</P></U></FONT></STRONG>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=708>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P><B>&nbsp;</B></TD>
+<TD WIDTH="88%" VALIGN="MIDDLE" COLSPAN=2>
+<B><P>You can employ the DP rs232 for the following modes: </P>
+<P>- Siemens Procedure 3964 R</P>
+<P>- Controll about Signaldelaytime</P>
+<P>- Start and Endsignal</P>
+<P>- Constance Datalength</P>
+<U><FONT SIZE=4><P>for more Information have a look to the file: Docu_DP_rs232.pdf</B></U></FONT></TD>
+</TR>
+</TABLE>
+
+<B><P>&nbsp;</P></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=624>
+<TR><TD WIDTH="90%" VALIGN="MIDDLE">
+<P></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<P><A HREF="#figure1"><B><I><FONT FACE="Arial">Back to Index</B></I></FONT></A></TD>
+</TR>
+</TABLE>
+
+<P><HR ALIGN="LEFT" WIDTH="95%"></P>
+<EM><H2><A NAME="Class_Modification_History">DP_rs232:</EM><U><STRONG> Class Modification History</A></H2>
+</STRONG><B><FONT SIZE=4><P>The following table lists the modifications made to the DP_rs232 class.</P></B></U></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=3 WIDTH=636>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<P><B><U><FONT SIZE=5>It<A NAME="table3"></A>em</B></U></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>Date<BR>
+(m/d/y)</B></U></FONT></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>Name</B></U></FONT></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>File</B></U></FONT></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>Description</B></U></FONT></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>Reason</B></U></FONT></TD>
+</TR>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<B><U><FONT SIZE=4><P>1</B></U></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><U><P>22/10/99</B></U></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><U><P>Roman Klug</B></U></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><U><P>Initial Design</B></U></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+</TR>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+</TR>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+</TR>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+</TR>
+<TR><TD WIDTH="9%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="21%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="7%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="35%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+<TD WIDTH="13%" VALIGN="MIDDLE">
+<B><P>&nbsp;</B></TD>
+</TR>
+</TABLE>
+
+<B></B>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=700>
+<TR><TD VALIGN="MIDDLE">
+<P><B><U>Table 3: Modification History</B></U></TD>
+</TR>
+</TABLE>
+
+<P><HR ALIGN="LEFT" WIDTH="95%"></P>
+<B><U><FONT FACE="Arial"><P ALIGN="CENTER">[ </B></U></FONT><A HREF="#&uuml;bersch"><B><FONT SIZE=4>Top of Page</B></FONT></A><B><U><FONT SIZE=4> | </B></U></FONT><A HREF="#Class_Components"><B><FONT SIZE=4>Class_Components</B></FONT></A><B><U><FONT SIZE=4> | </B></U></FONT><A HREF="#Graphic_Interface"><B><FONT SIZE=4>Graphic_Interface</B></FONT></A><B><U><FONT SIZE=4> | </B></U></FONT><A HREF="#Configuration"><B><FONT SIZE=4>Configuration</B></FONT></A><B><U><FONT SIZE=4> | </B></U></FONT><A HREF="#Implementation Notes"><B><FONT SIZE=4>Implementation Notes</B></FONT></A><B><U><FONT SIZE=4> </FONT><FONT FACE="Arial">]</FONT> </P>
+<P>&nbsp;</P></B></U></BODY>
+</HTML>

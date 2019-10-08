@@ -1,0 +1,10 @@
+SoftPLC [Text Normal]	 aXController Display 
+SoftPLC [Text Activ]	Text
+SoftPLC_Help [Text Normal]	Help
+SoftPLC_Help [Text Activ]	Help
+SoftPLC_CycleTime [Text Normal]	Shutdown in
+SoftPLC_CycleTime [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit

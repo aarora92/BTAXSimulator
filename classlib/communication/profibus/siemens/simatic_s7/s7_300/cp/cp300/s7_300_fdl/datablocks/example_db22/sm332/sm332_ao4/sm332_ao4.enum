@@ -1,0 +1,10 @@
+Config:
+	deact=0x0,
+	voltage	{V_1to5=0x17,
+		 V_0to10=0x18,
+		 V_np10=0x19
+		},
+	current {mA_0to20=0x22,
+		 mA_4to20=0x23,
+		 mA_np20=0x24
+		};	

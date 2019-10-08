@@ -1,0 +1,370 @@
+2019-07-05 10:27:55-500	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-05 10:27:58-058	0	_	-	No Instances Found	guest	BTAXSB
+2019-07-05 10:27:58-058	0	_	-	Client in running status	guest	BTAXSB
+2019-07-05 10:29:39-134	0	_	-	Client in standby status	admin	BTAXSB
+2019-07-05 10:29:47-483	0	_	-	No Instances Found	admin	BTAXSA
+2019-07-05 10:29:47-483	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 04:28:45-881	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:28:45-881	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:32:00-469	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:32:00-469	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:33:13-819	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:33:13-819	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:35:46-164	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:35:46-164	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:38:52-565	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:38:52-565	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:39:40-867	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:39:40-867	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 04:40:02-911	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:43:29-948	0	_	-	 Cann't get exec data : IOLESDBYPIOL 	admin	BTAXSA
+2019-07-30 04:43:53-198	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:05:44-380	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:06:40-686	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:06:42-891	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:11:28-345	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:14:39-585	0	_	-	 Cann't get exec data : XA4001A.FORCE_VALUE 	admin	BTAXSA
+2019-07-30 05:14:39-585	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:17:08-698	0	_	-	 Cann't get exec data : XA4001A.FORCE_VALUE 	admin	BTAXSA
+2019-07-30 05:18:39-895	0	_	-	 Cann't get exec data : XA4001A.FORCE_VALUE 	admin	BTAXSA
+2019-07-30 05:19:13-967	0	_	-	 Cann't get exec data : XA4001A.FORCE_VALUE 	admin	BTAXSA
+2019-07-30 05:19:59-868	0	_	-	 Cann't get exec data : XA4001A.FORCE_VALUE 	admin	BTAXSA
+2019-07-30 05:20:38-144	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:20:39-348	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:30:21-576	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:30:21-977	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:57:01-242	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 05:57:20-486	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 06:17:44-871	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:17:44-871	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:19:15-073	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:19:15-073	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:19:18-482	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:19:18-482	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:20:34-744	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:20:34-744	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:20:34-744	0	_	-	Client in running status	admin	BTAXSB
+2019-07-30 06:20:39-157	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:20:39-157	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:20:51-811	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:20:51-811	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:20:51-811	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 06:22:06-183	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:22:06-183	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:22:09-792	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:22:09-792	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:23:44-263	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:23:44-263	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:23:44-263	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 06:23:42-811	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:23:42-811	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:23:42-811	0	_	-	Client in standby status	admin	BTAXSB
+2019-07-30 06:23:47-670	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:23:47-670	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:25:12-875	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:25:12-875	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:25:16-282	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:25:16-282	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:25:28-710	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:25:28-710	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:25:41-339	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:25:41-339	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:25:52-766	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:25:52-766	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:26:05-194	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:26:05-194	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:26:16-621	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:26:16-621	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:26:29-051	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 06:26:29-051	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 06:26:32-056	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 06:26:39-072	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:26:39-072	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:26:39-072	0	_	-	Client in running status	admin	BTAXSB
+2019-07-30 06:26:42-680	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:26:42-680	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:26:47-092	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:26:47-092	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:26:58-523	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:26:58-523	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:27:10-951	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:27:10-951	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:27:23-585	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:27:23-585	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:27:35-013	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:27:35-013	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:27:47-447	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:27:47-447	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:27:59-878	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:27:59-878	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:28:11-506	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:28:11-506	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:28:23-937	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:28:23-937	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:28:36-368	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:28:36-368	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:28:47-799	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:28:47-799	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:29:00-230	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:29:00-230	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:29:12-864	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:29:12-864	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:29:24-292	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:29:24-292	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:29:36-723	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:29:36-723	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:29:49-154	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:29:49-154	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:30:00-582	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:30:00-582	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:30:13-216	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:30:13-216	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:30:25-648	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:30:25-648	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:30:37-076	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:30:37-076	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:30:49-509	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:30:49-509	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:31:01-940	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:31:01-940	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:31:13-569	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:31:13-569	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:31:26-000	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSB
+2019-07-30 06:31:26-000	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 06:32:48-063	0	_	-	Client in standby status	admin	BTAXSB
+2019-07-30 06:32:53-401	0	_	-	No Instances Found	admin	BTAXSA
+2019-07-30 06:32:53-401	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 06:42:28-112	0	_	-	Client in standby status	guest	BTAXSB
+2019-07-30 06:58:01-411	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 06:58:06-746	0	_	-	No Instances Found	admin	BTAXSB
+2019-07-30 06:58:06-746	0	_	-	Client in running status	admin	BTAXSB
+2019-07-30 07:07:49-265	0	_	-	Client in standby status	guest	BTAXSA
+2019-07-30 07:09:01-224	0	_	-	Client in standby status	admin	BTAXSB
+2019-07-30 07:09:07-221	0	_	-	No Instances Found	admin	BTAXSA
+2019-07-30 07:09:07-221	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 08:09:27-753	0	_	-	 Cann't get exec data : LeakServer1_inuse_R 	admin	BTAXSA
+2019-07-30 08:09:27-753	0	_	-	 Cann't get exec data : LeakServer2_inuse_R 	admin	BTAXSA
+2019-07-30 08:09:29-953	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 08:09:29-953	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 08:15:42-701	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 08:15:42-701	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 08:19:58-687	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 08:24:35-180	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 08:40:18-971	0	A123	-	Invalid Item : Global.PDI4052	admin	BTAXSA
+2019-07-30 08:40:18-971	0	A123	-	Invalid Item : Global.PI4010	admin	BTAXSA
+2019-07-30 08:40:18-971	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSA
+2019-07-30 08:40:18-971	0	A123	-	Invalid Item : MidTags.TI3084B.PV	admin	BTAXSA
+2019-07-30 08:40:18-971	0	A123	-	Invalid Item : LowTags.PI4287.PV	admin	BTAXSA
+2019-07-30 08:40:18-971	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSA
+2019-07-30 08:40:19-974	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 08:40:48-844	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSA
+2019-07-30 08:40:48-844	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSA
+2019-07-30 08:40:54-457	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSA
+2019-07-30 08:42:15-058	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 08:42:23-305	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-07-30 08:42:23-706	0	_	-	Client in running status	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : MidTags.PI4098A.PV	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : Global.PI4010	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : Global.PI4047	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : Global.PI4018	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : Global.PI4050	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : MidTags.PI4002.PV	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : MidTags.VRU_TI102.PV	admin	BTAXSB
+2019-07-30 08:59:25-378	0	A123	-	Invalid Item : LowTags.PI4287.PV	admin	BTAXSB
+2019-07-30 08:59:25-378	0	_	-	Server Not Available : automationX.OPC_DA_Server.10 	admin	BTAXSB
+2019-07-30 08:59:26-381	0	_	-	CAxOPCClientGroupImage::ReadAsync2 : GetServerStatus failed, error= 0x800706BA	admin	BTAXSB
+2019-07-30 08:59:56-058	0	_	-	Function 'CoCreateInstanceEx' failed !\\Error : Server execution failed \	admin	BTAXSB
+2019-07-30 08:59:56-058	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x80080005	admin	BTAXSB
+2019-07-30 09:00:02-877	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 succeeded	admin	BTAXSB
+2019-07-30 09:03:19-184	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:03:19-184	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:03:19-184	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 09:03:22-591	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:03:22-591	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:03:25-999	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:03:25-999	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:03:38-624	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:03:38-624	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:03:50-052	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:03:50-052	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:04:02-483	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	admin	BTAXSA
+2019-07-30 09:04:02-483	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	admin	BTAXSA
+2019-07-30 09:04:06-448	0	_	-	Function 'CoCreateInstanceEx' failed !
+
+Error : The RPC server is unavailable. 
+	guest	BTAXSB
+2019-07-30 09:04:06-448	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	guest	BTAXSB
+2019-07-30 09:04:06-448	0	_	-	Client in standby status	guest	BTAXSB
+2019-07-30 09:04:19-470	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 09:04:25-457	0	_	-	No Instances Found	guest	BTAXSB
+2019-07-30 09:04:25-457	0	_	-	Client in running status	guest	BTAXSB
+2019-07-30 09:16:46-648	0	_	-	Client in standby status	guest	BTAXSA
+2019-07-30 09:17:33-832	0	_	-	Client in standby status	admin	BTAXSB
+2019-07-30 09:17:38-664	0	_	-	No Instances Found	admin	BTAXSA
+2019-07-30 09:17:38-664	0	_	-	Client in running status	admin	BTAXSA
+2019-07-30 09:26:39-654	0	_	-	Client in standby status	guest	BTAXSB
+2019-07-30 09:28:06-101	0	_	-	Client in standby status	admin	BTAXSA
+2019-07-30 09:28:10-776	0	_	-	No Instances Found	admin	BTAXSB
+2019-07-30 09:28:10-776	0	_	-	Client in running status	admin	BTAXSB
+2019-07-30 09:28:50-811	0	_	-	Client in standby status	guest	BTAXSB
+2019-07-30 09:28:56-055	0	_	-	No Instances Found	admin	BTAXSA
+2019-07-30 09:28:56-055	0	_	-	Client in running status	admin	BTAXSA

@@ -1,0 +1,415 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft FrontPage 5.0">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>axs_mio_pci</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=top HEIGHT="53" BGCOLOR="#808080"><b>
+<font face="Arial" size="+4" color="#FFFFFF">E-Bus Module</font></b></td>
+</tr>
+</table>
+<p><b><font size=+2 color="#0000ff" face="Arial">Allgemeines</font></b><p>&nbsp;<p>
+<font face="Arial,Helvetica">Ethercat Module von Beckhoff können mit der 
+Master-Klasse <a href="axs_ethercat.htm">axs_ethercat</a> benutzt werden:</font><ul>
+  <li><font face="Arial,Helvetica"><a href="#MODUL">Modul-Variabeln</a></font></li>
+  <li><font face="Arial,Helvetica"><a href="#IO">IO-Variabeln</a></font></li>
+  </ul>
+<p>&nbsp;</p>
+<p><font face="Arial,Helvetica">Ein EtherCAT-Slave kennt folgende Zustände:</font></p>
+<blockquote>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>No_Master</b></font>: 
+  Dieser Zustand ist nur für EtherCAT-Slaves die mit keinem Master verbunden 
+  sind.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Ethernet_Error</b></font>: 
+  Dieser Zustand passiert wenn die Ethernetkarte nicht geöffnet werden konnte. 
+  Prüfen sie in diesem Fall <font color="#0000FF"> <i>MacAddress</i></font> oder die Datei </font>
+  <font face="Arial"><i>./<font color="#0000FF">cache</font>/<font color="#0000FF">rdip</font>/<font color="#0000FF">local_ethernet_</font><font color="#000080">&lt;host&gt;</font><font color="#0000FF">.mac</font></i>. 
+  Unter Linux müssen die MAC-Addresen mit den Werten von <font color="#0000FF">
+  <i>ifconfig</i></font> übereinstimmen.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Config_Error</b></font>: 
+  Es liegt ein Fehler in der Konfiguration vor. Dieser Fehler passiert wenn bei
+  <i>Link</i> keine EtherCAT-Slave Instanz eingetragen ist, oder ein interne 
+  Fehler im Master bei der Konfiguration aufgetreten ist. </font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Xml_not_found</b></font>: 
+  Dieser Fehler passiert wenn der <font color="#0000FF"> <i>plserver</i></font> eine Konfigurationsdatei für 
+  den Master oder einen Slave nicht in <i>./<font color="#0000FF">system</font>/<font color="#0000FF">ethercat</font></i> finden konnte. 
+  Prüfen sie ob die angegebenen Dateien in <font color="#0000FF"> <i>XmlFile</i></font> auch wirklich in 
+  diesem Verzeichnis vorhanden sind. Uner Linux muss auch Groß und 
+  Kleinschreibung über einstimmen.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>Load_XML</b></font>: 
+  In diesem Zustand läd der <font color="#0000FF"> <i>plserver</i></font> alle nötigen Konfigurationsdateien 
+  für den Master und die Slaves.</font></p>
+  <p><font face="Arial,Helvetica"><b><font color="#0000FF">OFFLINE</font></b>: 
+  In diesem Zustand wurde der EtherCAT Slave nicht am Bus gefunden.<b><font color="#0000FF"><br>
+  <br>
+  INIT</font></b>: In 
+  diesem Zustand werden alle EtherCAT Slaves konfiguriert.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>PREOP</b></font>: In 
+  diesem Zustand erfolgt die weiter Konfiguration aller EtherCAT Slaves.</font></p>
+  <p><b><font face="Arial,Helvetica" color="#0000FF">SAVE</font></b><font face="Arial,Helvetica"><font color="#0000FF"><b>OP</b></font>: 
+  In diesem Zustand wird der zyklische Datenverkehr gestartet ohne das dabei 
+  Ausgänge gesetzt werden.</font></p>
+  <p><font face="Arial,Helvetica"><font color="#0000FF"><b>OP</b></font>: Das 
+  ist der Betriebszustand mit dem zyklischen Datenverkehr.</font></p>
+</blockquote>
+  <p>&nbsp;<p>&nbsp;<hr>
+<p><b><font face="Arial" size="+2" color="#0000FF"><a name="MODUL"></a>
+Modul-Variabeln</font></b><p>
+  <font face="Arial,Helvetica">Ethercat-Module sind Module die direkt über 
+  Ethernet oder dem E-Bus von Beckhoff angeschlossen werden. Achtung diese 
+  Dokumentation ist nicht für <a href="k_bus_module.htm">K-Bus-Module</a>.
+  </font>
+<p>
+  <font face="Arial,Helvetica">Bei Ethercat-Modulen wird die Größe der 
+  Eingangs und Ausgangsdaten von der Größe der beiden Felder <i>InputData</i> 
+  und <i>OutputData</i> bestimmt. Wird zusätzlich noch eine <i>InputDataLength</i> 
+  oder <i>OutputDataLangth</i> Variabel angelegt so wird die Datengröße vom 
+  Inhalt dieser Variabeln bestimmt und nicht von der Feldgröße.
+  </font>
+<p><font face="Arial,Helvetica">Bei analog Modulen können zusätzlich noch die 
+Variabeln <i>InputChannelSize</i>, <i>OutputChannelSize</i>, <i>
+InputChannelOffset</i> und <i>OutputChannelOffset</i> angegeben werden. Mit 
+ihnen wird bestimm wo sich die analogen IO-Werte in den Ein und Ausgangsdaten 
+befinden. </font>
+  <p>&nbsp;<blockquote>
+<p><img border="0" src="Ecat-Size.gif" width="289" height="425"></blockquote>
+<p><font face="Arial,Helvetica">Die folgende Tabelle zeigt welche Variabeln in 
+Ethercat-Klassen ausgewertet werden:<br>
+&nbsp;</font><table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="152" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="216" BGCOLOR="#ffffff"><b><font face="Arial">Remark</font></b></td>
+
+<td VALIGN=top WIDTH="442" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT </font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the input data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Eingangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputData</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT oder UINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory for the output 
+data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier werden die 
+Ausgangsdaten für das Modul gespeichert. Die Feld Größe sollte so groß gewählt 
+werden dass auch alle EtherCAT Daten platz finden.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputDataLength</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">constant or -</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the input 
+data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Eingangsdaten für das Modul im  bestimmt. (in Byte) Wenn diese Variabel nicht 
+vorhanden ist, wird ale Größe von die Feldgröße von InputData benutzt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OuputDataLength</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">constant or -</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Memory size for the 
+output data</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird Größe der 
+Ausgangsdaten für das Modul im  bestimmt. (in Byte) Wenn diese Variabel nicht 
+vorhanden ist, wird ale Größe von die Feldgröße von OutputData benutzt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">DataLengthValid</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">-</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Are the xxxxDataLength 
+variables valid.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Diese Variabel wird auf 
+TRUE gesetzt wenn das Modul die InputDataLength und OutputDataLength gesetzt 
+hat. Sie wird vom Ethercat-Master bei einen Warmstart auf FALSE gesetzt. 
+DataLengthValid wird nur benötigt wenn bei den xxxDataLength Variabeln das 
+constant Flag nicht gesetzt ist.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Eingangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelSize</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the size for one 
+channel in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt wie viele Byte 
+ein Kanal in den Ausgangsdaten belegt ohne Stopfbytes. Diese Variabel wird nur 
+bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">InputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Eingangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">OutputChannelOffset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">private constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the offset of the 
+channel io data in bytes</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Bestimmt bei welchem 
+Offset sich der 16-Bit IO-Wert des Kanal in den Ausgangsdaten befindet. Diese 
+Variabel wird nur bei Analogen Modulen benötigt.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Reset</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Resets the ethercat slave.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Mit diesem Flag wird der 
+Ethercat Slave neu gestartet.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">DataValid</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Will be set to 1 if the 
+input data is valid.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Dieser Wert wird auf Eins 
+gesetzt wenn die Eingangsdaten gültig sind.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">State</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">EtercatState</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the state of the 
+ethercat device.</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der aktuelle 
+Zustand des Masters angezeigt. Nähere Informationen zu den Zustand zuständen 
+findet man in der <a href="axs_ethercat.htm">axs_ethercat Beschreibung</a>.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Debug</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">USINT</font></td>
+
+<td VALIGN=top WIDTH="152">-</td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Bit0=show sended packets<br>
+Bit1=show received Pakets<br>
+Bit2=show redundand packets<br>
+Bit3=show cyclic Packets Bit4=show states <br>
+Bit5=show errors <br>
+Bit6=show hex dump</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Über diese Bits kann 
+eingestellt werden welche Debug-Meldungen der Maser in den Runtime-Messages 
+ausgeben soll.<br>
+Bit 0 (0x01) = Gesendete Pakete mitloggen<br>
+Bit 1 (0x02) = Empfangene Pakete mitloggen<br>
+Bit 2 (0x04) = Empfangene redundante Pakete mitloggen<br>
+Bit 3 (0x08) = Empfangene zyklische Pakete mitloggen<br>
+Bit 4 (0x10) = Zustandswechsel mitloggen<br>
+Bit 5 (0x20) = Fehler mitloggen<br>
+Bit 6 (0x40) = HexDump von Paketen anzeigen</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">XmlFile</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">constant</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the XML configuration 
+file in ./system/Ethercat</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Name der 
+Xml-Konfigurations-Datei eingetragen. Die Dateien befinden sich in ./system/ethercat</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">LinkA</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">Conf.Value.</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the instance name of 
+the next ethercat module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Instanzname 
+für das nächste EtherCAT-Modul eingetragen. Beim letzten Modul beleibt diese Feld leer.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">LinkB</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">STRING</font></td>
+
+<td VALIGN=top WIDTH="152"><font face="Arial" size="2">Conf.Value.</font></td>
+
+<td VALIGN=top WIDTH="216"><font face="Arial" size="2">Is the instance name of 
+the second ethercat module</font></td>
+
+<td VALIGN=top WIDTH="442"><font face="Arial" size="2">Hier wird der Instanzname 
+für das übernächste EtherCAT-Modul eingetragen. Beim letzten Modul beleibt diese Feld leer.</font></td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;<hr>
+<p><a NAME="IO"></a><b><font face="Arial" size="+2" color="#0000FF">IO-Variabeln</font></b><p>
+  <font face="Arial,Helvetica">In jedem Modul müssen IO-Variabeln eingefügt 
+  werden mit denen die IO-Daten aus den Feldern <i>InputData</i> und <i>
+  OutputData</i> geholt werden können.</font><p><font face="Arial,Helvetica">Folgende IO-Variabeln stehen zur Verfügung:</font><blockquote>
+<table BORDER =1 CELLSPACING=2 CELLPADDING=4 WIDTH="917">
+<tr>
+<td VALIGN=top WIDTH="128" BGCOLOR="#ffffff"><b><font face="Arial">Variabelname</font></b></td>
+
+<td VALIGN=top WIDTH="83" BGCOLOR="#ffffff"><b><font face="Arial">Typ</font></b></td>
+
+<td VALIGN=top WIDTH="111" BGCOLOR="#ffffff"><b><font face="Arial">Flags</font></b></td>
+
+<td VALIGN=top WIDTH="190" BGCOLOR="#ffffff"><b><font face="Arial">Beispiele</font></b></td>
+
+<td VALIGN=top WIDTH="509" BGCOLOR="#ffffff"><b><font face="Arial">Beschreibung</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">I*_?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">I0_0 , I0_1 , I1_7 </font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Digitale Eingangsvariabel 
+* ist das Byte und ? steht für das Bit in den Eingangsdaten.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">Q*_?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">BOOL</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">Q0_0 , Q0_1 , Q1_7 </font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Digitale Ausgangsvariabel 
+* ist das Byte und ? steht für das Bit in den Ausgangsdaten.</font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">CHI?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">REAL, UINT, INT</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">CHI0 , CHI1 , CHI2</font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Analoger Eingangskanal ? 
+steht für die Kanalnummer. </font></td>
+</tr>
+<tr>
+<td VALIGN=top WIDTH="128"><font face="Arial" size="2">CHQ?</font></td>
+
+<td VALIGN=top WIDTH="83"><font face="Arial" size="2">REAL, UINT, INT</font></td>
+
+<td VALIGN=top WIDTH="111"><font face="Arial" size="2">VAR_GLOBAL</font></td>
+
+<td VALIGN=top WIDTH="190"><font face="Arial" size="2">CHQ0 , CHQ1 , CHQ2</font></td>
+
+<td VALIGN=top WIDTH="509"><font face="Arial" size="2">Analoger Ausgangskanal ? 
+steht für die Kanalnummer. </font></td>
+</tr>
+</table>
+
+  </blockquote>
+  <p><font face="Arial,Helvetica">Bei analogen Kanälen könne die IO-Variabeln 
+  auch skaliert werden. Dazu müssen die Flags <i>Subrange</i> und <i>IO-Var</i> 
+  gesetzt werden. Bei den Werten <i>Physical</i> muss dann der Bereich der 
+  digitalen Werte die das Modul liefert eingetragen werden. In <i>IoScale</i> 
+  kann dann der analoge Bereich angegeben werden dem dieses digitalen Werte 
+  entsprechen. Die Umrechnung erfolgt dann automatisch. Die <i>Subrange </i>
+  Werte bestimmen welcher Bereich der analogen Werte in einigen Controls 
+  angezeigt werden soll.</font></p>
+  <p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+CH0_Reset [Text Normal]	Reset Channel 0
+CH0_Reset [Text Activ]	Reset Channel 0
+Channel0 [Text Normal]	Channel 0
+Channel0 [Text Activ]	Text
+CH0_ProtocolName [Text Normal]	Protocol Name
+CH0_ProtocolName [Text Activ]	Text
+CH0_ID [Text Normal]	ID
+CH0_ID [Text Activ]	Text
+CH0_PhysicalMode [Text Normal]	Physical Mode
+CH0_PhysicalMode [Text Activ]	Text
+CH1_Reset [Text Normal]	Reset Channel 1
+CH1_Reset [Text Activ]	Reset Channel 1
+CH1_ProtocolName [Text Normal]	Protocol Name
+CH1_ProtocolName [Text Activ]	Text
+CH1_ID [Text Normal]	ID
+CH1_ID [Text Activ]	Text
+CH1_PhysicalMode [Text Normal]	Physical Mode
+CH1_PhysicalMode [Text Activ]	Text
+CH2_Reset [Text Normal]	Reset Channel 2
+CH2_Reset [Text Activ]	Reset Channel 2
+CH2_ProtocolName [Text Normal]	Protocol Name
+CH2_ProtocolName [Text Activ]	Text
+CH2_ID [Text Normal]	ID
+CH2_ID [Text Activ]	Text
+CH2_PhysicalMode [Text Normal]	Physical Mode
+CH2_PhysicalMode [Text Activ]	Text
+CH3_Reset [Text Normal]	Reset Channel 3
+CH3_Reset [Text Activ]	Reset Channel 3
+CH3_ProtocolName [Text Normal]	Protocol Name
+CH3_ProtocolName [Text Activ]	Text
+CH3_ID [Text Normal]	ID
+CH3_ID [Text Activ]	Text
+CH3_PhysicalMode [Text Normal]	Physical Mode
+CH3_PhysicalMode [Text Activ]	Text
+Channel1 [Text Normal]	Channel 1
+Channel1 [Text Activ]	Text
+Channel2 [Text Normal]	Channel 2
+Channel2 [Text Activ]	Text
+Channel3 [Text Normal]	Channel 3
+Channel3 [Text Activ]	Text
+RunningCounter [Text Normal]	Running Counter
+RunningCounter [Text Activ]	Text

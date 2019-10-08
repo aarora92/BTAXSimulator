@@ -1,0 +1,1 @@
+classlib/communication/profibus/siemens/simatic_s7/s7_300/digitaldevices/sm321/sm321_di16_m

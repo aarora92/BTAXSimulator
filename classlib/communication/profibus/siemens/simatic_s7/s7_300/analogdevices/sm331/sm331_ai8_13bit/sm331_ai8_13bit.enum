@@ -1,0 +1,22 @@
+NoiseSup:Hz400,Hz60,Hz50,Hz10;
+Resolution:VZ_14Bit,VZ_12Bit,VZ_9Bit;
+Config:
+	deact=0x0,
+	voltage	{mV_np50=27,
+		mV_np500=19,
+		V_np1=20,
+		V_np5=22,
+		V_1to5=23,
+		V_0to10=24,
+		V_np10=25
+		},
+	current_4wire {mA_0to20=34,
+		mA_4to20=35,
+		mA_np20=36
+		},		
+	resistance_4wire{Ohm_600=86,
+		Ohm_6k=88
+		},
+	thermo_4wire_lin{Pt100_K=144,
+		Pt100=146
+		};

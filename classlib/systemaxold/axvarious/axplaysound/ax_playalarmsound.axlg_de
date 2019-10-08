@@ -1,0 +1,32 @@
+prio2 [Text Normal]	Priorität für Ton 2:
+prio2 [Text Activ]	
+title [Text Normal]	Play Alarm Ton
+title [Text Activ]	Text
+display [Text Normal]	Host:
+display [Text Activ]	
+prio3 [Text Normal]	Priorität for Ton 3:
+prio3 [Text Activ]	
+prio4 [Text Normal]	Priorität for Ton 4:
+prio4 [Text Activ]	
+prio1 [Text Normal]	Priorität for Ton 1:
+prio1 [Text Activ]	
+display1 [Text Normal]	Host:
+display1 [Text Activ]	
+rep_time [Text Normal]	Wiederholungsintervall:
+rep_time [Text Activ]	
+rep1 [Text Normal]	wiederhole Ton
+rep1 [Text Activ]	Button
+rep3 [Text Normal]	wiederhole Ton
+rep3 [Text Activ]	Button
+rep4 [Text Normal]	wiederhole Ton
+rep4 [Text Activ]	Button
+rep2 [Text Normal]	wiederhole Ton
+rep2 [Text Activ]	Button
+enable1 [Text Normal]	Aktiviere Ton
+enable1 [Text Activ]	
+enable3 [Text Normal]	Aktiviere Ton
+enable3 [Text Activ]	
+enable4 [Text Normal]	Aktiviere Ton
+enable4 [Text Activ]	
+enable2 [Text Normal]	Aktiviere Ton
+enable2 [Text Activ]	

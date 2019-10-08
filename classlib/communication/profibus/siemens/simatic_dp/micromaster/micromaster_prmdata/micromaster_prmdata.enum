@@ -1,0 +1,18 @@
+DATATYPE:
+	Boolean=1,
+	Intager8,
+	Intager16,
+	Integer32,
+	Unsigned8,
+	Unsigned16,
+	Unsigned32,
+	FloatingPoint,
+	VisibleString,
+	OcetString,
+	Date,
+	TimeOfDay,
+	TimeDifference,
+	BitString;
+	
+	
+	

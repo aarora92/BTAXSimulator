@@ -1,0 +1,64 @@
+error_mcc [Text Normal]	Störung MCC
+error_mcc [Text Activ]	Störung MCC
+mode [Text Normal]	Modi
+mode [Text Activ]	Wartungsoptionen verwenden
+no_lock [Text Normal]	keine Verriegelung
+no_lock [Text Activ]	Button
+run_fwd_emulation [Text Normal]	Läuft vorw. Emulation
+run_fwd_emulation [Text Activ]	Button
+ready_emulation [Text Normal]	Bereit Emulation
+ready_emulation [Text Activ]	Button
+error_mcc_emulation [Text Normal]	MCC keine Störung Emulation
+error_mcc_emulation [Text Activ]	Button
+max_run_feedb [Text Normal]	Max. Läuft Rückmeldezeit:
+max_run_feedb [Text Activ]	Text
+delaytime [Text Normal]	Verzögerungszeit:
+delaytime [Text Activ]	Text
+speed_set [Text Normal]	Geschwindigkeit intern/extern
+speed_set [Text Activ]	Text
+actual [Text Normal]	aktuell
+actual [Text Activ]	Text
+run_fwd [Text Normal]	Läuft vorwärts
+run_fwd [Text Activ]	Läuft
+error_rev [Text Normal]	Störung rückwärts
+error_rev [Text Activ]	Störung
+lock_fwd [Text Normal]	Verriegelt vor
+lock_fwd [Text Activ]	Verriegelt
+auto_rev [Text Normal]	Automatik
+auto_rev [Text Activ]	Automatik
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+man_off [Text Normal]	Aus
+man_off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+man_on [Text Normal]	Ein
+man_on [Text Activ]	Ein
+ready [Text Normal]	Bereit
+ready [Text Activ]	Bereit
+lock_setpt [Text Normal]	Setpoint sperren
+lock_setpt [Text Activ]	Button
+man_rev [Text Normal]	rückwärts
+man_rev [Text Activ]	rückwärts
+man_fwd [Text Normal]	vorwärts
+man_fwd [Text Activ]	vorwärts
+auto_fwd [Text Normal]	Automatik
+auto_fwd [Text Activ]	Automatik
+lock_rev [Text Normal]	Verriegelt rück
+lock_rev [Text Activ]	Verriegelt
+error_fwd [Text Normal]	Störung vorwärts
+error_fwd [Text Activ]	Störung
+run_rev [Text Normal]	Läuft rückwärts
+run_rev [Text Activ]	Läuft
+run_rev_emulation [Text Normal]	Läuft rückw. Emulation
+run_rev_emulation [Text Activ]	Button
+ch_dir_delay [Text Normal]	Umschaltzeit vorw.-rückw.:
+ch_dir_delay [Text Activ]	Text
+current [Text Normal]	Strom
+current [Text Activ]	Text
+torque [Text Normal]	Drehmoment
+torque [Text Activ]	Text
+power [Text Normal]	Leistung
+power [Text Activ]	Text

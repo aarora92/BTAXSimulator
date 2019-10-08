@@ -1,0 +1,66 @@
+error_mcc [Text Normal]	local ready
+error_mcc [Text Activ]	local not ready
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+mode [Text Normal]	mode
+mode [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_lock [Text Normal]	no interlock
+no_lock [Text Activ]	Button
+run_emulation [Text Normal]	run emulation
+run_emulation [Text Activ]	Button
+rdy_emulation [Text Normal]	ready emulation
+rdy_emulation [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_run_feedb [Text Normal]	max feedback time:\
+max_run_feedb [Text Activ]	Text
+delaytime [Text Normal]	delay time:
+delaytime [Text Activ]	Text
+text1 [Text Normal]	speed intern/extern\
+text1 [Text Activ]	Text
+text2 [Text Normal]	extern
+text2 [Text Activ]	Text
+text3 [Text Normal]	intern
+text3 [Text Activ]	Text
+text4 [Text Normal]	actual
+text4 [Text Activ]	Text
+run [Text Normal]	run
+run [Text Activ]	run
+error [Text Normal]	fault
+error [Text Activ]	fault
+locked [Text Normal]	locked
+locked [Text Activ]	locked
+auto_on [Text Normal]	auto on
+auto_on [Text Activ]	auto on
+man [Text Normal]	manual
+man [Text Activ]	manual
+auto [Text Normal]	auto
+auto [Text Activ]	auto
+man_off [Text Normal]	off
+man_off [Text Activ]	off
+ack [Text Normal]	acknowledge
+ack [Text Activ]	acknowledge
+man_on [Text Normal]	on
+man_on [Text Activ]	on
+ready [Text Normal]	ready
+ready [Text Activ]	not ready
+operation_mode [Text Normal]	normal operation
+operation_mode [Text Activ]	Text
+text_intern_button [Text Normal]	intern
+text_intern_button [Text Activ]	intern
+text_extern_button [Text Normal]	extern
+text_extern_button [Text Activ]	extern
+lock_setpt [Text Normal]	lock setpoint
+lock_setpt [Text Activ]	Button
+error_mcc_emulation [Text Normal]	local emulation
+error_mcc_emulation [Text Activ]	Button
+current [Text Normal]	current
+current [Text Activ]	Text
+torque [Text Normal]	torque
+torque [Text Activ]	Text
+power [Text Normal]	power
+power [Text Activ]	Text
+manual_at_fault [Text Normal]	manual mode at error
+manual_at_fault [Text Activ]	Button

@@ -1,0 +1,46 @@
+slg_config:	Nur_SLG1=1,
+		Nur_SLG2=2,
+		SLG1_SLG2=3;
+Abtastrate:zeitwert_x_10ms,
+	zeitwert_x_100ms,
+	zeitwert_x_1s,
+	zeitwert_x_10s;
+MOBI_Betrieb:default=0,
+	MOBI_IE=1,
+	MOBI_L=2,
+	MOBI_I_507=3,
+	MOBI_I_Dial=4,
+	MOBI_V=5,
+	MOBI_F_1xx=6,
+	MOBI_F_4xx=7,
+	MOBI_F_2xx=8;
+MDS_Ctrl:keine_ANW,
+	keine_MDS,
+	MDS_Ctrl,
+	MDS_Ctrl_DE01,
+	MDS_Ctrl_DE01_FW;
+MDS_Typ:62Byte_RAM,
+	128Byte_EEPROM,
+	2kByte_RAM,
+	8kByte_EEPROM,
+	32kByte_RAM,
+	752Byte_EEPROM;
+DataFormat:S7_Format,S5_Format;
+Master_Con:ISA_1{MIO_0=0,
+		 MIO_1=1,
+		 MIO_2=2,
+		 MIO_3=3,
+		 MIO_4=4,
+		 MIO_5=5
+		 },
+	  ISA_2{MIO_0=10,
+		 MIO_1=11,
+		 MIO_2=12,
+		 MIO_3=13,
+		 MIO_4=14,
+		 MIO_5=15
+		 },
+	PROFIBoard0=20,
+	PROFIBoard1=21,
+	PROFIBoard2=22,
+	PROFIBoard3=23;

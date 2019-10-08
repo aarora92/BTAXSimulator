@@ -1,0 +1,88 @@
+Trend.Configuration.Title	Trend Configuration
+Trend.Configuration.RMMenu.Rec[sample]	Recording [Sampling]
+Trend.Configuration.RMMenu.Rec[railcar]	Recording [Rail Car]
+Trend.Configuration.RMMenu.Recdisable	Disable Recording
+Trend.Configuration.RMMenu.SaveParam	Save Parameter
+Trend.Configuration.RMMenu.OpenTrendDisp	Open Trend Display
+Trend.Configuration.RMMenu.AddCurve	Add Curve To Display
+Trend.Configuration.RMMenu.IndividLineProp	Individual Line Properties ...
+Trend.Configuration.RMMenu.GeneraltrendInfo	General Trend Informations
+Trend.Configuration.RMMenu.OpenTrendDispLocal	Open Trend Display Local
+Trend.Configuration.Main.Menu.File	File
+Trend.Configuration.Main.Menu.File.Save	Save
+Trend.Configuration.Main.Menu.File.Exit	Exit
+Trend.Configuration.Main.Menu.Edit	Edit
+Trend.Configuration.Main.Menu.Edit.Copy	Copy
+Trend.Configuration.Main.Menu.Edit.Paste	Paste
+Trend.Configuration.Menu.Tooltip.Save	Save
+Trend.Configuration.Menu.Tooltip.ConfigTreeButton	Show/Hide Config Tree
+Trend.Configuration.Menu.Tooltip.Delete	Delete junk
+Trend.Configuration.Menu.Tooltip.NewTrendWindow	Open nw Trend Window
+Trend.Configuration.Menu.Tooltip.AddLine	Add Line to current Trend Window
+Trend.Configuration.Tree.Title	TX-Config
+Trend.Configuration.Tree.TrendPoints	Trend Variables
+Trend.Configuration.Tree.Captures	Capture Definitions
+Trend-Overview.Label: Nr	Nr
+Trend-Overview.Label: Rec	Rec
+Trend-Overview.Label: Name	Name
+Trend-Overview.Label: Type	Type
+Trend-Overview.Label: Remark	Remark
+Trend-Overview.Label: Dim	Dim
+Trend-Overview.Label: V [%]	V [%]
+Trend-Overview.Label: +	+
+Trend-Overview.Label: Min-Value	Min-Value
+Trend-Overview.Label: Max-Value	Max-Value
+Trend-Overview.Label: Disp-Min	Disp-Min
+Trend-Overview.Label: Disp-Max	Disp-Max
+Trend-Overview.Label: Days	Days
+Trend-Overview.Label: Scan	Scan
+Trend-Overview.Label: Activ 	Activ.
+Trend-Overview.Label: Trigger Var	Trigger Var
+Trend-Overview.Label: Pre-Time	Pre-Time
+Trend-Overview.Label: Post-Time	Post-Time
+Trend.Configuration.Info.Mem Usage	Mem.usage:
+FTT.Dropdown.Cut.Accelerator	Ctrl+X
+FTT.Dropdown.Cut	Cut
+FTT.Dropdown.Copy.Accelerator	Ctrl+C
+FTT.Dropdown.Copy	Copy
+FTT.Dropdown.Paste.Accelerator	Ctrl+V
+FTT.Dropdown.Paste	Paste
+FTT.Dropdown.Filter	Filter
+FTT.Dropdown.Filter.Accelerator	Ctrl+F
+FTT.Dropdown.SetupColumn	Setup Column
+FTT.Dropdown.TableSetup	Table Setup
+FTT.Dropdown.TableSetup.LabelFont	Label Font
+FTT.Dropdown.TableSetup.FieldFont	Field Font
+FTT.Dropdown.TableSetup.HorizontalLine	Horzontal Line
+FTT.Dropdown.TableSetup.VerticalLine	Vertical Line
+Trend.Configuration.New Capture Def	New
+TrendConf.Title	Trend Configuration
+TrendConf.Main.Menu.File	File
+TrendConf.Main.Menu.File.Save	Save
+Menu.File: Save	Save
+Menu.File: Save.Accelerator	Ctrl+S
+TrendConf.Main.Menu.File.Quit	Quit
+Menu.File: Quit	Quit
+Menu.File: Quit.Accelerator	Ctrl+Q
+Menu.Edit: Copy	Copy
+Menu.Edit: Copy.Accelerator	Ctrl+C
+Menu.Edit: Paste	Paste
+Menu.Edit: Paste.Accelerator	Ctrl+V
+Menu.Edit: Copy DWH	Copy DWH
+Menu.Edit: Copy DWH.Accelerator	Ctrl+B
+Menu.Edit: Paste DWH	Paste DWH
+Menu.Edit: Paste DWH.Accelerator	Ctrl+G
+Trend.Menu.Tooltip.Save	Save
+Menu.Button: Save	Save
+Trend.Menu.Tooltip.Print	Print
+Menu.Button: Print	Print
+Trend.Menu.Tooltip.Delete	Delete junk
+Menu.Button: Delete	Delete
+Trend.Menu.Tooltip.NewTrendWindow	Open nw Trend Window
+Menu.Button: Open Trend	Open Trend
+Trend.Menu.Tooltip.AddLine	Add Line to current Trend Window
+Menu.Button: Add Line	Add Line
+FTT.Dropdown.SetToAllFields.Accelerator	Ctrl+D
+FTT.Dropdown.SetToAllFields	SetToAllFields
+FTT.Dropdown.PrintAll	PrintAll
+FTT.Dropdown.PrintVis	PrintVis

@@ -1,0 +1,60 @@
+TakeoverTimeout1 [Text Normal]	Takeover Timeout
+TakeoverTimeout1 [Text Activ]	Text
+Redundancy [Text Normal]	 Redundancy
+Redundancy [Text Activ]	Text
+send [Text Normal]	send
+send [Text Activ]	Text
+recv [Text Normal]	recv
+recv [Text Activ]	Text
+RemoteRDData [Text Normal]	RD Data
+RemoteRDData [Text Activ]	RD Data
+RemoteSoftPLC [Text Normal]	Soft PLC
+RemoteSoftPLC [Text Activ]	Soft PLC
+RedCard [Text Normal]	 Redundancy Card 
+RedCard [Text Activ]	Text
+ResRedCard [Text Normal]	Reset Red Card
+ResRedCard [Text Activ]	Reset Red Card
+TakeCtrl [Text Normal]	Take Ctrl
+TakeCtrl [Text Activ]	Take Ctrl
+StepBack [Text Normal]	Step Back
+StepBack [Text Activ]	Step Back
+Settings [Text Normal]	 Settings 
+Settings [Text Activ]	Text
+ReceiveDelay [Text Normal]	Receive Delay
+ReceiveDelay [Text Activ]	Text
+Peak [Text Normal]	Peak  Det
+Peak [Text Activ]	Text
+ResetPeak [Text Normal]	Reset Peak
+ResetPeak [Text Activ]	Reset Peak
+TakeoverTimeout2 [Text Normal]	Takeover \Timeout
+TakeoverTimeout2 [Text Activ]	Text
+ConnectionOK [Text Normal]	Connection OK
+ConnectionOK [Text Activ]	TCP
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Text
+SoftPLCTimeout [Text Normal]	Soft PLC \Timeout
+SoftPLCTimeout [Text Activ]	Text
+RDConnectionTimeout [Text Normal]	RD Connection \Timeout
+RDConnectionTimeout [Text Activ]	Text
+Sensitive [Text Normal]	Sensitive
+Sensitive [Text Activ]	De Sensitive
+Reset [Text Normal]	Reset
+Reset [Text Activ]	Reset
+trend [Text Normal]	Trend
+trend [Text Activ]	Trend
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+LocalConfigured [Text Normal]	Configured:
+LocalConfigured [Text Activ]	Text
+RemoteConfigured [Text Normal]	Configured:
+RemoteConfigured [Text Activ]	Text
+RedundancyConfig [Text Normal]	Redundancy Configuration OK
+RedundancyConfig [Text Activ]	Wrong Redundancy Configuration
+LockRedAlarms [Text Normal]	Lock Redundancy Alarms
+LockRedAlarms [Text Activ]	Lock Redundancy Alarms
+Version [Text Normal]	Version OK
+Version [Text Activ]	Wrong Version
+LockPLC_Inst_Alarms [Text Normal]	Lock PLC-Installation Alarms
+LockPLC_Inst_Alarms [Text Activ]	Lock Redundancy Alarms
+Standalone [Text Normal]	Started as Standalone Server\(Redundancy not Active)
+Standalone [Text Activ]	Started as Standalone Server\(Redundancy not Active)

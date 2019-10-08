@@ -1,0 +1,609 @@
+Menu.Main.File	File
+Menu.File.Load	Load
+Menu.File.Load.Accelerator	Ctrl+L
+Menu.File.GoOnline	Go online
+Menu.File.Save	Save
+Menu.File.Save.Accelerator	Ctrl+S
+Menu.File.SaveAs	Save as
+Menu.File.PrinterSetup	Printer Setup...
+Menu.File.Print	Print
+Menu.File.Print.Accelerator	Ctrl+P
+Menu.File.Exit	Exit
+Menu.Main.Edit	Edit
+Menu.Edit.Program	Program
+Menu.Edit.Cut	Cut   
+Menu.Edit.Cut.Accelerator	Ctrl+X
+Menu.Edit.Copy	Copy   
+Menu.Edit.Copy.Accelerator	Ctrl+C
+Menu.Edit.Paste	Paste   
+Menu.Edit.Paste.Accelerator	Ctrl+V
+Menu.Edit.Search	Search
+Menu.Edit.Replace	Replace
+Menu.Edit.Color	Color
+Menu.Edit.Font	Font
+Menu.Main.Edit.Page	Page
+Menu.Edit.Page.Insert	Insert
+Menu.Edit.Page.MoveUp	Move Up
+Menu.Edit.Page.MoveDown	Move Down
+Menu.Edit.Page.RemovePage	Remove
+Menu.Main.View	View
+Menu.View.NextPage	Next Page
+Menu.View.NextPage.Accelerator	PgDown
+Menu.View.PreviousPage	Previous Page
+Menu.View.PreviousPage.Accelerator	PgUp
+Menu.View.Zoom	Zoom
+Menu.50%	50%
+Menu.60%	60%
+Menu.70%	70%
+Menu.80%	80%
+Menu.90%	90%
+Menu.100%	100%
+Menu.125%	125%
+Menu.150%	150%
+Menu.175%	175%
+Menu.200%	200%
+Menu.View.ShowAllTags	Show All Tags
+Menu.Main.Tools	Tools
+Menu.Tools.Library	Library
+Menu.Tools.Library.ConnectionLine	Connection Line
+Menu.Tools.Library.ConnectionLine.Accelerator	F2
+Menu.Tools.Library.Input	Input Variable
+Menu.Tools.Library.Input.Accelerator	F3
+Menu.Tools.Library.Output	Output Variable
+Menu.Tools.Library.Output.Accelerator	F4
+Menu.Tools.Library.Assgin	Assign
+Menu.Tools.Library.Assgin.Accelerator	F5
+Menu.Tools.Library.And	AND
+Menu.Tools.Library.And.Accelerator	F6
+Menu.Tools.Library.Or	OR
+Menu.Tools.Library.Or.Accelerator	F7
+Menu.Tools.Library.Mathfnc	Math Function
+Menu.Tools.Library.Mathfnc.Accelerator	F8
+Menu.Tools.PropertyViewer	Property Viewer
+Menu.Tools.InstanceExplorer	Instance - Explorer
+Menu.Tools.PLC-Browser	PLC-Browser
+Menu.Tools.Unhide All	Unhide All
+Menu.Tools.OnlinetoInit	Online to Init
+Menu.Tools.PostIt	PostIt
+Menu.Tools.ProtectProgram	Protect Program
+Menu.Tools.ModificationHistory	Modification History
+Menu.Tools.EditLanguage	Edit Language
+Menu.Main.Format	Format
+Menu.Format.AlignLeft	Align Left
+Menu.Format.AlignRight	Align Right
+Menu.Format.AlignTop	Align Top
+Menu.Format.AlignBottom	Align Bottom
+Menu.Format.AlignHorizontal	Align Horizontal Center
+Menu.Format.AlignVertical	Align Vertical Center
+Menu.Format.SpaceEvenlyVertical	Space Evenly Vertical
+Menu.Format.SpaceEvenlyHorizontal	Space Evenly Horizontal
+Menu.Main.Help	Help
+Menu.Help.Contents	Contents
+Menu.Help.About	About aX-Builder
+Button.EditProgram	Edit Program
+ToolTip.EditProgram	Edit Program
+ToolTip.Save+Install	Save+Install
+ToolTip.Load	Load
+ToolTip.Print	Print
+ToolTip.FirstPage	First Page
+ToolTip.PrevPage	Previous Page
+ToolTip.NextPage	Next Page
+ToolTip.LastPage	Last Page
+ToolTip.Color	Color
+ToolTip.Search	Search
+ToolTip.Zoom	Zoom
+ToolTip.GridOnOff	Grid On/Off
+ToolTip.GridFrontBack	Grid Front/Back
+ToolTip.MovePageUp	Move Page Up
+ToolTip.MovePageDown	Move Page Down
+ToolTip.InsertPage	Insert Page
+ToolTip.RemovePage	Remove Page
+ToolTip.PropertyViewer	Property Viewer
+ToolTip.UnhideAll	Unhide All
+Menu.Page.Title	Page
+Install.Message.ShowInViewer	Install-Messages: Show in Viewer
+Install.Message.Head	Install - Messages
+PLCBrowser.Cancel	Cancel
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+Install.Message.Messages	Install Messages ...
+Editor.AutomationXLibrary	AutomationX - Library
+Editor.Button.Edit	Edit
+Editor.DropDown.Selection	Selection
+Editor.DropDown.Clipboard	CLIPBOARD
+Editor.Instance	Instance:
+Editor.Remark	Remark :
+Editor.ClassType	Type:
+Editor.TypeLocal	Local
+Editor.Class	Class:
+Editor.Reflection	Reflection
+Editor.Use_Alarms	Use Alarms
+Editor.RemoteSite	Site:
+Editor.RemoteInstance	Instance:
+Editor.ServerData	Server Data
+Editor.ClientData	Client Data
+Editor.RemoteData	Remote Data
+Menu.Edit.CopytoClip	Copy to clipboard
+Menu.Edit.toFront	Bring to front
+Menu.Edit.toBack	Push to back
+Menu.Edit.RemInstance	Remove Instance
+Editor.EditClass	Edit Class
+Editor.Browse	Browse ...
+Editor.Help	Help
+Editor.AutomationXLibrary	AutomationX - Library
+Editor.Button.Edit	Edit
+Editor.DropDown.Selection	Selection
+Editor.DropDown.Clipboard	CLIPBOARD
+Editor.Instance	Instance:
+Editor.Remark	Remark :
+Editor.ClassType	Type:
+Editor.TypeLocal	Local
+Editor.Class	Class:
+Editor.Reflection	Reflection
+Editor.Use_Alarms	Use Alarms
+Editor.RemoteSite	Site:
+Editor.RemoteInstance	Instance:
+Editor.ServerData	Server Data
+Editor.ClientData	Client Data
+Editor.RemoteData	Remote Data
+Editor.Declaration	Declaration
+Editor.Type	Type
+Editor.Reference	Reference
+Editor.NC	NC
+Editor.INV	INV
+Editor.Subrange	Subrange
+Editor.Dimension	Dimension
+Editor.IOScale	IoScale
+Editor.Physical	Physical
+Editor.StringSize	String Size
+Editor.DecimalPoints	DecimalPoints
+Editor.ArrayCount	Array Count
+Editor.Trending	Trending
+Editor.Retentive	Retentive
+Editor.Constant	Constant
+Editor.Private	Private
+Editor.Local	Local
+Editor.Parameter	Parameter
+Editor.ConfValue	Conf.Value
+Editor.OnlineInit	OnlineInit
+Editor.Tolerance	Tolerance
+Editor.IOVar	IO Var
+Editor.VirtualIO	Virtual I/O
+Editor.ExternVarRead	Read
+Editor.ExternVarWrite	Write
+Editor.FlagInterface	Interface
+Menu.Edit.CopytoClip	Copy to clipboard
+Menu.Edit.toFront	Bring to front
+Menu.Edit.toBack	Push to back
+Menu.Edit.RemInstance	Remove Instance
+Editor.EditClass	Edit Class
+Editor.Browse	Browse ...
+Editor.Help	Help
+QmGraphicsWindow.Title.Save	Save %s
+History.Label	Please write a short comment for the modification History
+History.Version	Version:
+History.Date	Date:
+History.Host	Host:
+History.MajorMinor	Major/Minor:
+History.User	User:
+History.Add Comment	Comment:
+History.HistoryButton	History
+Editor.Msg.Saving	Saving file ...
+Editor.Msg.SavingFile	Please wait, saving program file ...
+Editor.Msg.SavingFile:	Saving file:
+Editor.CreateNewResource	Create New Resource
+Editor.ImportResList	Import Resource List
+Editor.ImportAWLFile	Import AWL file
+Editor.Imageproc	imageproc
+Editor.Enumerator	enumerator
+Editor.Selector	selector
+Editor.Cut	Cut               Ctrl+X
+Editor.Copy	Copy              Ctrl+C
+Editor.Paste	Paste             Ctrl+V
+Editor.mvup	Move Up           Shift+Up
+Editor.mvdown	Move Down         Shift+Down
+Editor.Separator	Separator
+Editor.Callback	callback
+Editor.EditEnumerators	Edit enumerators
+Editor.Dependency	Dependency
+Editor.SearchVar	Search Variable ...
+Editor.GetSet	Get <-> Set
+QmGraphicsWindow.Title.Save	Save %s
+History.Label	Please write a short comment for the modification History
+History.Version	Version:
+History.Date	Date:
+History.Host	Host:
+History.MajorMinor	Major/Minor:
+History.User	User:
+History.Add Comment	Comment:
+History.HistoryButton	History
+Editor.Msg.Saving	Saving file ...
+Editor.Msg.SavingFile	Please wait, saving program file ...
+Editor.Msg.SavingFile:	Saving file:
+Instance Context Menu.Search...	Search...
+Instance Context Menu.Dependency [Ctrl+Button1]	Dependency [Ctrl+Button1]
+Instance Context Menu.Usage List	Usage List
+Instance Context Menu.Explorer	Explorer
+Instance Context Menu.Class	Class
+Instance Context Menu.Trend	Trend
+Instance Context Menu.Cross Reference	Cross Reference
+Instance Context Menu.Trend.Show Trend	Show Trend
+Instance Context Menu.Trend.Add Predefined	Add Predefined
+Instance Context Menu.Class Description	Class Description
+Instance Context Menu.Instance Description	Instance Description
+Instance Context Menu.Properties	Properties
+Editor.ChangesMade	You have done changes.\Save&Install the modifications?
+Editor.Warning	Warning !
+QmGraphicsWindow.Title.Save	Save %s
+History.Label	Please write a short comment for the modification History
+History.Version	Version:
+History.Date	Date:
+History.Host	Host:
+History.MajorMinor	Major/Minor:
+History.User	User:
+History.Add Comment	Comment:
+History.HistoryButton	History
+Editor.Msg.Saving	Saving file ...
+Editor.Msg.SavingFile	Please wait, saving program file ...
+Editor.Msg.SavingFile:	Saving file:
+Editor.TempFile	Temporary file found <%s> \Would you like to load it?
+Menu.File.Close	Close
+Editor.Ref	Ref.
+Install.Message.AllowStart	Install Messages:Allow start AXEditor
+SearchDialog.Search Header	Search
+SearchDialog.Find what:	Find what:
+SearchDialog.Replace:	Replace:
+SearchDialog.Case sensitive	Case sensitive
+SearchDialog.Include instance data	Include instance data
+SearchDialog.Find Next	Find Next
+SearchDialog.Find Prev	Find Prev
+SearchDialog.Cancel	Cancel
+Instance Context Menu.Cross Reference.<- Instance	<- Instance: %s [Page %d]
+Instance Context Menu.Cross Reference.-> Instance	-> Instance: %s [Page %d]
+Instance Context Menu.Cross Reference.<- Program	<- Program: %s [Page %d]
+Instance Context Menu.Cross Reference.-> Program	-> Program: %s [Page %d]
+Viewer.Cross Reference.Dependency	Dependency: %s [Page %d]
+Viewer.Cross Reference.Instance	Instance: %s
+Viewer.Dependency.TitleBar.Dependency	Dependency
+Viewer.Dependency.TitleBar.%s: %s (program %s, page %d)	%s: %s (program %s, page %d)
+Dependency.Show Activ	Show Activ
+Dependency.Show Inactiv	Show Inactiv
+Dependency.Show Normal	Show Normal
+Dependency.Close	Close
+SearchDialog.continue search from the first page ?	continue search from the first page ?
+SearchDialog.Find complete Header	Find complete
+Modification History.Label: Version	Version
+Modification History.Label: Major/Minor	Major/Minor
+Modification History.Label: Date	Date
+Modification History.Label: Name	Name
+Modification History.Label: Comment	Comment
+Modification History.Label: Host	Host
+History.Title.History for	History for %s
+History.Button.Close	Close
+History.Button.Print	Print
+History.Button.DeleteLine	Delete Line
+Project.Tree.Language.Title	aX Language
+Menu.Font.Language.Configuration	Font Configuration\Please use the Project/Language Configuration for different Languages !
+Project.Tree.Language.Actual Language	General Config
+Project.Tree.Language.Name	Language Name:
+Project.Tree.Language.Extension	Extension (e.g: en):
+Project.Tree.Language.Enable Multi-Byte Fonts	Language Requires Multi-byte Fonts?
+Project.Tree.Language.Font.Latin	Latin Font
+Project.Tree.Language.Font.Multi-Byte	Multibyte Font
+Project.Tree.Language.Individual Fonts	Individual Fonts
+Project.Tree.Language.Latin (Single-Byte) Fonts	Latin (Single-Byte) Fonts
+Project.Tree.Language.Multi-byte Fonts	Multi-byte Fonts
+Editor.FontName	Font
+Editor.FontSize	Size
+Editor.FontBold	Bold
+Editor.FontItalics	Italics
+Project.Tree.Language.Title	aX Language
+Menu.Font.Language.Configuration	Font Configuration\Please use the Project/Language Configuration for different Languages !
+Project.Tree.Language.Actual Language	General Config
+Project.Tree.Language.Name	Language Name:
+Project.Tree.Language.Extension	Extension (e.g: en):
+Project.Tree.Language.Enable Multi-Byte Fonts	Language Requires Multi-byte Fonts?
+Project.Tree.Language.Font.Latin	Latin Font
+Project.Tree.Language.Font.Multi-Byte	Multibyte Font
+Project.Tree.Language.Individual Fonts	Individual Fonts
+Project.Tree.Language.Latin (Single-Byte) Fonts	Latin (Single-Byte) Fonts
+Project.Tree.Language.Multi-byte Fonts	Multi-byte Fonts
+Class.EnterPasswd	Enter password for class
+Class.Passwd.Description	Description:
+Class.Passwd.Password	Password:
+Class.Passwd.OK	Ok
+Class.Passwd.Cancel	Cancel
+Class.Passwd.Protection.Type	Protection type:
+Class.Passwd.noProtection	no protection
+Class.Passwd.WriteProt	write protected
+Class.Passwd.NoReadWriten	read & write protected
+Class.Passwd.NoReadWrite	read & write protected
+Editor.Fsb.Title.Open File	Open File
+Instance Context Menu.aXDevInstanceEdit	Edit aXdevice instance
+Viewer.Dependency.TitleBar.Usage List	Usage List
+PCLBrowser.Findwhat	Find what:
+PCLBrowser.Searchin	Search in:
+PLCBrowser.Dropdown.allPrograms	all Programs
+PLCBrowser.Dropdown.thisProgram	this Program
+PLCBrowser.SearchGetSetVariable	Search Get-SetVariable
+PLCBrowser.SearchinVisualPart	Search in Visual Part
+PLCBrowser.StartSearch	Start Search
+SpsSearch.Label: Name	Name
+SpsSearch.Label: Prog	Prog
+SpsSearch.Label: Page	Page
+SpsSearch.Label: Type	Type
+SpsSearch.Label: Used As	Used As
+SpsSearch.Label: Remark	Remark
+PLCBrowser.Title	PLC - Browser
+PLCBrowser.Msg.InInstance	in Instance
+PLCBrowser.Msg.SearchingForVariable	Searching for Variable
+PLCBrowser.Msg.InAllInstanceVars	in all Instances and VarGlobal
+PLCBrowser.Msg.ItemsFound	Items found!
+Editor.FunctionKeys	FunctionKeys
+Editor.GlobalColors	Global Colors
+Editor.ExpandArr	Expand Array
+QmGraphics.Error.Error list	Error list
+Editor.ItemNotFound msg	Item not found in this Program ! \Load requested file?
+Editor.SaveChanges	Save Changes to %s ?
+SearchDialog.not found !	not found !
+Editor.ErrMsg no bitmap	Can't find bitmap:%s
+Editor.Colors.Title	Colors
+Editor.Colors.Head	System and Global Colors
+Editor.Colors.CurrentColorText	CurrentColorText
+Editor.Colors.Red	Red
+Editor.Colors.Green	Green
+Editor.Colors.Blue	Blue
+Editor.Colors.FlashDuration	Flash Duration
+Editor.Colors.ColorDuration	Color Duration
+Editor.Colors.FlashRed	Flash Red
+Editor.Colors.FlashGreen	Flash Green
+Editor.Colors.FlashBlue	Flash Blue
+Editor.Colors.Cancel	Cancel
+Editor.Colors.Save	Save
+Editor.Colors.Create New	Create New
+Editor.Colors.Delete	Delete
+Editor.Colors.Close	Close
+Axexplorer.Title.Search	Search ...
+Editor.DeletePage	Delete Page <%d> ?
+ACL-Help.Insert Function	Insert ACL-Function
+ACL-Help.Help	Help
+Menu.CreatePopup("Popup_Name",PosX,PosY,rel_abs);	CreatePopup("Popup_Name",PosX,PosY,rel_abs);
+Menu.DestroyPopup("Popup_Name");	DestroyPopup("Popup_Name");
+Menu.ReplacePopup("Popup_Name1","Popup_Name2");	ReplacePopup("Popup_Name1","Popup_Name2");
+Menu.StartProcess("Process_Name");	StartProcess("Process_Name");
+Menu.SelectPage("Picture_Name");	SelectPage("Picture_Name");
+Menu.AXTrend("TrendSetName.txs");	AXTrend("TrendSetName.txs");
+Menu.AXprint("SYM","Message %s",szString);	AXprint("SYM","Message %s",szString);
+Menu.AXMarkElement("Instance_Name","Page_Name");	AXMarkElement("Instance_Name","Page_Name");
+Menu.AXDependency("Variable_Name");	AXDependency("Variable_Name");
+Menu.AXDependencyExist("Variable_Name");	AXDependencyExist("Variable_Name");
+Menu.AXIsUser("User_Name");	AXIsUser("User_Name");
+Menu.AXPrevPage();	AXPrevPage();
+Menu.AXExit();	AXExit();
+Menu.AXGetDisplay(display);	AXGetDisplay(display);
+Menu.AXGetAccess();	AXGetAccess();
+Menu.AXJournalMessage("position","Message %s",szString);	AXJournalMessage("position","Message %s",szString);
+Menu.sprintf(StringVar,"Message");	sprintf(StringVar,"Message");
+Menu.strcmp(StringVar1,StringVar2);	strcmp(StringVar1,StringVar2);
+Menu.strcat(StringVar1,StringVar2);	strcat(StringVar1,StringVar2);
+Menu.strstr(StringVar1,StringVar2);	strstr(StringVar1,StringVar2);
+Menu.AXPageAccess();	AXPageAccess();
+Menu.AXGetUserID();	AXGetUserID();
+Menu.AXOpenDocu("Filename.html",PosX,PosY,SizeX,SizeY);	AXOpenDocu("Filename.html",PosX,PosY,SizeX,SizeY);
+Menu.AXLog("Filename","position","Message","Value");	AXLog("Filename","position","Message","Value");
+Menu.AXMsg("Message");	AXMsg("Message");
+Menu.AXPrintPopup("Popup_Name");	AXPrintPopup("Popup_Name");
+Menu.AXPrintPage("Page_Name");	AXPrintPage("Page_Name");
+Menu.AXArrayCopy(Array1,Array2);	AXArrayCopy(Array1,Array2);
+Menu.AXSetFocus(Object);	AXSetFocus(Object);
+Menu.AXStoreParameter("$Instance",filenamedir,0,15,count);	AXStoreParameter("$Instance",filenamedir,0,15,count);
+Menu.AXReadParameter("$Instance",filenamedir,4,0,read_count);	AXReadParameter("$Instance",filenamedir,4,0,read_count);
+Menu.AXDeleteParameter("$Instance",filenamedir,4,0,delete_count);	AXDeleteParameter("$Instance",filenamedir,4,0,delete_count);
+Menu.AXGetInstanceName(StringVar);	AXGetInstanceName(StringVar);
+Menu.AXGetInstanceRemark(StringVar);	AXGetInstanceRemark(StringVar);
+Menu.AXReplaceParameter("$Instance",filenamedir,4,0);	AXReplaceParameter("$Instance",filenamedir,4,0);
+Menu.AXStoreVisualParameter("$Instance",filenamedir,0,15,count);	AXStoreVisualParameter("$Instance",filenamedir,0,15,count);
+Menu.AXReadVisualParameter("$Instance",filenamedir,4,0,read_count);	AXReadVisualParameter("$Instance",filenamedir,4,0,read_count);
+Menu.AXReplaceVisualParameter("$Instance",filenamedir,4,0);	AXReplaceVisualParameter("$Instance",filenamedir,4,0);
+Menu.AXDeleteVisualParameter("$Instance",filenamedir,4,0,delete_count);	AXDeleteVisualParameter("$Instance",filenamedir,4,0,delete_count);
+Menu.AXShowAllTags(0);	AXShowAllTags(0);
+Menu.AXStartRemoteProcess("path","process","argument");	AXStartRemoteProcess("path","process","argument");
+Menu.AXCreateAlarmWindow(PosX,PosY,SizeX,SizeY);	AXCreateAlarmWindow(PosX,PosY,SizeX,SizeY);
+Menu.AXLoadLanguage("Extension");	AXLoadLanguage("Extension");
+Menu.AXGetLanguageText("LanguageIdentifier","Default-Value",szString);	AXGetLanguageText("LanguageIdentifier","Default-Value",szString);
+Menu.AXRegistryGetValue(szPath,szValue);	AXRegistryGetValue(szPath,szValue);
+Menu.AXRegistrySetValue(szPath,szValue);	AXRegistrySetValue(szPath,szValue);
+Menu.AXGetLanguageExtension(szString);	AXGetLanguageExtension(szString);
+Menu.AXReadArray("$Instance",filenamedir,10,0,count);	AXReadArray("$Instance",filenamedir,10,0,count);
+Menu.AXStoreArray("$Instance",filenamedir,10,0,count);	AXStoreArray("$Instance",filenamedir,10,0,count);
+Menu.AXOpenUserPrmConfigDialog("$Instance");	AXOpenUserPrmConfigDialog("$Instance");
+Editor.RMMenu.Blank	Insert Blank
+Instance Context Menu.Cross Reference.Instance	Instance: %s
+Qmexplorer.Title.Instance Explorer	Instance - Explorer
+InstanceExplorer.Menu.File	File
+InstanceExplorer.Menu.File.Setup	Setup Table
+InstanceExplorer.Menu.File.Export	Export ...
+InstanceExplorer.Menu.File.Import	Import ...
+InstanceExplorer.Menu.File.Exit	Exit
+InstanceExplorer.Button.Print	Print
+InstanceExplorer.Button.Export	Export...
+InstanceExplorer.Button.Import	Import...
+InstanceExplorer.Button.Setup	Setup T.
+InstanceExplorer.Button.Refresh	Refresh
+InstanceExplorer.Button.FullShort	Full/Short
+InstanceExplorer.Button.VisData	Vis.Data
+InstanceExplorer.Label: Nr	Nr
+InstanceExplorer.Label: Name	Name
+InstanceExplorer.Label: Type	Type
+InstanceExplorer.Label: Dec 	Dec.
+InstanceExplorer.Label: Init  Value	Init. Value
+InstanceExplorer.Label: Remark	Remark
+InstanceExplorer.Label: Reference	Reference
+InstanceExplorer.Label: Range	Range
+InstanceExplorer.Label: Min	Min
+InstanceExplorer.Label: Max	Max
+InstanceExplorer.Label: Dim	Dim
+InstanceExplorer.Label:  	.
+InstanceExplorer.Label: Trend	Trend
+InstanceExplorer.Label: Reten	Reten
+InstanceExplorer.Label: Const	Const
+InstanceExplorer.Label: Priv	Priv
+InstanceExplorer.Label: Local	Local
+InstanceExplorer.Label: Param	Param
+InstanceExplorer.Label: Maint	Maint
+InstanceExplorer.Label: OnlIn	OnlIn
+InstanceExplorer.Label: Nc	Nc
+InstanceExplorer.Label: Inv	Inv
+InstanceExplorer.Label: A-Prio	A-Prio
+InstanceExplorer.Label: A-Lock	A-Lock
+InstanceExplorer.Label: A-Beep	A-Beep
+InstanceExplorer.Label: A-Jour	A-Jour
+InstanceExplorer.Label: A-AckN	A-AckN
+InstanceExplorer.Label: A-AltPos	A-AltPos
+InstanceExplorer.Label: A-Text	A-Text
+InstanceExplorer.Label: IO-Min	IO-Min
+InstanceExplorer.Label: IO-Max	IO-Max
+InstanceExplorer.Label: Phys-Min	Phys-Min
+InstanceExplorer.Label: Phys-Max	Phys-Max
+ClassProperties.Title	Class Properties:
+ClassProperties.Frame	Class Information
+PrintDialog.Header	Print
+PrintDialog.Printer	Printer
+PrintDialog.Options	Options
+PrintDialog.Printer:	Printer:
+PrintDialog.From Page:	From Page:
+PrintDialog.To Page:	To Page:
+PrintDialog.Adjust brightness (in %)	Adjust brightness (in %)
+PrintDialog.Comment:	Comment:
+PrintDialog.Show Tags	Show Tags
+Warning.Msg.No dependency found	No dependency found!
+Editor.User Parameter	User Parameter
+Editor.RemoveClassfromLibrary	Remove Class from Library
+Editor.CreateNewClass	Create new Class
+Editor.InsertClass	Insert Class
+Editor.LoadPlugin	Load Plugin
+Editor.Class.Insert	Insert Class
+Fsb.Title.Insert class	Insert Class
+Class.SetPasswd	Set new password protection for class
+Class.Passwd.ConfirmPasswd	Confirm password:
+Editor.Save.File	Save File
+Editor.Fsb.Title.Save File	Save File Select
+Message.Permission denied	Permission denied
+Editor.None	NONE
+Editor.ImportTxt	Import ...
+Warning.Msg.No Uses Found	Variable Not Used!
+Editor.Select	selector
+About.Title	About aX-Builder
+About.Product information	Product information
+Editor.Msg.Find Complete	%s not found !
+Editor.Msg.Find Complete Header	Find complete
+Editor.ImportPixmap	Import Pixmap
+Fsb.Title.ImportPixmap	Import Pixmap
+Editor.FuncKeyMod normal	normal
+Editor.FuncKeyMod shift	shift
+Editor.FuncKeyMod ctrl	ctrl
+Editor.FuncKeyMod shift+ctrl	shift+ctrl
+Printer.Dlg.Title	Printer setup
+PrintDialog.Default printer	Default Printer:
+PrintDialog.defPrinter	defPrinter
+PrintDialog.OK	Ok
+PrintDialog.Cancel	Cancel
+Editor.CollapsArr	Collapse Array
+Editor.NewClass	Create New Class
+Editor.ClassName	Class Name:
+Editor.ButtonName	Button Name:
+Editor.Location	Location:
+Fsb.Title.Select Location	Select Location
+Editor.Msg.Documentation not available	Documentation not available !\(File :
+FTT.Dropdown.Cut.Accelerator	Ctrl+X
+FTT.Dropdown.Cut	Cut
+FTT.Dropdown.Copy.Accelerator	Ctrl+C
+FTT.Dropdown.Copy	Copy
+FTT.Dropdown.Paste.Accelerator	Ctrl+V
+FTT.Dropdown.Paste	Paste
+FTT.Dropdown.Filter	Filter
+FTT.Dropdown.Filter.Accelerator	Ctrl+F
+FTT.Dropdown.SetupColumn	Setup Column
+FTT.Dropdown.TableSetup	Table Setup
+FTT.Dropdown.TableSetup.LabelFont	Label Font
+FTT.Dropdown.TableSetup.FieldFont	Field Font
+FTT.Dropdown.TableSetup.HorizontalLine	Horzontal Line
+FTT.Dropdown.TableSetup.VerticalLine	Vertical Line
+PLCBrowser.Error.TooManyItems	Too many items found STOP Search!
+Fsb.Title.Open resource file	Open resource file
+SpsSearch.Label: Value	Value
+InstanceExplorer.Label: Init. Value	Init. Value
+InstanceExplorer.Label: .	.
+Editor.CollapseArr	Collapse Array
+Menu.Tools.ExportCfg	Export configuration
+Menu.View.ShowLogicRemarks	Show Logic Remarks
+Menu.Tools.Property manager	Property manager
+Menu.Tools.aXdaoRemoteSettings	Remote Settings...
+ToolTip.Login	Login
+Editor.ExtID	ExtID:
+Editor.ExtId	ExtId
+Editor.Datalog	Datalog
+Editor.DatalogRecMode	Record mode
+Editor.ValueReset	Value Reset
+Editor.RecTrigger	Rec.Trigger
+LIC_TEMP	LIC_TEMP
+LicenseManager.Copy	Copy
+Editor.DuplicateClass	Duplicate Class
+Editor.CreateNewDPSlave	Create new DP Slave
+Editor.CreateNewDPModule	Create new DP Module
+Editor.InsertPredefinedFunctionBlock	Insert Predefined FunctionBlock
+Class.Passwd.AllAccess	allAccess
+Class.Passwd.ReadOnly	readOnly
+Editor.RenameLib	Rename Lib
+Editor.DuplicateLib	Duplicate Lib
+Editor.RemoveLib	Remove Lib
+Editor.CreateLib	Create Lib
+Editor.InsertPredefinedLib	Insert Predefined Lib
+Editor.CreateNewLibrary	Create new Library
+Editor.LibName	Lib Name:
+Editor.FlowChart	Flow Chart
+Instance Context Menu.Profibus	Profibus
+Instance Context Menu.PBDebug	Debug
+Instance Context Menu.UserParameter	User Parameter
+Editor.GlobalEnum	Global Enum
+Editor.Msg.PLC busy	PLC currently occupied  -> try later
+SearchDialog.Replace Button	Replace
+SearchDialog.Replace Header	Search and Replace
+LIC_DEMO_EXPIRED	LIC_DEMO_EXPIRED
+LIC_OK	LIC_OK
+PLCBrowser.Dropdown.SearchGetSetVariable	Search Get-SetVariable
+PLCBrowser.Dropdown.SearchinVisualPart	Search in Visual Part
+PLCBrowser.Dropdown.SearchGetSetVariable	Search Get-SetVariable
+PLCBrowser.Dropdown.SearchinVisualPart	Search in Visual Part
+Editor.Tol_P	Tol_P
+Editor.Tol_E	Tol_E
+Editor.RecOnChanged 	on changed
+Editor.RecTriggered	triggered
+Editor.AddSubresource	Add Subresource
+PasswordDialog.Header	Login
+PasswordDialog.Type in your login name and password	Type in your login name and password
+PasswordDialog.Login	Login
+PasswordDialog.Password	Password
+PasswordDialog.OK	Ok
+PasswordDialog.Cancel	Cancel
+Menu.File	File
+Menu.Save	Save
+Menu.Accelerator.Save	Ctrl+S
+Menu.Exit	Exit
+Menu.Edit	Edit
+Menu.Delete Line	Delete Line
+Menu.Accelerator.Delete Line	Ctrl+X
+LIC_CLIENTS_EXCEEDED	LIC_CLIENTS_EXCEEDED
+InstanceExplorer.Label: Intfc	Intfc
+InstanceExplorer.Label: ClassName	ClassName
+InstanceExplorer.Label: A-TT_ID	A-TT_ID
+InstanceExplorer.Label: A-TT_Template	A-TT_Template
+InstanceExplorer.Label: A-TT_State	A-TT_State
+InstanceExplorer.Label: ExtId	ExtId
+InstanceExplorer.Label: IO-Flag	IO-Flag
+InstanceExplorer.Label: Read	Read
+InstanceExplorer.Label: Write	Write
+InstanceExplorer.Label: Virt-IO	Virt-IO

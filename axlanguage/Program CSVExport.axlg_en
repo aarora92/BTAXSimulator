@@ -1,0 +1,8 @@
+OperatorLock [Text Normal]	Lock
+OperatorLock [Text Activ]	Lock
+OperatorAutoOn [Text Normal]	Auto On
+OperatorAutoOn [Text Activ]	Auto On
+OperatorAckn [Text Normal]	Acknowlege
+OperatorAckn [Text Activ]	Acknowlege
+OperatorState [Text Normal]	State
+OperatorState [Text Activ]	Text

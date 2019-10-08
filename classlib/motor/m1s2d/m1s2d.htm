@@ -1,0 +1,233 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <title>motor_2speed</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>motor_2speed</font></font></font></b></td>
+</tr>
+</table>
+<a NAME="Features"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">This class can be used for all <b>double speed motors</b>.
+It features the following:</font>
+<ul>
+<li>
+<font face="Arial">Fully Integrated Control (based on IEC 1131-3 Function
+Block Diagram)</font></li>
+
+<li>
+<font face="Arial">Field Link: On/Off (Binary Output, Mandatory), Run Feedback
+(Binary Input, Option), Ready Feedback (Binary Input, Option), Remote Switch
+(Binary Input, Option).</font></li>
+
+<li>
+<font face="Arial">Integrated Simulation Mode + Feedback Emulation</font></li>
+
+<li>
+<font face="Arial">Integrated Service and Maintenance Functions</font></li>
+
+<li>
+<font face="Arial">Depression of Alarm Generation in Case of Invalid Field
+Links</font></li>
+
+<li>
+<font face="Arial">Automated Generation and Online Visualization of Interlock
+Conditions</font></li>
+
+<li>
+<font face="Arial">Operator, Parameterization, and Service Pop-Up Windows</font></li>
+
+<li>
+<font face="Arial">Trending</font></li>
+</ul>
+
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The motor_2speed class is comprised of the
+following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes some class specific
+color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">&nbsp;motor_2speed</font><font face="Arial">.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor_2speed.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">axclassdoku16.bmp</font>
+<p><font face="Arial">axclassdoku_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<p><font face="Arial">axinstanzdoku_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<p><font face="Arial">axservice16.bmp</font>
+<p><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<p><font face="Arial">axtrend_grey16.bmp</font>
+<p><font face="Arial">(and some documentation</font>
+<p><font face="Arial">pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor_2speed.htm</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial">Installation: </font></b><font face="Arial,Helvetica">The
+above listed files must be copied into a common sub-directory within the
+project's "classlib" directory. The name of the common directory can be
+chosen freely.</font>
+<br><font face="Arial,Helvetica"></font>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="624" HEIGHT="449" >
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="48" BGCOLOR="#C0C0C0"><b><font face="Arial">Graphical
+Rep</font>.</b></td>
+
+<td WIDTH="487" HEIGHT="48" BGCOLOR="#C0C0C0"><b><font face="Arial">Operational
+State</font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="48"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_stop.jpg" NATURALSIZEFLAG="0" height=40 width=52 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="48"><font face="Arial">Motor is stopped; no alarms
+pending; automatic mode is on.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="46"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_starting.jpg" NATURALSIZEFLAG="0" height=40 width=52 align=BOTTOM></td>
+
+<td VALIGN=TOP WIDTH="487" HEIGHT="46"><font face="Arial">Motor is just
+starting. Status Rectangle flashes yellow.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="56"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_running.jpg" NATURALSIZEFLAG="0" height=40 width=52 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="56"><font face="Arial">Motor is running; Status
+Rectangle is Green.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_error.jpg" NATURALSIZEFLAG="0" height=40 width=52 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is in error status.
+Status Rectangle flashes Red.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_manual.gif" BORDER=0 NATURALSIZEFLAG="3" height=39 width=50 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is in Manual Mode.
+The absence of the hand icon indicates automatic mode.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_lock.gif" BORDER=0 NATURALSIZEFLAG="3" height=39 width=50 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is interlocked; the
+reason for the interlock is available through the Operator Pup-Up Menu!</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_warning.gif" BORDER=0 NATURALSIZEFLAG="3" height=39 width=50 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">At least one "Warning" is
+pending! Possible Warnings are: Local Simulation Mode; Service Request;
+Otuput Invalid; Details are available in the Operator Pop-Up (Main Status
+Line).</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="file:////Mr_srv06/aX_classlib_44/processindustrie/motor/motor_2speed/motor_1speed_invalid.gif" BORDER=0 NATURALSIZEFLAG="3" height=39 width=50 align=BOTTOM></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">At least one I/O is invalid!&nbsp;</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="implementation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+</body>
+</html>

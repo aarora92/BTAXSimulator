@@ -1,0 +1,11 @@
+EthercatMasterState: 	
+		No_Master=0,
+            	Ethernet__Error=1,
+		Config_Error=2,
+		Xml_not_found=3,
+		Load_XML=4,
+		Startup=5,
+		Slave_Order=6,
+		Check_Slaves=7,
+		Eth_Card_Fail=8,
+		Running=9;

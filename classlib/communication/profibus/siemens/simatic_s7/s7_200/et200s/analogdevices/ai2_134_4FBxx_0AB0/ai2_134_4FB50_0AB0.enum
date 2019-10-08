@@ -1,0 +1,5 @@
+ControlMode:		ByHost=0,
+			Blind=2;
+
+module_range:	deact=0,
+		voltage_np_10=9;

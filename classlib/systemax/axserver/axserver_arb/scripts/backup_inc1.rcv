@@ -1,0 +1,18 @@
+set DBID=1511997728
+
+connect target sys/axsys@aximst;
+
+run {
+  sql 'alter system switch logfile';
+  
+  backup incremental level 1 database 
+    plus archivelog delete input;
+  
+  restore database validate;
+  crosscheck backup of database;
+  
+  delete noprompt obsolete;  
+}
+
+exit
+

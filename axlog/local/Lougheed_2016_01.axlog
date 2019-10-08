@@ -1,0 +1,1082 @@
+2016-01-01 00:00:00-561	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-01 00:00:00-761	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-01 00:00:10-965	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-01 00:27:13-184	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-01 13:32:39-758	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-01 13:32:39-758	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-01 13:32:40-759	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-01 13:32:40-959	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-01 13:34:46-614	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-01 13:34:50-215	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-01 13:36:00-627	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-01 13:36:00-627	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-01 13:36:01-227	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-01 13:36:01-427	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-01 13:36:10-628	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-01 13:36:11-628	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-02 02:09:55-763	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-02 06:30:35-386	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-02 06:30:35-386	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-02 06:30:36-386	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-02 06:30:36-587	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-02 06:32:59-462	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-02 06:33:00-062	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-02 06:34:01-487	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-02 06:34:01-487	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-02 06:34:02-087	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-02 06:34:02-287	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-02 06:34:11-492	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-02 06:34:12-492	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-02 06:40:56-455	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-02 06:40:56-455	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-02 06:40:57-456	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-02 06:40:57-656	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-02 06:43:01-289	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-02 06:43:01-889	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-02 06:44:38-118	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-02 06:44:38-118	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-02 06:44:38-719	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-02 06:44:38-919	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-02 06:44:48-127	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-02 06:44:49-128	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 11:29:07-825	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 11:29:07-825	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 11:29:08-626	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 11:29:08-826	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 11:29:09-026	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 11:31:48-669	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 11:31:49-269	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 13:48:52-223	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 13:48:52-223	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 13:48:53-223	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 13:48:53-423	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 13:51:57-660	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 13:51:58-260	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 13:53:55-084	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 13:53:55-084	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 13:53:55-684	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 13:53:55-884	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 13:54:05-086	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 13:54:06-086	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 14:06:06-915	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 14:06:06-915	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 14:06:07-916	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 14:06:08-116	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 14:08:47-159	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 14:08:47-759	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 14:09:04-162	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 14:09:04-162	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 14:09:04-763	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 14:09:04-963	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 14:09:14-164	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 14:09:15-165	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 15:15:39-664	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 15:15:39-664	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 15:15:40-665	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 15:15:40-865	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 15:17:52-293	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 15:17:55-894	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 17:16:47-176	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 17:16:47-176	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-03 17:16:48-177	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 17:16:48-377	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-03 17:18:39-009	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 17:18:42-614	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-03 17:20:32-055	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 17:20:32-055	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 17:20:32-655	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-03 17:20:32-855	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-03 17:20:42-057	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-03 17:20:43-057	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 00:08:42-326	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 06:55:44-515	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 06:55:44-515	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 06:55:45-515	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 06:55:45-715	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 06:57:34-554	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 06:57:35-154	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 06:59:03-573	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 06:59:03-573	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 06:59:04-174	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 06:59:04-374	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 06:59:13-576	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 06:59:14-576	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 13:22:24-808	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 13:22:24-808	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 13:22:25-808	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 13:22:26-008	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 13:24:56-640	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 13:24:57-240	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 13:25:58-651	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 13:25:58-651	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 13:25:59-251	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 13:25:59-451	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 13:26:08-653	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 13:26:09-653	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 15:16:27-744	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 15:16:27-744	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-04 15:16:28-744	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 15:16:28-944	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-04 15:19:01-969	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 15:19:02-570	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-04 15:19:12-971	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 15:19:12-971	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 15:19:13-571	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-04 15:19:13-771	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-04 15:19:22-973	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 15:19:23-974	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-04 19:45:15-269	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-05 16:55:24-190	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-05 16:55:24-190	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-05 16:55:24-990	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-05 16:55:25-190	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-05 16:55:25-390	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-05 16:57:32-026	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-05 16:57:32-627	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-05 16:59:02-852	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-05 16:59:02-852	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-05 16:59:03-453	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-05 16:59:03-653	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-05 16:59:12-854	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-05 16:59:13-854	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 07:01:56-380	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 07:01:56-380	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 07:01:57-380	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 07:01:57-581	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 07:04:20-609	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 07:04:24-210	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 07:05:25-630	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 07:05:25-630	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 07:05:26-230	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 07:05:26-430	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 07:05:35-634	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 07:05:36-634	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 07:12:25-197	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 07:12:25-197	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 07:12:26-197	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 07:12:26-397	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 07:14:25-415	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 07:14:29-015	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 07:16:02-232	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 07:16:02-232	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 07:16:05-833	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 07:16:06-033	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 07:16:12-234	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 07:16:16-235	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 11:15:58-742	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:07:33-541	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 16:07:33-541	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 16:07:34-541	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 16:07:34-741	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 16:09:38-985	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:09:39-585	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:11:33-810	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 16:11:33-810	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 16:11:34-410	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 16:11:34-610	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 16:11:43-812	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 16:11:44-812	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 16:22:25-003	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 16:22:25-003	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-06 16:22:25-803	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:22:26-003	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 16:22:26-203	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-06 16:25:05-638	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:25:06-238	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-06 16:25:19-641	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 16:25:19-641	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 16:25:20-241	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-06 16:25:20-441	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-06 16:25:29-643	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-06 16:25:30-643	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 08:06:47-162	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 08:06:47-162	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 08:06:48-162	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 08:06:48-362	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 08:09:09-192	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 08:09:09-792	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 08:10:14-206	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 08:10:14-206	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 08:10:14-806	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 08:10:15-006	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 08:10:24-207	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 08:10:25-208	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 12:44:26-329	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 12:44:26-329	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 12:44:27-329	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 12:44:27-529	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 12:46:58-973	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 12:46:59-573	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 12:48:38-802	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 12:48:38-802	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 12:48:39-402	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 12:48:39-602	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 12:48:48-804	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 12:48:49-804	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 16:48:17-657	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 16:48:17-657	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 16:48:18-658	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 16:48:18-858	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 16:50:20-706	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 16:50:21-307	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 16:52:15-556	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 16:52:15-556	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 16:52:16-156	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 16:52:16-356	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 16:52:25-557	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 16:52:26-557	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 17:03:07-717	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 17:03:07-717	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-07 17:03:08-717	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 17:03:08-917	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-07 17:05:43-557	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 17:05:44-157	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-07 17:05:57-560	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 17:05:57-560	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 17:05:58-160	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-07 17:05:58-360	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-07 17:06:07-561	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-07 17:06:08-562	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-08 00:14:31-135	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-08 14:21:05-446	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-08 14:21:05-446	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-08 14:21:06-446	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-08 14:21:06-646	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-08 14:23:28-683	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-08 14:23:29-283	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-08 14:24:30-697	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-08 14:24:30-697	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-08 14:24:31-297	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-08 14:24:31-497	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-08 14:24:40-698	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-08 14:24:41-699	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-08 16:45:34-356	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-08 16:45:34-356	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-08 16:45:35-356	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-08 16:45:35-556	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-08 16:47:34-579	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-08 16:47:38-180	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-08 16:48:33-594	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-08 16:48:33-594	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-08 16:48:34-195	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-08 16:48:34-395	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-08 16:48:43-596	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-08 16:48:44-596	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-09 08:16:41-992	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-09 08:16:41-992	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-09 08:16:42-992	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-09 08:16:43-192	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-09 08:19:18-871	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-09 08:19:19-471	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-09 08:19:19-471	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-09 08:19:19-671	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-09 08:19:28-875	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-09 08:19:28-875	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-09 08:19:29-875	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-09 08:19:38-878	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-09 08:33:13-113	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-09 08:33:13-113	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-09 08:33:13-913	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-09 08:33:14-113	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-09 08:33:14-313	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-09 08:35:47-750	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-09 08:35:48-350	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-09 08:36:01-758	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-09 08:36:01-758	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-09 08:36:02-358	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-09 08:36:02-558	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-09 08:36:11-760	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-09 08:36:12-760	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-09 17:43:56-951	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 10:10:51-911	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 10:10:51-911	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 10:10:52-911	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 10:10:53-111	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 10:12:54-936	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 10:12:55-536	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 10:14:02-952	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 10:14:02-952	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 10:14:03-552	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 10:14:03-752	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 10:14:12-957	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-10 10:14:13-958	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-10 14:06:24-371	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 14:06:24-371	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 14:06:25-371	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 14:06:25-571	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 14:08:51-400	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 14:08:55-001	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 14:09:53-417	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 14:09:53-417	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 14:09:54-017	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 14:09:54-217	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 14:10:03-419	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-10 14:10:04-419	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-10 14:16:52-732	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 14:16:52-732	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-10 14:16:53-732	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 14:16:53-932	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-10 14:18:53-168	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 14:18:56-769	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-10 14:19:49-181	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 14:19:49-181	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 14:19:49-781	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-10 14:19:49-981	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-10 14:19:59-183	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-10 14:20:00-183	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-11 06:21:16-963	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 06:21:16-963	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 06:21:17-764	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 06:21:17-964	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 06:21:18-164	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 06:23:51-249	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 06:23:54-850	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 13:27:40-965	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 13:27:40-965	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 13:27:41-966	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 13:27:42-166	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 13:30:27-415	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 13:30:28-016	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 13:31:29-436	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-11 13:31:29-436	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-11 13:31:30-036	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-11 13:31:30-236	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-11 13:31:39-438	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-11 13:31:40-439	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-11 13:44:26-846	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 13:44:26-846	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-11 13:44:27-846	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 13:44:28-047	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-11 13:46:59-282	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 13:46:59-882	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-11 13:47:07-884	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-11 13:47:08-084	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-11 13:47:09-284	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-11 13:47:09-284	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-11 13:47:18-286	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-11 13:47:19-286	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-11 19:49:11-076	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 06:58:42-025	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 06:58:42-025	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 06:58:43-025	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 06:58:43-225	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 07:00:51-859	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 07:00:52-459	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 09:42:27-858	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 09:42:27-858	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 09:42:28-658	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 09:42:28-858	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 09:42:29-058	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 09:44:39-099	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 09:44:39-699	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 10:51:24-674	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 10:51:24-674	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 10:51:25-674	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 10:51:25-874	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 10:53:12-900	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 10:53:19-502	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 10:54:50-923	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 10:54:50-923	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 10:54:51-523	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 10:54:51-723	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 10:55:00-925	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 10:55:01-926	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 14:13:45-130	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 14:13:45-130	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 14:13:46-130	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 14:13:46-330	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 14:16:02-372	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 14:16:02-972	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 14:18:54-609	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 14:18:54-609	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 14:18:58-210	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 14:18:58-410	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 14:19:04-611	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 14:19:08-612	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 17:32:11-264	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 17:32:11-264	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-12 17:32:12-264	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 17:32:12-464	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-12 17:34:01-891	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 17:34:02-491	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-12 17:35:54-921	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 17:35:54-921	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 17:35:58-521	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-12 17:35:58-721	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-12 17:36:04-922	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 17:36:08-922	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-12 23:20:06-448	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 13:04:09-023	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-13 13:04:09-023	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-13 13:04:09-823	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 13:04:10-024	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-13 13:04:10-224	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-13 13:06:32-253	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 13:06:32-853	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 13:07:34-268	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-13 13:07:34-268	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-13 13:07:34-868	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-13 13:07:35-068	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-13 13:07:44-270	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-13 13:07:45-271	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-13 16:04:59-127	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-13 16:04:59-127	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-13 16:05:00-128	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-13 16:05:00-328	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-13 16:07:01-752	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 16:07:02-352	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-13 16:07:57-763	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-13 16:07:57-763	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-13 16:07:58-363	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-13 16:07:58-563	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-13 16:08:07-765	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-13 16:08:08-765	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-14 00:12:18-091	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-14 09:54:18-720	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-14 09:54:18-720	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-14 09:54:19-720	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-14 09:54:19-920	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-14 09:57:02-359	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-14 09:57:02-960	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-14 09:58:04-381	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-14 09:58:04-381	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-14 09:58:04-981	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-14 09:58:05-181	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-14 09:58:14-384	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-14 09:58:15-384	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-14 10:10:55-447	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-14 10:10:55-447	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-14 10:10:56-448	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-14 10:10:56-648	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-14 10:13:30-885	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-14 10:13:31-485	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-14 10:13:41-889	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-14 10:13:41-889	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-14 10:13:42-489	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-14 10:13:42-690	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-14 10:13:51-894	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-14 10:13:52-896	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-15 11:45:42-855	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-15 11:45:42-855	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-15 11:45:43-655	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-15 11:45:43-855	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-15 11:45:44-055	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-15 11:47:56-132	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-15 11:47:59-734	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-15 11:48:49-145	0	Batch3	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-15 11:48:49-145	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-15 11:48:49-745	0	Original-BatchTrack	34	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-15 11:48:49-945	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-15 11:48:59-147	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-15 11:49:00-148	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-15 15:24:41-944	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-15 15:24:41-944	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-15 15:24:42-944	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-15 15:24:43-144	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-15 15:26:42-580	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-15 15:26:46-180	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-15 15:27:38-592	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-15 15:27:38-592	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-15 15:27:39-192	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-15 15:27:39-392	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-15 15:27:48-597	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-15 15:27:49-598	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-15 15:37:54-217	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 08:30:41-589	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 08:30:41-589	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 08:30:42-589	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 08:30:42-789	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 08:33:35-845	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 08:33:39-445	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 08:33:39-445	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 08:33:39-645	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 08:33:45-847	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 08:33:45-847	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 08:33:49-847	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 08:33:55-848	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 08:47:32-662	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 08:47:32-662	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 08:47:33-662	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 08:47:33-863	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 08:50:09-893	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 08:50:10-493	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 08:50:26-896	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 08:50:26-896	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 08:50:27-496	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 08:50:27-696	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 08:50:36-898	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 08:50:37-898	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 13:13:30-009	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 13:13:30-009	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-16 13:13:30-809	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 13:13:31-009	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 13:13:31-210	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-16 13:15:20-466	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 13:15:21-066	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-16 13:16:54-297	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 13:16:54-297	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 13:16:54-897	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-16 13:16:55-097	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-16 13:17:04-304	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 13:17:05-305	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-16 21:54:13-176	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 06:12:46-391	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 06:12:46-391	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 06:12:47-391	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 06:12:47-591	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 06:14:56-618	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 06:14:57-218	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 06:17:09-478	0	Batch3	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 06:17:09-478	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 06:17:10-079	0	Original-BatchTrack	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 06:17:10-279	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 06:17:19-481	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-17 06:17:20-481	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-17 11:57:10-658	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 11:57:10-658	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 11:57:11-658	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 11:57:11-858	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 11:59:20-883	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 11:59:21-483	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:10:44-889	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 17:10:44-889	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 17:10:45-890	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 17:10:46-090	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 17:13:00-519	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:13:04-120	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:13:50-529	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 17:13:50-529	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 17:13:51-129	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 17:13:51-329	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 17:14:00-531	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-17 17:14:01-532	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-17 17:20:59-036	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 17:20:59-036	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-17 17:20:59-836	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:21:00-036	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 17:21:00-236	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-17 17:23:00-081	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:23:03-682	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-17 17:23:56-115	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 17:23:56-115	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 17:23:56-716	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-17 17:23:56-916	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-17 17:24:06-122	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-17 17:24:07-123	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-18 13:49:51-569	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-18 13:49:51-569	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-18 13:49:52-569	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-18 13:49:52-769	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-18 13:52:48-017	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-18 13:52:48-617	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-18 13:52:58-019	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-18 13:52:58-019	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-18 13:53:08-021	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-18 13:53:50-632	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-18 13:53:50-832	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-18 13:54:01-035	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-18 14:11:50-803	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-18 17:04:15-140	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-18 17:04:15-140	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-18 17:04:16-140	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-18 17:04:16-340	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-18 17:06:43-978	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-18 17:06:44-578	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-18 17:06:52-581	0	Original-BatchTrack	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-18 17:06:52-781	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-18 17:06:53-981	0	Batch3	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-18 17:06:53-981	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-18 17:07:02-985	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-18 17:07:03-985	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 08:04:47-379	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 08:04:47-379	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 08:04:48-380	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 08:04:48-580	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 08:07:11-219	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 08:07:11-820	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 08:08:13-232	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 08:08:13-232	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 08:08:13-832	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 08:08:14-033	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 08:08:23-234	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 08:08:24-234	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 11:47:30-871	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 11:47:30-871	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 11:47:31-672	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 11:47:31-872	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 11:47:32-072	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 11:50:02-316	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 11:50:05-917	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 11:50:16-319	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 11:50:16-319	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 11:50:16-919	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 11:50:17-119	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 11:50:26-322	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 11:50:27-322	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 13:30:18-871	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 13:30:18-871	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 13:30:19-871	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 13:30:20-071	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 13:32:47-510	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 13:32:48-110	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 13:33:49-525	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 13:33:49-525	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 13:33:50-126	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 13:33:50-326	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 13:33:59-528	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 13:34:00-529	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 13:40:47-635	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 13:40:47-635	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-19 13:40:48-635	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 13:40:48-835	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-19 13:42:49-276	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 13:42:49-877	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-19 13:43:45-288	0	Batch3	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 13:43:45-288	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 13:43:45-888	0	Original-BatchTrack	53	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-19 13:43:46-089	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-19 13:43:55-290	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 13:43:56-291	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-19 15:04:36-609	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-20 08:01:44-545	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-20 08:01:44-545	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-20 08:01:45-545	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-20 08:01:45-745	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-20 08:04:17-619	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-20 08:04:21-220	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-20 08:05:52-654	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-20 08:05:52-654	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-20 08:05:53-254	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-20 08:05:53-454	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-20 08:06:02-655	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-20 08:06:03-655	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-20 16:31:13-752	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-20 16:31:13-752	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-20 16:31:14-552	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-20 16:31:14-752	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-20 16:31:14-952	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-20 16:33:52-002	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-20 16:33:52-602	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 06:39:31-425	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 06:39:31-425	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 06:39:32-425	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 06:39:32-625	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 06:42:23-454	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 06:42:24-054	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 06:43:25-466	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 06:43:25-466	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 06:43:26-066	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 06:43:26-266	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 06:43:35-468	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 06:43:36-468	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 06:56:24-467	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 06:56:24-467	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 06:56:25-467	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 06:56:25-667	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 06:59:04-342	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 06:59:04-942	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 06:59:21-348	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 06:59:21-348	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 06:59:21-948	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 06:59:22-148	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 06:59:31-352	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 06:59:32-352	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 13:06:13-591	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 13:06:13-591	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 13:06:14-591	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 13:06:14-791	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 13:08:06-214	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 13:08:06-814	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 13:09:37-055	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 13:09:37-055	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 13:09:37-655	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-21 13:09:37-855	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-21 13:09:47-060	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 13:09:48-060	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-21 15:37:58-767	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 15:37:58-767	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 15:37:59-768	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 15:37:59-968	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 15:40:06-414	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 15:40:07-014	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 18:33:32-108	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 18:33:32-108	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-21 18:33:33-108	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 18:33:33-308	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-21 18:35:41-932	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 18:35:42-532	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-21 21:50:08-546	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 08:58:17-241	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 08:58:17-241	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 08:58:18-242	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 08:58:18-442	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 09:00:30-690	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 09:00:31-290	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 09:02:40-547	0	Batch3	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 09:02:40-547	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 09:02:41-147	0	Original-BatchTrack	76	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 09:02:41-347	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 09:02:50-550	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 09:02:51-550	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 15:46:33-618	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 15:46:33-618	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 15:46:34-618	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 15:46:34-818	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 15:49:05-082	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 15:49:05-682	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 15:50:10-118	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 15:50:10-118	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 15:50:10-718	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 15:50:10-918	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 15:50:20-125	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 15:50:21-126	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 15:57:16-425	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 15:57:16-425	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-22 15:57:17-225	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 15:57:17-425	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 15:57:17-625	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-22 15:59:19-648	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 15:59:20-248	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-22 16:00:12-660	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 16:00:12-660	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 16:00:13-260	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-22 16:00:13-460	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-22 16:00:22-662	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 16:00:23-662	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-22 17:08:25-645	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 08:26:15-362	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 08:26:15-362	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 08:26:16-366	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 08:26:16-566	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 08:28:49-000	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 08:28:55-602	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 08:28:55-602	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 08:28:55-802	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 08:28:59-002	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 08:28:59-002	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 08:29:06-004	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 08:29:09-004	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 08:42:48-181	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 08:42:48-181	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 08:42:49-182	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 08:42:49-382	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 08:45:30-039	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 08:45:30-639	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 08:45:47-048	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 08:45:47-048	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 08:45:47-648	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 08:45:47-848	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 08:45:57-050	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 08:45:58-050	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 14:15:16-456	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 14:15:16-456	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-23 14:15:17-456	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 14:15:17-656	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-23 14:17:06-099	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 14:17:06-700	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-23 14:19:01-752	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 14:19:01-752	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 14:19:02-352	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-23 14:19:02-552	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-23 14:19:11-754	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 14:19:12-754	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-23 22:15:07-421	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:15:14-075	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 08:15:14-075	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 08:15:14-875	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:15:15-075	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 08:15:15-275	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 08:17:38-516	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:17:39-116	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:18:41-134	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 08:18:41-334	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 08:18:43-534	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 08:18:43-534	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 08:18:51-536	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 08:18:53-537	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 08:25:40-055	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 08:25:40-055	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 08:25:41-055	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 08:25:41-255	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 08:27:42-883	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:27:43-483	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 08:28:38-896	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 08:28:38-896	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 08:28:39-496	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 08:28:39-696	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 08:28:48-898	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 08:28:49-898	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 11:41:22-351	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 11:41:22-351	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 11:41:23-351	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 11:41:23-552	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 11:43:27-981	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 11:43:28-581	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 11:44:08-990	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 11:44:08-990	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 11:44:09-590	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 11:44:09-790	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 11:44:18-992	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 11:44:19-992	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 14:10:23-551	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 14:10:23-551	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-24 14:10:24-552	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 14:10:24-752	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-24 14:12:51-389	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 14:12:51-989	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-24 14:13:02-391	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 14:13:02-391	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 14:13:02-991	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-24 14:13:03-191	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-24 14:13:12-394	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 14:13:13-394	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-24 20:39:10-835	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:16:33-330	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-25 18:16:33-330	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-25 18:16:34-130	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:16:34-331	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-25 18:16:34-531	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-25 18:18:57-605	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:18:58-206	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:19:56-631	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-25 18:19:56-631	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-25 18:19:57-231	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-25 18:19:57-431	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-25 18:20:06-635	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-25 18:20:07-635	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-25 18:26:51-584	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-25 18:26:51-584	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-25 18:26:52-584	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-25 18:26:52-784	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-25 18:28:53-417	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:28:54-017	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-25 18:29:49-434	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-25 18:29:49-434	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-25 18:29:50-034	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-25 18:29:50-234	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-25 18:29:59-436	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-25 18:30:00-436	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-26 17:48:51-581	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-26 17:48:51-581	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-26 17:48:52-581	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-26 17:48:52-781	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-26 17:51:32-410	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-26 17:51:33-010	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-26 17:52:34-430	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-26 17:52:34-430	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-26 17:52:35-031	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-26 17:52:35-231	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-26 17:52:44-436	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-26 17:52:45-436	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-26 18:05:32-845	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-26 18:05:32-845	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-26 18:05:33-845	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-26 18:05:34-045	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-26 18:08:07-281	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-26 18:08:07-881	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-26 18:08:15-883	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-26 18:08:16-083	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-26 18:08:17-284	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-26 18:08:17-284	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-26 18:08:26-286	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-26 18:08:27-287	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-27 05:14:49-172	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 07:39:19-915	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 07:39:19-915	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 07:39:20-715	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 07:39:20-915	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 07:39:21-116	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 07:41:29-348	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 07:41:29-948	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 08:33:29-788	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 08:33:29-788	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 08:33:30-788	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 08:33:30-988	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 08:35:59-015	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 08:35:59-616	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 08:37:01-036	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-27 08:37:01-036	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-27 08:37:01-636	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-27 08:37:01-836	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-27 08:37:11-038	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-27 08:37:12-039	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-27 16:31:51-334	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 16:31:51-334	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-27 16:31:52-334	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 16:31:52-534	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-27 16:34:19-564	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 16:34:20-164	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-27 16:34:30-570	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-27 16:34:30-570	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-27 16:34:31-170	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-27 16:34:31-370	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-27 16:34:40-572	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-27 16:34:41-572	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 06:33:14-818	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 06:33:14-818	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 06:33:15-819	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 06:33:16-019	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 06:36:02-095	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 06:36:02-696	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 06:36:12-102	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 06:36:12-102	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 06:36:22-109	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 06:37:04-739	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 06:37:04-939	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 06:37:15-144	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 06:50:00-143	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 06:50:00-143	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 06:50:01-143	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 06:50:01-344	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 06:52:37-019	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 06:52:40-620	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 06:52:54-023	0	Batch3	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 06:52:54-023	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 06:52:54-623	0	Original-BatchTrack	72	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 06:52:54-824	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 06:53:04-026	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 06:53:05-026	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 10:03:26-985	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 10:03:26-985	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 10:03:27-985	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 10:03:28-185	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 10:05:19-806	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 10:05:20-406	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 10:08:26-696	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 10:08:26-696	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 10:08:27-297	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 10:08:27-497	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 10:08:36-700	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 10:08:37-701	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 11:37:55-020	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 11:37:55-020	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 11:37:56-020	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 11:37:56-221	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 11:40:12-488	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 11:40:13-088	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 13:28:37-090	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 13:28:37-090	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 13:28:38-090	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 13:28:38-290	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 13:30:29-114	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 13:30:29-714	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 13:32:22-139	0	Batch3	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 13:32:22-139	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 13:32:22-739	0	Original-BatchTrack	66	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 13:32:22-939	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 13:32:32-141	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 13:32:33-141	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 15:31:04-728	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 15:31:04-728	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 15:31:05-728	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 15:31:05-928	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 15:33:18-965	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 15:33:19-565	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 17:20:03-807	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 17:20:03-807	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-28 17:20:04-807	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 17:20:05-007	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-28 17:21:28-259	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 17:21:31-861	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-28 17:22:44-092	0	Batch3	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 17:22:44-092	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 17:22:47-694	0	Original-BatchTrack	65	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-28 17:22:47-894	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-28 17:22:54-097	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 17:22:58-098	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-28 18:11:51-518	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 11:39:26-024	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 11:39:26-024	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 11:39:27-025	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 11:39:27-225	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 11:41:33-865	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 11:41:34-466	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:15:00-087	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 17:15:00-087	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 17:15:01-087	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 17:15:01-287	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 17:17:30-717	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:17:31-317	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:18:35-736	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-29 17:18:35-736	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-29 17:18:36-336	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-29 17:18:36-536	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-29 17:18:45-739	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-29 17:18:46-740	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-29 17:25:35-037	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 17:25:35-037	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-29 17:25:35-837	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:25:36-037	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 17:25:36-237	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-29 17:27:36-271	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:27:39-872	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-29 17:28:32-282	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-29 17:28:32-282	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-29 17:28:32-882	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-29 17:28:33-082	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-29 17:28:42-283	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-29 17:28:43-284	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-29 23:23:49-738	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-30 17:16:48-192	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-30 17:16:48-192	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-30 17:16:49-192	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-30 17:16:49-392	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-30 17:19:29-231	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-30 17:19:29-831	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-30 17:19:39-234	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-30 17:19:39-234	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-30 17:19:49-237	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-30 17:20:31-850	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-30 17:20:32-050	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-30 17:20:42-253	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-30 17:33:25-419	0	BatchTrackLogic	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-30 17:33:25-419	0	Original-BatchTrack	2	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-30 17:33:26-420	0	BatchTrackLogic	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-30 17:33:26-620	0	Original-BatchTrack	2	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-30 17:35:57-661	0	Batch3	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-30 17:35:58-262	0	Original-BatchTrack	0	Omni product code changed	Kian	WCPBTMRA
+2016-01-30 17:36:08-668	0	Batch3	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-30 17:36:08-668	0	Batch3	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-30 17:36:09-268	0	Original-BatchTrack	75	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-30 17:36:09-468	0	Original-BatchTrack	1	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-30 17:36:18-671	0	Batch3	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-30 17:36:19-671	0	Original-BatchTrack	1	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 13:05:24-911	0	BatchTrackLogic	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 13:05:24-911	0	Original-BatchTrack	3	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 13:05:25-912	0	BatchTrackLogic	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 13:05:26-112	0	Original-BatchTrack	3	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 13:07:42-151	0	Batch3	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 13:07:42-751	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 13:08:50-168	0	Batch3	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 13:08:50-168	0	Batch3	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 13:08:50-768	0	Original-BatchTrack	62	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 13:08:50-968	0	Original-BatchTrack	2	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 13:09:00-170	0	Batch3	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 13:09:01-171	0	Original-BatchTrack	2	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 15:11:44-742	0	Original-BatchTrack	1	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:00:58-154	0	BatchTrackLogic	0	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 17:00:58-154	0	Original-BatchTrack	4	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 17:00:58-955	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:00:59-155	0	BatchTrackLogic	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 17:00:59-355	0	Original-BatchTrack	0	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 17:03:26-786	0	Batch3	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:03:30-387	0	Original-BatchTrack	4	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:04:31-799	0	Batch3	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 17:04:31-799	0	Batch3	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 17:04:32-399	0	Original-BatchTrack	35	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 17:04:32-599	0	Original-BatchTrack	5	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 17:04:41-801	0	Batch3	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 17:04:42-801	0	Original-BatchTrack	5	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 17:11:34-328	0	BatchTrackLogic	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 17:11:34-328	0	Original-BatchTrack	1	Batch start request from TDC	Kian	WCPBTMRA
+2016-01-31 17:11:35-329	0	BatchTrackLogic	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 17:11:35-529	0	Original-BatchTrack	1	Batch start return sent to TDC	Kian	WCPBTMRA
+2016-01-31 17:13:34-562	0	Batch3	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:13:38-167	0	Original-BatchTrack	6	Omni product code changed	Kian	WCPBTMRA
+2016-01-31 17:14:27-576	0	Batch3	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 17:14:27-576	0	Batch3	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 17:14:28-176	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA
+2016-01-31 17:14:28-376	0	Original-BatchTrack	7	SWING - ESSO signal sent	Kian	WCPBTMRA
+2016-01-31 17:14:37-578	0	Batch3	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-01-31 17:14:38-578	0	Original-BatchTrack	7	SWING - TDC signal sent	Kian	WCPBTMRA
+2016-02-01 00:00:00-438	0	Original-BatchTrack	43	SWING - Omni strobe sent	Kian	WCPBTMRA

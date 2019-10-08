@@ -1,0 +1,1310 @@
+CLIENT-FAMIL-FileClient 05.02.19 13:12:FSV started PID# 3304 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 05.02.19 13:12:Installed listen-socket 448 
+MASTER-FileMaster 05.02.19 13:13:fsv_table_check_start
+MASTER-FileMaster 05.02.19 13:13:TCP ERROR at fsv_send_packet
+MASTER-FileMaster 05.02.19 13:13:FSV started PID# 2512 as MASTER on projects/BTAX/
+MASTER-FileMaster 05.02.19 13:13:Installed listen-socket 448 
+MASTER-FileMaster 05.02.19 13:13:fsv_table_check_start
+MASTER-FileMaster 05.02.19 13:13:fsv_table_check_end
+MASTER-FileMaster 05.02.19 14:37:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 05.02.19 14:53:FSV started PID# 3596 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 05.02.19 14:53:Installed listen-socket 460 
+MASTER-FileMaster 05.02.19 14:57:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 05.02.19 14:57:fsv_table_check_start
+MASTER-FileMaster 05.02.19 14:57:fsv_table_check_end
+MASTER-FileMaster 05.02.19 15:37:Local client 3120 forces TableCheck
+MASTER-FileMaster 05.02.19 15:37:fsv_table_check_start
+MASTER-FileMaster 05.02.19 15:37:fsv_table_check_end
+MASTER-FileMaster 05.02.19 15:37:Local client 3120 forces TableCheck
+MASTER-FileMaster 05.02.19 15:37:fsv_table_check_start
+MASTER-FileMaster 05.02.19 15:37:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:28:Local client 2532 forces TableCheck
+MASTER-FileMaster 06.02.19 07:28:fsv_table_check_start
+MASTER-FileMaster 06.02.19 07:28:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:32:Local client 1744 forces TableCheck
+MASTER-FileMaster 06.02.19 07:32:fsv_table_check_start
+MASTER-FileMaster 06.02.19 07:32:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:33:Local client 1744 forces TableCheck
+MASTER-FileMaster 06.02.19 07:33:fsv_table_check_start
+MASTER-FileMaster 06.02.19 07:33:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:39:Local client 2052 forces TableCheck
+MASTER-FileMaster 06.02.19 07:39:fsv_table_check_start
+MASTER-FileMaster 06.02.19 07:39:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:39:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 06.02.19 07:40:FSV started PID# 3216 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.02.19 07:40:Installed listen-socket 448 
+MASTER-FileMaster 06.02.19 07:41:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 06.02.19 07:41:fsv_table_check_start
+MASTER-FileMaster 06.02.19 07:41:fsv_table_check_end
+MASTER-FileMaster 06.02.19 07:41:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+CLIENT-FAMIL-FileClient 06.02.19 11:28:FSV started PID# 4032 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.02.19 11:28:Installed listen-socket 460 
+MASTER-FileMaster 06.02.19 11:28:fsv_table_check_start
+MASTER-FileMaster 06.02.19 11:28:TCP ERROR at fsv_send_packet
+MASTER-FileMaster 06.02.19 11:29:FSV started PID# 160 as MASTER on projects/BTAX/
+MASTER-FileMaster 06.02.19 11:29:Installed listen-socket 452 
+MASTER-FileMaster 06.02.19 11:29:fsv_table_check_start
+MASTER-FileMaster 06.02.19 11:29:TCP ERROR at fsv_send_packet
+MASTER-FileMaster 06.02.19 11:29:FSV started PID# 3712 as MASTER on projects/BTAX/
+MASTER-FileMaster 06.02.19 11:29:Installed listen-socket 452 
+MASTER-FileMaster 06.02.19 11:29:fsv_table_check_start
+MASTER-FileMaster 06.02.19 11:29:TCP ERROR at fsv_send_packet
+MASTER-FileMaster 06.02.19 11:29:FSV started PID# 1640 as MASTER on projects/BTAX/
+MASTER-FileMaster 06.02.19 11:29:Installed listen-socket 456 
+CLIENT-FileClient 06.02.19 11:30:
+UNKNOWN MESSAGE: 185
+
+CLIENT-FileClient 06.02.19 11:30:Destroy application ->exit
+CLIENT-FileClient 06.02.19 11:30:FSV started PID# 3500 as CLIENT on projects/BTAX/
+CLIENT-FileClient 06.02.19 11:30:Installed listen-socket 456 
+CLIENT-FileClient 06.02.19 11:30:TABLE_CHECK_START
+CLIENT-FileClient 06.02.19 11:30:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+CLIENT-FileClient 06.02.19 11:30:File successfully renamed projects/BTAX/Parameter.axprofile_fsvtmp to projects/BTAX/Parameter.axprofile
+CLIENT-FileClient 06.02.19 11:30:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 06.02.19 11:32:FSV started PID# 1716 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.02.19 11:32:Installed listen-socket 468 
+CLIENT-FAMIL-FileClient 06.02.19 11:32:Comm-socket 452
+CLIENT-FAMIL-FileClient 06.02.19 11:32:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 06.02.19 11:32:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 06.02.19 11:32:TABLE_CHECK_END got
+MASTER-FileMaster 06.02.19 11:33:FORCE_CHECK
+MASTER-FileMaster 06.02.19 11:33:fsv_table_check_start
+MASTER-FileMaster 06.02.19 11:33:fsv_table_check_end
+CLIENT-FAMIL-FileClient 06.02.19 11:57:FSV started PID# 680 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.02.19 11:57:Installed listen-socket 448 
+CLIENT-FAMIL-FileClient 06.02.19 11:57:Comm-socket 444
+CLIENT-FAMIL-FileClient 06.02.19 11:57:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 06.02.19 11:57:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 06.02.19 11:58:TABLE_CHECK_END got
+MASTER-FileMaster 06.02.19 12:23:FORCE_CHECK
+MASTER-FileMaster 06.02.19 12:23:fsv_table_check_start
+MASTER-FileMaster 06.02.19 12:23:fsv_table_check_end
+MASTER-FileMaster 13.02.19 10:39:FSV started PID# 1432 as MASTER on projects/BTAX/
+MASTER-FileMaster 13.02.19 10:39:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 13.02.19 10:54:FSV started PID# 3232 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.02.19 10:54:Installed listen-socket 452 
+CLIENT-FAMIL-FileClient 13.02.19 10:57:FSV started PID# 2808 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.02.19 10:57:Installed listen-socket 464 
+CLIENT-FAMIL-FileClient 13.02.19 11:10:FSV started PID# 372 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.02.19 11:10:Installed listen-socket 460 
+CLIENT-FAMIL-FileClient 13.02.19 13:19:FSV started PID# 892 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.02.19 13:19:Installed listen-socket 456 
+MASTER-FileMaster 13.02.19 13:26:FORCE_CHECK
+MASTER-FileMaster 13.02.19 13:26:fsv_table_check_start
+MASTER-FileMaster 13.02.19 13:26:fsv_table_check_end
+CLIENT-FAMIL-FileClient 13.02.19 13:28:FSV started PID# 2752 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.02.19 13:28:Installed listen-socket 456 
+MASTER-FileMaster 13.02.19 13:28:fsv_table_check_start
+MASTER-FileMaster 13.02.19 13:28:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:14:Local client 2680 forces TableCheck
+MASTER-FileMaster 13.02.19 16:14:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:14:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:17:Local client 3764 forces TableCheck
+MASTER-FileMaster 13.02.19 16:17:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:17:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:18:Local client 3764 forces TableCheck
+MASTER-FileMaster 13.02.19 16:18:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:18:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:29:Local client 3144 forces TableCheck
+MASTER-FileMaster 13.02.19 16:29:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:29:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:30:Local client 3492 forces TableCheck
+MASTER-FileMaster 13.02.19 16:30:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:30:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:30:Local client 3492 forces TableCheck
+MASTER-FileMaster 13.02.19 16:30:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:30:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:31:Local client 3492 forces TableCheck
+MASTER-FileMaster 13.02.19 16:31:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:31:fsv_table_check_end
+MASTER-FileMaster 13.02.19 16:45:Local client 3020 forces TableCheck
+MASTER-FileMaster 13.02.19 16:45:fsv_table_check_start
+MASTER-FileMaster 13.02.19 16:45:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:01:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:01:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:01:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:09:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:09:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:09:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:12:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:12:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:12:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:16:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:16:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:16:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:28:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:28:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:28:fsv_table_check_end
+MASTER-FileMaster 13.02.19 17:30:Local client 1984 forces TableCheck
+MASTER-FileMaster 13.02.19 17:30:fsv_table_check_start
+MASTER-FileMaster 13.02.19 17:30:fsv_table_check_end
+MASTER-FileMaster 14.02.19 11:22:Local client 972 forces TableCheck
+MASTER-FileMaster 14.02.19 11:22:fsv_table_check_start
+MASTER-FileMaster 14.02.19 11:22:fsv_table_check_end
+CLIENT-FAMIL-FileClient 21.02.19 14:37:FSV started PID# 1604 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 21.02.19 14:37:Installed listen-socket 448 
+MASTER-FileMaster 21.02.19 14:38:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 21.02.19 14:38:fsv_table_check_start
+MASTER-FileMaster 21.02.19 14:38:fsv_table_check_end
+CLIENT-FAMIL-FileClient 21.02.19 15:45:FSV started PID# 3220 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 21.02.19 15:45:Installed listen-socket 440 
+CLIENT-FAMIL-FileClient 21.02.19 15:45:Comm-socket 452
+CLIENT-FAMIL-FileClient 21.02.19 15:45:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 21.02.19 15:45:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 21.02.19 15:45:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 21.02.19 15:49:FSV started PID# 1216 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 21.02.19 15:49:Installed listen-socket 32 
+CLIENT-FAMIL-FileClient 21.02.19 15:49:Comm-socket 448
+CLIENT-FAMIL-FileClient 21.02.19 15:49:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 21.02.19 15:49:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 21.02.19 15:49:TABLE_CHECK_END got
+CLIENT-FileMaster 21.02.19 15:55:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 21.02.19 15:56:Tcp_WaitForEvent ERROR at fsv_send_packet_and_wait
+MASTER-FileMaster 21.02.19 15:59:fsv_table_check_start
+MASTER-FileMaster 21.02.19 15:59:fsv_table_check_end
+MASTER-FileMaster 21.02.19 16:11:Local client 2600 forces TableCheck
+MASTER-FileMaster 21.02.19 16:11:fsv_table_check_start
+MASTER-FileMaster 21.02.19 16:11:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:06:Local client 2536 forces TableCheck
+MASTER-FileMaster 26.02.19 10:06:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:07:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:07:Local client 2536 forces TableCheck
+MASTER-FileMaster 26.02.19 10:07:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:07:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:07:Local client 2536 forces TableCheck
+MASTER-FileMaster 26.02.19 10:07:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:07:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:15:Local client 2536 forces TableCheck
+MASTER-FileMaster 26.02.19 10:15:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:15:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:32:Local client 1292 forces TableCheck
+MASTER-FileMaster 26.02.19 10:32:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:32:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:33:Local client 1292 forces TableCheck
+MASTER-FileMaster 26.02.19 10:33:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:33:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:37:Local client 1292 forces TableCheck
+MASTER-FileMaster 26.02.19 10:37:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:37:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:38:Local client 2988 forces TableCheck
+MASTER-FileMaster 26.02.19 10:38:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:38:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:38:Local client 1292 forces TableCheck
+MASTER-FileMaster 26.02.19 10:38:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:38:fsv_table_check_end
+MASTER-FileMaster 26.02.19 10:40:Local client 1292 forces TableCheck
+MASTER-FileMaster 26.02.19 10:40:fsv_table_check_start
+MASTER-FileMaster 26.02.19 10:40:fsv_table_check_end
+MASTER-FileMaster 26.02.19 11:17:Local client 924 forces TableCheck
+MASTER-FileMaster 26.02.19 11:17:fsv_table_check_start
+MASTER-FileMaster 26.02.19 11:17:fsv_table_check_end
+MASTER-FileMaster 26.02.19 11:18:Local client 3104 forces TableCheck
+MASTER-FileMaster 26.02.19 11:18:fsv_table_check_start
+MASTER-FileMaster 26.02.19 11:18:fsv_table_check_end
+MASTER-FileMaster 26.02.19 11:30:Local client 2352 forces TableCheck
+MASTER-FileMaster 26.02.19 11:30:fsv_table_check_start
+MASTER-FileMaster 26.02.19 11:30:fsv_table_check_end
+MASTER-FileMaster 26.02.19 11:31:Local client 2352 forces TableCheck
+MASTER-FileMaster 26.02.19 11:31:fsv_table_check_start
+MASTER-FileMaster 26.02.19 11:31:fsv_table_check_end
+MASTER-FileMaster 26.02.19 11:31:Local client 2352 forces TableCheck
+MASTER-FileMaster 26.02.19 11:32:fsv_table_check_start
+MASTER-FileMaster 26.02.19 11:32:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:27:Local client 3720 forces TableCheck
+MASTER-FileMaster 26.02.19 12:27:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:27:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:30:Local client 3432 forces TableCheck
+MASTER-FileMaster 26.02.19 12:30:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:30:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:30:Local client 3432 forces TableCheck
+MASTER-FileMaster 26.02.19 12:30:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:30:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:39:Local client 2888 forces TableCheck
+MASTER-FileMaster 26.02.19 12:39:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:39:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:41:Local client 2888 forces TableCheck
+MASTER-FileMaster 26.02.19 12:41:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:41:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:42:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 12:42:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:42:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:42:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 12:42:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:42:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:45:Local client 3852 forces TableCheck
+MASTER-FileMaster 26.02.19 12:45:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:45:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:46:Local client 3852 forces TableCheck
+MASTER-FileMaster 26.02.19 12:46:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:46:fsv_table_check_end
+MASTER-FileMaster 26.02.19 12:47:Local client 3504 forces TableCheck
+MASTER-FileMaster 26.02.19 12:47:fsv_table_check_start
+MASTER-FileMaster 26.02.19 12:47:fsv_table_check_end
+MASTER-FileMaster 26.02.19 13:03:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 13:03:fsv_table_check_start
+MASTER-FileMaster 26.02.19 13:03:fsv_table_check_end
+MASTER-FileMaster 26.02.19 13:04:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 13:04:fsv_table_check_start
+MASTER-FileMaster 26.02.19 13:04:fsv_table_check_end
+MASTER-FileMaster 26.02.19 14:02:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 14:02:fsv_table_check_start
+MASTER-FileMaster 26.02.19 14:02:fsv_table_check_end
+MASTER-FileMaster 26.02.19 14:03:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 14:03:fsv_table_check_start
+MASTER-FileMaster 26.02.19 14:03:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:42:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:42:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:42:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:42:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:42:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:42:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:45:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:45:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:45:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:46:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:46:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:46:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:47:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:47:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:47:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:48:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:48:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:48:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:57:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 16:57:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:57:fsv_table_check_end
+MASTER-FileMaster 26.02.19 16:59:Local client 888 forces TableCheck
+MASTER-FileMaster 26.02.19 16:59:fsv_table_check_start
+MASTER-FileMaster 26.02.19 16:59:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:00:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:00:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:00:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:00:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:00:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:00:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:01:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:01:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:01:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:01:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:01:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:01:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:02:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:02:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:02:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:04:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:04:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:04:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:05:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:05:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:05:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:05:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:05:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:05:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:06:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:06:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:06:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:07:Local client 96 forces TableCheck
+MASTER-FileMaster 26.02.19 17:07:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:07:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:20:Local client 3204 forces TableCheck
+MASTER-FileMaster 26.02.19 17:20:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:20:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:35:Local client 2736 forces TableCheck
+MASTER-FileMaster 26.02.19 17:35:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:35:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:36:Local client 2484 forces TableCheck
+MASTER-FileMaster 26.02.19 17:36:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:36:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:38:Local client 2552 forces TableCheck
+MASTER-FileMaster 26.02.19 17:38:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:38:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:39:Local client 2488 forces TableCheck
+MASTER-FileMaster 26.02.19 17:39:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:39:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:48:Local client 3204 forces TableCheck
+MASTER-FileMaster 26.02.19 17:48:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:48:fsv_table_check_end
+MASTER-FileMaster 26.02.19 17:54:Local client 3160 forces TableCheck
+MASTER-FileMaster 26.02.19 17:54:fsv_table_check_start
+MASTER-FileMaster 26.02.19 17:54:fsv_table_check_end
+CLIENT-FAMIL-FileClient 27.02.19 11:37:FSV started PID# 980 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 27.02.19 11:37:Installed listen-socket 440 
+CLIENT-FAMIL-FileClient 27.02.19 11:37:Comm-socket 444
+CLIENT-FAMIL-FileClient 27.02.19 11:37:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 27.02.19 11:37:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 27.02.19 11:37:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+CLIENT-FAMIL-FileClient 27.02.19 11:37:File successfully renamed projects/BTAX/FileSupervisor.axprofile_fsvtmp to projects/BTAX/FileSupervisor.axprofile
+CLIENT-FAMIL-FileClient 27.02.19 11:37:TABLE_CHECK_END got
+MASTER-FileMaster 27.02.19 11:41:FORCE_CHECK
+MASTER-FileMaster 27.02.19 11:41:fsv_table_check_start
+MASTER-FileMaster 27.02.19 11:41:fsv_table_check_end
+MASTER-FileMaster 27.02.19 12:10:Local client 2344 forces TableCheck
+MASTER-FileMaster 27.02.19 12:10:fsv_table_check_start
+MASTER-FileMaster 27.02.19 12:10:fsv_table_check_end
+CLIENT-FAMIL-FileClient 27.02.19 12:12:FSV started PID# 1748 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 27.02.19 12:12:Installed listen-socket 468 
+CLIENT-FAMIL-FileClient 27.02.19 12:12:Comm-socket 452
+CLIENT-FAMIL-FileClient 27.02.19 12:12:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 27.02.19 12:12:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 27.02.19 12:12:TABLE_CHECK_END got
+MASTER-FileMaster 27.02.19 12:14:FORCE_CHECK
+MASTER-FileMaster 27.02.19 12:14:fsv_table_check_start
+MASTER-FileMaster 27.02.19 12:14:fsv_table_check_end
+MASTER-FileMaster 27.02.19 12:14:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 27.02.19 12:14:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 27.02.19 12:16:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 27.02.19 12:16:fsv_table_check_start
+MASTER-FileMaster 27.02.19 12:16:fsv_table_check_end
+MASTER-FileMaster 27.02.19 16:39:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 27.02.19 16:39:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 27.02.19 16:39:fsv_table_check_start
+MASTER-FileMaster 27.02.19 16:39:fsv_table_check_end
+CLIENT-FileClient 27.02.19 16:43:TableCheckRequest on Client notified
+CLIENT-FileClient 27.02.19 16:43:TABLE_CHECK_START
+CLIENT-FileClient 27.02.19 16:43:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 27.02.19 16:45:FSV started PID# 2200 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 27.02.19 16:45:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 27.02.19 16:45:Comm-socket 448
+CLIENT-FAMIL-FileClient 27.02.19 16:45:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 27.02.19 16:45:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 27.02.19 16:45:TABLE_CHECK_END got
+MASTER-FileMaster 27.02.19 16:56:FORCE_CHECK
+MASTER-FileMaster 27.02.19 16:56:fsv_table_check_start
+MASTER-FileMaster 27.02.19 16:56:fsv_table_check_end
+MASTER-FileMaster 27.02.19 16:58:Local client 3528 forces TableCheck
+MASTER-FileMaster 27.02.19 16:58:fsv_table_check_start
+MASTER-FileMaster 27.02.19 16:58:fsv_table_check_end
+CLIENT-FAMIL-FileClient 27.02.19 17:10:FSV started PID# 2212 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 27.02.19 17:10:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 27.02.19 17:10:Comm-socket 460
+CLIENT-FAMIL-FileClient 27.02.19 17:10:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 27.02.19 17:10:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 27.02.19 17:11:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 27.02.19 17:11:FSV started PID# 3400 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 27.02.19 17:11:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 27.02.19 17:11:Comm-socket 460
+CLIENT-FAMIL-FileClient 27.02.19 17:11:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 27.02.19 17:11:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 27.02.19 17:11:TABLE_CHECK_END got
+CLIENT-FileClient 27.02.19 17:22:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 27.02.19 17:22:Tcp_WaitForEvent ERROR at fsv_send_packet_and_wait
+MASTER-FileMaster 27.02.19 17:26:fsv_table_check_start
+MASTER-FileMaster 27.02.19 17:26:fsv_table_check_end
+MASTER-FileMaster 27.02.19 17:28:Local client 3912 forces TableCheck
+MASTER-FileMaster 27.02.19 17:28:fsv_table_check_start
+MASTER-FileMaster 27.02.19 17:28:fsv_table_check_end
+MASTER-FileMaster 27.02.19 17:30:Local client 3912 forces TableCheck
+MASTER-FileMaster 27.02.19 17:30:fsv_table_check_start
+MASTER-FileMaster 27.02.19 17:30:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:02:Local client 1924 forces TableCheck
+MASTER-FileMaster 27.02.19 18:02:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:02:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:07:Local client 3912 forces TableCheck
+MASTER-FileMaster 27.02.19 18:07:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:07:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:09:Local client 2244 forces TableCheck
+MASTER-FileMaster 27.02.19 18:09:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:09:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:09:Local client 2244 forces TableCheck
+MASTER-FileMaster 27.02.19 18:09:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:09:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:10:Local client 3912 forces TableCheck
+MASTER-FileMaster 27.02.19 18:10:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:10:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:11:Local client 3068 forces TableCheck
+MASTER-FileMaster 27.02.19 18:11:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:11:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:12:Local client 3912 forces TableCheck
+MASTER-FileMaster 27.02.19 18:12:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:12:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:22:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 27.02.19 18:22:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 27.02.19 18:22:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:22:fsv_table_check_end
+MASTER-FileMaster 27.02.19 18:29:Local client 4080 forces TableCheck
+MASTER-FileMaster 27.02.19 18:29:fsv_table_check_start
+MASTER-FileMaster 27.02.19 18:29:fsv_table_check_end
+MASTER-FileMaster 28.02.19 12:49:Local client 3444 forces TableCheck
+MASTER-FileMaster 28.02.19 12:49:fsv_table_check_start
+MASTER-FileMaster 28.02.19 12:49:fsv_table_check_end
+MASTER-FileMaster 28.02.19 13:14:Local client 2028 forces TableCheck
+MASTER-FileMaster 28.02.19 13:14:fsv_table_check_start
+MASTER-FileMaster 28.02.19 13:14:fsv_table_check_end
+MASTER-FileMaster 28.02.19 13:50:Local client 2212 forces TableCheck
+MASTER-FileMaster 28.02.19 13:50:fsv_table_check_start
+MASTER-FileMaster 28.02.19 13:50:fsv_table_check_end
+MASTER-FileMaster 28.02.19 13:57:Local client 2908 forces TableCheck
+MASTER-FileMaster 28.02.19 13:57:fsv_table_check_start
+MASTER-FileMaster 28.02.19 13:57:fsv_table_check_end
+MASTER-FileMaster 28.02.19 13:58:Local client 2492 forces TableCheck
+MASTER-FileMaster 28.02.19 13:58:fsv_table_check_start
+MASTER-FileMaster 28.02.19 13:58:fsv_table_check_end
+MASTER-FileMaster 28.02.19 15:40:Local client 3804 forces TableCheck
+MASTER-FileMaster 28.02.19 15:40:fsv_table_check_start
+MASTER-FileMaster 28.02.19 15:40:fsv_table_check_end
+MASTER-FileMaster 28.02.19 15:50:Local client 700 forces TableCheck
+MASTER-FileMaster 28.02.19 15:50:fsv_table_check_start
+MASTER-FileMaster 28.02.19 15:50:fsv_table_check_end
+MASTER-FileMaster 28.02.19 15:57:Local client 700 forces TableCheck
+MASTER-FileMaster 28.02.19 15:57:fsv_table_check_start
+MASTER-FileMaster 28.02.19 15:57:fsv_table_check_end
+MASTER-FileMaster 28.02.19 16:12:Local client 980 forces TableCheck
+MASTER-FileMaster 28.02.19 16:12:fsv_table_check_start
+MASTER-FileMaster 28.02.19 16:12:fsv_table_check_end
+MASTER-FileMaster 28.02.19 16:44:Local client 3316 forces TableCheck
+MASTER-FileMaster 28.02.19 16:44:fsv_table_check_start
+MASTER-FileMaster 28.02.19 16:44:fsv_table_check_end
+MASTER-FileMaster 28.02.19 16:48:Local client 3384 forces TableCheck
+MASTER-FileMaster 28.02.19 16:48:fsv_table_check_start
+MASTER-FileMaster 28.02.19 16:48:fsv_table_check_end
+MASTER-FileMaster 28.02.19 16:49:Local client 3384 forces TableCheck
+MASTER-FileMaster 28.02.19 16:49:fsv_table_check_start
+MASTER-FileMaster 28.02.19 16:49:fsv_table_check_end
+MASTER-FileMaster 28.02.19 17:05:Local client 3384 forces TableCheck
+MASTER-FileMaster 28.02.19 17:05:fsv_table_check_start
+MASTER-FileMaster 28.02.19 17:05:fsv_table_check_end
+MASTER-FileMaster 28.02.19 17:06:Local client 3384 forces TableCheck
+MASTER-FileMaster 28.02.19 17:06:fsv_table_check_start
+MASTER-FileMaster 28.02.19 17:06:fsv_table_check_end
+MASTER-FileMaster 28.02.19 17:20:Local client 740 forces TableCheck
+MASTER-FileMaster 28.02.19 17:20:fsv_table_check_start
+MASTER-FileMaster 28.02.19 17:20:fsv_table_check_end
+MASTER-FileMaster 28.02.19 17:33:Local client 4992 forces TableCheck
+MASTER-FileMaster 28.02.19 17:33:fsv_table_check_start
+MASTER-FileMaster 28.02.19 17:33:fsv_table_check_end
+CLIENT-FileClient 28.02.19 18:17:TableCheckRequest on Client notified
+CLIENT-FileClient 28.02.19 18:17:TABLE_CHECK_START
+CLIENT-FileClient 28.02.19 18:17:TABLE_CHECK_END got
+MASTER-FileMaster 06.03.19 16:42:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 06.03.19 16:42:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 06.03.19 16:57:FSV started PID# 2212 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.03.19 16:57:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 06.03.19 17:03:FSV started PID# 3264 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 06.03.19 17:03:Installed listen-socket 456 
+MASTER-FileMaster 06.03.19 17:05:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 06.03.19 17:05:fsv_table_check_start
+MASTER-FileMaster 06.03.19 17:05:fsv_table_check_end
+CLIENT-FileClient 11.03.19 06:55:TableCheckRequest on Client notified
+CLIENT-FileClient 11.03.19 06:55:TABLE_CHECK_START
+CLIENT-FileClient 11.03.19 06:55:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 11.03.19 06:56:FSV started PID# 4332 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 11.03.19 06:56:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 11.03.19 06:56:Comm-socket 460
+CLIENT-FAMIL-FileClient 11.03.19 06:56:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 11.03.19 06:56:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 11.03.19 06:56:TABLE_CHECK_END got
+MASTER-FileMaster 11.03.19 07:00:FORCE_CHECK
+MASTER-FileMaster 11.03.19 07:00:fsv_table_check_start
+MASTER-FileMaster 11.03.19 07:00:fsv_table_check_end
+MASTER-FileMaster 11.03.19 07:33:Local client 3600 forces TableCheck
+MASTER-FileMaster 11.03.19 07:33:fsv_table_check_start
+MASTER-FileMaster 11.03.19 07:33:fsv_table_check_end
+CLIENT-FAMIL-FileClient 11.03.19 13:30:FSV started PID# 3504 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 11.03.19 13:30:Installed listen-socket 432 
+CLIENT-FAMIL-FileClient 11.03.19 13:30:Comm-socket 460
+CLIENT-FAMIL-FileClient 11.03.19 13:30:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 11.03.19 13:30:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 11.03.19 13:30:TABLE_CHECK_END got
+MASTER-FileMaster 11.03.19 13:32:FORCE_CHECK
+MASTER-FileMaster 11.03.19 13:32:fsv_table_check_start
+MASTER-FileMaster 11.03.19 13:32:fsv_table_check_end
+MASTER-FileMaster 15.03.19 10:38:Local client 2408 forces TableCheck
+MASTER-FileMaster 15.03.19 10:38:fsv_table_check_start
+MASTER-FileMaster 15.03.19 10:38:fsv_table_check_end
+MASTER-FileMaster 15.03.19 10:40:Local client 2408 forces TableCheck
+MASTER-FileMaster 15.03.19 10:40:fsv_table_check_start
+MASTER-FileMaster 15.03.19 10:40:fsv_table_check_end
+MASTER-FileMaster 15.03.19 10:43:Local client 2408 forces TableCheck
+MASTER-FileMaster 15.03.19 10:43:fsv_table_check_start
+MASTER-FileMaster 15.03.19 10:43:fsv_table_check_end
+MASTER-FileMaster 15.03.19 10:49:Local client 2408 forces TableCheck
+MASTER-FileMaster 15.03.19 10:49:fsv_table_check_start
+MASTER-FileMaster 15.03.19 10:49:fsv_table_check_end
+MASTER-FileMaster 15.03.19 10:50:Local client 2408 forces TableCheck
+MASTER-FileMaster 15.03.19 10:50:fsv_table_check_start
+MASTER-FileMaster 15.03.19 10:50:fsv_table_check_end
+MASTER-FileMaster 15.03.19 11:33:Local client 3248 forces TableCheck
+MASTER-FileMaster 15.03.19 11:33:fsv_table_check_start
+MASTER-FileMaster 15.03.19 11:33:fsv_table_check_end
+MASTER-FileMaster 15.03.19 11:38:Local client 4164 forces TableCheck
+MASTER-FileMaster 15.03.19 11:38:fsv_table_check_start
+MASTER-FileMaster 15.03.19 11:38:fsv_table_check_end
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 05.04.19 10:39:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+MASTER-FileMaster 03.05.19 14:05:Local client 5004 forces TableCheck
+MASTER-FileMaster 03.05.19 14:05:fsv_table_check_start
+MASTER-FileMaster 03.05.19 14:05:fsv_table_check_end
+MASTER-FileMaster 03.05.19 19:19:Local client 5004 forces TableCheck
+MASTER-FileMaster 03.05.19 19:19:fsv_table_check_start
+MASTER-FileMaster 03.05.19 19:19:fsv_table_check_end
+MASTER-FileMaster 13.05.19 12:38:Local client 5200 forces TableCheck
+MASTER-FileMaster 13.05.19 12:38:fsv_table_check_start
+MASTER-FileMaster 13.05.19 12:38:fsv_table_check_end
+MASTER-FileMaster 13.05.19 12:39:Local client 5200 forces TableCheck
+MASTER-FileMaster 13.05.19 12:39:fsv_table_check_start
+MASTER-FileMaster 13.05.19 12:39:fsv_table_check_end
+MASTER-FileMaster 13.05.19 17:26:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 13.05.19 17:26:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 13.05.19 17:28:FSV started PID# 5316 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 13.05.19 17:28:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 14.05.19 11:35:FSV started PID# 3768 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 14.05.19 11:35:Installed listen-socket 468 
+CLIENT-FAMIL-FileClient 14.05.19 11:35:Comm-socket 444
+CLIENT-FAMIL-FileClient 14.05.19 11:35:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 14.05.19 11:35:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 14.05.19 11:35:File successfully renamed projects/BTAX/axviewer.axprofile_fsvtmp to projects/BTAX/axviewer.axprofile
+CLIENT-FAMIL-FileClient 14.05.19 11:37:TABLE_CHECK_END got
+MASTER-FileMaster 14.05.19 11:48:FORCE_CHECK
+MASTER-FileMaster 14.05.19 11:48:fsv_table_check_start
+MASTER-FileMaster 14.05.19 11:48:fsv_table_check_end
+CLIENT-FAMIL-FileClient 14.05.19 11:53:FSV started PID# 3608 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 14.05.19 11:53:Installed listen-socket 448 
+CLIENT-FAMIL-FileClient 14.05.19 11:53:Comm-socket 452
+CLIENT-FAMIL-FileClient 14.05.19 11:53:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 14.05.19 11:53:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 14.05.19 11:53:TABLE_CHECK_END got
+CLIENT-FileClient 14.05.19 12:04:TABLE_CHECK_START
+CLIENT-FileClient 14.05.19 12:04:TABLE_CHECK_END got
+CLIENT-FileClient 14.05.19 12:04:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 14.05.19 12:04:PLC-WARMSTART DONE OK
+CLIENT-FAMIL-FileClient 14.05.19 12:08:FSV started PID# 4064 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 14.05.19 12:08:Installed listen-socket 468 
+CLIENT-FAMIL-FileClient 14.05.19 12:08:Comm-socket 472
+CLIENT-FAMIL-FileClient 14.05.19 12:08:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 14.05.19 12:08:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 14.05.19 12:08:TABLE_CHECK_END got
+CLIENT-FileClient 14.05.19 12:14:File successfully renamed projects/BTAX/Parameter.axprofile_fsvtmp to projects/BTAX/Parameter.axprofile
+CLIENT-FileClient 14.05.19 12:14:File successfully renamed projects/BTAX/Parameter.axprofile_fsvtmp to projects/BTAX/Parameter.axprofile
+MASTER-FileMaster 14.05.19 12:16:FORCE_CHECK
+MASTER-FileMaster 14.05.19 12:16:fsv_table_check_start
+MASTER-FileMaster 14.05.19 12:16:fsv_table_check_end
+MASTER-FileMaster 14.05.19 12:17:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 14.05.19 12:17:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+CLIENT-FAMIL-FileClient 14.05.19 12:26:FSV started PID# 2892 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 14.05.19 12:26:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 14.05.19 12:35:FSV started PID# 2640 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 14.05.19 12:35:Installed listen-socket 456 
+MASTER-FileMaster 14.05.19 12:36:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 14.05.19 12:36:fsv_table_check_start
+MASTER-FileMaster 14.05.19 12:36:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:12:Local client 2284 forces TableCheck
+MASTER-FileMaster 05.06.19 12:12:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:12:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:13:Local client 6620 forces TableCheck
+MASTER-FileMaster 05.06.19 12:13:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:13:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:13:Local client 6620 forces TableCheck
+MASTER-FileMaster 05.06.19 12:13:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:13:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:14:Local client 6620 forces TableCheck
+MASTER-FileMaster 05.06.19 12:14:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:14:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:30:Local client 6872 forces TableCheck
+MASTER-FileMaster 05.06.19 12:30:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:30:fsv_table_check_end
+MASTER-FileMaster 05.06.19 12:50:Local client 4728 forces TableCheck
+MASTER-FileMaster 05.06.19 12:50:fsv_table_check_start
+MASTER-FileMaster 05.06.19 12:50:fsv_table_check_end
+MASTER-FileMaster 05.06.19 13:13:Local client 4728 forces TableCheck
+MASTER-FileMaster 05.06.19 13:13:fsv_table_check_start
+MASTER-FileMaster 05.06.19 13:13:fsv_table_check_end
+MASTER-FileMaster 05.06.19 13:14:Local client 4728 forces TableCheck
+MASTER-FileMaster 05.06.19 13:14:fsv_table_check_start
+MASTER-FileMaster 05.06.19 13:14:fsv_table_check_end
+MASTER-FileMaster 05.06.19 13:41:Local client 7452 forces TableCheck
+MASTER-FileMaster 05.06.19 13:41:fsv_table_check_start
+MASTER-FileMaster 05.06.19 13:41:fsv_table_check_end
+MASTER-FileMaster 05.06.19 13:43:Local client 7452 forces TableCheck
+MASTER-FileMaster 05.06.19 13:43:fsv_table_check_start
+MASTER-FileMaster 05.06.19 13:43:fsv_table_check_end
+MASTER-FileMaster 05.06.19 13:51:Local client 7452 forces TableCheck
+MASTER-FileMaster 05.06.19 13:51:fsv_table_check_start
+MASTER-FileMaster 05.06.19 13:51:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:47:Local client 2308 forces TableCheck
+MASTER-FileMaster 05.06.19 18:47:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:47:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:49:Local client 2308 forces TableCheck
+MASTER-FileMaster 05.06.19 18:49:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:49:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:55:Local client 4168 forces TableCheck
+MASTER-FileMaster 05.06.19 18:55:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:55:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:57:Local client 4168 forces TableCheck
+MASTER-FileMaster 05.06.19 18:57:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:57:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:57:Local client 4168 forces TableCheck
+MASTER-FileMaster 05.06.19 18:57:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:57:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:58:Local client 4168 forces TableCheck
+MASTER-FileMaster 05.06.19 18:58:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:58:fsv_table_check_end
+MASTER-FileMaster 05.06.19 18:58:Local client 2308 forces TableCheck
+MASTER-FileMaster 05.06.19 18:58:fsv_table_check_start
+MASTER-FileMaster 05.06.19 18:58:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:25:Local client 4168 forces TableCheck
+MASTER-FileMaster 05.06.19 19:25:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:25:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:26:Local client 2308 forces TableCheck
+MASTER-FileMaster 05.06.19 19:26:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:26:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:27:Local client 2308 forces TableCheck
+MASTER-FileMaster 05.06.19 19:27:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:27:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:37:Local client 4348 forces TableCheck
+MASTER-FileMaster 05.06.19 19:37:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:37:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:43:Local client 7592 forces TableCheck
+MASTER-FileMaster 05.06.19 19:43:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:43:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:45:Local client 7820 forces TableCheck
+MASTER-FileMaster 05.06.19 19:45:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:45:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:45:Local client 7820 forces TableCheck
+MASTER-FileMaster 05.06.19 19:45:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:45:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:49:Local client 5100 forces TableCheck
+MASTER-FileMaster 05.06.19 19:49:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:49:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:54:Local client 3432 forces TableCheck
+MASTER-FileMaster 05.06.19 19:54:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:54:fsv_table_check_end
+MASTER-FileMaster 05.06.19 19:59:Local client 4980 forces TableCheck
+MASTER-FileMaster 05.06.19 19:59:fsv_table_check_start
+MASTER-FileMaster 05.06.19 19:59:fsv_table_check_end
+MASTER-FileMaster 05.06.19 20:01:Local client 4980 forces TableCheck
+MASTER-FileMaster 05.06.19 20:01:fsv_table_check_start
+MASTER-FileMaster 05.06.19 20:01:fsv_table_check_end
+MASTER-FileMaster 05.06.19 20:02:Local client 4980 forces TableCheck
+MASTER-FileMaster 05.06.19 20:02:fsv_table_check_start
+MASTER-FileMaster 05.06.19 20:02:fsv_table_check_end
+MASTER-FileMaster 05.06.19 20:07:Local client 5872 forces TableCheck
+MASTER-FileMaster 05.06.19 20:07:fsv_table_check_start
+MASTER-FileMaster 05.06.19 20:07:fsv_table_check_end
+MASTER-FileMaster 05.06.19 20:09:Local client 6248 forces TableCheck
+MASTER-FileMaster 05.06.19 20:09:fsv_table_check_start
+MASTER-FileMaster 05.06.19 20:09:fsv_table_check_end
+MASTER-FileMaster 05.06.19 20:12:Local client 5868 forces TableCheck
+MASTER-FileMaster 05.06.19 20:12:fsv_table_check_start
+MASTER-FileMaster 05.06.19 20:12:fsv_table_check_end
+MASTER-FileMaster 06.06.19 12:35:Local client 4112 forces TableCheck
+MASTER-FileMaster 06.06.19 12:35:fsv_table_check_start
+MASTER-FileMaster 06.06.19 12:35:fsv_table_check_end
+MASTER-FileMaster 06.06.19 13:01:Local client 4112 forces TableCheck
+MASTER-FileMaster 06.06.19 13:01:fsv_table_check_start
+MASTER-FileMaster 06.06.19 13:01:fsv_table_check_end
+MASTER-FileMaster 06.06.19 13:01:Local client 4112 forces TableCheck
+MASTER-FileMaster 06.06.19 13:01:fsv_table_check_start
+MASTER-FileMaster 06.06.19 13:01:fsv_table_check_end
+CLIENT-FileClient 06.06.19 15:24:TableCheckRequest on Client notified
+CLIENT-FileClient 06.06.19 15:24:TABLE_CHECK_START
+CLIENT-FileClient 06.06.19 15:24:TABLE_CHECK_END got
+MASTER-FileMaster 06.06.19 15:30:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 06.06.19 15:30:fsv_table_check_start
+MASTER-FileMaster 06.06.19 15:30:fsv_table_check_end
+CLIENT-FileClient 06.06.19 15:31:TableCheckRequest on Client notified
+CLIENT-FileClient 06.06.19 15:31:TABLE_CHECK_START
+CLIENT-FileClient 06.06.19 15:31:TABLE_CHECK_END got
+MASTER-FileMaster 06.06.19 15:57:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 06.06.19 15:57:fsv_table_check_start
+MASTER-FileMaster 06.06.19 15:57:fsv_table_check_end
+CLIENT-FileClient 06.06.19 16:02:FSV started PID# 2648 as CLIENT on projects/BTAX/
+CLIENT-FileClient 06.06.19 16:02:Installed listen-socket 452 
+CLIENT-FileClient 06.06.19 16:02:TABLE_CHECK_START
+CLIENT-FileClient 06.06.19 16:02:TABLE_CHECK_END got
+MASTER-FileMaster 06.06.19 16:34:FORCE_CHECK
+MASTER-FileMaster 06.06.19 16:34:fsv_table_check_start
+MASTER-FileMaster 06.06.19 16:34:fsv_table_check_end
+MASTER-FileMaster 06.06.19 17:21:Local client 1944 forces TableCheck
+MASTER-FileMaster 06.06.19 17:21:fsv_table_check_start
+MASTER-FileMaster 06.06.19 17:21:fsv_table_check_end
+MASTER-FileMaster 06.06.19 17:30:Local client 1944 forces TableCheck
+MASTER-FileMaster 06.06.19 17:30:fsv_table_check_start
+MASTER-FileMaster 06.06.19 17:30:fsv_table_check_end
+MASTER-FileMaster 06.06.19 17:32:Local client 1944 forces TableCheck
+MASTER-FileMaster 06.06.19 17:32:fsv_table_check_start
+MASTER-FileMaster 06.06.19 17:32:fsv_table_check_end
+MASTER-FileMaster 06.06.19 17:34:Local client 1944 forces TableCheck
+MASTER-FileMaster 06.06.19 17:34:fsv_table_check_start
+MASTER-FileMaster 06.06.19 17:34:fsv_table_check_end
+MASTER-FileMaster 06.06.19 18:35:Local client 5292 forces TableCheck
+MASTER-FileMaster 06.06.19 18:35:fsv_table_check_start
+MASTER-FileMaster 06.06.19 18:35:fsv_table_check_end
+MASTER-FileMaster 06.06.19 18:38:Local client 5292 forces TableCheck
+MASTER-FileMaster 06.06.19 18:38:fsv_table_check_start
+MASTER-FileMaster 06.06.19 18:38:fsv_table_check_end
+MASTER-FileMaster 07.06.19 11:32:Local client 4208 forces TableCheck
+MASTER-FileMaster 07.06.19 11:32:fsv_table_check_start
+MASTER-FileMaster 07.06.19 11:32:fsv_table_check_end
+MASTER-FileMaster 07.06.19 11:33:Local client 4208 forces TableCheck
+MASTER-FileMaster 07.06.19 11:33:fsv_table_check_start
+MASTER-FileMaster 07.06.19 11:33:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:16:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:16:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:16:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:16:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:16:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:16:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:19:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:19:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:19:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:19:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:19:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:19:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:20:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:20:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:20:fsv_table_check_end
+MASTER-FileMaster 07.06.19 16:21:Local client 5760 forces TableCheck
+MASTER-FileMaster 07.06.19 16:21:fsv_table_check_start
+MASTER-FileMaster 07.06.19 16:21:fsv_table_check_end
+MASTER-FileMaster 07.06.19 17:02:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 17:02:fsv_table_check_start
+MASTER-FileMaster 07.06.19 17:02:fsv_table_check_end
+MASTER-FileMaster 07.06.19 17:21:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 17:21:fsv_table_check_start
+MASTER-FileMaster 07.06.19 17:21:fsv_table_check_end
+MASTER-FileMaster 07.06.19 17:30:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 17:30:fsv_table_check_start
+MASTER-FileMaster 07.06.19 17:30:fsv_table_check_end
+MASTER-FileMaster 07.06.19 17:44:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 17:44:fsv_table_check_start
+MASTER-FileMaster 07.06.19 17:44:fsv_table_check_end
+MASTER-FileMaster 07.06.19 17:45:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 17:45:fsv_table_check_start
+MASTER-FileMaster 07.06.19 17:45:fsv_table_check_end
+MASTER-FileMaster 07.06.19 18:01:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 18:01:fsv_table_check_start
+MASTER-FileMaster 07.06.19 18:01:fsv_table_check_end
+MASTER-FileMaster 07.06.19 18:22:Local client 5340 forces TableCheck
+MASTER-FileMaster 07.06.19 18:22:fsv_table_check_start
+MASTER-FileMaster 07.06.19 18:22:fsv_table_check_end
+CLIENT-FileClient 10.06.19 16:53:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 16:53:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 16:53:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 16:54:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 16:54:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 16:54:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 16:54:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 16:54:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 16:55:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 16:55:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 16:55:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 16:55:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 16:55:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 16:55:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 16:55:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 16:55:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 16:57:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 16:57:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 16:57:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 16:57:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:02:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:02:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:02:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:02:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:02:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:02:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:02:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:02:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:03:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:03:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:03:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:03:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:03:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:03:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:03:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:04:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:04:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:04:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:04:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:04:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:04:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:04:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:04:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:05:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:05:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:05:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:05:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:06:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:06:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:06:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:06:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:06:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:06:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:06:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:07:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:07:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:07:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:07:PLC-WARMSTART DONE OK
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_START
+CLIENT-FileClient 10.06.19 17:07:TABLE_CHECK_END got
+CLIENT-FileClient 10.06.19 17:07:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 10.06.19 17:08:PLC-WARMSTART DONE OK
+MASTER-FileMaster 10.06.19 19:57:Local client 3784 forces TableCheck
+MASTER-FileMaster 10.06.19 19:57:fsv_table_check_start
+MASTER-FileMaster 10.06.19 19:57:fsv_table_check_end
+CLIENT-FileClient 11.06.19 14:18:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:18:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:18:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:18:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:22:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:22:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:22:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:22:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:32:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:32:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:32:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:32:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:33:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:33:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:33:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:33:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:39:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:39:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:39:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:39:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:42:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:42:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:42:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:42:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:43:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:43:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:43:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:43:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:48:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:48:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:48:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:48:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 14:51:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:51:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:51:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:51:PLC-WARMSTART DONE OK
+CLIENT-FAMIL-FileClient 11.06.19 14:55:FSV started PID# 4604 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 11.06.19 14:55:Installed listen-socket 452 
+CLIENT-FAMIL-FileClient 11.06.19 14:55:Comm-socket 456
+CLIENT-FAMIL-FileClient 11.06.19 14:55:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 11.06.19 14:55:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 11.06.19 14:55:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:56:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 14:56:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 14:56:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 14:56:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:05:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:05:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:05:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:05:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:14:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:14:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:14:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:14:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:15:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 11.06.19 15:16:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 11.06.19 15:16:fsv_table_check_start
+MASTER-FileMaster 11.06.19 15:16:fsv_table_check_end
+CLIENT-FileClient 11.06.19 15:18:TableCheckRequest on Client notified
+CLIENT-FileClient 11.06.19 15:18:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:18:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:20:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:20:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:20:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:20:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:34:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:34:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:34:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:34:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:36:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:36:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:36:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:36:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:44:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:44:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:44:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:44:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:53:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:53:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:53:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:53:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:54:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:54:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:54:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:54:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:57:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:57:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:57:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:57:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 15:59:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 15:59:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 15:59:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 15:59:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:09:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:09:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:09:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:09:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:21:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:21:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:21:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:21:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:21:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:21:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:21:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:21:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:28:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:28:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:28:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:28:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:34:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:34:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:34:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:34:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:35:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:36:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:36:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:36:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:47:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:47:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:47:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:47:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:49:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:49:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:49:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:49:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:51:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:51:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:51:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:51:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 16:53:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 16:53:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 16:53:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 16:53:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:05:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:05:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:05:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:05:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:16:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:16:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:16:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:16:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:44:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:44:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:44:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:44:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:49:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:49:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:49:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:49:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:59:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:59:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:59:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:59:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 17:59:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 17:59:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 17:59:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 17:59:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:08:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:08:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:08:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:08:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:16:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:16:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:16:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:16:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:18:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:18:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:18:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:18:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:25:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:25:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:25:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:25:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:25:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:25:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:25:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:25:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:26:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:26:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:26:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:26:PLC-WARMSTART DONE OK
+CLIENT-FileClient 11.06.19 18:30:TABLE_CHECK_START
+CLIENT-FileClient 11.06.19 18:30:TABLE_CHECK_END got
+CLIENT-FileClient 11.06.19 18:30:CALLING PLC-WARMSTART FROM FileSupervisor
+CLIENT-FileClient 11.06.19 18:30:PLC-WARMSTART DONE OK
+CLIENT-FAMIL-FileClient 11.06.19 18:32:FSV started PID# 4936 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 11.06.19 18:32:Installed listen-socket 456 
+CLIENT-FAMIL-FileClient 11.06.19 18:32:Comm-socket 460
+CLIENT-FAMIL-FileClient 11.06.19 18:32:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 11.06.19 18:32:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 11.06.19 18:32:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 11.06.19 18:33:FSV started PID# 4696 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 11.06.19 18:33:Installed listen-socket 460 
+CLIENT-FAMIL-FileClient 11.06.19 18:33:Comm-socket 464
+CLIENT-FAMIL-FileClient 11.06.19 18:33:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 11.06.19 18:33:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 11.06.19 18:33:TABLE_CHECK_END got
+MASTER-FileMaster 11.06.19 18:34:FORCE_CHECK
+MASTER-FileMaster 11.06.19 18:34:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:34:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:39:Local client 5608 forces TableCheck
+MASTER-FileMaster 11.06.19 18:39:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:39:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:42:Local client 5608 forces TableCheck
+MASTER-FileMaster 11.06.19 18:42:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:42:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:44:Local client 5880 forces TableCheck
+MASTER-FileMaster 11.06.19 18:44:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:44:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:44:Local client 5880 forces TableCheck
+MASTER-FileMaster 11.06.19 18:44:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:44:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:54:Local client 756 forces TableCheck
+MASTER-FileMaster 11.06.19 18:54:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:54:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:55:Local client 7088 forces TableCheck
+MASTER-FileMaster 11.06.19 18:55:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:55:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:55:Local client 4592 forces TableCheck
+MASTER-FileMaster 11.06.19 18:55:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:55:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:56:Local client 5280 forces TableCheck
+MASTER-FileMaster 11.06.19 18:56:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:56:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:56:Local client 3464 forces TableCheck
+MASTER-FileMaster 11.06.19 18:56:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:56:fsv_table_check_end
+MASTER-FileMaster 11.06.19 18:58:Local client 2008 forces TableCheck
+MASTER-FileMaster 11.06.19 18:58:fsv_table_check_start
+MASTER-FileMaster 11.06.19 18:58:fsv_table_check_end
+MASTER-FileMaster 11.06.19 19:01:Local client 2008 forces TableCheck
+MASTER-FileMaster 11.06.19 19:01:fsv_table_check_start
+MASTER-FileMaster 11.06.19 19:01:fsv_table_check_end
+MASTER-FileMaster 11.06.19 19:02:Local client 2008 forces TableCheck
+MASTER-FileMaster 11.06.19 19:02:fsv_table_check_start
+MASTER-FileMaster 11.06.19 19:02:fsv_table_check_end
+MASTER-FileMaster 11.06.19 19:34:Local client 6396 forces TableCheck
+MASTER-FileMaster 11.06.19 19:34:fsv_table_check_start
+MASTER-FileMaster 11.06.19 19:34:fsv_table_check_end
+MASTER-FileMaster 11.06.19 19:45:Local client 4500 forces TableCheck
+MASTER-FileMaster 11.06.19 19:45:fsv_table_check_start
+MASTER-FileMaster 11.06.19 19:45:fsv_table_check_end
+MASTER-FileMaster 11.06.19 19:46:Local client 6160 forces TableCheck
+MASTER-FileMaster 11.06.19 19:46:fsv_table_check_start
+MASTER-FileMaster 11.06.19 19:46:fsv_table_check_end
+MASTER-FileMaster 12.06.19 10:10:WriteSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 12.06.19 10:10:ReadSocket:TCP_CONNECTION_BROKEN->close conn
+MASTER-FileMaster 12.06.19 10:16:FORCE_CHECK_IN_FAMILARIZATION
+MASTER-FileMaster 12.06.19 10:16:fsv_table_check_start
+MASTER-FileMaster 12.06.19 10:17:fsv_table_check_end
+CLIENT-FileClient 12.06.19 10:20:TableCheckRequest on Client notified
+CLIENT-FileClient 12.06.19 10:20:TABLE_CHECK_START
+CLIENT-FileClient 12.06.19 10:20:TABLE_CHECK_END got
+CLIENT-FAMIL-FileClient 12.06.19 10:37:FSV started PID# 1016 as CLIENT on projects/BTAX/
+CLIENT-FAMIL-FileClient 12.06.19 10:37:Installed listen-socket 452 
+CLIENT-FAMIL-FileClient 12.06.19 10:37:Comm-socket 456
+CLIENT-FAMIL-FileClient 12.06.19 10:37:TableCheckRequest on Client notified
+CLIENT-FAMIL-FileClient 12.06.19 10:37:TABLE_CHECK_START
+CLIENT-FAMIL-FileClient 12.06.19 10:37:TABLE_CHECK_END got
+MASTER-FileMaster 12.06.19 10:41:FORCE_CHECK
+MASTER-FileMaster 12.06.19 10:41:fsv_table_check_start
+MASTER-FileMaster 12.06.19 10:41:fsv_table_check_end
+MASTER-FileMaster 12.06.19 12:11:Local client 4048 forces TableCheck
+MASTER-FileMaster 12.06.19 12:11:fsv_table_check_start
+MASTER-FileMaster 12.06.19 12:11:fsv_table_check_end
+MASTER-FileMaster 12.06.19 13:08:Local client 4884 forces TableCheck
+MASTER-FileMaster 12.06.19 13:08:fsv_table_check_start
+MASTER-FileMaster 12.06.19 13:08:fsv_table_check_end
+MASTER-FileMaster 12.06.19 13:10:Local client 4884 forces TableCheck
+MASTER-FileMaster 12.06.19 13:10:fsv_table_check_start
+MASTER-FileMaster 12.06.19 13:10:fsv_table_check_end
+MASTER-FileMaster 12.06.19 13:33:Local client 4408 forces TableCheck
+MASTER-FileMaster 12.06.19 13:33:fsv_table_check_start
+MASTER-FileMaster 12.06.19 13:33:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:16:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:16:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:16:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:20:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:20:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:20:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:22:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:22:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:22:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:24:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:24:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:24:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:25:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:25:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:25:fsv_table_check_end
+MASTER-FileMaster 12.06.19 16:26:Local client 4500 forces TableCheck
+MASTER-FileMaster 12.06.19 16:26:fsv_table_check_start
+MASTER-FileMaster 12.06.19 16:26:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:05:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:05:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:05:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:06:Local client 2272 forces TableCheck
+MASTER-FileMaster 12.06.19 17:06:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:06:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:09:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:09:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:09:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:09:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:09:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:09:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:11:Local client 3540 forces TableCheck
+MASTER-FileMaster 12.06.19 17:11:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:11:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:12:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:12:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:12:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:12:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:12:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:12:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:13:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:13:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:13:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:16:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:16:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:16:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:19:Local client 3032 forces TableCheck
+MASTER-FileMaster 12.06.19 17:19:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:19:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:27:Local client 3540 forces TableCheck
+MASTER-FileMaster 12.06.19 17:27:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:27:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:41:Local client 4940 forces TableCheck
+MASTER-FileMaster 12.06.19 17:41:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:41:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:43:Local client 4940 forces TableCheck
+MASTER-FileMaster 12.06.19 17:43:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:43:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:55:Local client 3636 forces TableCheck
+MASTER-FileMaster 12.06.19 17:55:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:55:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:57:Local client 1324 forces TableCheck
+MASTER-FileMaster 12.06.19 17:57:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:57:fsv_table_check_end
+MASTER-FileMaster 12.06.19 17:59:Local client 2892 forces TableCheck
+MASTER-FileMaster 12.06.19 17:59:fsv_table_check_start
+MASTER-FileMaster 12.06.19 17:59:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:20:Local client 4048 forces TableCheck
+MASTER-FileMaster 13.06.19 11:20:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:20:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:21:Local client 4048 forces TableCheck
+MASTER-FileMaster 13.06.19 11:21:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:21:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:23:Local client 4388 forces TableCheck
+MASTER-FileMaster 13.06.19 11:23:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:23:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:23:Local client 4048 forces TableCheck
+MASTER-FileMaster 13.06.19 11:23:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:23:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:27:Local client 4048 forces TableCheck
+MASTER-FileMaster 13.06.19 11:27:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:27:fsv_table_check_end
+MASTER-FileMaster 13.06.19 11:28:Local client 4388 forces TableCheck
+MASTER-FileMaster 13.06.19 11:28:fsv_table_check_start
+MASTER-FileMaster 13.06.19 11:28:fsv_table_check_end
+MASTER-FileMaster 14.06.19 15:54:Local client 4732 forces TableCheck
+MASTER-FileMaster 14.06.19 15:54:fsv_table_check_start
+MASTER-FileMaster 14.06.19 15:54:fsv_table_check_end
+MASTER-FileMaster 14.06.19 16:11:Local client 2852 forces TableCheck
+MASTER-FileMaster 14.06.19 16:11:fsv_table_check_start
+MASTER-FileMaster 14.06.19 16:11:fsv_table_check_end
+MASTER-FileMaster 17.06.19 07:27:Local client 800 forces TableCheck
+MASTER-FileMaster 17.06.19 07:27:fsv_table_check_start
+MASTER-FileMaster 17.06.19 07:27:fsv_table_check_end
+MASTER-FileMaster 17.06.19 07:48:Local client 4500 forces TableCheck
+MASTER-FileMaster 17.06.19 07:48:fsv_table_check_start
+MASTER-FileMaster 17.06.19 07:48:fsv_table_check_end
+MASTER-FileMaster 17.06.19 09:06:Local client 3868 forces TableCheck
+MASTER-FileMaster 17.06.19 09:06:fsv_table_check_start
+MASTER-FileMaster 17.06.19 09:06:fsv_table_check_end
+MASTER-FileMaster 17.06.19 09:07:Local client 800 forces TableCheck
+MASTER-FileMaster 17.06.19 09:07:fsv_table_check_start
+MASTER-FileMaster 17.06.19 09:07:fsv_table_check_end
+MASTER-FileMaster 17.06.19 09:27:Local client 800 forces TableCheck
+MASTER-FileMaster 17.06.19 09:27:fsv_table_check_start
+MASTER-FileMaster 17.06.19 09:27:fsv_table_check_end
+MASTER-FileMaster 17.06.19 09:39:Local client 3668 forces TableCheck
+MASTER-FileMaster 17.06.19 09:39:fsv_table_check_start
+MASTER-FileMaster 17.06.19 09:39:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:11:Local client 3944 forces TableCheck
+MASTER-FileMaster 17.06.19 10:11:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:11:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:12:Local client 2596 forces TableCheck
+MASTER-FileMaster 17.06.19 10:12:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:12:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:18:Local client 2248 forces TableCheck
+MASTER-FileMaster 17.06.19 10:18:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:18:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:31:Local client 1324 forces TableCheck
+MASTER-FileMaster 17.06.19 10:31:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:31:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:46:Local client 4048 forces TableCheck
+MASTER-FileMaster 17.06.19 10:46:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:46:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:47:Local client 4048 forces TableCheck
+MASTER-FileMaster 17.06.19 10:47:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:47:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:57:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 10:57:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:57:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:58:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 10:58:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:58:fsv_table_check_end
+MASTER-FileMaster 17.06.19 10:59:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 10:59:fsv_table_check_start
+MASTER-FileMaster 17.06.19 10:59:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:01:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:01:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:01:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:02:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:02:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:02:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:06:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:06:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:06:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:06:Local client 3948 forces TableCheck
+MASTER-FileMaster 17.06.19 11:06:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:06:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:07:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:07:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:07:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:08:Local client 3808 forces TableCheck
+MASTER-FileMaster 17.06.19 11:08:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:08:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:09:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:09:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:09:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:10:Local client 4984 forces TableCheck
+MASTER-FileMaster 17.06.19 11:10:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:10:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:11:Local client 3168 forces TableCheck
+MASTER-FileMaster 17.06.19 11:11:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:11:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:15:Local client 3356 forces TableCheck
+MASTER-FileMaster 17.06.19 11:15:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:15:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:15:Local client 4528 forces TableCheck
+MASTER-FileMaster 17.06.19 11:15:fsv_table_check_start
+MASTER-FileMaster 17.06.19 11:15:fsv_table_check_end
+MASTER-FileMaster 17.06.19 11:16:Local client 3668 forces TableCheck

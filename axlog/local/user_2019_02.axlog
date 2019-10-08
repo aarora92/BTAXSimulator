@@ -1,0 +1,973 @@
+2019-02-05 13:13:58-230	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-05 13:14:48-881	0	$$_simulation	on		r	BTAXSA
+2019-02-05 13:15:59-275	0	$$_simulation	off		r	BTAXSA
+2019-02-05 13:16:00-474	0	$$_simulation	on		r	BTAXSA
+2019-02-05 13:17:30-743	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 13:17:33-743	0	MOV3021.BYPASS	off	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 13:18:04-559	0	PrBus18_2.LOCALMAN	on	.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:18:34-555	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 13:19:06-595	0	PrBus18_2.ZSC	off	.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:19:24-595	0	MOV3021.BYPASS	off	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 13:19:45-006	0	PrBus18_2.STAT	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:19:46-007	0	PrBus18_2.LOCALMAN	on	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:19:51-217	0	MOV3021.LOWBATAL	off	RUL to Truck Rack MOV.Low Battery Alarm	r	BTAXSA
+2019-02-05 13:19:52-418	0	MOV3021.FAULT	off	RUL to Truck Rack MOV.MOV Fault Alarm	r	BTAXSA
+2019-02-05 13:20:01-032	0	MOV3021.SI0	off	RUL to Truck Rack MOV.Safety Interlock - Close Valve (external)	r	BTAXSA
+2019-02-05 13:20:09-233	0	MOV3021.sim_mode_action	off	RUL to Truck Rack MOV.	r	BTAXSA
+2019-02-05 13:20:10-832	0	MOV3021.CLOSE	off	RUL to Truck Rack MOV.	r	BTAXSA
+2019-02-05 13:20:15-842	0	MOV3021.CLOSE_OUT	on	RUL to Truck Rack MOV.CLOSE Output	r	BTAXSA
+2019-02-05 13:20:17-042	0	MOV3021.CLOSE_OUT	on	RUL to Truck Rack MOV.CLOSE Output	r	BTAXSA
+2019-02-05 13:20:17-642	0	MOV3021.OPEN_OUT	on	RUL to Truck Rack MOV.OPEN Output	r	BTAXSA
+2019-02-05 13:20:18-446	0	MOV3021.STOP_OUT	on	RUL to Truck Rack MOV.Stop/Maintain Output (0=stop, 1=allow open/close)	r	BTAXSA
+2019-02-05 13:20:19-247	0	MOV3021.Problem	on	RUL to Truck Rack MOV.Problem flag (blinks graphic; external)	r	BTAXSA
+2019-02-05 13:20:21-250	0	MOV3021.Problem	off	RUL to Truck Rack MOV.Problem flag (blinks graphic; external)	r	BTAXSA
+2019-02-05 13:20:24-256	0	MOV3021.LOWBATAL	off	RUL to Truck Rack MOV.Low Battery Alarm	r	BTAXSA
+2019-02-05 13:20:29-062	0	PrBus18_2.STAT	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:30-062	0	PrBus18_2.STAT	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:30-664	0	PrBus18_2.LOCALMAN	on	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:35-869	0	PrBus18_2.MOV3021.LOCALMAN.FORCE	on	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:40-280	0	PrBus18_2.MOV3021.LOCALMAN.FORCE	off	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:41-482	0	PrBus18_2.MOV3021.LOCALMAN.FORCE	on	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:42-684	0	PrBus18_2.MOV3021.LOCALMAN.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:43-486	0	PrBus18_2.MOV3021.LOCALMAN.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:44-286	0	PrBus18_2.MOV3021.LOCALMAN.FORCE	off	RUL to Truck Rack MOV.MOV3021 Remote	r	BTAXSA
+2019-02-05 13:20:47-285	0	PrBus18_2.STAT	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:49-687	0	PrBus18_2.MOV3021.STAT.FORCE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:50-286	0	PrBus18_2.MOV3021.STAT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:52-492	0	PrBus18_2.MOV3021.STAT.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:54-092	0	PrBus18_2.MOV3021.STAT.FORCE	off	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:55-292	0	PrBus18_2.MOV3021.STAT.FORCE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:56-493	0	PrBus18_2.MOV3021.STAT.FORCE	off	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:56-894	0	PrBus18_2.MOV3021.STAT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:57-694	0	PrBus18_2.MOV3021.STAT.FORCE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:20:58-295	0	PrBus18_2.MOV3021.STAT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:21:01-299	0	PrBus18_2.MOV3021.STAT.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:21:02-301	0	PrBus18_2.MOV3021.STAT.FORCE	off	RUL to Truck Rack MOV.MOV3021 Alarm	r	BTAXSA
+2019-02-05 13:21:06-904	0	PrBus18_2.MOV3021.BATT.FORCE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:07-506	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:10-309	0	PrBus18_2.MOV3021.BATT.FORCE	off	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:11-510	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:12-312	0	PrBus18_2.MOV3021.BATT.FORCE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:13-315	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:14-315	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:15-118	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:17-322	0	PrBus18_2.MOV3021.BATT.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:17-921	0	PrBus18_2.MOV3021.BATT.FORCE	off	RUL to Truck Rack MOV.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 13:21:23-716	0	PrBus18_2.ZSO	on	RUL to Truck Rack MOV.MOV3021 Opened	r	BTAXSA
+2019-02-05 13:21:25-713	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:30-513	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:32-115	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:33-118	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:33-717	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:35-118	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:38-923	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:39-723	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:40-526	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:41-326	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:42-128	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:48-536	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:49-538	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:53-937	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:54-937	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:55-937	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:56-937	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:57-937	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:21:59-338	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:00-737	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:01-940	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:02-940	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:03-739	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:04-540	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:06-740	0	MOV3021.CLOSED	off	RUL to Truck Rack MOV.Valve closed status	r	BTAXSA
+2019-02-05 13:22:07-542	0	MOV3021.MOVING	on	RUL to Truck Rack MOV.Valve moving status	r	BTAXSA
+2019-02-05 13:22:09-739	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:11-138	0	MOV3021.MOVING	off	RUL to Truck Rack MOV.Valve moving status	r	BTAXSA
+2019-02-05 13:22:11-937	0	MOV3021.CLOSED	on	RUL to Truck Rack MOV.Valve closed status	r	BTAXSA
+2019-02-05 13:22:14-138	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:18-339	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:19-138	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:31-733	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:37-132	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:46-525	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:47-526	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:48-326	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:50-927	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:22:51-928	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:07-539	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:09-339	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:10-338	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:11-138	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:12-335	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:13-532	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:14-730	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:15-532	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:16-730	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:19-729	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:20-729	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:21-729	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:22-727	0	PrBus18_2.MOV3021.ZSC.FORCE_VALUE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:32-740	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:34-140	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:34-940	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:35-740	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:36-542	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:37-342	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:37-944	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:38-944	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:46-349	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:47-148	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:47-948	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:48-749	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:49-549	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:50-349	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:50-948	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:51-549	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:52-148	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:52-747	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:58-746	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:23:59-348	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:00-148	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:00-747	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:01-349	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:01-951	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:02-753	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:04-556	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:22-365	0	PrBus18_2.ZSC	off	.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:25-562	0	PrBus18_2.MOV3021.ZSC.FORCE	on	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 13:24:27-559	0	PrBus18_2.MOV3021.ZSC.FORCE	off	RUL to Truck Rack MOV.MOV3021 Closed	r	BTAXSA
+2019-02-05 14:38:15-260	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-05 14:56:43-520	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-05 15:00:45-960	0	$$_simulation	on		r	BTAXSA
+2019-02-05 15:01:13-759	0	PrBus5_2.M10BVR1	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:18-364	0	PrBus5_2.M10BVR1	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:22-959	0	PrBus5_2.M10BVR1.FORCE	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:23-558	0	PrBus5_2.M10BVR1.FORCE_VALUE	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:27-348	0	PrBus5_2.M10BVR1.FORCE_VALUE	off	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:31-937	0	PrBus5_2.M10BVR1.FORCE_VALUE	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:34-132	0	PrBus5_2.M10BVR1.FORCE_VALUE	off	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:34-532	0	PrBus5_2.M10BVR1.FORCE	off	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:36-128	0	PrBus5_2.M10BVR1.FORCE_VALUE	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:01:37-526	0	PrBus5_2.M10BVR1	on	.Accuload Meter 10 Product 1 (RUL) Request	r	BTAXSA
+2019-02-05 15:02:12-506	0	PrBus18_2.I0_0	off	Truck Rack 4A PB18 - Slot 2.MOV3021 Closed	r	BTAXSA
+2019-02-05 15:02:13-503	0	PrBus18_2.I0_1	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Opened	r	BTAXSA
+2019-02-05 15:02:14-502	0	PrBus18_2.I0_1	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Opened	r	BTAXSA
+2019-02-05 15:02:15-502	0	PrBus18_2.I0_0	off	Truck Rack 4A PB18 - Slot 2.MOV3021 Closed	r	BTAXSA
+2019-02-05 15:02:16-698	0	PrBus18_2.I0_1	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Opened	r	BTAXSA
+2019-02-05 15:02:17-497	0	PrBus18_2.I0_1	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Opened	r	BTAXSA
+2019-02-05 15:24:52-707	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:24:53-506	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:24:54-308	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:24:55-305	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:24:58-507	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:24:59-108	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:24:59-707	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:25:01-507	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:25:02-706	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:25:04-701	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:25:05-701	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:25:06-299	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:25:07-298	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:25:07-497	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:25:08-296	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:25:08-696	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:26:41-380	0	PrBus17_5X.I0_1	on	Substation PB 4 Slot 8 - 8 DI.10" Gasoline to Dock	r	BTAXSA
+2019-02-05 15:26:42-180	0	PrBus17_5X.I0_2	on	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:26:43-181	0	PrBus17_5X.I0_2	off	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:26:43-980	0	PrBus17_5X.I0_2	on	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:26:45-584	0	PrBus17_5X.I0_2	off	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:26:47-187	0	PrBus17_5X.I0_4	on	Substation PB 4 Slot 8 - 8 DI.10" Diesel to Dock	r	BTAXSA
+2019-02-05 15:26:47-989	0	PrBus17_5X.I0_4	off	Substation PB 4 Slot 8 - 8 DI.10" Diesel to Dock	r	BTAXSA
+2019-02-05 15:26:48-790	0	PrBus17_5X.I0_5	on	Substation PB 4 Slot 8 - 8 DI.HV3036 Tank 2196 Finished SUL91 Gasoline	r	BTAXSA
+2019-02-05 15:26:49-592	0	PrBus17_5X.I0_5	off	Substation PB 4 Slot 8 - 8 DI.HV3036 Tank 2196 Finished SUL91 Gasoline	r	BTAXSA
+2019-02-05 15:26:50-394	0	PrBus17_5X.I0_6	on	Substation PB 4 Slot 8 - 8 DI.HV3036 Tank 2196 Finished SUL91 Gasoline	r	BTAXSA
+2019-02-05 15:26:51-395	0	PrBus17_5X.I0_6	off	Substation PB 4 Slot 8 - 8 DI.HV3036 Tank 2196 Finished SUL91 Gasoline	r	BTAXSA
+2019-02-05 15:26:51-994	0	PrBus17_5X.I0_7	on	Substation PB 4 Slot 8 - 8 DI.6'' SUL TO TK3156	r	BTAXSA
+2019-02-05 15:26:52-795	0	PrBus17_5X.I0_7	off	Substation PB 4 Slot 8 - 8 DI.6'' SUL TO TK3156	r	BTAXSA
+2019-02-05 15:26:54-595	0	PrBus17_5X.I0_0	off	Substation PB 4 Slot 8 - 8 DI.6" Gasoline to Tk3156	r	BTAXSA
+2019-02-05 15:27:29-006	0	PrBus17_5X.I0_0	off	Substation PB 4 Slot 8 - 8 DI.6" Gasoline to Tk3156	r	BTAXSA
+2019-02-05 15:27:29-805	0	PrBus17_5X.I0_0	off	Substation PB 4 Slot 8 - 8 DI.6" Gasoline to Tk3156	r	BTAXSA
+2019-02-05 15:27:30-605	0	PrBus17_5X.I0_0	off	Substation PB 4 Slot 8 - 8 DI.6" Gasoline to Tk3156	r	BTAXSA
+2019-02-05 15:27:31-605	0	PrBus17_5X.I0_1	on	Substation PB 4 Slot 8 - 8 DI.10" Gasoline to Dock	r	BTAXSA
+2019-02-05 15:27:32-602	0	PrBus17_5X.I0_1	on	Substation PB 4 Slot 8 - 8 DI.10" Gasoline to Dock	r	BTAXSA
+2019-02-05 15:27:33-201	0	PrBus17_5X.I0_2	on	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:27:34-200	0	PrBus17_5X.I0_2	off	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:27:35-000	0	PrBus17_5X.I0_2	on	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:27:35-599	0	PrBus17_5X.I0_2	off	Substation PB 4 Slot 8 - 8 DI.6" Stove to Tk3117	r	BTAXSA
+2019-02-05 15:28:00-819	0	PrBus18_2.I0_0	off	Truck Rack 4A PB18 - Slot 2.MOV3021 Closed	r	BTAXSA
+2019-02-05 15:28:01-818	0	PrBus18_2.I0_2	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Battery Low	r	BTAXSA
+2019-02-05 15:28:02-816	0	PrBus18_2.I0_3	on	Truck Rack 4A PB18 - Slot 2.MOV3021 Alarm	r	BTAXSA
+2019-02-05 15:28:03-615	0	PrBus18_2.I0_4	off	Truck Rack 4A PB18 - Slot 2.MOV3021 Remote	r	BTAXSA
+2019-02-05 15:28:04-213	0	PrBus18_2.I0_5	off	Truck Rack 4A PB18 - Slot 2.MOV3022 Closed	r	BTAXSA
+2019-02-05 15:28:04-813	0	PrBus18_2.I0_6	on	Truck Rack 4A PB18 - Slot 2.MOV3022 Opened	r	BTAXSA
+2019-02-05 15:28:05-611	0	PrBus18_2.I0_7	on	Truck Rack 4A PB18 - Slot 2.MOV3022 Battery Low	r	BTAXSA
+2019-02-05 15:28:06-812	0	PrBus18_2.I1_0	on	Truck Rack 4A PB18 - Slot 2.MOV3022 Alarm	r	BTAXSA
+2019-02-05 15:28:07-811	0	PrBus18_2.I1_1	off	Truck Rack 4A PB18 - Slot 2.MOV3022 Remote	r	BTAXSA
+2019-02-05 15:28:08-410	0	PrBus18_2.I1_2	off	Truck Rack 4A PB18 - Slot 2.MOV3023 Closed	r	BTAXSA
+2019-02-05 15:28:09-207	0	PrBus18_2.I1_3	on	Truck Rack 4A PB18 - Slot 2.MOV3023 Opened	r	BTAXSA
+2019-02-05 15:28:09-809	0	PrBus18_2.I1_4	on	Truck Rack 4A PB18 - Slot 2.MOV3023 Battery Low	r	BTAXSA
+2019-02-05 15:28:10-408	0	PrBus18_2.I1_5	on	Truck Rack 4A PB18 - Slot 2.MOV3023 Alarm	r	BTAXSA
+2019-02-05 15:28:11-007	0	PrBus18_2.I1_6	off	Truck Rack 4A PB18 - Slot 2.MOV3023 Remote	r	BTAXSA
+2019-02-05 15:28:11-609	0	PrBus18_2.I1_7	on	Truck Rack 4A PB18 - Slot 2.	r	BTAXSA
+2019-02-05 15:28:47-217	0	PrBus18_2.I0_0	off	Truck Rack 4A PB18 - Slot 2.MOV3021 Closed	r	BTAXSA
+2019-02-05 15:29:58-680	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:30:43-687	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:30:44-687	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:31:05-513	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:31:06-115	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:31:06-516	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:31:06-917	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:32:58-334	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:32:59-535	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:33:00-334	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:33:11-342	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:33:13-944	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:33:14-944	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:22-398	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:26-805	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:27-809	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:28-809	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:31-411	0	PrBus5_2.I0_2.FORCE	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:34-213	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:35-213	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:39-213	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:34:44-619	0	PrBus5_2.I0_2.FORCE	off	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:00-236	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:02-632	0	PrBus5_2.I0_2.FORCE	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:04-433	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:05-232	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:06-434	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:07-236	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:07-835	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:08-236	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:08-634	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:08-835	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:09-035	0	PrBus5_2.M20PMP	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:11-036	0	PrBus5_2.M20PMP.FORCE_VALUE	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:12-239	0	PrBus5_2.M20PMP.FORCE_VALUE	off	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:13-039	0	PrBus5_2.M20PMP.FORCE_VALUE	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:17-444	0	PrBus5_2.M20PMP.FORCE_VALUE	off	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:18-045	0	PrBus5_2.M20PMP.FORCE	off	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:35:20-447	0	PrBus5_2.M20PMP.FORCE_VALUE	on	.Accuload Meter 20 Pump Start Request	r	BTAXSA
+2019-02-05 15:36:20-842	0	MOV3021.BYPASS	off	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:36:59-653	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:37:03-457	0	MOV3021.BYPASS	off	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:37:36-240	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:37:47-836	0	MOV3021.BYPASS	off	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:40:37-674	0	XL_PBM_1.Error	on	.	r	BTAXSA
+2019-02-05 15:40:41-670	0	MOV3021.BYPASS	on	RUL to Truck Rack MOV.Bypass flag (internal/external)	r	BTAXSA
+2019-02-05 15:40:45-269	0	XL_PBM_1.Error	off	.	r	BTAXSA
+2019-02-05 15:45:55-907	0	XL_PBM_1.State	Offline	.Current state of the profibus master	r	BTAXSA
+2019-02-05 15:46:02-105	0	XL_PBM_1.Device_not_active	on	.	r	BTAXSA
+2019-02-05 15:47:52-299	0	PrBus18_1.freeze_mode	on	.	r	BTAXSA
+2019-02-05 15:48:00-900	0	PrBus18_1.freeze_mode	off	.	r	BTAXSA
+2019-02-05 15:48:03-897	0	PrBus18_1.freeze_mode	on	.	r	BTAXSA
+2019-02-05 15:48:05-296	0	PrBus18_1.freeze_mode	off	.	r	BTAXSA
+2019-02-05 15:48:08-898	0	PrBus18_1.unsync	on	.	r	BTAXSA
+2019-02-05 15:48:15-502	0	PrBus18_1.unsync	off	.	r	BTAXSA
+2019-02-05 15:49:23-694	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSA
+2019-02-06 06:13:58-502	0	Login		User <ramin> logged in: access=0xFFFFFFFF	ramin	PCN212AXLAB
+2019-02-06 06:14:38-380	0	$$_simulation	off		ramin	PCN212AXLAB
+2019-02-06 06:25:53-196	0	PMP3007.BYPASS	on	.	ramin	PCN212AXLAB
+2019-02-06 06:25:59-609	0	PMP3001.BYPASS	on	.	ramin	PCN212AXLAB
+2019-02-06 06:26:02-414	0	PMP3002.BYPASS	on	.	ramin	PCN212AXLAB
+2019-02-06 06:26:05-823	0	MOV3051.BYPASS	on	OILY WATER SEPARATOR MOV.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:26:11-036	0	MOV3022.BYPASS	on	Ethanol to Truck Rack MOV.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:26:14-243	0	MOV3023.BYPASS	on	RUL-Ethanol Truck Rack Crossover MOV.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:26:21-859	0	PMP3022.BYPASS	on	.	ramin	PCN212AXLAB
+2019-02-06 06:26:37-095	0	PMP3014.BYPASS	on	.	ramin	PCN212AXLAB
+2019-02-06 06:26:54-737	0	MX3157.BYPASS	on	Tank 3157 Mixer.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:27:00-750	0	MX3117.BYPASS	on	Tank 3117 Mixer.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:27:03-358	0	MX3116.BYPASS	on	Tank 3116 Mixer.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:27:07-967	0	SV3084B.BYPASS	on	Tank 3296 Zone 2 Steam Valve.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:27:10-374	0	SV3084A.BYPASS	on	Tank 3296 Zone 1 Steam Valve.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:27:12-980	0	XV3082.BYPASS	on	Tank 3296 Inlet Shutoff Valve.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:27:15-384	0	PMP3010.BYPASS	on	J-3010 BioDiesel Transfer Pump.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:28:02-898	0	XV3082.BYPASS	off	Tank 3296 Inlet Shutoff Valve.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:28:03-500	0	XV3082.BYPASS	on	Tank 3296 Inlet Shutoff Valve.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:28:12-723	0	PMP3020.BYPASS	on	Booster Pump J3020.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:15-128	0	PMP3019.BYPASS	on	Booster Pump J3019.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:19-336	0	PMP3006A.BYPASS	on	Booster Pump J3006A.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:21-540	0	PMP3006B.BYPASS	on	Booster Pump J3006B.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:30-963	0	MOV4003.BYPASS	on	RSD Export MOV.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:33-769	0	MOV4002.BYPASS	on	Diesel Export MOV.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:28:36-575	0	MOV4001.BYPASS	on	Gasoline Export MOV.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:29:55-352	0	PMP4024.BYPASS	on	West Dock Jet Dewatering Pump.	ramin	PCN212AXLAB
+2019-02-06 06:29:58-361	0	PMP4022.BYPASS	on	West Dock Jet A Corrosion Inhib Additive Pump.	ramin	PCN212AXLAB
+2019-02-06 06:30:02-971	0	PMP4021.BYPASS	on	West Dock Jet A De-Icer Additive Pump.	ramin	PCN212AXLAB
+2019-02-06 06:30:47-673	0	PMP4201A.BYPASS	on	Ethanol Offloading Pump.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:30:50-479	0	PMP4201B.BYPASS	on	Ethanol Offloading Pump.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:30:52-483	0	PMP4201C.BYPASS	on	Ethanol Offloading Pump.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:30:55-089	0	PMP4201D.BYPASS	on	Ethanol Offloading Pump.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:31:10-526	0	J4001.BYPASS	on	.Bypass flag (internal/external)	ramin	PCN212AXLAB
+2019-02-06 06:31:16-137	0	MOV4251.BYPASS	on	Stove to Rail North #1.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:18-342	0	MOV4261.BYPASS	on	ULSD to Rail North #1.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:19-746	0	MOV4252.BYPASS	on	Stove to Rail South #1.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:22-549	0	MOV4262.BYPASS	on	ULSD to Rail South #1.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:25-155	0	MOV4253.BYPASS	on	Stove to Rail North #3.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:27-760	0	MOV4263.BYPASS	on	ULSD to Rail North #3.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:29-966	0	MOV4254.BYPASS	on	Stove to Rail South #3.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:32-571	0	MOV4264.BYPASS	on	ULSD to Rail South #3.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:35-377	0	MOV4255.BYPASS	on	Stove to Rail North #4.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:37-382	0	MOV4256.BYPASS	on	Stove to Rail South #4.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:39-987	0	MOV4265.BYPASS	on	ULSD to Rail North #4.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:41-993	0	MOV4266.BYPASS	on	ULSD to Rail South #4.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:44-598	0	MOV4257.BYPASS	on	Stove to Rail North #5.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:46-604	0	MOV4267.BYPASS	on	ULSD to Rail North #5.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:50-012	0	MOV4258.BYPASS	on	Stove to Rail South #5.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:52-618	0	MOV4268.BYPASS	on	ULSD to Rail South #5.Bypass flag (external)	ramin	PCN212AXLAB
+2019-02-06 06:31:59-032	0	MOV4201.BYPASS	on	Rail Spur Deluge Water MOV.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:32:01-437	0	PMP4203A.BYPASS	on	Rail Spur Sump Pump 1.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 06:32:03-642	0	PMP4203B.BYPASS	on	Rail Spur Sump Pump 2.PUMP IS IN BYPASS	ramin	PCN212AXLAB
+2019-02-06 07:04:19-342	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 07:19:13-180	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	PCN212AXLAB
+2019-02-06 07:24:46-023	0	XL_PBM_1.baudrate	Bd_500K	.is the used bautrate of the profibus master	r	BTAXSA
+2019-02-06 07:33:59-145	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-06 07:34:07-332	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-06 07:34:18-127	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-06 07:36:03-171	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-06 07:39:22-957	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-06 07:39:27-351	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-06 07:39:28-950	0	EssoTCP_RW.Symbol_select	on	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-06 07:40:46-578	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-06 07:41:28-187	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 07:42:55-979	0	LeakComm1.select	on	Leak data comms with aX leak server 1.Enable data exchange	r	BTAXSA
+2019-02-06 07:42:59-177	0	LeakComm2.select	on	Leak data comms with aX leak server 2.Enable data exchange	r	BTAXSA
+2019-02-06 07:43:16-375	0	LeakTCP1.Symbol_select	on	TCP/IP communication with aX leak servers.Symbol selection	r	BTAXSA
+2019-02-06 07:43:19-375	0	LeakTCP2.Symbol_select	on	TCP/IP communication with aX leak servers.Symbol selection	r	BTAXSA
+2019-02-06 07:59:10-506	0	TDCComm.select	off	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-06 07:59:11-503	0	TDCComm.select	on	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-06 07:59:31-470	0	TDCComm.reset	on	TDC Communications.resets the serial communication	r	BTAXSA
+2019-02-06 08:00:33-569	0	TDCComm.slave_address	2	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-06 08:00:34-168	0	TDCComm.slave_address	3	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-06 08:13:37-842	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-06 08:29:37-209	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	PCN212AXLAB
+2019-02-06 08:49:19-539	0	EDMeter4.EDMeter4.PathAlarm.ACK	off	.Multiple Valves Open	r	BTAXSA
+2019-02-06 08:49:20-138	0	EDMeter4.EDMeter4.PathAlarm.ACK	on	.Multiple Valves Open	r	BTAXSA
+2019-02-06 08:50:10-822	0	PrBus11_4.HV4241.ZSC	on	.HV4241-Close Feedback-J4201/04 to T-3157	r	BTAXSA
+2019-02-06 08:52:18-733	0	TK3117F.dlgProductName	B0	.	r	BTAXSA
+2019-02-06 08:52:34-697	0	TK3116F.dlgProductName	B0	.	r	BTAXSA
+2019-02-06 08:53:36-954	0	TK2196.dlgProductName	TACTROL	.	r	BTAXSA
+2019-02-06 08:56:30-594	0	PrBus5_2.I0_1	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:56:31-193	0	PrBus5_2.I0_1	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:14-168	0	PrBus5_2.I0_1.FORCE	on	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:19-555	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:23-346	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:24-144	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:28-934	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:36-516	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:50-286	0	PrBus5_2.I0_1	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:53-280	0	PrBus5_2.I0_1.FORCE	on	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:58:59-066	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:59:05-453	0	PrBus5_2.I0_1.FORCE	off	Truck Rack PB 5 Slot 2 - 8 DI.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:59:18-223	0	PrBus5_2.PV	off	Meter 10 Accuload Fault.Accuload Meter 10 Fault	r	BTAXSB
+2019-02-06 08:59:26-604	0	CA3051AL.Alarm	off	Meter 10 Accuload Fault.	r	BTAXSB
+2019-02-06 09:09:41-032	0	MOV3051.BYPASS	off	OILY WATER SEPARATOR MOV.Bypass flag (internal/external)	r	BTAXSB
+2019-02-06 09:15:35-263	0	TK2195.dlgProductName	8	.	r	BTAXSB
+2019-02-06 09:15:38-257	0	TK2198.dlgProductName	8	.	r	BTAXSB
+2019-02-06 09:19:52-154	0	TK3157_to_IMP_YE	on		r	BTAXSB
+2019-02-06 09:19:57-543	0	TK3157_to_IMP_YE	off		r	BTAXSB
+2019-02-06 09:20:01-934	0	TK3117_to_IMP_YE	on		r	BTAXSB
+2019-02-06 09:20:08-517	0	TK3117_to_IMP_YE	off		r	BTAXSB
+2019-02-06 09:24:06-434	0	TankNumber	3157		r	BTAXSA
+2019-02-06 09:27:41-937	0	Eth_Offl_Sel	on		r	BTAXSA
+2019-02-06 09:27:42-934	0	Eth_Offl_Sel	off		r	BTAXSA
+2019-02-06 09:27:45-128	0	Eth_Strip_Sel	on		r	BTAXSA
+2019-02-06 09:27:45-927	0	Eth_Strip_Sel	off		r	BTAXSA
+2019-02-06 09:27:50-118	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 09:30:04-812	0	TK3117_to_IMP_YE	on		r	BTAXSA
+2019-02-06 09:30:14-589	0	TK3117_to_IMP_YE	off		r	BTAXSA
+2019-02-06 09:30:22-372	0	TK3117_to_IMP_YE	on		r	BTAXSA
+2019-02-06 09:30:23-769	0	TK3117_to_IMP_YE	off		r	BTAXSA
+2019-02-06 09:30:29-157	0	TK3116_to_IMP_YE	on		r	BTAXSA
+2019-02-06 09:30:34-744	0	TK3116_to_IMP_YE	off		r	BTAXSA
+2019-02-06 09:30:37-140	0	TK3157_to_IMP_YE	on		r	BTAXSA
+2019-02-06 09:30:39-733	0	TK3157_to_IMP_YE	off		r	BTAXSA
+2019-02-06 09:32:35-664	0	TK45.dlgProductName	B100	Tank 45.	r	BTAXSA
+2019-02-06 09:32:44-642	0	TK55.dlgProductName	B100	Tank 55.	r	BTAXSA
+2019-02-06 09:36:57-858	0	PIC4041.control_visual	5 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:08-434	0	PIC4041.control_visual	9 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:09-631	0	PIC4041.control_visual	10 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:10-428	0	PIC4041.control_visual	11 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:14-020	0	PIC4041.control_visual	12 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:22-801	0	PIC4041.control_visual	11 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:24-197	0	PIC4041.control_visual	0 %	10" RSD Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:32-976	0	PIC4031.control_visual	3 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:33-973	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:40-559	0	PIC4031.control_visual	0 %	10" Stove/Diesel Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:48-342	0	PIC4011.control_visual	34 %	8" RUL Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:52-730	0	PIC4011.control_visual	33 %	8" RUL Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:53-529	0	PIC4011.control_visual	9 %	8" RUL Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:37:54-726	0	PIC4011.control_visual	0 %	8" RUL Control Valve.Control Ouput - Visual	r	BTAXSA
+2019-02-06 09:38:05-901	0	RSD_WDimport_req	on	Request RSD import at West Dock	r	BTAXSA
+2019-02-06 09:38:13-084	0	RSD_WDimport_req	off	Request RSD import at West Dock	r	BTAXSA
+2019-02-06 09:38:21-266	0	J3020_RSD_sel	on		r	BTAXSA
+2019-02-06 09:38:22-263	0	J3019_RSD_sel	on		r	BTAXSA
+2019-02-06 09:38:23-460	0	J3006A_RSD_sel	on		r	BTAXSA
+2019-02-06 09:38:24-059	0	J3006B_RSD_sel	on		r	BTAXSA
+2019-02-06 09:38:50-000	0	J3006B_RSD_sel	off		r	BTAXSA
+2019-02-06 09:38:50-400	0	J3006A_RSD_sel	off		r	BTAXSA
+2019-02-06 09:38:50-997	0	J3006A_RSD_sel	on		r	BTAXSA
+2019-02-06 09:38:51-598	0	J3019_RSD_sel	off		r	BTAXSA
+2019-02-06 09:38:52-196	0	J3006A_RSD_sel	off		r	BTAXSA
+2019-02-06 09:38:53-392	0	J3020_RSD_sel	off		r	BTAXSA
+2019-02-06 09:38:55-188	0	J3020_LSD_sel	on		r	BTAXSA
+2019-02-06 09:38:56-585	0	J3019_LSD_sel	on		r	BTAXSA
+2019-02-06 09:38:57-584	0	J3006A_LSD_sel	on		r	BTAXSA
+2019-02-06 09:38:58-780	0	J3006B_LSD_sel	on		r	BTAXSA
+2019-02-06 09:39:08-756	0	J3020_LSD_sel	off		r	BTAXSA
+2019-02-06 09:39:09-355	0	J3019_LSD_sel	off		r	BTAXSA
+2019-02-06 09:39:09-953	0	J3006A_LSD_sel	off		r	BTAXSA
+2019-02-06 09:39:10-552	0	J3006B_LSD_sel	off		r	BTAXSA
+2019-02-06 09:39:11-551	0	J3020_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:12-348	0	J3019_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:14-543	0	J3006A_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:16-338	0	J3006B_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:19-730	0	J3006B_EX_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:23-322	0	J3006B_EX_RUL_sel	off		r	BTAXSA
+2019-02-06 09:39:25-917	0	J3006B_RUL_sel	off		r	BTAXSA
+2019-02-06 09:39:30-308	0	J3006B_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:35-095	0	J3006B_RUL_sel	off		r	BTAXSA
+2019-02-06 09:39:39-884	0	J3006B_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:41-282	0	J3006B_EX_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:46-069	0	J3006B_EX_RUL_sel	off		r	BTAXSA
+2019-02-06 09:39:48-265	0	J3006B_RUL_sel	off		r	BTAXSA
+2019-02-06 09:39:53-453	0	J3006B_RUL_sel	on		r	BTAXSA
+2019-02-06 09:39:59-039	0	J3006B_EX_RUL_sel	on		r	BTAXSA
+2019-02-06 09:40:00-635	0	J3006B_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:04-227	0	J3006B_EX_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:10-013	0	J3006B_EX_RUL_sel	on		r	BTAXSA
+2019-02-06 09:40:14-404	0	J3006B_EX_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:16-000	0	J3006B_RUL_sel	on		r	BTAXSA
+2019-02-06 09:40:20-588	0	J3006B_EX_RUL_sel	on		r	BTAXSA
+2019-02-06 09:40:27-772	0	J3006B_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:28-569	0	J3006B_EX_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:29-368	0	J3006A_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:29-967	0	J3019_RUL_sel	off		r	BTAXSA
+2019-02-06 09:40:30-365	0	J3020_RUL_sel	off		r	BTAXSA
+2019-02-06 09:46:20-980	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSA
+2019-02-06 09:57:58-562	0	PIC4220.control_visual	7 %	Rail Rack Stove Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:58:01-157	0	PIC4220.control_visual	7 %	Rail Rack Stove Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:58:02-154	0	PIC4220.control_visual	17 %	Rail Rack Stove Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:58:05-746	0	PIC4220.control_visual	0 %	Rail Rack Stove Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:58:10-135	0	PIC4230.control_visual	10 %	Rail Rack Diesel Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:59:00-819	0	PIC4230.control_visual	0 %	Rail Rack Diesel Control Valve.Control Ouput - Visual	guest	BTAXSA
+2019-02-06 09:59:35-341	0	ForcedPaths.RN1_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:38-933	0	ForcedPaths.RN2_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:39-530	0	ForcedPaths.RN3_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:40-130	0	ForcedPaths.RN4_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:44-719	0	ForcedPaths.RS1_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:45-717	0	ForcedPaths.RS2_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:46-115	0	ForcedPaths.RS3_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:46-515	0	ForcedPaths.RS4_ULSD	on	close dialog.	guest	BTAXSA
+2019-02-06 09:59:50-706	0	ForcedPaths.RN1_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:51-305	0	ForcedPaths.RN2_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:51-903	0	ForcedPaths.RN3_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:52-302	0	ForcedPaths.RN4_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:52-901	0	ForcedPaths.RS1_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:53-299	0	ForcedPaths.RS2_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:53-698	0	ForcedPaths.RS3_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 09:59:57-690	0	ForcedPaths.RS4_ULSD	off	close dialog.	guest	BTAXSA
+2019-02-06 10:24:05-391	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 10:28:07-742	0	PrBus11_18.Scale0	0->20mA	Rack 2 Slot 5 Analog Input.	r	BTAXSA
+2019-02-06 10:28:12-535	0	PrBus11_18.Scale0	4->20mA	Rack 2 Slot 5 Analog Input.	r	BTAXSA
+2019-02-06 10:28:23-914	0	PrBus11_18.Scale1	0->20mA	Rack 2 Slot 5 Analog Input.	r	BTAXSA
+2019-02-06 10:28:30-311	0	PrBus11_18.Scale1	4->20mA	Rack 2 Slot 5 Analog Input.	r	BTAXSA
+2019-02-06 10:31:19-813	0	PrBus12_6.Scale1	0->20mA	Rack 1 Slot 6 AI.	r	BTAXSA
+2019-02-06 10:31:26-203	0	PrBus12_6.Scale1	4->20mA	Rack 1 Slot 6 AI.	r	BTAXSA
+2019-02-06 10:31:41-568	0	PrBus12_6.Scale1	-20->+20mA	Rack 1 Slot 6 AI.	r	BTAXSA
+2019-02-06 10:31:44-760	0	PrBus12_6.Scale1	4->20mA	Rack 1 Slot 6 AI.	r	BTAXSA
+2019-02-06 11:32:57-566	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-06 11:33:13-000	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 11:33:35-769	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-06 11:33:35-969	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-06 12:23:48-220	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-06 12:23:51-424	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-06 12:23:51-424	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-06 12:24:06-450	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSA
+2019-02-06 13:50:24-328	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	BTAXSA
+2019-02-13 10:59:30-640	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-13 11:37:17-065	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-13 13:18:18-851	0	AX_ARB.reset_button	on	AX Arbitration.	r	BTAXSA
+2019-02-13 13:18:18-851	0	AX_ARB.reset_button	off	AX Arbitration.	r	BTAXSA
+2019-02-13 13:22:31-806	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-13 13:25:35-275	0	AX_ARB.$$_tcpip_addr_loc	156.44.212.27	AX Arbitration	r	BTAXSA
+2019-02-13 13:25:43-690	0	AX_ARB.$$_tcpip_addr_rem	156.44.212.28	AX Arbitration	r	BTAXSA
+2019-02-13 13:25:57-690	0	AX_ARB.$$_tcpip_addr_loc	200.0.0.1	AX Arbitration	r	BTAXSA
+2019-02-13 13:30:18-056	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-13 16:06:06-680	0	TK3156A.dlgTankID	123	.	r	BTAXSA
+2019-02-13 16:06:17-480	0	TK3156A.dlgTankID	123	.	r	BTAXSA
+2019-02-13 16:08:29-602	0	TK3156A.dlgTankID	3156	.	r	BTAXSA
+2019-02-13 16:08:40-217	0	TK2197F.dlgTankID	2197	.	r	BTAXSA
+2019-02-13 16:08:52-214	0	TK2196F.dlgTankID	2196	.	r	BTAXSA
+2019-02-13 16:21:20-319	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSA
+2019-02-13 16:22:29-418	0	Login		User <admin> logged in: access=0xFFFFFFFF	admin	BTAXSA
+2019-02-13 16:23:24-474	0	TK2196.dlgTankID	3297	.	admin	BTAXSA
+2019-02-13 16:23:54-921	0	TK2195.dlgTankID	2195	.	admin	BTAXSA
+2019-02-13 16:24:00-533	0	TK2198.dlgTankID	2196	.	admin	BTAXSA
+2019-02-13 16:24:11-155	0	TK2198.dlgTankID	2198	.	admin	BTAXSA
+2019-02-13 16:24:48-003	0	TK3117F.dlgProductName	B5	.	admin	BTAXSA
+2019-02-13 16:24:51-405	0	TK3117F.dlgTankID	3117	.	admin	BTAXSA
+2019-02-13 16:24:59-417	0	TK3116F.dlgProductName	R100	.	admin	BTAXSA
+2019-02-13 16:25:02-023	0	TK3116F.dlgTankID	3116	.	admin	BTAXSA
+2019-02-13 16:25:22-233	0	TK3157A.dlgTankID	3157	.	admin	BTAXSA
+2019-02-13 16:33:32-698	0	J3006B_LSD_sel	**		admin	BTAXSA
+2019-02-13 16:33:33-497	0	J3006B_RUL_sel	on		admin	BTAXSA
+2019-02-13 16:33:33-898	0	J3006B_LSD_sel	off		admin	BTAXSA
+2019-02-13 16:33:34-499	0	J3006B_RUL_sel	off		admin	BTAXSA
+2019-02-13 16:33:34-898	0	J3006B_EX_RUL_sel	on		admin	BTAXSA
+2019-02-13 16:33:35-298	0	J3006B_EX_RUL_sel	off		admin	BTAXSA
+2019-02-13 16:33:35-698	0	J3006A_LSD_sel	on		admin	BTAXSA
+2019-02-13 16:33:35-898	0	J3006A_LSD_sel	off		admin	BTAXSA
+2019-02-13 16:33:36-299	0	J3006A_LSD_sel	on		admin	BTAXSA
+2019-02-13 16:33:36-901	0	J3006A_LSD_sel	off		admin	BTAXSA
+2019-02-13 16:33:37-301	0	J3006A_RUL_sel	on		admin	BTAXSA
+2019-02-13 16:33:37-700	0	J3006A_RUL_sel	off		admin	BTAXSA
+2019-02-13 16:33:40-500	0	Unitsub_UPS_Alarm	off		admin	BTAXSA
+2019-02-13 16:33:41-299	0	Unitsub_UPS_Alarm	off		admin	BTAXSA
+2019-02-13 16:33:43-903	0	pipe_RUL_meter20	on	pipe color for RUL if going to meter20	admin	BTAXSA
+2019-02-13 16:33:44-703	0	pipe_RUL_meter10	on	pipe color for RUL if going to meter 10	admin	BTAXSA
+2019-02-13 16:33:45-503	0	pipe_ETH_meter20	on	pipe color for ETH if going to meter 20	admin	BTAXSA
+2019-02-13 16:33:46-105	0	pipe_RUL_meter10	off	pipe color for RUL if going to meter 10	admin	BTAXSA
+2019-02-13 16:33:46-506	0	pipe_ETH_meter20	off	pipe color for ETH if going to meter 20	admin	BTAXSA
+2019-02-13 16:33:46-907	0	pipe_ETH_meter10	on	pipe color for ETH if going to meter 10	admin	BTAXSA
+2019-02-13 16:33:47-308	0	pipe_ETH_meter10	on	pipe color for ETH if going to meter 10	admin	BTAXSA
+2019-02-13 16:33:47-908	0	pipe_ETH_from2197	on	pipe colour for ETH from tank 2197	admin	BTAXSA
+2019-02-13 16:43:23-295	0	TK3296.dlgTankID	3296	Tank 3296 (B100).	admin	BTAXSA
+2019-02-13 16:43:27-094	0	TK3296.dlgProductName	B100	Tank 3296 (B100).	admin	BTAXSA
+2019-02-13 16:44:45-405	0	RSD_WDimport_req	on	Request RSD import at West Dock	admin	BTAXSA
+2019-02-13 16:44:47-209	0	RSD_WDimport_req	off	Request RSD import at West Dock	admin	BTAXSA
+2019-02-13 17:39:24-240	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	admin	BTAXSA
+2019-02-21 15:08:48-469	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-21 15:46:36-584	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-21 15:57:12-638	0	AX_ARB.step_back_button	on	AX Arbitration.	r	BTAXSB
+2019-02-21 15:57:12-638	0	AX_ARB.step_back_button	off	AX Arbitration.	r	BTAXSB
+2019-02-21 16:52:59-618	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSA
+2019-02-21 16:58:04-456	0	Login		User <guest> logged in: access=0x0001	guest	BTAXSB
+2019-02-25 10:34:51-236	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-26 11:17:58-562	0	Ticket1.Reset	on	.	r	BTAXSA
+2019-02-26 11:17:59-562	0	Ticket2.Reset	on	.	r	BTAXSA
+2019-02-26 11:17:59-963	0	Ticket3.Reset	on	.	r	BTAXSA
+2019-02-26 11:18:19-595	0	Ticket1.CopyTicketDly	on	.Copy  ticket flag to feed the offdelay	r	BTAXSA
+2019-02-26 11:18:21-596	0	Ticket1.CopyTicketDly	on	.Copy  ticket flag to feed the offdelay	r	BTAXSA
+2019-02-26 11:18:22-799	0	Ticket1.CopyTicketDly	on	.Copy  ticket flag to feed the offdelay	r	BTAXSA
+2019-02-26 11:19:38-318	0	Ticket1.Reset	off	.	r	BTAXSA
+2019-02-26 11:20:00-951	0	Ticket2.Reset	off	.	r	BTAXSA
+2019-02-26 11:20:16-572	0	Ticket3.Reset	off	.	r	BTAXSA
+2019-02-26 11:34:46-368	0	PCT1.Path	/usr/users/PCTData/	.Destination path	r	BTAXSA
+2019-02-26 12:28:31-352	0	LeakDetection_Bool02.LEAK14	off	.Leak detected on 9514	r	BTAXSA
+2019-02-26 12:28:34-154	0	LeakDetection_Bool02.LEAK14	off	.Leak detected on 9514	r	BTAXSA
+2019-02-26 12:28:34-953	0	LeakDetection_Bool02.LEAK14	off	.Leak detected on 9514	r	BTAXSA
+2019-02-26 12:28:41-559	0	LeakDetection_Bool02.LEAK13	on	.Leak detected on 9513	r	BTAXSA
+2019-02-26 13:00:37-556	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:00:39-158	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:00:44-164	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:00:44-964	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:00:52-581	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:00:53-380	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:09-072	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:11-076	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:13-078	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:13-880	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:25-104	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:04:26-305	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:38:50-072	0	PCT1.FullPath	C:/automationX/proj	.Full path and file name of output file	r	BTAXSA
+2019-02-26 13:46:52-473	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:46:54-674	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:00-483	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:01-282	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:02-684	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:03-286	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:06-693	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:08-296	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:49-946	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:50-947	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:53-950	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:55-552	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:47:59-359	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:00-763	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:03-568	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:05-572	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 13:48:06-775	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 13:48:07-776	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 13:48:08-778	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:11-380	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:36-805	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:46-016	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:49-019	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:50-421	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:51-825	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:48:59-028	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:49:03-634	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 13:49:06-039	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 14:02:12-838	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:16-242	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:16-841	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:17-842	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:18-444	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:18-845	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:19-446	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:19-845	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:20-447	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:20-648	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:21-049	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:21-250	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:21-648	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:22-048	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:22-648	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:22-848	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:23-250	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:23-448	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 14:02:23-848	0	BatchTrack_Bool01.STROBRTN	on	.Strobing the Omni	r	BTAXSA
+2019-02-26 16:47:17-378	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 16:48:32-427	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:00:53-444	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:05:04-358	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:10:52-539	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:10:54-140	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:10:55-539	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:16-750	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:18-752	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:11:19-551	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:20-351	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:25-345	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:46-165	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:47-168	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:47-969	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:48-569	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:49-170	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:11:49-569	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:12:00-770	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:12:01-371	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:12:02-371	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:12:17-582	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:33-798	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:15:35-200	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:15:36-803	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:38-405	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:39-809	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:42-411	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:42-812	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:43-609	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:44-611	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:15:45-411	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:15:46-410	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:19:35-533	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-26 17:19:36-533	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-26 17:19:37-332	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-26 17:21:29-776	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:21:30-177	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:21:30-779	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:21:32-578	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:21:35-181	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:21:36-986	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:21:37-588	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:21:42-198	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:25:38-006	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:25:38-808	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:25:39-410	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:26:00-628	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:26:01-428	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:27:21-104	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:21-703	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:22-104	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:22-303	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:23-503	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:25-503	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:27-303	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:30-510	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:27:33-512	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:03-529	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:03-930	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-128	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-128	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-328	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-528	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-727	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:04-927	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:05-127	0	PCT2.CreateFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:05-726	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:06-328	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:06-727	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:53-165	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:53-565	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:53-966	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:54-164	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:54-763	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:55-562	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:55-763	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:56-563	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:57-966	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:28:59-569	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:06-177	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:06-976	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:07-977	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:08-578	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:14-585	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:15-184	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:16-382	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:17-381	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:18-180	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:19-776	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:22-177	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:22-976	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:24-775	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:26-377	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:29:33-780	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:30:07-190	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:30:07-990	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:30:08-789	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:35:38-346	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:35:39-144	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:35:39-743	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:36:55-575	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:36:55-974	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:37:06-786	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:37:07-187	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:38:28-996	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:38:29-594	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:37-605	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:38:38-006	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:38-407	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:38-806	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:39-207	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:39-808	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:40-209	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:40-608	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:41-209	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:41-608	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:42-209	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:42-608	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:43-009	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:43-608	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:44-009	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:38:44-608	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:29-401	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:30-002	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:30-604	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:31-204	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:31-605	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:32-207	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:32-607	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:33-006	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:33-608	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:34-009	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:34-407	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:34-808	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:41:35-407	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:35-808	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:41:36-207	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:44:52-358	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-26 17:44:52-959	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-26 17:46:21-977	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-26 17:46:22-378	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-26 17:48:37-058	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:48:37-259	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:48:37-857	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:23-740	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:51:24-740	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:51:25-342	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:26-142	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:26-542	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:27-743	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:51:28-543	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:29-144	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:51:29-943	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:30-342	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:51:31-141	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-26 17:51:31-740	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:54:47-543	0	PCT1.TransferFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:54:47-943	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-26 17:54:48-542	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-27 11:41:12-176	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-27 11:41:48-778	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-27 11:41:48-778	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-27 11:56:37-687	0	TDCComm.select	off	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-27 11:56:38-288	0	TDCComm.select	on	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-27 12:03:01-970	0	TDCComm.select	off	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-27 12:03:03-173	0	TDCComm.select	on	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-27 12:04:55-799	0	TDCComm.slave_address	4	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:04:56-801	0	TDCComm.slave_address	3	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:04:57-401	0	TDCComm.slave_address	2	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:04:58-403	0	TDCComm.slave_address	1	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:04:59-405	0	TDCComm.slave_address	2	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:04:59-806	0	TDCComm.slave_address	3	TDC Communications.The modbus slave's address	r	BTAXSA
+2019-02-27 12:05:01-009	0	TDCComm.reset	on	TDC Communications.resets the serial communication	r	BTAXSA
+2019-02-27 12:09:31-161	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-27 12:10:18-440	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-27 12:10:31-467	0	EssoMBM.Symbol_select	off	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 12:10:32-267	0	EssoMBM.Symbol_select	on	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 12:10:43-884	0	EssoTCP_RW.Symbol_select	on	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 12:10:49-895	0	EssoTCP_RW.Local_IP	156.44.212.29	TCP data exchange to Esso.IP Address of Local Host xxx.xxx.xxx.xxx	r	BTAXSA
+2019-02-27 12:11:07-092	0	AX_ARB.step_back_button	on	AX Arbitration.	r	BTAXSA
+2019-02-27 12:11:07-292	0	AX_ARB.step_back_button	off	AX Arbitration.	r	BTAXSA
+2019-02-27 12:13:39-773	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-27 12:14:12-315	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-27 12:14:12-515	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-27 12:23:26-023	0	VRU_TCPComm.Symbol_select	off	TCP Communication to VRU PLC.Symbol selection	r	BTAXSA
+2019-02-27 12:23:27-421	0	VRU_TCPComm.Symbol_select	on	TCP Communication to VRU PLC.Symbol selection	r	BTAXSA
+2019-02-27 12:23:33-013	0	VRUComm.select	off	VRU Modbus-TCP Communication.Enable data exchange	r	BTAXSA
+2019-02-27 12:23:33-611	0	VRUComm.select	on	VRU Modbus-TCP Communication.Enable data exchange	r	BTAXSA
+2019-02-27 12:23:34-809	0	VRUComm.reset_frames	on	VRU Modbus-TCP Communication.Reset frame counts	r	BTAXSA
+2019-02-27 12:23:35-007	0	VRUComm.reset_frames	off	VRU Modbus-TCP Communication.Reset frame counts	r	BTAXSA
+2019-02-27 12:26:35-658	0	Esso_Real07.ESSOMFGAS	1.00129	.Esso Gasoline Meter Factor	r	BTAXSA
+2019-02-27 12:26:56-631	0	Esso_Real07.ESSOMFSTV	1.00240	.Esso Meter Factor Stove	r	BTAXSA
+2019-02-27 12:27:19-398	0	Esso_Real07.ESSOMFDSL	1.00209	.Esso Diesel Meter Factor	r	BTAXSA
+2019-02-27 12:27:26-782	0	Esso_Real07.ESSO14MFGAS	1.00030	.PCan Esso 9514 Meter Factor	r	BTAXSA
+2019-02-27 12:27:35-760	0	Esso_Real07.ESSO14MFSTV	1.00150	.PCan Esso 9514 Meter Factor	r	BTAXSA
+2019-02-27 12:27:43-151	0	Esso_Real07.ESSO14MFDSL	1.00209	.PCan Esso 9514 Meter Factor	r	BTAXSA
+2019-02-27 12:27:50-934	0	Esso_Real07.ESSOMFGASSH	1.00680	.PCan Esso/Shell Meter Factor	r	BTAXSA
+2019-02-27 12:27:58-517	0	Esso_Real07.ESSO14MFGASSH	1.00585	.PCan Esso/Shell 9514 MF	r	BTAXSA
+2019-02-27 13:10:18-818	0	Login		User <r> logged in: access=0xFFFFFFFF	r	PCN-RAIL
+2019-02-27 13:11:49-048	0	PrBus11_12.ZSC	off	ULS Diesel to Rail Rack.T3157 ULSD to Rail Rack Closed	r	PCN-RAIL
+2019-02-27 13:11:49-845	0	PrBus11_12.ZSO	off	ULS Diesel to Rail Rack.T3157 ULSD to Rail Rack Opened	r	PCN-RAIL
+2019-02-27 13:11:56-033	0	PrBus11_12.HV4245.ZSC.FORCE_VALUE	off	ULS Diesel to Rail Rack.T3157 ULSD to Rail Rack Closed	r	PCN-RAIL
+2019-02-27 13:12:31-960	0	PrBus11_12.I0_1.FORCE	on	Rack 1 Slot 12 Input Module.T3117 Stove to Rail Rack Closed	r	PCN-RAIL
+2019-02-27 13:12:32-959	0	PrBus11_12.I0_1.FORCE	off	Rack 1 Slot 12 Input Module.T3117 Stove to Rail Rack Closed	r	PCN-RAIL
+2019-02-27 13:13:09-878	0	PrBus11_12.I0_2	off	Rack 1 Slot 12 Input Module.T3157 ULSD to Rail Rack Opened	r	PCN-RAIL
+2019-02-27 13:13:11-075	0	PrBus11_12.I0_2.FORCE	on	Rack 1 Slot 12 Input Module.T3157 ULSD to Rail Rack Opened	r	PCN-RAIL
+2019-02-27 13:13:13-868	0	PrBus11_12.I0_2.FORCE	off	Rack 1 Slot 12 Input Module.T3157 ULSD to Rail Rack Opened	r	PCN-RAIL
+2019-02-27 14:09:41-546	0	Login		User <r> logged in: access=0xFFFFFFFF	r	PCN-RAIL
+2019-02-27 14:14:00-237	0	PrBus11_13.PV	off	.J-4201/4 Rail Offloading Pressure Switch	r	PCN-RAIL
+2019-02-27 14:14:01-436	0	PrBus11_13.PV	off	.J-4201/4 Rail Offloading Pressure Switch	r	PCN-RAIL
+2019-02-27 14:14:07-025	0	PAL4287.normal	on	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:14:23-990	0	PAL4287.enabled	on	J-4201/4 Low Suction Pressure.Alarming enabled flag	r	PCN-RAIL
+2019-02-27 14:14:24-986	0	PAL4287.enabled	on	J-4201/4 Low Suction Pressure.Alarming enabled flag	r	PCN-RAIL
+2019-02-27 14:14:25-585	0	PAL4287.normal	off	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:14:26-384	0	PAL4287.enabled	on	J-4201/4 Low Suction Pressure.Alarming enabled flag	r	PCN-RAIL
+2019-02-27 14:14:27-780	0	PAL4287.normal	on	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:15:51-404	0	PAL4287.normal	off	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:15:52-601	0	PAL4287.normal	on	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:15:53-799	0	PAL4287.normal	off	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:15:54-598	0	PAL4287.normal	on	J-4201/4 Low Suction Pressure.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:18:48-881	0	PAL4287.delay_time	90 s	J-4201/4 Low Suction Pressure.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:23:24-734	0	FAL4287A.normal	on	J-4201 Low Flow.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:23:28-926	0	FAL4287A.delay_time	90 s	J-4201 Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:23:34-911	0	FAL4287B.normal	on	J-4204 Low Flow.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:23:38-104	0	FAL4287B.delay_time	90 s	J-4204 Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:23:46-684	0	FAL4287A.delay_time	120 s	J-4201 Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:23:57-259	0	FAL4287B.delay_time	120 s	J-4204 Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:24:01-250	0	FAL4287C.normal	on	J-4201C Low Flow.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:24:03-444	0	FAL4287C.delay_time	120 s	J-4201C Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:24:06-638	0	FAL4287D.normal	on	J-4201D Low Flow.Normal value (ie. no alarm if PV=normal)	r	PCN-RAIL
+2019-02-27 14:24:08-632	0	FAL4287D.delay_time	120 s	J-4201D Low Flow.Delay time before off-normal condition alarms	r	PCN-RAIL
+2019-02-27 14:27:20-394	0	PrBus11_4.PV	off	J-4204 Low Flow.J-4201B Ethanol Offloading Flow Switch	r	PCN-RAIL
+2019-02-27 14:27:21-191	0	PrBus11_4.PV	on	J-4204 Low Flow.J-4201B Ethanol Offloading Flow Switch	r	PCN-RAIL
+2019-02-27 14:27:22-190	0	PrBus11_4.PV	on	J-4204 Low Flow.J-4201B Ethanol Offloading Flow Switch	r	PCN-RAIL
+2019-02-27 14:27:22-987	0	PrBus11_4.PV	on	J-4204 Low Flow.J-4201B Ethanol Offloading Flow Switch	r	PCN-RAIL
+2019-02-27 14:27:24-384	0	PrBus11_4.PV	on	J-4204 Low Flow.J-4201B Ethanol Offloading Flow Switch	r	PCN-RAIL
+2019-02-27 15:07:03-753	0	EDMeter4.EDMeter4.PathAlarm.ACK	on	.Multiple Valves Open	r	PCN-RAIL
+2019-02-27 15:07:05-749	0	EDMeter4.EDMeter4.PathAlarm.ACK	off	.Multiple Valves Open	r	PCN-RAIL
+2019-02-27 15:07:09-740	0	EDMeter4.EDMeter4.PathAlarm.ALARM	off	.Multiple Valves Open	r	PCN-RAIL
+2019-02-27 15:07:26-302	0	EDMeter4.EDMeter4.PathAlarm.ACK	on	.Multiple Valves Open	r	PCN-RAIL
+2019-02-27 15:08:27-163	0	PrBus11_4.HV4241.ZSC	on	.HV4241-Close Feedback-J4201/04 to T-3157	r	PCN-RAIL
+2019-02-27 16:35:13-371	0	EssoMBM.Symbol_select	off	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:13-371	0	EssoMBM.Symbol_select	on	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:14-171	0	EssoMBM.Symbol_select	off	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:17-780	0	EssoMBM.Symbol_select	on	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:17-780	0	EssoMBM.Symbol_select	off	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:23-993	0	EssoMBM.Symbol_select	on	Esso Data Exchange Modbus Driver.Symbol selection	r	BTAXSA
+2019-02-27 16:35:35-217	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 16:36:18-519	0	VRUComm.select	off	VRU Modbus-TCP Communication.Enable data exchange	r	BTAXSA
+2019-02-27 16:37:55-349	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-27 16:45:39-032	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-27 16:55:36-336	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-27 16:56:18-601	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-27 16:56:18-802	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-27 16:58:18-641	0	EssoTCP_RW.Symbol_select	on	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 16:58:20-441	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 17:00:35-326	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-27 17:00:36-326	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-27 17:01:40-349	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-27 17:04:26-868	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-27 17:08:31-530	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-27 17:22:36-082	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSA
+2019-02-27 17:22:39-115	0	AX_ARB.take_control_button	on	AX Arbitration.	r	BTAXSA
+2019-02-27 17:22:39-115	0	AX_ARB.take_control_button	off	AX Arbitration.	r	BTAXSA
+2019-02-27 17:28:23-338	0	VRU_comm_err	off	VRU communications error flag	r	BTAXSA
+2019-02-27 17:28:24-539	0	VRU_comm_err	off	VRU communications error flag	r	BTAXSA
+2019-02-27 17:30:36-467	0	System_Bool02.EssoCommerr	off	.Esso Communication Error	r	BTAXSA
+2019-02-27 17:30:37-269	0	System_Bool02.EssoCommerr	off	.Esso Communication Error	r	BTAXSA
+2019-02-27 17:31:05-892	0	PCanOmniComm.select	off	Petro Canada Omni Communications.Symbol selection	r	BTAXSA
+2019-02-27 18:03:13-486	0	PCanOmniComm.select	on	Petro Canada Omni Communications.Symbol selection	r	BTAXSA
+2019-02-27 18:03:16-691	0	PCanOmniComm.select	off	Petro Canada Omni Communications.Symbol selection	r	BTAXSA
+2019-02-27 18:03:26-509	0	EssoTCP_RW.Symbol_select	on	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 18:03:28-312	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-27 18:09:36-621	0	TDCComm.select	off	TDC Communications.Symbol selection	r	BTAXSA
+2019-02-28 11:22:50-134	0	EssoTCP_RW.Symbol_select	on	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-28 11:22:51-137	0	EssoTCP_RW.Symbol_select	off	TCP data exchange to Esso.Symbol selection	r	BTAXSA
+2019-02-28 12:55:39-362	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-28 13:02:07-934	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 13:02:08-937	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:18:13-082	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 13:18:14-486	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:50:48-456	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 13:50:49-459	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:50:52-464	0	Leak_Print.PrintLeak	off	.	r	BTAXSA
+2019-02-28 13:51:20-108	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 13:51:20-911	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:53:17-713	0	Leak_Print.ReportTime	2019/02/28   13:53:	.	r	BTAXSA
+2019-02-28 13:57:47-839	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 13:57:50-240	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:57:53-443	0	Leak_Print.PrintLeak	off	.	r	BTAXSA
+2019-02-28 13:58:04-644	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 13:58:09-446	0	Leak_Print.PrintLeak	off	.	r	BTAXSA
+2019-02-28 14:00:50-799	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 14:01:15-849	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 14:02:59-069	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 14:08:21-163	0	Leak_Print.PrintLeak	off	.	r	BTAXSA
+2019-02-28 15:41:11-009	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 15:41:12-009	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 15:53:30-256	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 15:53:31-256	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 15:55:31-418	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 15:57:42-042	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 15:57:43-042	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 16:05:58-585	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 16:05:59-187	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 16:12:26-779	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:17:24-436	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:18:40-911	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:19:26-992	0	Ticket3.CopyTicket	on	.	r	BTAXSA
+2019-02-28 16:19:29-596	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:29:45-186	0	Ticket2.CopyTicket	on	.	r	BTAXSA
+2019-02-28 16:29:46-585	0	Ticket2.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:40:55-213	0	Ticket2.PrintTicket	on	.	r	BTAXSA
+2019-02-28 16:45:05-194	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-28 17:10:30-388	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 17:10:30-990	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 17:11:03-038	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-28 17:22:02-154	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:22:02-957	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:23:53-540	0	PCT1.TransferFile	off	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:24:12-177	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:24:12-778	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:24:46-631	0	PCT1.CreateTime	on	PCT Data for Meter1.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:24:47-032	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:25:15-075	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:25:15-677	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:29:46-743	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:29:47-345	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:30:11-983	0	PCT1.CreateFile	on	PCT Data for Meter1.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:30:36-615	0	Ticket1.PrintTicket	on	.	r	BTAXSA
+2019-02-28 17:31:22-289	0	Ticket2.PrintTicket	on	.	r	BTAXSA
+2019-02-28 17:31:49-525	0	Ticket3.PrintTicket	on	.	r	BTAXSA
+2019-02-28 17:32:33-390	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 17:32:33-990	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 17:34:10-743	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 17:34:11-743	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 17:34:29-759	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSA
+2019-02-28 17:34:30-361	0	Leak_Print.PrintLeak	on	.	r	BTAXSA
+2019-02-28 17:39:47-977	0	PCT2.TransferFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:39:55-792	0	PCT2.CreateTime	on	PCT Data for Meter2.PCT creation time trigger (input)	r	BTAXSA
+2019-02-28 17:39:56-394	0	PCT2.CreateFile	on	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:39:59-398	0	PCT2.TransferFile	off	PCT Data for Meter2.PCT file creation trigger (input)	r	BTAXSA
+2019-02-28 17:43:28-357	0	Login		User <r> logged in: access=0xFFFFFFFF	r	BTAXSB
+2019-02-28 18:15:10-737	0	Leak_Print.PrintLeak	on	.	r	BTAXSB
+2019-02-28 18:15:35-588	0	Ticket2.PrintTicket	on	.	r	BTAXSB
+2019-02-28 18:17:42-026	0	AX_ARB.step_back_button	on	AX Arbitration.	r	BTAXSA
+2019-02-28 18:17:42-026	0	AX_ARB.step_back_button	off	AX Arbitration.	r	BTAXSA
+2019-02-28 18:20:17-250	0	Leak_Print.CaptureLeakTime	on	.	r	BTAXSB
+2019-02-28 18:20:18-252	0	Leak_Print.PrintLeak	on	.	r	BTAXSB
+2019-02-28 18:20:46-719	0	Ticket3.PrintTicket	on	.	r	BTAXSB
+2019-02-28 18:21:19-187	0	AX_ARB.step_back_button	on	AX Arbitration.	r	BTAXSB
+2019-02-28 18:21:19-388	0	AX_ARB.step_back_button	off	AX Arbitration.	r	BTAXSB

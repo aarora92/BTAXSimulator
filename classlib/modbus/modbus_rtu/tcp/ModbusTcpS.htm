@@ -1,0 +1,373 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>modbus_tcp_slave</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+<a NAME="top"></a>
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Modbus
+Slave TCP</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Modbus Slave symbol communicates with a Modbus
+Master via <b>TCP</b>.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<p><a NAME="Installation"></a><a NAME="Class_Components"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The modbus_tcp_slave class is comprised of
+the following components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="621" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">modbus_tcp_slave.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">modbus_tcp_slave_GUI.gif</font>
+<p><font face="Arial">modbus_tcp_slave _POP.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">modbus_tcp_slave.htm</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Enum-File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Enumerator fil</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">modbus_tcp_slave.enum</font></td>
+</tr>
+</table>
+
+<p><font face="Arial,Helvetica"><b>Installation: </b>The above listed files
+must be copied into a common sub-directory within the project's "classlib"
+directory. The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The modbus_tcp_slave class represents an actual Slave
+module. The instance name of the module will appear&nbsp; in white text
+on the top right of the symbol. The title will change from green to flashing
+red if an error occurs.</font>
+<p><font face="Arial">The symbol is divided into four sections:</font>
+<p><font face="Arial">- Slave Information:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Modbus
+Slave address and the last requested function.</font><font face="Arial"></font>
+<p><font face="Arial">- Frame counts:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Number
+of sent and received frames.</font><font face="Arial"></font>
+<p><font face="Arial">- State string:</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Informational
+string.</font>
+<br><font face="Arial"></font>&nbsp;<font face="Arial"></font>
+<p><img SRC="ModbusTcpS_GUI.GIF" height=187 width=261>
+<p><font face="Arial"><font size=-1>Figure 2: Graphical Representation</font></font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the ModbusS symbol. The parameter data type, the default values and
+a brief description are listed. The grey shaded rows are parameters which
+must not be changed.</font>
+<br>&nbsp;
+<table BORDER WIDTH="725" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Item</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Variable</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Type&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Default&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Description</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Select</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Symbol
+select</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">2</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">read_buffer</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">BYTE</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#C0C0C0"></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">3</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">write_buffer</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#C0C0C0"><font face="Arial">BYTE</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#C0C0C0"></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">4</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">tcp_connection</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">REFERENCE</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="22" BGCOLOR="#FFFFFF"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="22" BGCOLOR="#FFFFFF"><font face="Arial">Reference
+to a TCP_RW Symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">5</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">DINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+of communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">6</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">state_string</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">State
+string of communication</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">7</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">slave_address</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Modbus
+Slave address</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">8</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">requested_function</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">MB_Function</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Read_Coil</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Last
+requested Modbus funtcion from MB Master</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">9</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Send_frame</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">UDINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Send
+frame counter</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">10</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Receive_frame</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">UDINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Receive
+frame counter</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">11</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">data</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Slave
+data array.</font>
+<p><font face="Arial">All slave data is stored in this array.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">12</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">lock_edit_comm_settings</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Locks
+the communictaion settings in the PopUp</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">13</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Error</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">ALARM</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Error
+var</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">14</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">local_struct</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">POINTER</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Internal
+pointer for the local structure</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">15</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">SPS_Cycle</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">code</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Run
+the AXX function</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Example Configuration:</font></b>
+<p><img SRC="ModbusTcpS_tree.GIF" >
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Settings in the TCP_RW symbol</font></b><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">The TCP_RW.symbol communicates via TCP
+with a modbus slave.</font>
+<br><font face="Arial,Helvetica">To connect the TCP_RW symbol to the modbus_tcp
+master to variables must be set in the TCP_RW symbol:</font><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">o) write_connection Fill in instance name
+of the modbus master then ".write_buffer". In this example tcp_Slv.write_buffer</font>
+<br><font face="Arial,Helvetica">o) read_connection Fill in instance name
+of the modbus master then ".read_buffer". In this example tcp Slv.read_buffer</font>
+<br><font face="Arial,Helvetica"></font>&nbsp;<font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Settings in the modbus_tcp_slave symbol</font></b>
+<br><font face="Arial,Helvetica">In the modbus_tcp Slave symbol you must
+fill in the reference to the TCP_RW symbol.</font>
+<br><font face="Arial,Helvetica">The Modbus Slave data array:</font><font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Coils:</font></b>
+<br><font face="Arial,Helvetica">From data[0] - data[63] = 64 words = 64
+* 16 = 1024 coils</font>
+<br><font face="Arial,Helvetica">The coils are bit coded. In one word there
+are 16 coils.</font><font face="Arial,Helvetica"></font>
+<p><font face="Arial,Helvetica">As example:</font>
+<br><font face="Arial,Helvetica">data[0] = 500dez = 111110100bin = coil
+1(OFF), coil 2(OFF), coil 3(ON), coil 4(OFF), coil 5 -coil 9 (ON) coil
+10 - coil 16 (OFF)</font><font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Inputs:</font></b>
+<br><font face="Arial,Helvetica">From data[64] - data[127] = 64 words =
+64 * 16 = 1024 inputs</font>
+<br><font face="Arial,Helvetica">The inputs are bit coded as the coils.</font><font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Output(Hold) registers:</font></b>
+<br><font face="Arial,Helvetica">From data[128] - data[255] = 128 words
+= 128 output registers</font><font face="Arial,Helvetica"></font>
+<p><b><font face="Arial,Helvetica">Input registers :</font></b>
+<br><font face="Arial,Helvetica">From data[256] - data[383] = 128 words
+= 128 input registers</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

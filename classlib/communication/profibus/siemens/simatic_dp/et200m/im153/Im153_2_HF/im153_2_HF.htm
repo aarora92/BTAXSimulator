@@ -1,0 +1,1074 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [de] (WinNT; I) [Netscape]">
+   <META NAME="Microsoft Theme" CONTENT="none, default">
+   <META NAME="Microsoft Border" CONTENT="none, default">
+   <META NAME="Template" CONTENT="C:\Programme\Microsoft Office\Office\html.dot">
+   <TITLE>Siemens ET200M  IM 153-2</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#800080">
+&nbsp;
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<TR>
+<TD VALIGN=TOP WIDTH="773" HEIGHT="53" BGCOLOR="#808080"><B><FONT FACE="Arial"><FONT COLOR="#FFFFFF"><FONT SIZE=+4>Siemens
+ET200M&nbsp; IM 153-2</FONT></FONT></FONT></B></TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+
+<P><A NAME="Features"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Features</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The ET 200M Profibus DP Slave IM 153-2 enables you
+to connect S7 - 300 modules with Profibus DP.</FONT>
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="Installation"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Installation</FONT></FONT></FONT></B>
+
+<P>&nbsp;<FONT FACE="Arial">The class im153-2 Slave is comprised of the
+following components (files):</FONT>
+<BR>&nbsp;
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<TR>
+<TD VALIGN=TOP WIDTH="150" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Class
+Component</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="214" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Description</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="223" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">File
+Name(s)</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="150"><B><FONT FACE="Arial">Class Color File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="214"><FONT FACE="Arial">Includes some class specific
+color definitions.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="223">&nbsp;<FONT FACE="Arial">im153_2.color</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="150"><B><FONT FACE="Arial">Class File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="214"><FONT FACE="Arial">Includes the process picture
+representation and any popup menus.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="223"><FONT FACE="Arial">im153_2.symbol</FONT>&nbsp;
+
+<P>&nbsp;</TD>
+</TR>
+
+<TR>
+<TD><B><FONT FACE="Arial">Symbol File</FONT></B></TD>
+
+<TD><FONT FACE="Arial">Symbol used in the class</FONT></TD>
+
+<TD><FONT FACE="Arial">im153_2_slot1.symbol</FONT>&nbsp;
+<BR><FONT FACE="Arial">im153_2_slot2.symbol</FONT>&nbsp;
+<BR><FONT FACE="Arial">im153_2_slot3.symbol</FONT>&nbsp;
+<BR><FONT FACE="Arial">devicediag.symbol</FONT></TD>
+</TR>
+
+<TR>
+<TD><B><FONT FACE="Arial">Enumerator Files</FONT></B></TD>
+
+<TD><FONT FACE="Arial">Defines the enumerator for the class</FONT></TD>
+
+<TD><FONT FACE="Arial">im153_2.enum</FONT>&nbsp;
+<BR><FONT FACE="Arial">im153_cfg_diag.enum</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="150"><B><FONT FACE="Arial">Graphic Files</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="214"><FONT FACE="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="223"><FONT FACE="Arial">axclassdocu16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axclassdocu_grey16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axinstancedocu16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axinstancedocu_grey_16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">(and&nbsp; some documentation pixel maps)</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="150"><B><FONT FACE="Arial">HTML Document</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="214"><FONT FACE="Arial">HTML document for Online
+Help.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="223"><FONT FACE="Arial">im153_2.htm</FONT></TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial"><B>Installation: </B>The above listed files must be
+copied into a common sub directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="UserInterface"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>User Interface</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The IM 153-2 graphical representation has a unique
+name identifier ($Instance) displayed in the middle of the graphical representation.
+The profibus address is located above the instance name.</FONT>
+<BR><FONT FACE="Arial">In the upper left corner, are indications for Service
+Fault (SF), Bus Fault (BF) and power supply (ON).</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER=2 CELLSPACING=3 CELLPADDING=3 COLS=3 WIDTH="700" >
+<TR>
+<TD WIDTH="15%"><B><FONT FACE="Arial,Helvetica">Indication</FONT></B></TD>
+
+<TD WIDTH="15%"><B><FONT FACE="Arial,Helvetica">State</FONT></B></TD>
+
+<TD WIDTH="70%"><B><FONT FACE="Arial,Helvetica">Condition</FONT></B></TD>
+</TR>
+
+<TR ALIGN=LEFT VALIGN=TOP>
+<TD WIDTH="25%"><FONT FACE="Arial">Bus Fault</FONT>&nbsp;
+<BR><FONT FACE="Arial">(BF)</FONT></TD>
+
+<TD><FONT FACE="Arial">red flashing</FONT>&nbsp;
+
+<P><FONT FACE="Arial">red</FONT></TD>
+
+<TD><FONT FACE="Arial">Wrong Parameterization - no data transfer between
+DP Master and IM 153-1</FONT>&nbsp;
+
+<P><FONT FACE="Arial">Wrong Baud rate or DP-Address</FONT></TD>
+</TR>
+
+<TR ALIGN=LEFT VALIGN=TOP>
+<TD><FONT FACE="Arial">Service Fault</FONT>&nbsp;
+<BR><FONT FACE="Arial">(SF)</FONT></TD>
+
+<TD><FONT FACE="Arial">red</FONT></TD>
+
+<TD><FONT FACE="Arial">Configuration is not the same as defined in the
+PLC</FONT></TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Arial">ON</FONT></TD>
+
+<TD><FONT FACE="Arial">green</FONT></TD>
+
+<TD><FONT FACE="Arial">Power is on (will appear grey when no power)</FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+
+<P><IMG SRC="im153_2_Graph.gif" HEIGHT=524 WIDTH=186>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 1: Graphical Representation</FONT></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial">Figure 2 shows the <B>Address Popup</B>, which is
+invoked by selecting the graphical representation. The popup displays the
+Profibus Address and the actual State of the module. From here, you can
+set the Profibus Address, reset the Module and open the HTML Documentation.</FONT>
+<BR>&nbsp;
+
+<P><IMG SRC="im153_2_Address.gif" HEIGHT=245 WIDTH=178>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 2: The Address PopUp</FONT></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial">Figure 3 shows the <B>Error Popup</B>, which will
+invoke automatically upon any new error. The popup displays the error that
+has occurred along with the error message.</FONT>
+<BR>&nbsp;
+
+<P><IMG SRC="im153_2_Error.gif" HEIGHT=305 WIDTH=290>
+
+<P><FONT FACE="Arial"><FONT SIZE=-1>Figure 3: Error Popup</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR><A NAME="Configuration"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Configuration</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The following table lists the configuration parameters
+for the im 153-2 Slave. The parameter data type, the default values and
+a brief description are listed. The grey shaded rows are parameters which
+must not be changed.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER CELLPADDING=2 WIDTH="918" >
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="16" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>Item</FONT></FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="16" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>Variable</FONT></FONT></B></TD>
+
+<TD><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>Type</FONT></FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="16" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>Default</FONT></FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="16" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial,Helvetica"><FONT SIZE=+2>Description</FONT></FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="16" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">1</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="16" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">&nbsp;master</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">ENUM:Master_Con</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="16" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">MIO_0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="16" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Connection
+to profibus master&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">2</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">&nbsp;address</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">7&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Profibus
+Slave address&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">3</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">&nbsp;wd_on</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">YES&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">YES
+activates the watch dog (wd) on the DP Slave&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">4</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Wd_fact_1</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">100</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Wd_fact_1
+* wd_fact2 * 10ms is the delay for wd</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">5</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Wd_fact_2</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Wd_fact_1
+* wd_fact2 * 10ms is the delay for wd</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">6</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">GSD</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">SIEM801E.GSD</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">GSD
+name for this Profibus DP Slave</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">7</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">group_ident</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">DINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">DP
+Slave group identifier</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">8</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">freeze_mode</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">The
+outputs on the slave system are frozen</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">9</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">unfreeze</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Deactivate
+the freeze mode&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">10</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">sync_mode</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Hold
+out-/inputs as long as unsync is set</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">11</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">unsync</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Reset
+the state machine for slave handling</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">12</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">clear_data</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Request
+for new parameterization</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">13</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">reset_slave</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Reset
+the state machine for slave handling</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#FFFFFF">
+<CENTER><FONT FACE="Arial,Helvetica">14</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF">new_prm_request</FONT></FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#FFFFFF"><FONT FACE="Arial,Helvetica">Request
+for new parameterization</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">15</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ModulePushEnable</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">YES allows to remove and insert a module</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">16</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DataFormat</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">ENUM:DataFormat</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">S7_Format</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Changes the data format S7/M7 - S5</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">17</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DiagAlarmEnable</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Yes allows diagnosis alarm</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">&nbsp;18</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ProzAlarmEnable</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Yes allows process alarm</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">19</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DPV_Enable</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Yes allows acyclic parameterization</FONT></TD>
+</TR>
+
+<TR>
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">20</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">Connection</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">...</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">With the instance name of the following
+module will be connected to this one</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">21</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">Loc Connection</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">K1</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">internal class connection</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">22</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ViewConnectin</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">...</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Show all connected I/O modules</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">23</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DataTransfer Valid</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Profibus in-/output data valid</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">24</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">init_counter</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">DINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Counter
+for starting state machine</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">25</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Exchange_cycle</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">DINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Counter
+for valid data transfers</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">26</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Hardware_error</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">ALARM</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if a hardware error occurs</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">27</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Software_error</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">ALARM</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if a software error occurs</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">28</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Module_error</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">ALARM</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if a module error occurs</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">29</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Status</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">DINT</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Status
+value of the state machine</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">30</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Status
+string</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">No
+valid Profibus Master</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Status
+string of the state machine</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">31</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Last_diag_msg</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Last
+diagnostic message</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">32</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">New_error_msg</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if a new error occurs</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">33</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Visual</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if error message popup is visible</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">34</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DPV1_DiagCycle</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">UDINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">after this sps cycle count start a acycle
+diagnosis</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">35</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">NewDiagData</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BYTE</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">shows the actual diagnosis data</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">36</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ActDevDiagDataLen</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Active device diagnosis data lenght</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">37</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">DeviceDiagData[30]</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Device diagnosis data</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">38</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ActIdentDiagDataLen</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Active identifier diagnosis data length</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">39</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">IdentifierDiagData[3]</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Identifier diagnosis data</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">40</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ActChanDiagData</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Active channel diagnosis data length</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD>
+<CENTER><FONT FACE="Arial,Helvetica">41</FONT></CENTER>
+</TD>
+
+<TD><FONT FACE="Arial,Helvetica">ChannelDiagData[30]</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">USINT</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">0</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Channel diagnosis data</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">42</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Quit</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">BOOL</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">NO</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">YES
+if acknowledge error messages</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">43</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Error_msg
+[10]</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">STRING</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Error
+message array</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">44</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Local_struct</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">POINTER</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">4320020hex</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Internal
+pointer for the local structure</FONT></TD>
+</TR>
+
+<TR BGCOLOR="#C0C0C0">
+<TD VALIGN=CENTER WIDTH="7%" HEIGHT="22" BGCOLOR="#C0C0C0">
+<CENTER><FONT FACE="Arial,Helvetica">45</FONT></CENTER>
+</TD>
+
+<TD VALIGN=CENTER WIDTH="21%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">SPS_Cycle</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">code</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="18%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Axx_function("profibus_DP",</FONT>&nbsp;
+<BR><FONT FACE="Arial,Helvetica">"SPSCycleHandleDPSlave");</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="42%" HEIGHT="22" BGCOLOR="#C0C0C0"><FONT FACE="Arial,Helvetica">Run
+the AXX functio</FONT><FONT FACE="Arial">n</FONT></TD>
+</TR>
+</TABLE>
+<FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+
+<P><A NAME="implementation"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Implementation
+Notes</FONT></FONT></FONT></B>
+
+<P><B><U><FONT FACE="Arial,Helvetica"><FONT SIZE=+1>How to Create the profibus
+Slave</FONT></FONT></U></B>
+
+<P><FONT FACE="Arial,Helvetica">The first step is to configure a Profibus
+Slave module. To create a Profibus Slave, take the following steps:</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>Step 1</B>:</FONT>
+<BR><FONT FACE="Arial,Helvetica">Select the Profibus Slave class and drop
+an instance of it into the picture window</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><B>Step 2</B>:</FONT>
+<BR><FONT FACE="Arial,Helvetica">With the slave object selected, enter
+a unique instance name and remark in the declaration field, in the configuration
+panel.</FONT>
+
+<P><I><FONT FACE="Arial,Helvetica">When you are naming I/O modules, be
+sure to assign meaningful names that you will be able to recognize later.
+For example, the Profibus Slave should at least be given an address number:</FONT></I>
+<BR>&nbsp;
+<UL>
+<LI>
+<I><FONT FACE="Arial,Helvetica">Instance name = IM153_2</FONT></I></LI>
+
+<LI>
+<I><FONT FACE="Arial,Helvetica">Remark= Siemens IM153-2</FONT></I></LI>
+</UL>
+<IMG SRC="im153_2_Instance.gif" HEIGHT=144 WIDTH=455>
+
+<P><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 4: Declaration for
+the Profibus Master</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica"><B>Step 3</B>:</FONT>
+<BR><FONT FACE="Arial,Helvetica">Open the Server Data tab. Find the resource
+called "master" in the data list. Click the value field with the left mouse
+button.</FONT>
+
+<P><FONT FACE="Arial,Helvetica"><I>AutomationX automatically detects the
+master and present it in a drop down list</I>.</FONT>
+
+<P><FONT FACE="Arial,Helvetica">Choose the master name from the list.</FONT>
+
+<P><IMG SRC="im153_2_master.gif" HEIGHT=342 WIDTH=504>
+<BR><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 5: Assign the master</FONT></FONT>
+<BR>&nbsp;
+
+<P><B><FONT FACE="Arial,Helvetica">Step 4:</FONT></B>
+<BR><FONT FACE="Arial,Helvetica">Find the resource called "address" in
+the Server Data list. Use the arrow to set the address number of the slave.</FONT>
+
+<P><I><FONT FACE="Arial,Helvetica">For example, if the address of the slave
+class were 03 you need set the number to 3. When you save thedisplay, you
+will see this number reflected on the object's "counter".</FONT></I>
+<BR>&nbsp;
+
+<P><IMG SRC="im153_2_addr.gif" HEIGHT=275 WIDTH=455>
+
+<P><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 6: Assign the Profibus
+Slave address</FONT></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+
+<P><A NAME="Class_Modification_History"></A>
+<BR><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+2>Modification
+History</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The following table lists the modifications made
+to the im153-2 class.</FONT>
+<BR>&nbsp;
+<TABLE BORDER CELLPADDING=3 WIDTH="680" >
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><B><FONT FACE="Arial,Helvetica">Item</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><B><FONT FACE="Arial,Helvetica">Date</FONT></B>&nbsp;
+<BR><B><FONT FACE="Arial,Helvetica">(m/d/y)</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><B><FONT FACE="Arial,Helvetica">Name</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><B><FONT FACE="Arial,Helvetica">Description</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><B><FONT FACE="Arial,Helvetica">Remark</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial,Helvetica">1</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial,Helvetica">04/06/97</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial,Helvetica">Manfred Dobaj</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial,Helvetica">Initial Design</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial,Helvetica">2</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial,Helvetica">15/07/98</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial,Helvetica">Manfred Dobaj</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial,Helvetica">Redesign the
+user interface</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="7%"><FONT FACE="Arial,Helvetica">3</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial,Helvetica">23/02/99&nbsp;</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="28%"><FONT FACE="Arial,Helvetica">J&uuml;rgen
+Tossold</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="36%"><FONT FACE="Arial,Helvetica">Graphical Class
+Standard</FONT></TD>
+
+<TD VALIGN=CENTER WIDTH="11%"><FONT FACE="Arial,Helvetica">&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Arial,Helvetica">4</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">25/01/00</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Roman Klug</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Redesign the html documentation</FONT></TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Arial,Helvetica">5</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">13/03/00</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Roman Klug</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Implement the Device Diagnose Class</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica"><FONT COLOR="#FF0000">possible from Version
+4.33</FONT></FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><A HREF="#Features">Features</A> | <A HREF="#Installation">lnstallation
+</A>| <A HREF="#UserInterface">User Interface</A> | <A HREF="#Configuration">Configuration</A>
+| <A HREF="#implementation">Implementation Notes</A> | <A HREF="#Class_Modification_History">Modification
+History</A></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+</BODY>
+</HTML>

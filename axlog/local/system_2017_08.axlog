@@ -1,0 +1,241 @@
+2017-08-01 01:37:54-000	9999	** WARNING-SIZE **	On	** File size limit exceed !  **
+2017-08-01 09:41:05-066	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-01 21:35:33-792	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.36)[SRV].
+2017-08-01 22:09:09-788	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-02 10:54:46-110	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-03 12:04:58-915	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2017-08-04 06:54:14-394	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-04 08:06:29-257	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-04 14:30:44-621	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2017-08-04 21:33:50-262	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-05 08:19:06-484	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2017-08-05 08:19:24-888	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-05 16:32:10-900	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-05 21:03:51-428	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-05 23:23:25-885	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-07 08:16:01-581	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.35)[SRV].
+2017-08-08 07:47:49-119	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-08 07:49:57-538	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-08 13:50:29-848	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-08 13:51:06-258	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-08 14:00:05-484	-2	WCPBTMRA	3	PACI:Unknown Mail[13] cmd=197 addr=4 cnr=181  status=0
+2017-08-08 14:00:30-692	-2	<WCPBTMRA>AXPV	3	restart (display = 156.44.212.31)[SRV].
+2017-08-08 14:00:31-093	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.31)[SRV].
+2017-08-08 14:01:09-308	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-08 14:01:17-120	-2	<WCPBTMRA>EDT	3	Saving file:DistiltoDocks.tree.
+2017-08-08 14:01:17-920	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-08 14:01:20-122	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[80]
+2017-08-08 14:01:20-322	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-08 14:01:21-123	-2	<WCPBTMRA>FSRV	3	Local client 10743 forces TableCheck
+2017-08-08 14:01:21-323	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-08 14:01:21-523	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-08 15:52:35-281	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-09 05:56:24-953	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2017-08-09 05:58:03-783	-2	<WCPBTMRA>AXPV	3	restart (display = 10.26.37.168)[SRV].
+2017-08-09 05:58:04-183	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2017-08-09 11:17:21-809	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-09 11:18:13-061	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-09 11:20:25-906	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-09 11:20:32-508	-2	<WCPBTMRA>EDT	3	Saving file:DistiltoDocks.tree.
+2017-08-09 11:20:33-309	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-09 11:20:35-110	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[81]
+2017-08-09 11:20:35-310	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-09 11:20:36-311	-2	<WCPBTMRA>FSRV	3	Local client 16541 forces TableCheck
+2017-08-09 11:20:36-311	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-09 11:20:36-711	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-09 11:23:28-587	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-09 13:16:01-806	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-09 13:16:39-626	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-09 13:34:07-058	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2017-08-09 13:46:29-979	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-09 13:46:48-987	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2017-08-09 14:13:57-300	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-09 16:04:02-941	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.168)[SRV].
+2017-08-09 16:16:47-243	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2017-08-09 16:20:37-719	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-09 16:44:19-206	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.36)[SRV].
+2017-08-09 17:29:17-696	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-10 06:25:44-954	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2017-08-10 15:28:51-445	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.168)[SRV].
+2017-08-10 19:24:05-036	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-11 06:07:01-005	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.168)[SRV].
+2017-08-11 08:44:28-736	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.35)[SRV].
+2017-08-11 09:01:39-752	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.34)[SRV].
+2017-08-11 09:34:55-606	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.36)[SRV].
+2017-08-11 09:36:19-225	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-11 16:11:45-174	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.168)[SRV].
+2017-08-12 09:35:55-882	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-13 05:57:35-708	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-13 23:22:34-385	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 10.26.38.97)[SRV].
+2017-08-14 16:56:26-643	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-14 21:51:56-125	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-17 09:41:39-620	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2017-08-17 10:16:34-860	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.112)[SRV].
+2017-08-17 10:43:38-902	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.112)[SRV].
+2017-08-17 10:44:00-315	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2017-08-17 11:02:33-067	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.112)[SRV].
+2017-08-17 13:13:53-136	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.112)[SRV].
+2017-08-17 13:14:09-544	-2	<WCPBTMRA>AXSRV	3	User <Kian> logged in
+2017-08-19 07:27:07-373	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-19 12:56:40-823	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.34)[SRV].
+2017-08-19 23:01:41-544	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.36)[SRV].
+2017-08-19 23:04:17-036	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-20 11:17:43-966	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-21 07:40:18-598	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-21 13:43:27-696	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.112:0.0): BadMatch (invalid parameter attributes).
+2017-08-21 13:43:39-498	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-21 13:43:39-898	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:43:42-100	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[82]
+2017-08-21 13:43:42-300	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:43:43-301	-2	<WCPBTMRA>FSRV	3	Local client 20357 forces TableCheck
+2017-08-21 13:43:43-301	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:43:43-701	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:46:12-347	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-21 13:46:12-748	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:46:13-548	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[83]
+2017-08-21 13:46:13-748	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:46:14-549	-2	<WCPBTMRA>FSRV	3	Local client 20357 forces TableCheck
+2017-08-21 13:46:14-749	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:46:15-149	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:48:27-598	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.112:0.0): BadMatch (invalid parameter attributes).
+2017-08-21 13:48:44-803	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-21 13:48:45-204	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:48:46-004	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[84]
+2017-08-21 13:48:46-204	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:48:47-004	-2	<WCPBTMRA>FSRV	3	Local client 20376 forces TableCheck
+2017-08-21 13:48:47-004	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:48:47-404	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:49:45-434	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.112:0.0): BadMatch (invalid parameter attributes).
+2017-08-21 13:49:46-435	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-21 13:49:46-835	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:49:47-635	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[85]
+2017-08-21 13:49:47-836	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:49:48-636	-2	<WCPBTMRA>FSRV	3	Local client 20385 forces TableCheck
+2017-08-21 13:49:48-836	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:49:49-236	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:50:50-890	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-21 13:50:51-691	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:50:52-291	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[86]
+2017-08-21 13:50:52-491	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:50:53-091	-2	<WCPBTMRA>FSRV	3	Local client 20385 forces TableCheck
+2017-08-21 13:50:53-291	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:50:53-691	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:53:20-200	-2	<WCPBTMRA>AXED	3	XError (display = 156.44.212.112:0.0): BadMatch (invalid parameter attributes).
+2017-08-21 13:53:49-008	-2	<WCPBTMRA>EDT	3	Saving file:EastDock.tree.
+2017-08-21 13:53:49-208	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-21 13:53:50-009	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[87]
+2017-08-21 13:53:50-209	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-21 13:53:50-809	-2	<WCPBTMRA>FSRV	3	Local client 20401 forces TableCheck
+2017-08-21 13:53:50-809	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-21 13:53:51-410	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-21 13:54:09-614	-2	<WCPBTMRA>AXPV	3	closed (display = 156.44.212.112)[SRV].
+2017-08-21 13:54:24-417	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.112)[SRV].
+2017-08-22 10:58:34-237	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.115)[SRV].
+2017-08-22 11:09:41-943	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.115)[SRV].
+2017-08-25 10:54:52-019	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.36)[SRV].
+2017-08-25 10:55:55-436	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].
+2017-08-26 02:13:58-874	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-27 20:41:15-977	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-28 06:29:33-418	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-28 06:30:03-625	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-28 06:30:46-234	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.35)[SRV].
+2017-08-28 06:31:36-243	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.35)[SRV].
+2017-08-28 08:30:29-825	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-28 08:32:22-487	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-28 08:35:32-341	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-28 08:38:56-190	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-28 08:39:10-593	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-28 08:39:18-795	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-28 08:42:32-462	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2017-08-28 08:43:38-747	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.34)[SRV].
+2017-08-28 08:44:13-769	-2	<WCPBTMRA>AXPV	3	started (display = )[SRV]
+2017-08-28 08:44:20-388	-2	<WCPBTMRA>AXPV	3	closed (display = )[SRV]
+2017-08-28 08:45:01-649	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-28 08:45:13-069	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-28 08:45:31-689	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-28 08:45:37-496	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-28 08:49:22-508	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.107)[SRV].
+2017-08-28 08:51:01-615	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.34)[SRV].
+2017-08-28 08:55:51-706	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2017-08-28 09:02:29-413	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.107)[SRV].
+2017-08-28 11:09:53-860	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-28 11:12:16-143	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.37.166)[SRV].
+2017-08-28 11:12:46-360	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-28 11:23:13-136	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-28 11:23:13-736	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 11:23:15-937	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[88]
+2017-08-28 11:23:16-137	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 11:23:17-138	-2	<WCPBTMRA>FSRV	3	Local client 27042 forces TableCheck
+2017-08-28 11:23:17-138	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 11:23:17-538	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 11:39:07-479	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-28 11:39:16-085	-2	<WCPBTMRA>EDT	3	Saving file:EastDock.tree.
+2017-08-28 11:39:16-285	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 11:39:17-086	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[89]
+2017-08-28 11:39:17-286	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 11:39:18-086	-2	<WCPBTMRA>FSRV	3	Local client 27067 forces TableCheck
+2017-08-28 11:39:18-086	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 11:39:18-886	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 11:42:40-656	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-28 11:42:45-864	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-28 11:42:46-464	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 11:42:47-264	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[90]
+2017-08-28 11:42:47-464	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 11:42:48-065	-2	<WCPBTMRA>FSRV	3	Local client 27125 forces TableCheck
+2017-08-28 11:42:48-265	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 11:42:48-665	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 12:51:25-541	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-28 15:10:08-926	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.38.97)[SRV].
+2017-08-28 16:06:33-265	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.37.166)[SRV].
+2017-08-28 16:42:49-633	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-28 16:48:42-786	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-28 16:49:39-814	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-28 16:49:52-418	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-28 16:49:52-818	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 16:49:53-619	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[91]
+2017-08-28 16:49:53-819	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 16:49:54-619	-2	<WCPBTMRA>FSRV	3	Local client 28509 forces TableCheck
+2017-08-28 16:49:54-819	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 16:49:55-219	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 16:53:32-709	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-28 16:53:34-909	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-28 16:53:35-310	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 16:53:36-110	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[92]
+2017-08-28 16:53:36-310	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 16:53:36-911	-2	<WCPBTMRA>FSRV	3	Local client 28520 forces TableCheck
+2017-08-28 16:53:37-111	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 16:53:37-511	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 16:56:31-357	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-28 16:56:31-757	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-28 16:56:32-357	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[93]
+2017-08-28 16:56:32-557	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-28 16:56:33-158	-2	<WCPBTMRA>FSRV	3	Local client 28520 forces TableCheck
+2017-08-28 16:56:33-558	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-28 16:56:33-758	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-28 17:04:14-903	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-29 08:10:00-033	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-29 08:10:28-840	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-29 11:25:20-445	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-29 11:25:28-247	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-29 11:25:28-847	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-29 11:25:29-647	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[94]
+2017-08-29 11:25:29-848	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-29 11:25:30-648	-2	<WCPBTMRA>FSRV	3	Local client 3156 forces TableCheck
+2017-08-29 11:25:30-848	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-29 11:25:31-048	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-29 13:21:56-427	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-29 13:22:40-635	-2	<WCPBTMRA>AXPV	3	started (display = 10.26.36.169)[SRV].
+2017-08-29 13:22:53-443	-2	<WCPBTMRA>AXSRV	3	User <stjokro> logged in
+2017-08-29 13:26:30-913	-2	<WCPBTMRA>AXED	3	XError (display = 10.26.36.169:0.0): BadMatch (invalid parameter attributes).
+2017-08-29 13:26:32-513	-2	<WCPBTMRA>EDT	3	Saving file:GasolinetoDocks.tree.
+2017-08-29 13:26:33-113	-2	<WCPBTMRA>EDT	3	SPS_Warmstart
+2017-08-29 13:26:33-914	-2	<WCPBTMRA>SPS	3	SPS warmstart made spsid=[95]
+2017-08-29 13:26:34-114	1	<WCPBTMRA>UP_SER_PCI	3	SPS ID changed
+2017-08-29 13:26:34-714	-2	<WCPBTMRA>FSRV	3	Local client 3942 forces TableCheck
+2017-08-29 13:26:34-915	-2	<WCPBTMRA>FSRV	3	fsv_table_check_start
+2017-08-29 13:26:35-115	-2	<WCPBTMRA>FSRV	3	fsv_table_check_end
+2017-08-29 15:35:44-390	-2	<WCPBTMRA>AXSRV	3	User <guest> logged in
+2017-08-29 15:35:47-392	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.36.169)[SRV].
+2017-08-31 19:14:34-861	-2	<WCPBTMRA>AXPV	3	closed (display = 10.26.38.97)[SRV].
+2017-08-31 21:57:15-703	-2	<WCPBTMRA>AXPV	3	X-IO Error (display = 156.44.212.36)[SRV].
+2017-08-31 22:17:02-211	-2	<WCPBTMRA>AXPV	3	started (display = 156.44.212.36)[SRV].

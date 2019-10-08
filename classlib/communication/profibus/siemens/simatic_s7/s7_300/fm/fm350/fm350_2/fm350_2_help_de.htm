@@ -1,0 +1,197 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Register "Grundparameter"</TITLE>
+<META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<B><FONT FACE="Arial" SIZE=6><P>"Grundparameter"</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>Im Register "Grundparameter" k&ouml;nnen Sie f&uuml;r Funktionsbaugruppen /Kommunikationsprozessoren eine Grundparametrierung durchf&uuml;hren. Folgende Parameter lassen sich z. B. einstellen:</P>
+</FONT><B><I><FONT FACE="Arial"><P>Alarmgenerierung:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>W&auml;hlen Sie, ob die Funktionsbaugruppe bei einem Alarmereignis (Diagnoseereignis oder Proze&szlig;alarm - ausl&ouml;sendes Ereignis) einen Alarm ausl&ouml;sen soll.</P>
+</FONT><B><I><FONT FACE="Arial"><P>Alarmauswahl:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>&#9;W&auml;hlen Sie aus, welche Alarme die Funktionsbaugruppe ausl&ouml;sen soll (Auswahlm&ouml;glichkeiten k&ouml;nnen bei verschieden Baugruppen eingeschr&auml;nkt sein):</P>
+<P>&#9;·&#9;keine</P>
+<P>&#9;·&#9;Diagnose (l&ouml;st eines Diagnosealarm aus bei einem Diagnoseereignis)</P>
+<P>&#9;·&#9;Proze&szlig; (l&ouml;st einen Proze&szlig;alarm aus bei bestimmten Ereignissen - abh&auml;ngig von der Technologiefunktion der Baugruppe)</P>
+<P>&#9;·&#9;Diagnose und Proze&szlig;</P>
+<P>&#9;Bei welchen Ereignissen welcher Alarm ausgel&ouml;st wird, entnehmen Sie bitte der Dokumentation zur Baugruppe.</P>
+</FONT><B><I><FONT FACE="Arial"><P>Reaktion auf CPU Stop:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>&#9;W&auml;hlen Sie aus, wie die Funktionsbaugruppe auf CPU-STOP reagieren soll:</P>
+<P>&#9;·&#9;Abbruch</P>
+<P>&#9;·&#9;Weiterarbeit</P>
+<P>&#9;·&#9;Ersatzwerte</P>
+<P>&#9;·&#9;Letzten Wert</P>
+<P>Je nach Art der Baugruppe sind nicht alle genannten Parameter einstellbar.</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P>"Parameter"</P>
+</FONT><I><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Parametrieren eines Z&auml;hlers:</P>
+</B></I><U><P>Kanalauswahl :</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>In diesem Dialogfeld k&ouml;nnen Sie einstellen, wie Sie die Kan&auml;le definieren m&ouml;chten.</P>
+<P>Sie haben folgende Auswahlm&ouml;glichkeiten:</P>
+<P>&#9;·&#9;Kanal 0..7 als Einzelz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0 als Dosierz&auml;hler, Kanal 4..7 als Einzelz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0..3 als Einzelz&auml;hler, Kanal 4 als Dosierz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0 als Dosierz&auml;hler und Kanal 5 als Dosierz&auml;hler</P>
+<P>&#9;·&#9;Z&auml;hlereingang Kanal 0..3 Namur</P>
+<P>&#9;·&#9;Z&auml;hlereingang Kanal 4..7 Namur</P>
+<P>Weiterhin k&ouml;nnen Sie f&uuml;r die Statusanzeige in User_Type1 und User_Type2 festlegen, welcher Wert (Z&auml;hlwert oder Me&szlig;wert) f&uuml;r welchen Kanal (0 bis 7) im Bereich ab Baugruppenadresse + Offset 8 abgelegt wird. Von einem Wert k&ouml;nnen Sie entweder das Low-Word oder das High-Word oder beide abgelegt werden. </P>
+<P>&nbsp;</P>
+</FONT><U><FONT FACE="Arial"><P>Einstellen des Gebers :</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>Gehen Sie folgenderma&szlig;en vor:</P>
+<OL>
+
+<OL>
+
+<LI>W&auml;hlen Sie die Signalauswertung des Gebers aus. Abh&auml;ngig von Ihrer Auswahl werden diejenigen Optionen gesperrt, die f&uuml;r diesen speziellen Geber nicht zugelassen sind. Eine gesperrte Option wird durch graue Schrift im entsprechenden Auswahlfenster gekennzeichnet ( noch nicht implementiert ---&gt; neue Popups in Version 4.31)</LI>
+<LI>W&auml;hlen Sie die Optionen aus, die Sie den ausgew&auml;hlten Geber nutzen wollen.</LI></OL>
+</OL>
+
+<P>&#9;3.&#9;Bet&auml;tigen Sie die Schaltfl&auml;che "OK".</P>
+<P>Sie k&ouml;nnen unter folgenden M&ouml;glichkeiten der Signalauswertung w&auml;hlen:</P>
+<P>&#9;·&#9;Impulse und Richtung</P>
+<P>&#9;·&#9;Drehgeber einfach: Einfachauswertung</P><DIR>
+<DIR>
+
+<P>·&#9;Drehgeber zweifach: Zweifachauswertung</P></DIR>
+</DIR>
+
+<P>&#9;·&#9;Drehgeber vierfach: Vierfachauswertung</P>
+<P>&#9;·&#9;Drehrichtung invertiert: F&uuml;r R&uuml;ckw&auml;rtsz&auml;hlen</P>
+<P>Hardware&uuml;berwachung (nur bei NAMUR-Gebern):</P>
+<P>&#9;·&#9;eingeschaltet</P>
+<P>&#9;·&#9;ausgeschaltet</P>
+<P>Hauptz&auml;hlrichtung (nur bei den Betriebsarten "Einmalig Z&auml;hlen", "Periodisch Z&auml;hlen" und "Dosieren"):</P>
+<P>&#9;·&#9;Vorw&auml;rts</P>
+<P>&#9;·&#9;R&uuml;ckw&auml;rts</P>
+<P>Hysterese:</P>
+<P>&#9;1 bis 255</P>
+</FONT><U><FONT FACE="Arial"><P>Einstellen der Betriebsart :</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>Die folgenden Betriebsarten stehen Ihnen zur Verf&uuml;gung:</P>
+</FONT><DFN><P>Endlos Z&auml;hlen : </P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>Die Z&auml;hlerbaugruppe z&auml;hlt in dieser Betriebsart ab dem aktuellen Z&auml;hlerstand (Startwert) endlos. Der Startwert ist defaultm&auml;&szlig;ig auf 0 eingestellt. Hat der Z&auml;hler die obere Z&auml;hlgrenze erreicht und kommt ein weiterer Z&auml;hlimpuls, so springt der Z&auml;hler auf die untere Z&auml;hlgrenze und beginnt wieder, die Z&auml;hlimpulse aufzusummieren; er z&auml;hlt also endlos weiter. Hat der Z&auml;hler die untere Z&auml;hlgrenze erreicht und kommt ein weiterer Z&auml;hlimpuls, so springt er auf die obere Z&auml;hlgrenze und z&auml;hlt von dort aus r&uuml;ckw&auml;rts weiter.</P>
+<P>Der g&uuml;ltige Z&auml;hlbereich liegt zwischen -2147483648 bis 2147483647 (-231 bis 231-1). Sie k&ouml;nnen diesen Z&auml;hlbereich nicht ver&auml;ndern.</P>
+<P>Hinweis: Diese Betriebsart ist die Defaulteinstellung der FM 350-2 f&uuml;r alle 8 Kan&auml;le.</P>
+<P>Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Einmalig Z&auml;hlen :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart z&auml;hlt die Z&auml;hlerbaugruppe in Hauptz&auml;hlrichtung vorw&auml;rts einmalig von 0 bis zum parametrierten Endwert bzw. in Hauptz&auml;hlrichtung r&uuml;ckw&auml;rts vom parametrierten Startwert bis 0. Den Start-/Endwert geben Sie in dieser Maske vor. Erreicht der Z&auml;hler in Hauptz&auml;hlrichtung vorw&auml;rts den Endwert -1 und kommt ein weiterer Z&auml;hlimpuls, so wird der Z&auml;hler auf 0 gesetzt und der Z&auml;hlvorgang beendet. Erreicht der Z&auml;hler in Hauptz&auml;hlrichtung r&uuml;ckw&auml;rts den Wert 1 und kommt ein weiterer Z&auml;hlimpuls, so wird der Z&auml;hler auf den Startwert gesetzt und der Z&auml;hlvorgang beendet. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Z&auml;hlbereich: Der maximale Z&auml;hlbereich liegt zwischen 0 und 214748647. Sie k&ouml;nnen ihn durch die Vorgabe eines Start-/Endwertes ver&auml;ndern.</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Periodisch Z&auml;hlen :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart z&auml;hlt der Z&auml;hler in Hauptz&auml;hlrichtung vorw&auml;rts vom Startwert 0 bis zum Endwert -1 bzw. in Hauptz&auml;hlrichtung r&uuml;ckw&auml;rts vom Startwert bis zum Wert 1. Erreicht der Z&auml;hler in Hauptz&auml;hlrichtung vorw&auml;rts den Wert Endwert -1 und kommt ein weiterer Z&auml;hlimpuls, so wird der Z&auml;hler auf 0 gesetzt und von dort aus weitergez&auml;hlt. Erreicht der Z&auml;hler in Hauptz&auml;hlrichtung r&uuml;ckw&auml;rts den Wert 1 und kommt ein weiterer Z&auml;hlimpuls, so wird der Z&auml;hler auf den Startwert gesetzt und von dort aus weitergez&auml;hlt. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Z&auml;hlbereich: Der maximale Z&auml;hlbereich liegt zwischen 0 und 214748647. Sie k&ouml;nnen ihn durch die Vorgabe eines Start-/Endwertes ver&auml;ndern.</P>
+</FONT><DFN><P>&nbsp;</P>
+<P>Frequenzmessung :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart z&auml;hlt der Z&auml;hler die Impulse, die in einem parametrierten Zeitfenster (n x 10 ms) eintreffen. Sie k&ouml;nnen die L&auml;nge des Zeitfensters (10 ms bis 10 s) sowie zwei Frequenzvergleichswerte (einen oberen und einen unteren Grenzwert) einstellen. Am Ende jedes Zeitfensters wird der Frequenzwert aktualisiert. Wurde noch kein g&uuml;ltiger Wert ermittelt, wird -1 zur&uuml;ckgemeldet. Werden in einem Zeitintervall keine Impulse gez&auml;hlt, liefert die Baugruppe 0 Hz*10-3. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Wertebereich: Der g&uuml;ltige Wertebereich liegt zwischen 0 und 214748648 x 10-3 Hz.</P>
+<P>Sie k&ouml;nnen zwei Frequenzvergleichswerte parametrieren, einen unteren Grenzwert und einen oberen Grenzwert.</P>
+<P>Der Wertebereich f&uuml;r den unteren Grenzwert ist 0 bis 9999999 x 10-3 Hz.</P>
+<P>Der Wertebereich f&uuml;r den oberen Grenzwert ist 1 bis 10000000 x 10-3Hz.</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Drehzahlmessung :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart werden die Impulse, die in einem parametrierten Zeitfenster (n x 10 ms) von einem Drehzahlgeber eintreffen, gez&auml;hlt und hieraus wird die Drehzahl des angeschlossenen Motors berechnet. Sie k&ouml;nnen die L&auml;nge des Zeitfensters (10 ms bis 10 s), die Anzahl der Impulse pro Geberumdrehung sowie zwei Drehzahlvergleichswerte (einen oberen und einen unteren Grenzwert) einstellen. Am Ende jedes Zeitfensters wird der Drehzahlwert aktualisiert. Die ermittelte Frequenz erhalten Sie in der Einheit 1 x 10-3 U/min. Wurde noch kein g&uuml;ltiger Wert ermittelt, wird -1 zur&uuml;ckgemeldet. Werden in einem Zeitintervall keine Impulse gez&auml;hlt, liefert die Baugruppe 0 x 10-3 U/min. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Wertebereich: Der g&uuml;ltige Wertebereich liegt zwischen 0 und 25000000 x 10-3 U/min.</P>
+<P>Sie k&ouml;nnen zwei Drehzahlvergleichswerte parametrieren, einen unteren Grenzwert und einen oberen Grenzwert.</P>
+<P>Der Wertebereich f&uuml;r den unteren Grenzwert ist 0 bis 24999999 x 10-3 U/min.</P>
+<P>Der Wertebereich f&uuml;r den oberen Grenzwert ist 1 bis 25000000 x 10-3 U/min.</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Periodendauermessung :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart mi&szlig;t die Z&auml;hlerbaugruppe die exakte Zeit zwischen zwei steigenden Flanken des Z&auml;hlsignals, indem sie die Impulse einer internen quarzgenauen Referenzfrequenz (1 MHz) z&auml;hlt. Die Periodendauer kann nur in der eingestellten Hauptz&auml;hlrichtung erfa&szlig;t werden. Tritt w&auml;hrend der Periodendauermessung eine Z&auml;hlrichtungsumkehr auf, wird die Me&szlig;werterfassung beendet und der Wert -1 wird zur&uuml;ckgeliefert. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Wertebereich: Der g&uuml;ltige Wertebereich liegt zwischen 0 und 214748648 s. Der zul&auml;ssige Me&szlig;bereich liegt zwischen 100 s und 120 s (entspricht 25000 Hz bis 0,00833 Hz).</P>
+<P>Sie k&ouml;nnen zwei Periodendauervergleichswerte parametrieren, einen unteren Grenzwert und einen oberen Grenzwert. </P>
+<P>Der Wertebereich f&uuml;r den unteren Grenzwert ist 0 s bis 119.999.999 s (DWORD).</P>
+<P>Der Wertebereich f&uuml;r den oberen Grenzwert ist 100 s bis 120.000.000 s (DWORD).</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Dosieren :</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In dieser Betriebsart werden vier Z&auml;hlkan&auml;le zu einem Dosierkanal zusammengefa&szlig;t. Bei ge&ouml;ffnetem Tor z&auml;hlt die FM 350-2 einmalig. Sie k&ouml;nnen diese Betriebsart nur f&uuml;r einen Kanal ausw&auml;hlen, den Sie im Men&uuml; "Kan&auml;le spezifizieren" als Dosierz&auml;hler angelegt haben. Sie k&ouml;nnen zus&auml;tzlich zum SW-Tor auch das HW-Tor verwenden. Beide Tore wirken dann wie eine logische UND-Verkn&uuml;pfung. Wird eines der Tore geschlossen, kann der Z&auml;hlvorgang entweder abgebrochen (d. h. der n&auml;chste Z&auml;hlvorgang nach &Ouml;ffnen des Tores beginnt bei 0) oder unterbrochen werden (d. h. der n&auml;chste Z&auml;hlvorgang beginnt beim aktuellen Z&auml;hlwert).</P>
+<P>Z&auml;hlbereich: Der maximale Z&auml;hlbereich liegt zwischen 0 und 214748647.</P>
+<P>Sie k&ouml;nnen in dieser Betriebsart 4 Vergleichswerte vorgeben.</P>
+<P>Abh&auml;ngig von der eingestellten Kanalauswahl werden diejenigen Betriebsarten gesperrt, die nicht zul&auml;ssig sind. Falls zul&auml;ssig, k&ouml;nnen Sie den Start- bzw. Endwert parametrieren. Der maximale Z&auml;hlbereich liegt zwischen -2147483648 und 2147483647 (-231 bis 231-1). Parametrieren der Ausg&auml;nge Gehen Sie folgenderma&szlig;en vor:</P>
+<OL>
+
+<LI>Stellen Sie das gew&uuml;nschte Ausgangsverhalten ein. Sie k&ouml;nnen eine von 3 m&ouml;glichen Reaktionen auf das Erreichen eines Vergleichswertes einstellen.</LI>
+<LI>W&auml;hlen Sie aus, ob Sie Ersatzwerte einstellen m&ouml;chten. In der Betriebsart "Dosieren" k&ouml;nnen Sie bis zu vier Ersatzwerte einstellen, in den anderen Z&auml;hlbetriebsarten k&ouml;nnen Sie einen Ersatzwert einstellen.</LI></OL>
+
+</FONT><DFN><P>Hinweis:  </DFN><FONT FACE="Courier New" SIZE=2>In den Betriebsarten "Frequenzmessung", "Drehzahlmessung" und "Periodendauermessung" k&ouml;nnen Sie die Ausg&auml;nge nicht parametrieren.</P>
+</FONT><U><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Alarmfreigabe :</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>Gehen Sie folgenderma&szlig;en vor:</P>
+<P>&#9;1.&#9;W&auml;hlen Sie in dieser Maske die Ereignisse aus, f&uuml;r die Sie einen Proze&szlig;alarm freigeben wollen.</P>
+<P>&#9;2.&#9;Bet&auml;tigen Sie die Schaltfl&auml;che "OK".</P>
+<P>Folgende Ereignisse k&ouml;nnen Sie ausw&auml;hlen:</P>
+<P>&#9;·&#9;&Ouml;ffnen des HW-Tores </P>
+<P>&#9;·&#9;Schlie&szlig;en des HW-Tores </P>
+<P>&#9;·&#9;&Uuml;berlauf/Unterlauf </P>
+<P>&#9;·&#9;Unterlauf/Me&szlig;ende erreicht (in den Betriebsarten "Frequenzmessung", "Drehzahlmessung" und "Periodendauermessung")</P>
+<P>&#9;·&#9;Erreichen eines Vergleichswerts (in den Betriebsarten "Endlos Z&auml;hlen", "Einmalig Z&auml;hlen", "Periodisch Z&auml;hlen" und "Dosieren")</P>
+<P>&#9;·&#9;Unterschreiten der parametrierten Untergrenze (in den Betriebsarten "Frequenzmessung", "Drehzahlmessung" und "Periodendauermessung")</P>
+<P>&#9;·&#9;&Uuml;berschreiten der parametrierten Obergrenze (in den Betriebsarten "Frequenzmessung", "Drehzahlmessung" und "Periodendauermessung")</P>
+<P>Hinweis:</P>
+<P>&#9;·&#9;Sie m&uuml;ssen f&uuml;r den Z&auml;hler auch bei der Konfigurierung der Hardware die Alarmgenerierung in der Maske Grundeinstellung freigeben.</P>
+<P>&#9;·&#9;Sie k&ouml;nnen beliebig viele Ereignisse ausw&auml;hlen. </P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P>"Kan&auml;le spezifizieren"</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>In diesem Dialogfeld k&ouml;nnen Sie einstellen, wie Sie die Kan&auml;le definieren m&ouml;chten.</P>
+<P>Sie haben folgende Auswahlm&ouml;glichkeiten:</P>
+<P>&#9;·&#9;Kanal 0..7 als Einzelz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0 als Dosierz&auml;hler, Kanal 4..7 als Einzelz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0..3 als Einzelz&auml;hler, Kanal 4 als Dosierz&auml;hler</P>
+<P>&#9;·&#9;Kanal 0 als Dosierz&auml;hler und Kanal 5 als Dosierz&auml;hler</P>
+<P>&#9;·&#9;Z&auml;hlereingang Kanal 0..3 Namur</P>
+<P>&#9;·&#9;Z&auml;hlereingang Kanal 4..7 Namur</P>
+<P>Weiterhin k&ouml;nnen Sie f&uuml;r die Statusanzeige in User_Type1 und User_Type2 festlegen, welcher Wert (Z&auml;hlwert oder Me&szlig;wert) f&uuml;r welchen Kanal (0 bis 7) im Bereich ab Baugruppenadresse + Offset 8 abgelegt wird. Von einem Wert k&ouml;nnen Sie entweder das Low-Word oder das High-Word oder beide abgelegt werden. Sie k&ouml;nnen auf diese Werte mit "Direktzugreifen" zugreifen.</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P>"Inbetriebnahme"</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>In diesem Dialogfeld k&ouml;nnen Sie die f&uuml;r den Test ben&ouml;tigten Parameter einstellen.</P>
+<P>Sie haben folgende Einstellm&ouml;glichkeiten:</P>
+<P>&#9;·&#9;Kanal (0 - 7)</P>
+<P>&#9;·&#9;Weitere Testfunktionen</P>
+<P>&#9;·&#9;Z&auml;hler laden</P>
+<P>&#9;·&#9;Loadwerte laden</P>
+<P>&#9;·&#9;Vergleichswerte laden</P>
+<P>&#9;·&#9;Vergleichswert</P>
+<P>Der Status der Betriebsart, des Z&auml;hlerstandes und des Me&szlig;werts werden angezeigt.</P>
+<P>Die angezeigten "LEDs" zeigen folgendes an:</P><DIR>
+<DIR>
+
+<P>STS_CMP: Status Vergleicher</P></DIR>
+</DIR>
+
+<P>&#9;STS_DIR: Status Z&auml;hlrichtung Z&auml;hler</P>
+<P>&#9;STS_OFLW: Status &Uuml;berlauf Z&auml;hler</P>
+<P>&#9;STS_UFLW: Status Unterlauf Z&auml;hler</P>
+<P>&#9;STS_DI: Status Digitaleingang</P>
+<P>&#9;STS_DQ: Status Digitalausgang</P>
+<P>&#9;STS_GATE: Status internes Tor</P>
+<P>&Uuml;ber die folgenden Schaltfl&auml;chen k&ouml;nnen Sie bestimmte Funktionen an- bzw. abw&auml;hlen:</P>
+<P>&#9;CTRL_DQ: Freigabe der Digitalausg&auml;nge</P>
+<P>&#9;SET_DQ: Ansteuern der Digitalausg&auml;nge</P>
+<P>&#9;SW_GATE: Softwaretor &ouml;ffnen/schlie&szlig;en</P>
+<P>&#9;TFB: PG-Betrieb ist aktiv</P>
+<P>&#9;RES_STS: Statussignale r&uuml;cksetzen</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P>"Fehlerauswertung":</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>In diesem Dialogfeld werden beim Testen aufgetretene Fehler angezeigt.</P>
+<P>Wenn Sie die Schaltfl&auml;che Aktualisieren bet&auml;tigen, werden die aktuellen Fehler ausgelesen.</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P>"Service"</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>Dieses Dialogfeld zeigt mittels LEDs, welche Funktionen aktiviert sind.</P>
+<P>Die folgenden LEDs stehen zur Verf&uuml;gung:</P><DIR>
+<DIR>
+
+<P>·&#9;Parametriert</P></DIR>
+</DIR>
+
+<P>&#9;·&#9;FM-Neustart</P>
+<P>&#9;·&#9;FM-Neustart quittiert</P>
+<P>&#9;·&#9;Fehler</P>
+<P>&#9;·&#9;Dateninterpretation l&auml;uft</P>
+<P>&#9;·&#9;Schreibrecht f&uuml;r PGs</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></FONT></BODY>
+</HTML>

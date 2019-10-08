@@ -1,0 +1,190 @@
+<html>
+
+<head>
+<title>Graphic Interface</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h2><a name="top"></a><big><big><big>Graphic Interface</big></big></big></h2>
+<font SIZE="2">
+
+<p>&nbsp;</p>
+
+<p></font><font size="4">The PID user interface includes a process picture representation
+and several popup menus. The PID process representation is shown in Figure 3. The PID
+popup menus include the PID operations interface Figure 4, and the PID tuning interface
+Figure 5.</p>
+
+<p>The PID process picture has a unique name identifier ($Instance) for the PID controller
+displayed at the top of the picture. Within the circle the setpoint value (<b>setpoint_visual</b>)
+and the process value (<b>value_visual</b>) are displayed. The setpoint is the top value
+and the text is displayed in green. The bottom value is the process value and the text is
+displayed in black.</font></p>
+<font SIZE="2">
+
+<p align="center"></font><a name="figure3"></a></p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"><font SIZE="2"><img SRC="Image4.gif" WIDTH="322" HEIGHT="98"></font></td>
+  </tr>
+  <tr>
+    <td width="100%"><font SIZE="2"><p ALIGN="left"></font><font size="3">Figure 3: PID
+    Process Representation</font></td>
+  </tr>
+</table>
+<font SIZE="2">
+
+<p></font><font size="4">&nbsp;</p>
+
+<p>To the left and slightly below the $Instance name, a symbol indicating the freeze
+condition of the PID controller is shown. If the PID controller is in freeze (freeze = 1)
+mode a &quot;Red Minus&quot; symbol is displayed. If the PID controller is not in freeze
+mode the symbol is not displayed. In addition, to the right and slightly below the
+$Instance name a hand symbol is displayed if the PID controller is in manual mode (auto =
+0). If the controller is in auto control the hand symbol is not displayed.</p>
+
+<p>Using the right mouse button to select the PID process representation causes the
+Operations Interface window, Figure 4, to be opened on the computer screen.</font></p>
+
+<p align="center"><a name="figure4"></a></p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"><font SIZE="2"><img SRC="OperatorPopup.GIF" width="238" height="357"></font></td>
+  </tr>
+  <tr>
+    <td width="100%"><font SIZE="2"><p ALIGN="left"></font><font size="3">Figure 4: PID
+    Operations Interface</font></td>
+  </tr>
+</table>
+
+<p><font size="4">The PID Operations graphic also includes the Instance name or the PID
+controller and below it there is a comment describing the controller. </font></p>
+<font size="4">
+
+<p>Below the Instance name and comment, a box indicates whether the PID controller is
+Enabled or Locked. If the controller is enabled (enable = 1) the box background is
+highlighted in green and the text is shown &quot;Enabled&quot;. The PID controller
+functions normally if it is enabled. If the PID controller is not enabled the box
+background color is red and the text shown is &quot;Locked&quot;. In the locked mode the
+control output (control_out) is set to the control minimum value (control_min) which is
+typically 0%.</p>
+
+<p>The setpoint, the process value and the control output are displayed on the three
+slider bars. Both the setpoint and control output can be manipulated using the slider bar
+up and down arrows. The setpoint and the control output can also be changed using the
+slider. The setpoint, process value and control output are also displayed under the slider
+bars. </p>
+
+<p>Beneath the slider bars there are four push buttons. The Manual push button places the
+PID controller into Automatic mode or into Manual mode. In automatic mode the PID control
+output is determined by the PID logic while in manual mode the control output is set from
+the output slider bar. </p>
+
+<p>The Manual - Setpoint push button permits the operator to adjust the setpoint from the
+slider. In Automatic - Setpoint mode the PID controller receives the setpoint from an
+outside source. The controller gets its setpoint from a variable input (setpoint_in).
+Placing the controller into Automatic-Setpoint allows this controller to be used in a
+series of cascaded controllers or as a feedforward controller. </p>
+
+<p>The Shutdown push button causes the PID controller to set the setpoint to 0. The Freeze
+push button freezes and unfreezes the PID controller. </p>
+
+<p>Finally the Parameter push button opens the PID controller parameter popup menu (Figure
+5).</font></p>
+
+<p align="center"><a name="figure5"></a></p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%"><font SIZE="2"><img SRC="ConfigurationPopup.GIF" width="469" height="362"></font></td>
+  </tr>
+  <tr>
+    <td width="100%"><font SIZE="2"><p ALIGN="left"></font><font size="3">Figure 5: PID Tuning
+    Interface</font></td>
+  </tr>
+</table>
+<font SIZE="2">
+
+<p align="center">&nbsp;</p>
+
+<p></font><font size="4">The Tuning Interface has three panes for tuning the PID
+parameters. The check boxes in the PID-parameters pane permits the different components of
+the PID controller to be enabled. The possible combinations are P (proportional), I
+(integral), D (derivative), PI, PD, and PID. Using the corresponding slider bar, one can
+adjust the controller Gain, Reset and Derivative tuning constants.</p>
+
+<p>The Runup/Rundown Ramp Time modifies the maximum time that the setpoint or control
+output can ramp from its minimum value to its maximum value. The parameters are: 
+
+<menu>
+  <li>tu_sp = maximum time for the setpoint to ramp up from the minimum value to the maximum</li>
+  <li>td_sp = maximum time for the setpoint to ramp down from the maximum value to the minimum</li>
+  <li>tu_con = maximum time for the output to ramp from the minimum value to the maximum</li>
+  <li>td_con = maximum time for the output to ramp from the maximum value to the minimum</li>
+</menu>
+
+<p>The time constants are used to set the maximum amount that the setpoint or output can
+change from one PLC cycle to the next. The relationship is:</p>
+</font>
+
+<p><font size="4">Increment = (Max_Scale &#150; Min_Scale) * PLC_cycle_time/ramp_time
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1)</font></p>
+<font SIZE="2">
+
+<p></font><font size="4">The parameters in the Limits panel are:</font></p>
+
+<p>&nbsp;</p>
+<div align="left">
+
+<table border="1" cellpadding="3" cellspacing="1" width="717">
+  <tr>
+    <td width="137"><font size="4">control_max</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">Maximum control output</font></td>
+  </tr>
+  <tr>
+    <td width="137"><font size="4">control_min</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">Minimum control output</font></td>
+  </tr>
+  <tr>
+    <td width="137"><font size="4">integral_off</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">If the error (setpoint minus the process value) is greater
+    than the integral_off limit, the integral portion of the controller is disabled
+    (anti-reset windup) </font></td>
+  </tr>
+  <tr>
+    <td width="137"><font size="4">Smoothing_time</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">The smoothing time constant is the time period over which
+    the measured value is averaged (rolling average) for both PID calculations and display.</font></td>
+  </tr>
+  <tr>
+    <td width="137"><font size="4">Deadband</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">The deadband is the minimum error whereby no control action
+    is taken. This prevents the control output from oscillating when the error is small. </font></td>
+  </tr>
+  <tr>
+    <td width="137"><font size="4">td_d</font></td>
+    <td width="44" align="center"><font size="4">=</font></td>
+    <td width="506"><font size="4">The delay time of the derivative </font></td>
+  </tr>
+</table>
+</div>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<p align="center">[<big> <a href="pid_lag.htm#Home">Home</a> | <a href="#top">Top of Page</a>
+| <a href="pid_lag.htm#Content">Contents</a> </big>] </p>
+</body>
+</html>

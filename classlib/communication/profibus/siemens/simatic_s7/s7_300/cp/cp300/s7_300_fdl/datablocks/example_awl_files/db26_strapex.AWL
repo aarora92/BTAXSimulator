@@ -1,0 +1,85 @@
+DATA_BLOCK "VonZR"
+TITLE =Datenübertragung von Zellenrechner zur SPS
+//
+VERSION : 0.1
+
+
+  STRUCT 	
+   GutLoesch : BOOL ;	
+   SchlechtLoesch : BOOL ;	
+   res1 : BYTE ;	
+   res2 : BYTE ;	
+   res3 : BYTE ;	
+   UmrMuster : BYTE ;	
+   PalType : BYTE ;	
+   Bindst : BYTE ;	
+   Wickeln : BYTE ;	
+   PalCode : DWORD ;	
+   res : STRUCT 	
+    res1 : BYTE ;	
+    res2 : BYTE ;	
+    res3 : BYTE ;	
+    res4 : BYTE ;	
+    res5 : BYTE ;	
+    res6 : BYTE ;	
+    res7 : BYTE ;	
+    res8 : BYTE ;	
+   END_STRUCT ;	
+   DataPos1Ok : BOOL ;	
+   DataPos2Ok : BOOL ;	
+   Bestueckungsplatz : STRUCT 	
+    GruenePal : BOOL ;	
+    BeigePal : BOOL ;	
+    StyroPal : BOOL ;	
+    FalschePal : BOOL ;	
+    PalWeitertransp : BOOL ;	
+    PalAusschleusen : BOOL ;	
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+   Schleuse : STRUCT 	
+    PalCodeOK : BOOL ;	//Palettencode OK
+    PalCodeNOK : BOOL ;	//Palettencode Not OK
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+   TransferOld : STRUCT 	
+    PalWeitertransp : BOOL ;	
+    PalAusschleusen : BOOL ;	
+    PalCode : DWORD ;	
+   END_STRUCT ;	
+  END_STRUCT ;	
+BEGIN
+   GutLoesch := FALSE; 
+   SchlechtLoesch := FALSE; 
+   res1 := B#16#0; 
+   res2 := B#16#0; 
+   res3 := B#16#0; 
+   UmrMuster := B#16#0; 
+   PalType := B#16#0; 
+   Bindst := B#16#0; 
+   Wickeln := B#16#0; 
+   PalCode := DW#16#0; 
+   res.res1 := B#16#0; 
+   res.res2 := B#16#0; 
+   res.res3 := B#16#0; 
+   res.res4 := B#16#0; 
+   res.res5 := B#16#0; 
+   res.res6 := B#16#0; 
+   res.res7 := B#16#0; 
+   res.res8 := B#16#0; 
+   DataPos1Ok := FALSE; 
+   DataPos2Ok := FALSE; 
+   Bestueckungsplatz.GruenePal := FALSE; 
+   Bestueckungsplatz.BeigePal := FALSE; 
+   Bestueckungsplatz.StyroPal := FALSE; 
+   Bestueckungsplatz.FalschePal := FALSE; 
+   Bestueckungsplatz.PalWeitertransp := FALSE; 
+   Bestueckungsplatz.PalAusschleusen := FALSE; 
+   Bestueckungsplatz.PalCode := DW#16#0; 
+   Schleuse.PalCodeOK := FALSE; 
+   Schleuse.PalCodeNOK := FALSE; 
+   Schleuse.PalCode := DW#16#0; 
+   TransferOld.PalWeitertransp := FALSE; 
+   TransferOld.PalAusschleusen := FALSE; 
+   TransferOld.PalCode := DW#16#0; 
+END_DATA_BLOCK
+

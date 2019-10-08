@@ -1,0 +1,9 @@
+XlinkState:	OK=0,
+		Link_Error=1,
+		No_Link=2,
+		Wrong_Address=3,
+		Ddouble_Address=4,
+		Ethernet_Error=5,
+		Remote_Error=6;
+
+

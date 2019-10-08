@@ -1,0 +1,568 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>Database_</title>
+</head>
+<body link="#0000FF" vlink="#800080">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="746" >
+<tr>
+<td VALIGN=TOP HEIGHT="58" BGCOLOR="#808080"><b><font face="Arial,Helvetica"><font color="#FFFFFF"><font size=+4>ascidatabase</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">With the Database you can manage data under
+a filename.</font>
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a> | <a href="#ProgrammeInformation">Programmer
+Information</a> | <a href="#ModificationsHistory">Modifications History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="Installation"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial,Helvetica">The database comprises of the following
+components (files):</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial,Helvetica">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">Class Color
+File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">Includes some class
+specific color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">ascidatabase.color</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">AutomationX generated
+Class File; includes graphical representation, user interfaces, internal
+control logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">ascidatabase.symbol</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">Class Specific
+Graphic Files for both, class definition and documentation</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">Pfeil.bmp, overwrite.bmp,
+axinstanzdoku16.bmp, axinstanzdoku_grey16.bmp, AXDatabase.bmp, AXDatabaseinv.bmp,
+axclassdoku.bmp, axclassdou_grey16.bmp, Image4.gif, Image13.gif, Image14.gif,
+Image19.gif, Image23.gif, Image21.gif, Image22.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial,Helvetica">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial,Helvetica">HTML document for
+Online Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial,Helvetica">Database.htm</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><b>Installation: </b>The above files need
+to be copied into a common directory within the project's "classlib" directory.
+The name of the directory can be chosen freely.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a> | <a href="#ProgrammeInformation">Programmer
+Information</a> | <a href="#ModificationsHistory">Modifications History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="UserInterface"></a>
+<p><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>User
+Interface</font></font></font></b>
+<p><b><font face="Arial,Helvetica">1.Graphical Representation</font></b>
+<p><img SRC="graphical_database.gif" height=46 width=152>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 1: Graphical Representation</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">2. "recordselection" Popup</font></b>
+<p><font face="Arial,Helvetica">With the "recordselection" Popup you can
+load, delete and edit the data record.</font>
+<br><font face="Arial,Helvetica">The record can be selected by the up and
+down buttons beside the "Data record selection" field or directly by a
+click on the entry with the left mouse button.</font>
+<br><font face="Arial,Helvetica">The "Load" button loads the data from
+the data record in the variables Data1_1 - Data20_1. The current loaded
+data record is visible in the "Loaded Data record" field.</font>
+<br><font face="Arial,Helvetica">With the "View Data record" button the
+data can be viewed without loading. The "Filename" field shows you the
+filename of the data record you want to see.</font>
+<br><font face="Arial,Helvetica">If you have administrator rights you can
+delete a data record with the "Delete Data record" button.</font>
+<br><font face="Arial,Helvetica">Further you can make a new data record.
+By pushing the "New Data record" button the "dataedit" Popup stands up.</font>
+<br>&nbsp;
+<p><img SRC="recordselection_db.gif" height=398 width=296>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 2: recordselection
+Popup</font></font>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">3. "dataedit" Popup</font></b>
+<p><font face="Arial,Helvetica">A new data record can be created in this
+Popup. It includes the name and allows twenty data entries. The name must
+not be longer than 15 signs. With the "Save Data" button you store the
+new data record and it results an entry in the "recordselection" Popup
+(Figure 3). If you store data under a existing record name an AXMessage
+appears on the screen (Figure5). If you say "Yes" the existing file will
+be overwritten. The files are saved in the directory /Automationx/projects/cache/daten
+(Figure 6) under the record name plus the extension *.xls (i. e. record2.xls).
+The ./cache/daten directories will be created at the first time you press
+the "Save Data" button. A maximum of 27 data records can be saved.</font>
+<p><img SRC="dataedit_db.gif" height=410 width=295>
+<p><font face="Arial,Helvetica"><font size=-1>&nbsp;Figure 3: dataedit
+Popup</font></font>
+<br>&nbsp;
+<p><img SRC="overwrite_db.gif" height=135 width=235>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 4: Graphical Representation
+Overwrite.</font></font>
+<br>&nbsp;
+<p><img SRC="explorer_db.gif" height=415 width=622>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 5: Path of Data record
+files.</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica">&nbsp;<a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a> | <a href="#ProgrammeInformation">Programmer Information</a>|
+<a href="#ModificationsHistory">Modifications
+History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="Configuration"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial,Helvetica">The following table lists the configuration
+parameters for database.</font>
+<br><font face="Arial,Helvetica">The parameter data type, the default values
+and a brief description are listed. The gray shaded rows contains parameters
+which</font>
+<br><font face="Arial,Helvetica">must not be changed.</font>
+<br>&nbsp;
+<table BORDER CELLPADDING=4 WIDTH="680" >
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><b><font face="Arial,Helvetica">Item</font></b></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%"><b><font face="Arial,Helvetica">Variable</font></b></td>
+
+<td VALIGN=TOP WIDTH="14%"><b><font face="Arial,Helvetica">Type</font></b></td>
+
+<td VALIGN=TOP WIDTH="18%"><b><font face="Arial,Helvetica">Default</font></b></td>
+
+<td VALIGN=TOP WIDTH="42%"><b><font face="Arial,Helvetica">Description</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><font face="Arial,Helvetica">1</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%"><font face="Arial,Helvetica">&nbsp;Data1-Data20</font></td>
+
+<td VALIGN=TOP WIDTH="14%"><font face="Arial,Helvetica">&nbsp;REAL</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">0</font></td>
+
+<td VALIGN=TOP WIDTH="42%"><font face="Arial,Helvetica">Includes the Data
+of the record without loading.&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><font face="Arial,Helvetica">2</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%"><font face="Arial,Helvetica">&nbsp;Data1_1-Data20_1</font></td>
+
+<td VALIGN=TOP WIDTH="14%"><font face="Arial,Helvetica">REAL</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">0&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%"><font face="Arial,Helvetica">Includes the Data
+which are loaded.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><font face="Arial,Helvetica">3</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%"><font face="Arial,Helvetica">savepath</font></td>
+
+<td VALIGN=TOP WIDTH="14%"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">./projects/cache/daten</font></td>
+
+<td VALIGN=TOP WIDTH="42%"><font face="Arial,Helvetica">Path where the
+files will be saved.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">3</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Sel</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Counter
+for the selected entry.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">4</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">del</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Counter
+for deleting.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">5</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">rep</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Counter
+for C-Interpreter.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">6</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">count</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Counter
+for C-Interpreter.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">7</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">select</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Counter
+for add a new entry.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" HEIGHT="21" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">8</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Overwrite</font></td>
+
+<td VALIGN=TOP WIDTH="14%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=TOP WIDTH="42%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">SelectSet
+from "Open Database" button</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" HEIGHT="21" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">9</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">uebernahme</font></td>
+
+<td VALIGN=TOP WIDTH="14%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">INT</font></td>
+
+<td VALIGN=TOP WIDTH="18%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">NO</font></td>
+
+<td VALIGN=TOP WIDTH="42%" HEIGHT="21" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Status
+of the Load button</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">10</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Filename</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Filename
+of the selected entry.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">11</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Filenamedir</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Directory
+of the filename.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0">
+<center><font face="Arial,Helvetica">12</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Sort_anlage</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Name
+of the entry which is shown on the dataedit popup.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;
+13</font></td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Sorte_geladen</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Name
+of the loaded data record.</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;
+14</font></td>
+
+<td VALIGN=TOP WIDTH="19%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Sort</font></td>
+
+<td VALIGN=TOP WIDTH="14%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">STRING</font></td>
+
+<td VALIGN=TOP WIDTH="18%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="42%" BGCOLOR="#C0C0C0"><font face="Arial,Helvetica">Name
+of the selected data record in the selection field.</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a>| <a href="#ProgrammeInformation">Programmer
+Information</a> | <a href="#ModificationsHistory">Modifications History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="ImplementationNotes"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><font face="Arial,Helvetica">Examples to use the database:</font></b>
+<p><font face="Arial,Helvetica"><b>Example1:</b> In this example the user
+has no access to create, delete and edit of data. The loaded data record
+is record2 and the "dataedit" Popup shows the entries of record1 with the
+filename record1.xls. If the user want to load the record1 the "Load" button
+must be clicked.</font>
+<p><img SRC="example1_database.gif" height=413 width=749>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 6: Example1</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><b>Example2:</b> In this example the user
+has administrator rights to create, delete and edit data. Figure7 shows
+how to create a new data record.</font>
+<p><img SRC="example2_database.gif" height=410 width=747>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 7: Example2</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a>| <a href="#ProgrammeInformation">Programmer
+Information</a> | <a href="#ModificationsHistory">Modifications History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="ProgrammeInformation"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Programmer
+Information</font></font></font></b>
+<p><b><u><font face="Arial,Helvetica">Description of commands for data
+handling:</font></u></b>
+<p><font face="Arial,Helvetica"><b>Storage Data</b>:&nbsp;&nbsp; AXStoreParameter("$Instance",filenamedir,0,15);</font>
+<p><font face="Arial,Helvetica">$Instance stands instead of the Instance
+name. For the filenamedir stands the absolute path of the filename of the
+data record which should be saved. The default path is ./projects/cache/daten/filename.
+"filename" is the name of the data record with the extension .xls (i.e.
+record0.xls). 0 must be chosen if the data record should be overwritten,
+1 must be chosen if the data record should be added to the last one. The
+15 indicates the maximum number of data records. If more then this number
+are stored, the data record on the top will be deleted (like shift register).If
+the data are stored correctly, a return code with 1 is provided. In the
+case of a not successful storage, a 0 is given back:</font>
+<p><font face="Arial,Helvetica">&nbsp;x=AXStoreParameter("$Instance",filenamedir,0,15);</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><b>Delete Data:</b>&nbsp;&nbsp; AXDeleteParameter("$Instance",filenamedir,4,0);</font>
+<p><font face="Arial,Helvetica">$Instance stands instead of the Instance
+name. For the filenamedir stands the absolute path of the saved filename.
+The default path is ./projects/cache/daten/filename. "filename" is the
+name of the data record with the extension .xls (i.e. record0.xls). The
+4,0 in this example means, that the fourth data record, counted from the
+top of the list (this means the 0), should be deleted. If one wants to
+count from below of the list, 1 must be chosen instead of 0 (i.e. the last
+saved record must be chosen with1,1). If the data are deleted correctly,
+a return code with 1 is provided. In the case of a not successful storage,
+a 0 is given back:</font>
+<p><font face="Arial,Helvetica">x=AXDeleteParameter("$Path",filenamedir,0,15)</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><b>Read Data:</b>&nbsp;&nbsp; AXReadParameter("$Instance",filenamedir,4,0);</font>
+<p><font face="Arial,Helvetica">$Instance stands instead of the Instance
+name. For the filenamedir stands the absolute path of the saved filename.
+The default path is ./projects/cache/daten/filename. "filename" is the
+name of the data record with the extension .xls (e.g. record0.xls). In
+this example the fourth data record, counted from the top of the list,
+should be read. If one wants to count from below of the list, 1 must be
+chosen instead of 0 (i.e. the last saved record must be chosen with 1,1).</font>
+<p><font face="Arial,Helvetica">Further a data record can be <b><i>searched</i></b>
+and read in <b><i>via a variable</i></b>. Instead of e.g. 4,0 the column
+name and the searched variable must be indicated.</font>
+<br><font face="Arial,Helvetica"><b>IMPORTANT</b>: The whole argument must
+be declared under Quotation marks (e.g. "Data2=56").</font>
+<p><img SRC="excel_db.gif" height=324 width=631>
+<p><font face="Arial,Helvetica"><font size=-1>Figure 8: Saved data records
+viewed in Excel</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a>| <a href="#ProgrammeInformation">Programmer
+Information</a> | <a href="#ModificationsHistory">Modifications History</a></font>
+<br>
+<hr ALIGN="LEFT" WIDTH="85%">
+<p><a NAME="ModificationsHistory"></a><b><font face="Arial,Helvetica"><font color="#0000FF"><font size=+2>Modifications
+History</font></font></font></b>
+<p><font face="Arial,Helvetica">The following table lists the modifications
+made to the database.</font>
+<br>&nbsp;
+<table BORDER CELLPADDING=4 WIDTH="618" >
+<tr>
+<td VALIGN=TOP WIDTH="7%" HEIGHT="30">
+<center><b><font face="Arial,Helvetica">Item</font></b></center>
+</td>
+
+<td VALIGN=TOP WIDTH="20%" HEIGHT="30"><b><font face="Arial,Helvetica">Date(d/m/y)</font></b></td>
+
+<td VALIGN=TOP WIDTH="20%" HEIGHT="30"><b><font face="Arial,Helvetica">Name</font></b></td>
+
+<td VALIGN=TOP WIDTH="12%" HEIGHT="30"><b><font face="Arial,Helvetica">File</font></b></td>
+
+<td VALIGN=TOP WIDTH="23%" HEIGHT="30"><b><font face="Arial,Helvetica">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="18%" HEIGHT="30"><b><font face="Arial,Helvetica">Reason</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><font face="Arial,Helvetica">1</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">21/12/1999</font></td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">Thomas Lang</font></td>
+
+<td VALIGN=TOP WIDTH="12%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="23%"><font face="Arial,Helvetica">Initial Design</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%">
+<center><font face="Arial,Helvetica">2</font></center>
+</td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">13/03/2000&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">Thomas Lang&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="12%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="23%"><font face="Arial,Helvetica">Redesign&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">4.3.2&nbsp;</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="7%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="20%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="12%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="23%"><font face="Arial,Helvetica">&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="18%"><font face="Arial,Helvetica">&nbsp;</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+</body>
+</html>

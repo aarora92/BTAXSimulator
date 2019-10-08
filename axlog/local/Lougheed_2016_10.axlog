@@ -1,0 +1,1083 @@
+2016-10-01 00:00:00-492	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 00:00:00-692	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 00:00:10-895	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 08:30:14-300	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 08:30:14-300	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 08:30:15-300	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 08:30:15-500	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 08:32:31-105	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 08:32:31-707	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 08:33:38-899	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 08:33:38-899	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 08:33:39-501	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 08:33:39-701	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 08:33:48-932	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 08:33:49-935	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 09:45:44-117	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 11:52:35-181	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 11:52:35-181	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 11:52:36-182	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 11:52:36-382	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 11:55:08-503	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 11:55:12-104	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 11:56:10-521	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 11:56:10-521	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 11:56:11-121	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 11:56:11-321	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 11:56:20-525	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 11:56:21-525	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 12:03:18-697	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 12:03:18-697	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-01 12:03:19-697	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 12:03:19-897	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-01 12:05:19-530	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 12:05:20-130	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-01 12:06:56-487	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 12:06:56-487	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 12:06:57-087	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-01 12:06:57-287	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-01 12:07:06-490	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-01 12:07:07-490	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-02 13:44:38-465	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 13:44:38-465	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 13:44:39-265	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 13:44:39-465	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 13:44:39-665	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 13:47:13-127	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 13:47:16-728	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 18:29:10-523	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 18:29:10-523	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 18:29:11-524	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 18:29:11-724	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 18:31:48-030	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 18:31:48-630	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 20:42:53-739	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 20:42:53-739	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 20:42:54-739	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 20:42:54-940	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 20:44:54-228	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 20:44:54-830	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 20:45:41-331	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-02 20:45:41-331	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-02 20:45:41-931	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-02 20:45:42-131	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-02 20:45:51-337	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-02 20:45:52-338	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-02 20:57:24-192	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 20:57:24-192	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-02 20:57:25-193	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 20:57:25-393	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-02 20:59:56-036	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 20:59:56-636	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-02 21:00:04-639	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-02 21:00:04-839	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-02 21:00:06-039	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-02 21:00:06-039	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-02 21:00:15-042	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-02 21:00:16-042	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-02 21:57:51-151	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 05:59:42-169	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-03 05:59:42-169	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-03 05:59:42-970	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 05:59:43-170	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-03 05:59:43-370	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-03 06:01:53-896	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 06:01:54-496	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 13:58:09-215	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-03 13:58:09-215	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-03 13:58:10-216	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-03 13:58:10-416	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-03 14:00:21-828	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 14:00:25-429	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-03 14:02:31-805	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-03 14:02:31-805	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-03 14:02:35-408	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-03 14:02:35-608	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-03 14:02:41-813	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-03 14:02:45-817	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 02:28:35-930	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 06:29:32-895	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 06:29:32-895	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 06:29:33-895	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 06:29:34-095	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 06:31:26-143	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 06:31:26-743	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 06:32:52-225	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 06:32:52-225	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 06:32:52-825	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 06:32:53-026	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 06:33:02-254	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 06:33:03-255	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 07:01:08-869	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 07:01:08-869	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 07:01:09-870	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 07:01:10-070	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 07:03:25-714	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 07:03:26-314	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:03:38-197	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 17:03:38-197	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 17:03:38-998	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:03:39-198	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 17:03:39-398	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 17:06:12-057	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:06:12-657	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:07:11-074	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 17:07:11-074	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 17:07:11-674	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 17:07:11-874	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 17:07:21-079	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 17:07:22-080	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 17:14:15-286	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 17:14:15-286	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-04 17:14:16-286	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 17:14:16-486	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-04 17:16:19-939	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:16:20-539	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-04 17:17:59-772	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 17:17:59-772	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 17:18:00-373	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-04 17:18:00-573	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-04 17:18:09-776	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-04 17:18:10-776	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 11:21:07-914	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 11:21:07-914	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 11:21:08-914	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 11:21:09-114	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 11:23:45-173	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 11:23:45-773	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 12:18:28-825	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 14:48:57-080	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 14:48:57-080	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 14:48:58-081	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 14:48:58-281	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 14:51:33-123	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 14:51:33-723	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 14:53:08-197	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 14:53:08-197	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 14:53:08-797	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 14:53:08-997	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 14:53:18-202	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 14:53:19-203	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 16:20:03-126	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 16:20:03-126	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 16:20:03-926	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 16:20:04-126	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 16:20:04-326	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 16:22:13-006	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 16:22:13-606	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 16:22:54-025	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 16:22:54-025	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 16:22:57-626	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 16:22:57-826	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 16:23:04-027	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 16:23:08-028	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 16:34:56-669	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 16:34:56-669	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-05 16:34:57-669	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 16:34:57-869	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-05 16:37:29-951	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 16:37:30-551	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-05 16:37:38-554	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 16:37:38-755	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 16:37:39-956	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-05 16:37:39-956	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-05 16:37:48-960	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-05 16:37:49-960	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-06 17:25:26-587	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-06 17:25:26-587	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-06 17:25:27-587	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-06 17:25:27-787	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-06 17:27:38-855	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-06 17:27:42-459	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-06 17:28:28-881	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-06 17:28:28-881	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-06 17:28:29-481	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-06 17:28:29-681	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-06 17:28:38-886	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-06 17:28:39-886	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-06 17:35:27-216	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-06 17:35:27-216	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-06 17:35:28-217	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-06 17:35:28-417	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-06 17:37:28-250	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-06 17:37:28-850	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-06 17:38:30-275	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-06 17:38:30-275	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-06 17:38:30-875	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-06 17:38:31-075	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-06 17:38:40-277	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-06 17:38:41-277	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-06 18:46:55-663	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:36:26-655	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 07:36:26-655	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 07:36:27-455	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:36:27-655	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 07:36:27-855	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 07:39:23-910	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:39:24-510	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:40:25-924	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 07:40:25-924	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 07:40:26-524	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 07:40:26-724	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 07:40:35-925	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 07:40:36-926	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 07:53:24-337	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 07:53:24-337	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 07:53:25-337	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 07:53:25-537	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 07:56:01-790	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:56:02-390	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 07:56:15-799	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 07:56:15-799	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 07:56:16-399	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 07:56:16-599	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 07:56:25-803	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 07:56:26-804	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 10:56:12-143	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 10:56:12-143	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-07 10:56:13-144	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 10:56:13-344	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-07 10:58:02-796	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 10:58:03-397	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-07 10:59:52-456	0	Batch3	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 10:59:52-456	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 10:59:53-057	0	Original-BatchTrack	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-07 10:59:53-257	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-07 11:00:02-462	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 11:00:03-462	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-07 17:12:52-800	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 08:34:42-789	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 08:34:42-789	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 08:34:43-789	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 08:34:43-989	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 08:36:57-827	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 08:36:58-427	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 08:38:05-849	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 08:38:05-849	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 08:38:06-449	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 08:38:06-649	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 08:38:15-857	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-08 08:38:16-858	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-08 11:23:42-677	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 11:23:42-677	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 11:23:43-477	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 11:23:43-677	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 11:23:43-877	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 11:26:10-329	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 11:26:10-929	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 11:27:12-357	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 11:27:12-357	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 11:27:12-957	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 11:27:13-158	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 11:27:22-362	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-08 11:27:23-363	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-08 11:34:10-659	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 11:34:10-659	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-08 11:34:11-660	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 11:34:11-860	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-08 11:36:12-098	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 11:36:12-698	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-08 11:37:11-113	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 11:37:11-113	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 11:37:11-713	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-08 11:37:11-913	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-08 11:37:21-115	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-08 11:37:22-115	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 09:46:43-722	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 09:46:43-722	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 09:46:44-723	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 09:46:44-923	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 09:49:27-584	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 09:49:28-184	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 09:50:32-602	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 09:50:32-602	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 09:50:33-202	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 09:50:33-402	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 09:50:42-605	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 09:50:43-605	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 10:03:20-677	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 10:03:20-677	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 10:03:21-678	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 10:03:21-878	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 10:06:02-525	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 10:06:03-126	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 10:06:13-528	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 10:06:13-528	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 10:06:14-128	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 10:06:14-328	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 10:06:23-531	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 10:06:24-531	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 12:26:27-946	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 12:26:27-946	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 12:26:28-946	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 12:26:29-146	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 12:28:21-974	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 12:28:22-574	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 12:29:52-795	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 12:29:52-795	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 12:29:53-395	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-09 12:29:53-595	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-09 12:30:02-801	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 12:30:03-801	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-09 13:03:22-139	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 17:29:38-027	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 17:29:38-027	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-09 17:29:39-027	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 17:29:39-227	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-09 17:31:49-674	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-09 17:31:50-274	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 07:51:47-609	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 07:51:47-609	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 07:51:48-609	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 07:51:48-809	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 07:54:01-267	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 07:54:01-867	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 07:54:51-280	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 07:54:51-280	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 07:54:51-881	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 07:54:52-081	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 07:55:01-287	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 07:55:02-287	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 08:01:45-614	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 08:01:45-614	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 08:01:46-614	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 08:01:46-814	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 08:03:47-655	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 08:03:48-256	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 08:04:43-668	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 08:04:43-668	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 08:04:44-268	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 08:04:44-468	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 08:04:53-670	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 08:04:54-670	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 17:34:23-848	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 17:55:53-461	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 17:55:53-461	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 17:55:54-261	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 17:55:54-461	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 17:55:54-661	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 17:57:57-129	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 17:57:57-729	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 17:58:38-147	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 17:58:38-147	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 17:58:38-747	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 17:58:38-947	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 17:58:48-153	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 17:58:49-154	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 18:10:32-968	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 18:10:32-968	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-10 18:10:33-968	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 18:10:34-168	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-10 18:13:11-010	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 18:13:11-610	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-10 18:13:22-016	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 18:13:22-016	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 18:13:22-616	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-10 18:13:22-816	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-10 18:13:32-021	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-10 18:13:33-022	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-11 17:09:30-877	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-11 17:09:30-877	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-11 17:09:31-877	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-11 17:09:32-077	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-11 17:12:05-119	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-11 17:12:05-720	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-11 17:13:10-140	0	Batch3	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-11 17:13:10-140	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-11 17:13:10-741	0	Original-BatchTrack	34	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-11 17:13:10-941	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-11 17:13:20-150	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-11 17:13:21-151	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-11 17:20:18-904	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-11 17:20:18-904	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-11 17:20:19-905	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-11 17:20:20-105	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-11 17:22:21-937	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-11 17:22:22-537	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-11 17:23:17-957	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-11 17:23:17-957	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-11 17:23:18-557	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-11 17:23:18-757	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-11 17:23:27-961	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-11 17:23:28-961	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 06:59:40-669	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 06:59:40-669	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 06:59:41-670	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 06:59:41-870	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 07:02:34-350	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 07:02:34-951	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 07:02:44-356	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 07:02:44-356	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 07:02:54-363	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 07:03:39-999	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 07:03:40-200	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 07:03:50-409	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 07:16:29-453	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 07:16:29-453	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 07:16:30-453	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 07:16:30-653	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 07:19:06-327	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 07:19:09-929	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 07:19:23-337	0	Batch3	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 07:19:23-337	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 07:19:23-937	0	Original-BatchTrack	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 07:19:24-137	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 07:19:33-341	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 07:19:34-342	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 07:27:14-917	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 12:03:11-853	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 12:03:11-853	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 12:03:12-854	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 12:03:13-054	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 12:05:28-529	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 12:05:29-130	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 14:35:08-622	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 14:35:08-622	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-12 14:35:09-623	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 14:35:09-823	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-12 14:36:58-858	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 14:36:59-458	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-12 14:38:32-701	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 14:38:32-701	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 14:38:33-302	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-12 14:38:33-502	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-12 14:38:42-704	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-12 14:38:43-705	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 10:40:15-539	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 10:40:15-539	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 10:40:16-339	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 10:40:16-539	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 10:40:16-739	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 10:42:28-773	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 10:42:32-375	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 10:43:39-795	0	Batch3	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 10:43:39-795	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 10:43:40-395	0	Original-BatchTrack	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 10:43:40-595	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 10:43:49-797	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 10:43:50-798	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 11:27:56-129	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 16:30:51-658	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 16:30:51-658	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 16:30:52-659	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 16:30:52-859	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 16:33:24-499	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 16:33:28-100	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 16:34:29-522	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 16:34:29-522	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 16:34:30-122	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 16:34:30-323	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 16:34:39-527	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 16:34:40-527	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 16:41:33-655	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 16:41:33-655	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-13 16:41:34-655	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 16:41:34-855	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-13 16:43:35-279	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 16:43:35-880	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-13 16:44:31-290	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 16:44:31-290	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 16:44:31-890	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-13 16:44:32-090	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-13 16:44:41-292	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-13 16:44:42-293	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 08:25:15-450	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 08:25:15-450	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 08:25:16-450	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 08:25:16-650	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 08:27:50-102	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 08:27:50-702	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 08:29:29-939	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 08:29:29-939	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 08:29:30-539	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 08:29:30-739	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 08:29:39-944	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 08:29:40-944	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 11:13:56-539	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 11:13:56-539	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 11:13:57-339	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 11:13:57-540	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 11:13:57-740	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 11:44:12-458	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 11:44:12-458	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 11:44:13-059	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 11:44:13-460	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 11:44:13-660	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 11:46:34-905	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 11:47:07-917	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 11:47:11-518	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 11:47:21-922	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 11:47:21-922	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 11:47:22-522	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 11:47:22-722	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 11:47:31-924	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 11:47:32-925	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 12:01:12-430	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 12:01:12-430	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-14 12:01:13-431	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 12:01:13-631	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-14 12:03:45-874	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 12:03:49-475	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-14 12:03:59-877	0	Batch3	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 12:03:59-877	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 12:04:00-477	0	Original-BatchTrack	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-14 12:04:00-677	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-14 12:04:09-880	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 12:04:10-880	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-14 14:52:31-956	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-15 18:08:14-025	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-15 18:08:14-025	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-15 18:08:15-026	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-15 18:08:15-226	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-15 18:10:23-269	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-15 18:10:23-869	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-15 18:11:24-882	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-15 18:11:24-882	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-15 18:11:25-483	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-15 18:11:25-683	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-15 18:11:34-885	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-15 18:11:35-885	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-15 19:09:52-089	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:28:22-312	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 06:28:22-312	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 06:28:23-112	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:28:23-313	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 06:28:23-513	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 06:30:45-352	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:30:45-952	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:31:47-377	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 06:31:47-377	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 06:31:47-977	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 06:31:48-177	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 06:31:57-379	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 06:31:58-379	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 06:38:46-299	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 06:38:46-299	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 06:38:47-299	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 06:38:47-499	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 06:40:46-735	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:40:53-336	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 06:41:42-755	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 06:41:42-755	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 06:41:43-355	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 06:41:43-555	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 06:41:52-758	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 06:41:53-759	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 16:53:50-631	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 16:53:50-631	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 16:53:51-631	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 16:53:51-831	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 16:55:55-491	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 16:55:56-091	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 16:56:33-505	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 16:56:33-505	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 16:56:34-106	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 16:56:34-306	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 16:56:43-508	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 16:56:44-508	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 17:08:29-593	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 17:08:29-593	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-16 17:08:30-593	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 17:08:30-793	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-16 17:11:03-434	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 17:11:04-035	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-16 17:11:14-438	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 17:11:14-438	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 17:11:15-038	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-16 17:11:15-238	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-16 17:11:24-441	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 17:11:25-441	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-16 20:43:40-826	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 06:38:44-112	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 06:38:44-112	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 06:38:44-912	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 06:38:45-113	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 06:38:45-313	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 06:41:02-161	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 06:41:02-761	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 06:42:13-192	0	Batch3	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 06:42:13-192	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 06:42:13-792	0	Original-BatchTrack	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 06:42:13-992	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 06:42:23-195	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-17 06:42:24-195	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-17 15:56:20-668	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 15:56:20-668	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 15:56:21-669	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 15:56:21-869	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 15:58:35-917	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 15:58:39-518	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 16:01:28-571	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 16:01:28-571	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 16:01:29-171	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 16:01:29-372	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 16:01:38-574	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-17 16:01:39-575	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-17 18:20:17-575	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 18:20:17-575	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-17 18:20:18-576	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 18:20:18-776	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-17 18:22:09-801	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 18:22:10-401	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-17 18:23:59-867	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 18:23:59-867	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 18:24:00-467	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-17 18:24:00-668	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-17 18:24:09-875	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-17 18:24:10-876	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-18 08:31:19-303	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-18 08:31:19-303	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-18 08:31:20-304	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-18 08:31:20-504	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-18 08:33:37-942	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-18 08:33:41-544	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-18 08:34:36-965	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-18 08:34:36-965	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-18 08:34:37-565	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-18 08:34:37-765	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-18 08:34:46-971	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-18 08:34:47-971	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-18 08:41:33-326	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-18 08:41:33-326	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-18 08:41:34-326	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-18 08:41:34-526	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-18 08:43:33-764	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-18 08:43:37-369	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-18 08:44:29-781	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-18 08:44:29-781	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-18 08:44:30-381	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-18 08:44:30-581	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-18 08:44:39-787	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-18 08:44:40-787	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-18 11:47:09-598	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 09:29:46-154	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 09:29:46-154	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 09:29:47-154	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 09:29:47-354	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 09:32:19-605	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 09:32:23-206	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 14:36:47-701	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 14:36:47-701	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 14:36:48-702	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 14:36:48-902	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 14:39:21-177	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 14:39:21-777	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 16:43:42-531	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 16:43:42-531	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 16:43:43-531	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 16:43:43-731	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 16:46:40-219	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 16:46:46-820	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 16:47:48-237	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-19 16:47:48-237	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-19 16:47:48-837	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-19 16:47:49-037	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-19 16:47:58-240	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-19 16:47:59-240	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-19 17:00:47-698	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 17:00:47-698	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-19 17:00:48-498	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 17:00:48-698	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 17:00:48-898	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-19 17:03:21-948	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 17:03:22-548	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-19 17:03:32-951	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-19 17:03:32-951	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-19 17:03:33-551	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-19 17:03:33-751	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-19 17:03:42-954	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-19 17:03:43-955	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-19 23:52:38-393	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 08:52:47-094	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 08:52:47-094	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 08:52:48-095	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 08:52:48-295	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 08:55:12-752	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 08:55:13-353	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 08:56:14-767	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 08:56:14-767	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 08:56:15-367	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 08:56:15-567	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 08:56:24-770	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 08:56:25-770	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 09:03:16-161	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 09:03:16-161	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 09:03:17-162	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 09:03:17-362	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 09:05:17-592	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 09:05:18-192	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 09:06:13-605	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 09:06:13-605	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 09:06:14-205	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 09:06:14-405	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 09:06:23-607	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 09:06:24-608	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 14:12:18-433	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 14:12:18-433	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 14:12:19-434	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 14:12:19-634	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 14:14:53-107	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 14:14:53-707	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:29:44-421	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 18:29:44-421	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 18:29:45-221	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:29:45-421	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 18:29:45-621	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 18:31:46-057	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:31:49-658	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:32:27-074	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 18:32:27-074	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 18:32:27-674	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 18:32:27-874	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 18:32:37-078	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 18:32:38-078	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 18:44:22-492	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 18:44:22-492	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-20 18:44:23-493	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 18:44:23-693	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-20 18:46:56-940	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:46:57-540	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-20 18:47:10-947	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 18:47:10-947	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 18:47:11-547	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-20 18:47:11-747	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-20 18:47:20-951	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-20 18:47:21-952	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-21 11:33:56-240	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 11:33:56-240	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 11:33:57-240	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 11:33:57-440	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 11:36:13-476	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 11:36:14-076	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 11:37:19-092	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-21 11:37:19-292	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-21 11:37:21-492	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-21 11:37:21-492	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-21 11:37:29-494	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-21 11:37:31-495	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-21 11:53:37-278	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 18:12:30-900	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 18:12:30-900	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 18:12:31-901	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 18:12:32-101	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 18:14:33-128	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 18:14:33-728	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 18:23:37-391	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 18:23:37-391	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-21 18:23:38-192	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 18:23:38-392	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 18:23:38-592	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-21 18:24:02-003	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-21 18:24:02-003	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-21 18:24:02-603	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-21 18:24:02-804	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-21 18:24:12-008	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-21 18:24:13-009	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-21 18:25:50-840	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-21 18:25:51-440	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 07:05:40-582	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 10:19:15-250	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 10:19:15-250	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 10:19:16-251	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 10:19:16-451	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 10:21:46-894	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 10:21:47-494	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 10:22:48-910	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 10:22:48-910	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 10:22:49-510	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 10:22:49-710	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 10:22:58-912	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-22 10:22:59-913	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-22 10:29:50-041	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 10:29:50-041	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 10:29:51-042	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 10:29:51-242	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 10:31:51-698	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 10:31:52-298	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 10:32:47-727	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 10:32:47-727	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 10:32:48-327	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 10:32:48-527	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 10:32:57-732	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-22 10:32:58-733	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-22 17:12:04-055	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 17:12:04-055	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-22 17:12:05-055	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 17:12:05-255	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-22 17:14:38-703	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 17:14:39-303	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-22 17:16:15-532	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 17:16:15-532	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 17:16:16-132	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-22 17:16:16-332	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-22 17:16:25-534	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-22 17:16:26-534	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-23 13:02:45-901	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 13:02:45-901	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 13:02:46-702	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 13:02:46-902	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 13:02:47-102	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 13:05:21-559	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 13:05:22-159	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 14:58:27-433	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 14:58:27-433	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 14:58:28-434	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 14:58:28-634	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 15:00:30-287	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 15:00:30-887	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 15:01:32-309	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-23 15:01:32-309	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-23 15:01:32-909	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-23 15:01:33-109	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-23 15:01:42-314	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-23 15:01:43-315	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-23 15:13:25-432	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 15:13:25-432	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-23 15:13:26-432	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 15:13:26-633	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-23 15:15:59-300	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 15:15:59-900	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-23 15:16:13-303	0	Batch3	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-23 15:16:13-303	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-23 15:16:13-903	0	Original-BatchTrack	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-23 15:16:14-103	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-23 15:16:23-306	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-23 15:16:24-306	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-23 21:36:29-595	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-24 16:34:49-229	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-24 16:34:49-229	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-24 16:34:50-230	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-24 16:34:50-430	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-24 16:36:59-312	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-24 16:36:59-912	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-24 16:38:30-142	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-24 16:38:30-142	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-24 16:38:30-743	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-24 16:38:30-943	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-24 16:38:40-145	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-24 16:38:41-145	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-25 10:56:05-927	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-25 10:56:05-927	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-25 10:56:06-727	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-25 10:56:06-927	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-25 10:56:07-127	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-25 10:58:11-363	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-25 10:58:11-964	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-25 10:59:22-392	0	Batch3	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-25 10:59:22-392	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-25 10:59:22-992	0	Original-BatchTrack	72	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-25 10:59:23-192	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-25 10:59:32-397	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-25 10:59:33-397	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-25 16:54:34-749	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-25 16:54:34-749	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-25 16:54:35-749	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-25 16:54:35-949	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-25 16:56:28-574	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-25 16:56:29-174	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-25 16:58:12-615	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-25 16:58:12-615	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-25 16:58:13-215	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-25 16:58:13-415	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-25 16:58:22-617	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-25 16:58:23-617	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-25 20:19:57-020	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 08:55:22-734	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 08:55:22-734	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 08:55:23-734	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 08:55:23-934	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 08:57:49-182	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 08:57:49-782	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 08:58:51-197	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 08:58:51-197	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 08:58:51-797	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 08:58:51-997	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 08:59:01-200	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-26 08:59:02-200	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-26 09:05:52-187	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 09:05:52-187	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 09:05:53-187	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 09:05:53-387	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 09:07:54-029	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 09:07:54-630	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 09:08:50-055	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 09:08:50-055	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 09:08:50-655	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 09:08:50-856	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 09:09:00-061	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-26 09:09:01-062	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-26 17:06:52-448	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 17:50:36-586	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 17:50:36-586	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-26 17:50:37-386	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 17:50:37-586	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 17:50:37-786	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-26 17:53:09-451	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 17:53:10-051	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-26 17:54:44-498	0	Batch3	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 17:54:44-498	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 17:54:45-098	0	Original-BatchTrack	43	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-26 17:54:45-298	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-26 17:54:54-500	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-26 17:54:55-501	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 10:12:21-887	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 10:12:21-887	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 10:12:22-888	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 10:12:23-089	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 10:14:57-999	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 10:14:58-599	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 13:46:27-952	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 13:46:27-952	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 13:46:28-953	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 13:46:29-153	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 13:48:34-628	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 13:48:38-231	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 15:22:04-915	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 15:22:04-915	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 15:22:05-916	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 15:22:06-116	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 15:24:10-358	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 15:24:10-958	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 15:25:00-368	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 15:25:00-368	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 15:25:00-968	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 15:25:01-168	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 15:25:10-370	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 15:25:11-370	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 15:37:06-031	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 15:37:06-031	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 15:37:07-032	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 15:37:07-232	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 15:39:39-276	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 15:39:42-877	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 15:39:50-279	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 15:39:50-279	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 15:39:50-879	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 15:39:51-080	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 15:40:00-282	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 15:40:01-282	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 17:47:41-151	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 17:47:41-151	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-27 17:47:42-151	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 17:47:42-351	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-27 17:49:07-385	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 17:49:07-985	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-27 17:50:23-203	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 17:50:23-203	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 17:50:23-803	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-27 17:50:24-003	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-27 17:50:33-207	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 17:50:34-208	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-27 23:17:21-360	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 10:17:08-251	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 10:17:08-251	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 10:17:09-252	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 10:17:09-452	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 10:19:27-316	0	Batch3	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 10:19:27-917	0	Original-BatchTrack	1	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 10:20:35-336	0	Batch3	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 10:20:35-336	0	Batch3	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 10:20:35-936	0	Original-BatchTrack	62	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 10:20:36-137	0	Original-BatchTrack	2	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 10:20:45-339	0	Batch3	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 10:20:46-340	0	Original-BatchTrack	2	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 15:29:34-789	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 15:29:34-789	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 15:29:35-789	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 15:29:35-989	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 15:31:44-252	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 15:31:47-853	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 15:32:52-273	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 15:32:52-273	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 15:32:52-873	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 15:32:53-074	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 15:33:02-276	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 15:33:03-277	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 16:53:58-217	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 16:53:58-217	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 16:53:59-017	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 16:53:59-218	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 16:53:59-418	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 16:56:26-473	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 16:56:30-075	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 16:57:25-523	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 16:57:25-523	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 16:57:26-123	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 16:57:26-323	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 16:57:35-532	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 16:57:36-533	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 17:04:28-905	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 17:04:28-905	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-28 17:04:29-905	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 17:04:30-105	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-28 17:06:31-356	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 17:06:31-956	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-28 17:07:27-374	0	Batch3	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 17:07:27-374	0	Batch3	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 17:07:27-974	0	Original-BatchTrack	53	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-28 17:07:28-174	0	Original-BatchTrack	7	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-28 17:07:37-377	0	Batch3	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 17:07:38-377	0	Original-BatchTrack	7	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-28 23:57:56-785	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 11:32:40-814	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 11:32:40-814	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 11:32:41-814	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 11:32:42-014	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 11:35:13-665	0	Batch3	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 11:35:17-266	0	Original-BatchTrack	6	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 14:57:26-044	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 14:57:26-044	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 14:57:27-044	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 14:57:27-244	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 14:59:27-296	0	Batch3	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 14:59:27-897	0	Original-BatchTrack	4	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 15:00:08-315	0	Batch3	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-29 15:00:08-315	0	Batch3	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-29 15:00:08-915	0	Original-BatchTrack	35	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-29 15:00:09-115	0	Original-BatchTrack	5	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-29 15:00:18-318	0	Batch3	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-29 15:00:19-318	0	Original-BatchTrack	5	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-29 15:12:01-343	0	BatchTrackLogic	0	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 15:12:01-343	0	Original-BatchTrack	4	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-29 15:12:02-143	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 15:12:02-343	0	BatchTrackLogic	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 15:12:02-543	0	Original-BatchTrack	0	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-29 15:14:35-611	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 15:14:39-212	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-29 15:14:49-617	0	Batch3	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-29 15:14:49-617	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-29 15:14:50-218	0	Original-BatchTrack	66	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-29 15:14:50-418	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-29 15:14:59-623	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-29 15:15:00-623	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-30 17:33:12-993	0	BatchTrackLogic	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-30 17:33:12-993	0	Original-BatchTrack	1	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-30 17:33:13-993	0	BatchTrackLogic	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-30 17:33:14-193	0	Original-BatchTrack	1	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-30 17:35:22-828	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-30 17:35:26-429	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-30 17:36:53-664	0	Batch3	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-30 17:36:53-664	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-30 17:36:57-266	0	Original-BatchTrack	65	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-30 17:36:57-466	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-30 17:37:03-668	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-30 17:37:07-669	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-31 17:33:53-138	0	BatchTrackLogic	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-31 17:33:53-138	0	Original-BatchTrack	2	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-31 17:33:54-138	0	BatchTrackLogic	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-31 17:33:54-338	0	Original-BatchTrack	2	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-31 17:36:05-188	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-31 17:36:05-788	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-31 18:03:21-838	0	BatchTrackLogic	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-31 18:03:21-838	0	Original-BatchTrack	3	Batch start request from TDC	stjokro	WCPBTMRA
+2016-10-31 18:03:22-839	0	BatchTrackLogic	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-31 18:03:23-039	0	Original-BatchTrack	3	Batch start return sent to TDC	stjokro	WCPBTMRA
+2016-10-31 18:04:51-671	0	Batch3	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-31 18:04:52-272	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA
+2016-10-31 18:06:40-516	0	Batch3	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-31 18:06:40-516	0	Batch3	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-31 18:06:41-116	0	Original-BatchTrack	76	SWING - Omni strobe sent	stjokro	WCPBTMRA
+2016-10-31 18:06:41-316	0	Original-BatchTrack	1	SWING - ESSO signal sent	stjokro	WCPBTMRA
+2016-10-31 18:06:50-519	0	Batch3	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-31 18:06:51-519	0	Original-BatchTrack	1	SWING - TDC signal sent	stjokro	WCPBTMRA
+2016-10-31 21:01:47-054	0	Original-BatchTrack	0	Omni product code changed	stjokro	WCPBTMRA

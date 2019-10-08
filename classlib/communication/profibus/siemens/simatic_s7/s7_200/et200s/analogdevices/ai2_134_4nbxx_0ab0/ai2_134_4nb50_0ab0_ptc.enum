@@ -1,0 +1,16 @@
+Temperature:	Celsius = 0,
+		Fahrenheit = 1;
+
+group_diagnosis:	disable=0,
+			enable=1;
+
+diagnosis_overflow_underflow:	disable=0,
+					enable=1;
+
+diagnosis_wire_break_io:	disable=0,
+					enable=1;
+
+smoothing:	none=0,
+		weak=1,
+		medium=2,
+		strong=3;

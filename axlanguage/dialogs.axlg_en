@@ -1,0 +1,48 @@
+Dialog.Ok	Ok
+Dialog.Load	Load
+Dialog.Save	Save
+Dialog.Delete	Delete
+Dialog.Yes	Yes
+Dialog.Cancel	Cancel
+Dialog.No	No
+Dialog.Refresh	Refresh
+Dialog.Help	Help
+Dialog.List Files of Type:	List Files of Type:
+Dialog.Directories:	Directories:
+Dialog.Files:	Files:
+Dialog.File Selection:	File Selection:
+Dialog.Save File Name:	Save File Name:
+Dialog.Add to Picture:	Add to Picture:
+Dialog.*** No Pictures ***	*** No Pictures ***
+Dialog.*** All Pictures ***	*** All Pictures ***
+Dialog.Continue	Continue
+Dialog.Message:	Message:
+Dialog.Symbol:	Symbol:
+Dialog.	
+Dialog.Acknowledge	Acknowledge
+Dialog.Font Family:	Font Family:
+Dialog.Size:	Size:
+Dialog.Normal	Normal
+Dialog.Bold	Bold
+Dialog.Extra Bold	Extra Bold
+Dialog.Italic	Italic
+Dialog.Font	Font
+Dialog.Scale factor (in %)	Scale factor (in %)
+Dialog Title.LOAD SET	LOAD SET
+Dialog Title.LOAD SET COLLECTION	LOAD SET COLLECTION
+Dialog Title.DELETE SET	DELETE SET
+Dialog Title.DELETE SET COLLECTION	DELETE SET COLLECTION
+Dialog Title.SAVE SET	SAVE SET
+Dialog Title.SAVE COLLECTION	SAVE COLLECTION
+Dialog Title.	
+Dialog Title.Export...	Export...
+Dialog Title.Import...	Import...
+Dialog Title.Open resource file	Open resource file
+Dialog Title.Select Location	Select Location
+Dialog Title.Insert Class	Insert Class
+Dialog Title.Import Pixmap	Import Pixmap
+Dialog Title.Message	Message
+Dialog Title.Warning	Warning
+Dialog Title.Error	Error
+Dialog Title.Font Selector	Font Selector
+Dialog.Drives:	Drives:

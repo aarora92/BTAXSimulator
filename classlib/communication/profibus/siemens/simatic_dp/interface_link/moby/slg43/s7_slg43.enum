@@ -1,0 +1,6 @@
+slg_position:	Position_1=1,
+		Position_2=2;
+slg_type:	SLG_41=1,
+		SLG_42=2,
+		SLG_43=4;
+mds_type:	MDS514=32000;

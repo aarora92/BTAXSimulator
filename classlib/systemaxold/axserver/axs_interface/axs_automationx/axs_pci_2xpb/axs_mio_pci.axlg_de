@@ -1,0 +1,16 @@
+aXPCI [Text Normal]	automationX\ PCI
+aXPCI [Text Activ]	Text
+Channel1 [Text Normal]	Kanal 1
+Channel1 [Text Activ]	Text
+Channel0 [Text Normal]	Kanal 0
+Channel0 [Text Activ]	Text
+Help [Text Normal]	Hilfe
+Help [Text Activ]	Hilfe
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	Dies ist eine Zwei-Kanal-automationX-Profibus-Karte.\Die LED zeigt den aktuellen Status\der Karte an.\Für detaillierte Informationen jedes Kanals,\klicken Sie auf das jeweilige Anzeigefeld darunter.\(Wenn die Karte nicht arbeitet,\wenden Sie sich bitte an die "Implementation Notes"\der automationX-Dokumentation.)
+Text [Text Activ]	Text
+wronginstance [Text Normal]	Text
+wronginstance [Text Activ]	Falscher Instanzname
+
+

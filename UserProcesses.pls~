@@ -1,0 +1,30 @@
+The following processes will be started from flash
+according to the specified parameters.
+
+Parameters are:
+name.................... the process name
+menu.................... the string in the application menu
+autostart............... wheter the process shall be started from flash
+                         automaticially or only explicitly after an user action.
+restart...............   wheter the process shall be REstarted from flash
+                         if it fails to send its lifetick.
+Terminal................ Only,True,False
+always.................. True, False, if this switch is set to False process is
+                         not started if host stands alone.
+
+name="axservice -run" autostart=True restart=True Terminal=True always=True
+:name=sps autostart=True restart=False
+:name=slowsps autostart=True restart=True
+:name=plserver autostart=True restart=True always=True
+:name=msgserver autostart=True restart=True always=True
+:name=rdserver autostart=True restart=True always=False
+:name=pls autostart=True restart=True Terminal=True always=True
+:name=fsv autostart=True restart=True always=False
+:name=txnexgen  autostart=True restart=True always=True
+:name=txoverview menu=Trend-List autostart=False restart=False always=True
+:name=trenddisplay menu=Trend autostart=False restart=False always=True
+:name=browser menu=System-Browser autostart=False restart=False Terminal=True always=True
+:name=debug menu=System-Debugger autostart=False restart=False Terminal=True always=True
+name=seq autostart=True restart=True Terminal=False always=True
+:name=tcpserver autostart=True restart=True always=True
+

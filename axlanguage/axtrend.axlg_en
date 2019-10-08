@@ -1,0 +1,194 @@
+Menu.Main.File	File
+Menu.File.Load	Load
+Menu.File.LoadCollection	Load Collection
+Menu.File.Save	Save
+Menu.File.SetDelete	Delete Set
+Menu.File.CollectionDelete	Delete Collection
+Menu.File.Printer Setup	Printer Setup...
+Menu.File.Exit	Exit
+Menu.Main.View	View
+Menu.View.Profiles	Viewing Profile
+Menu.24Hours	24Hours
+Menu.8Hours	8Hours
+Menu.1Hour	1Hour
+Menu.View.Zoom In	Zoom In
+Menu.View.Zoom In.Accelerator	<Key>+
+Menu.View.Zoom Out	Zoom Out
+Menu.View.Zoom Out.Accelerator	<Key>-
+Menu.View.Fill	Fill Min-Max On
+Menu.View.Show Min	Show Min
+Menu.View.Show Average	Show Average
+Menu.View.Show Max	Show Max
+Menu.View.Show real Points	Show real Points
+Menu.Main.Extras	Extras
+Menu.Extras.Trend Parameter	Trend Parameter
+Menu.Extras.Set_Scale	Set Time/Data Scale
+Menu.Extras.Config_Profile	Define Viewing Profile
+Menu.Extras.Data_Table	Data Table
+Menu.Main.Window	Window
+Button.Prev Set	Prev Set
+Button.Next Set	Next Set
+Button.Load Sets	Trend Sets
+Button.Save	Save
+Button.Print	Print
+Button.Play	Play
+Button.Stop	Stop
+Button.Back	Back
+Button.Forward	Forward
+Button.Zoom In	Zoom In
+Button.Zoom Out	Zoom Out
+Button.Zoom Undo	Undo Zoom
+Button.Zoom Mode	Horizontal
+Button.Ruler	Meas.
+Context Menu.Cut	Cut
+Context Menu.Cut.Accelerator	Ctrl+X
+Context Menu.Copy	Copy
+Context Menu.Copy.Accelerator	Ctrl+C
+Context Menu.Paste	Paste
+Context Menu.Paste.Accelerator	Ctrl+X
+Context Menu.Undo Zoom	Undo Zoom
+Context Menu.Undo Zoom.Accelerator	Ctrl+Z
+TimeInfo.Day	Day
+TimeInfo.Hour	Hour
+TimeInfo.Minute	Min
+TimeInfo.Second	Sec
+TimeInfo.Display	DISP
+Trend.Title.Trend set collection	Trend-Set Collection
+SetCollection.Menu.File	File
+SetCollection.Menu.Exit	Exit
+SetCollection.Button.Load	Load
+SetCollection.Button.Save	Save
+SetCollection.Button.Print	Print
+SetCollection.Button.Reset	Reset
+SetCollection.Button.Upload Sets	Upload Sets
+SetCollection.Button.Upload All Sets	Upload All Sets
+Title.Set Collection Load	SET COLLECTION Load
+Trend.FSB Title.Set Collection Load	Set Collection Load
+ErrorMessage.File read error	File read error!
+Trend.Title.Print	Trend Print
+Print.With Cursor	with Cursor
+Print.Thick Lines	  Thick Lines
+Print.Color	Color
+Print.Position	Position
+Print.Remark	Remark
+Print.Value	Value
+Print.min	min
+Print.max	max
+Trend.Sets Table.Label: No 	No.
+Trend.Sets Table.Label: Sel	Sel
+Trend.Sets Table.Label: Name	Name
+Value.Boolean OFF	Off
+Value.Boolean ON	On
+Dialog.Msg.OverwriteFile	Overwrite existing file
+Button.Zoom Mode.Vertical	Vertical
+Button.Zoom Mode.Horizontal	Horizontal
+Menu.BioDiesel_Storage.txs	BioDiesel_Storage.txs
+Menu.BioDiesel_Unloading.txs	BioDiesel_Unloading.txs
+Global.Main.Menu.File	File
+Export.Menu.File.Export	Export
+Export.Menu.File.Export.Accelerator	Ctrl+E
+Export.Menu.File.Quit	Quit
+Export.Menu.File.Quit.Accelerator	Ctrl+Q
+Global.Main.Menu.Option	Options
+Export.Menu.File.Print	Print
+Export.Menu.File.Print.Accelerator	Ctrl+P
+Title.Trend Set Collection	TREND-SET COLLECTION
+DefineRange.Menu.File	File
+DefineRange.Menu.Exit	Exit
+Menu.AllPic_GasolineExport.txs	AllPic_GasolineExport.txs
+Menu.AllPic_RULEast.txs	AllPic_RULEast.txs
+Menu.AllPic_RULWest.txs	AllPic_RULWest.txs
+Menu.AllPic_AllPic_BoosterPumpPressures.txs	AllPic_AllPic_BoosterPumpPressures.txs
+Menu.AllPic_BoosterPumpPressures.txs	AllPic_BoosterPumpPressures.txs
+Menu.AllPic_BoostPress.txs	AllPic_BoostPress.txs
+Menu.AllPic_JetWest.txs	AllPic_JetWest.txs
+Menu.AllPic_RSDEast.txs	AllPic_RSDEast.txs
+Menu.AllPic_RSDWest.txs	AllPic_RSDWest.txs
+Menu.AllPic_STVEast.txs	AllPic_STVEast.txs
+Menu.AllPic_STVWest.txs	AllPic_STVWest.txs
+Menu.AllPic_SULEast.txs	AllPic_SULEast.txs
+Menu.AllPic_SULWest.txs	AllPic_SULWest.txs
+Menu.BioDiesel_BioDiesel.txs.txc	BioDiesel_BioDiesel.txs.txc
+Menu.BoosterPumpPressures.txs	BoosterPumpPressures.txs
+Menu.BoostPressGas.txs	BoostPressGas.txs
+Menu.BoostPress.txs	BoostPress.txs
+Menu.EssoSwingTrend.txs	EssoSwingTrend.txs
+Menu.ImportDistPress.txs	ImportDistPress.txs
+Menu.ImportGasPress.txs	ImportGasPress.txs
+Menu.ImportPump.txs	ImportPump.txs
+Menu.ImportRSDPress.txs	ImportRSDPress.txs
+Menu.Leak9513Trend2.txs	Leak9513Trend2.txs
+Menu.Leak9513Trend.txs	Leak9513Trend.txs
+Menu.Leak9514Trend2.txs	Leak9514Trend2.txs
+Menu.Leak9514Trend.txs	Leak9514Trend.txs
+Menu.Leak9561Trend.txs	Leak9561Trend.txs
+Menu.LeakTrendsAll.txs	LeakTrendsAll.txs
+Menu.RailSpurSump.txs	RailSpurSump.txs
+Menu.RailSpurUVIREast.txs	RailSpurUVIREast.txs
+Menu.RailSpurUVIRWest.txs	RailSpurUVIRWest.txs
+Menu.SlopSystem_SlopTanks.txs	SlopSystem_SlopTanks.txs
+Menu.SlopTanks.txs	SlopTanks.txs
+Menu.WaterPressure.txs	WaterPressure.txs
+Menu.WestDockDetail_JetFilterPressure.txs	WestDockDetail_JetFilterPressure.txs
+Printer.Dlg.Title	Printer setup
+ErrorMessage.Cannot find engineering data	ERROR: Cannot find Engineering Data\ for Trend: %s
+ErrorMessage.Cannot find file	ERROR: Cannot find file <%s>!
+Menu.Ethanol_RailOffloading Pump Monitor.txs	Ethanol_RailOffloading Pump Monitor.txs
+Menu.ImportPumpJuly2012.txs	ImportPumpJuly2012.txs
+Menu.Profibus Network_ImportGasPress.txs	Profibus Network_ImportGasPress.txs
+Menu.TestTrend1.txs	TestTrend1.txs
+Menu.VRU_Readings.txs	VRU_Readings.txs
+PrintDialog.Default printer	Default Printer:
+PrintDialog.defPrinter	defPrinter
+PrintDialog.OK	Ok
+PrintDialog.Cancel	Cancel
+DefineRange.Button.Reset	Reset
+DefineRange.Button.Load	Load Range
+DefineRange.Button.LoadScan	Load Time Scale
+DefineRange.Button.LoadTime	Load Time Range
+Trend.Define Time Range.Label: Time Scale [mins]:	Time Scale [mins]:
+Trend.Def. Time Scale.Label:  	 
+Trend.Def. Time Scale.Label: Year:	Year:
+Trend.Def. Time Scale.Label: Month:	Month:
+Trend.Def. Time Scale.Label: Day:	Day:
+Trend.Def. Time Scale.Label: Hour:	Hour:
+Trend.Def. Time Scale.Label: Minute:	Minute:
+Trend.Def. Time Scale.Label: Second:	Second:
+Trend.Def. Data Range.Label: No 	No.
+Trend.Def. Data Range.Label: Point	Point
+Trend.Def. Data Range.Label: Remark	Remark
+Trend.Def. Data Range.Label: Range Min:	Range Min:
+Trend.Def. Data Range.Label: Range Max:	Range Max:
+Trend.Def. Data Range.Label: Disp  Min:	Disp. Min:
+Trend.Def. Data Range.Label: Disp  Max:	Disp. Max:
+Dialog.Msg.IsDirectory	Filename is actually a directory.
+Dialog.Msg.CannotOpenFile	Cannot open file
+Trend.Monitor Header.Label: Line 1:	Line 1:
+Trend.Monitor Header.Label: Line 2:	Line 2:
+Trend.Monitor Header.Label: Line 3:	Line 3:
+Trend.Monitor Header.Label: Line 4:	Line 4:
+Trend.Monitor Header.Label: Line 5:	Line 5:
+Trend.Monitor Header.Label: Line 6:	Line 6:
+Trend.Monitor Header.Label: Line 7:	Line 7:
+Trend.Monitor Header.Label: Line 8:	Line 8:
+Trend.Monitor Table.Label: Nr	Nr
+Trend.Monitor Table.Label: Date	Date
+Trend.Monitor Table.Label: Line 1	Line 1
+Trend.Monitor Table.Label: Line 2	Line 2
+Trend.Monitor Table.Label: Line 3	Line 3
+Trend.Monitor Table.Label: Line 4	Line 4
+Trend.Monitor Table.Label: Line 5	Line 5
+Trend.Monitor Table.Label: Line 6	Line 6
+Trend.Monitor Table.Label: Line 7	Line 7
+Trend.Monitor Table.Label: Line 8	Line 8
+Dialog.Msg.ConfirmSave	Save this file?
+Dialog.Msg.WrongExtension	does not use the normal extension
+Title.Define Viewing Pofiles	Trend: Definition Viewing Profiles
+Trend.Define Profile Table.Label: R/A	R/A
+Trend.Define Profile Table.Label: Name	Name
+Trend.Define Profile Table.Label: Day	Day
+Trend.Define Profile Table.Label: Hour	Hour
+Trend.Define Profile Table.Label: R-Day	R-Day
+Trend.Define Profile Table.Label: R-Hour	R-Hour
+Trend.Define Profile Table.Label: R-Min	R-Min
+Menu.FoadShed_FireWater_Pressure.txs.txc	FoadShed_FireWater_Pressure.txs.txc

@@ -1,0 +1,7 @@
+#  automationX Language Configuration File aX 4.6
+#  Copyright aX 2001
+#  all entrys must separated by a Tab 	
+#  First Line is the Default Language !
+Disable Language	False
+#Lg-Name	Lg-Extension	Lg-Pixmap	Lg-Enable	Lg-Multibyte	Menu Font	Button Font	Table_Label Font	Table_Field Font	ProcessPic. Font	ProcessPic. FixFont	Dialog Window Font	Font 7	Font 8	Font 9	Font 10	Font 11	Font 12	Font 13	Font 14	Font 15
+English	en		1	0	-adobe-helvetica-medium-r-*-*-17-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-17-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-17-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-17-*-*-*-*-*-iso8859-1	-microsoft windows-ms sans serif-*-r-*-*-17-*-*-*-*-*-iso8859-1	-microsoft windows-ms sans serif-normal-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-17-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1	-adobe-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1

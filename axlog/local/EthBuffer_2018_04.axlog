@@ -1,0 +1,6 @@
+2018-04-09 10:44:10-743	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	h	AX-NB-46
+2018-04-09 10:44:10-743	12		ErrorMsg	Driver AX_NPF service succefull installed	h	AX-NB-46
+2018-04-12 00:44:12-805	12		ErrorMsg	Can't init remote interface.	guest	WCPBTMRA
+2018-04-12 01:13:39-789	12		ErrorMsg	Can't init remote interface.	guest	WCPBTMRA
+2018-04-13 01:28:19-180	12		ErrorMsg	Driver AX_NPF not running (state 1/1)	guest	WCPBTMRA
+2018-04-13 01:28:19-180	12		ErrorMsg	Driver AX_NPF service succefull installed	guest	WCPBTMRA

@@ -1,0 +1,470 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Programme\Office97\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>ModbusCL</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+<a NAME="top"></a>
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="652" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Modbus
+Client</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Modbus Client symbol must be connected with a
+Modbus Master.</font>
+<p><font face="Arial">The Client can store up to 128 words of Master data.</font>
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="75%">
+<p><a NAME="Installation"></a><a NAME="Class_Components"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p>&nbsp;<font face="Arial">The ModbusCL class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="621" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusCL.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files
+for documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusCL_GUI.gif</font>
+<p><font face="Arial">ModbusCL_POP.gif</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusCL.htm</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Enum-File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Enumerator fil</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">ModbusCL.enum</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial,Helvetica"><b>Installation: </b>The above listed files
+must be copied into a common sub-directory within the project's "classlib"
+directory. The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font size=+1><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The ModbusCL class represents an actual Client module.
+The instance name of the module will appear&nbsp; in white text on the
+top right of the symbol. The title will change from green to flashing red
+if an error occurs.</font>
+<p><font face="Arial">The symbol is divided into four sections:</font>
+<br>&nbsp;
+<p><font face="Arial">- The Modbus master</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The inctance
+name of modbus master is displayed.</font>
+<p><font face="Arial">- Client information</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The inctance
+name of the client, the Nr. (it's the same as the array index from the
+client_name variable in the MB master);</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actual
+MB function and MB address are visualisized.</font>
+<p><font face="Arial">- Trigger</font>
+<p><font face="Arial">- State string</font>
+<br><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Informational
+string.</font>
+<br>&nbsp;
+<p><img SRC="ModbusCL_GUI.gif" height=177 width=309>
+<p><font face="Arial"><font size=-1>Figure 2: Graphical Representation</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">The <b>PopUp</b> is invoked by selecting the graphical
+representation.</font>
+<p><font face="Arial">Polling mode can be set to trigger or cyclic. If
+trigger, you can send a query to a MB slave</font>
+<p><font face="Arial">by pressing the trigger button.</font>
+<p><b><font face="Arial">Address:</font></b>
+<p><font face="Arial">The MB slave address .</font>
+<p><b><font face="Arial">Slave Offset:</font></b>
+<p><font face="Arial">Offset within the MB slave.</font>
+<p><b><font face="Arial">Offset:</font></b>
+<p><font face="Arial">Offset in the MB Client data array.</font>
+<p><b><font face="Arial">Length:</font></b>
+<p><font face="Arial">Read / write length.</font>
+<p><b><font face="Arial">Function:</font></b>
+<p><font face="Arial">Query function to the MB slave.</font>
+<p><img SRC="ModbusCL_POP.gif" height=171 width=305>
+<p><font face="Arial"><font size=-1>Figure 3: The communication PopUp</font></font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a> | <a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><font face="Arial">The following table lists the configuration parameters
+for the ModbusCL symbol. The parameter data type, the default values and
+a brief description are listed. The grey shaded rows are parameters which
+must not be changed.</font>
+<br>&nbsp;
+<table BORDER WIDTH="725" >
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Item</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Variable</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Type&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Default&nbsp;</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="21" BGCOLOR="#FFFFFF"><font face="Arial">Description</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">modbus_master</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">The
+instance name of the Modbus master object</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">2</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">nr</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Index
+number from MB master</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">3</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">address</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">USINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">The
+destination highway address of the modbus slave</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">4</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">function</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">MB_Function</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Read_Coil</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">The
+modbus function to execute</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">5</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">trigger</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">BOOL</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">NO</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Trigger
+the client block function to execute</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">6</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">poll_mode</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">MB_mode</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">trigger</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">The
+communication method (cyclic or triggered)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">7</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">slave_offset</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">The
+offset within the Modbus slave</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">8</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">offset</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Offset
+in Words in the PLC data array</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">9</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">length</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">Data
+length to read/write</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">10</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">data</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">UINT</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#FFFFFF"><font face="Arial">The
+array of data to store/send</font></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="5%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">11</font></td>
+
+<td VALIGN=CENTER WIDTH="19%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">info_string</font></td>
+
+<td VALIGN=CENTER WIDTH="17%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">STRING</font></td>
+
+<td VALIGN=CENTER WIDTH="11%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">0</font></td>
+
+<td VALIGN=CENTER WIDTH="49%" HEIGHT="27" BGCOLOR="#C0C0C0"><font face="Arial">Information
+string</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica"><font size=+2>The Modbus functions:</font></font></b>
+<p><b><font face="Arial,Helvetica">Read_Coil:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in coils (bits) only whole
+bytes = 8,16,24,32,.. bits</font>
+<p><font face="Arial,Helvetica">Length in coils (bits)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Read_Input:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in inputs (bits) only whole
+bytes = 8,16,24,32,.. bits</font>
+<p><font face="Arial,Helvetica">Length in inputs (bits)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Read_Hold_Reg:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in registers (words)</font>
+<p><font face="Arial,Helvetica">Length in registers (words)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Read_Input_Reg:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in registers (words)</font>
+<p><font face="Arial,Helvetica">Length in registers (words)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Force_One_Coil:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in coils (bits)</font>
+<p><font face="Arial,Helvetica">Length not used.</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Preset_One_Reg:</font></b>
+<p><font face="Arial,Helvetica">Slave offset in registers (words)</font>
+<p><font face="Arial,Helvetica">Length not used</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Read_Exep_Stat:</font></b>
+<p><font face="Arial,Helvetica">Slave offset and Length not used.</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Force_Mult_Coils:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in coils (bits) only whole
+bytes = 8,16,24,32,.. bits</font>
+<p><font face="Arial,Helvetica">Length in coils (bits)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><b><font face="Arial,Helvetica">Preset_Mult_Regs:</font></b>
+<p><font face="Arial,Helvetica">Slave Offset in registers (words)</font>
+<p><font face="Arial,Helvetica">Length in registers (words)</font>
+<p><font face="Arial,Helvetica">Offset in words within the client data
+array.</font>
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="implementation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial">Data array of 128 words.</font>
+<p><a NAME="qualities"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#implementation">Implementation
+Notes</a> | <a href="#Class_Modification_History">Modifications History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><a NAME="Class_Modification_History"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Modification
+History</font></font></font></b>
+<p><font face="Arial">The following table lists the modifications made
+to the ModbusCL class.</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLPADDING=3 WIDTH="623" >
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">I<a NAME="table3"></a>tem</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Date</font></b>
+<br><b><font face="Arial">(m/d/y)</font></b></td>
+
+<td VALIGN=CENTER WIDTH="28%"><b><font face="Arial">Name</font></b></td>
+
+<td VALIGN=CENTER WIDTH="7%"><b><font face="Arial">File</font></b></td>
+
+<td VALIGN=CENTER WIDTH="36%"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=CENTER WIDTH="11%"><b><font face="Arial">Reason</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%"><font face="Arial">1</font></td>
+
+<td VALIGN=CENTER WIDTH="11%"><font face="Arial">20/06/00</font></td>
+
+<td VALIGN=CENTER WIDTH="28%"><font face="Arial">Andreas Nebenf&uuml;hr</font></td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%"><font face="Arial">Initial Design</font></td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="28%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="7%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="36%">&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="11%">&nbsp;</td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> |
+<a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#implementation">Implementation Notes</a></font> <font face="Arial">|<a href="#Class_Modification_History">Modifications
+History</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+</body>
+</html>

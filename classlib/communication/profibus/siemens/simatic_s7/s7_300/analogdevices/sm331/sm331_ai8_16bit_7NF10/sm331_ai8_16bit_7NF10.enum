@@ -1,0 +1,15 @@
+DataFormat:S7_Format,S5_Format;
+NoiseSup:Hz400,Hz60,Hz50,Hz50/60/400;
+Resolution:VZ_16Bit,VZ_14Bit,VZ_12Bit,VZ_9Bit;
+ModuleMode:8_ChannelMode,4_ChannelMode;
+Smoothing:None,Weak,Medium,Strong;
+Config:
+	deact=0x0,
+	voltage	{V_np5=22,
+		V_1to5=23,
+		V_np10=25
+		},
+	current_4wire {mA_0to20=34,
+		mA_4to20=35,
+		mA_np20=36
+		};

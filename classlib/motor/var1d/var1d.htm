@@ -1,0 +1,807 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <title>motor_var_speed</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="604" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Variable
+Speed Motor</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Installation</a> | <a href="#UserInterface">User
+Interface</a> | <a href="#Configuration">Configuration</a> | <a href="#ImplementationNotes">Implementation
+Notes</a></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">This class can be used for all <b>variable speed</b>
+motors. It features the following:</font>
+<ul>
+<li>
+<font face="Arial"><b>Fully Integrated Control </b><font size=-1>(based
+on IEC 1131-3 Function Block Diagram)</font></font></li>
+
+<li>
+<font face="Arial"><b>Field Links: On/Off </b><font size=-1>(Binary Outputs,
+Mandatory),</font><b> Speed Set </b><font size=-2>(Binary output, Manditory)</font><b>,
+Run Feedback </b><font size=-1>(Binary Input, Optional),</font><b> Ready
+Feedback </b><font size=-1>(Binary Input, Optional), </font><b>Remote Switch
+</b><font size=-1>(Binary
+Input, Option), <b>Speed</b> (Binary Input, Optional).</font></font></li>
+
+<li>
+<b><font face="Arial">Integrated Simulation Mode + Feedback Emulation</font></b></li>
+
+<li>
+<b><font face="Arial">Integrated Service and Maintenance Functions</font></b></li>
+
+<li>
+<b><font face="Arial">Alarm Suppression for Invalid Field Links</font></b></li>
+
+<li>
+<b><font face="Arial">Automated Generation Visualization of Interlock Conditions</font></b></li>
+
+<li>
+<b><font face="Arial">Operator, Parameterization, and Service Pop-Up Windows</font></b></li>
+
+<li>
+<b><font face="Arial">Trending</font></b></li>
+
+<li>
+<b><font face="Arial">User Access Configuration for Individual Instances</font></b></li>
+</ul>
+<img SRC="PopupInterface.gif" ALT="PopupInterface.gif (103691 bytes)" height=817 width=620>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Integrated Control</font></font></b>
+<p><font face="Arial">All control is fully integrated; <b>no external PLC
+is required</b>.</font>
+<p><b><font face="Arial"><font size=+1>Field Links</font></font></b>
+<p><font face="Arial">The Variable Speed Motor requires two outputs: one
+On/Off switch and one Speed Set output value (the "<b>on</b>" and "<b>set</b>"
+variables). A binary input that indicates when the motor is actually running
+(<b>run_in</b>), that the motor is ready to be turned on (<b>ready_in</b>),
+that the motor is allowed to run (<b>rem_in</b>) and the current speed
+of the motor (<b>speed_in</b>). These variables are all found under the
+<b>Server
+Data</b> tab in the class configuration window.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="InputOutputVars.gif" ALT="InputOutputVars.gif (17258 bytes)" height=216 width=448>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Simulation Mode</font></font></b>
+<p><font face="Arial">In simulation mode the run feedback follows the On/Off
+signal with a variable delay time. In this mode the motor is disconnected
+from the field even if the On/Off Output is connected to an I/O Variable.
+An alternate mode (<b>Feedback Emulation</b>) <i>does</i> process the On/Off
+Output, but emulates individual inputs - thus ignoring their actual states.</font>
+<p><b><font face="Arial"><font size=+1>Service and Maintenance Functions</font></font></b>
+<p><font face="Arial">To allow maintenance personel an insight into <b>failure
+frequency, number of activations</b> and <b>operational time</b>, the Motor
+Class integrates service and maintenance functions together in the Maintenance
+pop-up window. To notify the operator, a service alarm is generated automatically
+and an icon is displayed beside the motor's graphical representation and
+on the Operator pop-up window..</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="ServiceInd.gif" ALT="ServiceInd.gif (30601 bytes)" height=289 width=501>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Alarm Suppression for Invalid Field
+Links</font></font></b>
+<p><font face="Arial">The Motor Class checks validity of connected I/O.
+If a field link is interrupted but the I/O status is normal, the motor
+class will suppress any alarms.</font>
+<p><b><font face="Arial"><font size=+1>System-Generated List of Interlock
+Conditions</font></font></b>
+<p><font face="Arial">An interlock indication appears in the Operator Pop-up
+window when an interlock condition is applied to a motor. To track the
+condition, the operator can simply select the interlock indication. The
+list is generated automatically and presented in graphical form; no configuration
+is necessary for this feature.</font>
+<p><b><font face="Arial"><font size=+1>Pop-Up Windows</font></font></b>
+<p><font face="Arial">The Motor Class contains pop-up windows for Operation,
+Maintenance and Parameterization. These windows are already built into
+the class and no further configuration is necessary to access them. The
+Operator Interface pop-up window is accessed by selecting the Motor object
+itself. The Maintenance and Parameterization pop-up windows are accessed
+from the Operator Interface pop-up.</font>
+<p><b><font face="Arial"><font size=+1>Trending</font></font></b>
+<p><font face="Arial">The Motor Class trends the output, on/off switch
+(<b>on</b>). The Trend function also works in simulation mode.</font>
+<p><b><font face="Arial"><font size=+1>User Access Configuration for Individual
+Instances</font></font></b>
+<p><font face="Arial">User access for the following functions can be uniquely
+configured for each instance of the Motor class:</font>
+<ul>
+<li>
+<font face="Arial">Trending</font></li>
+
+<li>
+<font face="Arial">Operations</font></li>
+
+<li>
+<font face="Arial">Interlock</font></li>
+
+<li>
+<font face="Arial">Service &amp; Maintenance</font></li>
+
+<li>
+<font face="Arial">Parameterization</font></li>
+</ul>
+<font face="Arial">See <a href="#Configuration">Configuration</a> for details.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Components
+and Installation</font></font></font></b>
+<p><font face="Arial">The Variable Speed Motor is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class Color File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Includes some class specific
+color definitions.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor_varspeed.color</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">AutomationX generated Class
+File; includes graphical representation, user interfaces, internal control
+logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor_varspeed.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files&nbsp;
+for class operation, physical appearance and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor.gif</font>
+<br><font face="Arial">axclassdoku16.bmp</font>
+<br><font face="Arial">axcross.bmp</font>
+<br><font face="Arial">axdependency.bmp</font>
+<br><font face="Arial">axh16.bmp</font>
+<br><font face="Arial">axh_grey16.bmp</font>
+<br><font face="Arial">axinstanzdoku16.bmp</font>
+<br><font face="Arial">axlocked16.bmp</font>
+<br><font face="Arial">axlocked_grey16.bmp</font>
+<br><font face="Arial">axparam16.bmp</font>
+<br><font face="Arial">axservice16.bmp</font>
+<br><font face="Arial">axservice_grey16.bmp</font>
+<br><font face="Arial">axtrend16.bmp</font>
+<br><font face="Arial">axtrend_grey16.bmp</font>
+<br><font face="Arial">axwarning16.bmp</font>
+<br><font face="Arial">axwarning_grey16.bmp</font>
+<br><font face="Arial">(PLUS additional documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">motor_var_speed.html</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+1>Installation</font></font></b>
+<p><font face="Arial">To install the Motor class, all of the above files
+must be copied into a common directory within the project's "classlib"
+directory. The name of the directory can be chosen freely. For example
+(refer to the directory structure below), to add the Motor class to an
+existing class library simply follow the directory structure in the automationX
+program directory: <b>AutomationX\projects\my_project\classlib\ProcessIndustry\motor\motor_var_speed</b></font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="DirectoryStruct.gif" ALT="DirectoryStruct.gif (16766 bytes)" height=339 width=494>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">The Variable Speed Motor's GUI includes:</font>
+<ul>
+<li>
+<font face="Arial"><b>Graphical Representation </b><font size=-1>(on the
+Process Graphic)</font></font></li>
+
+<li>
+<b><font face="Arial">Operator Interface</font></b></li>
+
+<li>
+<b><font face="Arial">Service and Maintenance Pop-Up Menu</font></b></li>
+
+<li>
+<b><font face="Arial">Parameterization Pop-Up Menu</font></b></li>
+</ul>
+<b><font face="Arial"><font size=+1>Graphical Representation</font></font></b>
+<p><font face="Arial">The status of the motor is indicated by a color-coded
+rectangle, which is located on the left side of the graphic,&nbsp; plus
+some icons indicating "Manual Mode", "Interlock" , "Maintenance Request"
+and&nbsp;&nbsp; "Missing Field Link".</font>
+<p><font face="Arial">The following table shows the motor's GR (graphical
+representation) in its different states:</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="624" HEIGHT="449" >
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="48" BGCOLOR="#C0C0C0"><b><font face="Arial">Graphical
+Rep</font>.</b></td>
+
+<td WIDTH="487" HEIGHT="48" BGCOLOR="#C0C0C0"><b><font face="Arial">Operational
+State</font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="48"><img SRC="motor_varspeed_stop.gif" height=40 width=52></td>
+
+<td WIDTH="487" HEIGHT="48"><font face="Arial">Motor is stopped; no alarms
+active; automatic mode is on.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="46"><img SRC="motor_varspeed_starting.gif" height=40 width=52></td>
+
+<td VALIGN=TOP WIDTH="487" HEIGHT="46"><font face="Arial">Motor is starting.
+Status Rectangle flashes yellow.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="56"><img SRC="motor_varspeed_running.gif" height=40 width=52></td>
+
+<td WIDTH="487" HEIGHT="56"><font face="Arial">Motor is running; Status
+Rectangle is Green.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="motor_varspeed_error.gif" height=40 width=52></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is in error. Status
+Rectangle flashes Red.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="motor_varspeed_manual.gif" ALT="motor_varspeed_manual.gif (1386 bytes)" height=39 width=50></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is in Manual Mode.
+The absence of the hand icon indicates automatic mode.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="motor_varspeed_lock.gif" ALT="motor_varspeed_lock.gif (1358 bytes)" height=39 width=50></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">Motor is interlocked; the
+condition for the interlock is available through the Operator Pup-Up Menu.</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="motor_varspeed_warning.gif" ALT="motor_varspeed_warning.gif (1356 bytes)" height=39 width=50></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">At least one "Warning" is
+active. Possible Warnings are: Local Simulation Mode; Service Request;
+Output Invalid; Details are available in the Operator Pop-Up (Main Status
+Line).</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="113" HEIGHT="62"><img SRC="motor_varspeed_invalid.gif" ALT="motor_varspeed_invalid.gif (1757 bytes)" height=39 width=50></td>
+
+<td WIDTH="487" HEIGHT="62"><font face="Arial">At least one I/O is invalid.</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#000000"><font size=+1>Operator Pop-Up
+Window</font></font></font></b>
+<p><font face="Arial">Invoke the Operator Pop-Up window by selecting the
+motor's graphical representation.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="OperInterface.gif" ALT="OperInterface.gif (37167 bytes)" height=301 width=689>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">The Operator Menu is comprised of the following:</font>
+<ul>
+<li>
+<font face="Arial"><b>Identification</b>: the tag name and remark are automatically
+taken from the instance's Name and Remark Field. Click in this section
+to closes the pop-up window.</font></li>
+
+<li>
+<b><font face="Arial">Status Line</font></b></li>
+
+<li>
+<font face="Arial"><b>Menu for Extended Functions</b>: "Class Documentation",
+"Instance Documentation", "Parameterization", and "Service Functions".</font></li>
+
+<li>
+<font face="Arial"><b>Status Indication</b>: Feedback, Interlock and Error
+indications.</font></li>
+
+<li>
+<font face="Arial"><b>Control Buttons</b>: Automatic/Manual Mode, Motor
+On/Off in Manual Mode, Alarm Acknowledge.</font></li>
+
+<li>
+<font face="Arial"><b>Speed</b>: Auto Setpoint, Manual Setpoint and actual
+motor speed indications.</font></li>
+</ul>
+<font face="Arial">The following is a summary of display elements in the
+operator pop-up window. The column "Variable" which variables are affected
+by the control elements.</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="620" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Element</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%" BGCOLOR="#C0C0C0"><b><font face="Arial">Comment</font></b></td>
+
+<td VALIGN=TOP WIDTH="13%" BGCOLOR="#C0C0C0"><b><font face="Arial">Variable</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Ready Indication&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Green</b>: Motor is Ready</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Grey</b>: Motor is not Ready</font>&nbsp;</li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">rdy</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Remote Indication</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Green: </b>Motor is Ready</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Grey</b>: Motor is not Ready</font>&nbsp;</li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">rem</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Run Indication&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Green: </b>Motor running</font></li>
+
+<li>
+<font face="Arial"><b>Grey: </b>Motor not running</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Yellow flashing: </b>Motor is starting<b> </b>- output
+is turned on, but proper feedback has not yet arrived.</font>&nbsp;</li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">run</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Error Indication&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Grey: </b>no Error</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Red flashing</b>: Error</font>&nbsp;</li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">err</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Lock Indication&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Red:</b> indicates an interlock</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Grey:</b> indicates that the motor is OK to run</font></li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">lock</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Auto On Indication&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%">
+<ul>
+<li>
+<font face="Arial"><b>Green: </b>Motor runs&nbsp; in automatic mode</font>&nbsp;</li>
+
+<li>
+<font face="Arial"><b>Grey</b>: Motor will not run in automatic mode</font>&nbsp;</li>
+</ul>
+</td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">auto_on</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Acknowledge Button</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Acknowledge an error. An
+error <b>must</b> be acknowledged before the motor can start again. When
+an unacknowledged exists, the button is <b>flashing red</b>.</font></td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">ack</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Man/Auto Buttons</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Toggles the motor between
+Manual and Auto Mode. Both buttons are linked to the class's "<b>man</b>"
+variable.</font></td>
+
+<td WIDTH="13%"><font face="Arial">man</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">On/Off Buttons</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Control the motor's Manual
+Mode. Both buttons are linked to the class's "<b>man_on</b>" variable.</font></td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">man_on</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Speed - Auto Setpoint</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Speed as set by the program.
+When in auto mode the operator cannot set the speed. An actual numeric
+value is located at the base of the bar.</font></td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">auto_set</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Speed - Manual Setpoint</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Speed as set by the Operator.
+When in manual mode the operator can set the speed using the arrow buttons
+at the top &amp; bottom of the bar or selecting the numeric value at the
+bottom of the bar and typing a value.&nbsp;</font></td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">man_set</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Speed&nbsp;</font></b></td>
+
+<td VALIGN=TOP WIDTH="61%"><font face="Arial">Current motor speed. An actual
+numeric value is located at the base of the bar.</font></td>
+
+<td VALIGN=TOP WIDTH="13%"><font face="Arial">speed</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><font face="Arial">The above elements indicate the status of physical
+inputs. However, if the variables are not connected, the indication is
+displayed as per the next table:</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=0 WIDTH="616" HEIGHT="161" >
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="158" HEIGHT="27" BGCOLOR="#C0C0C0"><b><font face="Arial">Indication</font></b></td>
+
+<td WIDTH="450" HEIGHT="27" BGCOLOR="#C0C0C0"><b><font face="Arial,Helvetica">Status</font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="158" HEIGHT="28"><img SRC="ready.gif" BORDER=0 NATURALSIZEFLAG="3" height=28 width=98 align=BOTTOM></td>
+
+<td WIDTH="450" HEIGHT="28">&nbsp;<font face="Arial,Helvetica">Input Connected;
+Input Valid; Input Not Active;&nbsp;</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="158" HEIGHT="29"><img SRC="ready_normal.gif" BORDER=0 NATURALSIZEFLAG="3" height=29 width=96 align=BOTTOM></td>
+
+<td WIDTH="450" HEIGHT="29"><font face="Arial,Helvetica">&nbsp;Input Connected;
+Input Valid; Input Active;</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="158" HEIGHT="29"><img SRC="ready_simulation.gif" BORDER=0 NATURALSIZEFLAG="3" height=29 width=98 align=BOTTOM></td>
+
+<td WIDTH="450" HEIGHT="29"><font face="Arial,Helvetica">&nbsp;Input NOT
+Connected; Input emulated Active</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=CENTER WIDTH="158" HEIGHT="28"><img SRC="ready_invalid.gif" BORDER=0 NATURALSIZEFLAG="3" height=28 width=97 align=BOTTOM></td>
+
+<td WIDTH="450" HEIGHT="28"><font face="Arial,Helvetica">&nbsp;Input connected;
+Input INVALID (e.g. failure on I/O module);</font></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#000000"><font size=+2>Parameterization
+and Mode Pop-Up</font></font></font></b>
+<ul>
+<li>
+<font face="Arial,Helvetica">The<b> Parameter</b> section allows setup
+of the motor's maximum response time for Run feedback, Speed signal feedback
+and Current signal feedback. The default value for each is five seconds.</font></li>
+
+<li>
+<font face="Arial,Helvetica">The <b>Modes</b> section allows switching
+to (local) <b>Simulation Mode</b>. In this mode all inputs are simulated
+and the output is <b>disconnected</b> from the field. The <b>Overwrite
+Interlock Mode </b>connects the auto_on variable with the field regardless
+of the status of the interlock variable. If niether of these two Check
+Boxes is activated the motor is in standard mode.</font></li>
+
+<li>
+<font face="Arial,Helvetica">The <b>Emulations </b>section allows individual
+emulation of field inputs Run, Ready and Remote. The Run Input "follows"
+the output with a variable delay time (default = 3 seconds); the Ready
+and Remote feedbacks are considered ON.</font></li>
+</ul>
+
+<blockquote>&nbsp;
+<br><img SRC="ParamPopup.gif" ALT="ParamPopup.gif (20394 bytes)" ></blockquote>
+<b><font face="Arial"><font color="#000000"><font size=+2>Maintenance Pop-Up</font></font></font></b>
+<br>&nbsp;
+<ul>
+<li>
+<font face="Arial,Helvetica">The "Enable Maintenance" Button enables or
+disables all maintenance functions.</font></li>
+
+<li>
+<font face="Arial,Helvetica">If one of the limits is exceeded the motor
+class launches a Service Request "Warning".</font></li>
+
+<li>
+<font face="Arial,Helvetica">Each Limit can be reset individually, the
+reset date is automatically entered in the Last Reset field.</font></li>
+</ul>
+
+<blockquote>&nbsp;
+<br><img SRC="MaintPopup.gif" ALT="MaintPopup.gif (22964 bytes)" height=282 width=478>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;</blockquote>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Configuration"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Configuration</font></font></font></b>
+<p><b><font face="Arial"><font size=+2>I/O Configuration</font></font></b>
+<p><font face="Arial">The motor is linked to the field by filling out the
+<b>reference
+fields</b> of the following variables: <b>on</b>, <b>set</b>,
+<b>run_in</b>,
+<b>rdy_in</b>, <b>rem_in</b> and <b>speed_in</b>. Additional parameters
+are: the <b>maximum time delay</b> between an output command and the arrival
+of the proper feedback (<b>error_time</b>) and the limits for service request
+(see the Maintenance pop-up).</font>
+<p><b><font face="Arial">Notes:</font></b>
+<ul>
+<li>
+<font face="Arial">If "run_in" is not connected, the class routes the output
+to the internal run variable. This fakes that the feedback is always OK.
+If "run_in" is connected, the field <b>must</b> provide the proper feedback.</font></li>
+
+<li>
+<font face="Arial">If "rdy_in" is not connected, the class assumes that
+the motor is always ready.</font></li>
+
+<li>
+<font face="Arial">If "rem_in" is not connected, the class assumes that
+the remote switch is always turned on.</font></li>
+
+<li>
+<font face="Arial">The maximum delay time for the run feedback also can
+be changed in online mode in the Parameterization pop-up window.</font></li>
+</ul>
+
+<blockquote><img SRC="FieldConnect.gif" ALT="FieldConnect.gif (36903 bytes)" height=393 width=571>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;</blockquote>
+<b><font face="Arial"><font size=+2>Naming Conventions for Automated I/O
+Configurations</font></font></b>
+<p><font face="Arial">Normally, while implementing a class containing input
+and output variables (VAR_INPUT, VAR_OUTPUT), the <b>Reference Fields</b>
+(of these variables) need to be configured individually. However, if a
+class developer is required to use specific naming conventions, he or she
+may know the reference names in <b>advance</b>. For example, an organization’s
+internal standards may dictate tag creation according to the following
+conventions:</font>
+<p><font face="Arial">Tag name RUN FEEDBACK = Instance Name + "_" + "run"</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="PathName.gif" ALT="PathName.gif (24779 bytes)" height=331 width=364>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">automationX allows <b>substitution</b> addressing.
+Enter <b>$Path_run</b> in the appropriate reference field and the system
+automatically configures each instance according to the production rules
+of the class. For example, the instance name "VAR_MTR" would produce the
+reference field "VAR_MTR_run".</font>
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+2>Linking the Motor to a Process</font></font></b>
+<p><font face="Arial,Helvetica">Instances of the motor class are linked
+into a process context by means of two variables:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><b>auto_on</b> is the condition that indicates
+the motor is supposed to run in Automatic Mode. The pre-conditions are
+that the motor actually is NOT in Manual Mode, and that no Interlock is
+applied on the motor.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>lock</b> is the condition that the motor
+MUST NOT run, either in Automatic nor Manual Mode. Use the Overwrite Interlock
+check box in the Parameter pop-up window to overwrite an interlock condition.</font></li>
+</ul>
+
+<blockquote>&nbsp;
+<br><img SRC="LogicSample.gif" ALT="LogicSample.gif (40995 bytes)" height=303 width=710>
+<br>&nbsp;</blockquote>
+<b><font face="Arial"><font size=+1>User Access Configuration for Individual
+Instances</font></font></b>
+<p><font face="Arial">It is possible to set up unique user permissions
+for individual instances of the Motor class. During configuration of an
+instance, locate the "access" variables "TrendAccess", "OperateAccess",
+"InterlockAccess", "ServiceAccess" and "ParameterAccess" in the Client
+Data list. Selection of these variables will open the user access settings
+in the attribute window. From here, choose the appropriate user permissions
+by enabling or disabling the check-box beside the user level.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="UserAccessVars.gif" ALT="UserAccessVars.gif (10685 bytes)" >
+<br>&nbsp;
+<br>&nbsp;
+<p><span style='font-family:Arial'><font color="#000000">An access variable
+is enabled when a user is logged in with that access level. Likewise an
+access variable is disabled if there is no user logged on with that access
+level. Access variables are attached to control elements (e.g. buttons)
+within the class, and are checked via ACL when deciding whether or not
+a user is allowed to use that control element.&nbsp;</font></span>
+<p><span style='font-family:Arial'>For example, the access_trend_docu variable
+in the previous figure shows Access Levels "Guest" and "Operator" as disabled.
+If a user is logged on using one of these levels and pressed the Trend
+button on the popup interface, access is denied according to the Button1Down
+callback code attached to the button.</span>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="UserAccessVars2.gif" ALT="UserAccessVars2.gif (12657 bytes)" BORDER=1 >
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial">Additionally, the&nbsp;<span style='font-family:Arial'>access_trend_docu</span>
+variable is attached to the SelectSet variable in the Client Data of the
+Trend button element - in this case a rectangle. When the TrendAccess variable
+is true, the button displays a full color trend pixmap indicating that
+the button is active and there is permission to use it. When the TrendAccess
+variable is false, the button displays a grey trend pixmap indicating that
+the button is inactive and permission to use it is currently denied.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="ImplementationNotes"></a><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><b><font face="Arial"><font size=+2>Higher Class Sophistication through
+pre-evaluation of Inputs</font></font></b>
+<p><font face="Arial">The inputs RUN, REMOTE, and READY are connected to
+"run_in", "rem_in", and "rdy_in". However, the motor class works with internal
+variables "run", "rem", and "rdy". This approach allows manipulation of
+the variables if the simulation mode is on, or one or more input variables
+are not connected. The result is a much more sophisticated class.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="PreEvaluation.gif" ALT="PreEvaluation.gif (25684 bytes)" height=227 width=727>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+2>Simulation</font></font></b>
+<p><font face="Arial">The Motor class has a simulation mode which can be
+enabled one of two ways:</font>
+<ul>
+<li>
+<font face="Arial,Helvetica">Local Simulation (The class variable sim_local
+is ON, Activation through Parameter Pop-Up)</font></li>
+
+<li>
+<font face="Arial,Helvetica">Global Simulation (The system variable "$$_simulation"
+variable is ON)</font></li>
+</ul>
+<img SRC="SimunlationLogic.gif" ALT="SimunlationLogic.gif (29796 bytes)" height=270 width=734>
+<br>&nbsp;
+<br>&nbsp;
+<p><b><font face="Arial"><font size=+2>Suppression of Alarms in case of
+Invalid I/O</font></font></b>
+<p><font face="Arial">The Motor class avoids the generation of consecutive
+alarms in the event that some I/O loses proper connection to the field.</font>
+<br>&nbsp;
+<br>&nbsp;
+<p><img SRC="AlarmDepress.gif" ALT="AlarmDepress.gif (44950 bytes)" height=348 width=728>
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Installation</a>
+| <a href="#UserInterface">User Interface</a> | <a href="#Configuration">Configuration</a>
+| <a href="#ImplementationNotes">Implementation Notes</a></font>
+</body>
+</html>

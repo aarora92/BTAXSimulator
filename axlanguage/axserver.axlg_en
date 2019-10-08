@@ -1,0 +1,521 @@
+Menu.Open Viewer	AX-Viewer
+Menu.Application	Application
+Menu.Add Func	Additional Functions
+Menu.Integrated PLC	Integrated PLC
+Menu.System	System
+Menu.Restart Userinterface	Restart Userinterface
+Menu.License Info	License Info
+Menu.End Terminal	Quit
+Menu.Additional.Journal	Journal
+Menu.Trend-List	Trend-List
+Menu.Trend	Trend
+Menu.System-Browser	System-Browser
+Menu.System-Debugger	System-Debugger
+Menu.Additional.CancelPrinterJobs	Cancel Printer Jobs
+Menu.SPS.Open Project	Project
+Menu.SPS.TypeDef	User Types
+Menu.SPS.GlobalData	Global Data
+Menu.SPS.axBuilder	AX - Builder
+Menu.SPS.PLC	PLC Messages
+Menu.SPS.SystemVars	System Variables
+Menu.SPS.SystemVars.General	General
+Menu.SPS.SystemVars.Paramter	Parameter
+Menu.SPS.SystemVars.Arbitration	Arbitration
+Menu.SPS.SystemVars.Visualization	Visualization
+Menu.SPS.SystemVars.Licensing	Licensing
+Menu.Colors	Define Color
+Main.Open Viewer	aX Viewer
+PLS.Main.Menu.Tooltip.ProcessViewer	Opens an aX 'process viewer' which is \the principal \interface for an operator
+PLS.Main.Menu.Project	Project
+Main.Open Project	Project
+PLS.Main.Menu.Tooltip.ProjectViewer	Opens the aX 'project window' which is \the principal interface \for an application engineer
+PLS.Main.Menu.Login	Login
+PLS.Main.Menu.Tooltip.Login	Opens the aX 'login window' \which allows you to \obtain access to different \system functions
+PLS.Main.Menu.Journal	Journal
+Main.Open Journal	Journal
+PLS.Main.Menu.Tooltip.Journal	Opens the aX 'journal window' \which allows you to\track historical messages
+PLS.Main.Menu.Messages	Messages
+Main.Open Runtime-Messages	Messages
+Project.Main.Menu.File	File
+Project.Main.Menu.File.Load	Load
+Project.Main.Menu.File.Load.Accelerator	Ctrl+L
+Project.Main.Menu.File.Save	Save as
+Project.Main.Menu.File.Print	Print
+Project.Main.Menu.File.Print.Accelerator	Ctrl+P
+Project.Main.Menu.File.Quit	Quit
+Project.Main.Menu.File.Quit.Accelerator	Ctrl+Q
+Project.Main.Menu.Edit	Edit
+Project.Main.Menu.Edit.Cut	Cut
+Project.Main.Menu.Edit.Cut.Accelerator	Ctrl+X
+Project.Main.Menu.Edit.Copy	Copy
+Project.Main.Menu.Edit.Copy.Accelerator	Ctrl+C
+Project.Main.Menu.Edit.Paste	Paste
+Project.Main.Menu.Edit.Paste.Accelerator	Ctrl+V
+Project.Main.Menu.Edit.MoveUp	Move Up
+Project.Main.Menu.Edit.MoveUp.Accelerator	Shift+Up
+Project.Main.Menu.Edit.MoveDown	Move Down
+Project.Main.Menu.Edit.MoveDown.Accelerator	Shift+Down
+Project.Main.Menu.Edit.Enable	Enable Program
+Project.Main.Menu.Edit.Enable.Accelerator	Ctrl+E
+Project.Main.Menu.Edit.Diable	Disable Program
+Project.Main.Menu.Edit.Diable.Accelerator	Ctrl+D
+Project.Main.Menu.Tools	Tools
+Project.Main.Menu.Tools.Export	Export
+Project.Main.Menu.Tools.Export.Accelerator	Ctrl+F
+Project.Menu.Tooltip.New	New
+Project.Menu.Tooltip.Load	Load
+Project.Menu.Tooltip.Print	Print
+Project.Menu.Tooltip.Save&Install	Save and Install Configuration
+Project.Menu.Tooltip.MoveUp	Move Up
+Project.Menu.Tooltip.MoveDown	Move Down
+Project.Tree.Configuration	Configuration
+Project.Tree.Access	Access
+Project.Tree.MultiLanguage	Multi Language
+Project.Tree.MultiLanguageConfig	Language Config
+Project.Label: Name	Name
+Project.Label: Remark	Remark
+Project.Label: Exec Intervall	Exec Intervall
+Project.Label: Exec Offset	Exec Offset
+Project.Label: Time (ms)	Time (ms)
+Project.Label: Peak (ms)	Peak (ms)
+Project.Label: Modified	Modified
+Project.Label: Lic -Points	Lic.-Points
+Project.Tree.Configuration.FTT Context New Program	New Program
+Project.Tree.Configuration.FTT.Context Menu ChangeRemark	Change Remark
+Project.Tree.Configuration.FTT.Context Menu Disable Program	Disable
+Project.Tree.Configuration.FTT.Context Menu Reset Time	Reset time
+Project.Tree.Configuration.FTT.Context Menu Reset All Times	Reset all times
+Menu.End automationX	End automationX
+Pls.Msg.System coming up	System just coming up ...
+Pls.Msg.Code Equals	\Code=%d: %s
+Pls.Msg.Please Wait	Please Wait...
+Pls.Msg.No operation possible	Currently no operation possible !!
+Install.Message.ShowInViewer	Install-Messages: Show in Viewer
+PasswordDialog.Header	Login
+PasswordDialog.Type in your login name and password	Type in your login name and password
+PasswordDialog.Login	Login
+PasswordDialog.Password	Password
+PasswordDialog.OK	Ok
+PasswordDialog.Cancel	Cancel
+Project.Status Running	Running
+Project.Message.Install Project	Install Project...
+Project.Message.Title	Project
+Project.Message.Button.Cancel	Cancel
+Project.Message.Button.Warmstart	Warmstart
+Project.Message.Button.Coldstart	Coldstart
+Project.Title	automationX Project - %s/%s.prj
+Pls.Msg.Waiting valid master file	Haven't got a valid masterfile yet ...
+Project.Status Running Client	Running Client
+Pls.Msg.Database incomplete	Database is still incomplete ...
+FTT.Dropdown.Cut.Accelerator	Ctrl+X
+FTT.Dropdown.Cut	Cut
+FTT.Dropdown.Copy.Accelerator	Ctrl+C
+FTT.Dropdown.Copy	Copy
+FTT.Dropdown.Paste.Accelerator	Ctrl+V
+FTT.Dropdown.Paste	Paste
+FTT.Dropdown.Filter	Filter
+FTT.Dropdown.Filter.Accelerator	Ctrl+F
+FTT.Dropdown.SetupColumn	Setup Column
+FTT.Dropdown.TableSetup	Table Setup
+FTT.Dropdown.TableSetup.LabelFont	Label Font
+FTT.Dropdown.TableSetup.FieldFont	Field Font
+FTT.Dropdown.TableSetup.HorizontalLine	Horzontal Line
+FTT.Dropdown.TableSetup.VerticalLine	Vertical Line
+Project.Tree.Registry	Registry
+Project.Tree.Registry.Remark	automationX Registry
+Project.Tree.Config	Config
+Project.Tree.Config.Remark	Startup and Init Values
+Project.Tree.UserProcesses	UserProcesses
+Project.Tree.UserProcesses.Remark	Process Table
+Project.Tree.SystemVariables	System Variables
+Registry.Header	automationX - Registry
+Registry.Main.Menu.File	File
+Registry.Main.Menu.File.Quit	Quit
+Registry.Main.Menu.File.Quit.Accelerator	Ctrl+Q
+Registry.Main.Menu.Edit	Edit
+Registry.Main.Menu.Edit.Cut	Cut
+Registry.Main.Menu.Edit.Cut.Accelerator	Ctrl+X
+Registry.Main.Menu.Tool	Tools
+Registry.Main.Menu.Tool.ExportNames&Access	Export Names and Access
+Registry.Main.Menu.Tool.ExportValues	Export Values
+Registry.Main.Menu.Tool.ImportNames	Import Names
+Registry.Button.Save	Save
+CoolbConf.Label: Function	Function
+CoolbConf.Label: Value	Value
+CoolbConf.Label: A1	A1
+CoolbConf.Label: A2	A2
+CoolbConf.Label: A3	A3
+CoolbConf.Label: A4	A4
+CoolbConf.Label: A5	A5
+CoolbConf.Label: A6	A6
+CoolbConf.Label: A7	A7
+CoolbConf.Label: A8	A8
+CoolbConf.Label: A9	A9
+CoolbConf.Label: A10	A10
+CoolbConf.Label: A11	A11
+CoolbConf.Label: A12	A12
+CoolbConf.Label: A13	A13
+CoolbConf.Label: A14	A14
+CoolbConf.Label: A15	A15
+Registry.FTT.Context Menu Info	Info... 
+Registry.Header2	automationX - Registry :%s
+PLC.autoX	automationX PLC
+PLS.StartNow	Start now
+PLS.Wait	Wait
+PLS.Startup	startup ...
+PLS.Msg.ReadyToStart	PLC is now ready to start !
+PLC.Started	PLC started !
+PLS.Start.Time	time: %d sec
+Install.Message.Head	Install - Messages
+PLCBrowser.Cancel	Cancel
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+Install.Message.Messages	Install Messages ...
+Registry.Msg.Save	Save changes ?                          
+Project.Tree.Langauge.FTT Context New Language	New Language
+Project.Tree.Langauge.FTT Context Delete Language	Delete Language
+Access Level.User.Context Menu.New	New
+Project.Tree.Access.UserProperities	Properties for User : %s
+Project.Tree.Access.Name	Name:
+Project.Tree.Access.Remark	Remark:
+Project.Tree.Access.User.Password	Password:
+Project.Tree.Access.User.PasswordConfirm	Confirm password:
+Project.Tree.Language.ChangeTo	Change Language to:
+PLS.Msg.Classes.notFound	Following classes were not found anywhere:\
+PLS.Msg.Classes.Inconsistency	Inconsistency found in automationX Class repository!
+PLS.autox.Classmanager	automationX Class manager
+Message Dialog.Warning	Warning
+PLS.AutomaticRepair	Automatic repair
+Project.Cancel	Cancel
+Project.Tree.Language.Title	aX Language
+Project.Tree.Language.Configuration	automationX Language configuration
+Project.Tree.Language.General Config	General Config
+Project.Tree.Language.Name	Language Name:
+Project.Tree.Language.Extension	Extension (e.g: en):
+Project.Tree.Language.Enable Multi-Byte Fonts	Language Requires Multi-byte Fonts?
+Project.Tree.Language.Font.Latin	Latin Font
+Project.Tree.Language.Font.Multi-Byte	Multibyte Font
+Project.Tree.Language.Individual Fonts	Individual Fonts
+Project.Tree.Language.Latin (Single-Byte) Fonts	Latin (Single-Byte) Fonts
+Project.Tree.Language.Multi-byte Fonts	Multi-byte Fonts
+PLS.SystemVariables.General	General
+PLS.SystemVariables.General.Remark	General System Var
+PLS.SystemVariables.Parameter	Parameter
+PLS.SystemVariables.Parameter.Remark	System Paramter
+PLS.SystemVariables.Arbitration	Arbitration
+PLS.SystemVariables.Arbitration.Remark	Arbitration - Redundancy
+PLS.SystemVariables.Visualization	Visualization
+PLS.SystemVariables.Visualization.Remark	Visualization Parameter
+PLS.SystemVariables.Licensing	Licensing
+PLS.SystemVariables.Licensing.Remark	Licensing Information
+Global.FTF Name Label	Datablock:   
+Global.FTF Remark Label	Remark:      
+Global.FTF Status Label	Mode:        
+Global.Title	Global
+Global.Main.Menu.File	File
+Global.Main.Menu.File.Accelerator.Load	Ctrl+L
+Global.Main.Menu.File.Load	Load
+Global.FSB Load Title	Global
+Global.Main.Menu.File.Accelerator.Save	Ctrl+S
+Global.Main.Menu.File.Save	Save
+Global.Main.Menu.File.Accelerator.Quit	Ctrl+Q
+Global.Main.Menu.File.Quit	Quit
+Global.Main.Menu.Mode	Mode
+Global.Main.Menu.Mode.Normal	Init-Data
+Global.Main.Menu.Mode.Status	Status
+Global.Main.Menu.Mode.Online	Online
+Global.Main.Menu.Option	Option
+Global.Main.Menu.Option.Accelerator.Clear	Ctrl+X
+Global.Main.Menu.Option.Clear	Clear
+Global.Main.Menu.Option.Accelerator.Delete	Ctrl+A
+Global.Main.Menu.Option.Delete	Delete
+Global.Main.Menu.Option.Accelerator.Insert	Ctrl+I
+Global.Main.Menu.Option.Insert	Insert
+Global.Main.Menu.Option.Accelerator.Clipboard	Ctrl+W
+Global.Main.Menu.Option.Clipboard	Clipboard
+Global.Main.Menu.Option.Accelerator.Copy	Ctrl+C
+Global.Main.Menu.Option.Copy	Copy
+Global.Main.Menu.Option.Accelerator.Search	Ctrl+F
+Global.Main.Menu.Option.Search	Search
+Global.Main.Menu.Option.Accelerator.Replace	Ctrl+Y
+Global.Main.Menu.Option.Replace	Replace
+Global.Main.Menu.Option.Accelerator.Print	Ctrl+P
+Global.Main.Menu.Option.Print	Print
+Global.Main.Menu.Customize	Customize
+Global.Main.Menu.Customize.Fonts	Fonts
+Global.Main.Menu.Display	Display
+Global.Main.Menu.Customize.Fonts.Small	Small
+Global.Main.Menu.Customize.Fonts.Medium	Medium
+Global.Main.Menu.Customize.Fonts.Big	Big
+Global.Main.Menu.Customize.Display.Full	Full
+Global.Main.Menu.Customize.Display.Short	Short
+Global.Main.Menu.SystemVariables	System Variables
+Global.Main.Menu.SystemVariables.General	General
+Global.Main.Menu.SystemVariables.Parameter	Parameter
+Global.Main.Menu.SystemVariables.Arbitration	Arbitration
+Global.Main.Menu.SystemVariables.Visualization	Visualization
+GlobalData.Ftt.Label: No	No
+GlobalData.Ftt.Label: Name	Name
+GlobalData.Ftt.Label: Type	Type
+GlobalData.Ftt.Label: Cnt	Cnt
+GlobalData.Ftt.Label: Remark	Remark
+GlobalData.Ftt.Label: Data	Data
+GlobalData.Ftt.Label: Rem	Rem
+Global.FTF Name Label	Datablock:   
+Global.FTF Remark Label	Remark:      
+Global.FTF Status Label	Mode:        
+Global.Title	Global
+Global.Main.Menu.File	File
+Global.Main.Menu.File.Accelerator.Load	Ctrl+L
+Global.Main.Menu.File.Load	Load
+Global.FSB Load Title	Global
+Global.Main.Menu.File.Accelerator.Save	Ctrl+S
+Global.Main.Menu.File.Save	Save
+Global.Main.Menu.File.Accelerator.Quit	Ctrl+Q
+Global.Main.Menu.File.Quit	Quit
+Global.Main.Menu.Mode	Mode
+Global.Main.Menu.Mode.Normal	Init-Data
+Global.Main.Menu.Mode.Status	Status
+Global.Main.Menu.Mode.Online	Online
+Global.Main.Menu.Option	Option
+Global.Main.Menu.Option.Accelerator.Clear	Ctrl+X
+Global.Main.Menu.Option.Clear	Clear
+Global.Main.Menu.Option.Accelerator.Delete	Ctrl+A
+Global.Main.Menu.Option.Delete	Delete
+Global.Main.Menu.Option.Accelerator.Insert	Ctrl+I
+Global.Main.Menu.Option.Insert	Insert
+Global.Main.Menu.Option.Accelerator.Clipboard	Ctrl+W
+Global.Main.Menu.Option.Clipboard	Clipboard
+Global.Main.Menu.Option.Accelerator.Copy	Ctrl+C
+Global.Main.Menu.Option.Copy	Copy
+Global.Main.Menu.Option.Accelerator.Search	Ctrl+F
+Global.Main.Menu.Option.Search	Search
+Global.Main.Menu.Option.Accelerator.Replace	Ctrl+Y
+Global.Main.Menu.Option.Replace	Replace
+Global.Main.Menu.Option.Accelerator.Print	Ctrl+P
+Global.Main.Menu.Option.Print	Print
+Global.Main.Menu.Customize	Customize
+Global.Main.Menu.Customize.Fonts	Fonts
+Global.Main.Menu.Display	Display
+Global.Main.Menu.Customize.Fonts.Small	Small
+Global.Main.Menu.Customize.Fonts.Medium	Medium
+Global.Main.Menu.Customize.Fonts.Big	Big
+Global.Main.Menu.Customize.Display.Full	Full
+Global.Main.Menu.Customize.Display.Short	Short
+Global.Main.Menu.SystemVariables	System Variables
+Global.Main.Menu.SystemVariables.General	General
+Global.Main.Menu.SystemVariables.Parameter	Parameter
+Global.Main.Menu.SystemVariables.Arbitration	Arbitration
+Global.Main.Menu.SystemVariables.Visualization	Visualization
+GlobalData.Ftt.Label: No	No
+GlobalData.Ftt.Label: Name	Name
+GlobalData.Ftt.Label: Type	Type
+GlobalData.Ftt.Label: Cnt	Cnt
+GlobalData.Ftt.Label: Remark	Remark
+GlobalData.Ftt.Label: Data	Data
+GlobalData.Ftt.Label: Rem	Rem
+Global.Msg.File	File %s:
+Global.Msg.Save Actual State	Save Actual State
+Global.Msg.Global Data	Global Data
+Global.Msg.File	File %s:
+Global.Msg.Save Actual State	Save Actual State
+Global.Msg.Global Data	Global Data
+PLS.Msg.Classes.Found	Following classes were found to be repositioned in new locations:\
+Journal.Menu.File	File
+Journal.Menu.File.PrinterSetup	Printer Setup...
+Journal.Menu.File.Print	Print...
+Journal.Menu.File.Print.Accelerator	Ctrl+P
+Journal.Menu.File.SetDefaultFilterProfile	Set Default Filter Profile
+Journal.Menu.File.RemoveDefaultFilterProfile	Remove Default Filter Profile
+Journal.Menu.File.SaveFilterProfile	Save Filter Profile...
+Journal.Menu.File.DeleteFilterProfile	Delete Filter Profile...
+Journal.Menu.File.Exit	Exit
+Journal.Button.Load	Load
+Journal.Button.Print	Print
+Journal.Button.Delete	Delete
+Journal.Button.Refresh	Refresh
+Journal.Button.Message Source	Message Source
+Journal.Button.Journal APPLICATION	Soft-PLC
+Journal.Button.Journal SYSTEM	System
+Journal.Button.Journal Logger	User
+Journal.Button.Profibus	Profibus
+Journal.Button.  Filter Off	   Filter Off
+Journal.Button.Label: Nr	Nr
+Journal.Button.Label: Prio	Prio
+Journal.Button.Label: Date-Time	Date-Time
+Journal.Button.Label: Position	Position
+Journal.Button.Label: Set to:	Set to:
+Journal.Button.Label: Message	Message
+Journal.Button.Label: User	User
+Journal.Button.Label: Host	Host
+Project.Tree.Access.NewUser	New User for AccessLevel '%s'
+Project.Dialog.Warning	Warning !
+Project.Tree.Access.UserDelete	Delete User <%s> ? 
+Project.Dialog.Message	Message
+Msg.Import Names	Import Names ...
+Spsdef.Msg.Save Changes	  Save Changes without Install ?    
+Project.Tree.Access.Level Dialog Title	Access Level %d
+Project.Tree.Access.Autologoff	Autologoff
+Project.Tree.Access.TimeOut	Timeout (sec):
+Project.Tree.Access.Logoff To	Logoff to:
+Table.Setup.Header	Table Setup
+TableSetup.Ftt.Label.Field	Field:
+Journal.Button.Lougheed	Lougheed
+Instance Context Menu.Explorer	Explorer
+Instance Context Menu.Class	Class
+Instance Context Menu.Trend	Trend
+Instance Context Menu.Cross Reference	Cross Reference
+Instance Context Menu.Trend.Show Trend	Show Trend
+Instance Context Menu.Trend.Add Predefined	Add Predefined
+Instance Context Menu.Class Description	Class Description
+Instance Context Menu.Instance Description	Instance Description
+Instance Context Menu.Properties	Properties
+Menu.Main.File	File
+Menu.File.Close	Close
+Editor.Instance	Instance:
+Editor.Remark	Remark :
+Editor.ClassType	Type:
+Editor.TypeLocal	Local
+Editor.Class	Class:
+Editor.Ref	Ref.
+Editor.Use_Alarms	Use Alarms
+Editor.RemoteSite	Site:
+Editor.RemoteInstance	Instance:
+Editor.ServerData	Server Data
+Editor.ClientData	Client Data
+Editor.RemoteData	Remote Data
+Editor.Declaration	Declaration
+Editor.Type	Type
+Editor.Reference	Reference
+Editor.NC	NC
+Editor.INV	INV
+Editor.Subrange	Subrange
+Editor.Dimension	Dimension
+Editor.IOScale	IoScale
+Editor.Physical	Physical
+Editor.StringSize	String Size
+Editor.DecimalPoints	DecimalPoints
+Editor.ArrayCount	Array Count
+Editor.Trending	Trending
+Editor.Retentive	Retentive
+Editor.Constant	Constant
+Editor.Private	Private
+Editor.Local	Local
+Editor.Parameter	Parameter
+Editor.ConfValue	Conf.Value
+Editor.OnlineInit	OnlineInit
+Editor.Tolerance	Tolerance
+Editor.IOVar	IO Var
+Editor.VirtualIO	Virtual I/O
+Editor.ExternVarRead	Read
+Editor.ExternVarWrite	Write
+Editor.FlagInterface	Interface
+Lic. Message Title	Ax License Manager
+Journal.PrintDialog.Header	Print Journal
+Journal.PrintDialog.PrinterFrame	Printer
+Journal.PrintDialog.Printer	Printer:
+Journal.PrintDialog.PrintModeFrame	Print Modes
+Journal.PrintDialog.GraphicalPrint	Graphical Print Method
+Journal.PrintDialog.TextModePrint	Send as Plain Text
+Journal.PrintDialog.PrintToFile	Print to File
+Journal.PrintDialog.PrintFileOptions	Advanced...
+Journal.PrintDialog.OptionFrame	Options
+Journal.PrintDialog.EntireJournal	Print the Entire Journal
+Journal.PrintDialog.PrinterButton	Printer...
+Editor.Msg.Documentation not available	Documentation not available !\(File :
+Journal.PrintFileOptionsDialog.Header	Print to File Options
+Journal.PrintFileOptionsDialog.OutputFrame	Output File
+Journal.PrintFileOptionsDialog.SelectFile	Select File
+Journal.PrintFileOptionsDialog.ProcessingFrame	Output File Processing
+Journal.PrintFileOptionsDialog.FileSelection	Select Output File
+Dialog.Msg.OutsideAxPath	outside of the automationX path
+Dialog.Msg.CannotSaveFile	Cannot save file
+Journal.Print.Header	AutomationX Journal:
+Journal.Print.Header.Data	Date:
+Journal.Print.Header.Project	Project:
+Project.Configuration.New Program	New Project
+Project.Name	Project Name:
+Project.Source	Project Source:
+Journal.ContextMenu Table.Menu Cut	Cut
+Journal.ContextMenu Table.Menu Copy	Copy
+Journal.ContextMenu Table.Menu Paste	Paste
+Journal.ContextMenu Table.Menu Filter	Filter
+Journal.ContextMenu Table.Menu Setup Column	Setup Column
+Journal.ContextMenu Table.Menu Font Setup	Font Setup
+Project.Tree.Configuration.FTT.Context Menu Enable Program	Enable Program
+Journal.FSB Load.Title	Load Journal
+Journal.Error.Msg.Cannot Load File	ERROR: can't load File %s
+Project.Warning.Not Server	This station doesn't run as a SERVER !
+PLC.Restart	Please restart automationX!
+PLS.Msg.axConfigurator	automationX Class configurator
+Journal.SetDefaultProfileDialog.Action Not Possible	ERROR: No active Filter found !\Please select a Filter first.
+Menu.Exit Userinterface	Exit Userinterface
+Menu.Additional.Diagnostic	Diagnostik
+Project.Tree.Configuration.FTT Context Edit Program	Edit Program
+Project.Status Error	ERROR
+Project.Warning.Warmstart in Progress	Please wait, warmstart in progress
+Error.Cannot Execute Project	Error: Can't execute Project
+Project.Message.Button.Continue	Continue
+LIC_INFO	LIC_INFO
+Temporary	Temporary
+LicenseManager.Copy	Copy
+Menu.EndAutoXPLC	 End automationX and STOP Plc ?      
+PLS.Automation.End	automationX shutdown
+FTT.Dropdown.SetToAllFields.Accelerator	Ctrl+D
+FTT.Dropdown.SetToAllFields	SetToAllFields
+FTT.Dropdown.PrintAll	PrintAll
+FTT.Dropdown.PrintVis	PrintVis
+Install.Message.AllowStart	Install Messages:Allow start AXEditor
+Project.Tree.SearchValue	search_value
+Editor.ExtID	ExtID:
+Editor.ExtId	ExtId
+Editor.Datalog	Datalog
+Editor.DatalogRecMode	Record mode
+Editor.ValueReset	Value Reset
+Editor.RecTrigger	Rec.Trigger
+Journal.Menu.Save_Filter_Profile	Save Filter Profile...
+Journal.Menu.Delete_Filter_Profile	Delete Filter Profile...
+Journal.Menu.Exit	Exit
+Journal.Menu.Source	Source
+Journal.Button.softplc	softplc
+Menu.softplc	softplc
+Journal.Button.system	system
+Menu.system	system
+Menu.user	user
+Journal.AlarmTree.Menu Display Alarm Tree	Display Alarm Tree
+Journal.AlarmTree.Menu Hide Alarm Tree	Hide Alarm Tree
+Menu.Page.Title	Page
+LIC_TEMP	LIC_TEMP
+Project.FSB Title Prj Save	Project Save As...
+Spsdef.Msg.Save and install	If You wan't to use project <%s> \Please press the 'Save and Install' Button \If not just open Project-Window again!
+Error.PLCNotRunning	ERROR :Soft-PLC isn't running \only Project saved\please restart automationX !
+Project.FSB Title Prj Load	Project Load
+Menu.EthBuffer	EthBuffer
+Menu.Profibus	Profibus
+Journal.Button.Online	Online
+Journal.Warning.DelFile	Delete File %s ?
+Journal.Delete	Delete ...
+Menu.Lougheed	Lougheed
+LIC_DEMO_EXPIRED	LIC_DEMO_EXPIRED
+Demo	Demo
+LIC_OK	LIC_OK
+Project.FSB Browse.File.Title	Browse Program
+Project.Status Simulation	Simulation
+Project.Tree.TimeOut	Timeout (sec):
+Project.Tree.Access.LogoffTo	Logoff to:
+Project.Yes	Yes
+Project.No	No
+Editor.Search.Dialog.Header	Search
+Editor.Search.Dialog.Next	Next
+Editor.Search.Dialog.Prev	Prev
+Editor.Search.Dialog.Cancel	Cancel
+Editor.Search.Dialog.CaseSensitive	case sensitive
+Editor.Search.Dialog.Incl	inclusive symbol properties
+Menu.OPC-Client	OPC-Client
+OK	OK
+Menu.filename	filename
+Clients exceeded	Clients exceeded
+Project.Configuration.Program.NameLimit	ERROR: Name too long !

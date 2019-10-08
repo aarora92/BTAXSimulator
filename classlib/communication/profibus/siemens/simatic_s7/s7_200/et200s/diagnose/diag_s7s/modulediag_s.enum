@@ -1,0 +1,9 @@
+Moduletype:	InputChannel=1,
+		OutputChannel=2,
+		Input_OutputChannel=3;
+Channeltype:	Bit=1,
+		Bit2=2,
+		Bit4=3,
+		Byte=4,
+		Wort=5,
+		Worte2=6;

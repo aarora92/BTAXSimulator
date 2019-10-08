@@ -1,0 +1,1016 @@
+2019-09-01 05:28:43-443	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 05:28:43-842	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 11:33:32-536	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 11:33:38-536	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 12:38:14-937	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 12:38:31-515	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 19:31:57-443	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 19:32:12-444	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 21:52:10-844	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 21:52:28-446	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 22:33:36-562	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-01 22:33:50-157	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-01 23:23:10-302	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-02 09:23:47-584	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-02 09:27:21-177	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-02 09:28:01-385	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-02 10:50:39-573	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-02 10:50:44-371	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-02 12:21:05-957	-2	<BTAXSA>AXPV	3	closed (display = USER-PC)[SRV]
+2019-09-02 12:21:05-957	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-02 12:21:11-562	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[SRV]
+2019-09-02 13:58:32-163	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-02 13:58:49-144	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 00:25:38-986	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 05:49:56-033	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-03 07:24:53-788	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:24:59-381	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:25:32-147	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:25:32-346	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:25:58-332	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:26:02-529	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:26:22-918	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:26:23-118	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:27:20-720	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:27:30-124	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:27:53-130	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:27:53-328	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:30:59-855	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:31:23-845	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 07:33:43-053	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-03 07:33:52-059	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-03 09:21:24-002	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 09:21:24-401	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 10:28:26-005	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 10:28:58-828	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 11:36:35-387	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 11:36:35-786	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 11:58:49-061	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 13:38:13-312	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 13:38:26-326	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 13:57:02-020	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 13:57:05-612	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 17:20:42-788	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-03 21:01:19-483	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-03 21:01:37-049	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-03 22:33:45-786	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-03 22:34:03-371	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-03 22:58:24-894	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-04 05:21:57-345	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-04 05:24:50-992	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-04 05:25:07-188	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-04 05:47:35-915	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-04 09:47:16-302	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-04 09:52:12-812	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-04 11:30:17-642	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-04 14:16:24-059	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-04 14:16:43-861	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-04 16:01:11-546	-2	<BTAXSA>AXPV	3	closed (display = local)[SRV]
+2019-09-04 16:01:19-342	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-04 16:11:46-766	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-04 16:11:47-164	-2	<BTAXSA>PLS	3	X-IO Error (display = 10.26.36.124:0.0)[SRV]
+2019-09-04 16:12:50-200	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-04 16:17:54-799	-2	<BTAXSA>AXPV	3	started (display = local)[SRV]
+2019-09-04 16:18:01-812	-2	<BTAXSA>AXPV	3	closed (display = local)[SRV]
+2019-09-04 16:43:55-650	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-04 16:44:09-252	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-04 18:36:02-565	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-05 01:16:11-582	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-05 01:16:12-181	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-05 05:49:49-007	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-05 10:40:40-463	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.117)[SRV]
+2019-09-05 13:24:49-253	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-05 13:25:01-052	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-05 13:36:23-494	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-05 16:04:58-398	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-05 16:05:41-170	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-05 16:48:50-792	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-05 20:03:50-318	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:04:02-905	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:07:19-584	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:07:36-184	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:13:32-368	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:13:39-977	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:16:13-578	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:16:32-963	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:17:19-328	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:17:33-733	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:18:07-888	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:18:16-282	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:18:41-880	-2	<BTAXSA>AXPV	3	closed (display = PCN-EDOCK)[SRV]
+2019-09-05 20:19:20-461	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-05 20:19:30-463	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-05 20:20:12-052	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-06 01:01:32-565	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 01:01:33-364	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-06 05:48:05-032	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-06 05:55:55-444	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 05:56:16-236	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-06 07:03:20-744	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-06 11:40:55-723	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.115)[SRV]
+2019-09-06 14:29:32-408	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 14:29:33-009	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-06 17:44:21-733	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-06 22:31:25-581	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 22:31:46-578	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-06 23:02:46-394	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 23:03:08-795	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-06 23:34:53-802	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-06 23:34:59-608	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-07 00:41:32-733	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-07 00:42:14-548	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-07 00:58:24-184	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-07 00:58:28-588	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-07 10:55:04-213	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-07 10:55:22-822	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-07 12:56:59-028	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-07 12:57:07-229	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-07 22:41:35-788	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-08 05:15:34-799	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-08 13:21:14-407	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-08 13:21:19-598	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-08 22:02:38-924	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-08 22:02:39-523	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 00:14:12-898	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 00:54:15-290	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 00:54:15-691	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 03:21:50-023	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 03:21:50-823	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 05:56:10-602	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-09 06:47:19-871	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.70)[SRV]
+2019-09-09 06:48:27-203	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.70)[SRV]
+2019-09-09 06:48:27-404	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.70)[SRV]
+2019-09-09 06:48:36-805	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.70)[SRV]
+2019-09-09 07:57:29-013	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-09 09:29:16-335	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.115)[SRV]
+2019-09-09 10:33:40-838	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 10:33:55-013	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 12:54:37-918	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 12:54:48-522	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 15:02:20-552	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 15:02:21-151	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 16:10:22-012	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-09 16:10:27-413	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-09 16:10:40-609	-2	<BTAXSA>AXPV	3	closed (display = 10.26.38.97)[SRV]
+2019-09-09 16:10:40-809	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-09 16:10:53-414	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-09 16:48:15-151	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 16:48:36-358	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 17:24:56-964	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-09 22:07:51-349	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 22:07:52-348	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 22:24:17-536	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 23:03:24-783	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 23:03:25-384	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-09 23:13:20-480	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-09 23:13:21-279	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 00:00:50-986	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 02:30:08-382	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-10 02:30:15-178	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 02:47:14-960	-2	<BTAXSA>AXPV	3	closed (display = PCN-RAIL)[SRV]
+2019-09-10 02:47:33-365	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 05:52:07-119	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-10 08:13:08-279	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 08:39:16-226	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 09:06:41-111	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-10 09:07:14-506	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 11:43:42-654	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 17:08:55-282	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-10 17:09:49-644	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-10 17:17:25-674	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-10 17:18:00-263	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 17:48:18-181	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-10 20:17:11-783	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-10 20:17:16-979	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-10 21:59:44-325	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-10 21:59:46-526	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 00:33:53-605	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-11 00:33:54-005	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 05:51:58-180	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-11 07:38:01-506	-2	<BTAXSA>AXPV	3	started (display = local)[SRV]
+2019-09-11 07:38:14-010	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-11 07:39:13-707	-2	<BTAXSA>AXPV	3	closed (display = local)[SRV]
+2019-09-11 07:40:07-641	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-11 07:40:35-421	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-11 07:48:46-325	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-11 07:51:55-104	-2	<BTAXSA>EDT	3	Saving file:LowComm.tree
+2019-09-11 07:51:55-104	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-11 07:51:57-698	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[15]
+2019-09-11 07:51:57-898	-2	<BTAXSA>FSRV	3	Local client 4600 forces TableCheck
+2019-09-11 07:51:58-098	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-11 07:52:01-092	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-11 08:14:00-207	-2	<BTAXSA>EDT	3	Saving file:LowComm.tree
+2019-09-11 08:14:00-207	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-11 08:14:00-605	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[16]
+2019-09-11 08:14:00-805	-2	<BTAXSA>FSRV	3	Local client 2860 forces TableCheck
+2019-09-11 08:14:01-006	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-11 08:14:01-204	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-11 08:21:33-552	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 09:36:37-417	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-11 09:36:37-816	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 10:06:46-188	-2	<BTAXSA>EDT	3	Saving file:LowComm.tree
+2019-09-11 10:06:46-188	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-11 10:06:46-588	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[17]
+2019-09-11 10:06:46-588	-2	<BTAXSA>FSRV	3	Local client 2860 forces TableCheck
+2019-09-11 10:06:46-788	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-11 10:06:46-989	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-11 10:08:10-194	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-11 10:08:20-369	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-11 10:09:07-460	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-11 10:45:53-698	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-11 10:46:14-250	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-11 11:29:05-638	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-11 12:50:00-882	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 13:33:23-796	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-11 13:36:45-325	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-11 14:55:04-956	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-11 14:55:20-319	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-11 16:04:05-226	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 16:29:16-088	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-11 18:15:05-036	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[SRV]
+2019-09-11 18:15:05-036	-2	<BTAXSA>PLS	3	X-IO Error (display = USER-PC:0.0)[SRV]
+2019-09-11 18:31:41-706	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-11 23:40:35-145	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-11 23:40:38-338	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 01:38:14-543	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 05:18:27-437	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 05:18:33-424	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 05:53:21-141	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-12 09:44:05-882	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 09:44:13-664	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 10:14:09-052	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 10:14:18-032	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 11:25:55-752	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 11:26:00-341	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 11:42:27-628	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 11:42:40-000	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 12:48:59-493	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-12 13:58:17-367	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 13:58:17-766	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 14:35:16-575	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-12 14:36:15-437	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-12 14:53:51-167	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 14:54:02-540	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 15:14:18-098	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 15:14:18-697	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 15:43:42-372	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 15:43:43-171	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 16:02:44-903	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-12 16:46:16-592	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 16:46:16-992	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 17:37:07-855	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-12 19:07:19-721	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 19:07:20-519	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 21:54:07-723	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 21:54:08-920	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 22:21:27-490	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 22:29:21-584	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-12 22:29:33-954	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-12 22:29:55-105	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 00:57:34-190	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 00:57:38-979	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 01:44:30-801	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 01:44:38-782	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 02:26:18-336	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 02:26:31-305	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 02:50:58-068	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 02:51:11-436	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 03:00:48-278	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 03:01:08-430	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 04:08:45-680	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 04:44:59-181	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 05:15:49-447	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 05:15:58-226	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 05:52:54-836	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-13 06:50:23-173	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 08:38:12-438	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 10:06:22-265	-2	<BTAXSA>EDT	3	Saving file:LowComm.tree
+2019-09-13 10:06:22-265	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-13 10:06:24-658	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[18]
+2019-09-13 10:06:24-858	-2	<BTAXSA>FSRV	3	Local client 1588 forces TableCheck
+2019-09-13 10:06:25-059	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-13 10:06:28-052	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-13 10:07:16-937	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-13 10:12:39-782	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-13 10:13:33-257	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-13 10:13:51-415	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-13 10:38:58-888	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 10:39:00-085	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 11:54:18-115	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-13 12:18:44-457	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 12:38:55-404	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 12:39:11-765	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 12:49:20-530	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 12:49:21-130	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 13:15:10-301	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 13:40:12-180	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 14:43:08-948	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 14:43:09-546	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 15:12:58-966	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 15:38:46-546	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-13 15:38:46-946	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-13 16:29:15-667	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[SRV]
+2019-09-13 16:29:15-667	-2	<BTAXSA>PLS	3	X-IO Error (display = USER-PC:0.0)[SRV]
+2019-09-13 17:26:39-812	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-13 21:22:55-453	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 00:05:14-006	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 00:08:13-585	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 00:08:25-358	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 00:36:41-795	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 01:10:40-826	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 10:29:07-585	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 10:29:10-180	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 10:31:39-233	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 10:59:56-865	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 10:59:57-463	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 11:16:11-585	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 11:16:34-132	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 11:44:10-855	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 12:41:31-621	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 12:41:49-579	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 13:21:20-038	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 13:21:23-230	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 14:06:57-638	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-14 20:16:35-667	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-14 20:16:49-436	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 01:04:07-276	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 01:04:08-273	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 02:27:17-973	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 04:40:09-332	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 04:40:09-930	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 11:55:23-861	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 11:55:25-657	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 12:20:49-095	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 14:35:53-555	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 14:35:56-747	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 14:37:41-703	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 14:41:12-809	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 15:23:37-262	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 15:23:38-061	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 20:41:32-956	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 20:46:51-809	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 21:07:20-736	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 21:07:33-905	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-15 21:11:01-019	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-15 21:11:04-012	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 05:42:39-961	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-16 05:58:02-200	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 05:58:13-572	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 06:16:29-404	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.170)[SRV]
+2019-09-16 09:16:39-717	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 09:16:54-082	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 10:25:52-408	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 10:26:06-375	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 11:19:36-867	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-16 13:47:39-232	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 13:47:41-627	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 14:07:47-796	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 14:09:57-092	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-16 14:10:24-628	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-16 14:39:35-325	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 14:39:35-723	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 14:48:41-848	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 14:48:48-033	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 14:49:14-970	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.170)[SRV]
+2019-09-16 15:06:36-538	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 15:06:55-493	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 15:34:11-266	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-16 16:56:18-147	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-16 17:10:36-937	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-16 17:11:01-480	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-16 17:15:19-877	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-16 20:49:01-904	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 20:49:37-421	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-16 20:54:05-793	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-16 20:54:10-782	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 00:14:15-023	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 01:00:32-329	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 01:00:49-490	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 03:06:24-276	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-17 03:06:45-627	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-17 05:49:35-578	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-17 06:15:18-371	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-17 06:34:00-148	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 06:37:10-303	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 06:37:34-647	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 06:38:35-903	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 06:38:37-099	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 06:42:06-809	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 06:45:42-107	-2	<BTAXSA>EDT	3	Saving file:DockComm.tree
+2019-09-17 06:45:42-107	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 06:45:44-302	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[19]
+2019-09-17 06:45:44-500	-2	<BTAXSA>FSRV	3	Local client 388 forces TableCheck
+2019-09-17 06:45:44-500	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 06:45:47-892	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 06:47:55-395	-2	<BTAXSA>EDT	3	Saving file:EastDock.tree
+2019-09-17 06:47:55-395	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 06:47:55-795	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[20]
+2019-09-17 06:47:55-994	-2	<BTAXSA>FSRV	3	Local client 2268 forces TableCheck
+2019-09-17 06:47:55-994	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 06:47:56-394	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 06:50:43-403	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 06:50:43-601	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 06:50:44-002	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[21]
+2019-09-17 06:50:44-200	-2	<BTAXSA>FSRV	3	Local client 2276 forces TableCheck
+2019-09-17 06:50:44-200	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 06:50:44-601	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 06:55:22-746	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 06:55:37-510	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 06:57:09-694	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 06:58:34-095	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 06:58:48-661	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 06:59:36-549	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 07:20:32-388	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:20:44-559	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:20:52-940	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:21:37-834	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:21:37-834	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 07:21:38-233	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[22]
+2019-09-17 07:21:38-431	-2	<BTAXSA>FSRV	3	Local client 2852 forces TableCheck
+2019-09-17 07:21:38-631	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 07:21:38-831	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 07:26:13-184	-2	<BTAXSA>EDT	3	Saving file:DistiltoDocks.tree
+2019-09-17 07:26:13-382	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 07:26:13-782	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[23]
+2019-09-17 07:26:13-982	-2	<BTAXSA>FSRV	3	Local client 300 forces TableCheck
+2019-09-17 07:26:13-982	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 07:26:14-381	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 07:27:48-559	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 07:27:48-759	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 07:28:01-529	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 07:39:43-279	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-17 07:39:51-858	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-17 07:42:15-921	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:42:15-921	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 07:42:16-319	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[24]
+2019-09-17 07:42:16-519	-2	<BTAXSA>FSRV	3	Local client 3672 forces TableCheck
+2019-09-17 07:42:16-519	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 07:42:16-918	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 07:44:29-806	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 07:44:29-806	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 07:44:30-206	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[25]
+2019-09-17 07:44:30-404	-2	<BTAXSA>FSRV	3	Local client 3040 forces TableCheck
+2019-09-17 07:44:30-605	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 07:44:30-805	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 07:44:36-391	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-17 07:45:09-713	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-17 07:51:09-266	-2	<BTAXSA>EDT	3	Saving file:MidP_Dist.tree
+2019-09-17 07:51:09-266	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 07:51:09-665	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[26]
+2019-09-17 07:51:09-865	-2	<BTAXSA>FSRV	3	Local client 3220 forces TableCheck
+2019-09-17 07:51:10-065	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 07:51:10-265	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 07:51:19-443	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-17 07:51:52-765	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-17 08:41:47-328	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 08:43:24-099	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 08:43:24-099	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 08:43:24-499	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[27]
+2019-09-17 08:43:24-698	-2	<BTAXSA>FSRV	3	Local client 4552 forces TableCheck
+2019-09-17 08:43:24-698	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 08:43:25-098	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 08:47:29-924	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 08:47:29-924	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 08:47:30-323	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[28]
+2019-09-17 08:47:30-523	-2	<BTAXSA>FSRV	3	Local client 3560 forces TableCheck
+2019-09-17 08:47:30-523	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 08:47:30-923	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 09:08:02-444	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 09:08:02-644	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:08:11-023	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 09:08:11-223	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:08:15-414	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 09:08:15-414	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:08:26-388	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 09:09:01-107	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 09:09:43-608	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-17 09:09:43-806	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:09:44-206	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[29]
+2019-09-17 09:09:44-405	-2	<BTAXSA>FSRV	3	Local client 4256 forces TableCheck
+2019-09-17 09:09:44-405	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 09:09:44-805	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 09:09:57-776	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 09:55:49-746	-2	<BTAXSA>EDT	3	Saving file:EastDock.tree
+2019-09-17 09:55:49-746	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:55:50-144	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[30]
+2019-09-17 09:55:50-344	-2	<BTAXSA>FSRV	3	Local client 5060 forces TableCheck
+2019-09-17 09:55:50-543	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 09:55:50-743	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 09:57:26-119	-2	<BTAXSA>EDT	3	Saving file:EastDock.tree
+2019-09-17 09:57:26-119	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-17 09:57:26-519	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[31]
+2019-09-17 09:57:26-519	-2	<BTAXSA>FSRV	3	Local client 5060 forces TableCheck
+2019-09-17 09:57:26-720	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-17 09:57:26-920	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-17 09:58:35-559	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 09:59:12-871	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 10:52:48-752	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 10:54:31-711	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 10:57:16-726	-2	<BTAXSA>AXPV	3	closed (display = PCN212LNJ1)[SRV]
+2019-09-17 10:57:48-052	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[SRV]
+2019-09-17 11:33:21-663	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 11:49:56-339	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-17 11:50:41-634	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-17 12:00:07-710	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 12:00:37-641	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 12:21:45-474	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 12:21:45-874	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 12:40:50-197	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 12:42:59-096	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 13:58:54-250	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-17 14:41:49-831	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-17 15:28:31-479	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 15:28:33-673	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 15:41:31-453	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-17 17:23:33-260	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-17 17:47:37-078	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-17 17:48:09-003	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-17 21:46:59-503	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 21:47:07-085	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 22:50:07-247	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 22:50:22-611	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-17 23:38:10-503	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-17 23:38:18-684	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 00:54:36-780	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 00:54:51-746	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 04:33:09-438	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 04:33:25-601	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 05:50:04-448	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-18 07:52:21-096	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 09:20:51-676	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-18 09:21:25-397	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-18 10:07:29-134	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 10:07:56-670	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 10:26:04-905	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-18 10:29:36-009	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-18 10:29:36-207	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-18 10:29:38-802	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[32]
+2019-09-18 10:29:39-002	-2	<BTAXSA>FSRV	3	Local client 3416 forces TableCheck
+2019-09-18 10:29:39-002	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-18 10:29:41-996	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-18 10:29:50-775	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-18 10:48:56-476	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-18 10:51:56-451	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-18 11:03:57-352	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-18 11:05:26-742	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-18 11:13:13-045	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 11:13:13-444	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 11:15:32-717	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.115)[SRV]
+2019-09-18 11:21:53-023	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-18 11:22:16-568	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-18 12:08:15-085	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 12:08:27-655	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 13:05:04-908	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 13:05:38-032	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 13:14:16-219	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 13:14:47-744	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 13:32:17-891	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-18 13:32:48-020	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-18 13:34:52-332	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 13:34:56-322	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 13:36:59-434	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.124)[SRV]
+2019-09-18 13:37:22-779	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-18 16:08:18-411	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-18 16:08:31-782	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-18 17:21:50-497	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-18 17:41:45-104	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.126)[SRV]
+2019-09-18 17:42:05-855	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-18 18:10:00-141	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 18:10:15-505	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-18 22:53:05-522	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-18 22:53:20-088	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 00:13:56-181	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 00:14:09-151	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 03:04:31-046	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 03:04:37-431	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 04:28:31-450	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-19 04:28:52-601	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-19 05:34:48-286	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 05:35:09-635	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 06:25:14-987	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-19 10:06:18-569	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-19 11:26:46-480	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 11:26:47-078	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 11:33:20-759	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-19 11:34:53-940	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-19 11:53:05-986	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-19 11:53:30-128	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-19 12:55:33-832	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 12:55:34-232	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 13:27:13-387	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-19 15:51:54-378	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-19 17:16:14-349	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-19 17:34:24-401	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 17:34:25-000	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 20:49:53-184	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-19 23:12:53-503	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-19 23:12:58-891	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-20 04:46:39-408	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-20 04:47:14-726	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-20 05:46:59-937	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-20 09:19:47-871	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-20 09:20:17-802	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-20 09:20:17-802	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-20 09:20:20-795	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[33]
+2019-09-20 09:20:20-993	-2	<BTAXSA>FSRV	3	Local client 4424 forces TableCheck
+2019-09-20 09:20:21-194	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-20 09:20:24-385	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-20 09:21:23-049	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-20 09:21:23-247	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-20 09:21:23-447	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[34]
+2019-09-20 09:21:23-447	-2	<BTAXSA>FSRV	3	Local client 4424 forces TableCheck
+2019-09-20 09:21:23-647	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-20 09:21:23-848	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-20 09:22:40-269	-2	<BTAXSA>EDT	3	Saving file:WestDock.tree
+2019-09-20 09:22:40-469	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-20 09:22:40-868	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[35]
+2019-09-20 09:22:40-868	-2	<BTAXSA>FSRV	3	Local client 4424 forces TableCheck
+2019-09-20 09:22:41-069	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-20 09:22:41-269	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-20 09:23:13-194	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-20 10:08:54-778	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-20 10:09:18-122	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-20 11:10:51-286	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-20 11:10:58-868	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-20 11:40:08-375	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:40:08-375	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:40:16-555	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:40:16-555	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:40:59-454	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:40:59-454	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:41:42-355	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:41:42-355	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:25-256	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:25-256	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:35-032	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:35-232	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:45-009	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 11:42:45-009	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 11:43:28-507	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-20 13:09:40-015	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-20 13:10:09-345	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-20 14:00:10-526	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-20 14:00:10-926	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-20 14:13:16-289	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-20 14:13:16-888	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-20 16:42:47-275	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-20 18:05:14-880	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-20 21:53:26-407	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-20 21:53:42-569	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-21 01:47:06-923	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-21 01:56:22-621	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-21 05:11:10-815	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-21 05:11:46-331	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-21 17:17:56-591	-2	<BTAXSA>AXPV	3	closed (display = PCN-RAIL)[SRV]
+2019-09-21 17:18:15-148	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-21 19:24:44-815	-2	<BTAXSA>AXPV	3	closed (display = PCN-WDOCK)[SRV]
+2019-09-21 19:24:45-016	-2	<BTAXSA>AXPV	3	started (display = PCN-WDOCK)[SRV]
+2019-09-21 19:24:48-806	-2	<BTAXSA>AXPV	3	closed (display = PCN-WDOCK)[SRV]
+2019-09-21 19:24:54-792	-2	<BTAXSA>AXPV	3	started (display = PCN-WDOCK)[SRV]
+2019-09-21 22:36:29-476	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-21 22:36:49-828	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-21 22:44:01-819	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-21 22:44:12-793	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-22 03:02:55-423	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-22 03:03:18-170	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-22 05:52:07-881	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.126)[SRV]
+2019-09-22 05:52:28-631	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-22 15:53:44-335	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-22 15:54:14-864	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-22 15:54:17-657	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-22 15:54:28-433	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-22 17:02:30-681	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-23 01:50:20-739	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-23 01:50:35-105	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-23 03:53:09-461	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-23 04:42:01-792	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-23 05:52:16-914	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-23 07:21:59-164	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-23 11:03:34-240	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-23 11:09:15-441	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-23 12:04:34-058	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-23 12:11:03-344	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-23 12:14:50-809	-2	<BTAXSA>EDT	3	Saving file:MidComm.tree
+2019-09-23 12:14:50-809	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-23 12:14:53-604	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[36]
+2019-09-23 12:14:53-802	-2	<BTAXSA>FSRV	3	Local client 1844 forces TableCheck
+2019-09-23 12:14:53-802	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-23 12:14:56-796	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-23 12:24:18-878	-2	<BTAXSA>EDT	3	Saving file:MidComm.tree
+2019-09-23 12:24:18-878	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-23 12:24:19-278	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[37]
+2019-09-23 12:24:19-278	-2	<BTAXSA>FSRV	3	Local client 1844 forces TableCheck
+2019-09-23 12:24:19-476	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-23 12:24:19-677	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-23 12:25:26-321	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-23 14:59:10-694	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-23 14:59:10-892	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-23 14:59:10-892	-2	<BTAXSA>AXSRV	3	Error: Can't start user process <axprocessviewer -x=0 -w=1280 -y=0 -h=985 -waitserver -display 10.26.36.126:0>
+2019-09-23 15:01:11-410	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-23 16:36:33-865	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-23 17:21:19-793	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-24 01:47:34-091	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 01:47:53-845	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 05:45:09-107	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-24 07:24:13-173	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 07:24:23-148	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 10:58:30-697	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-24 12:16:16-177	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 12:16:33-934	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 12:30:11-020	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 12:30:16-009	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 13:56:38-654	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 14:15:03-066	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 14:15:18-630	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 14:41:25-161	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 14:41:27-157	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 15:36:28-418	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-24 16:26:11-424	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 16:26:12-023	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-24 17:28:24-872	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-24 22:37:23-167	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-24 22:37:27-556	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-25 05:45:31-210	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-25 06:33:45-243	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-25 09:22:38-693	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-25 09:23:16-806	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-25 13:56:55-586	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-25 13:56:59-976	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-25 15:22:20-999	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-25 17:14:10-897	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-25 17:14:29-055	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-25 17:29:21-660	-2	<BTAXSA>AXPV	3	started (display = local)[SRV]
+2019-09-25 17:29:30-046	-2	<BTAXSA>AXPV	3	closed (display = local)[SRV]
+2019-09-25 17:29:34-635	-2	<BTAXSA>AXSRV	3	User <guest> logged in: access=0x0001
+2019-09-25 17:31:01-632	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-26 00:13:56-806	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-26 00:14:18-157	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-26 04:20:59-088	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-26 04:21:20-440	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-26 05:49:42-410	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-26 05:51:25-971	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 05:51:26-371	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[38]
+2019-09-26 05:51:26-572	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 05:51:26-572	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 05:51:29-565	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 05:51:31-361	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 05:53:17-914	-2	<BTAXSA>ARB	3	MAIN-->PREP_SB: preparing for vol. step back
+2019-09-26 05:53:18-512	-2	<BTAXSA>ARB	3	PREP_SB-->STANDBY: stepping back
+2019-09-26 05:53:18-512	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-512	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.115)[STBY]
+2019-09-26 05:53:18-512	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-512	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = PCN212LNJ1)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = AX-MID-PLANT)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = BTMIDPLANT)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = PCN-WDOCK)[STBY]
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-711	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[STBY]
+2019-09-26 05:53:18-911	-2	<BTAXSA>AXPV	3	AXViewer: Exit in case of RD - Change !
+2019-09-26 05:53:18-911	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[STBY]
+2019-09-26 05:53:19-111	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[STBY]
+2019-09-26 05:53:19-111	-2	<BTAXSA>RDSRV	3	Warning: RdServer lost connection to <BTAXSB>
+2019-09-26 05:53:19-111	-2	<BTAXSA>AXPV	3	started (display = AX-MID-PLANT)[STBY]
+2019-09-26 05:53:19-309	-2	<BTAXSA>AXPV	3	started (display = PCN212LNJ1)[STBY]
+2019-09-26 05:53:19-322	-2	<BTAXSA>AXPV	3	started (display = BTMIDPLANT)[STBY]
+2019-09-26 05:53:21-915	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[STBY]
+2019-09-26 05:53:22-117	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[STBY]
+2019-09-26 05:53:34-288	-2	<BTAXSA>RDSRV	3	RdServer: connection to <BTAXSB> established
+2019-09-26 05:53:43-068	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.115)[STBY]
+2019-09-26 05:53:43-266	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[STBY]
+2019-09-26 05:53:43-266	-2	<BTAXSA>AXPV	3	started (display = PCN-WDOCK)[STBY]
+2019-09-26 05:53:48-654	-2	<BTAXSA>ARB	3	WAIT-->STANDBY: TCP & MIO connection ok.
+2019-09-26 05:54:08-009	-2	<BTAXSA>FSRV	3	TABLE_CHECK_START
+2019-09-26 05:54:08-408	-2	<BTAXSA>FSRV	3	TABLE_CHECK_END got
+2019-09-26 05:54:08-608	-2	<BTAXSA>ARB	3	CLIENT --> CLIENT_WARMSTART: DESENSITIZED !!
+2019-09-26 05:54:08-792	-2	<BTAXSA>MSRV	3	Request for Restart-Instruction received from <BTAXSB>
+2019-09-26 05:54:09-621	-2	<BTAXSA>ARB	3	CLIENT_WARMSTART --> CLIENT: Warmstart OK
+2019-09-26 05:54:09-621	-2	<BTAXSA>SPS	3	Peak in SPS detected time=[1.01 sec]
+2019-09-26 05:54:48-141	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[STBY]
+2019-09-26 05:54:50-736	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 05:54:51-134	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[39]
+2019-09-26 05:59:42-854	-2	<BTAXSA>ARB	3	STANDBY-->PREP_TO: preparing for taking over
+2019-09-26 05:59:43-451	-2	<BTAXSA>ARB	3	PREP_TO-->MAIN: taking over
+2019-09-26 05:59:44-450	-2	<BTAXSA>AXSRV	3	User Processes [rdserver] restart
+2019-09-26 05:59:44-650	-2	<BTAXSA>RDSRV	3	RdServer: connection to <BTAXSB> established
+2019-09-26 06:01:23-035	-2	<BTAXSA>EDT	3	Saving file:OPCTagConversion.tree
+2019-09-26 06:01:23-233	-2	<BTAXSA>EDT	3	SPS_TestProject
+2019-09-26 06:01:32-815	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 06:01:33-213	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[40]
+2019-09-26 06:01:33-213	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 06:01:33-413	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:01:33-614	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:01:35-411	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 06:05:05-953	-2	<BTAXSA>EDT	3	Saving file:CommTagExp.tree
+2019-09-26 06:05:06-153	-2	<BTAXSA>EDT	3	SPS_TestProject
+2019-09-26 06:05:15-532	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 06:05:15-931	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[41]
+2019-09-26 06:05:15-931	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 06:05:16-131	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:05:16-332	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:05:17-928	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 06:06:26-983	-2	<BTAXSA>EDT	3	Saving file:CommTagExp2.tree
+2019-09-26 06:06:27-183	-2	<BTAXSA>EDT	3	SPS_TestProject
+2019-09-26 06:07:40-625	-2	<BTAXSA>EDT	3	Saving file:DockComm.tree
+2019-09-26 06:07:40-625	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 06:07:41-026	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[42]
+2019-09-26 06:07:41-226	-2	<BTAXSA>FSRV	3	Local client 784 forces TableCheck
+2019-09-26 06:07:41-427	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:07:41-627	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:08:40-096	-2	<BTAXSA>EDT	3	Saving file:CommTagExp2.tree
+2019-09-26 06:08:40-296	-2	<BTAXSA>EDT	3	SPS_TestProject
+2019-09-26 06:09:29-596	-2	<BTAXSA>EDT	3	Saving file:LicensePoints.tree
+2019-09-26 06:09:29-596	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 06:09:29-996	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[43]
+2019-09-26 06:09:30-395	-2	<BTAXSA>FSRV	3	Local client 5032 forces TableCheck
+2019-09-26 06:09:30-395	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:09:30-795	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:10:07-315	-2	<BTAXSA>EDT	3	Saving file:DockComm.tree
+2019-09-26 06:10:07-315	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 06:10:07-714	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[44]
+2019-09-26 06:10:07-914	-2	<BTAXSA>FSRV	3	Local client 176 forces TableCheck
+2019-09-26 06:10:08-115	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:10:08-315	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:10:22-289	-2	<BTAXSA>EDT	3	Saving file:CommTagExp2.tree
+2019-09-26 06:10:22-490	-2	<BTAXSA>EDT	3	SPS_TestProject
+2019-09-26 06:11:19-763	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 06:11:20-163	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[45]
+2019-09-26 06:11:20-163	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 06:11:20-364	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:11:20-563	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:11:21-960	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 06:14:08-217	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 06:14:08-417	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[46]
+2019-09-26 06:14:08-417	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 06:14:08-615	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:14:08-816	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:14:11-611	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 06:31:46-341	-2	<BTAXSA>EDT	3	Saving file:OPCTagConversion.tree
+2019-09-26 06:31:46-341	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 06:31:49-933	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[47]
+2019-09-26 06:31:50-131	-2	<BTAXSA>FSRV	3	Local client 2328 forces TableCheck
+2019-09-26 06:31:50-332	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 06:31:52-529	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 06:47:24-098	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.126)[SRV]
+2019-09-26 07:02:48-492	-2	<BTAXSA>EDT	3	Saving file:OPCTagConversion.tree
+2019-09-26 07:02:48-492	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 07:02:52-483	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[48]
+2019-09-26 07:02:52-683	-2	<BTAXSA>FSRV	3	Local client 2448 forces TableCheck
+2019-09-26 07:02:52-882	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 07:02:55-880	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 07:04:07-325	-2	<BTAXSA>EDT	3	Saving file:OPCTagConversion.tree
+2019-09-26 07:04:07-325	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 07:04:07-923	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[49]
+2019-09-26 07:04:07-923	-2	<BTAXSA>FSRV	3	Local client 2448 forces TableCheck
+2019-09-26 07:04:08-124	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 07:04:08-523	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 07:07:06-344	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 07:07:06-743	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[50]
+2019-09-26 07:07:06-743	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 07:07:06-743	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 07:07:07-144	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 07:07:08-540	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 08:09:14-897	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-26 08:10:30-732	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 08:10:30-930	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[51]
+2019-09-26 08:10:30-930	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 08:10:31-131	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 08:10:31-331	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 08:10:32-727	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 08:11:43-167	-2	<BTAXSA>AXPV	3	restart (display = 10.26.37.168)[SRV]
+2019-09-26 08:17:55-918	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[SRV]
+2019-09-26 08:26:40-131	-2	<BTAXSA>PLS	3	SPS_Warmstart
+2019-09-26 08:26:40-530	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[52]
+2019-09-26 08:26:40-530	-2	<BTAXSA>FSRV	3	Local client 572 forces TableCheck
+2019-09-26 08:26:40-730	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 08:26:40-931	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 08:26:42-328	-2	<BTAXSA>MSRV	3	Confirmation for Restart-Instruction received from <BTAXSB>
+2019-09-26 08:26:52-506	-2	<BTAXSA>ARB	3	MAIN-->PREP_SB: preparing for vol. step back
+2019-09-26 08:26:53-105	-2	<BTAXSA>ARB	3	PREP_SB-->STANDBY: stepping back
+2019-09-26 08:26:53-903	-2	<BTAXSA>RDSRV	3	Warning: RdServer lost connection to <BTAXSB>
+2019-09-26 08:27:04-078	-2	<BTAXSA>RDSRV	3	RdServer: connection to <BTAXSB> established
+2019-09-26 08:27:23-237	-2	<BTAXSA>ARB	3	WAIT-->STANDBY: TCP & MIO connection ok.
+2019-09-26 08:38:00-982	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[STBY]
+2019-09-26 08:48:50-102	-2	<BTAXSA>ARB	3	STANDBY-->PREP_TO: preparing for taking over
+2019-09-26 08:48:50-700	-2	<BTAXSA>ARB	3	PREP_TO-->MAIN: taking over
+2019-09-26 08:48:56-490	-2	<BTAXSA>AXSRV	3	User Processes [rdserver] restart
+2019-09-26 08:48:56-888	-2	<BTAXSA>RDSRV	3	RdServer: connection to <BTAXSB> established
+2019-09-26 08:57:01-233	-2	<BTAXSA>AXPV	3	restart (display = BTMIDPLANT)[SRV]
+2019-09-26 08:57:04-828	-2	<BTAXSA>AXPV	3	started (display = BTMIDPLANT)[SRV]
+2019-09-26 08:58:38-838	-2	<BTAXSA>AXPV	3	restart (display = PCN-WDOCK)[SRV]
+2019-09-26 08:58:51-430	-2	<BTAXSA>AXPV	3	started (display = PCN-WDOCK)[SRV]
+2019-09-26 09:00:13-289	-2	<BTAXSA>AXPV	3	restart (display = 10.26.36.124)[SRV]
+2019-09-26 09:00:15-283	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-26 09:07:46-921	-2	<BTAXSA>AXPV	3	restart (display = 10.26.36.115)[SRV]
+2019-09-26 09:07:47-519	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.115)[SRV]
+2019-09-26 09:08:35-020	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-26 09:12:25-911	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.169)[SRV]
+2019-09-26 09:12:40-877	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.169)[SRV]
+2019-09-26 09:12:54-854	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.169)[SRV]
+2019-09-26 10:34:56-736	-2	<BTAXSA>EDT	3	Saving file:LowComm.tree
+2019-09-26 10:34:56-936	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-26 10:34:58-332	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[53]
+2019-09-26 10:34:58-532	-2	<BTAXSA>FSRV	3	Local client 3888 forces TableCheck
+2019-09-26 10:34:58-733	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-26 10:34:58-933	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-26 10:41:17-997	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-26 10:43:31-301	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.169)[SRV]
+2019-09-26 10:43:47-135	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.169)[SRV]
+2019-09-26 12:36:30-273	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-26 12:45:11-630	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-26 12:58:23-395	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-26 12:58:24-598	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-26 12:59:04-891	-2	<BTAXSA>AXPV	3	terminated (display = PCN-EDOCK)[SRV]
+2019-09-26 12:59:20-528	-2	<BTAXSA>AXPV	3	started (display = PCN-EDOCK)[SRV]
+2019-09-26 15:57:51-772	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-26 17:13:43-967	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-26 17:13:43-967	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-26 17:13:51-184	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-26 20:07:51-765	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-26 20:08:01-788	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-27 00:08:03-940	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-27 00:17:38-605	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-27 01:00:13-117	-2	<BTAXSA>AXPV	3	closed (display = 10.26.36.126)[SRV]
+2019-09-27 01:00:26-746	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-27 04:53:30-295	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-27 04:53:51-540	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-27 05:55:55-500	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-27 07:55:57-242	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-27 07:56:23-096	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-27 10:40:59-131	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-27 10:41:22-579	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-27 11:14:52-589	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-27 11:35:43-664	-2	<BTAXSA>EDT	3	Saving file:LeakComm.tree
+2019-09-27 11:35:43-664	-2	<BTAXSA>EDT	3	SPS_Warmstart
+2019-09-27 11:35:45-859	-2	<BTAXSA>SPS	3	SPS warmstart made spsid=[54]
+2019-09-27 11:35:46-259	-2	<BTAXSA>FSRV	3	Local client 3100 forces TableCheck
+2019-09-27 11:35:46-259	-2	<BTAXSA>FSRV	3	fsv_table_check_start
+2019-09-27 11:35:49-265	-2	<BTAXSA>FSRV	3	fsv_table_check_end
+2019-09-27 12:11:28-052	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-27 12:11:59-924	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-27 14:49:20-394	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-27 14:49:20-796	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-27 15:54:28-178	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-27 16:37:41-073	-2	<BTAXSA>AXPV	3	closed (display = USER-PC)[SRV]
+2019-09-27 16:37:41-273	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-27 16:37:48-890	-2	<BTAXSA>AXPV	3	terminated (display = USER-PC)[SRV]
+2019-09-27 17:37:49-137	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-27 23:21:00-480	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-27 23:21:10-904	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-27 23:58:46-875	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-27 23:59:18-346	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-28 00:04:59-516	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-28 05:49:45-286	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-28 05:50:27-779	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-28 07:50:42-694	-2	<BTAXSA>AXPV	3	started (display = 10.26.38.97)[SRV]
+2019-09-28 08:50:42-733	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-28 08:51:06-391	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-28 10:47:39-127	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-28 10:53:04-651	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-28 10:53:18-085	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-28 11:51:28-111	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-28 11:52:30-648	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-28 12:09:42-951	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-28 12:09:44-555	-2	<BTAXSA>PLS	3	X-IO Error (display = 10.26.36.124:0.0)[SRV]
+2019-09-28 12:10:15-418	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-28 12:44:32-026	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.38.97)[SRV]
+2019-09-28 12:54:08-740	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-28 12:54:25-780	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-28 16:34:27-782	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-28 16:35:11-884	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.126)[SRV]
+2019-09-28 21:31:04-397	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-28 23:05:49-167	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-28 23:05:51-973	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-29 00:16:05-891	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-29 00:16:45-181	-2	<BTAXSA>AXPV	3	started (display = 10.26.36.124)[SRV]
+2019-09-29 00:37:41-877	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.124)[SRV]
+2019-09-29 08:07:48-986	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.169)[SRV]
+2019-09-29 09:48:22-914	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-29 09:48:29-529	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-29 10:15:09-575	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.115)[SRV]
+2019-09-29 10:15:13-184	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.36.126)[SRV]
+2019-09-30 05:50:31-150	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-30 05:50:47-586	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-30 06:01:08-414	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-30 06:43:01-305	-2	<BTAXSA>AXPV	3	closed (display = 10.26.37.168)[SRV]
+2019-09-30 06:43:19-147	-2	<BTAXSA>AXPV	3	started (display = 10.26.37.168)[SRV]
+2019-09-30 12:10:40-122	-2	<BTAXSA>AXPV	3	started (display = USER-PC)[SRV]
+2019-09-30 12:11:11-996	-2	<BTAXSA>AXSRV	3	User <admin> logged in: access=0xFFFFFFFF
+2019-09-30 12:17:10-835	-2	<BTAXSA>AXPV	3	closed (display = USER-PC)[SRV]
+2019-09-30 12:49:44-134	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-30 12:49:55-161	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-30 17:14:32-289	-2	<BTAXSA>AXPV	3	terminated (display = 10.26.37.168)[SRV]
+2019-09-30 21:22:47-461	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-30 21:23:06-105	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-30 21:36:14-144	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-30 21:38:16-832	-2	<BTAXSA>AXPV	3	terminated (display = PCN-RAIL)[SRV]
+2019-09-30 21:38:23-848	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]
+2019-09-30 22:20:49-903	-2	<BTAXSA>AXPV	3	started (display = PCN-RAIL)[SRV]

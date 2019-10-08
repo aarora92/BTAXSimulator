@@ -1,0 +1,45 @@
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+Project.Label: Name	Name
+Project.Label: Remark	Remark
+Project.Label: Exec Intervall	Exec Intervall
+Project.Label: Exec Offset	Exec Offset
+Project.Label: Time (ms)	Time (ms)
+Project.Label: Peak (ms)	Peak (ms)
+Project.Label: Modified	Modified
+Project.Label: Lic -Points	Lic.-Points
+GlobalData.Ftt.Label: No	No
+GlobalData.Ftt.Label: Name	Name
+GlobalData.Ftt.Label: Type	Type
+GlobalData.Ftt.Label: Cnt	Cnt
+GlobalData.Ftt.Label: Remark	Remark
+GlobalData.Ftt.Label: Data	Data
+GlobalData.Ftt.Label: Rem	Rem
+Journal.Button.Label: Nr	Nr
+Journal.Button.Label: Prio	Prio
+Journal.Button.Label: Date-Time	Date-Time
+Journal.Button.Label: Position	Position
+Journal.Button.Label: Set to:	Set to:
+Journal.Button.Label: Message	Message
+Journal.Button.Label: User	User
+Journal.Button.Label: Host	Host
+CoolbConf.Label: Function	Function
+CoolbConf.Label: Value	Value
+CoolbConf.Label: A1	A1
+CoolbConf.Label: A2	A2
+CoolbConf.Label: A3	A3
+CoolbConf.Label: A4	A4
+CoolbConf.Label: A5	A5
+CoolbConf.Label: A6	A6
+CoolbConf.Label: A7	A7
+CoolbConf.Label: A8	A8
+CoolbConf.Label: A9	A9
+CoolbConf.Label: A10	A10
+CoolbConf.Label: A11	A11
+CoolbConf.Label: A12	A12
+CoolbConf.Label: A13	A13
+CoolbConf.Label: A14	A14
+CoolbConf.Label: A15	A15

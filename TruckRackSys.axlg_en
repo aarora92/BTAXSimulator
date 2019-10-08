@@ -1,0 +1,32 @@
+MixerNote [Text Normal]	Min. 10 ft\for mixer
+MixerNote [Text Activ]	Text
+TruckRackText2 [Text Normal]	6" SUL
+TruckRackText2 [Text Activ]	Text
+V3060_NO [Text Normal]	NO
+V3060_NO [Text Activ]	Text
+HV3036_NC [Text Normal]	NC
+HV3036_NC [Text Activ]	Text
+TruckRackText1 [Text Normal]	6"
+TruckRackText1 [Text Activ]	Text
+TruckRackText3 [Text Normal]	10" RUL
+TruckRackText3 [Text Activ]	Text
+V3050_NO [Text Normal]	NO
+V3050_NO [Text Activ]	Text
+HV3005_NO [Text Normal]	NO
+HV3005_NO [Text Activ]	Text
+TruckRackText4 [Text Normal]	10"
+TruckRackText4 [Text Activ]	Text
+TruckRackText5 [Text Normal]	12"
+TruckRackText5 [Text Activ]	Text
+V3131_NO [Text Normal]	NO
+V3131_NO [Text Activ]	Text
+TruckRackText6 [Text Normal]	12" Export\ RUL
+TruckRackText6 [Text Activ]	Text
+V3133_NC [Text Normal]	NC
+V3133_NC [Text Activ]	Text
+V3126_NC [Text Normal]	LC
+V3126_NC [Text Activ]	Text
+TK3156F [Text Normal]	3156
+TK3156F [Text Activ]	Text
+TK3157F [Text Normal]	3157
+TK3157F [Text Activ]	Text

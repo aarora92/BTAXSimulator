@@ -1,0 +1,112 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.7 [de] (WinNT; I) [Netscape]">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Microsoft Office\Office\html.dot">
+   <meta name="Author" content="rk">
+   <title>Siemens implementierung cpu315_2dp</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="773" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>Siemens
+CPU_414 als DP Slave</font></font></font></b></td>
+</tr>
+</table>
+
+<p><font face="Arial">&nbsp;<a href="#Installation">lnstallation
+</a>|
+<a href="#Configuration">Konfiguration</a>
+| <a href="#s7_programm">IS7-Programm</a></font>
+<p><font face="Arial,Helvetica">Diese Dokumentation wurde auf Basis Step7
+Version 5.01 erstellt. In anderen Softwarest&auml;nden</font>
+<br><font face="Arial,Helvetica">kann es zu leichten Abweichungen in der
+Darstellung der Dialoge kommen. Die jeweiligen</font>
+<br><font face="Arial,Helvetica">Abschnitte sind aber auch hier vorhanden.</font>
+<p><a NAME="Installation"></a>
+<br><b><font face="Arial,Helvetica"><font color="#3333FF">Installation</font></font></b>
+<p><font face="Arial,Helvetica">Die CP CPU315-2 wird unter Simatic-Step7
+auf eine Profilschiene ab Steckplatz 2 eingesetzt.</font>
+<br><font face="Arial,Helvetica">Dazu w&auml;hlt man die vorhandenen CPU
+aus dem Katalog aus (!! Bestellnummer und Version beachten !! ).</font>
+<p><img SRC="hardware_config.gif" height=191 width=207>
+<p><font face="Arial">&nbsp;<a href="#Installation">lnstallation
+</a>|
+<a href="#Configuration">Konfiguration</a>
+| <a href="#s7_programm">IS7-Programm</a></font>
+<p><a NAME="Configuration"></a>
+<br><b><font face="Arial,Helvetica"><font color="#3333FF">Konfiguration</font></font></b>
+<p><font face="Arial,Helvetica">Durch einen Doppelklick auf den Eintrag
+"DP-Slave" der Profilschiene wird das</font>
+<br><font face="Arial,Helvetica">Eigenschaften-Men&uuml; ge&ouml;ffnet.
+Hier wird die CPU benannt und seine Eigenschaften festgelegt.</font>
+<p><b><font face="Arial,Helvetica">Allgemein:</font></b>
+<br><font face="Arial,Helvetica">Im Dialog Allgemein wird ein beliebiger
+Name und eventuell noch ein Kommentar vergeben.</font>
+<br><u><font face="Arial,Helvetica">Der Abschnitt Allgemein hat f&uuml;r
+die AX-Kommunikation keinerlei Bedeutung.</font></u>
+<p><img SRC="dp_conf_allgemein.gif" height=434 width=527>
+<p><font face="Arial,Helvetica">Im Abschnitt <b><font color="#CC6600">Schnittstelle</font></b>
+ruft man den zugeh&ouml;rigen Eigenschaftsdialog auf.</font>
+<p><font face="Arial,Helvetica">Eigenschaften Schnittstelle:</font>
+<p><font face="Arial,Helvetica">Hier wird die Profibusadresse eingestellt.</font>
+<br><font face="Arial,Helvetica"><b><font color="#FF0000">!! Wichtig !!:</font></b>
+Diese Einstellung muss mit der Einstellung unter AutomationX &uuml;bereinstimmen.</font>
+<p><img SRC="dp_conf_allgemein_einst.gif" height=383 width=515>
+<p><font face="Arial,Helvetica"><b>Adressen</b>:</font>
+<br><font face="Arial,Helvetica">Die Adressen werden von Step7 eingestellt
+und m&uuml;ssen nicht ge&auml;ndert werden</font>
+<p><img SRC="dp_conf_adressen.gif" height=434 width=527>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Betriebsart</font></b>:
+<br><font face="Arial,Helvetica">Hier muss DP-Slave eingestellt werden.
+Die Baugruppe ist kein aktiver Teilnehmer</font>
+<br><font face="Arial,Helvetica">am Profibus Subnetz.</font>
+<p><img SRC="dp_conf_betriebsart.gif" height=434 width=527>
+<br>&nbsp;
+<p><b><font face="Arial,Helvetica">Konfiguration:</font></b>
+<br><font face="Arial,Helvetica">Im Dialog Konfiguration werden die Eingangs
+- Ausgangsdaten eingestellt.</font>
+<br><font face="Arial,Helvetica">In diesem Beispiel, Master Slave Mode,
+16 Byte Eingang, 16 Byte Ausgang , Konsistenz &uuml;ber die Gesamte L&auml;nge.</font>
+<br><font face="Arial,Helvetica">Ge&auml;ndert werden die Parameter im
+N&auml;chsten Dialog ( wird durch doppelklick auf die gew&uuml;nschte Zeile
+ge&ouml;ffnet)</font>
+<p><img SRC="dp_conf_konfiguration.gif" height=434 width=527>
+<p><b><font face="Arial,Helvetica"><font color="#FF0000">Wenn die Input
+und Output Daten mit dem im automationX projektierten Input und Output
+Modulen&nbsp; &uuml;bereinstimmen, sollte ein zyklischer Betrieb m&ouml;glich
+sein.</font></font></b>
+<br><b><font face="Arial,Helvetica"><font color="#FF0000">Um auch Daten
+zu Senden und zu Empfangen, muss im S7 Prj noch bestimmte read, write,
+FC`s verwendet werden. (siehe S7-Programm)</font></font></b>
+<p><font face="Arial,Helvetica">Einstellungen der Eingangs bzw. Ausgangsdaten</font>
+<br><img SRC="dp_conf_konfiguration_dp.gif" height=513 width=492>
+<p><font face="Arial">&nbsp;<a href="#Installation">lnstallation
+</a>|
+<a href="#Configuration">Konfiguration</a>
+| <a href="#s7_programm">IS7-Programm</a></font>
+<p><a NAME="s7_programm"></a>
+<br><b><font face="Arial,Helvetica">S7-Programm</font></b>
+<p><font face="Arial,Helvetica">Das S7-Programm muss so erstellt werden,
+dass die Kommunikations-FC's mindestens</font>
+<br><font face="Arial,Helvetica">einmal pro Zyklus aufgerufen werden. (z.B.
+Aufruf der Kommunikations-FC's im OB1)</font>
+<p><img SRC="bausteine_uebers.gif" height=212 width=609>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">Organisationsbaustein OB82 und OB86:</font>
+<br><font face="Arial,Helvetica">werden verwendet, damit bei Kommunikationsausfall
+(CPU - AX) die CPU nicht auf Stop geht</font>
+<p><b><font face="Arial,Helvetica"><font color="#FF0000">!!Wichtig !!:</font></font></b>
+<br><b><font face="Arial,Helvetica">Die Datenl&auml;nge muss mit der Datenl&auml;nge
+die im PLS projektiert wurde &uuml;bereinstimmen.</font></b>
+<p><font face="Arial">&nbsp;<a href="#Installation">lnstallation
+</a>|
+<a href="#Configuration">Konfiguration</a>
+| <a href="#s7_programm">IS7-Programm</a></font>
+</body>
+</html>

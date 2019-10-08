@@ -1,0 +1,64 @@
+parameter [Text Normal]	parameter
+parameter [Text Activ]	use maintenance options
+Modi [Text Normal]	modes
+Modi [Text Activ]	use maintenance options
+Simulation [Text Normal]	simulation
+Simulation [Text Activ]	Button
+Verriegelung_umgehen [Text Normal]	avoid interlock
+Verriegelung_umgehen [Text Activ]	Button
+Laeuft_langsam_Emulation [Text Normal]	run emulation slow
+Laeuft_langsam_Emulation [Text Activ]	Button
+Bereit_Emulation [Text Normal]	ready emulation
+Bereit_Emulation [Text Activ]	Button
+MCC_keine_Stoerung_Emulation [Text Normal]	MCC no error emulation
+MCC_keine_Stoerung_Emulation [Text Activ]	Button
+Emulation [Text Normal]	emulation
+Emulation [Text Activ]	use maintenance options
+Max_laeft_Rueckmeldung_langsam [Text Normal]	max. run-feedbacktime slow:
+Max_laeft_Rueckmeldung_langsam [Text Activ]	Text
+Max_laeft_Rueckmeldung_schnell [Text Normal]	max. run-feedbacktime fast:
+Max_laeft_Rueckmeldung_schnell [Text Activ]	Text
+Stopzeit [Text Normal]	deceleration time:
+Stopzeit [Text Activ]	Text
+Umschaltdauer [Text Normal]	switching time:
+Umschaltdauer [Text Activ]	Text
+Laeuft_schnell_Emulation [Text Normal]	run emulation fast
+Laeuft_schnell_Emulation [Text Activ]	Button
+Laeuft_Verzoegerung_langsam [Text Normal]	run deceleration slow:
+Laeuft_Verzoegerung_langsam [Text Activ]	Text
+Laeuft_Verzoegerung_schnell [Text Normal]	run deceleration schnell:
+Laeuft_Verzoegerung_schnell [Text Activ]	Text
+Stoerung_mit_MCC [Text Normal]	error MCC
+Stoerung_mit_MCC [Text Activ]	error MCC
+Gesperrt_mit_FU [Text Normal]	lock FU
+Gesperrt_mit_FU [Text Activ]	lock FU
+Auto_Ein_mit_FU [Text Normal]	auto on FU
+Auto_Ein_mit_FU [Text Activ]	auto on FU
+MCC [Text Normal]	MCC
+MCC [Text Activ]	MCC
+FU [Text Normal]	FU
+FU [Text Activ]	FU
+Gesperrt_mit_MCC [Text Normal]	lock MCC
+Gesperrt_mit_MCC [Text Activ]	lock MCC
+Stoerung_mit_FU [Text Normal]	error FU
+Stoerung_mit_FU [Text Activ]	error slow
+Auto_Ein_mit_MCC [Text Normal]	auto on MCC
+Auto_Ein_mit_MCC [Text Activ]	auto on MCC
+Hand [Text Normal]	man
+Hand [Text Activ]	man
+Auto [Text Normal]	auto
+Auto [Text Activ]	auto
+Aus [Text Normal]	off
+Aus [Text Activ]	off
+Quittieren [Text Normal]	acknowledge
+Quittieren [Text Activ]	acknowledge
+Ein [Text Normal]	on
+Ein [Text Activ]	on
+Bereit [Text Normal]	ready
+Bereit [Text Activ]	ready
+Laeuft_mit_FU [Text Normal]	run FU
+Laeuft_mit_FU [Text Activ]	run FU
+Laeuft_mit_MCC [Text Normal]	run MCC
+Laeuft_mit_MCC [Text Activ]	run MCC
+Stoerung_MCC [Text Normal]	error MCC
+Stoerung_MCC [Text Activ]	error MCC

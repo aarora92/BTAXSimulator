@@ -1,0 +1,5 @@
+Language:	German = 0,
+		English = 1,
+		French = 2,
+		Spanish = 3,
+		Italian = 4;

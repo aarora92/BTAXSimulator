@@ -1,0 +1,1 @@
+classlib/communication/profibus/siemens/simatic_s7/s7_300/digitaldevices/sm323/sm323_di8_do8

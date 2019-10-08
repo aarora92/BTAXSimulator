@@ -1,0 +1,60 @@
+TakeoverTimeout1 [Text Normal]	Тайм-аут захвата
+TakeoverTimeout1 [Text Activ]	Текст
+Redundancy [Text Normal]	 Избыточность
+Redundancy [Text Activ]	Текст
+send [Text Normal]	отпр.
+send [Text Activ]	Текст
+recv [Text Normal]	прин.
+recv [Text Activ]	Текст
+RemoteRDData [Text Normal]	Данные RD
+RemoteRDData [Text Activ]	Данные RD
+RemoteSoftPLC [Text Normal]	Прогр. PLC
+RemoteSoftPLC [Text Activ]	Прогр. PLC
+RedCard [Text Normal]	 Резервный комп. 
+RedCard [Text Activ]	Текст
+ResRedCard [Text Normal]	Сброс красной карты
+ResRedCard [Text Activ]	Сброс красной карты
+TakeCtrl [Text Normal]	Взять контр.
+TakeCtrl [Text Activ]	Взять контр.
+StepBack [Text Normal]	Шаг назад
+StepBack [Text Activ]	Шаг назад
+Settings [Text Normal]	 Настройки 
+Settings [Text Activ]	Текст
+ReceiveDelay [Text Normal]	Задержка получения
+ReceiveDelay [Text Activ]	Текст
+Peak [Text Normal]	Опр. пика
+Peak [Text Activ]	Текст
+ResetPeak [Text Normal]	Сброс пика
+ResetPeak [Text Activ]	Сброс пика
+TakeoverTimeout2 [Text Normal]	Тайм-аут \захвата
+TakeoverTimeout2 [Text Activ]	Текст
+ConnectionOK [Text Normal]	Подключ. – OK
+ConnectionOK [Text Activ]	TCP
+Exit [Text Normal]	Выход
+Exit [Text Activ]	Текст
+SoftPLCTimeout [Text Normal]	Тайм-аут \прогр. PLC
+SoftPLCTimeout [Text Activ]	Текст
+RDConnectionTimeout [Text Normal]	Тайм-аут \подключ. RD
+RDConnectionTimeout [Text Activ]	Текст
+Sensitive [Text Normal]	Sensitive
+Sensitive [Text Activ]	De Sensitive
+Reset [Text Normal]	Сброс
+Reset [Text Activ]	Сброс
+trend [Text Normal]	Тренд
+trend [Text Activ]	Тренд
+Help [Text Normal]	Справка
+Help [Text Activ]	Справка
+LocalConfigured [Text Normal]	Сконфигурирован:
+LocalConfigured [Text Activ]	Текст
+RemoteConfigured [Text Normal]	Сконфигурирован:
+RemoteConfigured [Text Activ]	Текст
+RedundancyConfig [Text Normal]	Конфигурация избыточности – OK
+RedundancyConfig [Text Activ]	Неверная конфигурация избыточности
+LockRedAlarms [Text Normal]	Блок. сигналы избыточности
+LockRedAlarms [Text Activ]	Блок. сигналы избыточности
+Version [Text Normal]	Версия – OK
+Version [Text Activ]	Неверная версия
+LockPLC_Inst_Alarms [Text Normal]	Блок. сигналы установки PLC
+LockPLC_Inst_Alarms [Text Activ]	Блок. сигналы избыточности
+Standalone [Text Normal]	Запущен как автономный сервер\(избыточность неактивна)
+Standalone [Text Activ]	Запущен как автономный сервер\(избыточность неактивна)

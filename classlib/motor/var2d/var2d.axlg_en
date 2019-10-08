@@ -1,0 +1,80 @@
+local [Text Normal]	local ready
+local [Text Activ]	local not ready
+Parameter [Text Normal]	Parameter
+Parameter [Text Activ]	Wartungsoptionen verwenden
+mode [Text Normal]	Modes
+mode [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_lock [Text Normal]	no interlock
+no_lock [Text Activ]	Button
+run_fwd_emulation [Text Normal]	run fwd emulation
+run_fwd_emulation [Text Activ]	Button
+ready_emulation [Text Normal]	ready emulation
+ready_emulation [Text Activ]	Button
+error_mcc_emulation [Text Normal]	local switch emulation
+error_mcc_emulation [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_run_feedb [Text Normal]	max feedback time:
+max_run_feedb [Text Activ]	Text
+delaytime [Text Normal]	delay time:
+delaytime [Text Activ]	Text
+text1 [Text Normal]	speed intern/extern
+text1 [Text Activ]	Text
+text2 [Text Normal]	extern
+text2 [Text Activ]	Text
+text3 [Text Normal]	intern
+text3 [Text Activ]	Text
+text4 [Text Normal]	actual
+text4 [Text Activ]	Text
+run_fwd [Text Normal]	run
+run_fwd [Text Activ]	run
+error_rev [Text Normal]	fault
+error_rev [Text Activ]	fault
+lock_fwd [Text Normal]	lock
+lock_fwd [Text Activ]	fault
+auto_rev [Text Normal]	auto
+auto_rev [Text Activ]	auto
+man [Text Normal]	manual
+man [Text Activ]	manual
+auto [Text Normal]	auto
+auto [Text Activ]	auto
+man_off [Text Normal]	off
+man_off [Text Activ]	off
+ack [Text Normal]	acknowledge
+ack [Text Activ]	acknowledge
+man_on [Text Normal]	on
+man_on [Text Activ]	on
+ready [Text Normal]	ready
+ready [Text Activ]	not ready
+text_intern_button [Text Normal]	intern
+text_intern_button [Text Activ]	intern
+text_extern_button [Text Normal]	extern
+text_extern_button [Text Activ]	extern
+lock_setpt [Text Normal]	lock setpoint
+lock_setpt [Text Activ]	Button
+man_rev [Text Normal]	direction2
+man_rev [Text Activ]	direction2
+man_fwd [Text Normal]	direction1
+man_fwd [Text Activ]	direction1
+auto_fwd [Text Normal]	auto
+auto_fwd [Text Activ]	auto
+lock_rev [Text Normal]	lock
+lock_rev [Text Activ]	lock
+error_fwd [Text Normal]	fault
+error_fwd [Text Activ]	fault
+run_rev [Text Normal]	run
+run_rev [Text Activ]	run
+run_rev_emulation [Text Normal]	run rev emulation
+run_rev_emulation [Text Activ]	Button
+ch_dir_delay [Text Normal]	delaytime forward/revers:
+ch_dir_delay [Text Activ]	Text
+current [Text Normal]	current
+current [Text Activ]	Text
+torque [Text Normal]	torque
+torque [Text Activ]	Text
+power [Text Normal]	power
+power [Text Activ]	Text
+manual_at_fault [Text Normal]	manual mode at error
+manual_at_fault [Text Activ]	Button

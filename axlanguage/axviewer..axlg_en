@@ -1,0 +1,25 @@
+AlarmList.Label: Nr	Nr
+AlarmList.Label: Prio	Prio
+AlarmList.Label: Time	Time
+AlarmList.Label: Page	Page
+AlarmList.Label: Position	Position
+AlarmList.Label: Comment	Comment
+AlarmList.Label: Value	Value
+AlarmList.Label: Var Name	Var Name
+AlarmList.Label: Reference	Reference
+AlarmList.Label: TT_ID	TT_ID
+AlarmList.Label: TT_State	TT_State
+AlarmList.Label: ExtID	ExtID
+SpsMsg.Label: Message	Message
+SpsMsg.Label: Prog	Prog
+SpsMsg.Label: Page	Page
+SpsMsg.Label: Instance	Instance
+SpsMsg.Label: Class	Class
+Journal.Button.Label: Nr	Nr
+Journal.Button.Label: Prio	Prio
+Journal.Button.Label: Date-Time	Date-Time
+Journal.Button.Label: Position	Position
+Journal.Button.Label: Set to:	Set to:
+Journal.Button.Label: Message	Message
+Journal.Button.Label: User	User
+Journal.Button.Label: Host	Host

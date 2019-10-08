@@ -1,0 +1,842 @@
+2018-12-11 18:49:07-864	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-14 10:08:17-072	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2019-01-14 17:33:04-733	0	LeakComm_err	ON	Leak Communications Error
+2019-01-14 17:33:19-763	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-14 17:33:19-763	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-14 17:33:35-608	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-14 17:33:35-608	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-14 17:33:35-608	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-14 17:33:39-872	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-14 17:50:49-858	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-14 17:50:55-417	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-14 17:53:24-992	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-14 17:53:29-201	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-14 17:53:38-250	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-15 09:34:16-019	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-15 10:23:00-845	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-15 10:23:00-845	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-15 10:23:16-704	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-15 10:23:16-704	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-15 10:23:16-704	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-15 10:23:20-970	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-15 16:40:58-842	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-15 16:40:58-842	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-15 16:41:14-891	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-15 16:41:14-891	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-15 16:41:14-891	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-15 16:41:19-154	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-15 17:37:08-493	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-15 20:30:42-055	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-15 20:34:44-882	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-15 20:34:50-164	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-16 06:45:21-822	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-16 10:42:51-901	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-16 10:45:06-871	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-16 12:23:49-410	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-16 16:09:03-509	0	MOV3021.FAULT	OFF	RUL to Truck Rack MOV.MOV Fault Alarm
+2019-01-16 16:09:05-336	0	MOV3021.FAULT	ON	RUL to Truck Rack MOV.MOV Fault Alarm
+2019-01-16 16:09:13-055	0	MOV3021.LOWBATAL	OFF	RUL to Truck Rack MOV.Low Battery Alarm
+2019-01-16 16:09:15-898	0	MOV3021.LOWBATAL	ON	RUL to Truck Rack MOV.Low Battery Alarm
+2019-01-16 16:09:29-507	4	MOV3021.PTINAL	ON	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:10:00-586	4	MOV3021.PTINAL	OFF	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:19:57-571	4	MOV3021.PTINAL	ON	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:20:29-664	4	MOV3021.PTINAL	OFF	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:36:28-631	4	MOV3023.PTINAL	ON	RUL-Ethanol Truck Rack Crossover MOV.Command Disagree Alarm
+2019-01-16 16:36:36-351	4	MOV3021.PTINAL	ON	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:37:26-117	4	MOV3021.PTINAL	OFF	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:37:36-273	4	MOV3050.PTINAL	ON	STORM INTERCEPTOR MOV.Command Disagree Alarm
+2019-01-16 16:38:03-490	4	MOV3021.PTINAL	ON	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:46:29-476	4	MOV3021.PTINAL	OFF	RUL to Truck Rack MOV.Command Disagree Alarm
+2019-01-16 16:46:29-476	4	MOV3023.PTINAL	OFF	RUL-Ethanol Truck Rack Crossover MOV.Command Disagree Alarm
+2019-01-16 16:53:01-913	5	XA3021AL.Alarm	OFF	Mid Plant Tank Valve ESD.
+2019-01-16 16:53:06-381	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2019-01-16 16:53:32-990	5	XA3021AL.Alarm	OFF	Mid Plant Tank Valve ESD.
+2019-01-16 17:07:56-694	2	HL3022ALRM.Alarm	OFF	Slop Pump Position.
+2019-01-16 17:07:56-895	5	HL3014ALRM_1.Alarm	OFF	Firewater Bstr Pump Pwr. Avail..
+2019-01-16 17:39:54-437	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-16 17:39:59-723	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-17 11:29:43-513	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-17 11:29:48-795	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-17 12:30:54-079	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:30:57-125	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:31:05-861	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:31:06-877	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:31:14-799	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:31:17-641	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:31:18-250	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:31:19-470	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:31:22-516	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:31:28-611	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:31:43-032	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:31:44-250	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 12:34:46-250	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-17 12:43:02-891	5	WD_ETH_UL.PATHERROR	ON	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-17 12:43:04-312	5	WD_ETH_UL.PATHERROR	OFF	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-17 12:43:04-923	5	WD_ETH_STRIP.PATHERROR	ON	WD Ethanol Stripping.Path Error: check valve positions
+2019-01-17 12:43:06-141	5	WD_ETH_STRIP.PATHERROR	OFF	WD Ethanol Stripping.Path Error: check valve positions
+2019-01-17 12:43:06-954	5	WD_ETH_UL.PATHERROR	ON	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-17 12:43:07-766	5	WD_ETH_UL.PATHERROR	OFF	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-17 12:43:08-377	5	WD_ETH_STRIP.PATHERROR	ON	WD Ethanol Stripping.Path Error: check valve positions
+2019-01-17 12:43:09-595	5	WD_ETH_STRIP.PATHERROR	OFF	WD Ethanol Stripping.Path Error: check valve positions
+2019-01-17 12:43:10-812	5	RAIL_ETH_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:12-641	5	RAIL_ETH_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:13-453	5	RAIL_ETH_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:14-063	5	RAIL_ETH_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:15-486	5	RAIL_DSL3157_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:16-502	5	RAIL_DSL3157_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:17-313	5	RAIL_DSL3116_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:18-532	5	RAIL_DSL3116_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:19-345	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:43:21-578	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-17 12:46:33-750	20	PI3011.HIHI	ON	Import Pumps - RUL Discharge Pressure.HiHi Alarm
+2019-01-17 12:46:33-953	20	PI3011.HIHI	OFF	Import Pumps - RUL Discharge Pressure.HiHi Alarm
+2019-01-17 12:46:34-766	15	PI3011.HI	ON	Import Pumps - RUL Discharge Pressure.Hi Alarm
+2019-01-17 12:46:34-969	15	PI3011.HI	OFF	Import Pumps - RUL Discharge Pressure.Hi Alarm
+2019-01-17 12:46:35-578	15	PI3011.LO	ON	Import Pumps - RUL Discharge Pressure.Lo Alarm
+2019-01-17 12:46:35-782	15	PI3011.LO	OFF	Import Pumps - RUL Discharge Pressure.Lo Alarm
+2019-01-17 12:46:36-187	20	PI3011.LOLO	ON	Import Pumps - RUL Discharge Pressure.LoLo Alarm
+2019-01-17 12:46:36-391	20	PI3011.LOLO	OFF	Import Pumps - RUL Discharge Pressure.LoLo Alarm
+2019-01-17 12:46:37-000	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-17 12:46:41-062	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-17 15:21:08-628	25	Xlink_1.RingError	ON	.Xlink Ring open, please check Soft- and Hardware Components
+2019-01-17 15:21:08-628	25	MP_Profibus3.CommError	OFF	Profibus3 - Dispatch Office.Communication error
+2019-01-17 15:21:08-628	25	MP_Profibus4.CommError	OFF	Profibus4 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-628	25	MP_Profibus17.CommError	OFF	Profibus17 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-628	25	MP_Profibus5.CommError	OFF	Profibus5 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus19.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-01-17 15:21:08-628	25	MP_Profibus18.CommError	OFF	Profibus18 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus22.CommError	OFF	Profibus9 - LP Warehouse.Communication error
+2019-01-17 15:21:08-628	25	MP_Profibus6.CommError	OFF	Profibus6 - MCC2 Building.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus15.CommError	OFF	Profibus15 - Rail Rack.Communication error
+2019-01-17 15:21:08-628	25	MP_IO6.CommError	OFF	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus11.CommError	OFF	Profibus11 - West Dock Pit.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus10.CommError	OFF	Profibus10 - East Dock.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus14.CommError	OFF	Profibus14 - East Dock Counter.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus12.CommError	OFF	Profibus12 - West Dock.Communication error
+2019-01-17 15:21:08-628	25	LP_Profibus13.CommError	OFF	Profibus13 - West Dock Counter.Communication error
+2019-01-17 15:21:08-628	25	PrBus3_1.software_error	ON	Dispatch Office Profibus Address 3.software error
+2019-01-17 15:21:08-628	25	PrBus6_1.software_error	ON	MCC2 Profibus Address 6.software error
+2019-01-17 15:21:08-628	25	IO6PB.software_error	ON	Foam Shed - Profibus Slave - Addr#07.software error
+2019-01-17 15:21:08-628	25	PrBus19_1.software_error	ON	.software error
+2019-01-17 15:21:08-628	25	PrBus22_1.software_error	ON	.software error
+2019-01-17 15:21:08-628	0	RailCounter.software_error	ON	.Software Fehler
+2019-01-17 15:21:08-628	15	EssoTCP_RW.Error	ON	TCP data exchange to Esso.Esso/VPPL TCP RW Error
+2019-01-17 15:21:08-628	5	VRU_Warning.err1	OFF	VRU System Warning.State 1 Alarm
+2019-01-17 15:21:08-628	15	VRU_Fault.err1	OFF	VRU System Fault.State 1 Alarm
+2019-01-17 15:21:08-628	5	VRU_LevelSwitchAlarms.err2	OFF	VRU Level Switch Alarms.State 2 Alarm
+2019-01-17 15:21:08-628	25	VRU_LevelSwitchAlarms.err3	OFF	VRU Level Switch Alarms.State 3 Alarm
+2019-01-17 15:21:08-628	20	SoftPLC_Stopped	ON	Soft PLC is not running - System is DOWN
+2019-01-17 15:21:08-628	0	LeakComm_err	OFF	Leak Communications Error
+2019-01-17 15:21:08-628	20	Diesel_DualPath	ON	MP Diesel Dual Path Alarm
+2019-01-17 15:21:08-628	5	XA3021AL.Alarm	ON	Mid Plant Tank Valve ESD.
+2019-01-17 15:21:08-628	5	TK3156.LALL	ON	.TANK LOLO ALARM
+2019-01-17 15:21:08-628	5	TK2195.LAHH	ON	.TANK HIHI ALARM
+2019-01-17 15:21:08-628	4	TK2195.LAL	ON	.TANK LO ALARM
+2019-01-17 15:21:08-628	5	TK2198.LAHH	ON	.TANK HIHI ALARM
+2019-01-17 15:21:08-628	4	TK2198.LAL	ON	.TANK LO ALARM
+2019-01-17 15:21:08-628	2	HL3022ALRM.Alarm	ON	Slop Pump Position.
+2019-01-17 15:21:08-628	5	scanner_3.Alarm	ON	.
+2019-01-17 15:21:08-628	5	scanner_4.Alarm	ON	.
+2019-01-17 15:21:08-628	5	scanner_5.Alarm	ON	.
+2019-01-17 15:21:08-628	5	scanner_6.Alarm	ON	.
+2019-01-17 15:21:08-628	5	scanner_7.Alarm	ON	.
+2019-01-17 15:21:08-628	5	modbus_2.Alarm	ON	TDC COM-ERROR Indicator.aX-TDC Modbus Link Error
+2019-01-17 15:21:08-628	5	modbus_3.Alarm	ON	LNJ COM-ERROR Indicator.aX-LNJ Communication Error
+2019-01-17 15:21:08-628	5	QA3010ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	EL3001ALRM_1.Alarm	ON	Truck Rack Foam Pwr Available.
+2019-01-17 15:21:08-628	5	QA3001ALRM_1.Alarm	ON	Existing Gas Rack (Rack 1).
+2019-01-17 15:21:08-628	5	HL3014ALRM_1.Alarm	ON	Firewater Bstr Pump Pwr. Avail..
+2019-01-17 15:21:08-628	5	QA3011ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3003ALRM_1.Alarm	ON	Ex. Stove/Diesel Rack (Rack 2).
+2019-01-17 15:21:08-628	5	QA3012ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3005ALRM_1.Alarm	ON	New Gas Rack (Rack 3).
+2019-01-17 15:21:08-628	5	QA3013ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3007ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3014ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3009ALRM_1.Alarm	ON	Future.
+2019-01-17 15:21:08-628	5	QA3021ALRM.Alarm	ON	MP Dispatch Office Fire Alarm.
+2019-01-17 15:21:08-628	5	XA3007ALRM.Alarm	ON	MP Disp Off Fire Alarm Panel Sys. Trouble.
+2019-01-17 15:21:08-628	5	XA4004ALRM.Alarm	ON	LP Comp Bld Fire Alarm Panel Sys Trouble.
+2019-01-17 15:21:08-628	5	XA4055ALRM.Alarm	ON	NGR RESISTOR FAULT.
+2019-01-17 15:21:08-628	5	EA3002AALRM.Alarm	ON	MP Substation UPS AC Fail.
+2019-01-17 15:21:08-628	5	XA4050ALRM.Alarm	ON	NGR GROUND FAULT.
+2019-01-17 15:21:08-628	5	EA3002BALRM.Alarm	ON	MP Substation UPS Low Battery.
+2019-01-17 15:21:08-628	5	MOV3044.NOT_READYALRM	ON	.MOV NOT READY
+2019-01-17 15:21:08-628	5	MOV3046.NOT_READYALRM	ON	.MOV NOT READY
+2019-01-17 15:21:08-628	0	MOV3046.LOWBATAL	ON	.Low Battery Alarm
+2019-01-17 15:21:08-628	5	MOV3042.NOT_READYALRM	ON	.MOV NOT READY
+2019-01-17 15:21:08-628	5	MOV3043.NOT_READYALRM	ON	.MOV NOT READY
+2019-01-17 15:21:08-628	5	MOV3041.NOT_READYALRM	ON	.MOV NOT READY
+2019-01-17 15:21:08-628	5	MOV3045.NOT_READYALRM	ON	Tank inlet to TK3117.MOV NOT READY
+2019-01-17 15:21:08-628	15	PT3060AL.Lo	ON	Middle/Lower City Water Pressure.Lo Alarm
+2019-01-17 15:21:08-628	20	WDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-01-17 15:21:08-628	20	WDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-17 15:21:08-628	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-17 15:21:08-628	20	WDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-17 15:21:08-628	25	XA4051AAL	ON	Additive  Meter 3 FSII Deicer additive Failure
+2019-01-17 15:21:08-628	25	XA4051BAL	ON	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2019-01-17 15:21:08-628	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-17 15:21:08-628	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-17 15:21:08-628	20	EDMeter4.PathAlarm	ON	Multiload Meter #4.Multiple Valves Open
+2019-01-17 15:21:08-628	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-17 15:21:08-628	4	SV4051.Alarm	ON	Compressor Building Latching Solenoid Valve.
+2019-01-17 15:21:08-628	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2019-01-17 15:21:08-628	2	RSSumpPumpHOAAL.Alarm	ON	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2019-01-17 15:21:08-628	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-17 15:21:08-628	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2019-01-17 15:21:08-628	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-17 15:21:08-628	4	MOV3050.PTINAL	OFF	STORM INTERCEPTOR MOV.Command Disagree Alarm
+2019-01-17 15:21:08-816	0	XL_PBM_1.Device_not_on_Bus	ON	.
+2019-01-17 15:21:08-816	25	MP_Profibus3.CommError	ON	Profibus3 - Dispatch Office.Communication error
+2019-01-17 15:21:08-816	25	MP_Profibus4.CommError	ON	Profibus4 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-816	25	MP_Profibus17.CommError	ON	Profibus17 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-816	25	MP_Profibus5.CommError	ON	Profibus5 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus19.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-01-17 15:21:08-816	25	MP_Profibus18.CommError	ON	Profibus18 - MP Unit Sub.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus22.CommError	ON	Profibus9 - LP Warehouse.Communication error
+2019-01-17 15:21:08-816	25	MP_Profibus6.CommError	ON	Profibus6 - MCC2 Building.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus15.CommError	ON	Profibus15 - Rail Rack.Communication error
+2019-01-17 15:21:08-816	25	MP_IO6.CommError	ON	PROFIBUS segment I/O6 to Add#7- Foam Shed.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus11.CommError	ON	Profibus11 - West Dock Pit.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus10.CommError	ON	Profibus10 - East Dock.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus14.CommError	ON	Profibus14 - East Dock Counter.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus12.CommError	ON	Profibus12 - West Dock.Communication error
+2019-01-17 15:21:08-816	25	LP_Profibus13.CommError	ON	Profibus13 - West Dock Counter.Communication error
+2019-01-17 15:21:08-816	5	VRU_Comms.err1	OFF	VRU Communication to aX.State 1 Alarm
+2019-01-17 15:21:08-816	20	SoftPLC_Stopped	OFF	Soft PLC is not running - System is DOWN
+2019-01-17 15:21:08-816	5	modbus_6.Alarm	ON	Esso COM-ERROR Indicator.aX-Esso Communication Error
+2019-01-17 15:21:08-816	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-17 15:21:08-816	5	RSSumpPumpAL.Alarm	ON	Rail Spur Sump Pumps Inoperable Alarm.
+2019-01-17 15:21:08-970	5	COM_PC_Omni.Alarm	ON	PC Omni Communication Error.
+2019-01-17 15:21:09-276	20	XA4001AL.Alarm	ON	West Dock Deluge Activated.
+2019-01-17 15:21:09-276	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2019-01-17 15:21:09-276	20	XA4010AL.Alarm	ON	West Dock Building Pressure Loss.
+2019-01-17 15:21:09-276	20	LAH4001AL.Alarm	ON	West Dock Slop Tank HI.
+2019-01-17 15:21:09-276	20	EA4001AAL.Alarm	ON	West Dock UPS AC Fail.
+2019-01-17 15:21:09-276	20	EA4001BAL.Alarm	ON	West Dock UPS Low Battery.
+2019-01-17 15:21:09-276	20	XA4002AL.Alarm	ON	West Dock Emergency Shutdown.
+2019-01-17 15:21:09-276	20	LAHH4000AL.Alarm	ON	West Dock Slop Tank HiHi Alarm.
+2019-01-17 15:21:09-276	20	XA4102AL.Alarm	ON	East Dock Emergency Shutdown.
+2019-01-17 15:21:09-276	20	XA4101AL.Alarm	ON	East Dock Deluge Activated.
+2019-01-17 15:21:09-276	20	QA4101AL.Alarm	ON	East Dock Fire Alarm.
+2019-01-17 15:21:09-276	20	XA4110AL.Alarm	ON	East Dock Building Pressure Loss.
+2019-01-17 15:21:09-276	20	EA4101AAL.Alarm	ON	East Dock UPS AC Fail.
+2019-01-17 15:21:09-276	20	EA4101BAL.Alarm	ON	East Dock UPS Low Battery.
+2019-01-17 15:21:09-276	20	QA4002AL.Alarm	ON	Compressor Building Fire Alarm.
+2019-01-17 15:21:09-276	20	PALL4048AL.Alarm	ON	Air Pressure Switch LoLo Alarm.
+2019-01-17 15:21:09-276	20	EA4002AAL.Alarm	ON	Compressor Building AC Fail.
+2019-01-17 15:21:09-276	20	EA4002BAL.Alarm	ON	Compressor UPS Building Battery Low.
+2019-01-17 15:21:09-276	0	XA4046AL.Alarm	ON	Air Dryer Hi Dew Point.
+2019-01-17 15:21:09-276	20	XA4047BAL.Alarm	ON	Air Compressor General Shutdown.
+2019-01-17 15:21:09-276	20	XA4047CAL.Alarm	ON	Air Compressor General Warning.
+2019-01-17 15:21:09-276	20	XA4047DAL.Alarm	ON	Air Compressor Auto Operation.
+2019-01-17 15:21:09-276	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2019-01-17 15:21:09-276	20	XA4221AL.Alarm	ON	Rail Rack Emergency Shutdown.
+2019-01-17 15:21:09-276	20	LAL4220AL.Alarm	ON	Rail Rack Stove Deaerator Low Level.
+2019-01-17 15:21:09-276	20	LAL4230AL.Alarm	ON	Rail Rack ULSD Deaerator Low Level.
+2019-01-17 15:21:09-276	20	EA4222AAL.Alarm	ON	Rail Rack UPS AC Failure.
+2019-01-17 15:21:09-276	20	EA4222BAL.Alarm	ON	Rail Rack UPS Low Battery.
+2019-01-17 15:21:09-276	5	XA4200AL.Alarm	ON	Maint Fire Alarm Panel Trouble.
+2019-01-17 15:21:09-276	5	QA4200AL.Alarm	ON	Maint Fire Alarm.
+2019-01-17 15:21:09-276	5	QA4220AL.Alarm	ON	Maint Fire Alarm.
+2019-01-17 15:21:09-276	5	EA4201AAL.Alarm	ON	Maint Elec UPS AC Fail Alarm.
+2019-01-17 15:21:09-276	5	EA4201BAL.Alarm	ON	Maint Elec UPS Low Battery Alarm.
+2019-01-17 15:21:09-276	5	EA4230AAL.Alarm	ON	Ops Computer Room UPS AC Fail Alarm.
+2019-01-17 15:21:09-276	5	EA4230BAL.Alarm	ON	Ops Computer Room UPS Low Battery Alarm.
+2019-01-17 15:21:09-276	5	XA4218AL.Alarm	ON	OPS Fire Alarm Panel Trouble.
+2019-01-17 15:21:09-276	5	QA4218AL.Alarm	ON	OPS Fire Alarm.
+2019-01-17 15:21:09-276	5	PAL4202AL.Alarm	ON	Lower Plant Water Pressure Low Alarm.
+2019-01-17 15:21:09-276	5	LSHH4049ALM.Alarm	ON	West Pit Containment Water HiHi.
+2019-01-17 15:21:10-042	5	VRU_Warning.err1	ON	VRU System Warning.State 1 Alarm
+2019-01-17 15:21:10-042	15	VRU_Fault.err1	ON	VRU System Fault.State 1 Alarm
+2019-01-17 15:21:10-503	25	PrBus3_1.hardware_error	ON	Dispatch Office Profibus Address 3.hardware error
+2019-01-17 15:21:10-503	25	PrBus6_1.hardware_error	ON	MCC2 Profibus Address 6.hardware error
+2019-01-17 15:21:10-503	25	IO6PB.hardware_error	ON	Foam Shed - Profibus Slave - Addr#07.hardware error
+2019-01-17 15:21:10-503	25	PrBus19_1.hardware_error	ON	.hardware error
+2019-01-17 15:21:10-503	25	PrBus22_1.hardware_error	ON	.hardware error
+2019-01-17 15:21:10-657	0	RailCounter.hardware_error	ON	.Hardware Fehler
+2019-01-17 15:21:12-803	0	XL_PBM_1.Device_not_on_Bus	OFF	.
+2019-01-17 15:21:12-803	0	XL_PBM_1.Ethernet_Error	ON	.
+2019-01-17 15:21:16-292	4	MOV3044.MOVALRM	ON	.MOV ERROR
+2019-01-17 15:21:16-292	4	MOV3046.MOVALRM	ON	.MOV ERROR
+2019-01-17 15:21:16-292	4	MOV3042.MOVALRM	ON	.MOV ERROR
+2019-01-17 15:21:16-292	4	MOV3043.MOVALRM	ON	.MOV ERROR
+2019-01-17 15:21:16-292	4	MOV3041.MOVALRM	ON	.MOV ERROR
+2019-01-17 15:21:16-292	4	MOV3045.MOVALRM	ON	Tank inlet to TK3117.MOV ERROR
+2019-01-17 15:21:16-292	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-17 15:21:20-509	0	LeakComm_err	ON	Leak Communications Error
+2019-01-17 15:21:34-459	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-17 15:21:34-459	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-17 15:21:51-331	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-17 15:21:51-331	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-17 15:21:51-331	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-17 15:21:56-457	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-17 15:38:56-551	2	HL3022ALRM.Alarm	OFF	Slop Pump Position.
+2019-01-17 15:38:56-753	5	HL3014ALRM_1.Alarm	OFF	Firewater Bstr Pump Pwr. Avail..
+2019-01-17 15:38:56-753	15	PI4001.LO	OFF	RUL Loading Arm Pressure.Lo Alarm
+2019-01-17 15:38:56-753	15	PI4002.LO	OFF	ULSD Loading Arm Pressure.Lo Alarm
+2019-01-17 15:38:56-753	15	PI4098A.LO	OFF	RSD Loading Arm Pressure.Lo Alarm
+2019-01-17 15:38:56-753	15	TI3084B.LO	OFF	TK3296 Zone 2 Temperature.Lo Alarm
+2019-01-17 15:38:56-753	20	TI3084B.LOLO	OFF	TK3296 Zone 2 Temperature.LoLo Alarm
+2019-01-17 15:38:56-753	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-17 15:38:56-753	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-17 15:41:43-924	20	TI3084B.HIHI	OFF	TK3296 Zone 2 Temperature.HiHi Alarm
+2019-01-17 15:41:44-128	20	TI3084B.HIHI	ON	TK3296 Zone 2 Temperature.HiHi Alarm
+2019-01-17 15:41:44-331	15	TI3084B.HI	OFF	TK3296 Zone 2 Temperature.Hi Alarm
+2019-01-17 15:41:44-535	15	TI3084B.HI	ON	TK3296 Zone 2 Temperature.Hi Alarm
+2019-01-17 15:50:10-721	20	TI3084B.HIHI	OFF	TK3296 Zone 2 Temperature.HiHi Alarm
+2019-01-17 15:50:15-394	15	TI3084B.HI	OFF	TK3296 Zone 2 Temperature.Hi Alarm
+2019-01-17 15:51:47-003	20	TI3084A.HIHI	OFF	TK3296 Zone 1 Temperature.HiHi Alarm
+2019-01-17 15:51:52-690	15	TI3084A.HI	OFF	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-17 15:55:34-910	20	PDI3088.HIHI	ON	BioDiesel Offloading Filter PDI.HiHi Alarm
+2019-01-17 15:55:36-535	15	PDI3088.HI	ON	BioDiesel Offloading Filter PDI.Hi Alarm
+2019-01-17 15:59:56-128	20	AI3080.HIHI	ON	BioDiesel Sump HC Detector.HiHi Alarm
+2019-01-17 15:59:57-346	15	AI3080.HI	ON	BioDiesel Sump HC Detector.Hi Alarm
+2019-01-17 16:02:27-051	20	AI3090.HIHI	ON	Storm Interceptor HC Detector.HiHi Alarm
+2019-01-17 16:02:28-065	15	AI3090.HI	ON	Storm Interceptor HC Detector.Hi Alarm
+2019-01-17 20:56:55-542	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-17 20:57:00-823	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-18 09:14:55-628	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-18 09:15:00-910	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-18 09:18:41-210	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-18 14:36:23-608	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-18 14:50:47-546	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-18 14:50:47-546	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-18 14:51:03-391	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-18 14:51:03-391	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-18 14:51:03-391	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-18 14:51:07-657	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-18 14:55:17-907	2	HL3022ALRM.Alarm	OFF	Slop Pump Position.
+2019-01-18 14:55:18-111	5	HL3014ALRM_1.Alarm	OFF	Firewater Bstr Pump Pwr. Avail..
+2019-01-18 14:55:18-111	15	PI4001.LO	OFF	RUL Loading Arm Pressure.Lo Alarm
+2019-01-18 14:55:18-111	15	PI4002.LO	OFF	ULSD Loading Arm Pressure.Lo Alarm
+2019-01-18 14:55:18-111	15	PI4098A.LO	OFF	RSD Loading Arm Pressure.Lo Alarm
+2019-01-18 14:55:18-111	15	TI3081.LO	OFF	BioDiesel Offloading Temperature.Lo Alarm
+2019-01-18 14:55:18-111	20	TI3081.LOLO	OFF	BioDiesel Offloading Temperature.LoLo Alarm
+2019-01-18 14:55:18-111	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 14:55:18-111	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 14:55:18-111	15	AI3090.HI	ON	Storm Interceptor HC Detector.Hi Alarm
+2019-01-18 14:55:19-127	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 14:55:22-986	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 14:59:32-424	15	TI3084B.LO	OFF	TK3296 Zone 2 Temperature.Lo Alarm
+2019-01-18 14:59:32-424	20	TI3084B.LOLO	OFF	TK3296 Zone 2 Temperature.LoLo Alarm
+2019-01-18 15:01:03-220	5	CA3009AL.OFFNORM	OFF	Bio-Diesel Offloading EStop.Off-normal alarm
+2019-01-18 15:01:05-454	5	CA3009AL.OFFNORM	ON	Bio-Diesel Offloading EStop.Off-normal alarm
+2019-01-18 15:01:12-970	5	CA3009AL.OFFNORM	OFF	Bio-Diesel Offloading EStop.Off-normal alarm
+2019-01-18 15:01:14-595	5	CA3009AL.OFFNORM	ON	Bio-Diesel Offloading EStop.Off-normal alarm
+2019-01-18 15:02:33-813	5	CA3009AL.OFFNORM	OFF	Bio-Diesel Offloading EStop.Off-normal alarm
+2019-01-18 15:15:47-832	4	XV3082.PTINAL	OFF	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 15:16:00-019	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 15:18:22-815	5	TK3296.LALL	ON	Tank 3296 (B100).TANK LOLO ALARM
+2019-01-18 15:18:23-019	5	TK3296.LALL	OFF	Tank 3296 (B100).TANK LOLO ALARM
+2019-01-18 15:18:24-036	5	TK3296.LALL	ON	Tank 3296 (B100).TANK LOLO ALARM
+2019-01-18 15:18:24-237	5	TK3296.LALL	OFF	Tank 3296 (B100).TANK LOLO ALARM
+2019-01-18 15:19:33-096	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 15:19:37-160	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 15:27:48-114	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-18 15:30:32-240	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:32-240	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:32-240	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:32-441	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:32-441	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:32-441	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:32-441	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:32-441	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:32-441	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:32-441	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:32-441	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:32-441	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:32-441	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:32-441	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:32-644	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:32-644	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:32-644	20	RNMeter2.LevelAlarm	ON	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:32-644	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:32-644	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:32-644	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:32-644	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:32-644	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:33-255	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 15:30:33-255	20	AX_SYS.log_count_all_alarm	ON	.
+2019-01-18 15:30:37-114	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 15:30:37-114	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-01-18 15:30:46-661	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:46-661	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:46-661	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:46-864	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:46-864	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:46-864	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:46-864	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:46-864	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:46-864	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:46-864	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:46-864	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:46-864	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:46-864	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:46-864	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:47-066	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:47-066	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:47-066	20	RNMeter2.LevelAlarm	ON	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:47-066	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:47-066	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:47-066	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:47-066	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:47-066	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:49-098	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 15:30:49-098	20	AX_SYS.log_count_all_alarm	ON	.
+2019-01-18 15:30:49-707	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:49-707	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:49-707	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:49-911	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:49-911	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:49-911	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:49-911	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:49-911	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:49-911	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:49-911	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:49-911	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:49-911	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:49-911	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:49-911	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:50-115	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:50-115	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:50-115	20	RNMeter2.LevelAlarm	ON	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:50-115	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:50-115	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:50-115	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:50-115	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:50-115	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:54-990	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:54-990	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:54-990	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:55-191	20	WDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:55-191	20	EDMeter1.PathAlarm	ON	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:30:55-191	20	EDMeter2.PathAlarm	ON	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:30:55-191	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:55-191	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:55-191	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:55-191	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:55-191	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:55-191	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:55-191	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:55-191	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 15:30:55-394	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 15:30:55-394	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 15:30:55-394	20	RNMeter2.LevelAlarm	ON	Rail North Meter #2.High Level Alarm
+2019-01-18 15:30:55-394	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 15:30:55-394	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 15:30:55-394	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 15:30:55-394	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 15:30:55-394	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 15:31:01-082	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 15:31:01-082	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-01-18 15:31:17-332	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:31:17-332	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 15:31:17-332	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-18 15:31:17-536	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 15:31:17-536	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 15:31:17-536	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-18 15:31:17-536	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 15:31:17-536	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 15:31:17-536	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 15:31:17-536	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 15:31:17-536	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 15:31:20-989	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 15:31:25-052	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 15:45:56-256	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 15:45:56-460	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 15:45:57-069	4	TK3296.LAH	OFF	Tank 3296 (B100).TANK HI ALARM
+2019-01-18 15:45:57-272	4	TK3296.LAH	ON	Tank 3296 (B100).TANK HI ALARM
+2019-01-18 15:45:57-677	5	TK3296.LAHH	OFF	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-18 15:45:57-677	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-18 15:54:04-164	5	TK3296.LAHH	OFF	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-18 15:54:06-397	5	TK3296.LAHH	ON	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-18 15:54:07-210	4	TK3296.LAH	OFF	Tank 3296 (B100).TANK HI ALARM
+2019-01-18 15:54:07-615	5	TK3296.LAHH	OFF	Tank 3296 (B100).TANK HIHI ALARM
+2019-01-18 15:54:08-226	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 15:54:32-398	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 15:54:33-617	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:04:37-305	4	XV3082.PTINAL	OFF	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 16:04:54-976	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 16:05:05-134	4	XV3082.PTINAL	OFF	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 16:05:32-555	4	XV3082.PTINAL	ON	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 16:05:43-523	4	XV3082.PTINAL	OFF	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-18 16:15:04-352	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:04-352	20	TI3084A.LOLO	ON	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:04-555	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:04-555	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:06-789	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:06-789	20	TI3084A.LOLO	ON	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:06-993	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:06-993	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:08-822	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:08-822	20	TI3084A.LOLO	ON	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:09-023	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:09-023	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:15:59-805	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:15:59-805	20	TI3084A.LOLO	ON	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:16:00-009	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:16:00-009	20	TI3084A.LOLO	OFF	TK3296 Zone 1 Temperature.LoLo Alarm
+2019-01-18 16:16:02-447	15	TI3084A.HI	ON	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:16:02-650	15	TI3084A.HI	OFF	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:17:09-275	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:17:16-180	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:20:50-884	15	TI3084A.HI	ON	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:20:53-727	15	TI3084A.HI	OFF	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:20:56-165	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:24:54-838	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:25:06-417	15	TI3084A.HI	ON	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:25:07-634	15	TI3084A.HI	OFF	TK3296 Zone 1 Temperature.Hi Alarm
+2019-01-18 16:25:08-651	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:25:18-401	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:29:09-354	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:29:09-556	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:29:17-276	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:29:17-480	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:30:22-887	4	TK3296.LAL	ON	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:30:40-963	4	TK3296.LAL	OFF	Tank 3296 (B100).TANK LO ALARM
+2019-01-18 16:33:11-072	15	TI3084B.LO	ON	TK3296 Zone 2 Temperature.Lo Alarm
+2019-01-18 16:33:11-072	20	TI3084B.LOLO	ON	TK3296 Zone 2 Temperature.LoLo Alarm
+2019-01-18 16:33:31-994	15	TI3084A.LO	ON	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:33:48-042	15	TI3084B.LO	OFF	TK3296 Zone 2 Temperature.Lo Alarm
+2019-01-18 16:33:48-042	20	TI3084B.LOLO	OFF	TK3296 Zone 2 Temperature.LoLo Alarm
+2019-01-18 16:33:57-183	15	TI3084A.LO	OFF	TK3296 Zone 1 Temperature.Lo Alarm
+2019-01-18 16:48:09-089	15	PT3060AL.Lo	OFF	Middle/Lower City Water Pressure.Lo Alarm
+2019-01-18 16:48:22-496	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:25-339	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:26-964	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:28-996	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:29-809	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:30-621	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:31-839	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:33-667	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:48:36-105	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:48:37-526	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:48:38-137	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:48:40-778	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:48:43-825	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:48:49-513	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:52:16-903	0	MOV4001.PTINAL	OFF	Gasoline Export MOV.Command Disagree Alarm
+2019-01-18 16:52:16-903	0	MOV4002.PTINAL	OFF	Diesel Export MOV.Command Disagree Alarm
+2019-01-18 16:52:16-903	0	MOV4003.PTINAL	OFF	RSD Export MOV.Command Disagree Alarm
+2019-01-18 16:55:05-903	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:06-513	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:09-153	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:10-982	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:12-200	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:13-418	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:14-434	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:26-013	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:33-934	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:37-388	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:37-795	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:40-841	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:55:41-043	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 16:55:41-246	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:55:45-107	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 16:55:51-809	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:59:00-920	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:03-559	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:05-388	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:06-404	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:07-216	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:08-029	15	PI3033.HI	ON	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 16:59:26-513	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:59:27-934	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 16:59:29-357	15	PI3013.HI	ON	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 17:00:18-311	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 17:00:18-716	15	PI3033.HI	OFF	Import Pumps - ULSD Suction Pressure.Hi Alarm
+2019-01-18 17:00:21-153	15	PI3013.HI	OFF	Import Pumps - RUL Suction Pressure.Hi Alarm
+2019-01-18 17:04:10-076	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:04:10-076	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:17:44-000	15	PI3034.HI	ON	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 17:17:48-062	15	PI3034.HI	OFF	Import Pumps - RSD Suction Pressure.Hi Alarm
+2019-01-18 17:19:19-467	20	WDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-18 17:20:55-140	20	WDMeter4.PathAlarm	OFF	Multiload Meter #4.Multiple Valves Open
+2019-01-18 17:20:55-140	20	WDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:20:55-140	20	EDMeter4.PathAlarm	OFF	Multiload Meter #4.Multiple Valves Open
+2019-01-18 17:20:55-140	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:24:55-234	25	XA4051AAL	OFF	Additive  Meter 3 FSII Deicer additive Failure
+2019-01-18 17:24:55-234	25	XA4051BAL	OFF	Additive  Meter 4 DCI-4A Corrosion Inhibitor Additive Failure
+2019-01-18 17:25:09-858	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:25:12-296	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:25:20-625	4	HV4135.Alarm	ON	3117 to East Dock Meter #3.
+2019-01-18 17:25:21-641	4	HV4135.Alarm	OFF	3117 to East Dock Meter #3.
+2019-01-18 17:25:27-328	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:25:29-155	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:33:06-187	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:33:06-187	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:33:36-454	20	EA4001AAL.Alarm	OFF	West Dock UPS AC Fail.
+2019-01-18 17:33:36-454	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:33:36-454	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:34:30-282	4	SV4052.Alarm	OFF	Railcar Latching Solenoid Valve.
+2019-01-18 17:34:30-486	5	XA3021AL.Alarm	OFF	Mid Plant Tank Valve ESD.
+2019-01-18 17:34:30-486	20	XA4001AL.Alarm	OFF	West Dock Deluge Activated.
+2019-01-18 17:34:30-486	20	QA4001AL.Alarm	OFF	West Dock Fire Alarm.
+2019-01-18 17:34:30-486	20	XA4010AL.Alarm	OFF	West Dock Building Pressure Loss.
+2019-01-18 17:34:30-486	20	LAH4001AL.Alarm	OFF	West Dock Slop Tank HI.
+2019-01-18 17:34:30-486	20	EA4001BAL.Alarm	OFF	West Dock UPS Low Battery.
+2019-01-18 17:34:30-486	20	XA4002AL.Alarm	OFF	West Dock Emergency Shutdown.
+2019-01-18 17:34:30-486	20	LAHH4000AL.Alarm	OFF	West Dock Slop Tank HiHi Alarm.
+2019-01-18 17:34:30-486	20	XA4102AL.Alarm	OFF	East Dock Emergency Shutdown.
+2019-01-18 17:34:30-486	20	XA4101AL.Alarm	OFF	East Dock Deluge Activated.
+2019-01-18 17:34:30-486	20	QA4101AL.Alarm	OFF	East Dock Fire Alarm.
+2019-01-18 17:34:30-486	20	XA4110AL.Alarm	OFF	East Dock Building Pressure Loss.
+2019-01-18 17:34:30-486	20	EA4101AAL.Alarm	OFF	East Dock UPS AC Fail.
+2019-01-18 17:34:30-486	20	EA4101BAL.Alarm	OFF	East Dock UPS Low Battery.
+2019-01-18 17:34:30-486	20	QA4002AL.Alarm	OFF	Compressor Building Fire Alarm.
+2019-01-18 17:34:30-486	20	PALL4048AL.Alarm	OFF	Air Pressure Switch LoLo Alarm.
+2019-01-18 17:34:30-486	20	EA4002AAL.Alarm	OFF	Compressor Building AC Fail.
+2019-01-18 17:34:30-486	20	EA4002BAL.Alarm	OFF	Compressor UPS Building Battery Low.
+2019-01-18 17:34:30-486	0	XA4046AL.Alarm	OFF	Air Dryer Hi Dew Point.
+2019-01-18 17:34:30-486	20	XA4047BAL.Alarm	OFF	Air Compressor General Shutdown.
+2019-01-18 17:34:30-486	20	XA4047CAL.Alarm	OFF	Air Compressor General Warning.
+2019-01-18 17:34:30-486	20	XA4047DAL.Alarm	OFF	Air Compressor Auto Operation.
+2019-01-18 17:34:30-486	20	XL4052AL.Alarm	OFF	Lubes Air System Active Alarm.
+2019-01-18 17:34:30-486	20	XA4221AL.Alarm	OFF	Rail Rack Emergency Shutdown.
+2019-01-18 17:34:30-486	20	LAL4220AL.Alarm	OFF	Rail Rack Stove Deaerator Low Level.
+2019-01-18 17:34:30-486	20	LAL4230AL.Alarm	OFF	Rail Rack ULSD Deaerator Low Level.
+2019-01-18 17:34:30-486	20	EA4222AAL.Alarm	OFF	Rail Rack UPS AC Failure.
+2019-01-18 17:34:30-486	20	EA4222BAL.Alarm	OFF	Rail Rack UPS Low Battery.
+2019-01-18 17:34:30-486	5	XA4200AL.Alarm	OFF	Maint Fire Alarm Panel Trouble.
+2019-01-18 17:34:30-486	5	QA4200AL.Alarm	OFF	Maint Fire Alarm.
+2019-01-18 17:34:30-486	5	QA4220AL.Alarm	OFF	Maint Fire Alarm.
+2019-01-18 17:34:30-486	5	EA4201AAL.Alarm	OFF	Maint Elec UPS AC Fail Alarm.
+2019-01-18 17:34:30-486	5	EA4201BAL.Alarm	OFF	Maint Elec UPS Low Battery Alarm.
+2019-01-18 17:34:30-486	5	EA4230AAL.Alarm	OFF	Ops Computer Room UPS AC Fail Alarm.
+2019-01-18 17:34:30-486	5	EA4230BAL.Alarm	OFF	Ops Computer Room UPS Low Battery Alarm.
+2019-01-18 17:34:30-486	5	XA4218AL.Alarm	OFF	OPS Fire Alarm Panel Trouble.
+2019-01-18 17:34:30-486	5	QA4218AL.Alarm	OFF	OPS Fire Alarm.
+2019-01-18 17:34:30-486	5	PAL4202AL.Alarm	OFF	Lower Plant Water Pressure Low Alarm.
+2019-01-18 17:34:30-486	5	LSHH4049ALM.Alarm	OFF	West Pit Containment Water HiHi.
+2019-01-18 17:34:34-141	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 17:34:34-141	20	AX_SYS.log_count_all_alarm	ON	.
+2019-01-18 17:34:38-000	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 17:34:38-000	20	AX_SYS.log_count_all_alarm	OFF	.
+2019-01-18 17:34:43-078	20	QA4001AL.Alarm	ON	West Dock Fire Alarm.
+2019-01-18 17:34:45-516	20	QA4001AL.Alarm	OFF	West Dock Fire Alarm.
+2019-01-18 17:34:55-063	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:34:55-063	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:35:25-328	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:35:25-328	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:35:33-657	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:35:33-657	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:36:03-923	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:36:03-923	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:36:15-095	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:36:15-095	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:36:45-361	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:36:45-361	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:37:38-984	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:37:38-984	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:38:09-252	15	OP_12inWD	ON	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:38:09-252	5	WD_THERM_WARN.Alarm	ON	Thermal Warning at WD.
+2019-01-18 17:38:26-517	15	OP_12inWD	OFF	Over Pressure: WD 12" RUL/SUL Export Line - open HV4089
+2019-01-18 17:38:26-517	5	WD_THERM_WARN.Alarm	OFF	Thermal Warning at WD.
+2019-01-18 17:40:03-000	4	SV4051.Alarm	OFF	Compressor Building Latching Solenoid Valve.
+2019-01-18 17:40:53-173	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:53-377	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:55-611	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:55-813	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:57-438	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:57-641	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:58-456	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:40:58-657	5	PI4047LOW.Alarm	ON	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:41:07-391	5	PI4047LOW.Alarm	OFF	Dock Air System Low Pressure - WD Air SOL. Clsd.
+2019-01-18 17:41:32-782	4	SV4052.Alarm	ON	Railcar Latching Solenoid Valve.
+2019-01-18 17:41:33-798	20	XL4052AL.Alarm	ON	Lubes Air System Active Alarm.
+2019-01-18 17:41:38-673	20	XL4052AL.Alarm	OFF	Lubes Air System Active Alarm.
+2019-01-18 17:41:38-673	4	SV4052.Alarm	OFF	Railcar Latching Solenoid Valve.
+2019-01-18 17:42:09-142	5	RAIL_ETH_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:14-016	5	RAIL_ETH_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:15-642	5	RAIL_DSL3116_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:16-252	5	RAIL_DSL3116_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:16-861	5	RAIL_DSL3157_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:18-079	5	RAIL_DSL3157_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:18-891	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:20-313	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:42:22-141	5	WD_ETH_UL.PATHERROR	ON	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-18 17:42:23-970	5	WD_ETH_UL.PATHERROR	OFF	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-18 17:42:32-500	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:42:35-345	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:42:35-549	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:20-440	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:43:20-642	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:21-861	5	WD_ETH_UL.PATHERROR	ON	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-18 17:43:22-875	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:43:23-079	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:24-704	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:43:24-907	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:27-954	5	WD_ETH_UL.PATHERROR	OFF	WD Ethanol Unloading.Path Error: check valve positions
+2019-01-18 17:43:29-986	5	RAIL_ETH_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:32-831	5	RAIL_ETH_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:33-845	5	RAIL_ETH_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:43:40-752	5	RAIL_ETH_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:16-299	5	RAIL_DSL3157_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:17-517	5	RAIL_DSL3157_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:17-923	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:18-127	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:19-142	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:19-345	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:19-752	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:19-954	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:20-361	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:20-565	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:21-174	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:21-375	5	RAIL_DSL3117_UL.PATHERROR	ON	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:44:21-986	20	EDMeter3.PathAlarm	ON	Multiload Meter #3.Multiple Valves Open
+2019-01-18 17:44:22-190	5	RAIL_DSL3117_UL.PATHERROR	OFF	Rail Offloading.Path Error: check valve positions
+2019-01-18 17:48:14-971	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 17:48:19-033	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 17:59:49-346	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 17:59:49-346	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 17:59:49-346	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 17:59:49-346	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 17:59:49-346	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 17:59:49-346	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 17:59:49-346	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 18:00:07-832	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 18:00:07-832	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:00:07-832	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 18:00:07-832	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 18:00:07-832	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 18:00:07-832	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 18:00:07-832	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 18:00:09-253	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 18:00:09-253	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 18:00:09-253	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 18:00:09-253	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 18:00:09-253	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 18:00:09-253	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 18:00:09-253	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 18:00:11-082	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-18 18:00:11-894	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 18:00:11-894	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:00:11-894	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 18:00:11-894	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 18:00:11-894	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 18:00:11-894	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 18:00:11-894	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 18:00:14-535	20	RNMeter4.LevelAlarm	ON	Rail North Meter #4.High Level Alarm
+2019-01-18 18:00:14-535	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 18:00:14-535	20	RSMeter4.LevelAlarm	ON	Rail South Meter #4.High Level Alarm
+2019-01-18 18:00:14-535	20	RSMeter3.LevelAlarm	ON	Rail South Meter #3.High Level Alarm
+2019-01-18 18:00:14-535	20	RSMeter2.LevelAlarm	ON	Rail South Meter #2.High Level Alarm
+2019-01-18 18:00:14-535	20	RNMeter1.LevelAlarm	ON	Rail North Meter #1.High Level Alarm
+2019-01-18 18:00:14-535	20	RSMeter1.LevelAlarm	ON	Rail South Meter #1.High Level Alarm
+2019-01-18 18:00:19-003	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-18 18:02:39-565	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:02:39-769	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 18:02:41-596	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:02:41-799	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 18:02:46-471	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:02:46-471	20	RNMeter3.LevelAlarm	ON	Rail North Meter #3.High Level Alarm
+2019-01-18 18:03:17-753	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-18 18:03:41-316	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-18 18:03:55-737	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-18 18:04:02-846	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-18 18:04:09-753	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-18 18:04:30-473	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-18 18:04:37-378	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-18 18:07:43-440	2	RSSumpPumpHOAAL.Alarm	OFF	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2019-01-18 18:07:48-114	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2019-01-18 18:10:31-630	0	MOV4201.PTINAL	ON	Rail Spur Deluge Water MOV.Command Disagree Alarm
+2019-01-18 18:15:32-457	0	MOV4201.PTINAL	OFF	Rail Spur Deluge Water MOV.Command Disagree Alarm
+2019-01-21 18:48:50-345	0	LeakComm_err	ON	Leak Communications Error
+2019-01-21 18:49:05-377	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-21 18:49:05-377	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-21 18:49:21-220	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-21 18:49:21-220	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-21 18:49:21-220	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-21 18:49:25-486	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-21 20:42:50-503	25	Xlink_1.LinkErrorA	ON	.No Link on Ethernet Card A
+2019-01-21 20:42:55-786	25	Xlink_1.LinkErrorA	OFF	.No Link on Ethernet Card A
+2019-01-30 10:52:09-400	0	LeakComm_err	ON	Leak Communications Error
+2019-01-30 10:52:24-431	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-30 10:52:24-431	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-30 10:52:40-275	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-30 10:52:40-275	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-30 10:52:40-275	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-30 10:52:44-540	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-30 11:27:22-479	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-30 11:27:22-479	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-30 11:27:37-053	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-30 11:27:37-053	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-30 11:27:37-053	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-30 11:27:41-397	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-31 09:27:31-598	5	VRU_LevelSwitchAlarms.err2	ON	VRU Level Switch Alarms.State 2 Alarm
+2019-01-31 09:27:31-598	25	VRU_LevelSwitchAlarms.err3	ON	VRU Level Switch Alarms.State 3 Alarm
+2019-01-31 09:27:42-812	0	MOV4001.PTINAL	ON	Gasoline Export MOV.Command Disagree Alarm
+2019-01-31 09:27:42-812	0	MOV4002.PTINAL	ON	Diesel Export MOV.Command Disagree Alarm
+2019-01-31 09:27:42-812	0	MOV4003.PTINAL	ON	RSD Export MOV.Command Disagree Alarm
+2019-01-31 09:27:45-673	5	VRU_Comms.err1	ON	VRU Communication to aX.State 1 Alarm
+2019-01-31 14:33:00-436	2	HL3022ALRM.Alarm	OFF	Slop Pump Position.
+2019-01-31 14:33:00-436	20	WDMeter4.PathAlarm	OFF	Multiload Meter #4.Multiple Valves Open
+2019-01-31 14:33:00-436	20	WDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-31 14:33:00-436	4	SV4052.Alarm	OFF	Railcar Latching Solenoid Valve.
+2019-01-31 14:33:00-638	20	Diesel_DualPath	OFF	MP Diesel Dual Path Alarm
+2019-01-31 14:33:00-638	5	XA3021AL.Alarm	OFF	Mid Plant Tank Valve ESD.
+2019-01-31 14:33:00-638	5	HL3014ALRM_1.Alarm	OFF	Firewater Bstr Pump Pwr. Avail..
+2019-01-31 14:33:00-638	0	MOV4001.PTINAL	OFF	Gasoline Export MOV.Command Disagree Alarm
+2019-01-31 14:33:00-638	0	MOV4002.PTINAL	OFF	Diesel Export MOV.Command Disagree Alarm
+2019-01-31 14:33:00-638	20	WDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-31 14:33:00-638	20	WDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-31 14:33:00-638	20	XA4001AL.Alarm	OFF	West Dock Deluge Activated.
+2019-01-31 14:33:00-638	20	QA4001AL.Alarm	OFF	West Dock Fire Alarm.
+2019-01-31 14:33:00-638	20	XA4010AL.Alarm	OFF	West Dock Building Pressure Loss.
+2019-01-31 14:33:00-638	20	LAH4001AL.Alarm	OFF	West Dock Slop Tank HI.
+2019-01-31 14:33:00-638	20	EA4001AAL.Alarm	OFF	West Dock UPS AC Fail.
+2019-01-31 14:33:00-638	20	EA4001BAL.Alarm	OFF	West Dock UPS Low Battery.
+2019-01-31 14:33:00-638	20	XA4002AL.Alarm	OFF	West Dock Emergency Shutdown.
+2019-01-31 14:33:00-638	20	LAHH4000AL.Alarm	OFF	West Dock Slop Tank HiHi Alarm.
+2019-01-31 14:33:00-638	0	MOV4003.PTINAL	OFF	RSD Export MOV.Command Disagree Alarm
+2019-01-31 14:33:00-638	20	EDMeter1.PathAlarm	OFF	Multiload Meter #1.Multiple Valves Open
+2019-01-31 14:33:00-638	20	EDMeter2.PathAlarm	OFF	Multiload Meter #2.Multiple Valves Open
+2019-01-31 14:33:00-638	20	XA4102AL.Alarm	OFF	East Dock Emergency Shutdown.
+2019-01-31 14:33:00-638	20	XA4101AL.Alarm	OFF	East Dock Deluge Activated.
+2019-01-31 14:33:00-638	20	QA4101AL.Alarm	OFF	East Dock Fire Alarm.
+2019-01-31 14:33:00-638	20	XA4110AL.Alarm	OFF	East Dock Building Pressure Loss.
+2019-01-31 14:33:00-638	20	EA4101AAL.Alarm	OFF	East Dock UPS AC Fail.
+2019-01-31 14:33:00-638	20	EA4101BAL.Alarm	OFF	East Dock UPS Low Battery.
+2019-01-31 14:33:00-638	20	EDMeter4.PathAlarm	OFF	Multiload Meter #4.Multiple Valves Open
+2019-01-31 14:33:00-638	20	EDMeter3.PathAlarm	OFF	Multiload Meter #3.Multiple Valves Open
+2019-01-31 14:33:00-638	20	XA4221AL.Alarm	OFF	Rail Rack Emergency Shutdown.
+2019-01-31 14:33:00-638	20	LAL4220AL.Alarm	OFF	Rail Rack Stove Deaerator Low Level.
+2019-01-31 14:33:00-638	20	LAL4230AL.Alarm	OFF	Rail Rack ULSD Deaerator Low Level.
+2019-01-31 14:33:00-638	20	RNMeter4.LevelAlarm	OFF	Rail North Meter #4.High Level Alarm
+2019-01-31 14:33:00-638	20	EA4222AAL.Alarm	OFF	Rail Rack UPS AC Failure.
+2019-01-31 14:33:00-638	20	EA4222BAL.Alarm	OFF	Rail Rack UPS Low Battery.
+2019-01-31 14:33:00-638	20	RNMeter3.LevelAlarm	OFF	Rail North Meter #3.High Level Alarm
+2019-01-31 14:33:00-638	20	RNMeter2.LevelAlarm	OFF	Rail North Meter #2.High Level Alarm
+2019-01-31 14:33:00-638	20	RSMeter4.LevelAlarm	OFF	Rail South Meter #4.High Level Alarm
+2019-01-31 14:33:00-638	20	RSMeter3.LevelAlarm	OFF	Rail South Meter #3.High Level Alarm
+2019-01-31 14:33:00-638	20	RSMeter2.LevelAlarm	OFF	Rail South Meter #2.High Level Alarm
+2019-01-31 14:33:00-638	20	RNMeter1.LevelAlarm	OFF	Rail North Meter #1.High Level Alarm
+2019-01-31 14:33:00-638	20	RSMeter1.LevelAlarm	OFF	Rail South Meter #1.High Level Alarm
+2019-01-31 14:33:00-638	5	XA4200AL.Alarm	OFF	Maint Fire Alarm Panel Trouble.
+2019-01-31 14:33:00-638	5	QA4200AL.Alarm	OFF	Maint Fire Alarm.
+2019-01-31 14:33:00-638	5	QA4220AL.Alarm	OFF	Maint Fire Alarm.
+2019-01-31 14:33:00-638	5	EA4201AAL.Alarm	OFF	Maint Elec UPS AC Fail Alarm.
+2019-01-31 14:33:00-638	5	EA4201BAL.Alarm	OFF	Maint Elec UPS Low Battery Alarm.
+2019-01-31 14:33:00-638	5	EA4230AAL.Alarm	OFF	Ops Computer Room UPS AC Fail Alarm.
+2019-01-31 14:33:00-638	5	EA4230BAL.Alarm	OFF	Ops Computer Room UPS Low Battery Alarm.
+2019-01-31 14:33:00-638	5	XA4218AL.Alarm	OFF	OPS Fire Alarm Panel Trouble.
+2019-01-31 14:33:00-638	5	QA4218AL.Alarm	OFF	OPS Fire Alarm.
+2019-01-31 14:33:00-638	2	RSSumpPumpHOAAL.Alarm	OFF	Rail Spur Sump Pumps HOA (Auto/Remote) Alarm.
+2019-01-31 14:33:00-638	5	PAL4202AL.Alarm	OFF	Lower Plant Water Pressure Low Alarm.
+2019-01-31 14:33:00-638	5	LSHH4049ALM.Alarm	OFF	West Pit Containment Water HiHi.
+2019-01-31 14:33:00-638	20	QA4002AL.Alarm	OFF	Compressor Building Fire Alarm.
+2019-01-31 14:33:00-638	20	PALL4048AL.Alarm	OFF	Air Pressure Switch LoLo Alarm.
+2019-01-31 14:33:00-638	20	EA4002AAL.Alarm	OFF	Compressor Building AC Fail.
+2019-01-31 14:33:00-638	20	EA4002BAL.Alarm	OFF	Compressor UPS Building Battery Low.
+2019-01-31 14:33:00-638	0	XA4046AL.Alarm	OFF	Air Dryer Hi Dew Point.
+2019-01-31 14:33:00-638	20	XA4047BAL.Alarm	OFF	Air Compressor General Shutdown.
+2019-01-31 14:33:00-638	20	XA4047CAL.Alarm	OFF	Air Compressor General Warning.
+2019-01-31 14:33:00-638	20	XA4047DAL.Alarm	OFF	Air Compressor Auto Operation.
+2019-01-31 14:33:00-638	20	XL4052AL.Alarm	OFF	Lubes Air System Active Alarm.
+2019-01-31 14:33:01-654	20	AX_SYS.log_count_all_warning	ON	.
+2019-01-31 14:33:01-654	20	AX_SYS.log_count_all_alarm	ON	.
+2019-01-31 14:33:03-888	4	XV3082.PTINAL	OFF	Tank 3296 Inlet Shutoff Valve.Command Disagree Alarm
+2019-01-31 14:33:05-311	5	RSSumpPumpAL.Alarm	OFF	Rail Spur Sump Pumps Inoperable Alarm.
+2019-01-31 14:33:05-717	20	AX_SYS.log_count_all_warning	OFF	.
+2019-01-31 14:33:05-717	20	AX_SYS.log_count_all_alarm	OFF	.

@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<title>Internal Control</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h2><a name="top"></a><big><strong><big><big>Internal Control</big></big></strong></big></h2>
+
+<p><big>The internal logic for the PID controller are detailed in the Logic hyperlink
+below. The following notes describes the important logic calculations and the logic
+features of the PID controller. For precise details please review the logic pages.</big></p>
+
+<p><big>The logic for the PID controller is calculated from Logic Page 1 through to Logic
+Page 9. In addition in each page the logic is calculated from left to right and from the
+top to the bottom. The order of calculation is very important because a parameter may be
+calculated several times and the last calculation performed on the parameter is the final
+value for the PLC cycle.<big> </big></big>
+
+<ol style="font-weight: bold" type="A">
+  <li><big><strong>Logic Page 1</strong></big></li>
+</ol>
+
+<blockquote>
+  <p><big>When the Shutdown mode is initiated the setpoint for the PID controller is placed
+  into the minimum setpoint value <strong>(setpoint_in.MIN_SCALE</strong>). This is usually
+  0 but is determined from the PID configuration.</big></p>
+  <p><big>In addition, the disturbance value (<strong>dv</strong>) is scaled to the control
+  outputs minimum and maximum values and it is normalized into a percent value.</big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="2">
+  <li><big>Logic Page 2</big></li>
+</ol>
+
+<blockquote>
+  <p><big>The setpoint rampup and rampdown values is determined in this logic page. The
+  maximum that the setpoint can increase or decrease in each PLC cycle set in the <strong>sp_inc_max</strong>
+  parameter. See also the runup and rundown times in the <a href="graphic.htm">Graphical
+  Interface</a> section. The formula that determines the rampup or rampdown times is:</big></p>
+  <p align="center"><big><big><strong>Increment = (Max_Scale &#150; Min_Scale) *
+  PLC_cycle_time/ramp_time &nbsp;</strong></big></big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="3">
+  <li><p align="left"><big>Logic Page 3</big></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>The <strong>value_in</strong> (measured input value) is filtered by a
+  rolling average. On addition the error is calculated (setpoint - actual value) and if the
+  error is less than a deadband value the error is set to 0. This prevents the PID
+  controller from cycling when the error is small. </big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="4">
+  <li><p align="left"><big>Logic Page 4 and Logic Page 5</big></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>The Proportional, Integral and Derivative terms are calculated in
+  these logic pages. </big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="5">
+  <li><p align="left"><big>Logic Page 6 and Logic Page 7</big></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>The control output is calculated in these logic pages. The control
+  output is limited to a value between in the minimum and maximum limits. If the PID
+  controller is placed into freeze mode the control output is held at its last value.
+  &nbsp;&nbsp; </big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="6">
+  <li><p align="left"><big>Logic Page 8</big></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>The control output is limited to a maximum absolute change. The
+  control output can only change by <strong>control_inc_max</strong> as determined from the<strong>
+  tu_con</strong> (time to change the control output from its minimum to maximum value) and <strong>td_con</strong>
+  ( time to change the control output from its maximum to minimum values) parameters. The
+  controller rampup or rampdown times is determined from the formula above.</big></p>
+</blockquote>
+
+<ol style="font-weight: bold" type="A" start="7">
+  <li><p align="left"><big>Logic Page 9</big></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p align="left"><big>Internal PID registers are initialized for the next PID cycle
+  calculation.</big></p>
+</blockquote>
+
+<hr>
+
+<p align="center"><font face="Arial">[ </font><big><a href="pid_lag.htm#Home">Home</a> | <a
+href="#top">Top of Page</a> | <a href="pid_lag.htm#Content">Contents</a></big><font
+face="Arial"> ]</font> </p>
+</body>
+</html>

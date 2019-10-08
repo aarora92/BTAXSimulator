@@ -1,0 +1,14 @@
+RailSpurTankHIText [Text Normal]	HI
+RailSpurTankHIText [Text Activ]	HI
+RSFPSilenceButton [Text Normal]	Silence
+RSFPSilenceButton [Text Activ]	Silence
+RSFPConfirmButton [Text Normal]	Button
+RSFPConfirmButton [Text Activ]	Confirm
+RSFPResetButton [Text Normal]	Reset
+RSFPResetButton [Text Activ]	Reset
+TrendButton1 [Text Normal]	UVIR East Trends
+TrendButton1 [Text Activ]	UVIR East Trends
+TrendButton2 [Text Normal]	UVIR West Trends
+TrendButton2 [Text Activ]	UVIR West Trends
+TrendButton3 [Text Normal]	Sump Pump Trends
+TrendButton3 [Text Activ]	Sump Pump Trends

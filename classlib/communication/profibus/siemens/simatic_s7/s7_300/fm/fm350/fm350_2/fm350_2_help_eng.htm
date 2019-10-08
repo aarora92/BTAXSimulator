@@ -1,0 +1,198 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>"basic parameter"</TITLE>
+<META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<B><FONT FACE="Arial" SIZE=4><P>"Basic Parameter"</P>
+</B></FONT><FONT FACE="Courier New" SIZE=2><P>You can carry out a basic parameterization in the register "basic parameter" for function components/communications processors. The following parameters e.g. can be appeared:</P>
+<P>&nbsp;</P>
+</FONT><B><I><FONT FACE="Arial"><P>EnableAlarm:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>Choose whether the function component should cause an alarm during an alarm event (diagnostic events or process alarm-releasing event).</P>
+</FONT><B><I><FONT FACE="Arial"><P>&nbsp;</P>
+<P>SelectAlarm:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>Select that the alarms which release function components:</P>
+<P>&#9;· no_alarm</P>
+<P>&#9;· diagnostic (release one diagnotic alarm during a diagnostic event)</P>
+<P>&#9;· process (it causes a process alarm during specific events - dependent from the technology function in the unit)</P>
+<P>&#9;· diagnostic and process</P>
+<P>Please, take from the documentation which events and which alarm is caused to the unit.</P>
+<P>&nbsp;</P>
+</FONT><B><I><FONT FACE="Arial"><P>ReactionCPUStop:</P>
+</B></I></FONT><FONT FACE="Courier New" SIZE=2><P>Select how the function component should react to CPU STOPS:</P>
+<P>&#9;· break</P>
+<P>&#9;· run</P>
+<P>&#9;· force_value</P>
+<P>&#9;· last_value</P>
+<P>Depending on kind of the unit, all mentioned parameters are not variable.</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=4><P>"Parameter"</P>
+</FONT><I><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Parameterizing of a counter:</P>
+</B></I><U><P>Channel:</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>In this dialog field, you can adjust as you would like to define the channels.</P>
+<P>They have the following choices:</P>
+<P>&#9;· channel 0..7 as single counters</P>
+<P>&#9;· channel 0 as dosing counter, channel 4..7 than single counters</P>
+<P>&#9;· channel 0..3 as singel counters, channel 4 than as dosing counter</P>
+<P>&#9;· channel 0 as a dosing counter and channel 4 as adosing counter</P>
+<P>&#9;· selection channel 0..3 as a Namur-transmitter</P>
+<P>&#9;· selection channel 4..7 as a Namur-transmitter</P>
+<P>Further, you can select with User_Type1 and User_Type2 the status, which value for which channel is shown in the field from USER_STAT_WORD.</P>
+<P>From a value, you can select the Low-Word or the High one. </P>
+<P>&nbsp;</P>
+</FONT><U><FONT FACE="Arial"><P>Trasmitter:</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>Proceed as follows:</P>
+<OL>
+<OL>
+
+<LI>Select the signal evaluation of the sender. Those options which are not certified for this specific sender are blocked depending on from your selection. A spaced option is marked by grey writing in the corresponding list box.</LI></OL>
+</OL>
+
+<P>&#9;2.&#9;Select the options, that you use want the selected sender.</P>
+<P>&#9;3.&#9;Activate the "ok" command button.</P>
+<P>They can choose under the following possibilities of signal evaluation:</P>
+<P>&#9;· impuls_and_direction</P>
+<P>&#9;· simple_transmitter (simple evaluation)</P>
+<P>&#9;· twofold_transmitter (twofold evaluation)</P>
+<P>&#9;· fourfold_transmitter (fourfold evaluation)</P>
+<P>&#9;· rotation_invertet (for countdown)</P>
+<P>Hardware check (only with NAMUR Transmitter):</P>
+<P>&#9;&#9;· on</P>
+<P>&#9;&#9;· off</P>
+<P>counting_direction (only while the operating modes "uniquely_count", "periodisch_count" and "dosing"):</P>
+<P>&#9;&#9;· forward</P>
+<P>&#9;&#9;· backwards</P>
+<P>Hysteresis:</P>
+<P>&#9;&#9;1 to 255</P>
+</FONT><U><FONT FACE="Arial"><P>Operating mode:</P>
+</U></FONT><FONT FACE="Courier New" SIZE=2><P>The following operating modes are available to you:</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>continuous_count:</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>The counter_device counts infinitely in this operating mode from current counter reading (initial_value). The initial value is set as default to 0.&#9;Did the counter achieve the upper counting boundary and does a further metering pulse come in such a way, the counter jumps onto the lower counting boundary and does it begin again to sum up the metering pulses; therefore, he further counts infinitely.&#9;The counter achieved the lower counting boundary and a further metering pulse comes in such a way, he jumps onto the upper counting boundary and count further from there from backwards.</P>
+<P>The valid counting area is between -2147483648 to 2147483647 (-231 to 231-1). They can not modify this counting area.</P>
+<P>Reference: This operating mode is the default setting of FM350-2 for all 8 channels.</P>
+<P>You can also employ the HW_gate besides to the SW_gate. Both gates then perform as a logic AND-operation. If one of the gates is closed, the counting process can either broken off (i.e. the next counting process after opening the gate begins with 0) or intermittent are (i.e. the next counting course of process begins at the current count).</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>uniquely_count:</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In this operating mode, the device counts uniquely to the parameterized end point in the main counting direction from 0 or in is counting backwards from the parameterized initial value to 0. Does the counter achieve end point -1 in main counting direction forward and does a further metering pulse come the counter is put to 0 as and the counting process ended. Does the tally achieve value 1 in main counting direction backwards and does a further metering pulse come in such a way, the counter is put to the initial value and the counting course of events ended. They can also employ the HW_gate besides to the SW_gate. Both gates then perform as a logic AND-operation. If one of the gates is closed, the counting course of events can either broken off (i.e. the next counting course of events after opening the gate begins with 0) or intermittent are (i.e. the next counting course of events begins at the current count).</P>
+<P>Counting area: The maximum counting area is between 0 and 214748647. you can modify this value through handicap of a starting/end point.</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>periodically_count:</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In this operating mode, the tally counts to end point -1 and/or to main counting direction] from initial value 0 in main counting direction forward backwards from the initial value up to value 1. achieves the tally in main counting direction forward the value end point -1 and gets on a further metering pulse, so is the tally on 0 set and of there from counted. Does the tally achieve value 1 in main counting direction backwards and does a further metering pulse come the tally is put to the initial value as and one counted from there from. You can also employ the HW gate in addition to the SW gate. Both gates then perform as a logic AND-operation.&#9;If one of the gates is closed, the counting course of events can either broken off (i.e. the next counting course of eventsafter opening the gate begins with 0) or intermittent are (i.e. the next counting course of events begins at the current count).</P>
+<P>Counting area: The maximum counting area is between 0 and 214748647. you can modify him through handicap of a starting/end point .</P>
+<P>&#9;&#9;</P>
+</FONT><DFN><P>Frequency_measurement:</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In this operating mode, the counter counts the impulses which arrive in a parameterized time window (n x 10 ms).</P>
+<P>They can adjust the length of the time window (10 msec to 10 sec) as well as of two frequency comparative values (an upper and a lower boundary value). The value of frequency is posted at the end of every time window. If no valid value was still determined, -1 is reported back. If no impulses are counted in a time period, the unit provides with 0 Hz*10-3. You can also employ the HW gate in addition to the SW gate. Both gates then perform as a logic AND-operation. If one of the gates is closed, the counting course of events can either broken off (i.e. the next counting course of events after opening the gate begins with 0) or intermittent are (i.e. the next counting course of events begins at the current count).</P>
+<P>Range of values: The valid value range is between 0 and 214748648 times 10-3 Hz.</P>
+<P>They can parameterize two frequency comparative values, a lower boundary value and an upper boundary value.</P>
+<P>The value range for the lower boundary value is 0 to 9999999 times 10-3 Hz.</P>
+<P>The value range for the upper boundary value is 1 to 10000000 times 10-3Hz.</P>
+<P>&nbsp;</P>
+</FONT><DFN><P>Speed_revolution_measurement:</P>
+</DFN><FONT FACE="Courier New" SIZE=2><P>In this operating mode, the impulses which arrive in a parameterized time window (n &gt; times 10 ms) from a tachogenerator are counted and from this, the rotation speed of the connected engine is computed.</P>
+<P>They may control the length of the time window (10 msec to 10 pp), the number of the impulses per sender turn as well as two rotation speed comparative values]&gt; (an upper and a lower boundary value) may adjust.</P>
+<P>&#9;&#9;&#9;The &lt;M[knack numeric value]&gt; is posted at the end of every &lt;M[time window]&gt;. You receive the determined frequency in the unit of 1 times 10-3 r.p.m. If no valid value was still determined, -1 is reported back. If no impulses are &lt;A[counted|depended]&gt; in a time period, the unit supplies 0 times 10-3 r.p.m.</P>
+<P>&#9;&#9;&#9;They can also employ the &lt;M[HW gate]&gt; &lt;A[besides|in addition]&gt; to the &lt;M[SW gate]&gt;. Both gates then perform as a logic AND-operation.</P>
+<P>&#9;&#9;&#9;If one of the gates is closed, the &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; can either broken off (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; after opening the gate begins &lt;A[in the case of|with]&gt; 0) or intermittent are (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; begins at the current count).</P>
+<P>&nbsp;</P>
+<P>&#9;&#9;&#9;Range of values:</P>
+<P>&#9;&#9;&#9;The valid value range &lt;A[is|reclines]&gt; between 0 and 25000000 times 10-3 r.p.m.</P>
+<P>&#9;&#9;&#9;They can parameterize two &lt;M[rotation speed comparative values]&gt;, a lower boundary value and an upper boundary value.</P>
+<P>&#9;&#9;&#9;The value range for the lower boundary value is 0 to 24999999 times 10-3 r.p.m.</P>
+<P>&#9;&#9;&#9;The value range for the upper boundary value is 1 to 25000000 times 10-3 r.p.m.</P>
+<P>&#9;&#9;&lt;M[Period measurement]&gt;:</P>
+<P>&#9;&#9;&#9;In this operating mode, the &lt;M[tally unit]&gt; does without the exact time between two increasing flanks of the &lt;M[&lt;A[counting|depending]&gt; signal]&gt; when &lt;A[it|she]&gt; &lt;A[counts|depends]&gt; the impulses of an intern crystal-controlled reference frequency (1 MHz).</P>
+<P>&#9;&#9;&#9;The period can only be registered in the adjusted &lt;M[main &lt;A[counting|depending]&gt; direction]&gt;. If a &lt;M[&lt;A[counting|depending]&gt; route reversal]&gt; occurs during the &lt;M[period measurement]&gt;, measurement is ended and value -1 is returned.</P>
+<P>&#9;&#9;&#9;They can also employ the &lt;M[HW gate]&gt; &lt;A[besides|in addition]&gt; to the &lt;M[SW gate]&gt;. Both gates then perform as a logic AND-operation.</P>
+<P>&#9;&#9;&#9;If one of the gates is closed, the &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; can either broken off (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; after opening the gate begins &lt;A[in the case of|with]&gt; 0) or intermittent are (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; begins at the current count).</P>
+<P>&#9;&#9;&#9;Range of values:</P>
+<P>&#9;&#9;&#9;The valid value range &lt;A[is|reclines]&gt; between 0 and 214748648 p The permissible measuring range &lt;A[is|reclines]&gt; between 100 pp and 120 pp (it corresponds to 25000 hertz to to 0,00833 Hz).</P>
+<P>&#9;&#9;&#9;They can parameterize two &lt;M[period comparative values]&gt;, a lower boundary value and an upper boundary value.</P>
+<P>&#9;&#9;&#9;The value range for the lower boundary value is 0 pp to 119.999.999 pp (&lt;U[DWORD]&gt;).</P>
+<P>&#9;&#9;&#9;The value range for the upper boundary value is 100 pp to 120.000.000 pp (&lt;U[DWORD]&gt;).</P>
+<P>&#9;&#9;Proportion:</P>
+<P>&#9;&#9;&#9;In this operating mode, four &lt;M[&lt;A[counting|depending]&gt; channels]&gt; are combined into a &lt;M[proportioning channel]&gt;. &lt;A[At|In the case of]&gt; opened gate, &lt;U[FM]&gt; 350-2 &lt;A[counts|depends]&gt; uniquely.</P>
+<P>&#9;&#9;&#9;They can only select this operating mode for a channel which you put on in the menu "specify channels" as &lt;M[proportioning tallies]&gt;.</P>
+<P>&#9;&#9;&#9;They can also employ the &lt;M[HW gate]&gt; &lt;A[besides|in addition]&gt; to the &lt;M[SW gate]&gt;. Both gates then perform as a logic AND-operation.</P>
+<P>&#9;&#9;&#9;If one of the gates is closed, the &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; can either broken off (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; after opening the gate begins &lt;A[in the case of|with]&gt; 0) or intermittent are (i.e. the &lt;A[nearest|next]&gt; &lt;M[&lt;A[counting|depending]&gt; &lt;A[course of events|process]&gt;]&gt; begins at the current count).</P>
+<P>&nbsp;</P>
+<P>&#9;&#9;&#9;Counting area:</P>
+<P>&#9;&#9;&#9;The maximum counting area &lt;A[is|reclines]&gt; between 0 and 214748647.</P>
+<P>&#9;&#9;&#9;They can default comparative values in this operating mode 4.</P>
+<P>&#9;&#9;Those operating modes which are not permissible are blocked depending on from the adjusted &lt;M[channel selection]&gt;. If permissible, you can parameterize the &lt;M[starting and/or end point]&gt;. The maximum counting area &lt;A[is|reclines]&gt; between -2147483648 and 2147483647 (-231 to 231-1).</P>
+<P>&#9;Parameterize the exits going you as follows before:</P>
+<P>&#9;&#9;1.&#9;Adjust the desired &lt;M[initial behaviour]&gt;.</P>
+<P>&#9;&#9;They can adjust one of 3 possible reflexes at attaining a comparative value.</P>
+<P>&#9;&#9;2.&#9;Select whether you would like to adjust replacement values. In the operating mode "proportioning", you can adjust up to four replacement values, in the other &lt;M[&lt;A[counting|depending]&gt; operating modes]&gt;, you can adjust a replacement value.</P>
+<P>&#9;&#9;Reference:</P>
+<P>&#9;&#9;In the operating modes "frequency measurement", "rotational-speed measurement" and "&lt;M[period measurement]&gt;", you can not parameterize the exits.</P>
+<P>&#9;&lt;M[Alarm releasing]&gt;:</P>
+<P>&#9;&#9;Proceed as follows:</P>
+<P>&#9;&#9;1.&#9;Select the events for which you want to unlock a &lt;M[process alarm]&gt; in this &lt;A[mask|picture]&gt;.</P>
+<P>&#9;&#9;2.&#9;Activate the "ok" command button.</P>
+<P>&#9;&#9;You can select the following events:</P>
+<P>&#9;&#9;· opening the &lt;M[HW gate]&gt;</P>
+<P>&#9;&#9;· clasps of the &lt;M[HW gate]&gt;</P>
+<P>&#9;&#9;· &lt;M[overflow pipe/lower reaches of a river]&gt;</P>
+<P>&#9;&#9;· achieved&lt;M[/measuring end]&gt; of lower reaches of a river (in the operating modes "frequency measurement", "rotational-speed measurement" and "&lt;M[period measurement]&gt;")</P>
+<P>&#9;&#9;· attaining a comparative value (they in the operating modes "&lt;A[count|depend]&gt; continuous" "&lt;A[count|depend]&gt; uniquely" "periodic &lt;A[count|depend]&gt;" and they "proportion")</P>
+<P>&#9;&#9;· falling below the parameterized &lt;A[low limit|lower set bound]&gt; (in the operating modes "frequency measurement", "rotational-speed measurement" and "&lt;M[period measurement]&gt;")</P>
+<P>&#9;&#9;· exceeding the parameterized upper limit (in the operating modes "frequency measurement", "rotational-speed measurement" and "&lt;M[period measurement]&gt;")</P>
+<P>&#9;&#9;Reference:</P>
+<P>&#9;&#9;· you must also unlock for the tally &lt;A[in the case of|with]&gt; the configuration of the hardware &lt;M[alarm generation]&gt; in the &lt;A[mask|picture]&gt; basic setting.</P>
+<P>&#9;&#9;· you can select as many as desired events.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Dialog field "specify channels":</P>
+<P>&#9;In this dialog field, you can adjust as you would like to define the channels.</P>
+<P>&#9;They have the following choices:</P>
+<P>&#9;· channel 0..7 as a &lt;M[single tally]&gt;</P>
+<P>&#9;· channel 0 as &lt;M[proportioning tally]&gt;, channel 4..7 than &lt;M[single tally]&gt;</P>
+<P>&#9;· channel 0..3 as &lt;M[single tally]&gt;, channel 4 than &lt;M[proportioning tally]&gt;</P>
+<P>&#9;· channel 0 as a &lt;M[proportioning tally]&gt; and channel 5 as a &lt;M[proportioning tally]&gt;</P>
+<P>&#9;· &lt;M[tally entry]&gt; channel 0..3 &lt;U[Namur]&gt;</P>
+<P>&#9;· &lt;M[tally entry]&gt; channel 4..7 &lt;U[Namur]&gt;</P>
+<P>&#9;Further, you can into &lt;C[User_Type1]&gt; for the &lt;A[status display|status flag]&gt; and determine &lt;C[User_Type2]&gt;, which value for which channel in the field from &lt;M[unit postal address]&gt; + displacement 8 (0 to 7) (count or measured value) removed is. From a value, you can the &lt;U[Low-Word]&gt; or the &lt;U[High]&gt; either-am or both be filed. They can access these values of "&lt;M[direct tensile tyre]&gt;".</P>
+<P>&nbsp;</P>
+<P>Dialog field "initiation"</P>
+<P>&#9;In this dialog field, you can adjust the parameters required for the test.</P>
+<P>&#9;They have the following setting options:</P>
+<P>&#9;· channel (0 - 7)</P>
+<P>&#9;· further test functions</P>
+<P>&#9;· tallies load</P>
+<P>&#9;· &lt;U[Loadwerte]&gt; load</P>
+<P>&#9;· comparative values load</P>
+<P>&#9;· comparative value</P>
+<P>&#9;The statuses of the operating mode, of the counter reading and of the measured value are announced.</P>
+<P>&#9;The announced "LED'S" announce the following:</P>
+<P>&#9;&lt;C[STS_CMP]&gt;: STATUS comparator</P>
+<P>&#9;&lt;C[STS_DIR]&gt;: STATUS &lt;M[&lt;A[counting|depending]&gt; direction]&gt; tally</P>
+<P>&#9;&lt;C[STS_OFLW]&gt;: STATUS overflow pipe tally</P>
+<P>&#9;&lt;C[STS_UFLW]&gt;: STATUS lower reaches of a river tally</P>
+<P>&#9;&lt;C[STS_DI]&gt;: STATUS &lt;M[digital entry]&gt;</P>
+<P>&#9;&lt;C[STS_DQ]&gt;: STATUS &lt;M[digital exit]&gt;</P>
+<P>&#9;&lt;C[STS_GATE]&gt;: Gate intern status</P>
+<P>&#9;Over the following command buttons can you specific functions at- and/or give up:</P>
+<P>&#9;&lt;C[CTRL_DQ]&gt;: Releasing the &lt;M[digital exits]&gt;</P>
+<P>&#9;&lt;C[SET_DQ]&gt;: Entering the &lt;M[digital exits]&gt;</P>
+<P>&#9;&lt;C[SW_GATE]&gt;: &lt;M[Software gate]&gt; &lt;U[oeffnen/schliessen]&gt;</P>
+<P>&#9;&lt;U[TFB]&gt;: &lt;M[PG company]&gt; is acting</P>
+<P>&#9;&lt;C[RES_STS]&gt;: &lt;A[Reset|Rewind]&gt; &lt;M[status signals]&gt;</P>
+<P>Dialog field "&lt;M[mistake evaluation]&gt;":</P>
+<P>&#9;In this dialog field, mistakes occurred while testing are announced.</P>
+<P>&#9;If you activate the command button updating, the current mistakes are read out.</P>
+<P>Dialog field "service":</P>
+<P>This dialog field shows by means of LED'S which functions are activated.</P>
+<P>&#9;The following LED'S are available:</P>
+<P>&#9;· parameterized</P>
+<P>&#9;· FM new start</P>
+<P>&#9;· FM new start receipts</P>
+<P>&#9;· Error</P>
+<P>&#9;· date interpretation runs</P>
+<P>&#9;· write authorization for PG</P></FONT></BODY>
+</HTML>

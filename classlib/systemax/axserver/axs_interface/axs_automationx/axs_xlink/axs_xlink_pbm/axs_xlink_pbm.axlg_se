@@ -1,0 +1,54 @@
+Channel0 [Text Normal]	$Instance
+Channel0 [Text Activ]	Text
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Profibus [Text Normal]	Profibus
+Profibus [Text Activ]	Text
+PBSW [Text Normal]	Current Error :
+PBSW [Text Activ]	Text
+PBStatus [Text Normal]	Current Status :
+PBStatus [Text Activ]	Text
+PBParameter [Text Normal]	Parameter
+PBParameter [Text Activ]	Parameter
+PBActiveDevices [Text Normal]	Active Slaves
+PBActiveDevices [Text Activ]	Text
+PBInputData [Text Normal]	Input Data
+PBInputData [Text Activ]	Text
+PBOutputData [Text Normal]	Output Data
+PBOutputData [Text Activ]	Text
+PBConfigSlaves [Text Normal]	Conf. Slaves
+PBConfigSlaves [Text Activ]	Text
+PBShadowStatus [Text Normal]	Shadow Status :
+PBShadowStatus [Text Activ]	Text
+Address [Text Normal]	Address
+Address [Text Activ]	Text
+SlotTime [Text Normal]	Slot Time
+SlotTime [Text Activ]	Text
+BaudRate [Text Normal]	Baud Rate
+BaudRate [Text Activ]	Text
+tsdrmax [Text Normal]	tsdr_max
+tsdrmax [Text Activ]	Text
+tsdrmin [Text Normal]	tsdr_min
+tsdrmin [Text Activ]	Text
+ttr [Text Normal]	ttr
+ttr [Text Activ]	Text
+ResetSetNewPBParameter [Text Normal]	Reset --> Set new PB Parameter
+ResetSetNewPBParameter [Text Activ]	Reset
+gap [Text Normal]	gap
+gap [Text Activ]	Text
+hsa [Text Normal]	hsa
+hsa [Text Activ]	Text
+ProfibusParameter [Text Normal]	Profibus Parameter
+ProfibusParameter [Text Activ]	Text
+PPHelp [Text Normal]	Help
+PPHelp [Text Activ]	Help
+PPExit [Text Normal]	Exit
+PPExit [Text Activ]	Exit
+max_retry_limit [Text Normal]	max_retry_limit
+max_retry_limit [Text Activ]	Text
+setup_time [Text Normal]	setup_time
+setup_time [Text Activ]	Text
+quit_time [Text Normal]	quiet_time
+quit_time [Text Activ]	Text

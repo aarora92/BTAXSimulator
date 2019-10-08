@@ -1,0 +1,1774 @@
+2016-11-01 11:09:29-247	0	PIC4041.control_visual	100 %	10" RSD Control Valve	EDock	156.44.212.34
+2016-11-01 11:09:30-848	0	PIC4041.freeze	on	10" RSD Control Valve	EDock	156.44.212.34
+2016-11-01 11:15:21-161	0	PIC4041.freeze	off	10" RSD Control Valve	EDock	156.44.212.34
+2016-11-01 11:15:21-761	0	PIC4041.man	off	10" RSD Control Valve	EDock	156.44.212.34
+2016-11-01 13:09:30-092	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-01 13:09:32-893	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-01 13:10:47-114	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-01 13:11:16-532	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-01 15:22:57-356	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-01 15:22:57-956	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-01 15:22:58-556	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-01 15:22:59-157	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-01 17:10:31-869	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-01 17:10:40-471	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-01 17:11:32-888	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-01 17:11:48-292	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-02 00:58:49-769	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-02 00:59:36-184	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-02 01:00:18-198	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-02 01:01:13-823	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-02 01:06:42-591	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-02 01:06:44-992	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-02 01:07:17-402	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-02 01:08:15-617	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-02 05:41:40-849	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-02 05:41:41-449	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-02 05:41:41-849	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-02 05:41:42-450	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-02 11:50:43-460	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 11:50:49-862	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 11:51:36-879	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 11:51:37-679	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 11:53:34-330	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:17:23-277	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:17:48-084	0	PIC4011.control_visual	78 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:18:05-888	0	PIC4011.control_visual	69 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:18:06-888	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:20:26-139	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:20:32-741	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:20:33-741	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:21:38-957	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:21:39-957	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:22:47-372	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:22:48-372	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:22:59-375	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:22:59-975	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:23:07-377	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:23:08-177	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:23:36-984	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:23:52-989	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:25:28-214	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:12-912	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:16-713	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:17-513	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:19-113	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:51-935	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:29:53-336	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:30:22-946	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:32:09-772	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:38:21-074	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:38:22-675	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:38:45-879	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:38:46-279	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:38:46-880	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:39:20-288	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:39:22-289	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:39:22-889	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-02 15:39:28-890	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-03 05:32:02-847	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 05:38:18-778	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 05:38:25-581	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 05:38:32-183	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-03 06:53:23-475	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-03 08:26:33-017	0	J3006B_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 08:26:34-418	0	J3006A_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 08:26:35-618	0	J3019_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 08:26:36-618	0	J3020_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 08:31:03-915	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:31:30-723	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:32:07-336	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:32:24-542	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 08:33:56-191	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 08:34:12-396	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:34:23-799	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 08:34:58-613	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:35:03-415	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 08:35:21-822	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 08:35:45-028	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 08:44:24-032	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 09:08:18-074	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 09:08:23-876	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 09:08:42-280	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 09:10:10-524	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 09:10:50-535	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 09:11:10-740	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-03 09:11:27-751	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 09:11:43-356	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 09:11:57-361	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 09:26:36-711	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 09:27:10-538	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 09:27:17-541	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-03 09:27:47-150	0	PI3034.trip_lo	15.0 PSI	Import Pumps - RSD Suction Pressure	guest	10.26.37.168
+2016-11-03 09:27:49-950	0	PI3034.enable_lo	off	Import Pumps - RSD Suction Pressure	guest	10.26.37.168
+2016-11-03 15:41:06-264	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 15:41:21-469	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 15:41:23-669	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 15:41:27-270	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 15:46:56-008	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 15:57:04-722	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 16:14:54-076	0	RSD_WDimport_req	off	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-03 16:14:58-681	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 18:40:36-962	0	PIC4041.control_visual	100 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 18:40:37-563	0	PIC4041.freeze	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 18:40:39-363	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 18:40:52-566	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 18:54:15-443	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 18:54:19-044	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 18:54:22-846	0	PIC4041.freeze	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 18:54:25-847	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 18:54:28-649	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-03 19:26:53-174	0	J3006B_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:53-774	0	J3006A_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:54-374	0	J3019_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:54-974	0	J3020_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:55-774	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:56-375	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:57-175	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:26:57-775	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-03 19:28:32-819	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-03 19:28:39-221	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-03 19:29:59-465	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-03 19:30:07-669	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-03 23:31:32-156	0	PI3033.trip_lo	19.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:32-557	0	PI3033.trip_lo	19.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:32-957	0	PI3033.trip_lo	19.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:33-357	0	PI3033.trip_lo	19.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:33-757	0	PI3033.trip_lo	19.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:34-157	0	PI3033.trip_lo	19.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:34-758	0	PI3033.trip_lo	19.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:35-158	0	PI3033.trip_lo	19.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:35-958	0	PI3033.trip_lo	19.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:36-559	0	PI3033.trip_lo	19.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:36-959	0	PI3033.trip_lo	18.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:37-359	0	PI3033.trip_lo	18.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:37-759	0	PI3033.trip_lo	18.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:38-159	0	PI3033.trip_lo	18.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:38-760	0	PI3033.trip_lo	18.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:39-160	0	PI3033.trip_lo	18.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:39-760	0	PI3033.trip_lo	18.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:40-161	0	PI3033.trip_lo	18.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:40-561	0	PI3033.trip_lo	18.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:41-162	0	PI3033.trip_lo	18.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:41-562	0	PI3033.trip_lo	17.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:41-962	0	PI3033.trip_lo	17.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:42-562	0	PI3033.trip_lo	17.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:42-963	0	PI3033.trip_lo	17.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:43-363	0	PI3033.trip_lo	17.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:43-963	0	PI3033.trip_lo	17.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:44-363	0	PI3033.trip_lo	17.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:44-764	0	PI3033.trip_lo	17.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:45-364	0	PI3033.trip_lo	17.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:45-764	0	PI3033.trip_lo	17.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:46-365	0	PI3033.trip_lo	16.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:46-765	0	PI3033.trip_lo	16.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:47-365	0	PI3033.trip_lo	16.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:47-965	0	PI3033.trip_lo	16.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-03 23:31:48-966	0	PI3033.trip_lo	16.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-04 02:25:28-479	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-04 02:25:55-091	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-04 02:26:19-098	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-04 02:26:22-499	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-04 02:30:35-394	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-04 02:30:37-795	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-04 02:30:52-598	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-04 02:31:41-211	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-04 12:42:26-581	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:27-581	0	PIC4041.control_visual	42 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:28-582	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:28-982	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:29-382	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:29-982	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:30-382	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:31-382	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:32-183	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:32-783	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:33-183	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:33-583	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:34-583	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:34-983	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:35-383	0	PIC4041.control_visual	29 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:35-983	0	PIC4041.control_visual	28 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:37-988	0	PIC4041.control_visual	27 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:38-388	0	PIC4041.control_visual	26 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:38-988	0	PIC4041.control_visual	25 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:39-789	0	PIC4041.control_visual	24 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:40-189	0	PIC4041.control_visual	23 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:42:40-789	0	PIC4041.control_visual	22 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:43:44-208	0	PIC4041.control_visual	23 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:43:45-008	0	PIC4041.control_visual	24 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:43:46-008	0	PIC4041.control_visual	25 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 12:45:07-830	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:13-950	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:14-750	0	PIC4041.control_visual	42 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:15-150	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:15-750	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:16-350	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:16-750	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:17-351	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:17-751	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:18-351	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:19-551	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:19-951	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:20-351	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:20-751	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:21-151	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:16:21-551	0	PIC4041.control_visual	29 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-04 13:17:38-374	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:00-605	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:03-407	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:04-807	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:19-812	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:20-412	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:30-415	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:30-815	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:31-215	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:32-616	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:54:33-816	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:55:03-826	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:55:04-626	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 14:55:07-627	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 15:06:24-690	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-05 16:03:23-684	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-07 11:57:44-038	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-07 11:57:46-838	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-07 11:58:19-248	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-07 11:59:35-476	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-07 12:11:11-136	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-07 12:11:12-336	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-07 12:12:54-365	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-07 12:14:08-995	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-07 12:26:08-525	0	PI3033.trip_lo	19.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:08-925	0	PI3033.trip_lo	19.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:09-325	0	PI3033.trip_lo	19.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:09-725	0	PI3033.trip_lo	19.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:10-726	0	PI3033.trip_lo	19.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-326	0	PI3033.trip_lo	19.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-526	0	PI3033.trip_lo	19.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-526	0	PI3033.trip_lo	19.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-726	0	PI3033.trip_lo	19.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-726	0	PI3033.trip_lo	18.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:11-926	0	PI3033.trip_lo	17.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:12-926	0	PI3033.trip_lo	17.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:13-126	0	PI3033.trip_lo	16.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 12:26:13-126	0	PI3033.trip_lo	16.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-07 20:28:47-192	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-07 20:29:40-206	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-07 20:30:01-212	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-07 20:30:06-414	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-07 20:36:41-737	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-07 20:40:22-829	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-07 20:40:27-630	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-07 20:41:26-067	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-07 20:58:53-545	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-07 20:58:54-745	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-07 20:58:55-946	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-07 20:58:57-346	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 07:04:15-073	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-08 07:04:19-074	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-08 10:09:42-997	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:09:43-798	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:09:44-598	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:09:45-798	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:22-208	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:23-008	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:23-808	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:24-608	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:25-808	0	J3006B_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:26-609	0	J3006A_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:27-609	0	J3019_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:28-609	0	J3020_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:31-010	0	J3006B_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:31-610	0	J3006A_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:32-410	0	J3019_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 10:10:33-011	0	J3020_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-08 12:23:05-932	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:23:07-733	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:23:11-538	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:23:13-938	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:24:19-359	0	RSFPResetReq	on	Rail Spur Fire Panel Reset Request	WDock	156.44.212.35
+2016-11-08 12:24:20-559	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:24:36-162	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:24:57-770	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:25:01-975	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:25:06-576	0	RSFPResetReq	on	Rail Spur Fire Panel Reset Request	WDock	156.44.212.35
+2016-11-08 12:25:12-777	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:26:51-006	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:27:03-411	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:27:28-221	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:27:29-621	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:28:12-834	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	WDock	156.44.212.35
+2016-11-08 12:28:15-234	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 12:28:22-835	0	RSFPResetReq	on	Rail Spur Fire Panel Reset Request	WDock	156.44.212.35
+2016-11-08 12:28:24-236	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	WDock	156.44.212.35
+2016-11-08 13:23:10-359	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-08 16:06:34-271	0	PIC4021.man	off	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-08 22:49:18-923	0	RSFPResetReq	on	Rail Spur Fire Panel Reset Request	guest	10.26.38.97
+2016-11-08 22:49:23-124	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	guest	10.26.38.97
+2016-11-10 07:40:43-904	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-10 07:40:48-309	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-10 07:41:02-321	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-10 07:42:13-541	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-10 07:54:30-840	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 07:54:32-441	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 07:54:37-042	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 07:54:38-843	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 07:58:04-910	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-10 07:58:08-912	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-10 07:59:13-345	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-10 07:59:16-346	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-10 08:14:04-873	0	PI3033.trip_lo	19.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:05-473	0	PI3033.trip_lo	19.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:06-073	0	PI3033.trip_lo	19.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:06-473	0	PI3033.trip_lo	19.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:06-873	0	PI3033.trip_lo	19.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:08-474	0	PI3033.trip_lo	19.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:08-674	0	PI3033.trip_lo	19.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:09-074	0	PI3033.trip_lo	19.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:09-474	0	PI3033.trip_lo	19.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:09-875	0	PI3033.trip_lo	19.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:10-475	0	PI3033.trip_lo	18.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:10-875	0	PI3033.trip_lo	18.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:11-475	0	PI3033.trip_lo	18.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:11-875	0	PI3033.trip_lo	18.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:12-275	0	PI3033.trip_lo	18.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:12-675	0	PI3033.trip_lo	18.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:13-076	0	PI3033.trip_lo	18.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:13-476	0	PI3033.trip_lo	18.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:13-876	0	PI3033.trip_lo	18.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:14-476	0	PI3033.trip_lo	18.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:14-876	0	PI3033.trip_lo	17.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:15-476	0	PI3033.trip_lo	17.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:17-077	0	PI3033.trip_lo	17.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:17-677	0	PI3033.trip_lo	17.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:18-077	0	PI3033.trip_lo	17.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:18-677	0	PI3033.trip_lo	17.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:19-077	0	PI3033.trip_lo	17.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:19-678	0	PI3033.trip_lo	17.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:22-279	0	PI3033.trip_lo	17.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:22-679	0	PI3033.trip_lo	17.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:23-480	0	PI3033.trip_lo	16.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:24-080	0	PI3033.trip_lo	16.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:24-480	0	PI3033.trip_lo	16.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:25-080	0	PI3033.trip_lo	16.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:25-480	0	PI3033.trip_lo	16.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:25-880	0	PI3033.trip_lo	16.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:26-481	0	PI3033.trip_lo	16.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:26-881	0	PI3033.trip_lo	16.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:27-681	0	PI3033.trip_lo	16.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 08:14:29-482	0	PI3033.trip_lo	16.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-10 15:35:29-398	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-10 15:35:33-001	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-10 15:35:41-404	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-10 15:37:17-843	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-10 15:38:00-657	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 15:38:15-461	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 15:38:16-261	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 15:38:18-262	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-10 15:44:18-567	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-10 15:44:21-767	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-10 15:44:24-569	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-10 15:47:52-839	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-11 10:40:30-257	0	PMP3022	on	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-11 11:21:40-422	0	PMP3022	off	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-11 14:53:11-573	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-11 14:53:19-575	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-11 14:53:37-187	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-11 14:53:37-787	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-11 14:53:38-387	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-11 14:55:00-215	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:18:03-682	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:18:06-683	0	PIC4011.control_visual	28 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:18:35-091	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:18:36-491	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:19:00-098	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:19:01-499	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:21:24-365	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:21:26-566	0	PIC4011.control_visual	29 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-12 18:22:01-777	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:55:51-502	0	PIC4021.man	on	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:55:53-303	0	PIC4021.control_visual	41 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:43-539	0	PIC4021.control_visual	40 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:44-339	0	PIC4021.control_visual	37 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:44-339	0	PIC4021.control_visual	36 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:44-739	0	PIC4021.control_visual	35 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:45-140	0	PIC4021.control_visual	34 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:46-341	0	PIC4021.control_visual	33 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:46-741	0	PIC4021.control_visual	32 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:47-542	0	PIC4021.control_visual	31 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:48-142	0	PIC4021.control_visual	30 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:48-543	0	PIC4021.control_visual	29 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:49-143	0	PIC4021.control_visual	28 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:52-946	0	PIC4021.control_visual	27 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:53-547	0	PIC4021.control_visual	26 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:54-547	0	PIC4021.control_visual	25 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:54-947	0	PIC4021.control_visual	24 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:56-949	0	PIC4021.control_visual	23 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:57-349	0	PIC4021.control_visual	22 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:58-350	0	PIC4021.control_visual	21 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:56:58-750	0	PIC4021.control_visual	20 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 10:58:17-170	0	PIC4021.man	off	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:57:01-329	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:57:24-335	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:19-749	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:21-350	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:21-750	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:22-350	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:22-950	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:23-550	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:32-152	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:32-752	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:43-955	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:44-555	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:44-955	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:58-758	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:59-358	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:58:59-958	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:00-359	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:00-959	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:24-964	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:26-364	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:26-764	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:27-565	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 14:59:47-571	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-13 15:10:53-185	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-14 07:06:35-790	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-14 07:06:38-992	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-14 07:06:42-394	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-14 07:06:55-803	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-14 07:20:26-931	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 07:20:27-931	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 07:20:28-932	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 07:20:29-732	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 07:22:54-776	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-14 07:23:02-980	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-14 07:23:18-589	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-14 07:23:27-994	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-14 15:05:46-148	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-14 15:05:51-950	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-14 15:06:46-168	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-14 15:06:47-968	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-14 15:07:25-388	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 15:07:26-388	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 15:07:27-189	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 15:07:29-989	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-14 15:12:51-321	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-14 15:12:54-923	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-14 15:12:59-127	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-14 15:13:08-734	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-15 11:51:20-152	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-15 11:51:29-555	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:47-798	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:50-803	0	PIC4011.control_visual	99 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:51-403	0	PIC4011.control_visual	98 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:51-803	0	PIC4011.control_visual	97 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:54-004	0	PIC4011.control_visual	96 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:55-204	0	PIC4011.control_visual	95 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:55-604	0	PIC4011.control_visual	94 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:48:58-605	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:49:27-821	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:49:28-221	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:49:28-622	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 15:49:29-222	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-15 17:58:40-835	0	RSFPResetReq	on	Rail Spur Fire Panel Reset Request	guest	10.26.38.97
+2016-11-15 17:58:42-235	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	guest	10.26.38.97
+2016-11-15 17:58:44-036	0	RSFPSilenceReq	on	Rail Spur Fire Panel Silence Request	guest	10.26.38.97
+2016-11-15 17:58:46-036	0	RSFPConfirm	on	Rail Spur Fire Panel Confirm Silence/Reset	guest	10.26.38.97
+2016-11-16 16:45:23-325	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:25-926	0	PIC4011.control_visual	99 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:26-926	0	PIC4011.control_visual	98 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:28-127	0	PIC4011.control_visual	97 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:30-929	0	PIC4011.control_visual	96 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:32-130	0	PIC4011.control_visual	95 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:35-933	0	PIC4011.control_visual	94 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:37-134	0	PIC4011.control_visual	93 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:38-135	0	PIC4011.control_visual	92 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:39-336	0	PIC4011.control_visual	91 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:40-337	0	PIC4011.control_visual	90 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:48-340	0	PIC4011.control_visual	89 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:48-941	0	PIC4011.control_visual	88 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:50-141	0	PIC4011.control_visual	87 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:54-345	0	PIC4011.control_visual	86 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:45:55-145	0	PIC4011.control_visual	85 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:02-748	0	PIC4011.control_visual	84 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:03-748	0	PIC4011.control_visual	83 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:04-748	0	PIC4011.control_visual	82 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:05-349	0	PIC4011.control_visual	81 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:06-349	0	PIC4011.control_visual	80 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:24-954	0	PIC4011.control_visual	79 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:25-554	0	PIC4011.control_visual	78 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:26-154	0	PIC4011.control_visual	77 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:26-754	0	PIC4011.control_visual	76 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:27-554	0	PIC4011.control_visual	75 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:32-756	0	PIC4011.control_visual	74 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:33-356	0	PIC4011.control_visual	73 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:33-957	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:34-557	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:35-157	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:43-359	0	PIC4011.control_visual	68 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:43-959	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:44-559	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:44-959	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:45-559	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:46-160	0	PIC4011.control_visual	63 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:46-560	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:47-160	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:46:47-560	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:03-364	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:03-764	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:04-164	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:05-165	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:05-765	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:06-365	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:07-165	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:07-565	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:08-165	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:47:08-566	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 16:51:27-505	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:06-502	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:07-503	0	PIC4031.control_visual	99 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:07-903	0	PIC4031.control_visual	98 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:08-503	0	PIC4031.control_visual	97 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:08-903	0	PIC4031.control_visual	96 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:09-503	0	PIC4031.control_visual	95 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:10-103	0	PIC4031.control_visual	94 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:10-703	0	PIC4031.control_visual	93 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:11-304	0	PIC4031.control_visual	92 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:11-904	0	PIC4031.control_visual	91 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:12-504	0	PIC4031.control_visual	90 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:12-904	0	PIC4031.control_visual	89 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:13-504	0	PIC4031.control_visual	88 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:14-104	0	PIC4031.control_visual	87 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:14-705	0	PIC4031.control_visual	86 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:15-305	0	PIC4031.control_visual	85 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:15-905	0	PIC4031.control_visual	84 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:16-705	0	PIC4031.control_visual	70 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:17-105	0	PIC4031.control_visual	69 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:17-705	0	PIC4031.control_visual	68 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:18-506	0	PIC4031.control_visual	67 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:18-906	0	PIC4031.control_visual	66 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 17:29:19-506	0	PIC4031.control_visual	65 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-16 18:01:47-636	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-16 18:02:02-043	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-16 18:02:13-246	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-16 18:02:22-248	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-16 18:13:45-921	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-16 18:13:46-321	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-16 18:13:46-722	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-16 18:13:46-922	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-16 18:13:50-123	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-16 18:13:53-125	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-16 18:15:08-157	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-16 18:18:42-021	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-17 02:06:13-449	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 02:06:14-450	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 02:06:14-650	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 02:06:15-050	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 02:06:22-453	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-17 02:06:22-853	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 02:07:44-082	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-17 02:07:48-482	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 02:13:05-770	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 02:13:08-572	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 02:13:27-781	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-17 02:14:11-391	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-17 11:06:12-726	0	Login		User <stjokro> logged in	stjokro	10.26.36.169
+2016-11-17 11:20:31-434	0	Login		User <stjokro> logged in	stjokro	10.26.36.169
+2016-11-17 11:30:51-660	0	PIC4021.man	on	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:30:57-862	0	PIC4021.control_visual	99 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:30:58-262	0	PIC4021.control_visual	98 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:30:58-862	0	PIC4021.control_visual	97 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:30:59-262	0	PIC4021.control_visual	96 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:30:59-862	0	PIC4021.control_visual	95 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:00-263	0	PIC4021.control_visual	94 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:00-863	0	PIC4021.control_visual	93 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:01-463	0	PIC4021.control_visual	92 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:02-064	0	PIC4021.control_visual	91 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:02-664	0	PIC4021.control_visual	90 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:03-264	0	PIC4021.control_visual	89 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:04-465	0	PIC4021.control_visual	88 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:05-065	0	PIC4021.control_visual	87 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:05-465	0	PIC4021.control_visual	86 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:06-065	0	PIC4021.control_visual	85 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:06-465	0	PIC4021.control_visual	84 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:08-266	0	PIC4021.control_visual	83 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:11-267	0	PIC4021.control_visual	82 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:11-867	0	PIC4021.control_visual	81 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:12-468	0	PIC4021.control_visual	80 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:12-868	0	PIC4021.control_visual	79 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:13-468	0	PIC4021.control_visual	78 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:14-068	0	PIC4021.control_visual	77 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:14-468	0	PIC4021.control_visual	76 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:14-869	0	PIC4021.control_visual	75 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:15-469	0	PIC4021.control_visual	74 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:15-869	0	PIC4021.control_visual	73 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:16-669	0	PIC4021.control_visual	72 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:37-489	0	PIC4021.control_visual	71 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:37-889	0	PIC4021.control_visual	70 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:38-690	0	PIC4021.control_visual	69 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:39-090	0	PIC4021.control_visual	68 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:39-690	0	PIC4021.control_visual	67 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:40-291	0	PIC4021.control_visual	66 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:40-691	0	PIC4021.control_visual	65 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:41-092	0	PIC4021.control_visual	64 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:41-692	0	PIC4021.control_visual	63 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:42-092	0	PIC4021.control_visual	62 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:42-493	0	PIC4021.control_visual	61 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:42-893	0	PIC4021.control_visual	60 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:43-494	0	PIC4021.control_visual	59 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:43-894	0	PIC4021.control_visual	58 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:31:44-495	0	PIC4021.control_visual	57 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 11:32:14-911	0	PIC4021.man	off	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:23-929	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:27-730	0	PIC4031.control_visual	99 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:28-330	0	PIC4031.control_visual	98 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:29-330	0	PIC4031.control_visual	93 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:29-730	0	PIC4031.control_visual	92 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:30-130	0	PIC4031.control_visual	91 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:30-530	0	PIC4031.control_visual	90 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:31-130	0	PIC4031.control_visual	89 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:31-530	0	PIC4031.control_visual	88 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:32-331	0	PIC4031.control_visual	87 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:32-731	0	PIC4031.control_visual	86 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:33-131	0	PIC4031.control_visual	85 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:33-731	0	PIC4031.control_visual	84 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:34-131	0	PIC4031.control_visual	83 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:34-531	0	PIC4031.control_visual	82 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:35-131	0	PIC4031.control_visual	81 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:35-531	0	PIC4031.control_visual	80 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:35-931	0	PIC4031.control_visual	79 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:36-531	0	PIC4031.control_visual	78 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:37-131	0	PIC4031.control_visual	77 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:37-532	0	PIC4031.control_visual	76 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:37-932	0	PIC4031.control_visual	75 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:38-332	0	PIC4031.control_visual	74 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:38-932	0	PIC4031.control_visual	73 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:39-532	0	PIC4031.control_visual	72 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:39-932	0	PIC4031.control_visual	71 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:07:40-532	0	PIC4031.control_visual	70 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:28-545	0	PIC4031.control_visual	69 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:29-145	0	PIC4031.control_visual	68 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:29-545	0	PIC4031.control_visual	67 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:30-145	0	PIC4031.control_visual	66 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:30-545	0	PIC4031.control_visual	65 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:30-945	0	PIC4031.control_visual	64 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:31-345	0	PIC4031.control_visual	63 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:31-946	0	PIC4031.control_visual	62 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:32-946	0	PIC4031.control_visual	61 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:33-346	0	PIC4031.control_visual	60 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:33-746	0	PIC4031.control_visual	59 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:34-346	0	PIC4031.control_visual	58 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:34-746	0	PIC4031.control_visual	57 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:35-146	0	PIC4031.control_visual	56 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:35-546	0	PIC4031.control_visual	55 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:35-947	0	PIC4031.control_visual	54 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:39-951	0	PIC4031.control_visual	53 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:40-351	0	PIC4031.control_visual	52 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:41-151	0	PIC4031.control_visual	51 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:41-752	0	PIC4031.control_visual	50 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:57-560	0	PIC4031.control_visual	49 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:57-960	0	PIC4031.control_visual	48 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:58-561	0	PIC4031.control_visual	46 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:58-961	0	PIC4031.control_visual	45 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:59-561	0	PIC4031.control_visual	44 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:08:59-961	0	PIC4031.control_visual	43 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:00-361	0	PIC4031.control_visual	42 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:00-962	0	PIC4031.control_visual	41 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:01-562	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:37-784	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:38-184	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:38-785	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:09:39-586	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:10:00-604	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:18-566	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 13:26:26-971	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 13:26:49-585	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-17 13:26:51-386	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:54-188	0	PIC4011.control_visual	99 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:54-788	0	PIC4011.control_visual	98 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:55-989	0	PIC4011.control_visual	80 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:57-590	0	PIC4011.control_visual	79 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:26:58-190	0	PIC4011.control_visual	78 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:02-393	0	PIC4011.control_visual	73 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:02-993	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:03-794	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:04-194	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:47-631	0	PIC4011.control_visual	69 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:48-231	0	PIC4011.control_visual	68 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:48-631	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:49-232	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:49-832	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:50-432	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:51-433	0	PIC4011.control_visual	63 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:52-033	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:52-834	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:27:53-434	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:38-259	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:39-059	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:39-459	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:40-059	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:40-659	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:41-259	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:42-060	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:28:42-460	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:02-479	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:02-879	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:03-479	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:04-279	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:04-879	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:05-279	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:14-082	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:14-682	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:15-082	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:15-682	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:16-286	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:16-886	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:17-686	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:30:18-887	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:31:31-115	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:46:26-226	0	J3020_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 13:46:27-427	0	J3019_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 13:46:28-628	0	J3006A_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 13:59:29-984	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:33-386	0	PIC4011.control_visual	20 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:34-587	0	PIC4011.control_visual	21 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:35-188	0	PIC4011.control_visual	22 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:35-588	0	PIC4011.control_visual	23 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:35-988	0	PIC4011.control_visual	24 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:37-189	0	PIC4011.control_visual	27 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:38-390	0	PIC4011.control_visual	80 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:39-590	0	PIC4011.control_visual	79 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:40-591	0	PIC4011.control_visual	75 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:40-791	0	PIC4011.control_visual	74 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:41-391	0	PIC4011.control_visual	73 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:42-192	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:42-592	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:43-393	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:43-993	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:44-393	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:44-994	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:45-595	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:46-195	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:46-595	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:46-995	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:47-396	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:48-797	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:49-397	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:50-198	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:50-998	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:51-599	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:52-199	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:52-799	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:53-200	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:54-001	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:54-401	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:55-201	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 13:59:55-602	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 14:03:24-305	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-17 14:08:46-423	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-17 14:15:22-192	0	Login		User <stjokro> logged in	stjokro	10.26.36.169
+2016-11-17 14:26:42-234	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 14:26:43-635	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 14:28:21-291	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-17 14:30:05-741	0	PI3034.trip_lo	15.0 PSI	Import Pumps - RSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-17 14:30:55-558	0	Login		User <guest> logged in	guest	10.26.36.169
+2016-11-17 14:32:36-423	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 14:32:56-033	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 14:55:27-133	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-17 14:57:15-562	0	J3006A_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 14:57:16-763	0	J3019_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 14:57:17-563	0	J3020_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-17 14:57:49-772	0	RSD_WDimport_req	off	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-17 14:57:57-574	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-17 14:58:05-176	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-17 14:58:55-390	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-17 14:58:57-191	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-17 15:05:38-586	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-17 15:05:40-587	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-17 15:05:43-587	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-18 09:59:27-540	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-18 11:17:11-054	0	PIC4041.control_visual	59 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:17-856	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:20-057	0	PIC4041.control_visual	55 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:21-857	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:29-260	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:36-662	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-18 11:17:45-065	0	PIC4041.control_visual	50 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-19 05:35:38-965	0	RSD_WDimport_req	off	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-19 05:35:44-971	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-19 05:36:19-378	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:10-417	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:11-617	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:14-218	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:17-021	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:17-621	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:18-021	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:18-622	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:19-022	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:19-422	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:20-823	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:21-223	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:51:21-823	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:12-848	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:13-448	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:13-848	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:14-248	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:15-249	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:15-649	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:16-249	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:16-649	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:17-049	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:55-465	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:56-465	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:57-665	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:58-266	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:52:58-666	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:00-266	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:11-469	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:12-069	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:12-469	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:12-869	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:13-669	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:14-269	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:15-070	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:15-670	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:16-070	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:16-670	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:17-470	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:18-071	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:20-471	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:22-872	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:23-472	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:25-072	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:25-472	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:25-872	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:26-873	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:30-473	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:31-073	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:32-274	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:32-874	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:33-474	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:35-275	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:35-675	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:36-475	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:53:55-278	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-19 13:54:07-680	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-20 06:05:01-071	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-20 06:05:20-875	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-20 06:05:39-479	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 06:06:05-890	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-20 07:18:23-279	0	J3006B_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:23-879	0	J3006A_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:24-279	0	J3019_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:25-080	0	J3020_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:33-481	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 07:18:47-085	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:47-485	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:48-085	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:48-686	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 07:18:54-687	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 07:19:03-289	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-20 07:19:16-292	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 07:19:37-104	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-20 07:20:15-334	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-20 15:03:50-150	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-20 15:03:51-151	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-20 15:03:51-951	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-20 15:03:52-351	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 15:04:11-955	0	J3006B_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:12-556	0	J3006A_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:12-956	0	J3019_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:13-356	0	J3020_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:13-956	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:14-356	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:14-956	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:04:15-556	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-20 15:09:01-095	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-20 15:09:12-898	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-20 15:09:26-501	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-20 15:09:41-305	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-21 09:50:28-328	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-21 14:05:16-380	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:18-782	0	PIC4031.control_visual	90 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:19-382	0	PIC4031.control_visual	87 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:19-582	0	PIC4031.control_visual	86 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:20-183	0	PIC4031.control_visual	85 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:20-583	0	PIC4031.control_visual	84 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:20-984	0	PIC4031.control_visual	83 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:21-384	0	PIC4031.control_visual	82 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:21-784	0	PIC4031.control_visual	81 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:22-384	0	PIC4031.control_visual	80 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:22-785	0	PIC4031.control_visual	78 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:23-185	0	PIC4031.control_visual	77 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:23-785	0	PIC4031.control_visual	76 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:24-386	0	PIC4031.control_visual	75 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:24-986	0	PIC4031.control_visual	74 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:25-386	0	PIC4031.control_visual	73 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:26-187	0	PIC4031.control_visual	72 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:26-787	0	PIC4031.control_visual	71 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:27-387	0	PIC4031.control_visual	70 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:27-987	0	PIC4031.control_visual	69 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:28-387	0	PIC4031.control_visual	68 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:28-987	0	PIC4031.control_visual	67 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:29-587	0	PIC4031.control_visual	66 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:29-988	0	PIC4031.control_visual	65 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:30-588	0	PIC4031.control_visual	64 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:31-188	0	PIC4031.control_visual	63 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:31-788	0	PIC4031.control_visual	62 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:32-188	0	PIC4031.control_visual	61 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:33-389	0	PIC4031.control_visual	60 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:40-992	0	PIC4031.control_visual	59 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:41-992	0	PIC4031.control_visual	58 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:42-593	0	PIC4031.control_visual	57 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:43-193	0	PIC4031.control_visual	56 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:43-793	0	PIC4031.control_visual	55 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:52-798	0	PIC4031.control_visual	54 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:53-199	0	PIC4031.control_visual	53 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:53-599	0	PIC4031.control_visual	52 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:54-199	0	PIC4031.control_visual	51 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:54-800	0	PIC4031.control_visual	50 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:55-200	0	PIC4031.control_visual	49 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:56-601	0	PIC4031.control_visual	48 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:57-202	0	PIC4031.control_visual	47 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:58-002	0	PIC4031.control_visual	46 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:05:59-203	0	PIC4031.control_visual	45 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:10-410	0	PIC4031.control_visual	44 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:11-011	0	PIC4031.control_visual	43 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:11-411	0	PIC4031.control_visual	42 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:11-811	0	PIC4031.control_visual	41 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:12-211	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:12-612	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:13-012	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:13-612	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:14-013	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:14-613	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:06:42-632	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:26-130	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:28-131	0	PIC4011.control_visual	99 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:28-531	0	PIC4011.control_visual	98 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:29-331	0	PIC4011.control_visual	97 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:29-731	0	PIC4011.control_visual	96 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:30-131	0	PIC4011.control_visual	95 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:30-531	0	PIC4011.control_visual	94 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:30-932	0	PIC4011.control_visual	93 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:31-532	0	PIC4011.control_visual	92 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:31-932	0	PIC4011.control_visual	91 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:32-332	0	PIC4011.control_visual	90 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:32-732	0	PIC4011.control_visual	89 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:33-132	0	PIC4011.control_visual	88 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:33-532	0	PIC4011.control_visual	87 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:34-732	0	PIC4011.control_visual	86 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:35-133	0	PIC4011.control_visual	85 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:35-533	0	PIC4011.control_visual	84 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:35-733	0	PIC4011.control_visual	83 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:36-133	0	PIC4011.control_visual	82 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:36-533	0	PIC4011.control_visual	81 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:36-933	0	PIC4011.control_visual	80 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:37-333	0	PIC4011.control_visual	79 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:37-934	0	PIC4011.control_visual	75 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:38-134	0	PIC4011.control_visual	74 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:38-534	0	PIC4011.control_visual	73 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:38-934	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:39-335	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:39-935	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:40-335	0	PIC4011.control_visual	69 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:10:41-135	0	PIC4011.control_visual	68 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:26-949	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:27-349	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:27-749	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:28-150	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:28-550	0	PIC4011.control_visual	63 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:29-550	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:30-150	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:11:31-350	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:55-583	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:55-984	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:56-384	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:56-785	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:57-185	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:57-585	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:57-986	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:58-386	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:58-787	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:59-187	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:12:59-788	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:13:00-188	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:13:00-789	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:13:01-389	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:13:02-590	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:14:41-822	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 14:45:54-893	0	RSD_WDimport_req	off	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-21 14:46:26-324	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 14:47:11-550	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 14:48:03-172	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 14:48:05-572	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 15:11:56-195	0	PIC4041.control_visual	14 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 15:11:58-597	0	PIC4041.control_visual	19 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 15:20:52-057	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:20:54-258	0	PIC4011.control_visual	74 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:20:57-659	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:22:07-286	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:23:38-317	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:26:59-600	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:27:01-801	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:27:06-204	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:27:08-006	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:27:22-816	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:28:49-860	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-21 15:45:40-047	0	PIC4041.control_visual	0 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-21 15:45:44-048	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-22 10:03:35-688	0	PMP3022	on	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-22 10:38:45-024	0	PMP3022	off	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-23 07:43:15-588	0	PMP3007	hand off	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-23 07:43:16-188	0	PMP3007	hand on	J3022 LO FLOW ALARM	stjokro	WCPBTMRA
+2016-11-23 13:16:39-511	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:16:58-516	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:16:58-916	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:17:00-118	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:17:57-747	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:17:58-548	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:17:59-548	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:00-148	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:00-748	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:31-756	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:32-156	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:32-557	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:18:32-957	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:19:07-366	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:19:07-767	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:19:34-174	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:19:35-974	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:20:06-983	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:20:07-583	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:20:27-389	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-23 13:49:46-212	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:49:54-214	0	PIC4011.control_visual	79 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:49:59-015	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:50:38-228	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:50:47-231	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:52:06-074	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:52:57-097	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:52:58-697	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:52:59-497	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:07-099	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:14-502	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:15-902	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:16-302	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:16-702	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:17-102	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:17-502	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:17-903	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:18-303	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:18-703	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:19-103	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:19-703	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 13:53:20-503	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-23 14:24:54-695	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-23 14:24:58-496	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-23 14:25:01-899	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-23 14:25:09-905	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-23 14:40:31-425	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 14:40:49-431	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:04:08-931	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:04:10-531	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:04:11-331	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:04:14-332	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:07:20-615	0	TK3157_to_IMP_YE	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 15:25:16-795	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-23 15:25:46-203	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-23 15:26:58-020	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-23 15:27:05-022	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-23 21:43:06-928	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-23 21:43:08-528	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-23 21:43:10-729	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-23 21:43:12-129	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-23 21:45:10-957	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 21:45:11-557	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 21:45:11-757	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 21:45:12-358	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-23 22:16:45-601	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-23 22:16:59-405	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-23 22:17:16-609	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-23 22:17:23-810	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-24 06:32:48-310	0	TK3157_to_IMP_YE	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-24 15:29:28-508	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:29-508	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:30-309	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:30-909	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:31-509	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:32-309	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:32-909	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:33-509	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:33-909	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:34-709	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:35-109	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:35-709	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:36-510	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:42-311	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:42-711	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:43-711	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:56-115	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:29:57-915	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:30:28-124	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-24 15:49:29-885	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-24 16:01:23-559	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:24-560	0	PIC4011.control_visual	76 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:26-160	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:29-761	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:31-962	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:34-362	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:36-562	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:36-962	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:37-362	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:47-165	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:47-565	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:48-965	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:52-166	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:01:55-767	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:03-368	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:13-971	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:14-971	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:15-771	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:16-372	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:02:39-780	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:38-596	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:39-597	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:39-997	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:40-597	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:40-997	0	PIC4011.control_visual	73 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:41-397	0	PIC4011.control_visual	74 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:41-797	0	PIC4011.control_visual	75 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:42-397	0	PIC4011.control_visual	91 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:43-197	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:48-204	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:49-405	0	PIC4011.control_visual	100 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:03:50-205	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-24 16:08:03-706	0	RSD_WDimport_req	off	Request RSD import at West Dock	guest	10.26.37.168
+2016-11-24 16:08:07-307	0	PIC4041.control_visual	100 %	10" RSD Control Valve	guest	10.26.37.168
+2016-11-24 16:08:14-314	0	PIC4041.control_visual	0 %	10" RSD Control Valve	guest	10.26.37.168
+2016-11-24 16:08:49-133	0	PIC4041.control_visual	0 %	10" RSD Control Valve	MidPlant	156.44.212.31
+2016-11-24 16:09:01-141	0	RSD_WDimport_req	on	Request RSD import at West Dock	guest	10.26.37.168
+2016-11-24 16:09:11-944	0	PIC4041.control_visual	100 %	10" RSD Control Valve	MidPlant	156.44.212.31
+2016-11-24 16:09:13-545	0	PIC4041.control_visual	98 %	10" RSD Control Valve	MidPlant	156.44.212.31
+2016-11-24 16:09:14-945	0	PIC4041.control_visual	91 %	10" RSD Control Valve	MidPlant	156.44.212.31
+2016-11-24 16:09:19-146	0	PIC4041.control_visual	0 %	10" RSD Control Valve	guest	10.26.37.168
+2016-11-24 16:09:21-347	0	RSD_WDimport_req	off	Request RSD import at West Dock	guest	10.26.37.168
+2016-11-24 16:09:24-548	0	PIC4041.control_visual	0 %	10" RSD Control Valve	guest	10.26.37.168
+2016-11-25 07:40:03-784	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:17:55-845	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:17:58-045	0	PIC4041.control_visual	71 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:17:59-245	0	PIC4041.control_visual	70 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:18:01-646	0	PIC4041.control_visual	48 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:18:04-847	0	PIC4041.control_visual	49 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:44-360	0	PIC4041.control_visual	48 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:44-761	0	PIC4041.control_visual	47 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:45-361	0	PIC4041.control_visual	46 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:45-961	0	PIC4041.control_visual	45 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:46-361	0	PIC4041.control_visual	44 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:46-761	0	PIC4041.control_visual	43 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:47-161	0	PIC4041.control_visual	42 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:47-561	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:47-961	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:48-561	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:48-761	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:49-162	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:49-562	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:54-167	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:54-567	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:55-367	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:55-967	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:56-367	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:56-567	0	PIC4041.control_visual	29 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:57-168	0	PIC4041.control_visual	28 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:57-368	0	PIC4041.control_visual	27 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:58-168	0	PIC4041.control_visual	26 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:58-568	0	PIC4041.control_visual	25 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:58-969	0	PIC4041.control_visual	24 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:31:59-569	0	PIC4041.control_visual	23 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:32:03-770	0	PIC4041.control_visual	22 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:32:04-570	0	PIC4041.control_visual	21 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:32:05-170	0	PIC4041.control_visual	20 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 08:32:57-385	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 10:43:06-783	0	PIC4011.man	on	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:09-785	0	PIC4011.control_visual	29 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:10-985	0	PIC4011.control_visual	28 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:21-989	0	PIC4011.control_visual	27 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:22-590	0	PIC4011.control_visual	26 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:23-390	0	PIC4011.control_visual	25 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:58-602	0	PIC4011.control_visual	26 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:43:59-403	0	PIC4011.control_visual	27 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:44:00-003	0	PIC4011.control_visual	28 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:44:29-217	0	PIC4011.man	off	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:49:59-056	0	PIC4011.man	on	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:50:00-256	0	PIC4011.control_visual	57 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:50:00-857	0	PIC4011.control_visual	56 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:50:01-257	0	PIC4011.control_visual	55 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 10:50:01-858	0	PIC4011.control_visual	54 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:05:33-610	0	PIC4011.man	off	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:05:46-814	0	PIC4011.man	on	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:10:44-779	0	LI4208.enable_hihi	on	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:10:47-182	0	LI4208.trip_hihi	90.0 pct	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:13:08-876	0	PIC4011.man	off	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:15:35-591	0	LI4208.trip_hi	9.0 pct	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:15:39-594	0	LI4208.trip_hihi	10.0 pct	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:15:42-196	0	LI4208.trip_hi	75.0 pct	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:15:44-198	0	LI4208.trip_hihi	90.0 pct	Rail Slop Tank	stjokro	WCPBTMRA
+2016-11-25 11:33:03-551	0	PIC4011.man	on	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:33:19-556	0	PIC4011.control_visual	47 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:33:21-757	0	PIC4011.control_visual	46 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:33:22-757	0	PIC4011.control_visual	45 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:34:57-282	0	PIC4011.control_visual	44 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:34:58-282	0	PIC4011.control_visual	43 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:34:59-683	0	PIC4011.control_visual	42 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:35:00-883	0	PIC4011.control_visual	41 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:35:02-484	0	PIC4011.control_visual	40 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:46:23-277	0	PIC4011.control_visual	41 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 11:46:25-078	0	PIC4011.control_visual	42 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:30:42-175	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:30:47-577	0	PIC4041.control_visual	67 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:04-782	0	PIC4041.control_visual	66 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:05-382	0	PIC4041.control_visual	65 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:06-182	0	PIC4041.control_visual	64 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:06-582	0	PIC4041.control_visual	63 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:06-982	0	PIC4041.control_visual	62 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:07-582	0	PIC4041.control_visual	61 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:07-982	0	PIC4041.control_visual	60 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:08-382	0	PIC4041.control_visual	59 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:26-392	0	PIC4041.control_visual	58 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:26-992	0	PIC4041.control_visual	57 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:27-593	0	PIC4041.control_visual	56 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:28-193	0	PIC4041.control_visual	55 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:28-994	0	PIC4041.control_visual	54 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:29-594	0	PIC4041.control_visual	53 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:30-395	0	PIC4041.control_visual	52 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:30-795	0	PIC4041.control_visual	51 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:31-595	0	PIC4041.control_visual	50 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:32-396	0	PIC4041.control_visual	49 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:47-001	0	PIC4041.control_visual	48 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:47-602	0	PIC4041.control_visual	47 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:48-402	0	PIC4041.control_visual	46 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:48-802	0	PIC4041.control_visual	45 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:49-202	0	PIC4041.control_visual	44 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:49-802	0	PIC4041.control_visual	43 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:50-202	0	PIC4041.control_visual	42 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:50-803	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:31:51-203	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:16-816	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:17-417	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:18-017	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:18-617	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:19-218	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:19-818	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:26-822	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:27-623	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:28-226	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:28-626	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:55-634	0	PIC4041.control_visual	29 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:56-234	0	PIC4041.control_visual	28 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:32:56-634	0	PIC4041.control_visual	27 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:33:25-244	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-25 13:42:34-017	0	PIC4011.control_visual	29 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:18-634	0	PIC4011.control_visual	30 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:19-234	0	PIC4011.control_visual	31 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:19-635	0	PIC4011.control_visual	32 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:20-835	0	PIC4011.control_visual	33 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:21-236	0	PIC4011.control_visual	34 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:43:21-836	0	PIC4011.control_visual	35 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:45:10-677	0	PIC4011.control_visual	34 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:45:11-277	0	PIC4011.control_visual	33 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:46:06-691	0	PIC4011.control_visual	32 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:46:07-892	0	PIC4011.control_visual	31 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 13:46:14-894	0	PIC4011.control_visual	30 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:06:32-361	0	PIC4011.control_visual	29 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:06:32-961	0	PIC4011.control_visual	28 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:06:33-561	0	PIC4011.control_visual	27 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:06:45-367	0	PIC4011.control_visual	26 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:06:45-767	0	PIC4011.control_visual	25 %	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-25 14:07:33-404	0	PIC4011.man	off	8" RUL Control Valve	EDock	156.44.212.34
+2016-11-26 06:34:19-966	0	PIC4041.man	off	10" RSD Control Valve	guest	10.26.38.97
+2016-11-26 06:46:34-568	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-26 06:46:41-370	0	PIC4041.man	off	10" RSD Control Valve	guest	10.26.38.97
+2016-11-26 06:46:50-172	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 06:46:53-373	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 06:49:40-243	0	PIC4041.man	off	10" RSD Control Valve	guest	10.26.38.97
+2016-11-26 07:16:32-922	0	RSD_WDimport_req	off	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-26 07:16:44-329	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:06:04-600	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-26 09:31:47-031	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:31:48-232	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:31:49-032	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:31:49-632	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:31:50-232	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:31:50-833	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:32:33-449	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:32:34-649	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:32:35-450	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:32:36-650	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:32:47-853	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:34:18-292	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:41-300	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:42-701	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:43-101	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:43-702	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:44-102	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:44-502	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:45-102	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:45-503	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:45-903	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:46-503	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:47-103	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:47-503	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:49-104	0	PIC4041.control_visual	29 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:50-105	0	PIC4041.control_visual	28 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:51-106	0	PIC4041.control_visual	27 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:51-506	0	PIC4041.control_visual	26 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:52:52-106	0	PIC4041.control_visual	25 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 09:53:16-720	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:49-912	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:52-312	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:52-913	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:54-313	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:54-913	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:55-713	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:57-114	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:58-114	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:30:59-915	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:00-915	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:01-715	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:02-315	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:03-116	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:03-916	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:07-117	0	PIC4011.control_visual	34 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:21-720	0	PIC4011.control_visual	33 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:21-921	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-26 10:31:22-121	0	PIC4011.control_visual	32 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:22-725	0	PIC4011.control_visual	31 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:23-525	0	PIC4011.control_visual	30 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:25-325	0	PIC4011.control_visual	29 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:25-926	0	PIC4011.control_visual	28 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 10:31:37-529	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-26 11:38:51-409	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-26 11:53:48-647	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-26 15:01:15-280	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:01:16-680	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:01:20-882	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:03:59-129	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:38-778	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:41-380	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:42-181	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:43-181	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:44-783	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:46-184	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:51-988	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:55-189	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:57-391	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:20:58-391	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:21:02-794	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:21:03-394	0	PIC4041.control_visual	31 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:21:03-794	0	PIC4041.control_visual	30 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 15:22:38-821	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 18:16:28-368	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:56:02-385	0	PIC4041.man	on	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:57:31-211	0	PIC4041.control_visual	53 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:00-420	0	PIC4041.control_visual	52 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:01-220	0	PIC4041.control_visual	51 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:01-820	0	PIC4041.control_visual	50 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:02-220	0	PIC4041.control_visual	49 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:02-820	0	PIC4041.control_visual	48 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:03-420	0	PIC4041.control_visual	47 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:04-221	0	PIC4041.control_visual	46 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:05-021	0	PIC4041.control_visual	45 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:05-621	0	PIC4041.control_visual	44 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:06-221	0	PIC4041.control_visual	43 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:08-622	0	PIC4041.control_visual	42 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:09-022	0	PIC4041.control_visual	41 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:09-622	0	PIC4041.control_visual	40 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:35-633	0	PIC4041.control_visual	39 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:36-233	0	PIC4041.control_visual	38 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:36-833	0	PIC4041.control_visual	37 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:37-633	0	PIC4041.control_visual	36 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:38-034	0	PIC4041.control_visual	35 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:58:38-634	0	PIC4041.control_visual	34 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:59:11-464	0	PIC4041.control_visual	33 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 20:59:12-665	0	PIC4041.control_visual	32 %	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 21:07:38-103	0	PIC4041.man	off	10" RSD Control Valve	WDock	156.44.212.35
+2016-11-26 21:29:17-359	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-26 21:29:20-959	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-26 21:29:25-560	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-26 21:30:15-174	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-26 21:42:04-274	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-26 21:42:05-474	0	J3006A_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-26 21:42:06-275	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-26 21:42:07-275	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-26 21:43:03-491	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-26 21:43:25-100	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-26 21:43:37-509	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-26 21:43:59-520	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-26 22:07:01-976	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-26 23:21:20-189	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-26 23:21:26-391	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-27 01:27:25-759	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-27 06:08:11-678	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-27 06:08:12-879	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-27 06:08:13-079	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:08:13-479	0	J3019_RSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:08:14-279	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:08:14-879	0	J3019_RSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:08:15-680	0	J3006A_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:08:16-080	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-27 06:18:04-480	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-27 06:18:11-283	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-27 06:18:26-092	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-27 06:18:41-298	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-27 11:43:49-840	0	PIC4021.man	on	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:43:53-042	0	PIC4021.control_visual	72 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:43:55-243	0	PIC4021.control_visual	71 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:43:56-844	0	PIC4021.control_visual	70 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:12-656	0	PIC4021.control_visual	69 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:13-056	0	PIC4021.control_visual	68 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:13-657	0	PIC4021.control_visual	67 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:15-258	0	PIC4021.control_visual	66 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:15-858	0	PIC4021.control_visual	65 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:16-458	0	PIC4021.control_visual	64 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:17-259	0	PIC4021.control_visual	63 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:17-859	0	PIC4021.control_visual	62 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:18-459	0	PIC4021.control_visual	61 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:44:19-260	0	PIC4021.control_visual	60 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:04-281	0	PIC4021.control_visual	59 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:04-881	0	PIC4021.control_visual	58 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:05-481	0	PIC4021.control_visual	57 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:06-082	0	PIC4021.control_visual	56 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:06-482	0	PIC4021.control_visual	55 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:07-082	0	PIC4021.control_visual	54 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:07-683	0	PIC4021.control_visual	53 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:08-283	0	PIC4021.control_visual	52 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:08-883	0	PIC4021.control_visual	51 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:09-283	0	PIC4021.control_visual	50 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:10-884	0	PIC4021.control_visual	49 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:12-285	0	PIC4021.control_visual	48 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:38-894	0	PIC4021.control_visual	47 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:39-294	0	PIC4021.control_visual	46 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:39-894	0	PIC4021.control_visual	45 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:40-494	0	PIC4021.control_visual	44 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:41-094	0	PIC4021.control_visual	43 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:41-694	0	PIC4021.control_visual	42 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:42-295	0	PIC4021.control_visual	41 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:45:43-095	0	PIC4021.control_visual	40 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:05-103	0	PIC4021.control_visual	39 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:05-703	0	PIC4021.control_visual	38 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:06-503	0	PIC4021.control_visual	37 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:07-103	0	PIC4021.control_visual	36 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:08-903	0	PIC4021.control_visual	35 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:29-709	0	PIC4021.control_visual	34 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:30-309	0	PIC4021.control_visual	33 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:30-909	0	PIC4021.control_visual	32 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:31-309	0	PIC4021.control_visual	31 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:32-109	0	PIC4021.control_visual	30 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:46:33-309	0	PIC4021.control_visual	29 %	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:47:25-323	0	PIC4021.man	off	6" SUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:51:10-399	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:51:13-400	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 11:51:48-008	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:19-936	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:21-937	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:22-537	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:23-137	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:23-938	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:24-338	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:24-938	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:25-738	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:26-338	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:26-939	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:02:27-339	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:03:33-975	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:03:34-375	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:03:34-975	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:04:14-189	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:04:14-989	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:04:15-990	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:04:16-590	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:05:11-617	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:05:12-017	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:05:12-617	0	PIC4031.control_visual	20 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:06:04-252	0	PIC4031.control_visual	19 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:06:04-852	0	PIC4031.control_visual	18 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:06:55-867	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-27 13:50:25-803	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:50:28-604	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:51:32-825	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:51:35-826	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:51:36-426	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:45-646	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:46-246	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:46-646	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:47-047	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:47-647	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:52:48-247	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:53:01-851	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:53:02-451	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:53:03-251	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:53:04-852	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:53:05-252	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 13:55:12-504	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:20:26-848	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:20:29-648	0	PIC4011.control_visual	72 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:30-464	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:50-269	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:50-669	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:52-269	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:53-470	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:54-070	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:54-470	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:55-070	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:55-870	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:21:56-270	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:04-478	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:05-078	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:05-679	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:06-279	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:06-680	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:07-280	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:07-880	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:08-480	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:09-081	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:09-882	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:10-882	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:24-087	0	PIC4011.control_visual	36 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:22:24-687	0	PIC4011.control_visual	35 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-27 14:23:30-133	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 11:04:56-724	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:08:02-588	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:09:17-635	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:12:42-705	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:13:57-346	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:17:25-639	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:18:02-251	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:21:10-701	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:22:00-727	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:25:06-792	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:25:33-802	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:28:19-479	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:28:43-285	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:31:42-554	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:32:30-165	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:35:27-224	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:35:57-845	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:38:54-699	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:39:15-303	0	PMP4023p	on	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 11:42:20-394	0	PMP4023p	off	West Dock Tactrol Additive Pump	stjokro	WCPBTMRA
+2016-11-28 17:25:27-326	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:25:29-729	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:14-158	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:14-758	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:15-559	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:16-359	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:16-559	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:17-159	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:17-759	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:26:18-360	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:10-174	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:12-575	0	PIC4031.control_visual	40 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:12-975	0	PIC4031.control_visual	39 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:13-375	0	PIC4031.control_visual	38 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:13-975	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:14-575	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:15-775	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:52-586	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:53-186	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:53-986	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:54-586	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:27:55-186	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:32-397	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:32-797	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:33-397	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:33-997	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:34-398	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:35-598	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:35-998	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:28:58-803	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:09-407	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:10-007	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:10-607	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:11-407	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:12-608	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:29:14-008	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:31:04-056	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-28 17:40:35-280	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:40:38-081	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-28 17:42:01-303	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:47:22-217	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:47:25-017	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:01-025	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:01-426	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:02-026	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:02-626	0	PIC4011.control_visual	63 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:03-026	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:34-835	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:35-035	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:35-635	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:36-235	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:36-635	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:48:59-443	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:00-043	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:00-443	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:01-044	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:01-644	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:02-444	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:03-045	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:24-259	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:24-859	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:25-460	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:49:26-060	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:50:32-880	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:55:20-973	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:55:26-174	0	PIC4011.control_visual	71 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:55:28-575	0	PIC4011.control_visual	70 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:55:29-175	0	PIC4011.control_visual	69 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:55:29-775	0	PIC4011.control_visual	68 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:30-194	0	PIC4011.control_visual	67 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:30-794	0	PIC4011.control_visual	66 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:31-195	0	PIC4011.control_visual	65 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:31-595	0	PIC4011.control_visual	64 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:32-395	0	PIC4011.control_visual	63 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:32-796	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:33-396	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:33-996	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:34-797	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:35-397	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:56:35-997	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 11:57:49-630	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:25-886	0	PIC4031.man	on	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:30-688	0	PIC4031.control_visual	37 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:31-088	0	PIC4031.control_visual	36 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:31-688	0	PIC4031.control_visual	35 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:32-088	0	PIC4031.control_visual	34 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:32-688	0	PIC4031.control_visual	33 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:33-089	0	PIC4031.control_visual	32 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:33-689	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:34-289	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:34-889	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:35-489	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:15:36-089	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:26-121	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:26-721	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:27-321	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:28-121	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:28-921	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:29-321	0	PIC4031.control_visual	20 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:17:30-321	0	PIC4031.control_visual	19 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:03-529	0	PIC4031.control_visual	20 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:04-929	0	PIC4031.control_visual	31 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:06-730	0	PIC4031.control_visual	30 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:07-330	0	PIC4031.control_visual	29 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:07-730	0	PIC4031.control_visual	28 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:08-330	0	PIC4031.control_visual	27 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:08-930	0	PIC4031.control_visual	26 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:09-730	0	PIC4031.control_visual	25 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:10-530	0	PIC4031.control_visual	24 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:10-931	0	PIC4031.control_visual	23 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:11-531	0	PIC4031.control_visual	22 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:18:12-331	0	PIC4031.control_visual	21 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:19:29-767	0	PIC4031.control_visual	20 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:19:31-167	0	PIC4031.control_visual	19 %	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:20:34-384	0	PIC4031.man	off	10" Stove/Diesel Control Valve	WDock	156.44.212.35
+2016-11-29 13:30:42-804	0	PIC4011.man	on	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:30:45-605	0	PIC4011.control_visual	62 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:31-620	0	PIC4011.control_visual	61 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:32-020	0	PIC4011.control_visual	60 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:32-620	0	PIC4011.control_visual	59 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:33-220	0	PIC4011.control_visual	58 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:33-620	0	PIC4011.control_visual	57 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:34-021	0	PIC4011.control_visual	56 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:34-621	0	PIC4011.control_visual	55 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:58-432	0	PIC4011.control_visual	54 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:58-832	0	PIC4011.control_visual	53 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:59-232	0	PIC4011.control_visual	52 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:31:59-632	0	PIC4011.control_visual	51 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:00-232	0	PIC4011.control_visual	50 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:00-632	0	PIC4011.control_visual	49 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:01-632	0	PIC4011.control_visual	48 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:35-642	0	PIC4011.control_visual	47 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:36-242	0	PIC4011.control_visual	46 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:36-842	0	PIC4011.control_visual	45 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:38-042	0	PIC4011.control_visual	44 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:38-642	0	PIC4011.control_visual	43 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:39-443	0	PIC4011.control_visual	42 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:39-843	0	PIC4011.control_visual	41 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:41-043	0	PIC4011.control_visual	40 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:53-246	0	PIC4011.control_visual	39 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:53-846	0	PIC4011.control_visual	38 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:32:55-047	0	PIC4011.control_visual	37 %	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 13:33:56-677	0	PIC4011.man	off	8" RUL Control Valve	WDock	156.44.212.35
+2016-11-29 18:09:43-433	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-29 18:10:07-243	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-29 18:10:21-247	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-29 18:10:36-059	0	PMP3006A	hand off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-29 21:53:11-393	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-29 21:53:13-394	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-29 21:53:57-203	0	PMP3006A	on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-29 21:54:12-406	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-29 22:00:24-110	0	PI3033.trip_lo	19.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:24-510	0	PI3033.trip_lo	19.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:24-910	0	PI3033.trip_lo	19.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:25-310	0	PI3033.trip_lo	19.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:27-711	0	PI3033.trip_lo	19.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:27-711	0	PI3033.trip_lo	19.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:27-912	0	PI3033.trip_lo	19.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:27-912	0	PI3033.trip_lo	19.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:28-112	0	PI3033.trip_lo	19.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:28-112	0	PI3033.trip_lo	18.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:28-312	0	PI3033.trip_lo	17.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:28-912	0	PI3033.trip_lo	17.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:29-112	0	PI3033.trip_lo	16.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:29-112	0	PI3033.trip_lo	16.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:29-312	0	PI3033.trip_lo	16.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-113	0	PI3033.trip_lo	16.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-313	0	PI3033.trip_lo	16.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-313	0	PI3033.trip_lo	16.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-513	0	PI3033.trip_lo	16.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-513	0	PI3033.trip_lo	16.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:30-713	0	PI3033.trip_lo	16.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:31-313	0	PI3033.trip_lo	16.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:31-313	0	PI3033.trip_lo	15.9 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:31-513	0	PI3033.trip_lo	15.8 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:31-513	0	PI3033.trip_lo	15.7 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:31-713	0	PI3033.trip_lo	15.6 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:32-514	0	PI3033.trip_lo	15.5 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:32-714	0	PI3033.trip_lo	15.4 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:32-714	0	PI3033.trip_lo	15.3 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:32-914	0	PI3033.trip_lo	15.2 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:34-114	0	PI3033.trip_lo	15.1 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-29 22:00:34-915	0	PI3033.trip_lo	15.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-30 00:31:52-582	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 00:36:03-104	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 00:37:06-335	0	PMP3006A	off	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-30 00:37:59-159	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 00:43:15-723	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 00:43:32-334	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 00:43:47-941	0	PMP3006A	hand on	Booster Pump J3006A	stjokro	WCPBTMRA
+2016-11-30 00:44:23-756	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 07:56:19-084	0	PMP3006B	hand off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 07:57:03-120	0	PMP3019	hand off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 07:57:19-529	0	PMP3020	hand off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 08:02:36-246	0	J3006B_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 08:02:36-646	0	J3019_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 08:02:37-046	0	J3020_LSD_sel	on	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 08:15:07-957	0	RSD_WDimport_req	on	Request RSD import at West Dock	WDock	156.44.212.35
+2016-11-30 08:49:09-113	0	PMP3020	on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 08:49:25-518	0	PMP3019	on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 08:49:51-125	0	PMP3006B	on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 08:50:22-140	0	PI3033.trip_lo	12.0 PSI	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-30 08:50:24-940	0	PI3033.enable_lo	off	Import Pumps - ULSD Suction Pressure	MidPlant	156.44.212.31
+2016-11-30 09:07:28-419	0	PMP3006B	off	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 09:07:32-620	0	PMP3019	off	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 09:07:38-022	0	PMP3020	off	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 09:07:48-024	0	J3006B_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 09:07:48-825	0	J3019_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 09:07:49-425	0	J3020_LSD_sel	off	J3022 LO FLOW ALARM	MidPlant	156.44.212.31
+2016-11-30 09:20:27-941	0	PMP3006B	hand on	Booster Pump J3006B	stjokro	WCPBTMRA
+2016-11-30 09:21:34-376	0	PMP3020	hand on	Booster Pump J3020	stjokro	WCPBTMRA
+2016-11-30 09:21:36-777	0	PMP3019	hand on	Booster Pump J3019	stjokro	WCPBTMRA
+2016-11-30 09:36:40-141	0	RSD_WDimport_req	off	Request RSD import at West Dock	MidPlant	156.44.212.31
+2016-11-30 09:36:42-542	0	RSD_WDimport_req	on	Request RSD import at West Dock	MidPlant	156.44.212.31
+2016-11-30 09:36:43-142	0	RSD_WDimport_req	off	Request RSD import at West Dock	MidPlant	156.44.212.31
+2016-11-30 09:36:45-743	0	RSD_WDimport_req	on	Request RSD import at West Dock	MidPlant	156.44.212.31

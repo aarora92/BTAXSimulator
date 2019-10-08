@@ -1,0 +1,161 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>s7_asm470</TITLE>
+<META NAME="Microsoft Theme" CONTENT="none, default">
+<META NAME="Microsoft Border" CONTENT="none, default">
+<META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<P><!doctype html public "-//w3c//dtd html 4.0 transitional//en">&nbsp; </P>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=652>
+<TR><TD VALIGN="TOP" BGCOLOR="#808080" HEIGHT=53>
+<P><B><FONT FACE="Arial" SIZE=7 COLOR="#ffffff">MOBY ASM470</B></FONT></TD>
+</TR>
+</TABLE>
+
+<P><IMG SRC="s7_asm470_ods.gif" WIDTH=621 HEIGHT=714></P>
+<B><U><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Generally:</P>
+</B></U></FONT><P>For usage MOBY ASM470 a ET200 module (for example ET200M IM153-2) is necessary. The ET200 module gets a profbus address and handles the communication with the ASM470. A command consist of 4 byte header and 12 byte data, total 16 byte per command.</P>
+<P>Two SLG's (means Schreib / Leseger&auml;t) can be connected to one ASM. The communication with two SLG's takes place in time multiplexer mode. For more information see also the SIEMENS MOBY ASM470 documentation.</P>
+<B><U><P>&nbsp;</P>
+<FONT FACE="Arial"><P>Graphical Representation:</P>
+</B></U></FONT><P>The LED's show the communication state (SF, 24V) and the states for SLG1 and 2 (ANW, active, Error, SLG1, SLG2, RxD). </P>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH=548>
+<TR><TD WIDTH="12%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P><B><FONT FACE="Arial">LED</B></FONT></TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<B><P>Color</B></TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<FONT FACE="Arial"><P>SF</FONT></TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<FONT FACE="Arial"><P>Red</FONT></TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>Summery failure. ASM470 works not proper (RAM/EPROM defect, no 24Voltage, Watchdog failure).</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>24V</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Green</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>Supply voltage ok.</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P>ANW</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Green</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>The presence control is active and a MDS exists in the read /write field of a SLG.</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Active</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Green</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>ASM470 executes at this time a command.</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Error</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Red blinking</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>Signals a failure.</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P>SLG1/2</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>Green</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>Shows the selected SLG.</TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="MIDDLE">
+<P>RxD</TD>
+<TD WIDTH="12%" VALIGN="MIDDLE">
+<P>-</TD>
+<TD WIDTH="76%" VALIGN="MIDDLE">
+<P>Not in use.</TD>
+</TR>
+</TABLE>
+
+<B><U><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Status Popup:</P>
+</B></U><P>A mouse click on the graphical representation opens a status popup.</P></FONT>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH=548>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P><B><FONT FACE="Arial">Message</B></FONT></TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<FONT FACE="Arial"><P>"ASM Failure"</FONT></TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Communication to ET200 and / or MOBY ASM470 fails.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<FONT FACE="Arial"><P>"Order active"</FONT></TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>ASM470 executes at this time a command.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<FONT FACE="Arial"><P>"No Order"</FONT></TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>No command to any SLG.</TD>
+</TR>
+</TABLE>
+
+<P>"MDS in Scope": The presence control is active and a MDS exists in the read /write field of a SLG.</P>
+<P>"NO MDS": The presence control is not active or no MDS exists in the read /write field of a SLG.</P>
+<B><U><FONT FACE="Arial"><P>&nbsp;</P>
+<P>Parameter Popup:</P></B></U></FONT>
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH=547>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P><B><FONT FACE="Arial">Parameter</B></FONT></TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial"><P>Description</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>ECC Mode</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Error Correction Code. For more data security. For using this feature a new initialisation (after activation and reset) for the a MDS is necessary.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>SLG</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>SLG selection.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>MDS-Type</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>MDS type. </TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>ANW</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Means the presence control. It would be active if "SLG_with_Anw" is shown.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>Moby Type</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Moby type.</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>Timebase</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Parameter for the sampling intervall. Recommended for Moby Type "MOBY-I/MDS507" or "MOBY-V".</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" BGCOLOR="#ffffff">
+<P>Timevalue</TD>
+<TD WIDTH="74%" VALIGN="MIDDLE">
+<P>Parameter for the sampling intervall. Recommended for Moby Type "MOBY-I/MDS507" or "MOBY-V".</TD>
+</TR>
+</TABLE>
+
+<P>The sampling intervall is the product between Timebase and Timevalue. </P>
+<P>This parameter will take effect after pushing the "Reset" button.</P></BODY>
+</HTML>

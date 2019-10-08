@@ -1,0 +1,44 @@
+parameter [Text Normal]	Parameter
+parameter [Text Activ]	Wartungsoptionen verwenden
+max_feedback [Text Normal]	Fehlerzeit:
+max_feedback [Text Activ]	Text
+modes [Text Normal]	Modes
+modes [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_interlock [Text Normal]	keine Verriegelung
+no_interlock [Text Activ]	Button
+run_emulation [Text Normal]	Emulation läuft
+run_emulation [Text Activ]	Button
+ready_emulation [Text Normal]	Emulation bereit
+ready_emulation [Text Activ]	Button
+delaytime [Text Normal]	Verzögerung:
+delaytime [Text Activ]	Text
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+local_emulation [Text Normal]	Emulation Vorort
+local_emulation [Text Activ]	Button
+manual_at_fault [Text Normal]	Hand bei Störung
+manual_at_fault [Text Activ]	Button
+run [Text Normal]	run
+run [Text Activ]	run
+error [Text Normal]	Fehler
+error [Text Activ]	Fehler
+locked [Text Normal]	verr.
+locked [Text Activ]	verr.
+auto_on [Text Normal]	Auto
+auto_on [Text Activ]	Auto
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+off [Text Normal]	Aus
+off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+on [Text Normal]	Ein
+on [Text Activ]	Ein
+bereit [Text Normal]	Bereit
+bereit [Text Activ]	nicht Bereit
+local [Text Normal]	Vorort Bereit
+local [Text Activ]	Vorort nicht Bereit

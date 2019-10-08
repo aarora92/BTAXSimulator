@@ -1,0 +1,14 @@
+aXPCI [Text Normal]	automationX\ PCI
+aXPCI [Text Activ]	Text
+Channel1 [Text Normal]	Channel 1
+Channel1 [Text Activ]	Text
+Channel0 [Text Normal]	Channel 0
+Channel0 [Text Activ]	Text
+wronginstance [Text Normal]	Text
+wronginstance [Text Activ]	Wrong Instancename
+Help [Text Normal]	Help
+Help [Text Activ]	Help
+Exit [Text Normal]	Exit
+Exit [Text Activ]	Exit
+Text [Text Normal]	This is a two channel automationX profibus pci card. \The state led displays the actual card state.\\To get detailed information about each channel,\click on the channel fields below.\(Please refer to the Implementation Notes of the \automationX documentation if the card is not running)
+Text [Text Activ]	Text

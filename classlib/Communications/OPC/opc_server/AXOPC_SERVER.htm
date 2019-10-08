@@ -1,0 +1,203 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="subject" content="Dokumentation">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="287" >
+<tr>
+<td VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>OPC
+Server</font></font></font></b></td>
+</tr>
+</table>
+
+<p><a NAME="Features"></a><b><font face="Arial"><a href="#Features">Features</a>
+| <a href="#Installation">Components and Installation</a> | <a href="#UserInterface">Graphical
+User Interface</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><b><font face="Arial"><font color="#0000FF"><font size=+3>Features</font></font></font></b>
+<p><font face="Arial,Helvetica">The aX OPC Data Access Server is based
+on specification 2.04 .</font>
+<br><font face="Arial">Before installing the aX OPC server, you have to
+insert the OPC server class (AXOPC_SERVER.symbol) into your program. It
+is very important that the active project contains only one instance of
+this class. If there are more instances, the server cannot be started and
+an error message ("Multible server class") is displayed in the status display
+of the OPC server class.</font>
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Components
+and Installation</a> | <a href="#UserInterface">Graphical User Interface</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="Installation"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Components
+and Installation</font></font></font></b>
+<p><font face="Arial">The OPC server is comprised of the following components
+(files):</font>
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<tr>
+<td VALIGN=TOP WIDTH="26%" BGCOLOR="#C0C0C0"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%" BGCOLOR="#C0C0C0"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="38%" BGCOLOR="#C0C0C0"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">AutomationX generated Class
+File; includes graphical representation, user interfaces, internal control
+logic, etc.</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">AXOPC_SERVER.symbol</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">Class Specific Graphic Files</font>
+<br><font face="Arial">for class operation,</font>
+<br><font face="Arial">physical appearance and&nbsp; documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="38%">opc_logo.bmp</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="26%"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="36%"><font face="Arial">HTML document for Online
+Help</font></td>
+
+<td VALIGN=TOP WIDTH="38%"><font face="Arial">AXOPC_SERVER.htm</font></td>
+</tr>
+</table>
+
+<p><b><font face="Arial">Installation</font></b>
+<p><font face="Arial">To install the OPC Server class, all of the above
+files must be copied into a common directory within the project's "classlib"
+directory. The name of the directory can be chosen freely. For example
+(refer to the directory structure below), if we want to add the OPC Server
+class to an existing class library we would simply follow the directory
+structure in the AutomationX program directory: <b>AutomationX\projects\demo\classlib\opc\opc_server</b></font>
+<p><img SRC="opc_folder_server.gif" height=365 width=304>
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Components
+and Installation</a> | <a href="#UserInterface">Graphical User Interface</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+<p><a NAME="UserInterface"></a><b><font face="Arial"><font color="#0000FF"><font size=+3>Graphical
+User Interface</font></font></font></b>
+<p><font face="Arial">In the Graphical Representation of the OPC server
+class&nbsp; the unique name identifier (Instancename) and the Instance-
+and Class-documentation buttons are displayed in the upper area.</font>
+<br><font face="Arial">&nbsp;Below this it is separated into three parts:</font>
+<br><font face="Arial">&middot; The status display</font>
+<br><font face="Arial">&middot; The server manipulation buttons for configuration,
+registration, DCOM configuration and shutdown</font>
+<br><font face="Arial">&middot; Server details</font>
+<br>&nbsp;
+<p><b><font face="Arial">&nbsp;Graphical Representation</font></b>
+<p><img SRC="opc_server_running_described.gif" height=431 width=316>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 1: Graphical user
+interface</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">The <b>status display </b>consists of a
+LED display and a message field. The LED is green when the server is in
+running mode. In all other cases it is red. The message field displays
+the status and error messages of the OPC server. There are four different
+messages :</font>
+<br><font face="Arial,Helvetica">&middot; Running: normal data exchange</font>
+<br><font face="Arial,Helvetica">&middot; Server not running: No OPC client
+is connected to the OPC server</font>
+<br><font face="Arial,Helvetica">&middot; Server not registered: The server
+is not registered on the computer</font>
+<br><font face="Arial,Helvetica">&middot; Multiple server classes: There
+are more than one OPC server classes in the active project.</font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">OPC is based on DCOM, so the OPC server
+must be <b>registered</b> on the computer. The OPC Data Access Specification
+2.04 does not include a security concept. The access rights depend on the
+settings (DCOM configuration, DCOM config. button) of your computer, so
+you will need administrator privileges to register the OPC server without
+causing access problems.</font>
+<br><font face="Arial,Helvetica">After installing the OPC server, the message
+"Server not registered" appears in the message field. To register the server,
+press the [Register Server] button. The following popup appears for register
+the server.</font>
+<p><img SRC="opc_server_reg.gif" height=147 width=393>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 2: Popup register
+server</font></font>
+<p><font face="Arial,Helvetica">The same message appears after a shutdown
+of the aX Server. In this case, it is not necessary to register the server,
+because the server will change to running mode (LED display is green),
+as soon as it is started by a client.</font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">It is the task of an OPC server to provide
+data for OPC clients. All of the data is provided in the namespace. The
+client can browse this namespace and choose the data required. The availability
+of the data for clients is defined with the <b>OPC server configuration</b>.
+To configure the server, press the [Configure Server] button. The following
+dialog will appear.</font>
+<p><img SRC="opc_server_config.gif" height=334 width=410>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 3: Server configuration
+window</font></font>
+<p><font face="Arial,Helvetica">If you don't configure the server, all
+variables of the active project will be contained in the namespace. Select
+the programs in the configuration window to change the access rights of
+the selected program. There are three possibilities:</font>
+<br><font face="Arial,Helvetica">&middot; WRITE: This is the default setting
+of all programs. The OPC client is allowed to read and write variables
+in the program.</font>
+<br><font face="Arial,Helvetica">&middot; READ: OPC clients are only allowed
+to read the values of the variables.</font>
+<br><font face="Arial,Helvetica">&middot; LOCKED: The variables of the
+program are not included in the namespace. There is no way for an OPC client
+to access a program with this attribute.</font>
+<br><font face="Arial,Helvetica">This mechanism is important to restrict
+the access of clients to automationX, e.g. axsystem in Picture 3 - Server
+configuration window has the attribute READ to prevent clients from changing
+system settings like the cycle time of the Soft PLC.</font>
+<br><font face="Arial,Helvetica">Pressing the [OK] button, the configuration
+is saved to a text file (...\projects\&lt;project name>\opc\opcserver.cfg).
+For changes to take effect it is necessary to restart the OPC server: Pressing
+the [Shutdown Server] button, the server is shut down and will be restarted
+by the attached clients (depending on the OPC client). If the OPC client
+does not support the automatic restart of the server, the client must reconnect
+to the server. The same procedure is necessary after a shutdown of automationX.</font>
+<p><img SRC="opc_server_shutd.gif" height=147 width=393>
+<br><font face="Arial,Helvetica"><font size=-1>Picture 4: Popup shutdown
+server</font></font>
+<br>&nbsp;
+<p><font face="Arial,Helvetica">The <b>server details</b> display:</font>
+<p><font face="Arial,Helvetica">Server name:</font>
+<br><font face="Arial,Helvetica">The Prog ID (version) of the server is
+hard coded inside the class and cannot be changed.</font>
+<p><font face="Arial,Helvetica">Number of clients:</font>
+<br><font face="Arial,Helvetica">Displays the number of OPC clients which
+are attached to the server</font>
+<p><font face="Arial,Helvetica">Current number of items:</font>
+<br><font face="Arial,Helvetica">Shows the number of the different aX variables
+connected</font>
+<p><font face="Arial,Helvetica">Max. number of items:</font>
+<br><font face="Arial,Helvetica">Restricts the number of different aX variables
+which can be read or written by OPC clients. The initial value is 1000.</font>
+<p><font face="Arial,Helvetica">Update rate:</font>
+<br><font face="Arial,Helvetica">Defined in milliseconds indicating the
+interval of the server accesses to shared memory.</font>
+<br><font face="Arial,Helvetica">This value must be greater than 0. If
+the value is 0, the server sets the update rate to 200ms</font>
+<br>&nbsp;
+<p><b><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">Components
+and Installation</a> | <a href="#UserInterface">Graphical User Interface</a></font></b>
+<br>
+<hr ALIGN="LEFT">
+</body>
+</html>

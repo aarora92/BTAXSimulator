@@ -1,0 +1,80 @@
+local [Text Normal]	Vorort bereit
+local [Text Activ]	Vorort nicht bereit
+text1 [Text Normal]	Geschw. intern/extern
+text1 [Text Activ]	Text
+text2 [Text Normal]	extern
+text2 [Text Activ]	Text
+text3 [Text Normal]	intern
+text3 [Text Activ]	Text
+text4 [Text Normal]	aktuell
+text4 [Text Activ]	Text
+run_fwd [Text Normal]	läuft
+run_fwd [Text Activ]	läuft
+error_rev [Text Normal]	Fehler
+error_rev [Text Activ]	Fehler
+lock_fwd [Text Normal]	verr.
+lock_fwd [Text Activ]	verr.
+auto_rev [Text Normal]	Auto
+auto_rev [Text Activ]	Auto
+man [Text Normal]	Hand
+man [Text Activ]	Hand
+auto [Text Normal]	Auto
+auto [Text Activ]	Auto
+man_off [Text Normal]	Aus
+man_off [Text Activ]	Aus
+ack [Text Normal]	Quittieren
+ack [Text Activ]	Quittieren
+man_on [Text Normal]	Ein
+man_on [Text Activ]	Ein
+ready [Text Normal]	Bereit
+ready [Text Activ]	nicht bereit
+text_intern_button [Text Normal]	intern
+text_intern_button [Text Activ]	intern
+text_extern_button [Text Normal]	extern
+text_extern_button [Text Activ]	extern
+man_rev [Text Normal]	Drehricht.2
+man_rev [Text Activ]	Drehricht.2
+man_fwd [Text Normal]	Drehricht.1
+man_fwd [Text Activ]	Drehricht.1
+auto_fwd [Text Normal]	Auto
+auto_fwd [Text Activ]	Auto
+lock_rev [Text Normal]	verr.
+lock_rev [Text Activ]	verr.
+error_fwd [Text Normal]	Fehler
+error_fwd [Text Activ]	Fehler
+run_rev [Text Normal]	läuft
+run_rev [Text Activ]	läuft
+current [Text Normal]	Strom
+current [Text Activ]	Text
+torque [Text Normal]	Drehmoment
+torque [Text Activ]	Text
+power [Text Normal]	Leistung
+power [Text Activ]	Text
+Parameter [Text Normal]	Parameter
+Parameter [Text Activ]	Wartungsoptionen verwenden
+mode [Text Normal]	Modi
+mode [Text Activ]	Wartungsoptionen verwenden
+simulation [Text Normal]	Simulation
+simulation [Text Activ]	Button
+no_lock [Text Normal]	keine Verriegelung
+no_lock [Text Activ]	Button
+run_fwd_emulation [Text Normal]	Emulation läuft vorw.
+run_fwd_emulation [Text Activ]	Button
+ready_emulation [Text Normal]	Emulation bereit
+ready_emulation [Text Activ]	Button
+error_mcc_emulation [Text Normal]	Emulation Vorort
+error_mcc_emulation [Text Activ]	Button
+emulation [Text Normal]	Emulation
+emulation [Text Activ]	Wartungsoptionen verwenden
+max_run_feedb [Text Normal]	max. Fehlerzeit:
+max_run_feedb [Text Activ]	Text
+delaytime [Text Normal]	Verzögerung:
+delaytime [Text Activ]	Text
+lock_setpt [Text Normal]	Sollwert verriegeln
+lock_setpt [Text Activ]	Button
+run_rev_emulation [Text Normal]	Emulation läuft rückw..
+run_rev_emulation [Text Activ]	Button
+ch_dir_delay [Text Normal]	Verzögerung vorw./rückw.:
+ch_dir_delay [Text Activ]	Text
+manual_at_fault [Text Normal]	Hand bei Störung
+manual_at_fault [Text Activ]	Button

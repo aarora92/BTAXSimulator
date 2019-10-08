@@ -1,0 +1,264 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+        
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+        
+  <meta name="GENERATOR"
+ content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+  <title>ax_playsound</title>
+</head>
+  <body>
+  &nbsp;  
+<table border="0" cellspacing="0" cellpadding="4" width="924">
+  <tbody>
+     <tr>
+  <td valign="top" height="53" bgcolor="#808080"><b><font face="Arial"><font
+ color="#ffffff"><font size="+4">ax_playalarmsound</font></font></font></b></td>
+  </tr>
+     
+  </tbody> 
+</table>
+  <font face="Arial"><a href="#Features">Features</a> | <a
+ href="#Installation">Installation</a> | <a href="#UserInterface">User Interface</a> 
+| <a href="#implementation">Implementation Notes</a></font>  
+<p><a name="Features"></a> <br>
+ <b><font face="Arial"><font color="#0000ff"><font size="+2">Features</font></font></font></b>
+ </p>
+ 
+<p><font face="Arial,Helvetica">The basic conditions for the ax_playalarmsound
+ class are:</font> </p>
+ 
+<ul>
+  <li> <font face="Arial,Helvetica">the SlowSPS is running</font></li>
+   <li> <font face="Arial,Helvetica"><b>axclientservice</b> and <b>axsoundserver
+     </b>are running</font></li>
+   
+</ul>
+    
+<p><br>
+ <font face="Arial,Helvetica">The ax_playalarmsound class is a supplement
+of the <b>axclientservice</b> and the <b>axsoundserver</b>.</font> </p>
+ 
+<p><font face="Arial,Helvetica">The ax_playalarmsound class includes following
+ features:</font> <br>
+ </p>
+ 
+<ul>
+  <li> <b><font face="Arial,Helvetica">playing of the configured alarm-sound 
+with highest priority</font></b></li>
+   <li> <b><font face="Arial,Helvetica">enabling and disabling playing alarm 
+sounds</font></b></li>
+   <li> <b><font face="Arial,Helvetica">choice of 4 different alarm types</font></b></li>
+   <li> <b><font face="Arial,Helvetica">assigning alarm sounds (.wav-files) 
+to determinated priorities</font></b></li>
+   <li> <b><font face="Arial,Helvetica">configureable repeating time for
+playing sounds</font></b></li>
+       
+</ul>
+    
+<p><font face="Arial"><a href="#Features">Features</a> | <a
+ href="#Installation">Installation</a> | <a href="#UserInterface">User Interface</a> 
+| <a href="#implementation">Implementation Notes</a></font> </p>
+ 
+<p> </p>
+ 
+<hr align="left" width="75%"> <br>
+ <a name="Installation"></a> <br>
+ <b><font face="Arial"><font color="#0000ff"><font size="+2">Installation</font></font></font></b>
+ 
+<p>&nbsp;<font face="Arial">The ax_playsound class is comprised of the following 
+components (files):</font> <br>
+ &nbsp; <br>
+ &nbsp;  
+<table border="1" cellspacing="2" cellpadding="4" width="623">
+  <tbody>
+     <tr>
+  <td valign="top" width="26%" bgcolor="#ffffff"><b><font face="Arial">Class
+ Component</font></b></td>
+   <td valign="top" width="36%" bgcolor="#ffffff"><b><font face="Arial">Description</font></b></td>
+   <td valign="top" width="38%" bgcolor="#ffffff"><b><font face="Arial">File
+ Name(s)</font></b></td>
+  </tr>
+   <tr>
+  <td valign="top" width="26%"><b><font face="Arial">Class File</font></b></td>
+   <td valign="top" width="36%"><font face="Arial">Includes the process picture
+ representation and any popup menus.</font></td>
+   <td valign="top" width="38%"><font face="Arial,Helvetica">ax_playalarmsound.symbol</font><br>
+       </td>
+  </tr>
+   <tr valign="top">
+  <td><b><font face="Arial,Helvetica">Graphic Files</font></b></td>
+   <td><font face="Arial,Helvetica">Class Specific Graphic Files for both,
+ class definition and documentation</font></td>
+   <td><font face="Arial,Helvetica">some documentation graphics</font></td>
+  </tr>
+   <tr>
+  <td valign="top"><b><font face="Arial">HTML Document</font></b></td>
+   <td><font face="Arial">HTML document for Online Help.</font></td>
+   <td valign="top"><font face="Arial,Helvetica">ax_playalarmsound.htm</font></td>
+  </tr>
+     
+  </tbody> 
+</table>
+   </p>
+ 
+<p><font face="Arial"><b>Installation: </b>The class color file, the class
+ file, the graphic files and the HTML-Document file must be copied into a 
+common sub directory within the project's "classlib" directory. </font><font
+ face="Arial,Helvetica">The name of the common directory can be chosen freely.</font>
+ </p>
+ 
+<p><b><font face="Arial,Helvetica">The axclientservice + the axsoundserver
+ have to be installed.</font></b> </p>
+ 
+<p><font face="Arial"><a href="#Features">Features</a> | <a
+ href="#Installation">Installation</a> | <a href="#UserInterface">User Interface</a> 
+| <a href="#implementation">Implementation Notes</a> | <a
+ href="#program">Time Control Program</a></font> </p>
+ 
+<p> </p>
+ 
+<hr align="left" width="90%"> <br>
+ <a name="UserInterface"></a> <br>
+ <b><font face="Arial"><font color="#0000ff"><font size="+2">User Interface</font></font></font></b>
+ 
+<p><font face="Arial,Helvetica">The ax_playsound class graphical user interface
+ includes:</font> </p>
+ 
+<ul>
+  <li> <b><font face="Arial,Helvetica">Graphical Representation</font></b></li>
+   <li> <b><font face="Arial,Helvetica">Operator Interface</font></b></li>
+   
+</ul>
+  <b><font face="Arial,Helvetica">1. Graphical Representation</font></b>
+ 
+<p><font face="Arial,Helvetica">The circles next to the edit-values denote
+ the state of the play_sound# variables:</font> <br>
+ <font face="Arial,Helvetica">If the circle is filled green, the sound associated 
+to the defined and existing priority is played. Otherwise the defined priority 
+is not existing respectively the alarm sound is not played.</font> </p>
+ 
+<p><img src="ax_playalarmsound_GR.gif" height="149" width="167" alt="">
+  <br>
+ <font face="Arial,Helvetica"><font size="-1">Figure 1: Graphical Representation</font></font>
+ <br>
+ &nbsp; <br>
+ &nbsp; </p>
+ 
+<p><b><font face="Arial,Helvetica">2. Operator PopUp</font></b> <br>
+ &nbsp; </p>
+ 
+<p><font face="Arial,Helvetica">The Operator PopUp is shared into three sections:</font>
+ <br>
+ &nbsp;<br>
+</p>
+<p> </p>
+ 
+<ul>
+  <li> <b><font face="Arial,Helvetica">Display</font></b></li>
+   <br>
+   <font face="Arial,Helvetica">There you have to enter the hostname of the 
+client, where the alarm sounds should be played. If you make no entry the 
+alarm sounds will be played on the server.</font> <br>
+  <br>
+  <li> <b><font face="Arial,Helvetica">Repeat Time</font></b></li>
+  <br>
+  <font face="Helvetica, Arial, sans-serif">There you have to enter the repeat
+time in seconds. After the configured repeat time, the alarm sound will be
+played again.</font><br>
+  <br>
+ <li> <b><font face="Arial,Helvetica">Enable Sound</font></b></li>
+   <br>
+   <font face="Arial,Helvetica">Enables the sound-playing at the selected
+alarm</font><br>
+ &nbsp; <li> <b><font face="Arial,Helvetica">Prio</font></b></li>
+</ul>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <font face="Arial,Helvetica">&nbsp;
+This is the alarm priority to check</font><br>
+<ul>
+  <li> <b><font face="Arial,Helvetica">Wav</font></b></li>
+</ul>
+<font face="Arial,Helvetica">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+This is the sound-file which should be played</font>
+<ul>
+  <br>
+  <li> <b><font face="Arial,Helvetica">repeat Sound</font></b></li>
+</ul>
+<ul>
+  <font face="Arial,Helvetica"></font> 
+</ul>
+    
+<p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<font
+ face="Arial,Helvetica">If this checkbox is selected, the sound will be played
+again after the configured 'repeat time'.<br>
+<br>
+</font></p>
+<p> <img src="ax_playalarmsound_OperatorPopup.gif" height="413"
+ width="414" alt="">
+  <br>
+ <font face="Arial,Helvetica"><font size="-1">Figure 2: Operator Popup</font></font>
+ <br>
+ &nbsp; <br>
+ &nbsp; <br>
+ &nbsp; <br>
+ &nbsp; </p>
+ 
+<p><font face="Arial"><a href="#Features">Features</a> | <a
+ href="#Installation">Installation</a> | <a href="#UserInterface">User Interface</a> 
+| <a href="#implementation">Implementation Notes</a></font> </p>
+ 
+<p> </p>
+ 
+<hr align="left" width="90%"> <br>
+ <a name="implementation"></a> <br>
+ <b><font face="Arial"><font color="#0000ff"><font size="+2">Implementation
+ Notes<br>
+<br>
+</font></font></font></b><b><font face="Arial,Helvetica">Class - Basic functionality</font></b><br>
+<br>
+<font face="Helvetica, Arial, sans-serif">The basic funtionality of the class
+is, to play the high priorest alarm sound on a specified client. <br>
+The class logic starts at alarm configuration1 and ends at alarm configuration4.
+The alarm priorities of the configurations must be descending.</font><br>
+  
+<p><b><font face="Arial,Helvetica">SlowSPS - Basic condition</font></b><font
+ face="Arial,Helvetica"></font> </p>
+ 
+<p><font face="Arial,Helvetica">The SlowSPS has to run as a condition for
+ the executability of the ax_playalarmsound class.</font> <br>
+ <font face="Arial,Helvetica">For checking the state of the SlowSPS you have 
+to open the Popup of the Soft PLC Panel at the aX-Server window.</font> <br>
+ <font face="Arial,Helvetica">If the SlowSPS is not running you have to enter 
+the following entry in the <b>UserProcesses.pls:</b></font> <br>
+ <b><font face="Arial,Helvetica">:name=slowsps autostart=True restart=True</font></b>
+ <br>
+ &nbsp;<font face="Arial,Helvetica"></font> </p>
+ 
+<p><b><font face="Arial,Helvetica">Storage directory - .wav-files</font></b><font
+ face="Arial,Helvetica"></font> </p>
+ 
+<p><font face="Arial,Helvetica">The .wav-files have to be stored in the following 
+directory:</font> <br>
+ <b><font face="Arial,Helvetica">.\automationXClientService\bin\sounds</font></b><font
+ face="Arial,Helvetica"></font> </p>
+ 
+<p><img src="path_wav.gif" height="295" width="548">
+  <br>
+ <font face="Arial,Helvetica"><font size="-1">Figure 3: Storage directory
+of the .wav-files</font></font> <br>
+ <font face="Arial,Helvetica"></font>&nbsp; <br>
+ <font face="Arial,Helvetica"></font>&nbsp; </p>
+ 
+<p><font face="Arial"><a href="#Features">Features</a> | <a
+ href="#Installation">Installation</a> | <a href="#UserInterface">User Interface</a> 
+| <a href="#implementation">Implementation Notes</a></font> </p>
+ 
+<p> </p>
+ 
+<hr align="left" width="90%"> <br>
+ &nbsp; <br>
+ <br>
+</body>
+</html>

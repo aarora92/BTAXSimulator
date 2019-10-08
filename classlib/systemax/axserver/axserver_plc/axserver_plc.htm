@@ -1,0 +1,269 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.5 [de] (WinNT; I) [Netscape]">
+   <meta name="Microsoft Theme" content="none, default">
+   <meta name="Microsoft Border" content="none, default">
+   <meta name="Template" content="C:\Programme\Microsoft Office\Office\html.dot">
+   <title>AutomationX Integrated PLC</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="796" >
+<tr>
+<td VALIGN=TOP WIDTH="773" HEIGHT="53" BGCOLOR="#808080"><b><font face="Arial"><font color="#FFFFFF"><font size=+4>AutomationX
+Integrated PLC</font></font></font></b></td>
+</tr>
+</table>
+<font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<br><a NAME="Features"></a>
+<br>&nbsp;
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Features</font></font></font></b>
+<p><font face="Arial">The Soft PLC panel displays the current status of
+the Soft PLCand Slow PLC. It features the following:</font>
+<ul>
+<li>
+<font face="Arial">Running status</font></li>
+
+<li>
+<font face="Arial">Cycle time</font></li>
+
+<li>
+<font face="Arial">Life tick</font></li>
+
+<li>
+<font face="Arial">Cycle execution time</font></li>
+
+<li>
+<font face="Arial">Peak execution detection and Reset Peak button</font></li>
+
+<li>
+<font face="Arial">Shared memory used by automationX</font></li>
+</ul>
+
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"><font size=+1><a href="#Class_Modification_History"></a></font></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="Installation"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>Installation</font></font></font></b>
+<p><font face="Arial">The axserver class is comprised of the following
+components (files):</font>
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="703" >
+<tr>
+<td VALIGN=TOP WIDTH="150" BGCOLOR="#FFFFFF"><b><font face="Arial">Class
+Component</font></b></td>
+
+<td VALIGN=TOP WIDTH="214" BGCOLOR="#FFFFFF"><b><font face="Arial">Description</font></b></td>
+
+<td VALIGN=TOP WIDTH="223" BGCOLOR="#FFFFFF"><b><font face="Arial">File
+Name(s)</font></b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">Class File</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">Includes the process picture
+representation and any popup menus.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial">axserver_plc.symbol</font>
+<p>&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">Graphic Files</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial,Helvetica">AXLedGreen.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGreenGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedRed.bmp</font>
+<br><font face="Arial,Helvetica">AXLedRedGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedYellow.bmp</font>
+<br><font face="Arial,Helvetica">AXLedYellowGR.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGrey.bmp</font>
+<br><font face="Arial,Helvetica">AXLedGreyGR.bmp</font>
+<p><font face="Arial">(and&nbsp; some documentation pixel maps)</font></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="150"><b><font face="Arial">HTML-Document</font></b></td>
+
+<td VALIGN=TOP WIDTH="214"><font face="Arial">HTML document for Online
+Help.</font></td>
+
+<td VALIGN=TOP WIDTH="223"><font face="Arial">axserver_plc.htm</font></td>
+</tr>
+</table>
+
+<p><font face="Arial"><b>Installation: </b>The&nbsp; files&nbsp; listed
+above must be copied to a common sub-directory within the project's "classlib"
+directory. The name of the common directory can be chosen freely.</font>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br><a NAME="UserInterface"></a>
+<br><b><font face="Arial"><font color="#0000FF"><font size=+2>User Interface</font></font></font></b>
+<p><b><font face="Arial"><font size=+1>Soft PLC Panel</font></font></b>
+<p><font face="Arial">The GR (graphical representation) of the Soft PLC
+class displays the current <b>Soft PLC status</b>, <b>cycle time</b>, <b>last
+cycle execution time</b> and the <b>amount of shared memory </b>(RAM) currently
+used by automationX processes.</font>
+<br>&nbsp;
+<p><img SRC="softplc_interface.gif" ALT="softplc_interface.gif (5174 bytes)" height=343 width=340>
+<p><font face="Arial">The <b>Soft PLC status</b> indication displays two
+states:</font>
+<ul>
+<li>
+<font face="Arial"><b>Green</b>: Soft PLC status is OK. Message reads "Running".</font></li>
+
+<li>
+<font face="Arial"><b>Red</b>: Soft PLC failure. Message reads "Not Running".</font></li>
+</ul>
+<font face="Arial">The <b>last execution time status bar</b> displays the
+same two states; i.e. Red = Soft PLC Failure, and Green = Soft PLC Running.</font>
+<p><font face="Arial">The <b>Shared Memory status bar </b>displays similarly
+for the shared memory amount. If memory resources (RAM) on the host computer
+go beyond the minimum required amount for automationX processes to run,
+the status bar will turn Red.</font>
+<p><b><font face="Arial"><font size=+1>Integrated PLC Pop-up</font></font></b>
+<p><font face="Arial,Helvetica">The “Integrated PLC” popup window shows
+specific information about the Soft PLC and Soft PLC - Slow status.</font>
+<p><font face="Arial,Helvetica">This window is activated by clicking the
+status indication on the Soft PLC class graphical representation. <i>Hint:
+move the mouse pointer over the name and a button will appear.</i></font>
+<p><img SRC="softplc_popup_button.gif" ALT="softplc_popup_button.gif (2001 bytes)" BORDER=1 height=111 width=216>
+<p><font face="Arial,Helvetica">The <b>Soft PLC</b> portion shows information
+about the regular Soft PLC cycle.</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><b>Cycle Time</b> is the current setting (in
+milliseconds) between execution cycles. This setting is adjustable using
+the increment/decrement arrows or by selecting the value and typing in
+a new number.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Peak Detection</b> is a read-only value.
+This is a record of the longest execution interval for the current running
+session since the last reset. This value is reset during a system re-start
+or by selecting the <b>Reset Peak</b> button.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Last Time</b> is the execution time (in
+milliseconds) of the last cycle.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>ID</b> is<font color="#000000"> the number
+of warmstarts since the system was last started.</font></font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Lifetick</b> is a counter that increases
+by one every Soft PLC cycle from the beginning of the current session.</font></li>
+
+<li>
+<font face="Arial,Helvetica">The <b>status</b> at the bottom of this section
+shows the current state of the Soft PLC. It mimics the Soft PLC status
+display on the class GR (graphical representation).</font></li>
+</ul>
+<font face="Arial,Helvetica">The <b>Soft PLC - Slow</b> shows informaion
+about the Slow PLC cycle. The Slow cycle is a secondary execution time
+that is used for applications that do not have to execute every PLC cycle
+(for details on the Soft PLC - Slow cycle, please see the automationX System
+Manual).</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><b>Cycle Time</b> is the current setting (in
+milliseconds) between execution cycles. This setting is adjustable using
+the increment/decrement arrows or by selecting the value and typing in
+a new number.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Lifetick</b> is a counter that increases
+by one every Soft PLC cycle from the beginning of the current session.</font></li>
+
+<li>
+<font face="Arial,Helvetica">The <b>status</b> at the bottom of this section
+shows the current state of the Soft PLC - Slow process. If the process
+is OK, the display is Green with the message "Slow PLC Running". If the
+process has a failure, the display is Red - the message reading "Slow PLC
+Not Running".</font></li>
+</ul>
+<font face="Arial,Helvetica"><b>Shared Memory </b>shows resource information
+about the server.</font>
+<ul>
+<li>
+<font face="Arial,Helvetica"><b>Free</b> is the amount of free RAM on the
+server computer.</font></li>
+
+<li>
+<font face="Arial,Helvetica"><b>Locked</b> is the amount of RAM currently
+in use by automationX processes.</font></li>
+</ul>
+<img SRC="softplc_pop.gif" height=274 width=383>
+<p><font face="Arial">Trending is available - via the "Trend" button -
+for the following variables:</font>
+<ul>
+<li>
+<font face="Arial"><b>cycle_time</b>: normal Soft PLC cycle time</font></li>
+
+<li>
+<font face="Arial"><b>cycle_time_slow</b>: Soft PLC - Slow cycle time</font></li>
+
+<li>
+<font face="Arial"><b>time_plc_last</b>: execution time of the last PLC
+cycle</font></li>
+
+<li>
+<font face="Arial"><b>peak_detector</b>: longest recorded execution interval
+of the normal Soft PLC cycle time</font></li>
+
+<li>
+<font face="Arial"><b>free_space</b>: amount of RAM currently available
+on the server</font></li>
+
+<li>
+<font face="Arial"><b>locked_space</b>: amount of RAM being used by automationX
+processes</font></li>
+</ul>
+<img SRC="Trend.gif" ALT="Trend.gif (17851 bytes)" height=528 width=695>
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<p><b><font face="Arial"><font color="#0000FF"><font size=+2>Implementation
+Notes</font></font></font></b>
+<p><font face="Arial,Helvetica">The Soft-PLC class is an integral part
+of the "axsystem" program. In terms of implementation it is required to
+have the "axsystem.tree" program installed into the running project. I.e.
+in the "Configuration" directory of the Project Window.</font>
+<p><img SRC="Project.gif" ALT="Project.gif (8945 bytes)" height=261 width=697>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p><font face="Arial"><a href="#Features">Features</a> | <a href="#Installation">lnstallation
+</a>|
+<a href="#UserInterface">User Interface</a> | <a href="#implementation">Implementation
+Notes</a></font><font face="Arial"><a href="#implementation"></a></font>
+<p>
+<hr ALIGN="LEFT" WIDTH="90%">
+<br>&nbsp;
+</body>
+</html>

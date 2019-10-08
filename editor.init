@@ -1,0 +1,358 @@
+#This is an automatically generated menu file for all elements
+#The syntax is:
+# #comment line  		-- comment line begins with #
+# [library_name] pixmap_file	-- description of library
+# element_name;button_name 		-- function name to search
+# DUMMY         		-- empty tab in table
+#
+# New library:
+[Draw Primitives + Control Elements] ed_draw_prim.bmp
+_Text;Text;Text.bmp
+_Line;Line;Line.bmp
+_Arc;Arc;Arc.bmp
+_Rectangle;Rectangle;Rectangle.bmp
+_Value;Status Value;Value.bmp
+_VerticalBar;Status Bar;VerticalBar.bmp
+_EditValue;Control Value;EditValue.bmp
+_Button;Control Button;ButtonSymb.bmp
+_VerticalSlider;Control Bar;VerticalSlider.bmp
+#
+# New library:
+[Automation Core Classes] ed_autom_class.bmp
+_PopupPane;Pop-up Definition;ed_autom_popup.bmp
+_ActionDef;Action Definition;ed_autom_action.bmp
+_Trend;Trend;ed_autom_trend.bmp
+_HTMLView;HTML View;ed_autom_html.bmp
+_Pipe;Pipe;Pipe.bmp
+_SpreadSheet;SpreadSheet;AXSpreadSheet.bmp
+_Diagram;Diagram;Diagram.bmp
+--------------------------
+#
+# New library:
+[Basic + Numerical Functions] ed_basics.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+AND;AND
+OR;OR
+XOR;XOR
+FUNCTION;Math Function
+FloatRunden;Round Off
+#
+# New library:
+[Comparison + Selection] ed_comp.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+GT;GREATER THAN
+GE;GREATER EQUAL
+EQ;EQUAL
+LE;LESS EQUAL
+LT;LESS THAN
+NE;NOT EQUAL
+MUX;MUX
+DEMUX;DEMUX
+MIN;MIN
+MAX;MAX
+Limit;LIMIT
+COMP;Comparator
+W_COMP;Window Comp.
+#
+# New library:
+[Edge Detection + Flip Flops] ed_edge.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+SET;SET
+RESET;RESET
+RiseEdge;RISING EDGE
+FallEdge;FALLING EDGE
+SRFF;SR-FF
+RS;RS-FF
+DFF;D-FF
+JK;JK-FF
+JK_MS;JK-MS-FF
+DATA;DATA-LATCH
+#
+# New library:
+[Timers + Counters] ed_timer.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+PulseT;PULSE
+OnDelayIEC;ON-DELAY
+OffDelayIEC;OFF-DELAY
+UP_COUNTER;UP-COUNTER
+DOWN_COUNTER;DOWN-COUNTER
+UD_COUNTER;UP-DOWN-C.
+FGEN;aX Freq. Gen.
+ONDELAY;aX on-delay
+OFFDELAY;aX off-delay
+COUNTER;aX counter
+Mes_Time;Mes_Time
+ATIME2000;Actual Time (Y2K)
+AUTIME;Actual Unix Time
+SplitUnixTime;Split Unix Time
+#
+# New library:
+[Type Conversion + Bit Stream Functions] ed_conv.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+SHL;ShiftLeft
+SHR;ShiftRight
+ROL;RotateLeft
+ROR;RotateRight
+DBToBits;BYTE_TO_BIT
+BitsToDB;BIT_TO_BYTE
+RealToBytes;REAL_TO_BYTE
+BytesToReal;BYTE_TO_REAL
+UIntToBytes;UINT_TO_BYTE
+BytesToUInt;BYTE_TO_UINT
+Int16ToBytes;INT_TO_BYTE
+BytesToInt;BYTE_TO_INT
+DIntToBytes;DINT_TO_BYTE
+BytesToDInt;BYTE_TO_DINT
+UDIntToBytes;UDINT_TO_BYTE
+BytesToUDInt;BYTE_TO_UDINT
+UIntAryToUSIntAry;UIntAryToUSIntAry
+RealToUInt;RealToUInt
+UIntToReal;UIntToReal
+BitsToDW;BitsToDW
+DWToBits;DWToBits
+DataConverter;DataConverter
+#
+# New library:
+[Character String Functions] ed_string.bmp
+_C;Connection;ed_fb_conn.bmp
+_G;InputVariable
+_S;OutputVariable
+ASSIGN;Assign
+StringLength;String length
+LeftChars;LeftChars
+RightChars;RightChars
+CentChars;CentChars
+ConcatStr;ConcatStr
+InsChars;InsChars
+DelChars;DelChars
+RepChars;RepChars
+FindChars;FindChars
+--------------------------
+#
+# New library:
+[Miscellaneous Blocks] ed_timer.bmp
+PID;PID
+Average;Average
+RollingAverage;Rolling Avg.
+OneFromN;Decoder
+MonoFlop;Mono Flop
+MonoFlop_RT;Re-Triggerable MF
+ADATE;Day of Week
+Journal;Journal
+AxLog;AXLog
+TIMECOMP;Time Comparison
+AIMPULS;Abs. impulse
+AxLog;aX Log
+FormStr;Format String
+FormTime;Format Time
+AX_Random;Random Number
+MoveArray;MoveArray
+ClrArray;ClrArray
+:classlib/Burrard/Misc/BatchTracker.symbol;BatchTracker
+#
+# New library:
+[Legacy Blocks] ed_timer.bmp
+MiniCompare;= ?
+OFFD;OFFD 0.5
+OND;OND 0.5
+OFFD15;OFFD15 15.0
+Time_timet;time t
+S_DATA;S_DATA
+PULSE;P
+SPRINT;SPRINTF
+Data_w;Data_w
+_GenericFB;DerivedFB
+#
+# New library:
+[Data Blocks] 
+:classlib/Data/real_data/real_data.symbol;real_data
+:classlib/Data/bool_data/bool_data.symbol;bool_data
+:classlib/Data/int_data/int_data.symbol;int_data
+:classlib/Data/uint_data/uint_data.symbol;uint_data
+:classlib/Data/longreal_data/longreal_data.symbol;longreal_data
+--------------------------
+#
+# New library:
+[Administrative] 
+:classlib/systemax/axserver/axserver_sys/axserver_sys.symbol;axserver_sys
+:classlib/systemax/axserver/axserver_plc/axserver_plc.symbol;axserver_plc
+:classlib/systemax/axserver/axserver_arb/axserver_arb.symbol;axserver_arb
+:classlib/systemax/axserver/axs_mio/axs_mio.symbol;axs_mio
+:classlib/WatchVariables/WatchVariables.symbol;WatchVariables
+:classlib/systemax/axvarious/axplaysound/ax_playalarmsound.symbol;ax_playalarmsound
+#
+# New library:
+[Burrard - PID] 
+:classlib/Burrard/Burrard_PID/Burrard_PID.symbol;Burrard_PID
+#
+# New library:
+[Burrard - Pumps] 
+:classlib/Burrard/Pumps/23hpmps/HPUMPStop.symbol;HPUMPStop
+:classlib/Burrard/Pumps/23hpmps/HPUMP.symbol;HPUMP
+:classlib/Burrard/Pumps/23hpmps/HPMP23ZS.symbol;HPMP23ZS
+:classlib/Burrard/Pumps/23vpmps/VPUMP.symbol;VPUMP
+:classlib/Burrard/Pumps/23vpmps/VPUMP2.symbol;VPUMP2
+:classlib/Burrard/Pumps/Sump/SPUMP.symbol;SPUMP
+:classlib/motor/var1d/var1d.symbol;var1d
+#
+# New library:
+[Burrard - Valves] 
+:classlib/Burrard/MOVs/MOVFOAM.symbol;MOVFOAM
+:classlib/Burrard/MOVs/MOV.symbol;MOV
+:classlib/Burrard/MOVs/MOVSTEP.symbol;MOVSTEP
+:classlib/Burrard/MOVs/MOVRAIL.symbol;MOVRAIL
+:classlib/Burrard/MOVs/MOV23ZS.symbol;MOV23ZS
+:classlib/Burrard/MOVs/MOV2.symbol;MOV2
+:classlib/Burrard/Valves/23bv/bv23cyan.symbol;bv23cyan
+:classlib/Burrard/Valves/23bv/BV23PROD.symbol;BV23PROD
+:classlib/Burrard/Valves/23bv/BVLV23STAT.symbol;BVLV23STAT
+:classlib/Burrard/Valves/23bv/BVControl.symbol;BVControl
+:classlib/Burrard/Valves/23hv/HV23ZS.symbol;HV23ZS
+:classlib/Burrard/Valves/23hv/PC23HvStat.symbol;PC23HvStat
+:classlib/Burrard/Valves/23dockhv/DockHV23.symbol;DockHV23
+:classlib/Burrard/Valves/23dockhvcust/DHV23Cst.symbol;DHV23Cst
+:classlib/Burrard/Valves/23pidcv/BTCV23pid.symbol;BTCV23pid
+:classlib/Burrard/Valves/23vent/VENT23ZS.symbol;VENT23ZS
+:classlib/Burrard/AirSystem/AirSolVlv.symbol;AirSolVlv
+#
+# New library:
+[Burrard - Leak + Tickets ] 
+:classlib/Burrard/LeakDetect/LeakMaster.symbol;LeakMaster
+:classlib/Burrard/LeakDetect/LeakDetect.symbol;LeakDetect
+:classlib/Burrard/LeakDetect/LeakPrint.symbol;LeakPrint
+:classlib/Burrard/LeakDetect/PrintTicket.symbol;PrintTicket
+:classlib/Burrard/LeakDetect/TicketPCT.symbol;TicketPCT
+:classlib/Burrard/Misc/BatchTracker.symbol;BatchTracker
+:classlib/Burrard/LeakDetect/LeakFilter.symbol;LeakFilter
+#
+# New library:
+[Burrard - Alarms] 
+:classlib/Burrard/Alarms/AlarmOFF.symbol;AlarmOFF
+:classlib/Burrard/Alarms/AlarmON.symbol;AlarmON
+:classlib/Burrard/Alarms/DockONAlrm.symbol;DockONAlrm
+:classlib/Burrard/Alarms/DockOFFAlrm.symbol;DockOFFAlrm
+:classlib/Burrard/Alarms/AlarmInd.symbol;AlarmInd
+:classlib/Burrard/Alarms/AlarmBoxAutoMan.symbol;AlarmBoxAutoMan
+:classlib/Burrard/Alarms/AlarmBoxOff.symbol;AlarmBoxOff
+:classlib/Burrard/Alarms/AlarmBoxOn.symbol;AlarmBoxOn
+:classlib/Burrard/Alarms/AlarmProfibusSST.symbol;AlarmProfibusSST
+:classlib/Burrard/Alarms/AlarmProfibusAB.symbol;AlarmProfibusAB
+:classlib/Burrard/Alarms/AlarmProfibusPBC1.symbol;AlarmProfibusPBC1
+:classlib/Burrard/Alarms/AlarmProfibus4401.symbol;AlarmProfibus4401
+#
+# New library:
+[Burrard - Indicators] 
+:classlib/Burrard/Misc/ValWithAlrm.symbol;ValWithAlrm
+:classlib/Burrard/Misc/MeterBox.symbol;MeterBox
+:classlib/Burrard/Misc/RailStation.symbol;RailStation
+:classlib/Burrard/Misc/IndAnalog.symbol;IndAnalog
+:classlib/Burrard/Misc/IndAnalogH.symbol;IndAnalogH
+:classlib/Burrard/Misc/Totalizer.symbol;Totalizer
+:classlib/Burrard/Misc/IndAnalogModbus.symbol;IndAnalogModbus
+#
+# New library:
+[Burrard - Misc] 
+:classlib/Burrard/Mixer/MIXER.symbol;MIXER
+:classlib/Burrard/Tanks/PCTANK.symbol;PCTANK
+:classlib/Burrard/Misc/DisplayDate.symbol;DisplayDate
+:classlib/Burrard/Misc/DisplayTime.symbol;DisplayTime
+:classlib/Burrard/Misc/PCDelugeStart.symbol;PCDelugeStart
+:classlib/Burrard/Misc/EStopButton.symbol;EStopButton
+:classlib/Burrard/Misc/LowWaterPress.symbol;LowWaterPress
+:classlib/Burrard/Misc/PCStar.symbol;PCStar
+:classlib/Burrard/Misc/ForceRailLoading.symbol;ForceRailLoading
+:classlib/CSVExport/CSVExport.symbol;CSVExport
+#
+# New library:
+[Burrard - Static] 
+:classlib/Burrard/AirSystem/AirFilter.symbol;AirFilter
+:classlib/Burrard/AirSystem/AirDrier.symbol;AirDrier
+:classlib/Burrard/AirSystem/AirComp.symbol;AirComp
+:classlib/Burrard/StaticPictures/PCVerTk.symbol;PCVerTk
+:classlib/Burrard/StaticPictures/PCHorTk.symbol;PCHorTk
+:classlib/Burrard/StaticPictures/PCMeter.symbol;PCMeter
+:classlib/Burrard/StaticPictures/PCTrkSp.symbol;PCTrkSp
+:classlib/Indicator.symbol;Indicator
+:classlib/Burrard/StaticPictures/HandleGold.symbol;HandleGold
+:classlib/Burrard/StaticPictures/HandleWhite.symbol;HandleWhite
+:classlib/Burrard/StaticPictures/HandlePink.symbol;HandlePink
+:classlib/Burrard/StaticPictures/HandleGreen.symbol;HandleGreen
+:classlib/Burrard/StaticPictures/HandlePurple.symbol;HandlePurple
+:classlib/Burrard/StaticPictures/PCArrow.symbol;PCArrow
+:classlib/Burrard/StaticPictures/PCDownArrow.symbol;PCDownArrow
+#
+# New library:
+[Serial Communications] system.xpm
+:classlib/modbus/modbus_rtu/com/ModbusSerS.symbol;ModbusSerS
+:classlib/modbus/modbus_rtu/mio/ModbusMioS.symbol;ModbusMioS
+:classlib/modbus/modbus_rtu/mio/ModbusMioM.symbol;ModbusMioM
+:classlib/modbus/modbus_rtu/client/ModbusCL.symbol;ModbusCL
+:classlib/serial/DF1/DF1_Master/ABDF1_Master.symbol;ABDF1_Master
+:classlib/serial/DF1/DF1_Master/DF1MIO_M.symbol;DF1MIO_M
+:classlib/serial/DF1/DF1_Task/ABDF1_Client.symbol;ABDF1_Client
+:classlib/serial/DF1/DF1_Task/DF1_Client.symbol;DF1_Client
+:classlib/Communications/tcpserver/TCP_RW.symbol;TCP_RW
+:classlib/Communications/TCP_data/TCP_ByteExchange.symbol;TCP_ByteExchange
+:classlib/RS232/ABDF1/ABDF1_Master.symbol;ABDF1_Master
+:classlib/RS232/ABDF1/ABDF1_Client.symbol;ABDF1_Client
+:classlib/RS232/Modbus/Modbus_Master.symbol;Modbus_Master
+:classlib/RS232/Modbus/Modbus_Client.symbol;Modbus_Client
+:classlib/RS232/Modbus/Modbus_Slave.symbol;Modbus_Slave
+#
+# New library:
+[Profibus Devices] system.xpm
+:classlib/profibus/AB/AB_SLC500/SLAVE/ab_slc500_slave.symbol;ab_slc500_slave
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IA8/ab_slc_ia8.symbol;SLC500 IA8
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/OX8/ab_slc_ox8.symbol;SLC500 OX8
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IB8/ab_slc_ib8.symbol;SLC500 IB8
+:classlib/profibus/AB/AB_SLC500/AnalogDevices/NO4I/ab_slc_no4i.symbol;ab_slc_no4i
+:classlib/profibus/AB/AB_SLC500/AnalogDevices/NI4/ab_slc_ni4.symbol;ab_slc_ni4
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_pbconverter1.symbol;aX4401_pbconverter1
+:classlib/profibus/AB/AB_SLC500/EmptySlot/ab_slc_empty.symbol;ab_slc_empty
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_module/aX4401_mode_0_counter/aX4401_mode_0_counter.symbol;aX4401_mode_0_counter
+:classlib/profibus/M&R/Counter/pbc1.symbol;pbc1
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/ia16/ab_slc_ia16.symbol;ab_slc_ia16
+:classlib/profibus/aX/aX4401_pbc1/aX4401_pbc1.symbol;aX4401_pbc1
+:classlib/profibus/aX/pbc1/pbc_1.symbol;pbc_1
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_pbconverter1.symbol;aX4401_pbconverter1
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_module/aX4401_mode_1_counter/aX4401_mode_1_counter.symbol;aX4401_mode_1_counter
+:classlib/profibus/aX/aX4401_pbconverter1/aX4401_module/aX4401_mode_0_counter/aX4401_mode_0_counter.symbol;aX4401_mode_0_counter
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/IA8/ab_slc_ia8_sst.symbol;ab_slc_ia8_sst
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/ia16/ab_slc_ia16_sst.symbol;ab_slc_ia16_sst
+:classlib/profibus/AB/AB_SLC500/DigitalDevices/OX8/ab_slc_ox8_sst.symbol;ab_slc_ox8_sst
+:classlib/profibus/AB/AB_SLC500/SLAVE/sst_pfb_slc_adp.symbol;sst_pfb_slc_adp
+:classlib/communication/profibus/siemens/simatic_dp/et200m/im153/Im153_2/im153_2.symbol;im153_2
+:classlib/communication/profibus/siemens/simatic_dp/et200m/im153/Im153_2_HF/im153_2_HF.symbol;im153_2_HF
+:classlib/communication/profibus/siemens/simatic_s7/s7_300/special/activbus/ActivBus.symbol;ActivBus
+:classlib/communication/profibus/siemens/simatic_s7/s7_300/special/dummy/dummy.symbol;dummy
+:classlib/communication/profibus/siemens/simatic_s7/s7_300/special/empty/empty_slot.symbol;empty_slot
+:classlib/profibus/profibus_slave/modular_dpslave/modular_dpslave.symbol;modular_dpslave
+:classlib/profibus/profibus_slave/modular_dpslave/modular_dpslave1.symbol;modular_dpslave1
+:classlib/communication/profibus/siemens/simatic_s7/s7_300/digitaldevices/sm321/sm321_di16_ac_120_230v/sm321_di16_ac_120_230v.symbol;sm321_di16_ac_120_230v
+:classlib/communication/profibus/ABB VFD/ACS880/FC_ACS880.symbol;FC_ACS880
+#
+# New library:
+[AX] 
+:classlib/systemax/axserver/axs_interface/axs_automationx/axs_xlink/axs_xlink.symbol;axs_xlink
+:classlib/systemax/axserver/axs_interface/axs_automationx/axs_xlink/axs_xlink_pbm/axs_xlink_pbm_main.symbol;axs_xlink_pbm_main
+:classlib/systemax/axserver/axs_interface/axs_automationx/axs_xlink/axs_xlink_pbm/axs_xlink_pbm.symbol;axs_xlink_pbm
+:classlib/communication/profibus/automationX/pbc/aX4401_pbc1/aX4401_pbc1.symbol;aX4401_pbc1
+:classlib/communication/profibus/automationX/pbc/pbc_1/pbc_1.symbol;pbc_1
+:classlib/communication/profibus/automationX/pbc/aX4401_pbc1/aX4401_pbc1.symbol;aX4401_pbc1
+:classlib/communication/tcp/modbus/modbus_rtu/com/ModbusSerM.symbol;ModbusSerM
+:classlib/communication/tcp/modbus/modbus_rtu/client/ModbusCL.symbol;ModbusCL

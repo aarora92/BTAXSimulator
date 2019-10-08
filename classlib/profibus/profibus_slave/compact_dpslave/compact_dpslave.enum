@@ -1,0 +1,186 @@
+FM351Operating:NotActive=0,JogMode=1,RefMode=2,IncMode=4;
+FM351MSystem:mm=1,inch,grad;
+FM351Channel:only_CH1=1,only_CH2,CH1_and_CH2;
+FM351Achs:linear_Achs=0,cylindr_Achs;
+FM351Mode:Mode1=1,Mode2,Mode3,Mode4;
+FM351Encoder:Inkr_5V=1,Inkr_24V,SSI_Absol_13Bit,SSI_Absol_25Bit;
+FM351Baudrate:kHz125,kHz250,kHz500,kHz1000;
+FM351RefSwitch:pos_RefSwitch_left,pos_RefSwitch_right,neg_RefSwitch_left,neg_RefSwitch_right;
+FM351CountDirection:normal,invertet;
+FM351StartSpeed:fast,slow;
+FM351EncoderContr:wire_fault=0x01,telegram_fault=0x02,puls_fault=0x04;
+State:links,rechts;
+Range:4to20mA,10Vo20mA,pm10V;
+PID:positiv,negativ;
+Alarmtype:keiner,X_gleich_W,X_ungleich_W,X_groesser_W,X_kleiner_W;
+Input:High,Low;
+L_Mode:Drehzahlregelung,Positionieren;
+L_Monitor:Drehzahl,Drehfeldfrequenz,Geraeteauslastung,Motorstrom,Zwischenkreisspannung,Position;
+L_Kennlinie:lin_m_autoBoost,quadr_m_autoBoost,lin_m_constAnhebung,quadr_m_constAnhebung,Stromregelung;
+L_Start:No_Autostart_No_Fang,Autostart_No_Fang,No_Autostart_Fang_aktiv,Autostart_Fang_aktiv;
+L_Prm:deact,f_dmin=10,f_dmax,t_ir,t_if,U_f_Kennlinie,f_dN,U_min,f_Qmin,f_QSB=19,Schlupf_komp=21,I_max_mot,I_max_gen,GeraeteTyp=93,SoftwareVersion=99,t_QSP=105,t_GSB=106,Verstaerkung=108,Monitorsignal=111,I2t_Abschaltung=120,Startbedingung=142,Betriebsstunden=178,Netzeinschaltstunden=179;
+L_ParLoad: LoadDefault=0,
+	LoadPS1=1,
+	LoadPS2=2,
+	LoadPS3=3,
+	LoadPS4=4,
+	LoadExtPS1=11,
+	LoadExtPS2=12,
+	LoadExtPS3=13,
+	LoadExtPS4=14,
+	Ext=20 ;
+L_ParSave: SaveReady= 0,
+	SavePS1,
+	SavePS2,
+	SavePS3,
+	SavePS4,
+	SaveExtern=11;
+L_Diagnostics: OK=0,
+	Init=101,
+	Trip=102,
+	NotHalt=103,
+	MeldungAktiv=104,
+	PowerOff=105,
+	BetriebsSperreC135=111,
+	BetriebsSperreAIF=112,
+	BetriebsSperreCAN=113,
+	ReglerSperreX5_28=121,
+	ReglerSperreInt1=122,
+	ReglerSperreInt2=123,
+	ReglerSperreSTOP=124,
+	ReglerSperreAIF=125,
+	ReglerSperreCAN=126,
+	LockMode=141,
+	AusgangHochOhmig=142,
+	QSperreExt=151,
+	QSperreSTOP=152,
+	QSperreAIF=153,
+	QSperreCAN=154,
+	Warning=250;
+L_Prm93xx:default= 0,
+	MotStrom = 54,
+	HeatsinkTemp=61,
+	MotTemp=63,
+	OpTimer=178,
+	MainsTimer=179,
+	Diagnostics=183,
+	SollPosition=1301,
+	Handgeschw=1243,
+	Abcoilrichtung=781,
+	SollGeschw=1302,
+	IstPosition=1220;
+S7_Dimension:GradCelsius,Farenheit,Bipolar,Unipolar,S5_format,S7_format;
+S7_Ondelay:ms_0_1,ms_0_5,ms_1,ms_2,ms_3,ms_4,ms_8,ms_15,ms_16,ms_20,ms_32,ms_64;
+S7_NoiseSup:Hz400,Hz60,Hz50,Hz10;
+S7_Config:
+	deact=0x0,
+	voltage	{mV_np80=0x11,
+		mV_np250,
+		mV_np500,
+		V_np1,
+		V_np2_5,
+		V_np5,
+		V_1to5,
+		V_np10=0x19,
+		V_np25,
+		V_np50
+		},
+	current_4wire {mA_np3_2=0x20,
+		mA_np10,
+		mA_0to20,
+		mA_4to20,
+		mA_np20,
+		mA_np5
+		},		
+	current_2wire {mA_4to20_2wire=0x33},
+	resistance_4wire{Ohm_150=0x42,
+		Ohm_300=0x44,
+		Ohm_600=0x46
+		},
+	resistance_4wire_comp{Ohm_52to148=0x61,
+		Ohm_250=0x63,
+		Ohm_400=0x65,
+		Ohm_700=0x67
+		},
+	thermo_4wire_lin{Pt100_K=0x80,
+		Ni100_K,
+		Pt100,
+		Pt200,
+		Pt500,
+		Pt1000,
+		Ni1000,
+		Pt200_K,
+		Pt500_K,
+		Pt1000_K,
+		Ni1000_K,
+		Ni100
+		},
+	thermo_int_comp{typ_B=0xA0,
+		typ_N,
+		typ_E,
+		typ_R,
+		typ_S,
+		typ_J,
+		typ_L,
+		typ_T,
+		typ_K,
+		typ_U
+		},
+	thermo_ext_comp{typ_B=0xB0,
+		typ_N,
+		typ_E,
+		typ_R,
+		typ_S,
+		typ_J,
+		typ_L,
+		typ_T,
+		typ_K,
+		typ_U
+		},
+	thermo_lin_int_comp{typ_B=0xD0,
+		typ_N,
+		typ_E,
+		typ_R,
+		typ_S,
+		typ_J,
+		typ_L,
+		typ_T,
+		typ_K,
+		typ_U
+		},
+	thermo_lin_ext_comp{typ_B=0xE0,
+		typ_N,
+		typ_E,
+		typ_R,
+		typ_S,
+		typ_J,
+		typ_L,
+		typ_T,
+		typ_K,
+		typ_U
+		};
+S5_AI_Mod:S5_8MA11,S5_8MF11,S5_8MB11,S5_8MC11,S5_8MD11,S5_8ME11,S5_8MF11_pt,S5_8MF21_olin,S5_8MF21_lin,S5_8MA21,S5_8MA21;
+S5_AO_Mod:S5_8MA11,S5_8MB11,S5_8MC11,S5_8MD11;
+L_Cfg82xx:2PZD,PKW_2PZD;
+L_Cfg93xx:2PZD,4PKW_2PZD,3PZD,4PKW_3PZD;
+enum1:X,Y,Z;
+enum2:abc,def,ghi;
+enum3:S5_8MA11,S5_8MF11,S5_8MB11,S5_8MC11,S5_8MD11,S5_8ME11,S5_8MF11_pt,S5_8MF21_olin,S5_8MF21_lin,S5_8MA21,S5_8MA21;
+Master_Con:ISA_1{MIO_0=0,
+		 MIO_1=1,
+		 MIO_2=2,
+		 MIO_3=3,
+		 MIO_4=4,
+		 MIO_5=5
+		 },
+	  ISA_2{MIO_0=10,
+		 MIO_1=11,
+		 MIO_2=12,
+		 MIO_3=13,
+		 MIO_4=14,
+		 MIO_5=15
+		 },
+	PROFIBoard0=20,
+	PROFIBoard1=21,
+	PROFIBoard2=22,
+	PROFIBoard3=23;

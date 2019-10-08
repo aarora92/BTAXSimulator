@@ -1,0 +1,30 @@
+XlinkPbMState:	Reset=0,
+		Reset_Wait=1,
+		Config_Slaves=2,
+		Config_Slaves_Wait=3,
+		Config_Master=4,
+		Config_Master_Wait=5,
+		Data_Exchange=6;
+
+XlinkPbmError:	No_Error=0,
+		Device_busy=1,
+		No_Slaves=2,
+		Slaves_not_ready=3,
+		CRC_Error=4,
+		Timeout=5,
+		Device_not_active=6,
+		Device_not_on_Bus=7,
+		Ethernet_Error=8,
+		No_Xlink_Master=9,
+		Double_Address=10,
+		Wrong_Address=11;
+
+XlinkMaster:	Xlink_1=1,		
+		Xlink_2=2,
+		Xlink_3=3,
+		Xlink_4=4,
+		Xlink_5=5,
+		Xlink_6=6,
+		Xlink_7=7,	
+		Xlink_8=8,
+		Xlink_9=9;

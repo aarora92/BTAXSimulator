@@ -1,0 +1,294 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Generator" CONTENT="Microsoft Word 97">
+   <META NAME="Microsoft Theme" CONTENT="none, default">
+   <META NAME="Microsoft Border" CONTENT="none, default">
+   <META NAME="Template" CONTENT="C:\Programme\Office97\Office\html.dot">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.05 [de] (WinNT; I) [Netscape]">
+   <TITLE>et200b_di16</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#800080">
+<A NAME="top"></A>
+<BR>&nbsp;
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=4 WIDTH="661" >
+<TR>
+<TD VALIGN=TOP HEIGHT="53" BGCOLOR="#808080"><B><FONT FACE="Arial"><FONT COLOR="#FFFFFF"><FONT SIZE=+4>Digital
+Input et200b_di16_ac</FONT></FONT></FONT></B></TD>
+</TR>
+</TABLE>
+<B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+3>Features</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The et200b_di16_ac includes sixteen isolated inputs.</FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><FONT SIZE=+1><A HREF="#top">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#implementation">Implementation
+Notes</A></FONT></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="75%">
+<BR><A NAME="Installation"></A>
+<BR><B><FONT FACE="Arial,Helvetica"><FONT COLOR="#0000FF"><FONT SIZE=+3>Installation</FONT></FONT></FONT></B>
+
+<P>&nbsp;<FONT FACE="Arial">The et200b_di16 class is comprised of the following
+components (files):</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<TABLE BORDER CELLSPACING=2 CELLPADDING=4 WIDTH="623" >
+<TR>
+<TD VALIGN=TOP WIDTH="26%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Class
+Component</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">Description</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="38%" BGCOLOR="#FFFFFF"><B><FONT FACE="Arial">File
+Name(s)</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Class Color File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Includes some class specific
+color definitions.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%">&nbsp;<FONT FACE="Arial">et200b_di16_ac.color</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Class File</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Includes the process picture
+representation and any popup menus.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">et200b_di16_ac.symbol</FONT>&nbsp;
+
+<P>&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">Graphic Files</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">Class Specific Graphic Files
+for both, class definition and documentation.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">axclassdoku16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axclassdoku_grey16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axinstanzdoku16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axinstanzdoku_grey16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axparam16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axservice16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axservice_grey16.bmp</FONT>&nbsp;
+<BR><FONT FACE="Arial">axtrend16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">axtrend_grey16.bmp</FONT>&nbsp;
+
+<P><FONT FACE="Arial">(and some documentation</FONT>&nbsp;
+
+<P><FONT FACE="Arial">pixel maps)</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=TOP WIDTH="26%"><B><FONT FACE="Arial">HTML-Document</FONT></B></TD>
+
+<TD VALIGN=TOP WIDTH="36%"><FONT FACE="Arial">HTML document for Online
+Help.</FONT></TD>
+
+<TD VALIGN=TOP WIDTH="38%"><FONT FACE="Arial">et200b_di16_ac.htm</FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+<BR><B><FONT FACE="Arial">Installation: </FONT>The above listed files must
+be copied into a common sub-directory within the project's "classlib" directory.
+The name of the common directory can be chosen freely.</B>
+<BR>&nbsp;
+<BR>&nbsp;
+
+<P><FONT FACE="Arial"><FONT SIZE=+1><A HREF="#top">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#implementation">Implementation
+Notes</A></FONT></FONT>&nbsp;
+<HR ALIGN="LEFT" WIDTH="90%">
+
+<P><A NAME="UserInterface"></A><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+3>Graphical
+User Interface</FONT></FONT></FONT></B>
+
+<P><FONT FACE="Arial">The et200b_di16_ac class represents an actual compact
+dp slave profibus module. The class name appears on the left top. When
+the module is not connected or not valid, the classname will flash red.
+The instance name of the module is shown on the left in the light blue
+label area. The names of the I/O points will appear in small black text
+just to the left of their corresponding channel, in the light blue area
+of the module.</FONT>
+
+<P><FONT FACE="Arial">The sixteen I/O points are split up into four groups.
+Each channel is represented by a small LED. The LEDs denote the current
+state of the channel: grey if inactive, green if set and yellow if "Force"
+is on.</FONT>
+
+<P><IMG SRC="et200b_di16_ac_userinterface.gif" HEIGHT=343 WIDTH=340>
+<BR><FONT FACE="Arial"><FONT SIZE=-1>Figure 2: Graphical Representation</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;<FONT FACE="Arial,Helvetica">In the upper right corner of the
+graphical representation can be found the power (RUN), bus fault (BF) and
+diagnosis display (ON).</FONT>
+<BR>&nbsp;
+<TABLE BORDER CELLSPACING=3 CELLPADDING=3 WIDTH="700" >
+<TR>
+<TD VALIGN=CENTER WIDTH="25%"><B><FONT FACE="Arial,Helvetica">Indication</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="15%"><B><FONT FACE="Arial,Helvetica">State</FONT></B></TD>
+
+<TD VALIGN=CENTER WIDTH="70%"><B><FONT FACE="Arial,Helvetica">Condition</FONT></B></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER WIDTH="25%"><FONT FACE="Arial,Helvetica">RUN</FONT></TD>
+
+<TD VALIGN=CENTER><FONT FACE="Arial,Helvetica">green</FONT></TD>
+
+<TD VALIGN=CENTER><FONT FACE="Arial,Helvetica">Power is on</FONT></TD>
+</TR>
+
+<TR>
+<TD><FONT FACE="Arial,Helvetica">Bus Fault</FONT>&nbsp;
+<BR><FONT FACE="Arial,Helvetica">(BF)</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">red flashing</FONT>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica">red</FONT></TD>
+
+<TD><FONT FACE="Arial,Helvetica">Wrong parameterization - no data transfere
+beteween DP master and compact profibus DP slave</FONT>&nbsp;
+<BR><FONT FACE="Arial,Helvetica">Wrong baud rate or DP-address</FONT></TD>
+</TR>
+
+<TR>
+<TD VALIGN=CENTER><FONT FACE="Arial,Helvetica">DIA</FONT></TD>
+
+<TD VALIGN=CENTER><FONT FACE="Arial,Helvetica">red</FONT></TD>
+
+<TD VALIGN=CENTER><FONT FACE="Arial,Helvetica">Assigns module error</FONT></TD>
+</TR>
+</TABLE>
+&nbsp;
+
+<P><FONT FACE="Arial,Helvetica">Figure 2 shows the <B>Address Popup</B>,
+which is invoked by a mouse click on the slave unit of the graphical representation.
+The popup displays the profibus address and the actual state of the module.
+From here, you can change the profibus address, reset the module plus open
+the HTML documentations.</FONT>
+<BR>&nbsp;
+<BR><IMG SRC="et200b_di16_ac_AddressPopup.gif" HEIGHT=245 WIDTH=178>
+<BR>&nbsp;<FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 2: The Address
+PopUp</FONT></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial,Helvetica">Figure 3 shows the <B>Error Popup</B>,
+which will invoke if there are any new errors. The popup will display the
+actual errors plus error messages.</FONT>
+<BR>&nbsp;
+<BR><IMG SRC="et200b_di16_ac_errorpopup.gif" HEIGHT=305 WIDTH=290>
+<BR>&nbsp;<FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 3: The Error
+PopUp</FONT></FONT>
+<BR>&nbsp;
+
+<P><FONT FACE="Arial">The <B>Force PopUp</B> is invoked by selecting </FONT><FONT FACE="Arial,Helvetica">the
+I/O point area in the light blue label</FONT><FONT FACE="Arial"> on the
+graphical representation. The "Norm/Force" button allows each channel to
+be set to force mode to simulate its value, which is necessary so that
+PLC-programs can be tested when there is no connection to the I/O. The
+value of each channel is then simulated/forced with the "ON/OFF" button
+in the respective section (channel). This button is only active if the
+"Norm/Force" button is set to "Force".</FONT>
+
+<P><IMG SRC="et200b_di16_ac_forcepopup.gif" HEIGHT=769 WIDTH=418>
+<BR><FONT FACE="Arial"><FONT SIZE=-1>Figure 4: The Force PopUp</FONT></FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<BR><FONT FACE="Arial">Figure 5 shows the <B>Object Explorer</B> in online
+mode (click Shift + Right mouse button on the module to invoke the Object
+Explorer). The user can see where the instance name and remarks are declared.
+A red rectangle indicator appears to the right of the I/O name if the module
+is NOT VALID. The indicator will not be present if the channel is forced
+or when the module is VALID.</FONT>
+
+<P><IMG SRC="et200b_di16_ac_objectexplorer.gif" HEIGHT=463 WIDTH=455>
+<BR><FONT FACE="Arial"><FONT SIZE=-1>Figure 5: The Object Explorer</FONT></FONT>
+<BR>&nbsp;
+<BR><FONT FACE="Arial"><FONT SIZE=+1><A HREF="#top">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#implementation">Implementation
+Notes</A></FONT></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+<BR>&nbsp;
+
+<P><A NAME="implementation"></A><B><FONT FACE="Arial"><FONT COLOR="#0000FF"><FONT SIZE=+3>Implementation
+Notes</FONT></FONT></FONT></B>
+
+<P><B><U><FONT FACE="Arial,Helvetica"><FONT SIZE=+1>How to Create the profibus
+Slave</FONT></FONT></U></B>
+
+<P><FONT FACE="Arial,Helvetica">The first step is to configure a Profibus
+Slave module. To create a Profibus Slave, take the following steps:</FONT>
+
+<P><B><FONT FACE="Arial,Helvetica">Step 1</FONT>:</B>
+<BR><FONT FACE="Arial,Helvetica">Select the Profibus Slave class and drop
+an instance of it into the picture window</FONT>
+
+<P><B><FONT FACE="Arial,Helvetica">Step 2</FONT>:</B>
+<BR><FONT FACE="Arial,Helvetica">With the slave object selected, enter
+a unique instance name and remark in the declaration field, in the configuration
+panel.</FONT>
+
+<P><I><FONT FACE="Arial,Helvetica">When you are naming I/O modules, be
+sure to assign meaningful names that you will be able to recognize later.
+For example, the Profibus Slave should at least be given an address number:</FONT></I>
+<BR>&nbsp;
+<UL>
+<LI>
+<I><FONT FACE="Arial,Helvetica">Instance name = Im153_1</FONT></I></LI>
+</UL>
+<IMG SRC="assign_instance.gif" HEIGHT=148 WIDTH=461>
+
+<P><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure 4: Declaration for
+the Profibus Master</FONT></FONT>
+<BR>&nbsp;
+
+<P><B><FONT FACE="Arial,Helvetica">Step3:</FONT></B>
+<BR><FONT FACE="Arial,Helvetica">Open the Server Data tab. Find the resource
+called "master" in the data list. Click the value field with the left mouse
+button.</FONT>
+
+<P><I><FONT FACE="Arial,Helvetica">Automationx automatically detects the
+master and present it in a drop down list.</FONT></I>
+
+<P><FONT FACE="Arial,Helvetica">Choose the master name from the list.</FONT>
+
+<P><IMG SRC="assign_master.gif" HEIGHT=319 WIDTH=539>
+<BR><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Figure5: Assign the master</FONT></FONT>
+<BR>&nbsp;
+
+<P><B><FONT FACE="Arial,Helvetica">Step 4</FONT>:</B>
+<BR><FONT FACE="Arial,Helvetica">Find the resource called "address" in
+the Server Data list. Use the increment/decrement arrows to set the address
+number of the slave.</FONT>
+
+<P><I><FONT FACE="Arial,Helvetica">For example, if the address of the slave
+class were 08 you need set the number to 8. When you save the display,
+you will see this number reflected on the object`s "counter".</FONT></I>
+
+<P><IMG SRC="assign_addr.gif" HEIGHT=270 WIDTH=462>
+
+<P><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>&nbsp;Figure 6: Assign the
+Profibus Slave address</FONT></FONT>
+
+<P><FONT FACE="Arial"><FONT SIZE=+1><A HREF="#top">Features</A> | <A HREF="#Installation">Installation</A>
+| <A HREF="#UserInterface">User Interface</A> | <A HREF="#implementation">Implementation
+Notes</A></FONT></FONT>
+<BR>
+<HR ALIGN="LEFT" WIDTH="90%">
+</BODY>
+</HTML>
