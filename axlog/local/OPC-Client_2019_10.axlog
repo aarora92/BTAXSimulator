@@ -12783,3 +12783,38 @@ Error : The RPC server is unavailable.
 Error : The RPC server is unavailable. 
 	a	DESKTOP-8J4B9U3
 2019-10-09 12:32:34-164	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:31-349	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:31-349	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:33-950	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:33-950	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:51-951	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:38:51-951	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:02-549	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:02-549	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:17-950	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:17-950	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:41-551	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:41-551	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:48-145	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:39:48-145	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
