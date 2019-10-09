@@ -922,3 +922,11 @@
 2019-10-09 12:18:09-325	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[28]
 2019-10-09 12:32:32-164	-2	<DESKTOP-8J4B9U3>AXPV	3	closed (display = local)[SRV]
 2019-10-09 12:32:37-365	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [tcpserver] restart
+2019-10-09 12:34:49-562	-2	<DESKTOP-NC3KI7I>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-09 12:34:50-062	-2	<DESKTOP-NC3KI7I>SPS	3	SPS warmstart made spsid=[2]
+2019-10-09 12:34:55-914	-2	<DESKTOP-NC3KI7I>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-09 12:34:57-515	-2	<DESKTOP-NC3KI7I>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-09 12:34:59-516	-2	<DESKTOP-NC3KI7I>AXSRV	3	User Processes [axopcclient] restart
+2019-10-09 12:35:03-921	-2	<DESKTOP-NC3KI7I>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-09 12:35:06-119	-2	<DESKTOP-NC3KI7I>AXPV	3	started (display = local)[SRV]
+2019-10-09 12:36:03-927	-2	<DESKTOP-NC3KI7I>AXPV	3	closed (display = local)[SRV]
