@@ -12758,3 +12758,28 @@ Error : The RPC server is unavailable.
 Error : The RPC server is unavailable. 
 	a	DESKTOP-8J4B9U3
 2019-10-09 12:31:17-951	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:31:33-549	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:31:33-549	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:31:58-157	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:31:58-157	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:03-555	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:03-555	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:23-759	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:23-759	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:34-164	0	_	-	Cannot connect to OPCBrowser on remote machine !
+
+Error : The RPC server is unavailable. 
+	a	DESKTOP-8J4B9U3
+2019-10-09 12:32:34-164	0	_	-	Connecting opc-server automationX.OPC_DA_Server.10 failed, error= 0x800706BA	a	DESKTOP-8J4B9U3
