@@ -230,6 +230,7 @@ _GenericFB;DerivedFB
 :classlib/Burrard/Valves/23vent/VENT23ZS.symbol;VENT23ZS
 :classlib/Burrard/AirSystem/AirSolVlv.symbol;AirSolVlv
 :classlib/Burrard/Valves/23bv/EmergencyHV.symbol;EmergencyHV
+:classlib/Burrard/MOVs/MOVSTEP_WW.symbol;MOVSTEP_WW
 #
 # New library:
 [Burrard - Leak + Tickets ] 
