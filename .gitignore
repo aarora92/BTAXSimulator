@@ -10,3 +10,6 @@
 *.sps_old
 *.sps_old2
 *.pls
+axlanguage/instance remarks.axlg_en
+*.axlg_en
+*.axlog
