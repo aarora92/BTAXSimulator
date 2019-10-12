@@ -995,3 +995,5 @@ Class classlib/Burrard/MOVs/MOVSTEP_WW.symbol Variable HITEMPAL	Hi Temperature A
 Class classlib/Burrard/MOVs/MOVSTEP_WW.symbol Variable LOWBATAL	Low Battery Alarm
 Class classlib/Burrard/MOVs/MOVSTEP_WW.symbol Variable PTINAL	Command Disagree Alarm
 Class classlib/Burrard/MOVs/MOVSTEP_WW.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/Pumps/23hpmps/hpump_new/hpump_new_1.symbol Variable PTINAL ON Text	ON
+Class classlib/Burrard/Pumps/23hpmps/hpump_new/hpump_new_1.symbol Variable PTINAL ON Text	ON
