@@ -2556,3 +2556,8 @@ Instance MOV21303 Remark
 Instance Static2 Remark	
 Instance MOV21303 Remark	
 Instance PrBus20_10 Remark	
+Instance EA_4201B Remark	Midplant Valve ESD
+Instance Thermistor_AlarmCheck Remark	
+Instance AutoCheck Remark	
+Instance Local_RemoteModeSet Remark	
+Instance Module_VFDReady Remark	

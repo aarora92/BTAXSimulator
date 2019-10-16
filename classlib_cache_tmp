@@ -4045,6 +4045,9 @@ spec_s7_400_fdl.html
 ;
 ;
 ;
++VikingPanel
+Zone.gsd
+;
 ;
 +tcp
 +modbus
@@ -6981,6 +6984,7 @@ ab_slc500_slave.postit
 ab_slc_ia16.postit
 ab_slc_ia8.postit
 ab_slc_ni4.postit
+AC880VFDAdapter.postit
 AC880_FPBAMod_PPO4.postit
 ACS880_SlaveDP.postit
 ActivBus.postit
@@ -7347,6 +7351,7 @@ modular_dpslave.postit
 modular_dpslave1.postit
 MOV.postit
 MOV2.postit
+MOV23ZS.postit
 MOVFOAM.postit
 MOVRAIL.postit
 MOVSTEP.postit
@@ -7500,6 +7505,7 @@ WestDock.postit
 WestDock.tree
 WestDockDetail_JetFilterPressure.txs
 Y2KTesting.tree
+Zone2Viking.postit
 __1.postit
 __4.postit
 __5.postit

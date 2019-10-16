@@ -1694,3 +1694,126 @@
 2019-10-11 17:59:36-401	-2	<DESKTOP-8J4B9U3>AXPV	3	started (display = local)[SRV]
 2019-10-11 18:00:38-181	-2	<DESKTOP-8J4B9U3>AXPV	3	closed (display = local)[SRV]
 2019-10-11 18:03:44-436	-2	<DESKTOP-8J4B9U3>AXPV	3	terminated (display = local)[SRV]
+2019-10-12 12:12:55-749	-2	<DESKTOP-8J4B9U3>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-12 12:12:56-513	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[2]
+2019-10-12 12:13:00-418	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-12 12:13:00-628	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-12 12:13:00-841	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-12 12:13:04-700	-2	<DESKTOP-8J4B9U3>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-12 12:13:05-918	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-12 12:13:34-778	-2	<DESKTOP-8J4B9U3>AXPV	3	started (display = local)[SRV]
+2019-10-12 12:13:37-239	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-12 12:13:49-542	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-12 12:16:22-539	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.23 sec]
+2019-10-12 12:17:19-605	-2	<DESKTOP-8J4B9U3>AXPV	3	closed (display = local)[SRV]
+2019-10-12 21:22:59-028	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.26 sec]
+2019-10-12 21:23:00-778	-2	<DESKTOP-8J4B9U3>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-12 21:23:01-048	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[2]
+2019-10-12 21:23:04-974	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-12 21:23:05-394	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-12 21:23:10-076	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-12 21:23:11-092	-2	<DESKTOP-8J4B9U3>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-12 21:23:13-125	-2	<DESKTOP-8J4B9U3>AXPV	3	started (display = local)[SRV]
+2019-10-12 21:23:33-831	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-12 21:24:24-384	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-12 21:25:00-576	-2	<DESKTOP-8J4B9U3>AXPV	3	closed (display = local)[SRV]
+2019-10-12 21:57:30-279	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.23 sec]
+2019-10-15 08:20:04-865	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.26 sec]
+2019-10-15 08:20:06-378	-2	<DESKTOP-8J4B9U3>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-15 08:20:06-892	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[2]
+2019-10-15 08:20:10-812	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 08:20:11-223	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-15 08:20:16-507	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-15 08:20:38-019	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-15 08:20:42-865	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-15 08:21:55-502	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 08:23:04-713	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 08:26:06-427	-2	<DESKTOP-8J4B9U3>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-15 08:33:48-430	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 08:34:03-917	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 08:46:39-167	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.23 sec]
+2019-10-15 09:11:16-526	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-15 09:32:17-141	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.40 sec]
+2019-10-15 09:32:17-811	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.67 sec]
+2019-10-15 09:44:24-690	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:ULSD_To_NewTanks.tree
+2019-10-15 09:44:24-690	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:44:25-489	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[3]
+2019-10-15 09:45:45-891	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:hpump_new_1.symbol
+2019-10-15 09:45:45-891	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:45:46-691	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[4]
+2019-10-15 09:45:59-292	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:ULSD_To_NewTanks.tree
+2019-10-15 09:45:59-292	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:45:59-892	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[5]
+2019-10-15 09:49:24-888	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:ULSD_To_NewTanks.tree
+2019-10-15 09:49:24-888	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:49:25-489	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[6]
+2019-10-15 09:52:08-124	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:ULSD_To_NewTanks.tree
+2019-10-15 09:52:08-124	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:52:08-723	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[7]
+2019-10-15 09:56:02-325	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:UpperPlant.tree
+2019-10-15 09:56:02-325	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 09:56:02-927	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[8]
+2019-10-15 10:11:39-013	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:MidP_Dist.tree
+2019-10-15 10:11:39-213	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 10:11:39-815	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[9]
+2019-10-15 11:02:53-280	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-15 11:56:06-451	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-15 12:10:12-220	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:ULSD_To_NewTanks.tree
+2019-10-15 12:10:12-220	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-15 12:10:12-829	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[10]
+2019-10-15 15:48:09-766	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.25 sec]
+2019-10-15 15:48:10-520	-2	<DESKTOP-8J4B9U3>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-15 15:48:10-773	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[2]
+2019-10-15 15:48:14-641	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:48:16-252	-2	<DESKTOP-8J4B9U3>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-15 15:48:20-269	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-15 15:48:30-335	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:48:34-561	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:48:37-582	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:49:28-483	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:50:26-769	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:52:44-299	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:55:30-438	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 15:56:07-598	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 16:05:51-457	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 16:05:59-706	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 16:06:01-519	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-15 16:06:04-947	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-15 16:18:59-276	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 16:24:59-303	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.22 sec]
+2019-10-15 16:54:11-171	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.31 sec]
+2019-10-15 18:09:23-849	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [pls] restart
+2019-10-15 18:09:38-105	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [txnexgen] restart
+2019-10-15 19:39:07-585	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[5370.38 sec]
+2019-10-15 19:39:09-315	-2	<DESKTOP-8J4B9U3>PLS	3	X-IO Error (display = :0)[SRV]
+2019-10-15 19:39:11-924	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [pls] restart
+2019-10-16 08:18:09-757	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.25 sec]
+2019-10-16 08:18:10-762	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.25 sec]
+2019-10-16 08:18:11-516	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.25 sec]
+2019-10-16 08:18:11-769	-2	<DESKTOP-8J4B9U3>AXSRV	3	automationX started :  Startmode=Warmstart
+2019-10-16 08:18:12-020	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[2]
+2019-10-16 08:18:21-505	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-16 08:18:21-907	-2	<DESKTOP-8J4B9U3>AXSRV	3	User <a> logged in: access=0xFFFFFFFF
+2019-10-16 08:18:31-759	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.20 sec]
+2019-10-16 08:19:28-548	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-16 08:21:15-907	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[0.21 sec]
+2019-10-16 08:23:19-535	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[15.50 sec]
+2019-10-16 08:56:56-875	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [txnexgen] restart
+2019-10-16 09:27:31-526	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[1835.48 sec]
+2019-10-16 09:30:01-489	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [txnexgen] restart
+2019-10-16 10:27:17-687	-2	<DESKTOP-8J4B9U3>SPS	3	Peak in SPS detected time=[3436.87 sec]
+2019-10-16 10:27:19-003	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axservice -run] restart
+2019-10-16 10:37:11-256	-2	<DESKTOP-8J4B9U3>AXSRV	3	User Processes [axopcclient] restart
+2019-10-16 11:13:27-575	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:AC880VFDAdapter.symbol
+2019-10-16 11:13:27-575	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-16 11:13:28-375	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[3]
+2019-10-16 11:14:04-592	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:AC880VFDAdapter.symbol
+2019-10-16 11:14:04-592	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-16 11:14:05-391	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[4]
+2019-10-16 11:33:38-778	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:AC880_FPBAMod_PPO4.symbol
+2019-10-16 11:33:38-778	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-16 11:34:01-319	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:AC880_FPBAMod_PPO4.symbol
+2019-10-16 11:34:01-319	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-16 11:36:00-414	-2	<DESKTOP-8J4B9U3>EDT	3	Saving file:AC880_FPBAMod_PPO4.symbol
+2019-10-16 11:36:00-615	-2	<DESKTOP-8J4B9U3>EDT	3	SPS_Warmstart
+2019-10-16 11:36:01-217	-2	<DESKTOP-8J4B9U3>SPS	3	SPS warmstart made spsid=[5]

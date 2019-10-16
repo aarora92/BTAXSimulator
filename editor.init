@@ -347,6 +347,7 @@ _GenericFB;DerivedFB
 :classlib/profibus/profibus_slave/modular_dpslave/modular_dpslave1.symbol;modular_dpslave1
 :classlib/communication/profibus/siemens/simatic_s7/s7_300/digitaldevices/sm321/sm321_di16_ac_120_230v/sm321_di16_ac_120_230v.symbol;sm321_di16_ac_120_230v
 :classlib/communication/profibus/ABB VFD/ACS880/FC_ACS880.symbol;FC_ACS880
+:classlib/AC880VFDAdapter.symbol;AC880VFDAdapter
 #
 # New library:
 [AX] 

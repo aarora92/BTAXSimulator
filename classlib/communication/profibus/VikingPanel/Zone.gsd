@@ -1,0 +1,230 @@
+;
+;********************** BACnet / PROFIBUS Slave - Converter *************************
+;* ================================================================================ *
+;*                                                                                  *
+;* Vendor:   ADFweb.com s.r.l.                                                      *
+;*           Via Strada Nuova, 17                                                   *
+;*           31010 Mareno di Piave                                                  *
+;*           TREVISO (Italy)                                                        *
+;*           Tel. : ++39-0438-309-131                                               *
+;*           FAX. : ++39-0438-492-099                                               *
+;*           eMail: support@adfweb.com                                              *
+;*                                                                                  *
+;* ================================================================================ *
+;*                                                                                  *
+;* Function:       BACnet / PROFIBUS Slave - Converter                              *
+;*                                                                                  *
+;*                                                                                  *
+;* Order Number : HD67676-A1                                                        *
+;*                                                                                  *
+;*                                                                                  *
+;************************************************************************************
+
+
+#Profibus_DP
+
+
+;====================================================================================
+;==== Prm-Text-Def-List =============================================================
+;====================================================================================
+
+PrmText=1
+Text(0)="disable"
+Text(1)="enable"
+EndPrmText
+
+PrmText  = 2
+Text(0)  = "clock up"
+Text(1)  = "clock down"
+EndPrmText
+
+PrmText  = 3
+Text(1)  = "10"
+Text(2)  = "20"
+Text(3)  = "30"
+Text(4)  = "40"
+Text(5)  = "50"
+EndPrmText
+
+
+;=====================================================================================
+;==== Ext-User-Prm-Data-Def-List =====================================================
+;=====================================================================================
+
+ExtUserPrmData=1 "[SlotNumber]"
+Unsigned8 0 0-32
+EndExtUserPrmData
+
+ExtUserPrmData=2 "Diagnostic Alarm"
+Bit(0) 0 0-1
+Prm_Text_Ref=1
+EndExtUserPrmData
+
+ExtUserPrmData=3 "Process Alarm"
+Bit(1) 0 0-1
+Prm_Text_Ref=1
+EndExtUserPrmData
+
+ExtUserPrmData=4 "Counter mode"
+Unsigned8 0 0-1
+Prm_Text_Ref=2
+EndExtUserPrmData
+
+ExtUserPrmData=5 "Counter timebase (ms)"
+Unsigned8 1 1-5
+Prm_Text_Ref=3
+EndExtUserPrmData
+
+ExtUserPrmData=6 "Counter high-limit"
+Unsigned16 65535 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData=7 "Counter low-limit"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+
+;=====================================================================================
+;==== General DP Keywords ============================================================
+;=====================================================================================
+
+GSD_Revision = 5
+Vendor_Name = "ADFweb.com"
+Model_Name = "HD67676"
+Revision = "1.00"
+Ident_Number = 0xAFEE
+Protocol_Ident = 0
+Station_Type = 0
+FMS_supp = 0
+Hardware_Release = "V1.00"
+Software_Release = "V1.00"
+Redundancy = 0
+Repeater_Ctrl_Sig = 2
+24V_Pins = 0
+
+
+;==============================================================================
+;==== Supported baudrates =====================================================
+;==============================================================================
+
+9.6_supp = 1
+19.2_supp = 1
+45.45_supp = 1
+93.75_supp = 1
+187.5_supp = 1
+500_supp = 1
+1.5M_supp = 1
+3M_supp = 1
+6M_supp = 1
+12M_supp = 1
+
+MaxTsdr_9.6=15
+MaxTsdr_19.2=15
+MaxTsdr_45.45=15
+MaxTsdr_93.75=15
+MaxTsdr_187.5=15
+MaxTsdr_500=15
+MaxTsdr_1.5M=20
+MaxTsdr_3M=35
+MaxTsdr_6M=50
+MaxTsdr_12M=95
+
+
+;==============================================================================
+;==== Slave specific values ===================================================
+;==============================================================================
+
+OrderNumber="HD67676"
+Slave_Family = 9@ADFweb.com@HD67676
+Implementation_Type = "VPC3+"
+Info_Text="ADFweb.com: BACnet / PROFIBUS Slave - Converter"
+Bitmap_Device = "DPV0_1N"
+Bitmap_SF="DPV0_1S"
+
+Freeze_Mode_supp=1
+Sync_Mode_supp=1
+Fail_Safe=1
+Auto_Baud_supp=1
+Set_Slave_Add_supp=0
+
+Min_Slave_Intervall=6
+
+Modular_Station=1
+Max_Module=8
+Modul_Offset=1
+Max_Input_Len=244
+Max_Output_Len=244
+Max_Data_Len=488
+Max_Diag_Data_Len=15
+
+WD_Base_1ms_supp = 1
+Publisher_supp = 1
+
+;==============================================================================
+;==== User-Prm-Data ===========================================================
+;==============================================================================
+
+Max_User_Prm_Data_Len = 12
+Ext_User_Prm_Data_Const(0)= 0x00,0x00,0x00
+
+;==============================================================================
+;==== Modulstatus =============================================================
+;==============================================================================
+
+Unit_Diag_Area = 24 - 25
+Value(1)= "Slot 1: Module error"
+Value(2)= "Slot 1: Wrong module"
+Value(3)= "Slot 1: No module"
+Unit_Diag_Area_End
+Unit_Diag_Area = 26 - 27
+Value(1)= "Slot 2: Module error"
+Value(2)= "Slot 2: Wrong module"
+Value(3)= "Slot 2: No module"
+Unit_Diag_Area_End
+
+
+;==============================================================================
+;==== Module-Definition-List ==================================================
+;==============================================================================
+
+Module="DI  (PORT1)    " 0x42,0x3F,0x00,0x01
+1
+EndModule
+Module="DI  (PORT2)    " 0x42,0x3F,0x00,0x02
+2
+EndModule
+Module="DI  (PORT3)    " 0x42,0x3F,0x00,0x03
+3
+EndModule
+Module="DI  (PORT4)    " 0x42,0x33,0x00,0x04
+4
+EndModule
+Module="DO  (PORT5)    " 0x82,0x3F,0x00,0x05
+5
+EndModule
+Module="DO  (PORT6)    " 0x82,0x3F,0x00,0x06
+6
+EndModule
+Module="DO  (PORT7)    " 0x82,0x3F,0x00,0x07
+7
+EndModule
+Module="DO  (PORT8)    " 0x82,0x33,0x00,0x08
+8
+EndModule
+
+
+
+SlotDefinition
+Slot(1) = "Slot 1" 1 1
+Slot(2) = "Slot 2" 2 2
+Slot(3) = "Slot 3" 3 3
+Slot(4) = "Slot 4" 4 4
+Slot(5) = "Slot 5" 5 5
+Slot(6) = "Slot 6" 6 6
+Slot(7) = "Slot 7" 7 7
+Slot(8) = "Slot 8" 8 8
+EndSlotDefinition
+
+
+
+
