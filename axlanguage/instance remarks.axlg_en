@@ -2561,3 +2561,5 @@ Instance Thermistor_AlarmCheck Remark
 Instance AutoCheck Remark	
 Instance Local_RemoteModeSet Remark	
 Instance Module_VFDReady Remark	
+Instance OPCTagsBool30 Remark	
+Instance OPCTagsBool29 Remark	
