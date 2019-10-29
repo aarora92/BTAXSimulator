@@ -33,6 +33,8 @@ OPCTagConversion
 CommTagExp
 RailZone_1
 Rail_Zone_2
+RailZone_3
+RailZone_4
 Rail_PumpPit
 Rail_SumpPumps
 UtilitiesFire
